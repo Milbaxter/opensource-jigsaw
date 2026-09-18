@@ -6,7 +6,7 @@ Jigsaw searches broadly, connects technical ideas across unrelated fields, and a
 
 **A run can finish with zero winners. The threshold never moves to fill a shortlist.**
 
-**Continued research:** [Round two](research/round2/README.md) and [round three](research/round3/README.md) preserve executed prototypes, independent verification and failures. The latest MEP experiment found no qualifying advantage; its input-boundary defects are documented. The [versioned pursuit rubric v2](docs/rubric-v2.md) distinguishes approval for a bounded validation experiment from proof of a business. It was frozen before formal round-two scoring; historical results and the original CLI gate remain v1. No v2 pass has been awarded yet.
+**Continued research:** [Round two](research/round2/README.md) and [round three](research/round3/README.md) preserve executed prototypes, independent verification and failures. The MEP experiment found no qualifying advantage; its input-boundary defects are documented. [Round four](research/round4/README.md) adds real-model dbt and material-data screens and a prospectively frozen [ultrasonic reconstruction experiment](experiments/ultrasonic-fmc/README.md), now under implementation and independent review. The [versioned pursuit rubric v2](docs/rubric-v2.md) distinguishes approval for a bounded validation experiment from proof of a business. It was frozen before formal round-two scoring; historical results and the original CLI gate remain v1. No v2 pass has been awarded yet.
 
 ## How it works
 
@@ -134,7 +134,7 @@ A run directory is a snapshot. Use a **new `--out` directory for fresh evidence*
 - `--max-model-calls` limits new calls **per invocation**, not tokens or dollars. Live research can be expensive and slow. Check your own account usage; a full sweep can take hours. Cached calls do not consume this counter. Default timeout is 900 seconds per model call.
 - Research runs in fresh read-only Codex sessions with shell, app, browser/computer-control, hooks, and delegation features disabled. Built-in web search is enabled only for due diligence. Repository metadata and webpages are treated as untrusted evidence; fetched repository code is never installed or executed.
 - GitHub rate limits receive bounded retries. Exhaustion, malformed model output, missing tools, and permission failures stop with an actionable error. Search truncation is recorded rather than presented as complete coverage.
-- Discovery includes public candidates whose open source status is unverified. Unknown licensing blocks a pass. The project's MIT license covers Jigsaw code, not third-party projects or source material.
+- Discovery includes public candidates whose open source status is unverified. Unknown licensing blocks a pass. The project's MIT license covers Jigsaw application code. Experiment source can carry an explicit directory-level license; ultrasonic benchmark source is designated GPL-3.0-or-later. Third-party projects and data retain their own terms.
 - This repository schedules no paid research jobs automatically. CI runs offline tests and builds without model credentials. Run the CLI when you want another sweep.
 
 ## Development
@@ -148,4 +148,4 @@ python -m build
 
 Tests cover adversarial acceptance gates, multi-project combinations, pagination, provenance, field balancing, caching, rate-limit recovery, budget exhaustion, malformed output, and partial runs. Model/network calls are mocked in CI. Test fixtures are synthetic and are never reported as research findings.
 
-Contributions that improve evidence quality, field coverage, or falsification are particularly useful. See [CONTRIBUTING.md](CONTRIBUTING.md). MIT licensed.
+Contributions that improve evidence quality, field coverage, or falsification are particularly useful. See [CONTRIBUTING.md](CONTRIBUTING.md). Jigsaw application code is MIT licensed; respect explicit experiment and third-party license notices.

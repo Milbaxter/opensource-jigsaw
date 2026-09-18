@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-09-18T09:58:28.980155+00:00",
+  "proposer_protocol_commit": "4fc6057fb027cee066700076c6e39ef17622a57f",
+  "proposer_protocol_sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646",
+  "performance_results_available": false,
+  "files": [
+    {
+      "path": "PRE-RESULT-REVIEW.md",
+      "sha256": "d091a787efa09e5cd45b725f67c10456ae58afe1f416af23ddf84557c109c43a"
+    },
+    {
+      "path": "TECHNICAL-CHECKS.md",
+      "sha256": "fbafc12fb418adbcc54e46beaa044172ddfe2bac4393bc9563774182a51ff94b"
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "be451ebcf0e6655f9a02ed83f4004930c795405d7812aa7adc40343f2849998c"
+    },
+    {
+      "path": "independent-input-inspection.json",
+      "sha256": "17e362a3904ed8fb3f650c90903fe4e20f569709e09830269c20065354675a32"
+    },
+    {
+      "path": "binary-rights-inspection.json",
+      "sha256": "ef157aec5a2d7fb661aa88daa8ad745c67b285374883dba4bd8bbc6767eebea2"
+    },
+    {
+      "path": "source-manifest.json",
+      "sha256": "d9b05298e86a1606c1631a823fdf009dd6c53be4122cc1517a0075b72f077b4e"
+    },
+    {
+      "path": "protocol-review.json",
+      "sha256": "cdcfb8012b716f767179baba87bbe793156ef3116c98a526611e2d8e116af76c"
+    },
+    {
+      "path": "PUBLICATION-MANIFEST.md",
+      "sha256": "73683c178901b871fc2be861a80677186126c6d0e26a7327e9675d4c60e80eb0"
+    }
+  ]
+}

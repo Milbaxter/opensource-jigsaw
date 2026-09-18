@@ -1,0 +1,13 @@
+{
+  "protocol_path": "work/round4-c/preregistration.md",
+  "sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646",
+  "review": "No remaining mathematical or public-input-rights blocker to the narrowly scoped internal benchmark after canonical pre-mask target and streamed baseline changes. Not a commercial or v2 pass.",
+  "remaining_implementation_checks": [
+    "centered mode indexing and Nyquist conventions",
+    "common phase/grid/mask handling",
+    "native allocation memory accounting",
+    "all baseline outputs including physically adequate variants that fail canonical complex-error target"
+  ],
+  "score_assigned": false,
+  "performance_executed": false
+}

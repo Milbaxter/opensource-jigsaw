@@ -1,0 +1,22 @@
+{
+  "sha256": "b244d0e800087590da0664ef97473494dc6ef38a683ec80f262af307c8c37b89",
+  "shape": [
+    512,
+    4096
+  ],
+  "time_steps_min_max": [
+    3.999999999999962e-08,
+    4.0000000000003005e-08
+  ],
+  "pitch_min_max": [
+    0.0005999999999999964,
+    0.0006000000000000033
+  ],
+  "unique_pairs": 4096,
+  "pair_id_range": [
+    1,
+    64
+  ],
+  "finite_input": true,
+  "observed_waveform_or_reconstruction_outcomes": false
+}

@@ -1,0 +1,12 @@
+{
+  "package": "finufft",
+  "version": "2.5.1",
+  "wheel_sha256": "3f57c3ab02a050980ba578d9f322305e77f538009ebf8cb70df77c95443f031e",
+  "library_sha256": "5a2f9685a0cfad2017e04117cc81a84cc086beeff1957d603fd72c8b733d1653",
+  "wheel_license_notice_members": [],
+  "fftw_ascii_matches": 1542,
+  "ducc_ascii_matches": 0,
+  "otool_dependencies": "work/ultrasonic-independent-review/finufft-lib.dylib:\n\t@rpath/libfinufft.dylib (compatibility version 0.0.0, current version 0.0.0)\n\t/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1345.120.2)\n\t@loader_path/.dylibs/libomp.dylib (compatibility version 5.0.0, current version 5.0.0)\n\t/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 1700.255.5)\n",
+  "inference": "FFTW symbols and no external FFTW link strongly suggest bundled/static FFTW; source release NOTICE identifies FFTW GPLv2-or-later. This is evidence, not a complete legal or binary provenance audit. Do not label wheel Apache-only.",
+  "execution": "Static archive/library inspection only; no transforms or performance tests."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "finufft-2.5.1-LICENSE",
+    "url": "https://raw.githubusercontent.com/flatironinstitute/finufft/v2.5.1/LICENSE",
+    "sha256": "18c265b01ff2f4c5cdacd9fe9e5dcf0407e2a4e679615c6eb7e303504fdcd8ce"
+  },
+  {
+    "path": "finufft-2.5.1-NOTICE",
+    "url": "https://raw.githubusercontent.com/flatironinstitute/finufft/v2.5.1/NOTICE",
+    "sha256": "7c4158e6f6dd27f00e251a12ee25daecc893debb8e1d80ddb0eebdbdef55c293"
+  },
+  {
+    "path": "fmc-metadata.json",
+    "url": "https://api.figshare.com/v2/articles/7178630",
+    "sha256": "a2bb7d6bc02a130ba48111f97ab2e0a3c47d9b37239c6ca610a6d6b5f43a449b"
+  }
+]
