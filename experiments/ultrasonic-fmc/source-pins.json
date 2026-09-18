@@ -1,0 +1,17 @@
+[
+  {
+    "repo": "sufayanm/Fourier_beamforming",
+    "commit": "246d97a9ff19983e0b047cd259e3ac62c6b3b88a",
+    "date": "2026-02-26T09:49:26Z"
+  },
+  {
+    "repo": "flatironinstitute/finufft",
+    "commit": "287ad85a1b3a466a082d61704ea4848d288376d3",
+    "date": "2026-08-31T10:56:06Z"
+  },
+  {
+    "repo": "ndtatbristol/arim",
+    "commit": "0cee9de26ae995ca80e00bc67801ffb3b1188e44",
+    "date": "2025-06-10T19:48:48Z"
+  }
+]

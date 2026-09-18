@@ -1,0 +1,194 @@
+{
+  "source": "https://rs.figshare.com/articles/dataset/Experimental_array_data_1_mm_hole_at_20_mm_depth_Full_Matrix_Capture_from_Strategies_for_data_acquisition_using_ultrasonic_phased_arrays/7178630",
+  "download_url": "https://ndownloader.figshare.com/files/13206053",
+  "final_url": "https://s3-eu-west-1.amazonaws.com/pstorage-rs-4828782598/13206053/rspa20180451_si_001.mat",
+  "http_status": 200,
+  "content_type": "application/octet-stream",
+  "bytes": 1869782,
+  "matlab_magic": "MATLAB 5.0 MAT-file, Platform: PCWIN, Created on: Fri May 05 22:49:14 2017                                          ",
+  "sha256": "b244d0e800087590da0664ef97473494dc6ef38a683ec80f262af307c8c37b89",
+  "md5": "b01187a329f13350531c19ec5388dbf2",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "inspection": "Schema and first metadata entries only; no reconstruction or performance evaluation run.",
+  "schema": {
+    "exp_data": {
+      "array": {
+        "el_xc": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "first": [
+            -0.0189,
+            -0.0183,
+            -0.0177
+          ]
+        },
+        "el_yc": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint8",
+          "first": [
+            0,
+            0,
+            0
+          ]
+        },
+        "el_zc": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint8",
+          "first": [
+            0,
+            0,
+            0
+          ]
+        },
+        "el_x1": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "first": [
+            -0.01958,
+            -0.018949999999999998,
+            -0.01832
+          ]
+        },
+        "el_y1": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint8",
+          "first": [
+            0,
+            0,
+            0
+          ]
+        },
+        "el_z1": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint8",
+          "first": [
+            0,
+            0,
+            0
+          ]
+        },
+        "el_x2": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "first": [
+            -0.019845,
+            -0.019215,
+            -0.018585
+          ]
+        },
+        "el_y2": {
+          "shape": [
+            64
+          ],
+          "dtype": "float64",
+          "first": [
+            0.0075,
+            0.0075,
+            0.0075
+          ]
+        },
+        "el_z2": {
+          "shape": [
+            64
+          ],
+          "dtype": "uint8",
+          "first": [
+            0,
+            0,
+            0
+          ]
+        },
+        "centre_freq": 5000000
+      },
+      "num_els": 64,
+      "ph_velocity": 6400,
+      "tx": {
+        "shape": [
+          4096
+        ],
+        "dtype": "uint8",
+        "first": [
+          1,
+          1,
+          1
+        ]
+      },
+      "rx": {
+        "shape": [
+          4096
+        ],
+        "dtype": "uint8",
+        "first": [
+          1,
+          2,
+          3
+        ]
+      },
+      "time": {
+        "shape": [
+          512
+        ],
+        "dtype": "float64",
+        "first": [
+          0.0,
+          4e-08,
+          8e-08
+        ]
+      },
+      "time_data": {
+        "shape": [
+          512,
+          4096
+        ],
+        "dtype": "float64",
+        "first": [
+          -0.00390625,
+          -0.001953125,
+          -0.0078125
+        ]
+      },
+      "angles_tx": {
+        "shape": [
+          55
+        ],
+        "dtype": "float64",
+        "first": [
+          -0.6981317007977318,
+          -0.6722749711385565,
+          -0.6464182414793813
+        ]
+      },
+      "delays": {
+        "shape": [
+          64,
+          55
+        ],
+        "dtype": "float64",
+        "first": [
+          3.7964643197111217e-06,
+          3.6782208434410955e-06,
+          3.557518354344433e-06
+        ]
+      }
+    }
+  },
+  "redirect_note": "Expiring signed query omitted from publication; stable Figshare download URL and verified hash are the reproducible provenance."
+}

@@ -1,0 +1,205 @@
+{
+  "data": {
+    "id": "10.17862/cranfield.rd.22890563",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.17862/cranfield.rd.22890563",
+      "prefix": "10.17862",
+      "suffix": "cranfield.rd.22890563",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Anagwu, Festus, Ifeanyi",
+          "nameType": null,
+          "givenName": "Festus, Ifeanyi",
+          "familyName": "Anagwu",
+          "affiliation": [
+            "Cranfield University"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Skordos, Alex",
+          "nameType": null,
+          "givenName": "Alex",
+          "familyName": "Skordos",
+          "affiliation": [
+            "Cranfield University"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "Dataset for paper \"Cure kinetics, glass transition advancement and chemo-rheological modelling of an epoxy vitrimer based on disulphide metathesis\"",
+          "titleType": null
+        }
+      ],
+      "publisher": "Cranfield University",
+      "container": {},
+      "publicationYear": 2023,
+      "subjects": [
+        {
+          "subject": "Polymers and plastics",
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subjectScheme": "ANZSRC Fields of Research",
+          "classificationCode": "401609"
+        },
+        {
+          "subject": "Polymerisation mechanisms",
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subjectScheme": "ANZSRC Fields of Research",
+          "classificationCode": "340306"
+        },
+        {
+          "subject": "Composite and hybrid materials",
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subjectScheme": "ANZSRC Fields of Research",
+          "classificationCode": "401602"
+        },
+        {
+          "subject": "Reaction kinetics and dynamics",
+          "schemeUri": "http://www.abs.gov.au/ausstats/abs@.nsf/0/6BB427AB9696C225CA2574180004463E",
+          "subjectScheme": "ANZSRC Fields of Research",
+          "classificationCode": "340607"
+        }
+      ],
+      "contributors": [],
+      "dates": [
+        {
+          "date": "2023-10-18",
+          "dateType": "Created",
+          "dateInformation": null
+        },
+        {
+          "date": "2023-10-18",
+          "dateType": "Updated",
+          "dateInformation": null
+        },
+        {
+          "date": "2023",
+          "dateType": "Issued",
+          "dateInformation": null
+        }
+      ],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [
+        {
+          "schemeUri": null,
+          "schemeType": null,
+          "relationType": "IsSupplementTo",
+          "relatedIdentifier": "10.1016/j.polymer.2023.126427",
+          "resourceTypeGeneral": null,
+          "relatedIdentifierType": "DOI",
+          "relatedMetadataScheme": null
+        }
+      ],
+      "relatedItems": [],
+      "sizes": [
+        "10796037 Bytes"
+      ],
+      "formats": [],
+      "version": null,
+      "rightsList": [
+        {
+          "rights": "Creative Commons Attribution 4.0 International",
+          "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+          "schemeUri": "https://spdx.org/licenses/",
+          "rightsIdentifier": "cc-by-4.0",
+          "rightsIdentifierScheme": "SPDX"
+        }
+      ],
+      "descriptions": [
+        {
+          "lang": null,
+          "description": "The dataset consists of the results of cure kinetics, glass transition advancement, chemorheology and stress relaxation experiments for the DGEBA/4-APDS epoxy vitrimer. The heading of each column contains the quantity measured and the unit of measurement. <br> The cure kinetics dataset (Cure-kinetics-dataset.xlsx) comprises time-temperature profiles and degrees of cure attained as well as the associated reaction rate data for 4 dynamic DSC experiments (1.25\u00b0C/min, 2.5\u00b0C/min, 5\u00b0C/min and 10\u00b0C/min) and 7 isothermal DSC experiments (140\u00b0C, 150\u00b0C, 160\u00b0C, 170\u00b0C, 180\u00b0C, 190\u00b0C and 200\u00b0C). Experimental results for each temperature and rate are presented in a separate spreadsheet. <br> The chemorheology dataset (Chemorheology-dataset.xlsx) contains time, temperature and viscosity profile for 5 isothermal experiments (80\u00b0C, 90\u00b0C, 100\u00b0C, 110\u00b0C and 120\u00b0C). Experimental results for each temperature are presented in a separate spreadsheet. <br> The stress relaxation dataset (Stress-relaxation-dataset.xlsx) contains decay time, temperature, stress, strain and relaxation modulus obtained in 5 isothermal experiments (180\u00b0C, 190\u00b0C, 200\u00b0C, 210\u00b0C and 220\u00b0C). Each spreadsheet represents an experiment at a particular temperature. <br> The Tg advancement dataset (Tg-advancement-dataset.xlsx) contains time, temperature and heat flow profiles for 18 experiments carried out on partially cured samples. The data are organised in spreadsheets per DSC test; the thermal profile prior to the experiments is as follows: <br> - Tg_1.25\u00b0C-min-220\u00b0C: DSC of uncured resin. - Tg_1.25\u00b0C-min-130\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 130\u00b0C. - Tg_1.25\u00b0C-min-136\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 136\u00b0C. - Tg_1.25\u00b0C-min-140\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 140\u00b0C. - Tg_1.25\u00b0C-min-145\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 145\u00b0C. - Tg_1.25\u00b0C-min-150\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 150\u00b0C. - Tg_1.25\u00b0C-min-160\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 160\u00b0C. - Tg_1.25\u00b0C-min-170\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 170\u00b0C. - Tg_1.25\u00b0C-min-180\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 180\u00b0C. - Tg_1.25\u00b0C-min-190\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 190\u00b0C. - Tg_2.5\u00b0C-min-170\u00b0C: DSC of resin partially cured at 2.5\u00b0C/min from -50\u00b0C to 170\u00b0C. - Tg_5\u00b0C-min-170\u00b0C: DSC of resin partially cured at 5\u00b0C/min from -50\u00b0C to 170\u00b0C. - Tg_10\u00b0C-min-170\u00b0C: DSC of resin partially cured at 10\u00b0C/min from -50\u00b0C to 170\u00b0C. - Tg_iso10min_150\u00b0C: DSC of resin partially cured isothermally at 150\u00b0C for 10 minutes. - Tg_iso20min_150\u00b0C: DSC of resin partially cured isothermally at 150\u00b0C for 20 minutes. - Tg_iso30min_150\u00b0C: DSC of resin partially cured isothermally at 150\u00b0C for 30 minutes. - Tg_iso40min_150\u00b0C: DSC of resin partially cured isothermally at 150\u00b0C for 40 minutes. - Tg_iso100min_150\u00b0C: DSC of resin partially cured isothermally at 150\u00b0C for 100 minutes (fully cured).",
+          "descriptionType": "Abstract"
+        }
+      ],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTc4NjIvQ1JBTkZJRUxELlJELjIyODkwNTYzPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWU+QW5hZ3d1LCBGZXN0dXMsIElmZWFueWk8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkZlc3R1cywgSWZlYW55aTwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5BbmFnd3U8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wNWNuY2Q5NTgiIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIj5DcmFuZmllbGQgVW5pdmVyc2l0eTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lPlNrb3Jkb3MsIEFsZXg8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkFsZXg8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+U2tvcmRvczwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1Y25jZDk1OCIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPkNyYW5maWVsZCBVbml2ZXJzaXR5PC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+RGF0YXNldCBmb3IgcGFwZXIgIkN1cmUga2luZXRpY3MsIGdsYXNzIHRyYW5zaXRpb24gYWR2YW5jZW1lbnQgYW5kIGNoZW1vLXJoZW9sb2dpY2FsIG1vZGVsbGluZyBvZiBhbiBlcG94eSB2aXRyaW1lciBiYXNlZCBvbiBkaXN1bHBoaWRlIG1ldGF0aGVzaXMiPC90aXRsZT4KICA8L3RpdGxlcz4KICA8cHVibGlzaGVyPkNyYW5maWVsZCBVbml2ZXJzaXR5PC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIzPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij5EYXRhc2V0PC9yZXNvdXJjZVR5cGU+CiAgPHN1YmplY3RzPgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iQU5aU1JDIEZpZWxkcyBvZiBSZXNlYXJjaCIgc2NoZW1lVVJJPSJodHRwOi8vd3d3LmFicy5nb3YuYXUvYXVzc3RhdHMvYWJzQC5uc2YvMC82QkI0MjdBQjk2OTZDMjI1Q0EyNTc0MTgwMDA0NDYzRSIgY2xhc3NpZmljYXRpb25Db2RlPSI0MDE2MDkiPlBvbHltZXJzIGFuZCBwbGFzdGljczwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkFOWlNSQyBGaWVsZHMgb2YgUmVzZWFyY2giIHNjaGVtZVVSST0iaHR0cDovL3d3dy5hYnMuZ292LmF1L2F1c3N0YXRzL2Fic0AubnNmLzAvNkJCNDI3QUI5Njk2QzIyNUNBMjU3NDE4MDAwNDQ2M0UiIGNsYXNzaWZpY2F0aW9uQ29kZT0iMzQwMzA2Ij5Qb2x5bWVyaXNhdGlvbiBtZWNoYW5pc21zPC9zdWJqZWN0PgogICAgPHN1YmplY3Qgc3ViamVjdFNjaGVtZT0iQU5aU1JDIEZpZWxkcyBvZiBSZXNlYXJjaCIgc2NoZW1lVVJJPSJodHRwOi8vd3d3LmFicy5nb3YuYXUvYXVzc3RhdHMvYWJzQC5uc2YvMC82QkI0MjdBQjk2OTZDMjI1Q0EyNTc0MTgwMDA0NDYzRSIgY2xhc3NpZmljYXRpb25Db2RlPSI0MDE2MDIiPkNvbXBvc2l0ZSBhbmQgaHlicmlkIG1hdGVyaWFsczwvc3ViamVjdD4KICAgIDxzdWJqZWN0IHN1YmplY3RTY2hlbWU9IkFOWlNSQyBGaWVsZHMgb2YgUmVzZWFyY2giIHNjaGVtZVVSST0iaHR0cDovL3d3dy5hYnMuZ292LmF1L2F1c3N0YXRzL2Fic0AubnNmLzAvNkJCNDI3QUI5Njk2QzIyNUNBMjU3NDE4MDAwNDQ2M0UiIGNsYXNzaWZpY2F0aW9uQ29kZT0iMzQwNjA3Ij5SZWFjdGlvbiBraW5ldGljcyBhbmQgZHluYW1pY3M8L3N1YmplY3Q+CiAgPC9zdWJqZWN0cz4KICA8ZGF0ZXM+CiAgICA8ZGF0ZSBkYXRlVHlwZT0iQ3JlYXRlZCI+MjAyMy0xMC0xODwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDIzLTEwLTE4PC9kYXRlPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyMzwvZGF0ZT4KICA8L2RhdGVzPgogIDxyZWxhdGVkSWRlbnRpZmllcnM+CiAgICA8cmVsYXRlZElkZW50aWZpZXIgcmVsYXRlZElkZW50aWZpZXJUeXBlPSJET0kiIHJlbGF0aW9uVHlwZT0iSXNTdXBwbGVtZW50VG8iPjEwLjEwMTYvai5wb2x5bWVyLjIwMjMuMTI2NDI3PC9yZWxhdGVkSWRlbnRpZmllcj4KICA8L3JlbGF0ZWRJZGVudGlmaWVycz4KICA8c2l6ZXM+CiAgICA8c2l6ZT4xMDc5NjAzNyBCeXRlczwvc2l6ZT4KICA8L3NpemVzPgogIDxmb3JtYXRzLz4KICA8dmVyc2lvbi8+CiAgPHJpZ2h0c0xpc3Q+CiAgICA8cmlnaHRzIHJpZ2h0c1VSST0iaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC9sZWdhbGNvZGUiIHJpZ2h0c0lkZW50aWZpZXI9ImNjLWJ5LTQuMCIgcmlnaHRzSWRlbnRpZmllclNjaGVtZT0iU1BEWCIgc2NoZW1lVVJJPSJodHRwczovL3NwZHgub3JnL2xpY2Vuc2VzLyI+Q3JlYXRpdmUgQ29tbW9ucyBBdHRyaWJ1dGlvbiA0LjAgSW50ZXJuYXRpb25hbDwvcmlnaHRzPgogIDwvcmlnaHRzTGlzdD4KICA8ZGVzY3JpcHRpb25zPgogICAgPGRlc2NyaXB0aW9uIGRlc2NyaXB0aW9uVHlwZT0iQWJzdHJhY3QiPlRoZSBkYXRhc2V0IGNvbnNpc3RzIG9mIHRoZSByZXN1bHRzIG9mIGN1cmUga2luZXRpY3MsIGdsYXNzIHRyYW5zaXRpb24gYWR2YW5jZW1lbnQsIGNoZW1vcmhlb2xvZ3kgYW5kIHN0cmVzcyByZWxheGF0aW9uIGV4cGVyaW1lbnRzIGZvciB0aGUgREdFQkEvNC1BUERTIGVwb3h5IHZpdHJpbWVyLiBUaGUgaGVhZGluZyBvZiBlYWNoIGNvbHVtbiBjb250YWlucyB0aGUgcXVhbnRpdHkgbWVhc3VyZWQgYW5kIHRoZSB1bml0IG9mIG1lYXN1cmVtZW50LiAmbHQ7YnImZ3Q7IFRoZSBjdXJlIGtpbmV0aWNzIGRhdGFzZXQgKEN1cmUta2luZXRpY3MtZGF0YXNldC54bHN4KSBjb21wcmlzZXMgdGltZS10ZW1wZXJhdHVyZSBwcm9maWxlcyBhbmQgZGVncmVlcyBvZiBjdXJlIGF0dGFpbmVkIGFzIHdlbGwgYXMgdGhlIGFzc29jaWF0ZWQgcmVhY3Rpb24gcmF0ZSBkYXRhIGZvciA0IGR5bmFtaWMgRFNDIGV4cGVyaW1lbnRzICgxLjI1wrBDL21pbiwgMi41wrBDL21pbiwgNcKwQy9taW4gYW5kIDEwwrBDL21pbikgYW5kIDcgaXNvdGhlcm1hbCBEU0MgZXhwZXJpbWVudHMgKDE0MMKwQywgMTUwwrBDLCAxNjDCsEMsIDE3MMKwQywgMTgwwrBDLCAxOTDCsEMgYW5kIDIwMMKwQykuIEV4cGVyaW1lbnRhbCByZXN1bHRzIGZvciBlYWNoIHRlbXBlcmF0dXJlIGFuZCByYXRlIGFyZSBwcmVzZW50ZWQgaW4gYSBzZXBhcmF0ZSBzcHJlYWRzaGVldC4gJmx0O2JyJmd0OyBUaGUgY2hlbW9yaGVvbG9neSBkYXRhc2V0IChDaGVtb3JoZW9sb2d5LWRhdGFzZXQueGxzeCkgY29udGFpbnMgdGltZSwgdGVtcGVyYXR1cmUgYW5kIHZpc2Nvc2l0eSBwcm9maWxlIGZvciA1IGlzb3RoZXJtYWwgZXhwZXJpbWVudHMgKDgwwrBDLCA5MMKwQywgMTAwwrBDLCAxMTDCsEMgYW5kIDEyMMKwQykuIEV4cGVyaW1lbnRhbCByZXN1bHRzIGZvciBlYWNoIHRlbXBlcmF0dXJlIGFyZSBwcmVzZW50ZWQgaW4gYSBzZXBhcmF0ZSBzcHJlYWRzaGVldC4gJmx0O2JyJmd0OyBUaGUgc3RyZXNzIHJlbGF4YXRpb24gZGF0YXNldCAoU3RyZXNzLXJlbGF4YXRpb24tZGF0YXNldC54bHN4KSBjb250YWlucyBkZWNheSB0aW1lLCB0ZW1wZXJhdHVyZSwgc3RyZXNzLCBzdHJhaW4gYW5kIHJlbGF4YXRpb24gbW9kdWx1cyBvYnRhaW5lZCBpbiA1IGlzb3RoZXJtYWwgZXhwZXJpbWVudHMgKDE4MMKwQywgMTkwwrBDLCAyMDDCsEMsIDIxMMKwQyBhbmQgMjIwwrBDKS4gRWFjaCBzcHJlYWRzaGVldCByZXByZXNlbnRzIGFuIGV4cGVyaW1lbnQgYXQgYSBwYXJ0aWN1bGFyIHRlbXBlcmF0dXJlLiAmbHQ7YnImZ3Q7IFRoZSBUZyBhZHZhbmNlbWVudCBkYXRhc2V0IChUZy1hZHZhbmNlbWVudC1kYXRhc2V0Lnhsc3gpIGNvbnRhaW5zIHRpbWUsIHRlbXBlcmF0dXJlIGFuZCBoZWF0IGZsb3cgcHJvZmlsZXMgZm9yIDE4IGV4cGVyaW1lbnRzIGNhcnJpZWQgb3V0IG9uIHBhcnRpYWxseSBjdXJlZCBzYW1wbGVzLiBUaGUgZGF0YSBhcmUgb3JnYW5pc2VkIGluIHNwcmVhZHNoZWV0cyBwZXIgRFNDIHRlc3Q7IHRoZSB0aGVybWFsIHByb2ZpbGUgcHJpb3IgdG8gdGhlIGV4cGVyaW1lbnRzIGlzIGFzIGZvbGxvd3M6ICZsdDticiZndDsgLSBUZ18xLjI1wrBDLW1pbi0yMjDCsEM6IERTQyBvZiB1bmN1cmVkIHJlc2luLiAtIFRnXzEuMjXCsEMtbWluLTEzMMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBhdCAxLjI1wrBDL21pbiBmcm9tIC01MMKwQyB0byAxMzDCsEMuIC0gVGdfMS4yNcKwQy1taW4tMTM2wrBDOiBEU0Mgb2YgcmVzaW4gcGFydGlhbGx5IGN1cmVkIGF0IDEuMjXCsEMvbWluIGZyb20gLTUwwrBDIHRvIDEzNsKwQy4gLSBUZ18xLjI1wrBDLW1pbi0xNDDCsEM6IERTQyBvZiByZXNpbiBwYXJ0aWFsbHkgY3VyZWQgYXQgMS4yNcKwQy9taW4gZnJvbSAtNTDCsEMgdG8gMTQwwrBDLiAtIFRnXzEuMjXCsEMtbWluLTE0NcKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBhdCAxLjI1wrBDL21pbiBmcm9tIC01MMKwQyB0byAxNDXCsEMuIC0gVGdfMS4yNcKwQy1taW4tMTUwwrBDOiBEU0Mgb2YgcmVzaW4gcGFydGlhbGx5IGN1cmVkIGF0IDEuMjXCsEMvbWluIGZyb20gLTUwwrBDIHRvIDE1MMKwQy4gLSBUZ18xLjI1wrBDLW1pbi0xNjDCsEM6IERTQyBvZiByZXNpbiBwYXJ0aWFsbHkgY3VyZWQgYXQgMS4yNcKwQy9taW4gZnJvbSAtNTDCsEMgdG8gMTYwwrBDLiAtIFRnXzEuMjXCsEMtbWluLTE3MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBhdCAxLjI1wrBDL21pbiBmcm9tIC01MMKwQyB0byAxNzDCsEMuIC0gVGdfMS4yNcKwQy1taW4tMTgwwrBDOiBEU0Mgb2YgcmVzaW4gcGFydGlhbGx5IGN1cmVkIGF0IDEuMjXCsEMvbWluIGZyb20gLTUwwrBDIHRvIDE4MMKwQy4gLSBUZ18xLjI1wrBDLW1pbi0xOTDCsEM6IERTQyBvZiByZXNpbiBwYXJ0aWFsbHkgY3VyZWQgYXQgMS4yNcKwQy9taW4gZnJvbSAtNTDCsEMgdG8gMTkwwrBDLiAtIFRnXzIuNcKwQy1taW4tMTcwwrBDOiBEU0Mgb2YgcmVzaW4gcGFydGlhbGx5IGN1cmVkIGF0IDIuNcKwQy9taW4gZnJvbSAtNTDCsEMgdG8gMTcwwrBDLiAtIFRnXzXCsEMtbWluLTE3MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBhdCA1wrBDL21pbiBmcm9tIC01MMKwQyB0byAxNzDCsEMuIC0gVGdfMTDCsEMtbWluLTE3MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBhdCAxMMKwQy9taW4gZnJvbSAtNTDCsEMgdG8gMTcwwrBDLiAtIFRnX2lzbzEwbWluXzE1MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBpc290aGVybWFsbHkgYXQgMTUwwrBDIGZvciAxMCBtaW51dGVzLiAtIFRnX2lzbzIwbWluXzE1MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBpc290aGVybWFsbHkgYXQgMTUwwrBDIGZvciAyMCBtaW51dGVzLiAtIFRnX2lzbzMwbWluXzE1MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBpc290aGVybWFsbHkgYXQgMTUwwrBDIGZvciAzMCBtaW51dGVzLiAtIFRnX2lzbzQwbWluXzE1MMKwQzogRFNDIG9mIHJlc2luIHBhcnRpYWxseSBjdXJlZCBpc290aGVybWFsbHkgYXQgMTUwwrBDIGZvciA0MCBtaW51dGVzLiAtIFRnX2lzbzEwMG1pbl8xNTDCsEM6IERTQyBvZiByZXNpbiBwYXJ0aWFsbHkgY3VyZWQgaXNvdGhlcm1hbGx5IGF0IDE1MMKwQyBmb3IgMTAwIG1pbnV0ZXMgKGZ1bGx5IGN1cmVkKS48L2Rlc2NyaXB0aW9uPgogIDwvZGVzY3JpcHRpb25zPgo8L3Jlc291cmNlPgo=",
+      "url": "https://dspace.lib.cranfield.ac.uk/handle/1826/22017",
+      "contentUrl": null,
+      "metadataVersion": 4,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 1,
+      "citationsOverTime": [
+        {
+          "year": "2024",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2023-05-17T23:21:25.000Z",
+      "registered": "2023-10-18T07:39:15.000Z",
+      "published": "2023",
+      "updated": "2025-01-24T09:17:20.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "bl.cran",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "eqnn",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.17862/cranfield.rd.22890563",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1016/j.polymer.2023.126427",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

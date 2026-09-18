@@ -1,0 +1,176 @@
+{
+  "files": [
+    {
+      "id": 51407474,
+      "name": "Cure-kinetics-dataset.xlsx",
+      "size": 157743,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51407474",
+      "supplied_md5": "bea109cd809fc52f2bcd9198b2d978e2",
+      "computed_md5": "bea109cd809fc52f2bcd9198b2d978e2",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 51407468,
+      "name": "Tg-advancement-dataset.xlsx",
+      "size": 5023712,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51407468",
+      "supplied_md5": "9b9a3a11ea4ebe8d72e4beee6f62d54e",
+      "computed_md5": "9b9a3a11ea4ebe8d72e4beee6f62d54e",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 51407471,
+      "name": "Chemorheology-dataset.xlsx",
+      "size": 36183,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/51407471",
+      "supplied_md5": "0f00b88abaab6e64e2b2b1ce5924b888",
+      "computed_md5": "0f00b88abaab6e64e2b2b1ce5924b888",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    },
+    {
+      "id": 59706497,
+      "name": "Cure rheology-dataset.xlsx",
+      "size": 84464,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/59706497",
+      "supplied_md5": "f9ebee30f74ff0664c41e91d3fd16381",
+      "computed_md5": "f9ebee30f74ff0664c41e91d3fd16381",
+      "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 16996233,
+      "full_name": "Festus Ifeanyi Anagwu",
+      "first_name": "Festus Ifeanyi",
+      "last_name": "Anagwu",
+      "is_active": true,
+      "url_name": "Festus_Ifeanyi_Anagwu",
+      "orcid_id": "0000-0002-8209-9504"
+    },
+    {
+      "id": 22645664,
+      "full_name": "Daniel Preston",
+      "first_name": "Daniel",
+      "last_name": "Preston",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0003-3730-2232"
+    },
+    {
+      "id": 18965275,
+      "full_name": "Alex Skordos",
+      "first_name": "Alex",
+      "last_name": "Skordos",
+      "is_active": true,
+      "url_name": "Alex_Skordos",
+      "orcid_id": "0000-0003-1273-029X"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Dataset_for_Cure_kinetics_glass_transition_and_chemoviscosity_models_for_an_aerospace-grade_disulphide-based_benzoxazine_vitrimer/28105523",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">The dataset comprises results of cure kinetics, glass transition temperature development, and chemorheology for novel polybenzoxazine vitrimer for fibre-reinforced composite. The heading of each column contains the quantity measured and the unit of measurement.</p><p dir=\"ltr\">The cure kinetics dataset (Cure-kinetics-dataset.xlsx) consists of time-temperature profiles and degrees of cure measured, together with the associated reaction rate data for 3 dynamic DSC experiments (2.5, 5 and 10\u00b0C/min) and 5 isothermal DSC experiments (150, 160, 170, 180 and 190\u00b0C). Experimental results for each temperature and rate are presented in a separate spreadsheet.</p><p dir=\"ltr\">The chemorheology dataset (Chemorheology-dataset.xlsx) consists of time, temperature and viscosity profile for 4 isothermal flow rheology (100, 110, 120 and 130\u00b0C). Experimental results for each temperature are presented in a separate spreadsheet.<br><br>The Cure rheology dataset (Cure rheology-dataset.xlsx) comprises time, temperature and viscosity profiles for advanced stages of cure. The rheological behaviour at 130 and 150\u00b0C are shown in separate spreadsheets.  <br></p><p dir=\"ltr\">The Tg advancement dataset (Tg-advancement-dataset.xlsx) contains time, temperature and heat flow profiles for 11 experiments carried out on 10 partially cured samples and 1 uncured sample. The data \u2013 collected from 10\u00b0C/min dynamic DSC ramp of samples \u2013 are organised in spreadsheets per DSC test; the thermal profiles prior to the experiments are as follows:</p><p dir=\"ltr\">- Tg_uncured sample: DSC of uncured resin</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-146\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 146\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-153\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 153\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-158\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 158\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-162\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 162\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-167\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 167\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-173\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 173\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-179\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 179\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-185\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 185\u00b0C.</p><p dir=\"ltr\">- Tg_1.25\u00b0C-min-194\u00b0C: DSC of resin partially cured at 1.25\u00b0C/min from -50\u00b0C to 194\u00b0C.</p><p dir=\"ltr\">- Tg_170\u00b0C; 2h_190\u00b0C; 30min: DSC of resin cured isothermally at 170\u00b0C for 2 hours and post-cured at 190\u00b0C for 30 minutes.</p>",
+  "funding": "Tertiary Education Trust Fund",
+  "funding_list": [
+    {
+      "id": 361265,
+      "title": "Tertiary Education Trust Fund",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    },
+    {
+      "id": 29272922,
+      "title": "European Union\u2019s Horizon Europe programme under grant agreement (PLEIADES project).",
+      "grant_code": "",
+      "funder_name": null,
+      "is_user_defined": 1
+    }
+  ],
+  "version": 1,
+  "status": "public",
+  "size": 5302102,
+  "created_date": "2025-11-20T00:08:37Z",
+  "modified_date": "2025-11-20T00:08:37Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Composites",
+    "Polybenzoxazine vitrimer",
+    "Cure kinetics",
+    "Modelling",
+    "Chemorheology"
+  ],
+  "keywords": [
+    "Composites",
+    "Polybenzoxazine vitrimer",
+    "Cure kinetics",
+    "Modelling",
+    "Chemorheology"
+  ],
+  "categories": [
+    {
+      "id": 26719,
+      "title": "Composite and hybrid materials",
+      "parent_id": 26713,
+      "path": "/26212/26713/26719",
+      "source_id": "401602",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [
+    "https://doi.org/10.1016/j.polymer.2025.129319"
+  ],
+  "has_linked_file": false,
+  "citation": "Anagwu, Festus Ifeanyi; Preston, Daniel; Skordos, Alex (2025). Dataset for Cure kinetics, glass transition and chemoviscosity models for an aerospace-grade disulphide-based benzoxazine vitrimer. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28105523.v1",
+  "related_materials": [
+    {
+      "id": 240884105,
+      "identifier": "10.1016/j.polymer.2025.129319",
+      "title": "Cure kinetics, glass transition and chemoviscosity models for an aerospace-grade disulphide-based benzoxazine vitrimer",
+      "relation": "IsCitedBy",
+      "identifier_type": "DOI",
+      "is_linkout": true,
+      "link": "https://doi.org/10.1016/j.polymer.2025.129319"
+    }
+  ],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 28105523,
+  "title": "Dataset for Cure kinetics, glass transition and chemoviscosity models for an aerospace-grade disulphide-based benzoxazine vitrimer",
+  "doi": "10.6084/m9.figshare.28105523.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/28105523",
+  "published_date": "2025-11-20T00:08:37Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/28105523",
+  "url_public_api": "https://api.figshare.com/v2/articles/28105523",
+  "url_private_html": "https://figshare.com/account/articles/28105523",
+  "url_public_html": "https://figshare.com/articles/dataset/Dataset_for_Cure_kinetics_glass_transition_and_chemoviscosity_models_for_an_aerospace-grade_disulphide-based_benzoxazine_vitrimer/28105523",
+  "timeline": {
+    "posted": "2025-11-20T00:08:37",
+    "firstOnline": "2025-11-20"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

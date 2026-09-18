@@ -1,0 +1,18 @@
+{
+  "alan-tabore/KinOpt": {
+    "sha": "059bc7ba633a2fc53e5e4575ea4f11fffa02ad01",
+    "date": "2025-11-03T23:00:55Z"
+  },
+  "NatLabRockies/pyvisco": {
+    "sha": "b61b5a0c6a2939927c87189972ea5619503bd813",
+    "date": "2026-06-29T19:36:56Z"
+  },
+  "sfepy/sfepy": {
+    "sha": "307e51ecf3b57fc364104630e62ae1fa8ed88c55",
+    "date": "2026-09-11T10:29:55Z"
+  },
+  "sympy/sympy": {
+    "sha": "6e5b7af0f803eacf02487b428dd0cba1ace90fbb",
+    "date": "2026-09-17T18:47:02Z"
+  }
+}

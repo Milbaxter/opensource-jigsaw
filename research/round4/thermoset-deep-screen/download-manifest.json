@@ -1,0 +1,346 @@
+[
+  {
+    "path": "work/round4-a/deep-thermoset/benzoxazine-Cure-kinetics-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/51407474",
+    "dataset_doi": "10.6084/m9.figshare.28105523.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 22645664,
+        "full_name": "Daniel Preston",
+        "first_name": "Daniel",
+        "last_name": "Preston",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0000-0003-3730-2232"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 157743,
+    "md5": "bea109cd809fc52f2bcd9198b2d978e2",
+    "matches_source_md5": true,
+    "sha256": "64bf96e34817114005f7c54672e78bdc78634a62b3cf00f10f970d3d123c2544"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/benzoxazine-Tg-advancement-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/51407468",
+    "dataset_doi": "10.6084/m9.figshare.28105523.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 22645664,
+        "full_name": "Daniel Preston",
+        "first_name": "Daniel",
+        "last_name": "Preston",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0000-0003-3730-2232"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 5023712,
+    "md5": "9b9a3a11ea4ebe8d72e4beee6f62d54e",
+    "matches_source_md5": true,
+    "sha256": "5c94d5e91943d88aed3e99d126e8b325d2aefc602baf9483cb14609aca94b64c"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/benzoxazine-Chemorheology-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/51407471",
+    "dataset_doi": "10.6084/m9.figshare.28105523.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 22645664,
+        "full_name": "Daniel Preston",
+        "first_name": "Daniel",
+        "last_name": "Preston",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0000-0003-3730-2232"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 36183,
+    "md5": "0f00b88abaab6e64e2b2b1ce5924b888",
+    "matches_source_md5": true,
+    "sha256": "4d152fcd159d17d136ddb6e8dce1e9402a0f7a3026bf78a3298feda29429a015"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/benzoxazine-Cure rheology-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/59706497",
+    "dataset_doi": "10.6084/m9.figshare.28105523.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 22645664,
+        "full_name": "Daniel Preston",
+        "first_name": "Daniel",
+        "last_name": "Preston",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0000-0003-3730-2232"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 84464,
+    "md5": "f9ebee30f74ff0664c41e91d3fd16381",
+    "matches_source_md5": true,
+    "sha256": "1746623d3c383d7de9cb3740faebe8a4a5b7a926995e848e2719a4d525d02858"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/coating-Cure-kinetics-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/56725964",
+    "dataset_doi": "10.6084/m9.figshare.29053802.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 22798979,
+        "full_name": "Ebikeniye Romeo Ekperi",
+        "first_name": "Ebikeniye Romeo",
+        "last_name": "Ekperi",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0009-0002-7294-8661"
+      },
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 275373,
+    "md5": "18eee5d05fc0f4741d2767eba6e2fc34",
+    "matches_source_md5": true,
+    "sha256": "d81278fa3c88cf0c61993d0d8edf27d8dec63412ef8ec11f03680e33b384759f"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/coating-Tg-development-dataset .xlsx",
+    "source": "https://ndownloader.figshare.com/files/56725586",
+    "dataset_doi": "10.6084/m9.figshare.29053802.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 22798979,
+        "full_name": "Ebikeniye Romeo Ekperi",
+        "first_name": "Ebikeniye Romeo",
+        "last_name": "Ekperi",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0009-0002-7294-8661"
+      },
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 45565,
+    "md5": "45a70d1c81a48fdce370619ee0292825",
+    "matches_source_md5": true,
+    "sha256": "2255b0926d2845984f16487a283e7b1f15ac0318b4dfa939c66c840b5787cc7a"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/coating-Chemorheology-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/56725589",
+    "dataset_doi": "10.6084/m9.figshare.29053802.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 22798979,
+        "full_name": "Ebikeniye Romeo Ekperi",
+        "first_name": "Ebikeniye Romeo",
+        "last_name": "Ekperi",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0009-0002-7294-8661"
+      },
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 25200,
+    "md5": "3502b0b530a261af00fc962cf95f6716",
+    "matches_source_md5": true,
+    "sha256": "68fa84ca5aa54c6c3635a43682f86f3a5d5c8fb84ba19f4a915f96df0e4dbf4e"
+  },
+  {
+    "path": "work/round4-a/deep-thermoset/coating-Stress-relaxation-dataset.xlsx",
+    "source": "https://ndownloader.figshare.com/files/56860877",
+    "dataset_doi": "10.6084/m9.figshare.29053802.v1",
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "authors": [
+      {
+        "id": 22798979,
+        "full_name": "Ebikeniye Romeo Ekperi",
+        "first_name": "Ebikeniye Romeo",
+        "last_name": "Ekperi",
+        "is_active": false,
+        "url_name": "_",
+        "orcid_id": "0009-0002-7294-8661"
+      },
+      {
+        "id": 16996233,
+        "full_name": "Festus Ifeanyi Anagwu",
+        "first_name": "Festus Ifeanyi",
+        "last_name": "Anagwu",
+        "is_active": true,
+        "url_name": "Festus_Ifeanyi_Anagwu",
+        "orcid_id": "0000-0002-8209-9504"
+      },
+      {
+        "id": 18965275,
+        "full_name": "Alex Skordos",
+        "first_name": "Alex",
+        "last_name": "Skordos",
+        "is_active": true,
+        "url_name": "Alex_Skordos",
+        "orcid_id": "0000-0003-1273-029X"
+      }
+    ],
+    "bytes": 25834,
+    "md5": "0147980382ccf3a40adfea808de74e14",
+    "matches_source_md5": true,
+    "sha256": "05ed1a72771336e9f75d795369667ad104642573d69392d838dab279cc2ce4b9"
+  }
+]

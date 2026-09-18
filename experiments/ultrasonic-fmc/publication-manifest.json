@@ -1,0 +1,56 @@
+[
+  {
+    "source": "SCREEN.md",
+    "destination": "SCREEN.md",
+    "bytes": 14247,
+    "sha256": "983d5dbef3cd11d3f30083d1d1aefcbf05c2ce5d09195e3e6ac0fa21bce667dd"
+  },
+  {
+    "source": "preregistration.md",
+    "destination": "preregistration.md",
+    "bytes": 16006,
+    "sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646"
+  },
+  {
+    "source": "source-pins.json",
+    "destination": "source-pins.json",
+    "bytes": 427,
+    "sha256": "3641840954f73c403359032b58762029a8e69ebde8b42d779d64b22d59ccea4b"
+  },
+  {
+    "source": "repo-metadata.json",
+    "destination": "repo-metadata.json",
+    "bytes": 6478,
+    "sha256": "6ff91f5367941f7bcd24f84b95317ee58d0cc5446659e5d8f202779dc3bf6be5"
+  },
+  {
+    "source": "figshare_fmc-metadata.json",
+    "destination": "figshare_fmc-metadata.json",
+    "bytes": 5032,
+    "sha256": "e293750906c03ab36adcdb0c12b78ff7c1d3b9b663bd5ae0ba24512554bf6f72"
+  },
+  {
+    "source": "figshare_collection-metadata.json",
+    "destination": "figshare_collection-metadata.json",
+    "bytes": 4781,
+    "sha256": "be13629ebbfa97f1fb28544437ccdb5184ee412f85e08bfc03ad60a9e89b01bb"
+  },
+  {
+    "source": "input-access.json",
+    "destination": "input-access.json",
+    "bytes": 4186,
+    "sha256": "00d81ac853cc755f84c41db9448a59a538a8e1f17648811397d8b8933bc0c0ad"
+  },
+  {
+    "source": "rights-inspection.json",
+    "destination": "rights-inspection.json",
+    "bytes": 2038,
+    "sha256": "05be905a9bb9c225cef2d4badbf40d348169a809b927bd3a245b40669436298e"
+  },
+  {
+    "source": "rights-notes.md",
+    "destination": "rights-notes.md",
+    "bytes": 2228,
+    "sha256": "b3651a0913e7f144772a61c026b66c569e20b07e927cbfcbf22bd23dd3231f56"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 7178636,
+    "title": "Experimental array data, 1 mm hole at 20 mm depth, 9 plane waves from Strategies for data acquisition using ultrasonic phased arrays",
+    "doi": "10.6084/m9.figshare.7178636.v1",
+    "handle": "",
+    "url": "https://api.figshare.com/v2/articles/7178636",
+    "published_date": "2018-10-08T14:59:09Z",
+    "thumb": "",
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 5721,
+    "url_private_api": "https://api.figshare.com/v2/account/articles/7178636",
+    "url_public_api": "https://api.figshare.com/v2/articles/7178636",
+    "url_private_html": "https://figshare.com/account/articles/7178636",
+    "url_public_html": "https://rs.figshare.com/articles/dataset/Experimental_array_data_1_mm_hole_at_20_mm_depth_9_plane_waves_from_Strategies_for_data_acquisition_using_ultrasonic_phased_arrays/7178636",
+    "timeline": {
+      "posted": "2018-10-08T14:59:09",
+      "firstOnline": "2018-10-08"
+    },
+    "resource_title": "Strategies for data acquisition using ultrasonic phased arrays",
+    "resource_doi": "10.1098/rspa.2018.0451",
+    "created_date": "2018-10-08T14:59:09Z",
+    "modified_date": "2023-06-02T15:22:02Z"
+  },
+  {
+    "id": 7178633,
+    "title": "Experimental array data, 1 mm hole at 20 mm depth, 17 plane waves from Strategies for data acquisition using ultrasonic phased arrays",
+    "doi": "10.6084/m9.figshare.7178633.v1",
+    "handle": "",
+    "url": "https://api.figshare.com/v2/articles/7178633",
+    "published_date": "2018-10-08T14:59:08Z",
+    "thumb": "",
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 5721,
+    "url_private_api": "https://api.figshare.com/v2/account/articles/7178633",
+    "url_public_api": "https://api.figshare.com/v2/articles/7178633",
+    "url_private_html": "https://figshare.com/account/articles/7178633",
+    "url_public_html": "https://rs.figshare.com/articles/dataset/Experimental_array_data_1_mm_hole_at_20_mm_depth_17_plane_waves_from_Strategies_for_data_acquisition_using_ultrasonic_phased_arrays/7178633",
+    "timeline": {
+      "posted": "2018-10-08T14:59:08",
+      "firstOnline": "2018-10-08"
+    },
+    "resource_title": "Strategies for data acquisition using ultrasonic phased arrays",
+    "resource_doi": "10.1098/rspa.2018.0451",
+    "created_date": "2018-10-08T14:59:08Z",
+    "modified_date": "2023-06-03T13:02:12Z"
+  },
+  {
+    "id": 7178630,
+    "title": "Experimental array data, 1 mm hole at 20 mm depth, Full Matrix Capture from Strategies for data acquisition using ultrasonic phased arrays",
+    "doi": "10.6084/m9.figshare.7178630.v1",
+    "handle": "",
+    "url": "https://api.figshare.com/v2/articles/7178630",
+    "published_date": "2018-10-08T14:59:07Z",
+    "thumb": "",
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 5721,
+    "url_private_api": "https://api.figshare.com/v2/account/articles/7178630",
+    "url_public_api": "https://api.figshare.com/v2/articles/7178630",
+    "url_private_html": "https://figshare.com/account/articles/7178630",
+    "url_public_html": "https://rs.figshare.com/articles/dataset/Experimental_array_data_1_mm_hole_at_20_mm_depth_Full_Matrix_Capture_from_Strategies_for_data_acquisition_using_ultrasonic_phased_arrays/7178630",
+    "timeline": {
+      "posted": "2018-10-08T14:59:07",
+      "firstOnline": "2018-10-08"
+    },
+    "resource_title": "Strategies for data acquisition using ultrasonic phased arrays",
+    "resource_doi": "10.1098/rspa.2018.0451",
+    "created_date": "2018-10-08T14:59:07Z",
+    "modified_date": "2023-06-04T02:07:37Z"
+  },
+  {
+    "id": 7178627,
+    "title": "Experimental array data, 1mm hole at 20 mm depth, 25 plane waves from Strategies for data acquisition using ultrasonic phased arrays",
+    "doi": "10.6084/m9.figshare.7178627.v1",
+    "handle": "",
+    "url": "https://api.figshare.com/v2/articles/7178627",
+    "published_date": "2018-10-08T14:59:06Z",
+    "thumb": "",
+    "defined_type": 3,
+    "defined_type_name": "dataset",
+    "group_id": 5721,
+    "url_private_api": "https://api.figshare.com/v2/account/articles/7178627",
+    "url_public_api": "https://api.figshare.com/v2/articles/7178627",
+    "url_private_html": "https://figshare.com/account/articles/7178627",
+    "url_public_html": "https://rs.figshare.com/articles/dataset/Experimental_array_data_1mm_hole_at_20_mm_depth_25_plane_waves_from_Strategies_for_data_acquisition_using_ultrasonic_phased_arrays/7178627",
+    "timeline": {
+      "posted": "2018-10-08T14:59:06",
+      "firstOnline": "2018-10-08"
+    },
+    "resource_title": "Strategies for data acquisition using ultrasonic phased arrays",
+    "resource_doi": "10.1098/rspa.2018.0451",
+    "created_date": "2018-10-08T14:59:06Z",
+    "modified_date": "2023-05-31T21:00:18Z"
+  }
+]

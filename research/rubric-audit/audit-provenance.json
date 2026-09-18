@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-09-18T09:51:57.235939+00:00",
+  "reviewer": "independent agent B; authored earlier carton and MEP reviews, not their proposals or implementations; audit is not a new candidate adjudication",
+  "inputs": [
+    {
+      "path": "outputs/opensource-jigsaw/docs/rubric-v2.md",
+      "sha256": "1a571b21c96b8ff663dec93a8aae900c4b5c66fa0408c9d75c5066d2f73aab09"
+    },
+    {
+      "path": "outputs/opensource-jigsaw/docs/rubric.md",
+      "sha256": "f5ad6ad9903920df06eb0461bac1f3fbfb105a98dc7040d955ac450c8ad151f4"
+    },
+    {
+      "path": "outputs/opensource-jigsaw/research/round2/dbt-independent-review/judgement.md",
+      "sha256": "928dea78bbd7f8c4e0171b9dbf6a83a6adefe92ecca9e4301fb01c0373022dc3"
+    },
+    {
+      "path": "outputs/opensource-jigsaw/research/round2/carton-independent-review/REVIEW.md",
+      "sha256": "98dbb245f6d67363d4d1213d8a27eb7a73c9f284ee3d7499ec5a525c9015c515"
+    },
+    {
+      "path": "work/mep-independent-review/REVIEW.md",
+      "sha256": "c44dcae6e07157e0af261eb89caa757af54c8367293d7ff95d18a32f706189d8"
+    }
+  ],
+  "decision": "retain frozen numeric thresholds/gates; prospective claim-to-test clarification only",
+  "rescoring": false,
+  "rubric_modified": false
+}

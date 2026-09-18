@@ -1,0 +1,4266 @@
+[
+  {
+    "file": "coating-Tg-development-dataset .xlsx",
+    "bytes": 45565,
+    "sha256": "2255b0926d2845984f16487a283e7b1f15ac0318b4dfa939c66c840b5787cc7a",
+    "tabs": [
+      {
+        "name": "Tg-1\u00baC-min-86\u00baC",
+        "sheetId": "1",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "Tg-1\u00baC-min-98\u00baC",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "Tg-1\u00baC-min-104.2\u00baC",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "Tg-1\u00baC-min-108.7\u00baC",
+        "sheetId": "4",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      },
+      {
+        "name": "Tg-1\u00baC-min-112.3\u00baC",
+        "sheetId": "5",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId5"
+      },
+      {
+        "name": "Tg-1\u00baC-min-115.8\u00baC",
+        "sheetId": "6",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId6"
+      },
+      {
+        "name": "Tg-1\u00baC-min-119.5\u00baC",
+        "sheetId": "7",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId7"
+      },
+      {
+        "name": "Tg-1\u00baC-min-123.9\u00baC",
+        "sheetId": "8",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId8"
+      },
+      {
+        "name": "Tg-1\u00baC-min-129.9\u00baC",
+        "sheetId": "9",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId9"
+      },
+      {
+        "name": "Tg-1\u00baC-min-150\u00baC",
+        "sheetId": "10",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId10"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.5"
+            ],
+            [
+              "B2",
+              "-48.621399999999994"
+            ],
+            [
+              "C2",
+              "-1.0999999999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "5.86"
+            ],
+            [
+              "B3",
+              "-47.262799999999991"
+            ],
+            [
+              "C3",
+              "-1.2E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "7.22"
+            ],
+            [
+              "B4",
+              "-45.904199999999989"
+            ],
+            [
+              "C4",
+              "-1.2E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet10.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "5.14"
+            ],
+            [
+              "B2",
+              "-47.9816"
+            ],
+            [
+              "C2",
+              "-8.0000000000000002E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "7.14"
+            ],
+            [
+              "B3",
+              "-45.983200000000004"
+            ],
+            [
+              "C3",
+              "-8.9999999999999993E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "9.1351999999999922"
+            ],
+            [
+              "B4",
+              "-43.984800000000007"
+            ],
+            [
+              "C4",
+              "-8.9999999999999993E-3"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.6188000000000029"
+            ],
+            [
+              "B2",
+              "-48.501199999999997"
+            ],
+            [
+              "C2",
+              "-8.9999999999999993E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.1"
+            ],
+            [
+              "B3",
+              "-47.022399999999998"
+            ],
+            [
+              "C3",
+              "-0.01"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "7.58"
+            ],
+            [
+              "B4",
+              "-45.543599999999998"
+            ],
+            [
+              "C4",
+              "-0.01"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.6807000000000016"
+            ],
+            [
+              "B2",
+              "-48.439299999999996"
+            ],
+            [
+              "C2",
+              "-0.01"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.23"
+            ],
+            [
+              "B3",
+              "-46.898599999999995"
+            ],
+            [
+              "C3",
+              "-0.01"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "7.77"
+            ],
+            [
+              "B4",
+              "-45.357899999999994"
+            ],
+            [
+              "C4",
+              "-0.01"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.7300000000000004"
+            ],
+            [
+              "B2",
+              "-48.394399999999997"
+            ],
+            [
+              "C2",
+              "-1.7000000000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.311200000000003"
+            ],
+            [
+              "B3",
+              "-46.808799999999998"
+            ],
+            [
+              "C3",
+              "-1.7000000000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "7.9"
+            ],
+            [
+              "B4",
+              "-45.223199999999999"
+            ],
+            [
+              "C4",
+              "-1.7000000000000001E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet5.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.7699999999999996"
+            ],
+            [
+              "B2",
+              "-48.358399999999996"
+            ],
+            [
+              "C2",
+              "-1.4E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.39"
+            ],
+            [
+              "B3",
+              "-46.736799999999995"
+            ],
+            [
+              "C3",
+              "-1.4E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "8.01"
+            ],
+            [
+              "B4",
+              "-45.115199999999994"
+            ],
+            [
+              "C4",
+              "-1.4E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet6.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.79"
+            ],
+            [
+              "B2",
+              "-48.323399999999999"
+            ],
+            [
+              "C2",
+              "-1.2E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.45"
+            ],
+            [
+              "B3",
+              "-46.666800000000002"
+            ],
+            [
+              "C3",
+              "-1.2E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "8.1097999999999928"
+            ],
+            [
+              "B4",
+              "-45.010200000000005"
+            ],
+            [
+              "C4",
+              "-1.2E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet7.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.84"
+            ],
+            [
+              "B2",
+              "-48.2864"
+            ],
+            [
+              "C2",
+              "-1.9E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.53"
+            ],
+            [
+              "B3",
+              "-46.592800000000004"
+            ],
+            [
+              "C3",
+              "-1.9E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "8.23"
+            ],
+            [
+              "B4",
+              "-44.899200000000008"
+            ],
+            [
+              "C4",
+              "-0.02"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet8.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.8775000000000013"
+            ],
+            [
+              "B2",
+              "-48.2425"
+            ],
+            [
+              "C2",
+              "-1.9E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.6149999999999967"
+            ],
+            [
+              "B3",
+              "-46.505000000000003"
+            ],
+            [
+              "C3",
+              "-1.9E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "8.3524999999999956"
+            ],
+            [
+              "B4",
+              "-44.767500000000005"
+            ],
+            [
+              "C4",
+              "-1.9E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet9.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (min)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized) (W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "5.14"
+            ],
+            [
+              "B2",
+              "-47.9816"
+            ],
+            [
+              "C2",
+              "-8.0000000000000002E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "7.14"
+            ],
+            [
+              "B3",
+              "-45.983200000000004"
+            ],
+            [
+              "C3",
+              "-8.9999999999999993E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "9.1351999999999922"
+            ],
+            [
+              "B4",
+              "-43.984800000000007"
+            ],
+            [
+              "C4",
+              "-8.9999999999999993E-3"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "coating-Chemorheology-dataset.xlsx",
+    "bytes": 25200,
+    "sha256": "68fa84ca5aa54c6c3635a43682f86f3a5d5c8fb84ba19f4a915f96df0e4dbf4e",
+    "tabs": [
+      {
+        "name": "80\u00baC",
+        "sheetId": "1",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "90\u00baC",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "100\u00baC",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "110\u00baC",
+        "sheetId": "4",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Temperature \u00baC"
+            ],
+            [
+              "B1",
+              "Time (min)"
+            ],
+            [
+              "C1",
+              "viscosity (Pa.s) "
+            ]
+          ],
+          [
+            [
+              "A2",
+              "80"
+            ],
+            [
+              "B2",
+              "0.12013333333333334"
+            ],
+            [
+              "C2",
+              "0.1396"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "80"
+            ],
+            [
+              "B3",
+              "0.31164713804713801"
+            ],
+            [
+              "C3",
+              "0.14055540762572624"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "80"
+            ],
+            [
+              "B4",
+              "0.5031609427609427"
+            ],
+            [
+              "C4",
+              "0.14159023007856342"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Temperature \u00baC"
+            ],
+            [
+              "B1",
+              "Time (min)"
+            ],
+            [
+              "C1",
+              "viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "90"
+            ],
+            [
+              "B2",
+              "0.12006666666666667"
+            ],
+            [
+              "C2",
+              "8.4400000000000003E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "90"
+            ],
+            [
+              "B3",
+              "0.25703737373737373"
+            ],
+            [
+              "C3",
+              "8.511709035415195E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "90"
+            ],
+            [
+              "B4",
+              "0.39400808080808075"
+            ],
+            [
+              "C4",
+              "8.5999774790708639E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:C101"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Temperature \u00baC"
+            ],
+            [
+              "B1",
+              "Time (min)"
+            ],
+            [
+              "C1",
+              "viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "100"
+            ],
+            [
+              "B2",
+              "0.11993333333333332"
+            ],
+            [
+              "C2",
+              "6.053E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "100"
+            ],
+            [
+              "B3",
+              "0.20841548821548819"
+            ],
+            [
+              "C3",
+              "6.1311592368125702E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "100"
+            ],
+            [
+              "B4",
+              "0.29689764309764305"
+            ],
+            [
+              "C4",
+              "6.2053406393766108E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:C100"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Temperature \u00baC"
+            ],
+            [
+              "B1",
+              "Time (min)"
+            ],
+            [
+              "C1",
+              "viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "110"
+            ],
+            [
+              "B2",
+              "0.12000000000000001"
+            ],
+            [
+              "C2",
+              "4.4850000000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "110"
+            ],
+            [
+              "B3",
+              "0.17575757575757575"
+            ],
+            [
+              "C3",
+              "4.5500143859472007E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "110"
+            ],
+            [
+              "B4",
+              "0.23151515151515151"
+            ],
+            [
+              "C4",
+              "4.6150287718944021E-2"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "benzoxazine-Chemorheology-dataset.xlsx",
+    "bytes": 36183,
+    "sha256": "4d152fcd159d17d136ddb6e8dce1e9402a0f7a3026bf78a3298feda29429a015",
+    "tabs": [
+      {
+        "name": "100\u00b0C",
+        "sheetId": "5",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "110\u00b0C",
+        "sheetId": "6",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "120\u00b0C",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "130\u00b0C",
+        "sheetId": "7",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:J416"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "100"
+            ],
+            [
+              "C2",
+              "1.119"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "10"
+            ],
+            [
+              "B3",
+              "100"
+            ],
+            [
+              "C3",
+              "1.127"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "20.012"
+            ],
+            [
+              "B4",
+              "100"
+            ],
+            [
+              "C4",
+              "1.1279999999999999"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:J334"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "110"
+            ],
+            [
+              "C2",
+              "0.49730000000000002"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "9.9919999999999991"
+            ],
+            [
+              "B3",
+              "110"
+            ],
+            [
+              "C3",
+              "0.49940000000000001"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "20.012"
+            ],
+            [
+              "B4",
+              "110"
+            ],
+            [
+              "C4",
+              "0.50380000000000003"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:H323"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "120"
+            ],
+            [
+              "C2",
+              "0.32340000000000002"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "9.9839999999999982"
+            ],
+            [
+              "B3",
+              "120"
+            ],
+            [
+              "C3",
+              "0.32769999999999999"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "19.983999999999998"
+            ],
+            [
+              "B4",
+              "120"
+            ],
+            [
+              "C4",
+              "0.33610000000000001"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:C127"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Viscosity (Pa.s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "130"
+            ],
+            [
+              "C2",
+              "0.1447"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "10.007999999999999"
+            ],
+            [
+              "B3",
+              "130"
+            ],
+            [
+              "C3",
+              "0.1487"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "20"
+            ],
+            [
+              "B4",
+              "130"
+            ],
+            [
+              "C4",
+              "0.1515"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "benzoxazine-Cure-kinetics-dataset.xlsx",
+    "bytes": 157743,
+    "sha256": "64bf96e34817114005f7c54672e78bdc78634a62b3cf00f10f970d3d123c2544",
+    "tabs": [
+      {
+        "name": "10\u00b0C-min",
+        "sheetId": "1",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "5\u00b0C-min",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "2.5\u00b0C-min",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "150\u00b0C",
+        "sheetId": "16",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      },
+      {
+        "name": "160\u00b0C",
+        "sheetId": "15",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId5"
+      },
+      {
+        "name": "170\u00b0C",
+        "sheetId": "14",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId6"
+      },
+      {
+        "name": "180\u00b0C",
+        "sheetId": "13",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId7"
+      },
+      {
+        "name": "190\u00b0C",
+        "sheetId": "11",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId8"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:Q302"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ],
+            [
+              "Q1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "118.01"
+            ],
+            [
+              "C2",
+              "1.0000000000000063E-2"
+            ],
+            [
+              "D2",
+              "1.4002817006547289E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "2.5122000000001208"
+            ],
+            [
+              "B3",
+              "118.43100000000001"
+            ],
+            [
+              "C3",
+              "1.0000351778768901E-2"
+            ],
+            [
+              "D3",
+              "5.2926364329569623E-7"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "5.0616000000002259"
+            ],
+            [
+              "B4",
+              "118.85200000000002"
+            ],
+            [
+              "C4",
+              "1.0001701083501119E-2"
+            ],
+            [
+              "D4",
+              "8.5134102322759379E-7"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:J301"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "109.07"
+            ],
+            [
+              "C2",
+              "1.0000000000000064E-2"
+            ],
+            [
+              "D2",
+              "1.4932714204095514E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "4.9580999999998312"
+            ],
+            [
+              "B3",
+              "109.48549999999999"
+            ],
+            [
+              "C3",
+              "1.0000740378903018E-2"
+            ],
+            [
+              "D3",
+              "2.7689780540774909E-7"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "10.012199999999666"
+            ],
+            [
+              "B4",
+              "109.90099999999998"
+            ],
+            [
+              "C4",
+              "1.0002139848101329E-2"
+            ],
+            [
+              "D4",
+              "5.444466247537496E-7"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:J302"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "99"
+            ],
+            [
+              "C2",
+              "1.0000000000000064E-2"
+            ],
+            [
+              "D2",
+              "6.0041667127423467E-8"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "9.7420000000001892"
+            ],
+            [
+              "B3",
+              "99.404166666666669"
+            ],
+            [
+              "C3",
+              "1.000058492592122E-2"
+            ],
+            [
+              "D3",
+              "1.1099571697821588E-7"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "19.382000000000517"
+            ],
+            [
+              "B4",
+              "99.808333333333337"
+            ],
+            [
+              "C4",
+              "1.000165492463289E-2"
+            ],
+            [
+              "D4",
+              "1.3863149035870781E-7"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:H302"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "150"
+            ],
+            [
+              "C2",
+              "2.7491539548878671E-2"
+            ],
+            [
+              "D2",
+              "2.1291751267371519E-4"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "59.801659999999856"
+            ],
+            [
+              "B3",
+              "150"
+            ],
+            [
+              "C3",
+              "4.0224360249837887E-2"
+            ],
+            [
+              "D3",
+              "2.4823465507569167E-4"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "119.60331999999994"
+            ],
+            [
+              "B4",
+              "150"
+            ],
+            [
+              "C4",
+              "5.5069204692891685E-2"
+            ],
+            [
+              "D4",
+              "2.7280362900822231E-4"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet5.xml",
+        "dimension": {
+          "ref": "A1:K302"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "159.99"
+            ],
+            [
+              "C2",
+              "4.7519176964195636E-2"
+            ],
+            [
+              "D2",
+              "4.4607347823802303E-4"
+            ],
+            [
+              "H2",
+              ""
+            ],
+            [
+              "I2",
+              ""
+            ],
+            [
+              "J2",
+              ""
+            ],
+            [
+              "K2",
+              ""
+            ]
+          ],
+          [
+            [
+              "A3",
+              "37.869340000000193"
+            ],
+            [
+              "B3",
+              "159.99"
+            ],
+            [
+              "C3",
+              "6.4411685176573974E-2"
+            ],
+            [
+              "D3",
+              "5.3918873903348113E-4"
+            ],
+            [
+              "H3",
+              ""
+            ],
+            [
+              "I3",
+              ""
+            ],
+            [
+              "J3",
+              ""
+            ],
+            [
+              "K3",
+              ""
+            ]
+          ],
+          [
+            [
+              "A4",
+              "75.738680000000386"
+            ],
+            [
+              "B4",
+              "159.99"
+            ],
+            [
+              "C4",
+              "8.4830406859204191E-2"
+            ],
+            [
+              "D4",
+              "6.0863805572913051E-4"
+            ],
+            [
+              "H4",
+              ""
+            ],
+            [
+              "I4",
+              ""
+            ],
+            [
+              "J4",
+              ""
+            ],
+            [
+              "K4",
+              ""
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet6.xml",
+        "dimension": {
+          "ref": "A1:H301"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "170.02"
+            ],
+            [
+              "C2",
+              "7.6401320554122923E-2"
+            ],
+            [
+              "D2",
+              "1.1415311223226508E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "37.227999999999838"
+            ],
+            [
+              "B3",
+              "170.02"
+            ],
+            [
+              "C3",
+              "0.11889824117595048"
+            ],
+            [
+              "D3",
+              "1.3258857278747301E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "74.455999999999904"
+            ],
+            [
+              "B4",
+              "170.02"
+            ],
+            [
+              "C4",
+              "0.16825831505327082"
+            ],
+            [
+              "D4",
+              "1.4668408354904503E-3"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet7.xml",
+        "dimension": {
+          "ref": "A1:D291"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "180.11"
+            ],
+            [
+              "C2",
+              "0.27343863202888996"
+            ],
+            [
+              "D2",
+              "2.8234188501260553E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "20.473000000000184"
+            ],
+            [
+              "B3",
+              "180.11"
+            ],
+            [
+              "C3",
+              "0.33124248614752089"
+            ],
+            [
+              "D3",
+              "2.7606923654127364E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "40.94600000000014"
+            ],
+            [
+              "B4",
+              "180.11"
+            ],
+            [
+              "C4",
+              "0.38776214094461603"
+            ],
+            [
+              "D4",
+              "2.5112465648418143E-3"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet8.xml",
+        "dimension": {
+          "ref": "A1:H290"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "190.09"
+            ],
+            [
+              "C2",
+              "0.50018270956813549"
+            ],
+            [
+              "D2",
+              "3.8364748440164746E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "9.6666800000000421"
+            ],
+            [
+              "B3",
+              "190.09"
+            ],
+            [
+              "C3",
+              "0.53726868421329288"
+            ],
+            [
+              "D3",
+              "3.5224865430692536E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "19.333360000000084"
+            ],
+            [
+              "B4",
+              "190.09"
+            ],
+            [
+              "C4",
+              "0.57131943442944977"
+            ],
+            [
+              "D4",
+              "3.1304603051131993E-3"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "coating-Stress-relaxation-dataset.xlsx",
+    "bytes": 25834,
+    "sha256": "05ed1a72771336e9f75d795369667ad104642573d69392d838dab279cc2ce4b9",
+    "tabs": [
+      {
+        "name": "190\u00baC",
+        "sheetId": "1",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "200\u00baC",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "210\u00baC",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "220\u00baC",
+        "sheetId": "4",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:K55"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Stress(Mpa)"
+            ],
+            [
+              "D1",
+              "Strain(%)"
+            ],
+            [
+              "E1",
+              "Relaxation Modulus(Mpa)"
+            ],
+            [
+              "F1",
+              "Normalised relaxation modulus (-)"
+            ],
+            [
+              "H1",
+              ""
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ],
+            [
+              "K1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "1.000000000000334E-3"
+            ],
+            [
+              "B2",
+              "190.02384624592946"
+            ],
+            [
+              "C2",
+              "0.37686947096729811"
+            ],
+            [
+              "D2",
+              "2.99"
+            ],
+            [
+              "E2",
+              "12.6045657909462"
+            ],
+            [
+              "F2",
+              "1"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.15515322151997157"
+            ],
+            [
+              "B3",
+              "190.02379999999999"
+            ],
+            [
+              "C3",
+              "0.37828640000000002"
+            ],
+            [
+              "D3",
+              "3.003444"
+            ],
+            [
+              "E3",
+              "12.595090000000001"
+            ],
+            [
+              "F3",
+              "0.9992482255157884"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.5"
+            ],
+            [
+              "B4",
+              "190.02355860701365"
+            ],
+            [
+              "C4",
+              "0.37792489676061619"
+            ],
+            [
+              "D4",
+              "3.0030398391714606"
+            ],
+            [
+              "E4",
+              "12.584739413593336"
+            ],
+            [
+              "F4",
+              "0.998427047969625"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:K55"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Stress(Mpa)"
+            ],
+            [
+              "D1",
+              "Strain(%)"
+            ],
+            [
+              "E1",
+              "Relaxation Modulus(Mpa)"
+            ],
+            [
+              "F1",
+              "Normalised relaxation modulus (-)"
+            ],
+            [
+              "H1",
+              ""
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ],
+            [
+              "K1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "1.000000000000334E-3"
+            ],
+            [
+              "B2",
+              "200.03799779076155"
+            ],
+            [
+              "C2",
+              "0.45497755534889583"
+            ],
+            [
+              "D2",
+              "2.99"
+            ],
+            [
+              "E2",
+              "15.216564753283699"
+            ],
+            [
+              "F2",
+              "1"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "8.3641252874082639E-3"
+            ],
+            [
+              "B3",
+              "200.03800000000001"
+            ],
+            [
+              "C3",
+              "0.45525379999999999"
+            ],
+            [
+              "D3",
+              "2.9916360000000002"
+            ],
+            [
+              "E3",
+              "15.217549999999999"
+            ],
+            [
+              "F3",
+              "1.0000647483010965"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.5"
+            ],
+            [
+              "B4",
+              "200.03755752806674"
+            ],
+            [
+              "C4",
+              "0.45493236872225795"
+            ],
+            [
+              "D4",
+              "2.9971841064076465"
+            ],
+            [
+              "E4",
+              "15.178730462388323"
+            ],
+            [
+              "F4",
+              "0.99751361154709961"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:K49"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Stress(Mpa)"
+            ],
+            [
+              "D1",
+              "Strain(%)"
+            ],
+            [
+              "E1",
+              "Relaxation Modulus(Mpa)"
+            ],
+            [
+              "F1",
+              "Normalised relaxation modulus (-)"
+            ],
+            [
+              "H1",
+              ""
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ],
+            [
+              "K1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "1.000000000000334E-3"
+            ],
+            [
+              "B2",
+              "210.0204"
+            ],
+            [
+              "C2",
+              "0.44589302151325722"
+            ],
+            [
+              "D2",
+              "2.99"
+            ],
+            [
+              "E2",
+              "14.912836796723431"
+            ],
+            [
+              "F2",
+              "1"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.5"
+            ],
+            [
+              "B3",
+              "210.0204"
+            ],
+            [
+              "C3",
+              "0.4465415213944573"
+            ],
+            [
+              "D3",
+              "2.9969445774443382"
+            ],
+            [
+              "E3",
+              "14.899917697058711"
+            ],
+            [
+              "F3",
+              "0.99913369268095542"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.75367718473807344"
+            ],
+            [
+              "B4",
+              "210.0204"
+            ],
+            [
+              "C4",
+              "0.44687120000000002"
+            ],
+            [
+              "D4",
+              "3.0004749999999998"
+            ],
+            [
+              "E4",
+              "14.89335"
+            ],
+            [
+              "F4",
+              "0.99869328706609917"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:K48"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Stress(Mpa)"
+            ],
+            [
+              "D1",
+              "Strain(%)"
+            ],
+            [
+              "E1",
+              "Relaxation Modulus(Mpa)"
+            ],
+            [
+              "F1",
+              "Normalised relaxation modulus (-)"
+            ],
+            [
+              "H1",
+              ""
+            ],
+            [
+              "I1",
+              ""
+            ],
+            [
+              "J1",
+              ""
+            ],
+            [
+              "K1",
+              ""
+            ]
+          ],
+          [
+            [
+              "A2",
+              "1.000000000000334E-3"
+            ],
+            [
+              "B2",
+              "220.01887087594488"
+            ],
+            [
+              "C2",
+              "0.44962733170297914"
+            ],
+            [
+              "D2",
+              "2.99"
+            ],
+            [
+              "E2",
+              "15.037722783459314"
+            ],
+            [
+              "F2",
+              "1"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.5"
+            ],
+            [
+              "B3",
+              "220.01857147618441"
+            ],
+            [
+              "C3",
+              "0.45030237836294179"
+            ],
+            [
+              "D3",
+              "2.9967335006131997"
+            ],
+            [
+              "E3",
+              "15.026460362469251"
+            ],
+            [
+              "F3",
+              "0.9992510554189461"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.78579386927522688"
+            ],
+            [
+              "B4",
+              "220.01840000000001"
+            ],
+            [
+              "C4",
+              "0.45068900000000001"
+            ],
+            [
+              "D4",
+              "3.0005899999999999"
+            ],
+            [
+              "E4",
+              "15.020009999999999"
+            ],
+            [
+              "F4",
+              "0.99882210998870136"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "coating-Cure-kinetics-dataset.xlsx",
+    "bytes": 275373,
+    "sha256": "d81278fa3c88cf0c61993d0d8edf27d8dec63412ef8ec11f03680e33b384759f",
+    "tabs": [
+      {
+        "name": "3\u00baC min",
+        "sheetId": "1",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "2.5\u00baC min",
+        "sheetId": "2",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "2 \u00baC min",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "1.5\u00baC min",
+        "sheetId": "4",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      },
+      {
+        "name": "1\u00baC min",
+        "sheetId": "5",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId5"
+      },
+      {
+        "name": "100\u00baC",
+        "sheetId": "6",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId6"
+      },
+      {
+        "name": "110\u00baC",
+        "sheetId": "7",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId7"
+      },
+      {
+        "name": "120\u00baC",
+        "sheetId": "8",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId8"
+      },
+      {
+        "name": "130\u00baC",
+        "sheetId": "9",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId9"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:D345"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "37.380001"
+            ],
+            [
+              "B2",
+              "61.749523000000003"
+            ],
+            [
+              "C2",
+              "3.0687219128897685E-9"
+            ],
+            [
+              "D2",
+              "6.4577580497562793E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "37.485319768955137"
+            ],
+            [
+              "B3",
+              "62.065194486000003"
+            ],
+            [
+              "C3",
+              "4.0838074899756161E-6"
+            ],
+            [
+              "D3",
+              "2.1042205005600683E-6"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "37.590554759841034"
+            ],
+            [
+              "B4",
+              "62.380865972000002"
+            ],
+            [
+              "C4",
+              "1.7370065001877021E-5"
+            ],
+            [
+              "D4",
+              "3.584813775423215E-6"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:D502"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "40.681665000000002"
+            ],
+            [
+              "B2",
+              "51.376694000000001"
+            ],
+            [
+              "C2",
+              "2.9539476809370568E-9"
+            ],
+            [
+              "D2",
+              "5.4366907517066362E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "40.7680814962809"
+            ],
+            [
+              "B3",
+              "51.592506286000003"
+            ],
+            [
+              "C3",
+              "2.8218725444324018E-6"
+            ],
+            [
+              "D3",
+              "1.316100440347517E-6"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "40.854040426330101"
+            ],
+            [
+              "B4",
+              "51.808318572000005"
+            ],
+            [
+              "C4",
+              "9.6097076858057599E-6"
+            ],
+            [
+              "D4",
+              "2.0494136836572345E-6"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:D502"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "46.130001"
+            ],
+            [
+              "B2",
+              "42.002879999999998"
+            ],
+            [
+              "C2",
+              "5.8827687318099827E-9"
+            ],
+            [
+              "D2",
+              "8.3117282907722981E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "46.247202788543362"
+            ],
+            [
+              "B3",
+              "42.237110171999994"
+            ],
+            [
+              "C3",
+              "5.8507792981216484E-6"
+            ],
+            [
+              "D3",
+              "1.580569294199238E-6"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "46.364289469905643"
+            ],
+            [
+              "B4",
+              "42.471340343999991"
+            ],
+            [
+              "C4",
+              "1.6954596097376328E-5"
+            ],
+            [
+              "D4",
+              "2.2426866703077934E-6"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:D500"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "58.321666999999998"
+            ],
+            [
+              "B2",
+              "37.284171999999998"
+            ],
+            [
+              "C2",
+              "2.8428787131993789E-9"
+            ],
+            [
+              "D2",
+              "3.9776380241023834E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "58.475592459053487"
+            ],
+            [
+              "B3",
+              "37.515084858000002"
+            ],
+            [
+              "C3",
+              "3.676401431564646E-6"
+            ],
+            [
+              "D3",
+              "5.1263488022158919E-7"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "58.629258948885877"
+            ],
+            [
+              "B4",
+              "37.745997716000005"
+            ],
+            [
+              "C4",
+              "8.4028895881225788E-6"
+            ],
+            [
+              "D4",
+              "9.3900776324794552E-7"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet5.xml",
+        "dimension": {
+          "ref": "A1:D502"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "83.663330000000002"
+            ],
+            [
+              "B2",
+              "33.527518999999998"
+            ],
+            [
+              "C2",
+              "2.7947586068615897E-9"
+            ],
+            [
+              "D2",
+              "1.6012401160938594E-7"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "83.852253273469245"
+            ],
+            [
+              "B3",
+              "33.716436357999996"
+            ],
+            [
+              "C3",
+              "1.8178639046631952E-6"
+            ],
+            [
+              "D3",
+              "3.4213709238351069E-7"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "84.041424979688074"
+            ],
+            [
+              "B4",
+              "33.905353715999993"
+            ],
+            [
+              "C4",
+              "5.7012233562794685E-6"
+            ],
+            [
+              "D4",
+              "6.7421491324579205E-7"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet6.xml",
+        "dimension": {
+          "ref": "A1:D420"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "5.89"
+            ],
+            [
+              "B2",
+              "99.983795000000001"
+            ],
+            [
+              "C2",
+              "6.0973507670260045E-5"
+            ],
+            [
+              "D2",
+              "6.2217060890584818E-4"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "6.1469833299999994"
+            ],
+            [
+              "B3",
+              "100.00081419894421"
+            ],
+            [
+              "C3",
+              "9.6542220019554016E-3"
+            ],
+            [
+              "D3",
+              "6.4223933781629064E-4"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "6.4039666599999991"
+            ],
+            [
+              "B4",
+              "100.00999706201681"
+            ],
+            [
+              "C4",
+              "1.9556910223296909E-2"
+            ],
+            [
+              "D4",
+              "6.5726641914991648E-4"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet7.xml",
+        "dimension": {
+          "ref": "A1:D502"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "5.3666669999999996"
+            ],
+            [
+              "B2",
+              "109.888542"
+            ],
+            [
+              "C2",
+              "8.8025906833304424E-5"
+            ],
+            [
+              "D2",
+              "8.9255551095840358E-4"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "5.4989169999999996"
+            ],
+            [
+              "B3",
+              "109.92974150869826"
+            ],
+            [
+              "C3",
+              "7.1704538862882349E-3"
+            ],
+            [
+              "D3",
+              "9.159621413000219E-4"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "5.6311669999999996"
+            ],
+            [
+              "B4",
+              "109.95998615836832"
+            ],
+            [
+              "C4",
+              "1.4438613477503907E-2"
+            ],
+            [
+              "D4",
+              "9.3751674938855533E-4"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet8.xml",
+        "dimension": {
+          "ref": "A1:D500"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.7466660000000003"
+            ],
+            [
+              "B2",
+              "119.42295799999999"
+            ],
+            [
+              "C2",
+              "8.770415880133192E-5"
+            ],
+            [
+              "D2",
+              "8.8956437450467686E-4"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "4.8327693320000007"
+            ],
+            [
+              "B3",
+              "119.51285088433613"
+            ],
+            [
+              "C3",
+              "4.6833715592022656E-3"
+            ],
+            [
+              "D3",
+              "9.1423267557203111E-4"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "4.9188726640000011"
+            ],
+            [
+              "B4",
+              "119.59459133332214"
+            ],
+            [
+              "C4",
+              "9.4064803346039019E-3"
+            ],
+            [
+              "D4",
+              "9.4049592132921774E-4"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet9.xml",
+        "dimension": {
+          "ref": "A1:D475"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "\u03b1(-)"
+            ],
+            [
+              "D1",
+              "d\u03b1/dt(1/s)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "4.68"
+            ],
+            [
+              "B2",
+              "129.33194"
+            ],
+            [
+              "C2",
+              "2.0916282876573813E-4"
+            ],
+            [
+              "D2",
+              "2.1604319488454202E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "4.7637766699999995"
+            ],
+            [
+              "B3",
+              "129.42999651835632"
+            ],
+            [
+              "C3",
+              "1.1068790494918487E-2"
+            ],
+            [
+              "D3",
+              "2.2586674830002893E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "4.8475533399999993"
+            ],
+            [
+              "B4",
+              "129.51944404724654"
+            ],
+            [
+              "C4",
+              "2.2422208916701207E-2"
+            ],
+            [
+              "D4",
+              "2.3290771271530595E-3"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "benzoxazine-Tg-advancement-dataset.xlsx",
+    "bytes": 5023712,
+    "sha256": "5c94d5e91943d88aed3e99d126e8b325d2aefc602baf9483cb14609aca94b64c",
+    "tabs": [
+      {
+        "name": "Tg_1.25\u00b0C-min-146\u00b0C",
+        "sheetId": "3",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-153\u00b0C",
+        "sheetId": "6",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-158\u00b0C",
+        "sheetId": "8",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId3"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-162\u00b0C",
+        "sheetId": "10",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId4"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-167\u00b0C",
+        "sheetId": "12",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId5"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-173\u00b0C",
+        "sheetId": "13",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId6"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-179\u00b0C",
+        "sheetId": "16",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId7"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-185\u00b0C",
+        "sheetId": "18",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId8"
+      },
+      {
+        "name": "Tg_1.25\u00b0C-min-194\u00b0C",
+        "sheetId": "21",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId9"
+      },
+      {
+        "name": "Tg_170\u00b0C; 2h_190\u00b0C; 30min",
+        "sheetId": "9",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId10"
+      },
+      {
+        "name": "Tg_uncured sample",
+        "sheetId": "22",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId11"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:C16767"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.987299999999998"
+            ],
+            [
+              "C2",
+              "1.13379E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.988100000000003"
+            ],
+            [
+              "C3",
+              "1.1336799999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.988700000000001"
+            ],
+            [
+              "C4",
+              "1.1339399999999999E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet10.xml",
+        "dimension": {
+          "ref": "A1:C14667"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "0.01"
+            ],
+            [
+              "C2",
+              "1.4E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10199999999997544"
+            ],
+            [
+              "B3",
+              "0.01"
+            ],
+            [
+              "C3",
+              "1.4E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19800000000003593"
+            ],
+            [
+              "B4",
+              "0.01"
+            ],
+            [
+              "C4",
+              "1.4E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet11.xml",
+        "dimension": {
+          "ref": "A1:C18037"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.99"
+            ],
+            [
+              "C2",
+              "7.0000000000000001E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10199999999997544"
+            ],
+            [
+              "B3",
+              "-49.99"
+            ],
+            [
+              "C3",
+              "7.0000000000000001E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19800000000003593"
+            ],
+            [
+              "B4",
+              "-49.99"
+            ],
+            [
+              "C4",
+              "7.0000000000000001E-3"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:C16766"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.9863"
+            ],
+            [
+              "C2",
+              "1.0444699999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.987000000000002"
+            ],
+            [
+              "C3",
+              "1.04546E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.987699999999997"
+            ],
+            [
+              "C4",
+              "1.04624E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet3.xml",
+        "dimension": {
+          "ref": "A1:C16767"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.988900000000001"
+            ],
+            [
+              "C2",
+              "1.6709100000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.988300000000002"
+            ],
+            [
+              "C3",
+              "1.6698399999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.988500000000002"
+            ],
+            [
+              "C4",
+              "1.6685499999999999E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet4.xml",
+        "dimension": {
+          "ref": "A1:C16767"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.988700000000001"
+            ],
+            [
+              "C2",
+              "1.7477800000000002E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.987400000000001"
+            ],
+            [
+              "C3",
+              "1.7476999999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.987900000000003"
+            ],
+            [
+              "C4",
+              "1.74792E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet5.xml",
+        "dimension": {
+          "ref": "A1:C16766"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.986199999999997"
+            ],
+            [
+              "C2",
+              "1.0428E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.9861"
+            ],
+            [
+              "C3",
+              "1.0430200000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.987400000000001"
+            ],
+            [
+              "C4",
+              "1.0430699999999999E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet6.xml",
+        "dimension": {
+          "ref": "A1:C16766"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.986600000000003"
+            ],
+            [
+              "C2",
+              "1.04984E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.986400000000003"
+            ],
+            [
+              "C3",
+              "1.0501099999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.9861"
+            ],
+            [
+              "C4",
+              "1.05036E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet7.xml",
+        "dimension": {
+          "ref": "A1:C17666"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.986199999999997"
+            ],
+            [
+              "C2",
+              "1.4265E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.986499999999999"
+            ],
+            [
+              "C3",
+              "1.4255800000000001E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.986600000000003"
+            ],
+            [
+              "C4",
+              "1.42492E-2"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet8.xml",
+        "dimension": {
+          "ref": "A1:C17667"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.986899999999999"
+            ],
+            [
+              "C2",
+              "8.32923E-3"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.987499999999997"
+            ],
+            [
+              "C3",
+              "8.3298199999999999E-3"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.987099999999998"
+            ],
+            [
+              "C4",
+              "8.3268100000000005E-3"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet9.xml",
+        "dimension": {
+          "ref": "A1:C17667"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time(s)"
+            ],
+            [
+              "B1",
+              "Temperature(\u00b0C)"
+            ],
+            [
+              "C1",
+              "Heat Flow (Normalized)(W/g)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "-49.986699999999999"
+            ],
+            [
+              "C2",
+              "1.2519799999999999E-2"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "0.10019999999997253"
+            ],
+            [
+              "B3",
+              "-49.987000000000002"
+            ],
+            [
+              "C3",
+              "1.25208E-2"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "0.19979999999998199"
+            ],
+            [
+              "B4",
+              "-49.986699999999999"
+            ],
+            [
+              "C4",
+              "1.25214E-2"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "benzoxazine-Cure rheology-dataset.xlsx",
+    "bytes": 84464,
+    "sha256": "1746623d3c383d7de9cb3740faebe8a4a5b7a926995e848e2719a4d525d02858",
+    "tabs": [
+      {
+        "name": "130\u00b0C",
+        "sheetId": "21",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId1"
+      },
+      {
+        "name": "150\u00b0C",
+        "sheetId": "10",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      }
+    ],
+    "sheets": [
+      {
+        "xml": "xl/worksheets/sheet1.xml",
+        "dimension": {
+          "ref": "A1:J1715"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Complex viscosity (Pas)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "122.57"
+            ],
+            [
+              "C2",
+              "2.31427"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "5.9999999999999991"
+            ],
+            [
+              "B3",
+              "123.07"
+            ],
+            [
+              "C3",
+              "3.8932500000000001"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "11.4"
+            ],
+            [
+              "B4",
+              "123.59"
+            ],
+            [
+              "C4",
+              "2.4184399999999999"
+            ]
+          ]
+        ]
+      },
+      {
+        "xml": "xl/worksheets/sheet2.xml",
+        "dimension": {
+          "ref": "A1:J1287"
+        },
+        "first4rows": [
+          [
+            [
+              "A1",
+              "Time (s)"
+            ],
+            [
+              "B1",
+              "Temperature (\u00b0C)"
+            ],
+            [
+              "C1",
+              "Complex viscosity (Pas)"
+            ]
+          ],
+          [
+            [
+              "A2",
+              "0"
+            ],
+            [
+              "B2",
+              "149.9"
+            ],
+            [
+              "C2",
+              "0.140151"
+            ]
+          ],
+          [
+            [
+              "A3",
+              "5.9999999999999991"
+            ],
+            [
+              "B3",
+              "149.85"
+            ],
+            [
+              "C3",
+              "0.458042"
+            ]
+          ],
+          [
+            [
+              "A4",
+              "10.799999999999999"
+            ],
+            [
+              "B4",
+              "149.82"
+            ],
+            [
+              "C4",
+              "0.91576900000000006"
+            ]
+          ]
+        ]
+      }
+    ]
+  }
+]

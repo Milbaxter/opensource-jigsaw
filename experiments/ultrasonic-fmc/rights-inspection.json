@@ -1,0 +1,48 @@
+[
+  {
+    "package": "finufft",
+    "version": "2.5.1",
+    "wheel": "finufft-2.5.1-py3-none-macosx_14_0_arm64.whl",
+    "url": "https://files.pythonhosted.org/packages/b1/8c/2cb49aa7d6adfeb455bb544d18bf7777da1c0b7b239830d795b866ac3a46/finufft-2.5.1-py3-none-macosx_14_0_arm64.whl",
+    "sha256": "3f57c3ab02a050980ba578d9f322305e77f538009ebf8cb70df77c95443f031e",
+    "bytes": 2731206,
+    "license_files": []
+  },
+  {
+    "repo": "sufayanm/Fourier_beamforming",
+    "commit": "246d97a9ff19983e0b047cd259e3ac62c6b3b88a",
+    "license_file": "LICENSE",
+    "license_sha256": "e6c52a90a25e1a4b1b04c190348d18adeeee07ce9d39cf040de3e62052b4db22",
+    "url": "https://github.com/sufayanm/Fourier_beamforming/blob/246d97a9ff19983e0b047cd259e3ac62c6b3b88a/LICENSE",
+    "detected": "BSD-3-Clause"
+  },
+  {
+    "repo": "ndtatbristol/arim",
+    "commit": "0cee9de26ae995ca80e00bc67801ffb3b1188e44",
+    "license_file": "LICENSE.txt",
+    "license_sha256": "e550b166749321d0c3f4a65c292ed662d0b3af3440517bddf047e2eceb730e6e",
+    "url": "https://github.com/ndtatbristol/arim/blob/0cee9de26ae995ca80e00bc67801ffb3b1188e44/LICENSE.txt",
+    "detected": "MIT"
+  },
+  {
+    "repo": "flatironinstitute/finufft",
+    "ref": "v2.5.1",
+    "path": "LICENSE",
+    "sha256": "18c265b01ff2f4c5cdacd9fe9e5dcf0407e2a4e679615c6eb7e303504fdcd8ce",
+    "url": "https://github.com/flatironinstitute/finufft/blob/v2.5.1/LICENSE",
+    "finding": "Apache-2.0 main source; NOTICE identifies FFTW GPL-2.0-or-later, optional DUCC FFT component BSD3/GPL dual."
+  },
+  {
+    "repo": "flatironinstitute/finufft",
+    "ref": "v2.5.1",
+    "path": "NOTICE",
+    "sha256": "7c4158e6f6dd27f00e251a12ee25daecc893debb8e1d80ddb0eebdbdef55c293",
+    "url": "https://github.com/flatironinstitute/finufft/blob/v2.5.1/NOTICE",
+    "finding": "Apache-2.0 main source; NOTICE identifies FFTW GPL-2.0-or-later, optional DUCC FFT component BSD3/GPL dual."
+  },
+  {
+    "repo": "flatironinstitute/finufft",
+    "tag": "v2.5.1",
+    "commit": "679d9ae59fe0146c50da360e5a3fee70ae3aa646"
+  }
+]

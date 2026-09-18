@@ -1,0 +1,11 @@
+# Exact dependency rights inspection before execution
+
+FINUFFT 2.5.1 macOS ARM64 wheel was downloaded and its SHA-256 checked against PyPI. It contains libfftw3.a, libfftw3f.a and corresponding OpenMP archives, as well as libfinufft.dylib and libomp.dylib. It has no standalone LICENSE or NOTICE file. The package metadata classifies the main code as Apache; the exact v2.5.1 source LICENSE confirms Apache-2.0, while its NOTICE identifies FFTW as GPL-2.0-or-later and the optional DUCC FFT code as dual BSD3/GPL. Therefore this selected wheel must not be described as Apache-only. Independent reviewer also found FFTW symbols in its native library.
+
+This is a local benchmark using the downloaded dependency, with source/results publication and no third-party binary redistribution. Generated combined benchmark source should be released GPL-3.0-or-later (compatible with Apache-2.0, MIT and BSD3 components) rather than asserting a closed-source redistributable product. Preserve all relevant attribution/notice obligations for adapted DCWA code. If later shipping a binary, review its exact native dependency notices/source obligations; a permissive DUCC build is a possible separate route, not the binary measured here. No blanket legal or patent clearance is claimed.
+
+Arim pinned commit license was read: MIT, copyright 2016-2025 contributors. DCWA/WA pinned commit license was read: BSD-3-Clause, copyright 2025 sufayanm. Their license file hashes and primary links are in rights-inspection.json. Release/source evidence is paraphrased here; no third-party proprietary document or binary is bundled.
+
+The Velichko/Croxford measured FMC file is CC BY 4.0 per its Figshare publisher/API entry; name both authors, DOI, license and changes when distributing input or derived outputs. Exact verified MAT header, size, MD5 and SHA-256 are in input-access.json. Signed redirect query strings have been removed; stable Figshare links suffice.
+
+Pinned NumPy/SciPy/Numba and native build dependency attribution will be retained in execution provenance; this preregistration does not mislabel uninspected binary transitive components as permissively cleared. No binary distribution is required for the stated source-only benchmark.

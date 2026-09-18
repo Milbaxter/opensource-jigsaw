@@ -1,0 +1,220 @@
+[
+  {
+    "full_name": "flatironinstitute/finufft",
+    "html_url": "https://github.com/flatironinstitute/finufft",
+    "description": "Non-uniform fast Fourier transform library of types 1,2,3 in dimensions 1,2,3 on the CPU or GPU",
+    "stargazers_count": 444,
+    "pushed_at": "2026-09-18T06:53:10Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "ndtatbristol/arim",
+    "html_url": "https://github.com/ndtatbristol/arim",
+    "description": "A Python library for array imaging in ultrasonic testing.",
+    "stargazers_count": 52,
+    "pushed_at": "2025-06-10T20:08:12Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "librosa/librosa",
+    "html_url": "https://github.com/librosa/librosa",
+    "description": "Python library for audio and music analysis",
+    "stargazers_count": 8615,
+    "pushed_at": "2026-09-16T18:51:03Z",
+    "license": {
+      "key": "isc",
+      "name": "ISC License",
+      "spdx_id": "ISC",
+      "url": "https://api.github.com/licenses/isc",
+      "node_id": "MDc6TGljZW5zZTEw"
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "astropy/astropy",
+    "html_url": "https://github.com/astropy/astropy",
+    "description": "Astronomy and astrophysics core library",
+    "stargazers_count": 5308,
+    "pushed_at": "2026-09-18T00:45:56Z",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "exoplanet-dev/celerite2",
+    "html_url": "https://github.com/exoplanet-dev/celerite2",
+    "description": "Fast & scalable Gaussian Processes in one dimension",
+    "stargazers_count": 85,
+    "pushed_at": "2026-09-14T16:34:08Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "main"
+  },
+  {
+    "repository": "RomanKochanov/ramanspy",
+    "error": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "full_name": "astropy/astroscrappy",
+    "html_url": "https://github.com/astropy/astroscrappy",
+    "description": "Speedy Cosmic Ray Annihilation Package in Python",
+    "stargazers_count": 81,
+    "pushed_at": "2026-09-02T07:28:45Z",
+    "license": null,
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "main"
+  },
+  {
+    "full_name": "borglab/gtsam",
+    "html_url": "https://github.com/borglab/gtsam",
+    "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+    "stargazers_count": 3686,
+    "pushed_at": "2026-09-18T00:04:22Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "develop"
+  },
+  {
+    "full_name": "pyomeca/ezc3d",
+    "html_url": "https://github.com/pyomeca/ezc3d",
+    "description": "Easy to use C3D reader/writer for C++, Python and Matlab",
+    "stargazers_count": 183,
+    "pushed_at": "2026-09-03T13:10:04Z",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "dev"
+  },
+  {
+    "full_name": "jjhelmus/nmrglue",
+    "html_url": "https://github.com/jjhelmus/nmrglue",
+    "description": "A module for working with NMR data in Python",
+    "stargazers_count": 275,
+    "pushed_at": "2026-08-16T23:02:00Z",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "jeffdaily/parasail",
+    "html_url": "https://github.com/jeffdaily/parasail",
+    "description": "Pairwise Sequence Alignment Library",
+    "stargazers_count": 288,
+    "pushed_at": "2025-08-27T16:13:53Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "master"
+  },
+  {
+    "full_name": "acoustid/chromaprint",
+    "html_url": "https://github.com/acoustid/chromaprint",
+    "description": "C library for generating audio fingerprints used by AcoustID",
+    "stargazers_count": 1371,
+    "pushed_at": "2026-07-28T06:14:29Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "master"
+  },
+  {
+    "repository": "pymca/pymca",
+    "error": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "full_name": "tensorly/tensorly",
+    "html_url": "https://github.com/tensorly/tensorly",
+    "description": "TensorLy: Tensor Learning in Python.",
+    "stargazers_count": 1693,
+    "pushed_at": "2026-09-02T22:10:02Z",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "private": false,
+    "archived": false,
+    "fork": false,
+    "default_branch": "main"
+  }
+]
