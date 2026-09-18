@@ -1,0 +1,242 @@
+[
+  {
+    "field": "geospatial",
+    "query": "topic:geospatial stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 376,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:20:56.356076+00:00"
+  },
+  {
+    "field": "remote-sensing",
+    "query": "topic:remote-sensing stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 202,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:01.098754+00:00"
+  },
+  {
+    "field": "weather-climate",
+    "query": "topic:climate stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 93,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:06.196931+00:00"
+  },
+  {
+    "field": "bioinformatics",
+    "query": "topic:bioinformatics stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 675,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:13.008759+00:00"
+  },
+  {
+    "field": "microscopy",
+    "query": "topic:microscopy stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 53,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:17.836439+00:00"
+  },
+  {
+    "field": "computational-chemistry",
+    "query": "topic:chemistry stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 142,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:22.675026+00:00"
+  },
+  {
+    "field": "robotics",
+    "query": "topic:robotics stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 1083,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:29.810455+00:00"
+  },
+  {
+    "field": "industrial-iot",
+    "query": "topic:industrial stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 13,
+    "fetched": 13,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:34.405153+00:00"
+  },
+  {
+    "field": "cad-manufacturing",
+    "query": "topic:cad stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 200,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:37.705401+00:00"
+  },
+  {
+    "field": "energy-power",
+    "query": "topic:energy stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 116,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:42.992273+00:00"
+  },
+  {
+    "field": "water-hydrology",
+    "query": "topic:hydrology stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 57,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:47.409823+00:00"
+  },
+  {
+    "field": "agriculture",
+    "query": "topic:agriculture stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 26,
+    "fetched": 26,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:21:53.881424+00:00"
+  },
+  {
+    "field": "astronomy",
+    "query": "topic:astronomy stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 188,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:02.983550+00:00"
+  },
+  {
+    "field": "medical-imaging",
+    "query": "topic:medical-imaging stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 167,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:08.770115+00:00"
+  },
+  {
+    "field": "transportation",
+    "query": "topic:transportation stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 42,
+    "fetched": 42,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:13.207298+00:00"
+  },
+  {
+    "field": "operations-research",
+    "query": "topic:optimization stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 615,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:17.402705+00:00"
+  },
+  {
+    "field": "process-mining",
+    "query": "topic:process-mining stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 3,
+    "fetched": 3,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:23.421164+00:00"
+  },
+  {
+    "field": "formal-verification",
+    "query": "topic:formal-verification stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 70,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:27.537857+00:00"
+  },
+  {
+    "field": "cybersecurity",
+    "query": "topic:security stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 3060,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:32.312780+00:00"
+  },
+  {
+    "field": "privacy",
+    "query": "topic:privacy stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 1171,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:38.080298+00:00"
+  },
+  {
+    "field": "graph-databases",
+    "query": "topic:graph-database stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 115,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:42.511277+00:00"
+  },
+  {
+    "field": "signal-processing",
+    "query": "topic:signal-processing stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 146,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:47.925251+00:00"
+  },
+  {
+    "field": "speech-audio",
+    "query": "topic:audio stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 1077,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:52.118399+00:00"
+  },
+  {
+    "field": "document-processing",
+    "query": "topic:ocr stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 518,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:22:57.060594+00:00"
+  },
+  {
+    "field": "education",
+    "query": "topic:education stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 561,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:01.804861+00:00"
+  },
+  {
+    "field": "accessibility",
+    "query": "topic:accessibility stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 438,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:06.582222+00:00"
+  },
+  {
+    "field": "finance",
+    "query": "topic:finance stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 482,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:11.319641+00:00"
+  },
+  {
+    "field": "simulation",
+    "query": "topic:simulation stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 842,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:16.300002+00:00"
+  },
+  {
+    "field": "data-engineering",
+    "query": "topic:data-engineering stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 265,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:20.909520+00:00"
+  },
+  {
+    "field": "digital-preservation",
+    "query": "topic:archiving stars:>=50 pushed:>=2025-03-01 archived:false fork:false",
+    "total_matching": 60,
+    "fetched": 50,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:23:25.685952+00:00"
+  }
+]

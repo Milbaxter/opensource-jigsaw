@@ -1,0 +1,156 @@
+{
+  "energy_doe": {
+    "title": "DOE industrial software tools",
+    "url": "https://www.energy.gov/cmei/ito/ito-software-tools",
+    "finding": "MEASUR identifies industrial-system efficiency savings opportunities.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "energy_caltrack": {
+    "title": "CalTRACK methods",
+    "url": "https://docs.caltrack.org/en/latest/methods.html",
+    "finding": "Avoided-energy methods compare metered usage with counterfactuals; primary use case includes procurement of energy savings. Whole-site methods do not establish process-level causal attribution.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "energy_celonis": {
+    "title": "Celonis Process Excellence",
+    "url": "https://www.celonis.com/solutions/process-excellence",
+    "finding": "An established commercial process-mining competitor offers process optimization; not evidence that the proposed industrial measurement workflow is unique.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "docling": {
+    "title": "Docling document conversion",
+    "url": "https://docling.ai/",
+    "finding": "Structured document conversion and JSON export exist; correctness on a buyer corpus is untested.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "ifc": {
+    "title": "IfcOpenShell API documentation",
+    "url": "https://docs.ifcopenshell.org/autoapi/ifcopenshell/api/index.html",
+    "finding": "IFC authoring and editing APIs exist. Does not prove that legacy buildings have reliable IFC files.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "reuse_eu": {
+    "title": "EU Construction and Demolition Waste Management Protocol 2024",
+    "url": "https://build-up.ec.europa.eu/en/resources-and-tools/publications/eu-construction-demolition-waste-management-protocol-2024-updated",
+    "finding": "Guidance identifies pre-demolition audits, hazardous materials, reuse potential, and waste logistics as practical needs. Guidance itself is not a purchase order or blanket legal obligation.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "reuse_madaster": {
+    "title": "Madaster platform",
+    "url": "https://madaster.com/platform/",
+    "finding": "Commercial material inventory/passport platform already supports reuse-related workflows.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "water_epa": {
+    "title": "EPA effective water utility management",
+    "url": "https://www.epa.gov/sustainable-water-infrastructure/effective-water-utility-management-practices",
+    "finding": "EPA identifies aging infrastructure, rising costs, and workforce challenges faced by utilities.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "water_xylem": {
+    "title": "Xylem Vue",
+    "url": "https://www.xylem.com/en-uk/catalog/products--services/digital-water/xylem-vue/",
+    "finding": "Commercial leak detection and real-time water-network digital twin capabilities exist.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "water_wntr": {
+    "title": "WNTR network model documentation",
+    "url": "https://usepa.github.io/WNTR/waternetworkmodel.html",
+    "finding": "Water network models can be constructed from EPANET INP files, subject to supported-feature limitations.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "wind_doe": {
+    "title": "DOE smart-curtailment technology",
+    "url": "https://www.energy.gov/cmei/systems/articles/new-tool-protects-bats-while-increasing-energy-production",
+    "finding": "DOE describes an established DARC system, energy lost to blanket curtailment, and the mechanical, warranty, cybersecurity and permitting context of turbine integration.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "wind_bats": {
+    "title": "DOE birds and bats",
+    "url": "https://www.energy.gov/cmei/systems/windexchange/birds-and-bats",
+    "finding": "Acoustic monitoring and smart curtailment are established approaches; efficacy varies by site and species.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "cold_fao": {
+    "title": "FAO sustainable food cold chains",
+    "url": "https://www.fao.org/newsroom/detail/amid-food-and-climate-crises-investing-in-sustainable-food-cold-chains-crucial/",
+    "finding": "FAO and UNEP identify ineffective food refrigeration as a major cause of food losses and lost livelihoods. This establishes problem scale, not willingness to pay for this particular software.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "cold_who": {
+    "title": "WHO temperature monitoring guidance",
+    "url": "https://www.who.int/publications/i/item/WHO-IVB-15.04",
+    "finding": "Vaccine supply chains require product-appropriate temperature monitoring. This is evidence for the problem class, not evidence supporting a food shelf-life model or permission to release exposed vaccines.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "cold_sensitech": {
+    "title": "Sensitech cold-chain solutions",
+    "url": "https://www.sensitech.com/en/solutions/cold-chain/",
+    "finding": "Commercial monitoring, connected devices, and facility/equipment monitoring already exist.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "cold_shelf": {
+    "title": "Sensitech cold-chain logistical services",
+    "url": "https://www.sensitech.com/en/media/FDCCLogisticalServicesEN0908_tcm878-132456.pdf",
+    "finding": "Supplier explicitly describes analysis of temperature impacts on quality and shelf life; claimed differentiation cannot simply be predictive shelf life.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "mine_unep": {
+    "title": "UNEP Global Industry Standard on Tailings Management",
+    "url": "https://www.unep.org/resources/report/global-industry-standard-tailings-management",
+    "finding": "Tailings governance, risk classification, environmental protection and disclosure are established needs; not a direct procurement commitment.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "mine_skygeo": {
+    "title": "SkyGeo mining InSAR",
+    "url": "https://www.skygeo.com/insar-for-the-mining-industry",
+    "finding": "Incumbent already combines InSAR interpretation, geotechnical expertise, ground instruments and inspection scheduling. Vendor capabilities are self-reported.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "evac_cdc": {
+    "title": "CDC sheltering and evacuating",
+    "url": "https://cdc.gov/disability-emergency-preparedness/people-with-disabilities/sheltering-and-evacuating.html",
+    "finding": "Accessible transportation and advance coordination with local government/paratransit are explicitly identified needs.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "evac_hurrevac": {
+    "title": "HURREVAC key features",
+    "url": "https://www.hurrevac.com/program-information/key-features/",
+    "finding": "Established public-sector decision support calculates evacuation timing using storm threats and clearance information.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "pyswmm": {
+    "title": "PySWMM quick start",
+    "url": "https://pyswmm.github.io/pyswmm/quickstart.html",
+    "finding": "Python interfaces can read node/link simulation states; this does not itself provide street-level flood depths or safe-route certification.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  },
+  "pm4py": {
+    "title": "PM4Py research paper",
+    "url": "https://arxiv.org/abs/1905.06169",
+    "finding": "Process-mining toolkit integrates event-data analysis with Python data-science libraries.",
+    "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+    "evidence_type": "primary-source documentation or vendor statement"
+  }
+}

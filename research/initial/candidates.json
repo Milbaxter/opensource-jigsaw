@@ -1,0 +1,902 @@
+{
+  "schema_version": "1.1",
+  "generated_at": "2026-09-18T07:39:02.278868+00:00",
+  "reviewer": "Astra",
+  "rubric": {
+    "dimensions": [
+      "novel_synergy",
+      "buyer_pain",
+      "willingness_to_pay",
+      "feasibility",
+      "defensibility",
+      "distribution",
+      "evidence"
+    ],
+    "weights": {
+      "novel_synergy": 20,
+      "buyer_pain": 20,
+      "willingness_to_pay": 15,
+      "feasibility": 15,
+      "defensibility": 10,
+      "distribution": 10,
+      "evidence": 10
+    },
+    "minimum_scores": {
+      "novel_synergy": 9,
+      "buyer_pain": 8,
+      "willingness_to_pay": 8,
+      "feasibility": 8,
+      "defensibility": 7,
+      "distribution": 7,
+      "evidence": 8
+    },
+    "score_range": "Each dimension is scored 0\u201310. Weighted total = sum(dimension score * weight / 10), out of 100.",
+    "minimum_total_score": 85,
+    "minimum_confidence": 0.8,
+    "acceptance": "Weighted total >=85 AND every dimension meets its floor AND confidence >=0.8 AND all evidence/license gates pass.",
+    "source_requirement": "At least two independent external demand/pricing source domains",
+    "required_verifications": [
+      "demand",
+      "differentiation",
+      "integration",
+      "license compatibility"
+    ],
+    "must_have_no": [
+      "unresolved critical assumptions",
+      "fatal flaws"
+    ],
+    "interpretation": "The same seven-dimension weighted rubric used by the pipeline. Scores are reviewer judgment, not empirical probabilities. No external reviewers, interviews, paid demand, integrated prototypes, measured ROI or profit have been established."
+  },
+  "accepted_count": 0,
+  "candidates": [
+    {
+      "id": "JIG-001",
+      "title": "Process-aware industrial energy savings assurance",
+      "components": [
+        {
+          "repository": "ORNL-AMO/AMO-Tools-Desktop",
+          "url": "https://github.com/ORNL-AMO/AMO-Tools-Desktop",
+          "role": "Engineering estimates of equipment/system savings"
+        },
+        {
+          "repository": "process-intelligence-solutions/pm4py",
+          "url": "https://github.com/process-intelligence-solutions/pm4py",
+          "role": "Infer production states and intervention timelines from event logs"
+        },
+        {
+          "repository": "opendsm/opendsm",
+          "url": "https://github.com/opendsm/opendsm",
+          "role": "Metered counterfactual and avoided-energy baseline"
+        },
+        {
+          "repository": "docling-project/docling",
+          "url": "https://github.com/docling-project/docling",
+          "role": "Extract intervention evidence from audit reports and commissioning documents"
+        }
+      ],
+      "fields": [
+        "industrial engineering",
+        "business process mining",
+        "energy measurement",
+        "document AI"
+      ],
+      "buyer": "Energy service companies and industrial energy managers with performance-based projects",
+      "hypothesis": "Link production-event changes to physics-based audit assumptions, then flag savings claims that meter baselines cannot distinguish from production changes. Hypothesis: audit-ready exception packets reduce disputed payments and analyst time.",
+      "verified_evidence": [
+        {
+          "source_id": "energy_doe",
+          "title": "DOE industrial software tools",
+          "url": "https://www.energy.gov/cmei/ito/ito-software-tools",
+          "finding": "MEASUR identifies industrial-system efficiency savings opportunities.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "energy_caltrack",
+          "title": "CalTRACK methods",
+          "url": "https://docs.caltrack.org/en/latest/methods.html",
+          "finding": "Avoided-energy methods compare metered usage with counterfactuals; primary use case includes procurement of energy savings. Whole-site methods do not establish process-level causal attribution.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "energy_celonis",
+          "title": "Celonis Process Excellence",
+          "url": "https://www.celonis.com/solutions/process-excellence",
+          "finding": "An established commercial process-mining competitor offers process optimization; not evidence that the proposed industrial measurement workflow is unique.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "docling",
+          "title": "Docling document conversion",
+          "url": "https://docling.ai/",
+          "finding": "Structured document conversion and JSON export exist; correctness on a buyer corpus is untested.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "pm4py",
+          "title": "PM4Py research paper",
+          "url": "https://arxiv.org/abs/1905.06169",
+          "finding": "Process-mining toolkit integrates event-data analysis with Python data-science libraries.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "Celonis",
+          "overlap": "Process analysis and optimization; specific combined M&V workflow not verified."
+        },
+        {
+          "name": "Existing M&V consultants and OpenDSM/CalTRACK workflows",
+          "overlap": "Counterfactual savings estimation is already available."
+        }
+      ],
+      "integration": {
+        "path": "Convert reports to reviewed structured inputs; map CMMS/MES events to batch/equipment IDs; export PM4Py regimes into baseline covariates; compare measured and MEASUR-predicted savings.",
+        "hard_parts": [
+          "MEASUR is a desktop application, not a guaranteed stable headless API.",
+          "Process changes confound meter-based causal estimates; standard site models cannot simply be relabeled as process-level verification.",
+          "No access to synchronized production and meter data yet."
+        ],
+        "effort_hypothesis": "4-8 engineer-weeks for an offline single-site study, excluding procurement, data cleaning and causal validation."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "Docling MIT and OpenDSM Apache-2.0; PM4Py AGPL-3.0 requires an intentionally compatible distribution/service design or separate commercial terms. MEASUR custom permissive license has notice/change-marking/trademark conditions. Third-party dependencies not exhaustively audited."
+      },
+      "scores": {
+        "novel_synergy": 7,
+        "buyer_pain": 9,
+        "willingness_to_pay": 6,
+        "feasibility": 6,
+        "defensibility": 6,
+        "distribution": 6,
+        "evidence": 3
+      },
+      "total_score": 65.0,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "No buyer interview, paid pilot or measured analyst-hours reduction.",
+        "Advantage over an experienced energy auditor using existing tools is unproven.",
+        "Manufacturing confounders may invalidate savings attribution."
+      ],
+      "next_validation_test": "Acquire one de-identified, synchronized 12-month meter/production dataset plus three historical retrofits from a consenting ESCO. Blindly compare disputed-claim detection and analyst time against its current workflow; stop if no incremental precision or time benefit. Obtain a paid pilot commitment before implementation beyond the study.",
+      "profitability_proven": false,
+      "confidence": 0.35,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-002",
+      "title": "Deconstruction reuse bid and sequence optimizer",
+      "components": [
+        {
+          "repository": "IfcOpenShell/IfcOpenShell",
+          "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+          "role": "Read BIM geometry, materials and object identifiers"
+        },
+        {
+          "repository": "docling-project/docling",
+          "url": "https://github.com/docling-project/docling",
+          "role": "Extract survey, contamination and salvage-offer records"
+        },
+        {
+          "repository": "google/or-tools",
+          "url": "https://github.com/google/or-tools",
+          "role": "Optimize disassembly sequence, crew capacity and shipment allocation"
+        },
+        {
+          "repository": "brightway-lca/brightway2",
+          "url": "https://github.com/brightway-lca/brightway2",
+          "role": "Estimate scenario lifecycle impacts with appropriately licensed inventory data"
+        }
+      ],
+      "fields": [
+        "BIM/CAD",
+        "document AI",
+        "operations research",
+        "lifecycle assessment"
+      ],
+      "buyer": "Demolition contractors and reuse surveyors bidding on selective deconstruction",
+      "hypothesis": "Convert an imperfect material survey into a bid that chooses what to salvage, in what order, and for which confirmed buyer, showing uncertainty in recovery yield and net proceeds. Novelty hypothesis is an executable contractor bid, beyond a material passport.",
+      "verified_evidence": [
+        {
+          "source_id": "reuse_eu",
+          "title": "EU Construction and Demolition Waste Management Protocol 2024",
+          "url": "https://build-up.ec.europa.eu/en/resources-and-tools/publications/eu-construction-demolition-waste-management-protocol-2024-updated",
+          "finding": "Guidance identifies pre-demolition audits, hazardous materials, reuse potential, and waste logistics as practical needs. Guidance itself is not a purchase order or blanket legal obligation.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "reuse_madaster",
+          "title": "Madaster platform",
+          "url": "https://madaster.com/platform/",
+          "finding": "Commercial material inventory/passport platform already supports reuse-related workflows.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "ifc",
+          "title": "IfcOpenShell API documentation",
+          "url": "https://docs.ifcopenshell.org/autoapi/ifcopenshell/api/index.html",
+          "finding": "IFC authoring and editing APIs exist. Does not prove that legacy buildings have reliable IFC files.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "docling",
+          "title": "Docling document conversion",
+          "url": "https://docling.ai/",
+          "finding": "Structured document conversion and JSON export exist; correctness on a buyer corpus is untested.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "Madaster",
+          "overlap": "Material records, quantities and reuse insights already exist."
+        },
+        {
+          "name": "Surveyors, demolition estimating and resale marketplaces",
+          "overlap": "Existing workflow substitutes; feature-level comparative interviews not performed."
+        }
+      ],
+      "integration": {
+        "path": "Join IFC GlobalIds and reviewed survey rows to a dependency graph; attach signed-off contamination constraints; OR-Tools schedules crews and shipments; lifecycle module reports secondary impact.",
+        "hard_parts": [
+          "Many older buildings lack trustworthy BIM; OCR cannot establish material condition.",
+          "Buyer commitments, salvage prices and breakage yields are unavailable until site-specific fieldwork.",
+          "A physics/engineering review must determine disassembly dependencies, not an LLM."
+        ],
+        "effort_hypothesis": "6-10 engineer-weeks for a reviewed single-building scenario tool, excluding field surveys and integrations."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "IfcOpenShell LGPL-3.0, Docling MIT, OR-Tools Apache-2.0, Brightway2 BSD-3-Clause. LGPL distribution obligations need appropriate packaging; lifecycle inventories can have separate commercial restrictions. No complete dependency or dataset audit."
+      },
+      "scores": {
+        "novel_synergy": 7,
+        "buyer_pain": 8,
+        "willingness_to_pay": 6,
+        "feasibility": 7,
+        "defensibility": 6,
+        "distribution": 6,
+        "evidence": 3
+      },
+      "total_score": 64.5,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "No paid contractor demand or demonstrated margin improvement.",
+        "Market liquidity and inspection costs may dominate software gains.",
+        "Life-cycle datasets and real salvage inputs are not yet secured."
+      ],
+      "next_validation_test": "Use a completed building project with survey, actual labor, breakage, disposal costs and sales outcomes. Have a contractor blind-score the generated bid against its original estimate. Require improved contribution margin after survey and handling costs; stop if gains depend on speculative buyers.",
+      "profitability_proven": false,
+      "confidence": 0.35,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-003",
+      "title": "Water repair prioritization using hydraulic consequence and actual crew friction",
+      "components": [
+        {
+          "repository": "USEPA/WNTR",
+          "url": "https://github.com/USEPA/WNTR",
+          "role": "Simulate network service consequences of failures and planned shutdowns"
+        },
+        {
+          "repository": "process-intelligence-solutions/pm4py",
+          "url": "https://github.com/process-intelligence-solutions/pm4py",
+          "role": "Extract repair delay and permit/parts bottlenecks from work orders"
+        },
+        {
+          "repository": "pymc-devs/pymc",
+          "url": "https://github.com/pymc-devs/pymc",
+          "role": "Represent uncertain repair durations and failure rates"
+        },
+        {
+          "repository": "google/or-tools",
+          "url": "https://github.com/google/or-tools",
+          "role": "Schedule repairs under crew, parts and service constraints"
+        }
+      ],
+      "fields": [
+        "hydraulics",
+        "process mining",
+        "Bayesian statistics",
+        "operations research"
+      ],
+      "buyer": "Small and medium water-utility asset managers or their engineering consultants",
+      "hypothesis": "Prioritize the repair portfolio by prevented service loss per realistic crew-hour, using actual organizational delays instead of ideal repair durations. Hypothesis: this outperforms age-only risk lists at utilities unable to maintain a broad digital-twin platform.",
+      "verified_evidence": [
+        {
+          "source_id": "water_epa",
+          "title": "EPA effective water utility management",
+          "url": "https://www.epa.gov/sustainable-water-infrastructure/effective-water-utility-management-practices",
+          "finding": "EPA identifies aging infrastructure, rising costs, and workforce challenges faced by utilities.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "water_xylem",
+          "title": "Xylem Vue",
+          "url": "https://www.xylem.com/en-uk/catalog/products--services/digital-water/xylem-vue/",
+          "finding": "Commercial leak detection and real-time water-network digital twin capabilities exist.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "water_wntr",
+          "title": "WNTR network model documentation",
+          "url": "https://usepa.github.io/WNTR/waternetworkmodel.html",
+          "finding": "Water network models can be constructed from EPANET INP files, subject to supported-feature limitations.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "pm4py",
+          "title": "PM4Py research paper",
+          "url": "https://arxiv.org/abs/1905.06169",
+          "finding": "Process-mining toolkit integrates event-data analysis with Python data-science libraries.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "Xylem Vue",
+          "overlap": "Leak detection, network digital twin and operational analytics already exist."
+        },
+        {
+          "name": "Utility consultants and CMMS prioritization",
+          "overlap": "Existing adoption channel and strong service substitute."
+        }
+      ],
+      "integration": {
+        "path": "Map work-order asset IDs onto EPANET INP links; derive event-log repair distributions; simulate candidate interventions; solve a rolling maintenance schedule.",
+        "hard_parts": [
+          "Hydraulic calibration and consistent asset identifiers are prerequisites.",
+          "Work-order timestamps are often administrative rather than physical work times.",
+          "Failure and repair histories may be sparse; posterior confidence is not observed safety."
+        ],
+        "effort_hypothesis": "6-12 engineer-weeks for advisory planning on a single calibrated utility network."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "WNTR license text states Revised BSD with third-party notices; PyMC Apache-2.0 plus embedded MIT code; OR-Tools Apache-2.0. PM4Py AGPL service/distribution design needs review. No inference that public utility data are freely distributable."
+      },
+      "scores": {
+        "novel_synergy": 6,
+        "buyer_pain": 9,
+        "willingness_to_pay": 6,
+        "feasibility": 6,
+        "defensibility": 6,
+        "distribution": 5,
+        "evidence": 3
+      },
+      "total_score": 62.0,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "Data access, calibration and purchasing cycle could overwhelm small-utility economics.",
+        "Incumbent overlap is substantial.",
+        "No retrospective intervention ranking tested."
+      ],
+      "next_validation_test": "With a utility partner, replay 20 past repairs using only information available before each decision. Compare service-loss reduction and total crew-hours against its existing ranker; require a paid decision-support pilot, with utility engineer approval of every recommendation.",
+      "profitability_proven": false,
+      "confidence": 0.25,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-004",
+      "title": "Ecology-aware wind dispatch",
+      "components": [
+        {
+          "repository": "macaodha/batdetect2",
+          "url": "https://github.com/macaodha/batdetect2",
+          "role": "Detect/classify bat calls in ultrasonic audio"
+        },
+        {
+          "repository": "wind-python/windpowerlib",
+          "url": "https://github.com/wind-python/windpowerlib",
+          "role": "Estimate generation consequence of operating choices"
+        },
+        {
+          "repository": "PyPSA/PyPSA",
+          "url": "https://github.com/PyPSA/PyPSA",
+          "role": "Optimize curtailed output and storage dispatch"
+        }
+      ],
+      "fields": [
+        "bioacoustics",
+        "wind engineering",
+        "power-system optimization"
+      ],
+      "buyer": "Wind operators with wildlife curtailment obligations and colocated storage",
+      "hypothesis": "Price wildlife-risk scenarios into storage and turbine decisions, producing an auditable tradeoff record. Hypothesis: coordinated dispatch recovers value under established wildlife constraints.",
+      "verified_evidence": [
+        {
+          "source_id": "wind_doe",
+          "title": "DOE smart-curtailment technology",
+          "url": "https://www.energy.gov/cmei/systems/articles/new-tool-protects-bats-while-increasing-energy-production",
+          "finding": "DOE describes an established DARC system, energy lost to blanket curtailment, and the mechanical, warranty, cybersecurity and permitting context of turbine integration.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "wind_bats",
+          "title": "DOE birds and bats",
+          "url": "https://www.energy.gov/cmei/systems/windexchange/birds-and-bats",
+          "finding": "Acoustic monitoring and smart curtailment are established approaches; efficacy varies by site and species.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "Natural Power DARC",
+          "overlap": "DOE already describes real-time wildlife-aware curtailment and complex operational integration."
+        },
+        {
+          "name": "Vestas bat-protection systems",
+          "overlap": "OEM-integrated control makes an external integration harder; not independently evaluated here."
+        }
+      ],
+      "integration": {
+        "path": "Time-align acoustic detections, weather and turbine output; estimate detection uncertainty; generate advisory curtailment/storage schedules.",
+        "hard_parts": [
+          "Species/geography transfer is unvalidated.",
+          "OEM interfaces, turbine warranties and safety constraints require site agreements.",
+          "Only an offline advisory demonstrator is plausible without permissions."
+        ],
+        "effort_hypothesis": "8-16 engineer-weeks for retrospective analysis; live operation is a separate engineering project."
+      },
+      "license_review": {
+        "blocker": true,
+        "summary": "batdetect2 LICENSE.md is Creative Commons Attribution-NonCommercial 4.0. It is publicly available but not an unrestricted commercial OSS building block. Separate permission or a genuinely suitable replacement is required. windpowerlib and PyPSA are MIT."
+      },
+      "scores": {
+        "novel_synergy": 4,
+        "buyer_pain": 9,
+        "willingness_to_pay": 7,
+        "feasibility": 4,
+        "defensibility": 5,
+        "distribution": 4,
+        "evidence": 3
+      },
+      "total_score": 54.5,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "Commercial-use license blocker.",
+        "Existing smart-curtailment systems already address the core benefit.",
+        "No evidence that storage coupling adds net value after integration costs.",
+        "windpowerlib last push 2024-02-20 also fails this catalogue activity cutoff; it was included only as an explicitly rejected deeper-screening component."
+      ],
+      "next_validation_test": "Only reconsider after securing commercial rights or validating a permissible alternative. Then benchmark offline on partner-provided acoustic and SCADA history against the existing curtailment policy; do not control turbines as part of this research.",
+      "profitability_proven": false,
+      "confidence": 0.25,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": false
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-005",
+      "title": "Temperature-excursion salvage dispatch",
+      "components": [
+        {
+          "repository": "thingsboard/thingsboard",
+          "url": "https://github.com/thingsboard/thingsboard",
+          "role": "Ingest sensor/device temperature histories"
+        },
+        {
+          "repository": "bjodah/chempy",
+          "url": "https://github.com/bjodah/chempy",
+          "role": "Compute product-specific reaction/degradation kinetics"
+        },
+        {
+          "repository": "pymc-devs/pymc",
+          "url": "https://github.com/pymc-devs/pymc",
+          "role": "Represent uncertain kinetic parameters and remaining quality"
+        },
+        {
+          "repository": "google/or-tools",
+          "url": "https://github.com/google/or-tools",
+          "role": "Optimize rerouting and sell-first allocations"
+        }
+      ],
+      "fields": [
+        "IoT",
+        "chemical kinetics",
+        "Bayesian statistics",
+        "vehicle routing"
+      ],
+      "buyer": "Perishable-food distributors with independent product-quality validation",
+      "hypothesis": "Use uncertainty-aware deterioration estimates to allocate at-risk lots to nearby customers before they spoil. Hypothesis: explicit abstention plus dispatch optimization improves realized recovered value beyond temperature alarms.",
+      "verified_evidence": [
+        {
+          "source_id": "cold_fao",
+          "title": "FAO sustainable food cold chains",
+          "url": "https://www.fao.org/newsroom/detail/amid-food-and-climate-crises-investing-in-sustainable-food-cold-chains-crucial/",
+          "finding": "FAO and UNEP identify ineffective food refrigeration as a major cause of food losses and lost livelihoods. This establishes problem scale, not willingness to pay for this particular software.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "cold_who",
+          "title": "WHO temperature monitoring guidance",
+          "url": "https://www.who.int/publications/i/item/WHO-IVB-15.04",
+          "finding": "Vaccine supply chains require product-appropriate temperature monitoring. This is evidence for the problem class, not evidence supporting a food shelf-life model or permission to release exposed vaccines.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "cold_sensitech",
+          "title": "Sensitech cold-chain solutions",
+          "url": "https://www.sensitech.com/en/solutions/cold-chain/",
+          "finding": "Commercial monitoring, connected devices, and facility/equipment monitoring already exist.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "cold_shelf",
+          "title": "Sensitech cold-chain logistical services",
+          "url": "https://www.sensitech.com/en/media/FDCCLogisticalServicesEN0908_tcm878-132456.pdf",
+          "finding": "Supplier explicitly describes analysis of temperature impacts on quality and shelf life; claimed differentiation cannot simply be predictive shelf life.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "Sensitech",
+          "overlap": "Commercial cold-chain monitoring and time/temperature quality analysis already exist."
+        },
+        {
+          "name": "Existing FIFO/FEFO inventory and route planners",
+          "overlap": "Operational baseline must be compared, not assumed inadequate."
+        }
+      ],
+      "integration": {
+        "path": "Ingest tagged time/temperature series; apply independently measured SKU kinetic models; generate conservative quality intervals; solve capacity-constrained redistribution.",
+        "hard_parts": [
+          "Temperature does not determine safety/quality without product and pathogen-specific validation.",
+          "Sensor placement, missing data and lot identity create bias.",
+          "WHO evidence concerns vaccines and does not establish food-buyer demand or validate this product."
+        ],
+        "effort_hypothesis": "4-8 engineer-weeks for offline routing with validated non-medical product data."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "Check ThingsBoard community edition Apache-2.0 separately from commercial modules; ChemPy BSD-2-Clause, PyMC Apache-2.0/MIT and OR-Tools Apache-2.0. Product kinetic data and sensor-provider terms remain unaudited."
+      },
+      "scores": {
+        "novel_synergy": 5,
+        "buyer_pain": 8,
+        "willingness_to_pay": 6,
+        "feasibility": 6,
+        "defensibility": 5,
+        "distribution": 5,
+        "evidence": 2
+      },
+      "total_score": 56.0,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "Data/model validation is the main product, not the OSS integration.",
+        "Differentiation versus existing shelf-life analytics is unproven.",
+        "No real recoverable-margin evidence."
+      ],
+      "next_validation_test": "Run a blinded historical simulation for one food SKU with validated assays, traceable temperature data, actual orders and disposal costs. Require better net recovered value than FEFO with no increase in quality failures. Never use inferred shelf life to release vaccines or medicines.",
+      "profitability_proven": false,
+      "confidence": 0.25,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-006",
+      "title": "Tailings inspection evidence triage",
+      "components": [
+        {
+          "repository": "insarlab/MintPy",
+          "url": "https://github.com/insarlab/MintPy",
+          "role": "Estimate ground displacement time series from preprocessed interferograms"
+        },
+        {
+          "repository": "gee-community/geemap",
+          "url": "https://github.com/gee-community/geemap",
+          "role": "Join environmental imagery and site features"
+        },
+        {
+          "repository": "pymc-devs/pymc",
+          "url": "https://github.com/pymc-devs/pymc",
+          "role": "Quantify uncertain movement trends"
+        },
+        {
+          "repository": "docling-project/docling",
+          "url": "https://github.com/docling-project/docling",
+          "role": "Link inspection reports and action evidence to monitored zones"
+        }
+      ],
+      "fields": [
+        "satellite geodesy",
+        "environmental GIS",
+        "Bayesian statistics",
+        "document AI"
+      ],
+      "buyer": "Independent tailings engineers and mine-closure asset owners",
+      "hypothesis": "Produce traceable inspection-priority packets linking motion changes to historical remedial actions and unresolved documentation gaps. Hypothesis: report-centric integration is cheaper to adopt for closure portfolios than a new monitoring/control stack.",
+      "verified_evidence": [
+        {
+          "source_id": "mine_unep",
+          "title": "UNEP Global Industry Standard on Tailings Management",
+          "url": "https://www.unep.org/resources/report/global-industry-standard-tailings-management",
+          "finding": "Tailings governance, risk classification, environmental protection and disclosure are established needs; not a direct procurement commitment.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "mine_skygeo",
+          "title": "SkyGeo mining InSAR",
+          "url": "https://www.skygeo.com/insar-for-the-mining-industry",
+          "finding": "Incumbent already combines InSAR interpretation, geotechnical expertise, ground instruments and inspection scheduling. Vendor capabilities are self-reported.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "docling",
+          "title": "Docling document conversion",
+          "url": "https://docling.ai/",
+          "finding": "Structured document conversion and JSON export exist; correctness on a buyer corpus is untested.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "SkyGeo",
+          "overlap": "Already provides interpreted mining InSAR, ground-instrument integration and inspection scheduling support."
+        }
+      ],
+      "integration": {
+        "path": "Consume quality-controlled interferogram products into MintPy; attach zone IDs and reviewed report extractions; use uncertainty models to rank items for engineer investigation.",
+        "hard_parts": [
+          "MintPy is not a complete raw-satellite-to-certified-warning pipeline.",
+          "Atmospheric artifacts, radar geometry and decorrelation require specialist QA.",
+          "Source imagery/commercial service terms and historical reports may be restricted."
+        ],
+        "effort_hypothesis": "6-12 engineer-weeks for a retrospective engineer-reviewed report prototype; monitoring certification excluded."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "MintPy GPL-3.0-or-later and geemap MIT; PyMC Apache-2.0/MIT and Docling MIT. GPL-compatible packaging and separate imagery/Earth Engine commercial-use terms must be checked; open code does not make hosted imagery free."
+      },
+      "scores": {
+        "novel_synergy": 5,
+        "buyer_pain": 9,
+        "willingness_to_pay": 7,
+        "feasibility": 5,
+        "defensibility": 5,
+        "distribution": 5,
+        "evidence": 2
+      },
+      "total_score": 58.0,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "Strong incumbent overlap.",
+        "No measured engineer-time or inspection-quality benefit.",
+        "Data rights and scientific interpretation are unresolved."
+      ],
+      "next_validation_test": "Have an independent qualified engineer blind-review ten historical inspection periods. Compare useful priority changes, false alarms and report preparation time against the existing workflow. Stop if the packet adds no actionable information; do not market collapse predictions.",
+      "profitability_proven": false,
+      "confidence": 0.25,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    },
+    {
+      "id": "JIG-007",
+      "title": "Flood-aware accessible evacuation rehearsal",
+      "components": [
+        {
+          "repository": "pyswmm/pyswmm",
+          "url": "https://github.com/pyswmm/pyswmm",
+          "role": "Evaluate drainage-state scenarios"
+        },
+        {
+          "repository": "valhalla/valhalla",
+          "url": "https://github.com/valhalla/valhalla",
+          "role": "Construct road-routing costs with local accessibility attributes"
+        },
+        {
+          "repository": "opentripplanner/OpenTripPlanner",
+          "url": "https://github.com/opentripplanner/OpenTripPlanner",
+          "role": "Represent transit schedules and wheelchair-accessible itineraries"
+        },
+        {
+          "repository": "google/or-tools",
+          "url": "https://github.com/google/or-tools",
+          "role": "Allocate assisted-transport vehicles under capacity and shelter constraints"
+        }
+      ],
+      "fields": [
+        "urban hydrology",
+        "routing",
+        "accessibility",
+        "operations research"
+      ],
+      "buyer": "Local emergency planners and paratransit operators conducting pre-event exercises",
+      "hypothesis": "Combine flood-sensitive access, accessible transit and wheelchair-vehicle capacity into rehearsal plans that expose who would be left without transport. Hypothesis: this identifies planning gaps missed by aggregate evacuation clearance times.",
+      "verified_evidence": [
+        {
+          "source_id": "evac_cdc",
+          "title": "CDC sheltering and evacuating",
+          "url": "https://cdc.gov/disability-emergency-preparedness/people-with-disabilities/sheltering-and-evacuating.html",
+          "finding": "Accessible transportation and advance coordination with local government/paratransit are explicitly identified needs.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "evac_hurrevac",
+          "title": "HURREVAC key features",
+          "url": "https://www.hurrevac.com/program-information/key-features/",
+          "finding": "Established public-sector decision support calculates evacuation timing using storm threats and clearance information.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        },
+        {
+          "source_id": "pyswmm",
+          "title": "PySWMM quick start",
+          "url": "https://pyswmm.github.io/pyswmm/quickstart.html",
+          "finding": "Python interfaces can read node/link simulation states; this does not itself provide street-level flood depths or safe-route certification.",
+          "retrieved_at": "2026-09-18T07:39:02.278868+00:00",
+          "evidence_type": "primary-source documentation or vendor statement"
+        }
+      ],
+      "competitors": [
+        {
+          "name": "HURREVAC",
+          "overlap": "Established evacuation timing and storm-planning decision support; exact accessibility allocation features not audited."
+        },
+        {
+          "name": "Consultant-run tabletop exercises",
+          "overlap": "Existing and potentially sufficient substitute."
+        }
+      ],
+      "integration": {
+        "path": "Use locally validated flood closures, not raw SWMM node overflow alone; modify routing graph; join GTFS accessibility fields and reviewed demand locations; optimize vehicle and shelter assignments.",
+        "hard_parts": [
+          "A drainage model does not directly produce validated street flood depth.",
+          "Wheelchair access tags and real-time shelter/vehicle status can be incomplete.",
+          "Personal assisted-transport demand is sensitive and often unavailable."
+        ],
+        "effort_hypothesis": "8-12 engineer-weeks for synthetic/offline rehearsal in one locality; operational dispatch excluded."
+      },
+      "license_review": {
+        "blocker": null,
+        "summary": "PySWMM BSD-2-Clause, Valhalla MIT, OpenTripPlanner LGPL-3.0-or-later and OR-Tools Apache-2.0 from primary license-text checks. OSM/GTFS/local flood and sensitive resident datasets carry separate obligations not audited here."
+      },
+      "scores": {
+        "novel_synergy": 7,
+        "buyer_pain": 9,
+        "willingness_to_pay": 4,
+        "feasibility": 5,
+        "defensibility": 5,
+        "distribution": 4,
+        "evidence": 2
+      },
+      "total_score": 56.5,
+      "acceptance_threshold": 85,
+      "status": "rejected_pending_evidence",
+      "judge": "Astra discovery followed by separate skeptical review pass; same agent, not independent external validation",
+      "kill_reasons": [
+        "Social impact does not establish a purchasing budget.",
+        "Missing accessibility and flood data can make the result misleading.",
+        "Integration and operational acceptance not demonstrated."
+      ],
+      "next_validation_test": "Use a municipality-approved synthetic demand set plus audited access/vehicle data for a tabletop exercise. Compare unserved wheelchair users and clearance constraints with the current plan; require planner acceptance and a defined procurement budget before product work.",
+      "profitability_proven": false,
+      "confidence": 0.25,
+      "gates": {
+        "weighted_score_at_least_85": false,
+        "dimension_floors_met": false,
+        "confidence_at_least_0_8": false,
+        "two_independent_external_demand_pricing_domains": false,
+        "demand_verified": false,
+        "differentiation_verified": false,
+        "integration_verified": false,
+        "license_compatible": false,
+        "no_unresolved_critical_assumptions": false,
+        "no_fatal_flaws": true
+      },
+      "confidence_note": "Low for commercial viability; medium for documented component capabilities and problem existence",
+      "accepted": false
+    }
+  ]
+}

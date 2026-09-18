@@ -1,0 +1,19 @@
+{
+  "unique_catalogue_repositories": 1320,
+  "query_result_rows": 1384,
+  "topic_fields": 30,
+  "metadata_only_catalogue_repositories": 1313,
+  "deep_screened_components": 19,
+  "deep_screened_components_also_in_catalogue": 7,
+  "additional_deep_components": 12,
+  "unique_repositories_across_all_research": 1332,
+  "standard_software_license_metadata": 973,
+  "null_license": 73,
+  "noassertion_license": 236,
+  "content_data_license_metadata": 38,
+  "stars_at_least_1000": 772,
+  "stars_below_500": 396,
+  "external_sources": 22,
+  "candidates": 7,
+  "accepted": 0
+}

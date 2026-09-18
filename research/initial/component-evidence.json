@@ -1,0 +1,806 @@
+[
+  {
+    "full_name": "docling-project/docling",
+    "html_url": "https://github.com/docling-project/docling",
+    "description": "Get your documents ready for gen AI",
+    "stargazers_count": 66600,
+    "topics": [
+      "ai",
+      "convert",
+      "document-parser",
+      "document-parsing",
+      "documents",
+      "docx",
+      "html",
+      "markdown",
+      "pdf",
+      "pdf-converter",
+      "pdf-to-json",
+      "pdf-to-text",
+      "pptx",
+      "tables",
+      "xlsx"
+    ],
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-18T06:47:03Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://docling-project.github.io/docling",
+    "retrieved_at": "2026-09-18T07:22:36.136596+00:00",
+    "source": "https://api.github.com/repos/docling-project/docling",
+    "license_evidence": {
+      "html_url": "https://github.com/docling-project/docling/blob/main/LICENSE",
+      "sha": "6684a401bf0f700fd37104ab7c8da340036f7166",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "MIT",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "IfcOpenShell/IfcOpenShell",
+    "html_url": "https://github.com/IfcOpenShell/IfcOpenShell",
+    "description": "Open source IFC library and geometry engine",
+    "stargazers_count": 2793,
+    "topics": [],
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "pushed_at": "2026-09-18T07:12:35Z",
+    "default_branch": "v0.9.0",
+    "archived": false,
+    "fork": false,
+    "language": "C++",
+    "homepage": null,
+    "retrieved_at": "2026-09-18T07:22:40.651077+00:00",
+    "source": "https://api.github.com/repos/IfcOpenShell/IfcOpenShell",
+    "license_evidence": {
+      "html_url": "https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.9.0/COPYING",
+      "sha": "810fce6e9bf2aa10265b85614db5ac65941ecf81",
+      "path": "COPYING",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "LGPL-3.0",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "google/or-tools",
+    "html_url": "https://github.com/google/or-tools",
+    "description": "Google's Operations Research tools:",
+    "stargazers_count": 14061,
+    "topics": [
+      "combinatorial-optimization",
+      "linear-programming",
+      "operations-research",
+      "optimization",
+      "or-tools"
+    ],
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-09-17T21:30:01Z",
+    "default_branch": "stable",
+    "archived": false,
+    "fork": false,
+    "language": "C++",
+    "homepage": "https://developers.google.com/optimization/",
+    "retrieved_at": "2026-09-18T07:22:42.088681+00:00",
+    "source": "https://api.github.com/repos/google/or-tools",
+    "license_evidence": {
+      "html_url": "https://github.com/google/or-tools/blob/stable/LICENSE",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "Apache-2.0",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "brightway-lca/brightway2",
+    "html_url": "https://github.com/brightway-lca/brightway2",
+    "description": "Metapackage for brightway2 imports and documentation",
+    "stargazers_count": 138,
+    "topics": [
+      "bw2",
+      "documentation",
+      "life-cycle-assessment",
+      "python"
+    ],
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2025-04-10T21:07:28Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Jupyter Notebook",
+    "homepage": "https://brightway.dev/",
+    "retrieved_at": "2026-09-18T07:22:43.943071+00:00",
+    "source": "https://api.github.com/repos/brightway-lca/brightway2",
+    "license_evidence": {
+      "html_url": "https://github.com/brightway-lca/brightway2/blob/master/LICENSE.txt",
+      "sha": "67d368d27f1e3ffc1692847c3859a77219212587",
+      "path": "LICENSE.txt",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "BSD-3-Clause",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "process-intelligence-solutions/pm4py",
+    "html_url": "https://github.com/process-intelligence-solutions/pm4py",
+    "description": "Official public repository for PM4Py (Process Mining for Python) \u2014 an open-source library for exploring, analyzing, and optimizing business processes with Python.",
+    "stargazers_count": 1028,
+    "topics": [
+      "data-mining",
+      "data-science",
+      "machine-learning",
+      "processmining",
+      "python"
+    ],
+    "license": {
+      "key": "agpl-3.0",
+      "name": "GNU Affero General Public License v3.0",
+      "spdx_id": "AGPL-3.0",
+      "url": "https://api.github.com/licenses/agpl-3.0",
+      "node_id": "MDc6TGljZW5zZTE="
+    },
+    "pushed_at": "2026-09-01T11:59:09Z",
+    "default_branch": "release",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://processintelligence.solutions/pm4py",
+    "retrieved_at": "2026-09-18T07:22:46.668944+00:00",
+    "source": "https://api.github.com/repos/pm4py/pm4py-core",
+    "license_evidence": {
+      "html_url": "https://github.com/process-intelligence-solutions/pm4py/blob/release/LICENSE",
+      "sha": "16bebea71dd43c2f5be9e4fa5570df5c08747215",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "AGPL-3.0",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "ORNL-AMO/AMO-Tools-Desktop",
+    "html_url": "https://github.com/ORNL-AMO/AMO-Tools-Desktop",
+    "description": "AMO-Tools-Desktop (MEASUR) helps industrial facilities improve system-level energy efficiency. Provides detailed analysis of industrial systems to identify system-level energy-savings opportunities.",
+    "stargazers_count": 51,
+    "topics": [
+      "energy",
+      "energy-assessment",
+      "energy-efficiency",
+      "factory",
+      "furnace",
+      "industrial",
+      "industrial-technology",
+      "measur",
+      "modeling",
+      "modeling-tool",
+      "plants",
+      "pump",
+      "steam"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-17T17:36:26Z",
+    "default_branch": "develop",
+    "archived": false,
+    "fork": false,
+    "language": "TypeScript",
+    "homepage": "https://measur.ornl.gov",
+    "retrieved_at": "2026-09-18T07:22:48.097569+00:00",
+    "source": "https://api.github.com/repos/ORNL-AMO/AMO-Tools-Desktop",
+    "license_evidence": {
+      "html_url": "https://github.com/ORNL-AMO/AMO-Tools-Desktop/blob/develop/LICENSE",
+      "sha": "420587c288206266eac946265d346f6da1fff71b",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "custom permissive UT-Battelle",
+      "notes": "Notice retention, modifications marked, no endorsement/trademark rights; full dependency audit not performed."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "opendsm/opendsm",
+    "html_url": "https://github.com/opendsm/opendsm",
+    "description": "An open-source python package for implementing and developing standard methods for calculating normalized metered energy consumption and avoided energy use.",
+    "stargazers_count": 239,
+    "topics": [
+      "building-energy",
+      "efficiency",
+      "energy",
+      "energy-data",
+      "energy-efficiency"
+    ],
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-09-09T16:00:55Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://opendsm.energy",
+    "retrieved_at": "2026-09-18T07:22:51.513798+00:00",
+    "source": "https://api.github.com/repos/opendsm/opendsm",
+    "license_evidence": {
+      "html_url": "https://github.com/opendsm/opendsm/blob/master/LICENSE",
+      "sha": "9b684be72bdbf330908ee39940de7b26bfdd50ca",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "Apache-2.0",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "USEPA/WNTR",
+    "html_url": "https://github.com/USEPA/WNTR",
+    "description": "An EPANET compatible python package to simulate and analyze water distribution networks under disaster scenarios.",
+    "stargazers_count": 462,
+    "topics": [
+      "modeling",
+      "ord",
+      "python",
+      "research",
+      "simulation",
+      "water"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-08T21:17:00Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "",
+    "retrieved_at": "2026-09-18T07:22:52.939214+00:00",
+    "source": "https://api.github.com/repos/USEPA/WNTR",
+    "license_evidence": {
+      "html_url": "https://github.com/USEPA/WNTR/blob/main/LICENSE.md",
+      "sha": "2123988d53dff00dc9eb5e1e0d291f5b1adb2c6d",
+      "path": "LICENSE.md",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "BSD-3-Clause (Revised BSD)",
+      "notes": "Separate third-party licenses explicitly noted."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "pymc-devs/pymc",
+    "html_url": "https://github.com/pymc-devs/pymc",
+    "description": "Bayesian Modeling and Probabilistic Programming in Python",
+    "stargazers_count": 9756,
+    "topics": [
+      "bayesian-inference",
+      "mcmc",
+      "probabilistic-programming",
+      "pytensor",
+      "python",
+      "statistical-analysis",
+      "variational-inference"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-14T17:31:40Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://www.pymc.io",
+    "retrieved_at": "2026-09-18T07:22:55.195198+00:00",
+    "source": "https://api.github.com/repos/pymc-devs/pymc",
+    "license_evidence": {
+      "html_url": "https://github.com/pymc-devs/pymc/blob/main/LICENSE",
+      "sha": "8a53247c40c863c3abb13c2e9fb059af7c1e0e47",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "Apache-2.0 with MIT code",
+      "notes": "Primary license text identifies Apache-2.0 and included AePPL MIT code."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "macaodha/batdetect2",
+    "html_url": "https://github.com/macaodha/batdetect2",
+    "description": null,
+    "stargazers_count": 107,
+    "topics": [],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-02T16:31:45Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": null,
+    "retrieved_at": "2026-09-18T07:22:56.626483+00:00",
+    "source": "https://api.github.com/repos/macaodha/batdetect2",
+    "license_evidence": {
+      "html_url": "https://github.com/macaodha/batdetect2/blob/main/LICENSE.md",
+      "sha": "4187d25613415d656460f9f6fe2e51510f647635",
+      "path": "LICENSE.md",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "CC-BY-NC-4.0",
+      "notes": "Noncommercial restriction blocks the proposed unrestricted commercial reuse."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "wind-python/windpowerlib",
+    "html_url": "https://github.com/wind-python/windpowerlib",
+    "description": "The windpowerlib is a library to model the output of wind turbines and farms.",
+    "stargazers_count": 396,
+    "topics": [
+      "energy",
+      "model",
+      "modelling",
+      "power",
+      "wind"
+    ],
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2024-02-20T20:59:41Z",
+    "default_branch": "dev",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://oemof.org/",
+    "retrieved_at": "2026-09-18T07:23:00.056679+00:00",
+    "source": "https://api.github.com/repos/wind-python/windpowerlib",
+    "license_evidence": {
+      "html_url": "https://github.com/wind-python/windpowerlib/blob/dev/LICENSE",
+      "sha": "a43b4c9311630b20deedb2e7a7b3028b6b60a90f",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "MIT",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": false
+  },
+  {
+    "full_name": "PyPSA/PyPSA",
+    "html_url": "https://github.com/PyPSA/PyPSA",
+    "description": "PyPSA: Python for Power System Analysis",
+    "stargazers_count": 2151,
+    "topics": [
+      "capacity-expansion-planning",
+      "clean-energy",
+      "climate-change",
+      "electrical-engineering",
+      "electricity",
+      "energy",
+      "energy-system",
+      "energy-system-model",
+      "energy-system-modelling",
+      "energy-systems",
+      "modelling-framework",
+      "optimal-power-flow",
+      "optimisation",
+      "power-flow",
+      "power-systems",
+      "power-systems-analysis",
+      "powerflow",
+      "python",
+      "renewable-energy",
+      "renewables"
+    ],
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-18T01:32:38Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://docs.pypsa.org",
+    "retrieved_at": "2026-09-18T07:23:01.443812+00:00",
+    "source": "https://api.github.com/repos/PyPSA/PyPSA",
+    "license_evidence": {
+      "html_url": "https://github.com/PyPSA/PyPSA/blob/master/LICENSE",
+      "sha": "da9eb6471c9a47cff870ef2c8c89e56eeed603eb",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "MIT",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "bjodah/chempy",
+    "html_url": "https://github.com/bjodah/chempy",
+    "description": "\u2697 A package useful for chemistry written in Python",
+    "stargazers_count": 658,
+    "topics": [
+      "chemical-formulas",
+      "chemical-kinetics",
+      "chemical-reaction-model",
+      "chemistry",
+      "physical-chemistry",
+      "python",
+      "speciation"
+    ],
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "pushed_at": "2026-09-05T11:01:20Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "",
+    "retrieved_at": "2026-09-18T07:23:04.087178+00:00",
+    "source": "https://api.github.com/repos/bjodah/chempy",
+    "license_evidence": {
+      "html_url": "https://github.com/bjodah/chempy/blob/master/LICENSE",
+      "sha": "2cfe7cc240a791714680bae14f753b4ff5192935",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "BSD-2-Clause",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "thingsboard/thingsboard",
+    "html_url": "https://github.com/thingsboard/thingsboard",
+    "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
+    "stargazers_count": 22437,
+    "topics": [
+      "big-data",
+      "cloud",
+      "coap-server",
+      "dashboards",
+      "http",
+      "iiot",
+      "iot",
+      "iot-analytics",
+      "iot-framework",
+      "iot-platform",
+      "iot-solutions",
+      "lwm2m-server",
+      "microservices",
+      "middleware",
+      "mqtt",
+      "snmp",
+      "thingsboard",
+      "visualization"
+    ],
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-09-17T18:34:11Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Java",
+    "homepage": "https://thingsboard.io",
+    "retrieved_at": "2026-09-18T07:23:05.477566+00:00",
+    "source": "https://api.github.com/repos/thingsboard/thingsboard",
+    "license_evidence": {
+      "html_url": "https://github.com/thingsboard/thingsboard/blob/master/LICENSE",
+      "sha": "20e4bd85661f5fbc86e0a8aac3934ddabe776160",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "Apache-2.0",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "insarlab/MintPy",
+    "html_url": "https://github.com/insarlab/MintPy",
+    "description": "Miami InSAR time-series software in Python",
+    "stargazers_count": 832,
+    "topics": [
+      "deformation",
+      "earthquake",
+      "geodesy",
+      "geophysics",
+      "geoscience",
+      "insar",
+      "nisar",
+      "radar",
+      "remote-sensing",
+      "sar",
+      "sentinel-1",
+      "tectonics",
+      "time-series",
+      "volcano"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-01T08:55:46Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://mintpy.readthedocs.io",
+    "retrieved_at": "2026-09-18T07:23:06.929445+00:00",
+    "source": "https://api.github.com/repos/insarlab/MintPy",
+    "license_evidence": {
+      "html_url": "https://github.com/insarlab/MintPy/blob/main/LICENSE",
+      "sha": "25d2e0a521d6873551c0a575ad4ef21509589dec",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "GPL-3.0-or-later",
+      "notes": "Copyleft obligations; not itself a prohibition on commercial work."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "gee-community/geemap",
+    "html_url": "https://github.com/gee-community/geemap",
+    "description": "A Python package for interactive geospatial analysis and visualization with Google Earth Engine.",
+    "stargazers_count": 4027,
+    "topics": [
+      "colab",
+      "data-science",
+      "dataviz",
+      "earth-engine",
+      "earthengine",
+      "folium",
+      "geospatial",
+      "gis",
+      "google-earth-engine",
+      "image-processing",
+      "ipyleaflet",
+      "ipywidgets",
+      "jupyter",
+      "jupyter-notebook",
+      "landsat",
+      "mapping",
+      "python",
+      "remote-sensing",
+      "streamlit",
+      "streamlit-webapp"
+    ],
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-17T16:52:35Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://geemap.org",
+    "retrieved_at": "2026-09-18T07:23:09.733148+00:00",
+    "source": "https://api.github.com/repos/gee-community/geemap",
+    "license_evidence": {
+      "html_url": "https://github.com/gee-community/geemap/blob/master/LICENSE",
+      "sha": "e8c76c0db760a7cab8c6563f6497ffbf2141e5bb",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "MIT",
+      "notes": "Primary license file fetched for selective review; transitive dependencies and model/data terms not fully audited."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "pyswmm/pyswmm",
+    "html_url": "https://github.com/pyswmm/pyswmm",
+    "description": "Python Wrappers for SWMM",
+    "stargazers_count": 381,
+    "topics": [
+      "hydraulic-modeling",
+      "hydrology-stormwater-analysis",
+      "python",
+      "stormwater",
+      "swmm",
+      "swmm5"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-03-04T15:58:48Z",
+    "default_branch": "main",
+    "archived": false,
+    "fork": false,
+    "language": "Python",
+    "homepage": "https://www.pyswmm.org",
+    "retrieved_at": "2026-09-18T07:23:12.188188+00:00",
+    "source": "https://api.github.com/repos/pyswmm/pyswmm",
+    "license_evidence": {
+      "html_url": "https://github.com/pyswmm/pyswmm/blob/main/LICENSE.txt",
+      "sha": "9ca68f600d993574a2132b5d6b622e6008384481",
+      "path": "LICENSE.txt",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "BSD-2-Clause",
+      "notes": "License text read; GitHub detection was NOASSERTION."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "valhalla/valhalla",
+    "html_url": "https://github.com/valhalla/valhalla",
+    "description": "Open Source Routing Engine for OpenStreetMap",
+    "stargazers_count": 6223,
+    "topics": [
+      "astar",
+      "dijkstra",
+      "directions",
+      "isochrones",
+      "multi-modal",
+      "openstreetmap",
+      "routing",
+      "routing-engine",
+      "tiled",
+      "traveling-salesman"
+    ],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-17T18:10:03Z",
+    "default_branch": "master",
+    "archived": false,
+    "fork": false,
+    "language": "C++",
+    "homepage": "https://valhalla.github.io/valhalla/",
+    "retrieved_at": "2026-09-18T07:23:14.492093+00:00",
+    "source": "https://api.github.com/repos/valhalla/valhalla",
+    "license_evidence": {
+      "html_url": "https://github.com/valhalla/valhalla/blob/master/LICENSE.md",
+      "sha": "8e39b4f2957b4eba97e64a5277f0a5e729726c81",
+      "path": "LICENSE.md",
+      "error": null,
+      "followed_url": "https://github.com/valhalla/valhalla/blob/master/COPYING"
+    },
+    "manual_license_review": {
+      "finding": "MIT",
+      "notes": "LICENSE.md redirects to COPYING; COPYING was fetched and checked."
+    },
+    "passes_catalogue_activity_cutoff": true
+  },
+  {
+    "full_name": "opentripplanner/OpenTripPlanner",
+    "html_url": "https://github.com/opentripplanner/OpenTripPlanner",
+    "description": "An open source multi-modal trip planner",
+    "stargazers_count": 2741,
+    "topics": [],
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-17T14:40:15Z",
+    "default_branch": "dev-2.x",
+    "archived": false,
+    "fork": false,
+    "language": "Java",
+    "homepage": "http://www.opentripplanner.org",
+    "retrieved_at": "2026-09-18T07:23:15.925851+00:00",
+    "source": "https://api.github.com/repos/opentripplanner/OpenTripPlanner",
+    "license_evidence": {
+      "html_url": "https://github.com/opentripplanner/OpenTripPlanner/blob/dev-2.x/LICENSE",
+      "sha": "b5b929d7364a8cbe1de10c3917b808d467eb81be",
+      "path": "LICENSE",
+      "error": null
+    },
+    "manual_license_review": {
+      "finding": "LGPL-3.0-or-later plus included notices",
+      "notes": "Primary license and included third-party notice sections inspected; not a complete dependency audit."
+    },
+    "passes_catalogue_activity_cutoff": true
+  }
+]
