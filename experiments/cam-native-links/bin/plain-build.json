@@ -1,0 +1,21 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++20",
+    "-O2",
+    "-DUSINGZ",
+    "-I/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/include",
+    "-I/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/Mod/CAM/libarea",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-driver.cpp",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/Mod/CAM/libarea/clipper.cpp",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+    "-o",
+    "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/bin/plain"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": ""
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "original": "native-screen-preregistration.md",
+    "published": "native-screen-preregistration.md",
+    "bytes": 12767,
+    "sha256": "49ecbf4fd5c2b6f7d567fa215e0d5dfcd30f64301a4e50bb7ede45b4a60a6ff1"
+  },
+  {
+    "original": "kernel-inputs.json",
+    "published": "kernel-inputs.json",
+    "bytes": 8554,
+    "sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f"
+  },
+  {
+    "original": "extract-inputs.py",
+    "published": "extract-inputs.py.txt",
+    "bytes": 3407,
+    "sha256": "a3f6b7f7e3cd975ddf2b0620d00a413b4065df90e41ef5ce2f65f9edc596c63a"
+  },
+  {
+    "original": "fetch-sources.py",
+    "published": "fetch-sources.py.txt",
+    "bytes": 1192,
+    "sha256": "955690cf3d02a5f16f2dae1c4d9e99d3e9bccf9fd50b0392ca22e2c05337138d"
+  },
+  {
+    "original": "prepare-native.py",
+    "published": "prepare-native.py.txt",
+    "bytes": 3244,
+    "sha256": "2d31b54dd775cfe2230c69b2b863aa999ec1cc775d82c978d9ee05bb6283ba20"
+  },
+  {
+    "original": "native-driver.cpp",
+    "published": "native-driver.cpp",
+    "bytes": 8242,
+    "sha256": "a9c76c59fa8bb2379dfbd08cea59b0f6edc3ae66da20ec09acc12279d2360850"
+  },
+  {
+    "original": "visibility-oracle.py",
+    "published": "visibility-oracle.py.txt",
+    "bytes": 11363,
+    "sha256": "4d67f4757c35f1612f4b2a13bc9e307da3df54c96125dc96a1001e7a8b31bd6e"
+  },
+  {
+    "original": "run-screen.py",
+    "published": "run-screen.py.txt",
+    "bytes": 10416,
+    "sha256": "4434f4af129c7c96018a5e431d3f52efd32111b9abba862e6ba0da6a91decbaa"
+  },
+  {
+    "original": "prepared-source-manifest.json",
+    "published": "prepared-source-manifest.json",
+    "bytes": 920,
+    "sha256": "e8ba6e55b63cd3d176dc630f0cf983ace5361be10cf282b803bd8e789a1258ff"
+  },
+  {
+    "original": "native-source/manifest.json",
+    "published": "native-source/manifest.json",
+    "bytes": 6412,
+    "sha256": "a9b7f128f72660b1575c302ec31f644812268cfd87d2a19b956767ea2a6fda91"
+  },
+  {
+    "original": "RIGHTS.md",
+    "published": "RIGHTS.md",
+    "bytes": 2446,
+    "sha256": "376c145c787bfc2e11bc7e250b059bcf7686d709769051b6e7ee74af3d474b6a"
+  },
+  {
+    "original": "REPRODUCE.md",
+    "published": "REPRODUCE.md",
+    "bytes": 2312,
+    "sha256": "ce05d3a1a68bfa19194e71a89f8d61e019e9f14a4aee345d4ee4ec2efa913202"
+  },
+  {
+    "original": "LICENSE-MIT.txt",
+    "published": "LICENSE-MIT.txt",
+    "bytes": 1087,
+    "sha256": "b054050774603183d60479b79a979f3bc49ca23ae1cf338f0d3bfb81f49bd9ef"
+  },
+  {
+    "original": "LICENSE-LGPL-2.1.txt",
+    "published": "LICENSE-LGPL-2.1.txt",
+    "bytes": 26419,
+    "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+  },
+  {
+    "original": "license-provenance.json",
+    "published": "license-provenance.json",
+    "bytes": 168,
+    "sha256": "fb80c084c07f03cba95149650ba21bc795bc5f1f202d4ea9db217849a7456c3c"
+  },
+  {
+    "original": "source-freeze.json",
+    "published": "source-freeze.json",
+    "bytes": 7683,
+    "sha256": "61e3d41ab66bb47d4fe06403db0e6c31a3544ad76c8439dd80af7117c41c0c73"
+  },
+  {
+    "original": "SCREEN.md",
+    "published": "SCREEN.md",
+    "bytes": 10549,
+    "sha256": "0a0516f246065acf529f2d87d78469a9ce7341647a280dbeecf19d89720b3be2"
+  },
+  {
+    "original": "build-feasibility/compile-link.json",
+    "published": "build-feasibility/compile-link.json",
+    "bytes": 1127,
+    "sha256": "25d907bf28bd7ff7961fec404808fd18077031f56ea75a1d882412f1efb2c3c1"
+  },
+  {
+    "original": "build-feasibility/driver-compile-only.json",
+    "published": "build-feasibility/driver-compile-only.json",
+    "bytes": 1873,
+    "sha256": "ff347d355c635a8bce13e09444b553df26cecb382ab57f535bd3810a6310e5a3"
+  },
+  {
+    "original": "bin/plain-build.json",
+    "published": "bin/plain-build.json",
+    "bytes": 1233,
+    "sha256": "eb39e5ea7c97e6d6029c7d48e05e30b2516c34ec25dfa0702a6b8563cd04c386"
+  },
+  {
+    "original": "bin/capture-build.json",
+    "published": "bin/capture-build.json",
+    "bytes": 1256,
+    "sha256": "bcf2df5af810df9499a8818e97a9b3a7ef9fa28b43ff33e58e2f2d09ad35e975"
+  }
+]

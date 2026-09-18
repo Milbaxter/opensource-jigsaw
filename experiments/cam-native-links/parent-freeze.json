@@ -1,0 +1,10 @@
+{
+  "frozen_at_utc": "2026-09-18T11:41:30.791168+00:00",
+  "status": "Parent freezes the exact reviewed author draft and all recorded sources before native/oracle execution. Author title DRAFT is retained as original bytes; this record establishes the frozen version.",
+  "protocol_sha256": "49ecbf4fd5c2b6f7d567fa215e0d5dfcd30f64301a4e50bb7ede45b4a60a6ff1",
+  "source_freeze_sha256": "61e3d41ab66bb47d4fe06403db0e6c31a3544ad76c8439dd80af7117c41c0c73",
+  "verified_source_binary_files": 41,
+  "native_executed": false,
+  "oracle_executed": false,
+  "result": null
+}

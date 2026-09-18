@@ -1,0 +1,26 @@
+{
+  "purpose": "Compile/link exact native kernel dependencies only; binary NOT executed, no toolpath generation.",
+  "command": [
+    "clang++",
+    "-std=c++20",
+    "-O2",
+    "-DUSINGZ",
+    "-Iwork/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/include",
+    "work/round7-c/native-source/src/Mod/CAM/libarea/Adaptive.cpp",
+    "work/round7-c/native-source/src/Mod/CAM/libarea/clipper.cpp",
+    "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+    "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+    "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+    "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+    "work/round7-c/build-feasibility/empty-main.cpp",
+    "-o",
+    "work/round7-c/build-feasibility/native-link-only"
+  ],
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "",
+  "prior_attempt": {
+    "exit_code": 1,
+    "cause": "Generated clipper.version.h missing; fixed with exact bundled CMake project VERSION 2.0.1 template expansion."
+  }
+}

@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+"""Exact integer/rational planar predicates; Euclidean float-weight visibility graph.
+Invoked only AFTER prospective freeze. No external geometry library.
+"""
+import argparse,fractions,heapq,json,math,pathlib,subprocess,time
+F=fractions.Fraction
+
+def cross(a,b,c):return (b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0])
+def dot(a,b):return a[0]*b[0]+a[1]*b[1]
+def sub(a,b):return a[0]-b[0],a[1]-b[1]
+def on(a,b,p):return cross(a,b,p)==0 and min(a[0],b[0])<=p[0]<=max(a[0],b[0]) and min(a[1],b[1])<=p[1]<=max(a[1],b[1])
+def intersects(a,b,c,d):
+ x,y,z,w=cross(a,b,c),cross(a,b,d),cross(c,d,a),cross(c,d,b)
+ return (x*y<0 and z*w<0) or (x==0 and on(a,b,c)) or (y==0 and on(a,b,d)) or (z==0 and on(c,d,a)) or (w==0 and on(c,d,b))
+def edges(rings):return [(tuple(r[i]),tuple(r[(i+1)%len(r)])) for r in rings for i in range(len(r))]
+def inside_ring(p,r):
+ hit=False
+ for a,b in edges([r]):
+  if on(a,b,p):return 0
+  if (a[1]>p[1])!=(b[1]>p[1]):
+   x=F(b[0]-a[0])*F(p[1]-a[1],b[1]-a[1])+a[0]
+   if x>p[0]:hit=not hit
+ return 1 if hit else -1
+
+def inside(p,rings,boundary=False):
+ vals=[inside_ring(p,r) for r in rings]
+ return boundary if 0 in vals else sum(v==1 for v in vals)%2==1
+
+def point_segment_sq(p,a,b):
+ v,w=sub(b,a),sub(p,a);vv=dot(v,v);proj=dot(v,w)
+ if vv==0 or proj<=0:return F(dot(w,w))
+ if proj>=vv:return F(dot(sub(p,b),sub(p,b)))
+ return F(dot(w,w))-F(proj*proj,vv)
+
+def segment_segment_sq(a,b,c,d):
+ if intersects(a,b,c,d):return F(0)
+ return min(point_segment_sq(a,c,d),point_segment_sq(b,c,d),point_segment_sq(c,a,b),point_segment_sq(d,a,b))
+
+def disk_path_clear(path,rings,radius):
+ """Exact continuous center-segment clearance vs every original integer edge."""
+ if not path or not inside(tuple(path[0]),rings):return False
+ r2=F(radius)**2; boundary=edges(rings)
+ seg=list(zip(path,path[1:])) or [(path[0],path[0])]
+ for a,b in seg:
+  if not inside(tuple(b),rings):return False
+  for c,d in boundary:
+   if segment_segment_sq(tuple(a),tuple(b),c,d)<r2:return False
+ return True
+
+def area2(r):return sum(a[0]*b[1]-a[1]*b[0] for a,b in edges([r]))
+def valid_topology(rings):
+ if not rings or any(len(r)<3 or area2(r)==0 for r in rings):return False
+ seg=[]
+ for ri,r in enumerate(rings):
+  for i,(a,b) in enumerate(edges([r])):
+   if a==b:return False
+   seg.append((min(a[0],b[0]),max(a[0],b[0]),ri,i,len(r),a,b))
+ active=[]
+ for current in sorted(seg):
+  xmin,xmax,ri,i,n,a,b=current;active=[e for e in active if e[1]>=xmin]
+  for old in active:
+   _,_,rj,j,m,c,d=old
+   if max(min(a[1],b[1]),min(c[1],d[1]))>min(max(a[1],b[1]),max(c[1],d[1])):continue
+   if not intersects(a,b,c,d):continue
+   adjacent=ri==rj and ((i-j)%n in (1,n-1))
+   if not adjacent:return False
+   common=set((a,b))&set((c,d))
+   if len(common)!=1:return False
+   shared=next(iter(common));other1=b if a==shared else a;other2=d if c==shared else c
+   if on(shared,other1,other2) or on(shared,other2,other1):return False
+  active.append(current)
+ for i,r in enumerate(rings):
+  depth=sum(inside_ring(tuple(r[0]),q)==1 for j,q in enumerate(rings) if i!=j)
+  if (area2(r)>0)!=(depth%2==0):return False
+ return True
+
+def valid_request(r):
+ ints=[r.get('radius'),r.get('scale')]+list(r.get('start',[]))+list(r.get('end',[]))
+ if len(r.get('start',[]))!=2 or len(r.get('end',[]))!=2:return False
+ if any(type(x) is not int or abs(x)>2**50 for x in ints):return False
+ if r['radius']<=0 or r['scale']<=0:return False
+ if any(not isinstance(r.get(k),(int,float)) or not math.isfinite(r[k]) or r[k]<=0 for k in ['stepover','ratio']):return False
+ for ring in r.get('cleared',[]):
+  for p in ring:
+   if len(p)!=2 or any(type(x) is not int or abs(x)>2**50 for x in p):return False
+ return bool(r.get('cleared'))
+
+def component(rings,a,b):
+ # Clipper's default closed offset output has positive outer and negative hole rings.
+ outer=[r for r in rings if area2(r)>0];holes=[r for r in rings if area2(r)<0]
+ if len(outer)+len(holes)!=len(rings):raise ValueError('degenerate center ring')
+ aa=[r for r in outer if inside_ring(a,r)>=0];bb=[r for r in outer if inside_ring(b,r)>=0]
+ if not aa or not bb:return None,'endpoint_outside_center_space'
+ ra=min(aa,key=lambda r:abs(area2(r)));rb=min(bb,key=lambda r:abs(area2(r)))
+ if ra!=rb:return None,'different_center_components'
+ included=[]
+ for h in holes:
+  containers=[r for r in outer if inside_ring(tuple(h[0]),r)>0]
+  if not containers:raise ValueError('unassigned center hole')
+  if min(containers,key=lambda r:abs(area2(r)))==ra:included.append(h)
+ c=[ra]+included
+ if not inside(a,c,True) or not inside(b,c,True):return None,'endpoint_in_hole'
+ return c,None
+
+def visible(a,b,rings):
+ # Split at EVERY boundary intersection/touch; check each open interval midpoint.
+ ts={F(0),F(1)};v=sub(b,a);vv=dot(v,v)
+ if vv==0:return inside(a,rings,True)
+ for c,d in edges(rings):
+  if not intersects(a,b,c,d):continue
+  w=sub(d,c);den=v[0]*w[1]-v[1]*w[0]
+  if den:
+   t=F((c[0]-a[0])*w[1]-(c[1]-a[1])*w[0],den)
+   if 0<=t<=1:ts.add(t)
+  else:
+   for p in [c,d]:
+    if on(a,b,p):ts.add(F(dot(sub(p,a),v),vv))
+ order=sorted(ts)
+ for lo,hi in zip(order,order[1:]):
+  t=(lo+hi)/2;p=(a[0]+v[0]*t,a[1]+v[1]*t)
+  if not inside(p,rings,True):return False
+ return True
+
+def shortest(a,b,rings):
+ nodes=list(dict.fromkeys([a,b]+[tuple(p) for r in rings for p in r]));g=[[] for _ in nodes]
+ for i,u in enumerate(nodes):
+  for j in range(i):
+   if visible(u,nodes[j],rings):
+    w=math.dist(u,nodes[j]);g[i].append((j,w));g[j].append((i,w))
+ dist=[math.inf]*len(nodes);dist[0]=0;prev={};q=[(0.,0)]
+ while q:
+  d,i=heapq.heappop(q)
+  if d!=dist[i]:continue
+  if i==1:break
+  for j,w in g[i]:
+   if d+w<dist[j]:dist[j]=d+w;prev[j]=i;heapq.heappush(q,(d+w,j))
+ if not math.isfinite(dist[1]):return None,dict(nodes=len(nodes),edges=sum(map(len,g))//2)
+ ids=[1]
+ while ids[-1]!=0:ids.append(prev[ids[-1]])
+ return [nodes[i] for i in reversed(ids)],dict(nodes=len(nodes),edges=sum(map(len,g))//2,length=dist[1])
+
+def controls():
+ box=[[(0,0),(10,0),(10,10),(0,10)]];hole=box+[[(4,4),(4,6),(6,6),(6,4)]]
+ checks={
+ 'inside':inside((2,2),hole),'hole':not inside((5,5),hole),
+ 'cross_hole':not visible((2,5),(8,5),hole),'touch_corner':visible((2,2),(4,4),hole),
+ 'outside_even_mid_inside':not visible((-1,5),(11,5),hole),
+ 'whole_disk':disk_path_clear([(2,2),(8,2)],box,F(2)),
+ 'too_close':not disk_path_clear([(2,1),(8,1)],box,F(2)),
+ 'zero_segment':disk_path_clear([(2,2)],box,F(2)),
+ 'continuous_corner':not disk_path_clear([(2,3),(7,8)],hole,F(1)),
+ 'fraction_distance':point_segment_sq((1,0),(0,0),(2,2))==F(1,2),
+ 'simple_collinear':valid_topology([[(0,0),(5,0),(10,0),(10,10),(0,10)]]),
+ 'nonzero_self_crossing':not valid_topology([[(0,0),(4,4),(0,4),(4,0),(5,-1)]]),
+ 'touching_rings_rejected':not valid_topology(box+[[(10,10),(20,10),(20,20),(10,20)]]),
+ 'nested_island':valid_topology([[(0,0),(20,0),(20,20),(0,20)],[(4,4),(4,16),(16,16),(16,4)],[(8,8),(12,8),(12,12),(8,12)]]),
+ 'disjoint_topology':valid_topology(box+[[(20,0),(30,0),(30,10),(20,10)]]),
+ 'disconnected':component(box+[[(20,0),(30,0),(30,10),(20,10)]],(2,2),(22,2))[0] is None}
+ p,meta=shortest((2,5),(8,5),hole)
+ checks['graph_optimum']=abs(meta['length']-(2*math.sqrt(5)+2))<1e-12
+ sample={'radius':1,'scale':100,'start':[2,2],'end':[8,2],'stepover':1.0,'ratio':3.0,'cleared':box}
+ checks['finite_request']=valid_request(sample)
+ checks['nan_request_rejected']=not valid_request({**sample,'stepover':float('nan')})
+ checks['inf_request_rejected']=not valid_request({**sample,'ratio':float('inf')})
+ checks['fractional_coordinate_rejected']=not valid_request({**sample,'start':[2.5,2]})
+ checks['graph_path_visible']=all(visible(a,b,hole) for a,b in zip(p,p[1:]))
+ return {'checks':checks,'all_pass':all(checks.values())}
+
+def main():
+ parser=argparse.ArgumentParser();parser.add_argument('--controls',action='store_true');parser.add_argument('--request');parser.add_argument('--plain');parser.add_argument('--driver');parser.add_argument('--out',required=True);parser.add_argument('--solve',action='store_true');args=parser.parse_args()
+ start=time.monotonic();out=pathlib.Path(args.out)
+ if args.controls:result=controls()
+ else:
+  req=json.loads(pathlib.Path(args.request).read_text())
+  if not valid_request(req):raise ValueError('invalid/nonfinite request state')
+  a,b=tuple(req['start']),tuple(req['end']);stock=req['cleared']
+  if sum(map(len,stock))>4096:
+   out.write_text(json.dumps({'eligible':False,'reason':'original_boundary_size_cap','total_wall_seconds':time.monotonic()-start})+'\n');return
+  if not valid_topology(stock):
+   out.write_text(json.dumps({'eligible':False,'reason':'unsupported_original_topology','total_wall_seconds':time.monotonic()-start})+'\n');return
+  geometry=out.with_suffix('.geometry.json')
+  proc=subprocess.run([args.driver,'geometry',args.plain,str(geometry)],capture_output=True,text=True,timeout=4)
+  if proc.returncode:raise RuntimeError(proc.stderr)
+  geom=json.loads(geometry.read_text());R=F(req['radius'])+F.from_float(float(geom['clearance']))
+  if not geom['center_paths']:
+   out.write_text(json.dumps({'eligible':False,'reason':'empty_eroded_center_space','total_wall_seconds':time.monotonic()-start})+'\n');return
+  if not valid_topology(geom['center_paths']):
+   out.write_text(json.dumps({'eligible':False,'reason':'unsupported_center_topology','total_wall_seconds':time.monotonic()-start})+'\n');return
+  c,reason=component(geom['center_paths'],a,b)
+  result={'eligible':False,'reason':reason,'native_clearance':geom['clearance'],'native_endpoint':geom['endpoint_native'],'stock_edges':sum(map(len,stock))}
+  if c is not None:
+   if not all(geom['endpoint_native']) or not disk_path_clear([a],stock,R) or not disk_path_clear([b],stock,R):result['reason']='endpoint_full_clearance_rejected'
+   else:
+    result.update(eligible=True,reason=None,component_vertices=sum(map(len,c)),nonstraight=not disk_path_clear([a,b],stock,R),native_path_full_clear=bool(req['success']) and disk_path_clear(req['path'],stock,R))
+    if result['component_vertices']>128 or result['stock_edges']>4096:result['graph_exclusion']='geometry_size_cap'
+    elif not result['nonstraight']:result['graph_exclusion']='direct_path_already_clear'
+    elif not args.solve:result['graph_exclusion']='fixed_first16_limit'
+    else:
+     path,meta=shortest(a,b,c);result['graph']=meta
+     if path is None:result['witness']=False;result['graph_exclusion']='graph_disconnected'
+     else:
+      result['path']=path;verified=disk_path_clear(path,stock,R)
+      ratio=math.dist(a,b)*req['ratio'];budget=meta['length']<=ratio
+      pathfile=out.with_suffix('.candidate.txt');pathfile.write_text('1 '+str(len(path))+' '+' '.join(str(x) for p in path for x in [*p,0])+'\n')
+      verification=out.with_suffix('.native-check.json')
+      p=subprocess.run([args.driver,'verify',args.plain,str(verification),str(pathfile)],capture_output=True,text=True,timeout=2)
+      if p.returncode:raise RuntimeError(p.stderr)
+      native=json.loads(verification.read_text())['native_full_path_clear']
+      result.update(continuous_clearance_verified=verified,native_full_path_clear=native,ratio_budget=budget,witness=(not req['success']) and verified and native and budget)
+ result['total_wall_seconds']=time.monotonic()-start;out.write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
+if __name__=='__main__':main()

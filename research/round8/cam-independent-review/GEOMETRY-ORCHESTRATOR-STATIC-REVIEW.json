@@ -1,0 +1,71 @@
+{
+  "reviewed_utc": "2026-09-18T11:33:26.872664+00:00",
+  "execution": "none; source inspection only",
+  "status": "No remaining static blocker for this negative/headroom screen; actual source-freeze must include both binaries before execution",
+  "files": [
+    {
+      "path": "visibility-oracle.py",
+      "sha256": "f83ffed60ac2ec0095401dc22b10aeccf8f6eacaa35406464b4879184151d706",
+      "bytes": 10953
+    },
+    {
+      "path": "run-screen.py",
+      "sha256": "02df2c3e6f1ba7cde15ceb97ca2a2e7390d6fd558064df1c03c7e3bb9760c3cc",
+      "bytes": 9554
+    }
+  ],
+  "findings": [
+    "Exact orientation/intersection and squared segment boundary distance provide continuous integer geometry check.",
+    "Topology validator now conservatively rejects self-crossings, ring touches, incorrect nesting/orientation, degeneracy.",
+    "All captured native requests replay before geometry; any workload/control failure is global hold.",
+    "Negative-only all-request cost/failure upper-bound shortcut is valid but should be stated in protocol.",
+    "Final deadline checks, actual binary provenance, and original-edge eligibility exclusion must be explicit before freeze.",
+    "RSS collection is cumulative observed child/self max, not isolated per-process measurement."
+  ],
+  "final_review_utc": "2026-09-18T11:37:20.565777+00:00",
+  "final_files": [
+    {
+      "path": "native-screen-preregistration.md",
+      "sha256": "49ecbf4fd5c2b6f7d567fa215e0d5dfcd30f64301a4e50bb7ede45b4a60a6ff1",
+      "bytes": 12767
+    },
+    {
+      "path": "native-driver.cpp",
+      "sha256": "a9c76c59fa8bb2379dfbd08cea59b0f6edc3ae66da20ec09acc12279d2360850",
+      "bytes": 8242
+    },
+    {
+      "path": "prepare-native.py",
+      "sha256": "2d31b54dd775cfe2230c69b2b863aa999ec1cc775d82c978d9ee05bb6283ba20",
+      "bytes": 3244
+    },
+    {
+      "path": "visibility-oracle.py",
+      "sha256": "4d67f4757c35f1612f4b2a13bc9e307da3df54c96125dc96a1001e7a8b31bd6e",
+      "bytes": 11363
+    },
+    {
+      "path": "run-screen.py",
+      "sha256": "4434f4af129c7c96018a5e431d3f52efd32111b9abba862e6ba0da6a91decbaa",
+      "bytes": 10416
+    },
+    {
+      "path": "bin/plain",
+      "sha256": "a5ed61bec81543c92c8aea9e8feaf0b9d50dbd040481326c970496cd0011619f",
+      "bytes": 532264
+    },
+    {
+      "path": "bin/capture",
+      "sha256": "f6609f837811da3acaea9ddcdd3a99d3a701cfe3d82296e4112fadaae33e9882",
+      "bytes": 532488
+    }
+  ],
+  "resolved": [
+    "Original and eroded topology validated without repair; adversarial controls specified but unexecuted.",
+    "Native Z tags preserved separately from XY in snapshots and request readback; successful replay compares XY and tags. Tags do not represent physical height.",
+    "Negative-only upper-bound gate and original-boundary scope exclusion documented prospectively.",
+    "599/299-second operational deadlines, post-phase checks and final serialization reserve implemented.",
+    "RSS explicitly cumulative observed maximum; additional virtual-address-space cap disclosed.",
+    "Actual compiled binaries rebuilt after tag repair; final private source-freeze must pin both."
+  ]
+}

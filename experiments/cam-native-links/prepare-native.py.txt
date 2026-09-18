@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+"""Prepare pinned access-only header and call-site trace instrumentation. No execution."""
+import hashlib,json,pathlib
+R=pathlib.Path(__file__).resolve().parent
+S=R/'native-source/src/Mod/CAM/libarea';B=R/'prepared';B.mkdir(exist_ok=True)
+clip=R/'native-source/src/3rdParty/Clipper2'
+assert 'project(Clipper2 VERSION 2.0.1 ' in (clip/'CMakeLists.txt').read_text()
+(clip/'Clipper2Lib/include/clipper2/clipper.version.h').write_text((clip/'clipper.version.in').read_text().replace('@PROJECT_VERSION@','2.0.1'))
+a=(S/'Adaptive.cpp').read_bytes();h=(S/'Adaptive.hpp').read_bytes()
+assert hashlib.sha256(a).hexdigest()=='f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de'
+assert hashlib.sha256(h).hexdigest()=='2885bb57d259cd5fe2d987b41ecf1e268e9c4c8be1402fc23b315872eadd3894'
+# Two private sections become public. No data layout or method body changes.
+assert h.count(b'private:')==2
+(B/'Adaptive.hpp').write_bytes(h.replace(b'private:',b'public: // ACCESS-ONLY research replay adaptation; original private:'))
+(B/'Adaptive-original.cpp').write_bytes(a)
+needle=b'            if (ResolveLinkPath(*prevPoint, leadInPath.front(), cleared, linkPath)) {'
+assert a.count(needle)==1
+replacement=b'''            CamTraceBegin(*prevPoint, leadInPath.front(), cleared.GetCleared(),
+                          toolRadiusScaled, stepOverScaled, scaleFactor, keepToolDownDistRatio);
+            const bool camTraceResolved = ResolveLinkPath(*prevPoint, leadInPath.front(), cleared, linkPath);
+            CamTraceEnd(camTraceResolved, linkPath);
+            if (camTraceResolved) {'''
+(B/'Adaptive-instrumented.cpp').write_bytes(a.replace(needle,replacement))
+# Assert exact ResolveLinkPath body unchanged, including its native clock policy.
+start=a.index(b'bool Adaptive2d::ResolveLinkPath(');end=a.index(b'bool Adaptive2d::MakeLeadPath(',start)
+p=(B/'Adaptive-instrumented.cpp').read_bytes();st=p.index(b'bool Adaptive2d::ResolveLinkPath(');en=p.index(b'bool Adaptive2d::MakeLeadPath(',st)
+assert p[st:en]==a[start:end]
+inputs=json.loads((R/'kernel-inputs.json').read_text())
+def paths(v):return '{'+','.join('{'+','.join('{'+repr(float(x))+','+repr(float(y))+'}' for x,y in ring)+'}' for ring in v)+'}'
+rows=[]
+for v in inputs['workloads']:
+ s=v['settings'];rows.append('{"'+v['id']+'",'+paths(v['stockPaths'])+','+paths(v['paths'])+','+str(s['stepOverFactor'])+'}')
+(B/'inputs.hpp').write_text('/* Derived from CC BY4.0 FreeCAD test_adaptive.fcstd; see kernel-inputs.json. */\nstruct Workload { const char* id; AdaptivePath::DPaths stock,paths; double stepover; };\nstatic const std::vector<Workload> workloads = {'+','.join(rows)+'};\n')
+meta={'kind':'prospective source preparation; no executable run','original_resolve_body_sha256':hashlib.sha256(a[start:end]).hexdigest(),'input_sha256':hashlib.sha256((R/'kernel-inputs.json').read_bytes()).hexdigest(),'files':[{'path':str(f.relative_to(R)),'bytes':f.stat().st_size,'sha256':hashlib.sha256(f.read_bytes()).hexdigest()} for f in sorted(B.iterdir()) if f.is_file()]}
+(R/'prepared-source-manifest.json').write_text(json.dumps(meta,indent=2)+'\n')
+print('Prepared exact-body instrumentation and fixed input header; no native execution.')

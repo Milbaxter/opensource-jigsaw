@@ -1,0 +1,149 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+"""Frozen native-only CAM headroom study. Never sends code to a machine."""
+import argparse,hashlib,json,os,pathlib,platform,resource,statistics,subprocess,sys,time
+ROOT=pathlib.Path(__file__).resolve().parent
+LIMIT=2*1024**3
+
+def dump(path,obj):path.write_text(json.dumps(obj,indent=2,allow_nan=False)+'\n')
+def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
+def child_limits():resource.setrlimit(resource.RLIMIT_AS,(LIMIT,LIMIT))
+def peak():
+ value=max(resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss,resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+ return int(value if sys.platform=='darwin' else value*1024)
+
+def run(cmd,out,timeout):
+ t=time.monotonic();meta={'command':[str(x) for x in cmd],'timeout_seconds':timeout}
+ try:
+  p=subprocess.run([str(x) for x in cmd],stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=timeout,preexec_fn=child_limits)
+  meta['exit_code']=p.returncode;raw=p.stdout
+ except subprocess.TimeoutExpired as e:meta['timeout']=True;meta['exit_code']=None;raw=e.stdout or b''
+ out.with_suffix(out.suffix+'.console.log').write_bytes(raw)
+ meta.update(wall_seconds=time.monotonic()-t,peak_rss_bytes=peak())
+ dump(out.with_suffix(out.suffix+'.process.json'),meta)
+ if meta['exit_code']!=0:raise RuntimeError('native/oracle subprocess failed or timed out: '+out.name)
+ if meta['peak_rss_bytes']>LIMIT:raise RuntimeError('RSS resource limit')
+ return json.loads(out.read_text())
+
+def build():
+ p=ROOT/'native-source/src/3rdParty/Clipper2/Clipper2Lib';src=ROOT/'native-source/src/Mod/CAM/libarea'
+ base=['clang++','-std=c++20','-O2','-DUSINGZ','-I'+str(p/'include'),'-I'+str(src),str(ROOT/'native-driver.cpp'),str(src/'clipper.cpp')]+[str(x) for x in sorted((p/'src').glob('*.cpp'))]
+ out=ROOT/'bin';out.mkdir(exist_ok=True)
+ for name,extra in [('plain',[]),('capture',['-DCAM_CAPTURE'])]:
+  cmd=base+extra+['-o',str(out/name)];p1=subprocess.run(cmd,capture_output=True,text=True)
+  dump(out/(name+'-build.json'),{'command':cmd,'exit_code':p1.returncode,'stdout':p1.stdout,'stderr':p1.stderr})
+  if p1.returncode:raise RuntimeError('compile failed')
+ return out/'plain',out/'capture'
+
+def read_trace(path):
+ pairs=[];pending=None
+ for line in path.read_text().splitlines():
+  row=json.loads(line)
+  if row['event']=='begin':
+   if pending is not None:raise ValueError('unpaired native begin')
+   if row['index']!=len(pairs)+1:raise ValueError('trace ordering')
+   pending=row
+  elif row['event']=='end':
+   if pending is None or row['index']!=pending['index']:raise ValueError('unpaired native end')
+   pairs.append({**pending,**row});pending=None
+  else:raise ValueError('unknown trace event')
+ if pending is not None:raise ValueError('unfinished native call')
+ return pairs
+
+def write_plain(path,r):
+ assert len(r['cleared'])==len(r['cleared_z'])
+ assert all(len(ring)==len(zring) for ring,zring in zip(r['cleared'],r['cleared_z']))
+ assert type(r['start_z']) is int and type(r['end_z']) is int
+ assert all(type(z) is int for ring in r['cleared_z'] for z in ring)
+ values=[r['radius'],r['scale'],r['stepover'],r['ratio'],*r['start'],r['start_z'],*r['end'],r['end_z'],len(r['cleared'])]
+ for ring,zring in zip(r['cleared'],r['cleared_z']):values.extend([len(ring),*[x for p,z in zip(ring,zring) for x in [*p,z]]])
+ path.write_text(' '.join(str(x) for x in values)+'\n')
+
+def main():
+ ap=argparse.ArgumentParser();ap.add_argument('--build-only',action='store_true');ap.add_argument('--out',default='results');args=ap.parse_args()
+ if args.build_only:
+  build();print('Compile/link only; no binary executed.');return
+ freeze=json.loads((ROOT/'source-freeze.json').read_text())
+ for f in freeze['files']:
+  if sha(ROOT/f['path'])!=f['sha256']:raise RuntimeError('source freeze mismatch: '+f['path'])
+ resultdir=ROOT/args.out
+ resultdir.mkdir(exist_ok=False)
+ dump(resultdir/'execution-start.json',{'utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'python':sys.version,'platform':platform.platform(),'source_freeze_sha256':sha(ROOT/'source-freeze.json')})
+ summary={'status':'RUNNING','workloads':[],'scope':'One actual upstream CAD fixture, six explicitly configured native-kernel footprint workloads; not full FreeCAD/OCC or customer job replay.','errors':[]}
+ plain,capture=ROOT/'bin/plain',ROOT/'bin/capture'
+ for path in [plain,capture]:
+  if not path.exists():raise RuntimeError('build-only must precede execution')
+ dump(resultdir/'binary-hashes.json',{p.name:sha(p) for p in [plain,capture]})
+ try:
+  control=run([sys.executable,ROOT/'visibility-oracle.py','--controls','--out',resultdir/'geometry-controls.json'],resultdir/'geometry-controls.json',5)
+  if not control['all_pass']:raise RuntimeError('geometry control failure')
+  native_start=time.monotonic();inputs=json.loads((ROOT/'kernel-inputs.json').read_text())
+  all_requests=[];any_invalid=False
+  for idx,w in enumerate(inputs['workloads']):
+   d=resultdir/w['id'];d.mkdir();wr={'id':w['id'],'valid':False,'requests':0};summary['workloads'].append(wr)
+   try:
+    remaining=599-(time.monotonic()-native_start)
+    if remaining<=0:raise RuntimeError('global native600s cap')
+    traced=run([capture,'run',idx,d/'capture.json'],d/'capture.json',min(30,remaining))
+    records=read_trace(d/'capture.json.trace.jsonl');wr['requests']=len(records)
+    regular=[]
+    for j in range(3):
+     remaining=599-(time.monotonic()-native_start)
+     if remaining<=0:raise RuntimeError('global native600s cap')
+     regular.append(run([plain,'run',idx,d/f'plain-{j}.json'],d/f'plain-{j}.json',min(30,remaining)))
+    if not traced['results'] or any(any(r['errors']) for r in traced['results']):raise RuntimeError('empty native output or native error flags')
+    if any(r['results']!=traced['results'] for r in regular):raise RuntimeError('traced/untraced native equality failure')
+    wr.update(kernel_cpu_median=statistics.median(r['cpu_seconds'] for r in regular),kernel_wall_median=statistics.median(r['wall_seconds'] for r in regular),trace_acquisition_wall=traced['wall_seconds'])
+    records_dir=d/'requests';records_dir.mkdir()
+    for r in records:
+     ident=f"{r['index']:06d}";jpath=records_dir/(ident+'.json');tpath=records_dir/(ident+'.txt');dump(jpath,r);write_plain(tpath,r)
+     remaining=599-(time.monotonic()-native_start)
+     if remaining<=0:raise RuntimeError('global native600s cap')
+     replay=run([plain,'replay',tpath,records_dir/(ident+'.replay.json')],records_dir/(ident+'.replay.json'),min(5,remaining))
+     for repeat in replay['repeats']:
+      if repeat['success']!=r['success'] or (r['success'] and (repeat['path']!=r['path'] or repeat['path_z']!=r['path_z'])):raise RuntimeError('native replay mismatch')
+     all_requests.append({'workload':w['id'],'record':r,'json_path':jpath,'plain_path':tpath,'cpu_median':statistics.median(x['cpu_seconds'] for x in replay['repeats'])})
+    wr['valid']=True
+   except Exception as e:
+    any_invalid=True;wr['error']=str(e);summary['errors'].append({'workload':w['id'],'error':str(e)})
+   dump(resultdir/'summary.json',summary)
+  summary['native_acquisition_control_replay_wall']=time.monotonic()-native_start
+  if summary['native_acquisition_control_replay_wall']>599:raise RuntimeError('global native budget reserve exhausted')
+  if any_invalid:summary['status']='HOLD_NATIVE_CONTROL';dump(resultdir/'summary.json',summary);return
+  kernel_total=sum(w['kernel_cpu_median'] for w in summary['workloads'])
+  all_cost=sum(r['cpu_median'] for r in all_requests);fail=[r for r in all_requests if not r['record']['success']]
+  upper_profile=all_cost>1 and all_cost>.2*kernel_total
+  upper_failures=len(fail)>=3 and len({r['workload'] for r in fail})>=2
+  summary['upper_bound']={'all_replay_cpu':all_cost,'kernel_cpu_total':kernel_total,'native_failed_proposals':len(fail),'failed_configurations':len({r['workload'] for r in fail}),'profile_possible':upper_profile,'recovery_possible':upper_failures}
+  if not upper_profile and not upper_failures:
+   summary['status']='HOLD_NATIVE_CEILING';dump(resultdir/'summary.json',summary);return
+  geometry_start=time.monotonic();selected={w['id']:0 for w in summary['workloads']};eligible_cost=0.;nonstraight=[];witnesses=[];geometry_rows=[]
+  for rec in all_requests:
+   remaining=299-(time.monotonic()-geometry_start)
+   if remaining<=0:raise RuntimeError('global geometry300s cap')
+   out=rec['json_path'].with_suffix('.oracle.json');cmd=[sys.executable,ROOT/'visibility-oracle.py','--request',rec['json_path'],'--plain',rec['plain_path'],'--driver',plain,'--out',out]
+   if selected[rec['workload']]<16:cmd.append('--solve')
+   result=run(cmd,out,min(5,remaining));row={'workload':rec['workload'],'index':rec['record']['index'],**result};geometry_rows.append(row)
+   if result.get('eligible'):
+    eligible_cost+=rec['cpu_median']
+    if result['nonstraight']:
+     nonstraight.append((rec['workload'],rec['record']['index']))
+     if result.get('graph_exclusion') not in ['geometry_size_cap','fixed_first16_limit']:selected[rec['workload']]+=1
+   if result.get('witness'):witnesses.append((rec['workload'],rec['record']['index']))
+   dump(resultdir/'geometry-summary.json',geometry_rows)
+   if time.monotonic()-geometry_start>299:raise RuntimeError('global geometry budget reserve exhausted')
+  profile=eligible_cost>1 and eligible_cost>.2*kernel_total
+  recovery=len(witnesses)>=3 and len({x[0] for x in witnesses})>=2
+  span=len(nonstraight)>=10 and len({x[0] for x in nonstraight})>=2
+  summary.update(geometry_wall=time.monotonic()-geometry_start,eligible_replay_cpu=eligible_cost,eligible_nonstraight=nonstraight,recovered_proposals=witnesses,profile_headroom=profile,recovery_headroom=recovery)
+  summary['status']='CONTINUE_TO_SEPARATE_PROTOCOL' if span and (profile or recovery) else 'HOLD_INSUFFICIENT_HEADROOM'
+ except Exception as e:
+  summary['status']='HOLD_CONTROL_OR_RESOURCE';summary['errors'].append({'error':str(e)})
+ finally:
+  summary['cumulative_observed_peak_rss_bytes']=peak()
+  serial_start=time.monotonic();dump(resultdir/'summary.json',summary)
+  serialization=time.monotonic()-serial_start
+  if serialization>1:
+   summary['status']='HOLD_FINAL_SERIALIZATION_RESERVE';summary['final_serialization_seconds']=serialization;dump(resultdir/'summary.json',summary)
+  print(json.dumps({'status':summary['status'],'workloads':len(summary['workloads']),'errors':summary['errors']}))
+if __name__=='__main__':main()

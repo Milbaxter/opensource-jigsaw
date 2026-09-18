@@ -1,0 +1,59 @@
+# SPDX-License-Identifier: MIT
+"""Independent ZIP/XML and exact rectilinear cell checks. No CAM/geometry engine."""
+from pathlib import Path
+from fractions import Fraction as F
+import json,zipfile,hashlib,xml.etree.ElementTree as ET,datetime
+P=Path(__file__).resolve().parent
+raw=(P/'fixtures/test_adaptive.fcstd').read_bytes()
+with zipfile.ZipFile(P/'fixtures/test_adaptive.fcstd') as z: xml=z.read('Document.xml')
+d=ET.fromstring(xml)
+obj={e.attrib['name']:e for e in d.findall('./ObjectData/Object')}
+def prop(name,key):return obj[name].find(f'./Properties/Property[@name="{key}"]')
+boxes={}
+for name in ['Box','Box001','Box002']:
+ v=prop(name,'Placement').find('PropertyPlacement').attrib
+ assert [F(v['Q'+str(i)]) for i in range(4)]==[0,0,0,1]
+ boxes[name]={k:F(prop(name,k).find('Float').attrib['value']) for k in ['Length','Width','Height']}
+ boxes[name].update({k:F(v[k]) for k in ['Px','Py','Pz']})
+ assert all(boxes[name][k]>0 for k in ('Length','Width','Height'))
+for name in ['Cut','Fusion']:
+ v=prop(name,'Placement').find('PropertyPlacement').attrib
+ assert [F(v[k]) for k in ('Px','Py','Pz','Q0','Q1','Q2','Q3')]==[0,0,0,0,0,0,1]
+assert prop('Cut','Base').find('Link').attrib['value']=='Box001'
+assert prop('Cut','Tool').find('Link').attrib['value']=='Box002'
+assert [x.attrib['value'] for x in prop('Fusion','Shapes').findall('LinkList/Link')]==['Box','Cut']
+a,b,h=[boxes[x] for x in ('Box','Box001','Box002')]
+assert a['Pz']==b['Pz']==h['Pz']==0 and h['Height']>=b['Height'] and a['Height']>b['Height']
+record=json.loads((P.parent/'round7-c/kernel-inputs.json').read_text())
+assert record['fixture_sha256']==hashlib.sha256(raw).hexdigest()
+assert record['document_xml_sha256']==hashlib.sha256(xml).hexdigest()
+assert len(record['workloads'])==6
+xs=sorted(set([F(-1),F(41)]+[v['Px']+dx for v in boxes.values() for dx in (0,v['Length'])]))
+ys=sorted(set([F(-1),F(26)]+[v['Py']+dy for v in boxes.values() for dy in (0,v['Width'])]))
+points=[((x+X)/2,(y+Y)/2) for x,X in zip(xs,xs[1:]) for y,Y in zip(ys,ys[1:])]
+def inside_rect(point,v):
+ x,y=point;return v['Px']<x<v['Px']+v['Length'] and v['Py']<y<v['Py']+v['Width']
+def ring_inside(point,poly):
+ x,y=point;inside=False
+ for u,v in zip(poly,poly[1:]+poly[:1]):
+  ax,ay=map(F,u);bx,by=map(F,v)
+  assert ax==bx or ay==by
+  if (ay>y)!=(by>y) and x<(bx-ax)*(y-ay)/(by-ay)+ax:inside=not inside
+ return inside
+def area(poly):return sum(F(u[0])*F(v[1])-F(v[0])*F(u[1]) for u,v in zip(poly,poly[1:]+poly[:1]))/2
+checks=[]
+for case in record['workloads']:
+ label=case['id'].rsplit('_s',1)[0]
+ for ring in case['paths']:
+  assert all(F(x) in xs and F(y) in ys for x,y in ring)
+ for pt in points:
+  A,B,H=[inside_rect(pt,v) for v in (a,b,h)]
+  truth={'upper_face':A,'lower_face_with_hole':B and not H,'projected_union_with_hole':A or (B and not H)}[label]
+  actual=sum(ring_inside(pt,r) for r in case['paths'])%2==1
+  assert truth==actual,(case['id'],pt)
+ areas=[area(r) for r in case['paths']]
+ assert areas[0]>0 and all(v<0 for v in areas[1:])
+ assert sum(areas)=={'upper_face':225,'lower_face_with_hole':600,'projected_union_with_hole':825}[label]
+ checks.append({'id':case['id'],'rectilinear_open_cells_checked':len(points),'signed_ring_areas_mm2':[float(v) for v in areas],'total_area_mm2':float(sum(areas)),'passed':True})
+out={'created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scope':'All open cells of exact axis-aligned boundary arrangement checked; boundary topology from rings; no OCC equivalence or CAM job claim.','geometry_engine_used':False,'kernel_executed':False,'fixture_sha256':hashlib.sha256(raw).hexdigest(),'kernel_inputs_sha256':hashlib.sha256((P.parent/'round7-c/kernel-inputs.json').read_bytes()).hexdigest(),'checks':checks}
+(P/'INDEPENDENT-FOOTPRINT-AUDIT.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2))

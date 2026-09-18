@@ -1,0 +1,50 @@
+{
+  "verified_utc": "2026-09-18T11:27:36.107080+00:00",
+  "execution": "none; static byte/metadata inspection only",
+  "exact_single_callsite_change": true,
+  "exact_two_access_label_changes": true,
+  "ResolveLinkPath_body_sha256": "1ee5c87a56fad7485ca0cc2fcc5d7326c543cd24b8a9d618e7f1e3ebdc32f7a2",
+  "GetCleared_inspection": "Returns clearedPaths reference directly; no lazy recomputation",
+  "files": [
+    {
+      "path": "native-screen-preregistration.md",
+      "sha256": "11c733724b686c36a178f49c55300ee9c0ecfb856e9133416d083ba006406f23",
+      "bytes": 10803
+    },
+    {
+      "path": "native-driver.cpp",
+      "sha256": "78619d6104e280ba5d5d4c182255badc313048ddc0d83bdf87e2b8fff6dc4dd4",
+      "bytes": 7731
+    },
+    {
+      "path": "prepare-native.py",
+      "sha256": "01966e02bccfb484dce0c516d151932035d466c7bc76859ea9089f250bfa6464",
+      "bytes": 2974
+    },
+    {
+      "path": "extract-inputs.py",
+      "sha256": "60ecbfdab7cbd81e2b4dad9d23d65b4d5afabafa9368f4de3dc7545603acd71d",
+      "bytes": 3310
+    },
+    {
+      "path": "kernel-inputs.json",
+      "sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f",
+      "bytes": 8554
+    },
+    {
+      "path": "prepared-source-manifest.json",
+      "sha256": "e8ba6e55b63cd3d176dc630f0cf983ace5361be10cf282b803bd8e789a1258ff",
+      "bytes": 920
+    }
+  ],
+  "final_protocol_review_utc": "2026-09-18T11:30:38.990004+00:00",
+  "resolved_protocol_semantics": [
+    "CPU_seconds gate",
+    "planned graph exclusions distinct from global abort",
+    "proposal recovery is not final retract reduction"
+  ],
+  "final_protocol_checkpoint": {
+    "sha256": "11c733724b686c36a178f49c55300ee9c0ecfb856e9133416d083ba006406f23",
+    "bytes": 10803
+  }
+}

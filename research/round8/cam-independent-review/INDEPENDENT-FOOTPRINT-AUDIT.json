@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-09-18T11:21:24.346761+00:00",
+  "scope": "All open cells of exact axis-aligned boundary arrangement checked; boundary topology from rings; no OCC equivalence or CAM job claim.",
+  "geometry_engine_used": false,
+  "kernel_executed": false,
+  "fixture_sha256": "34207b128f433c53b68f09e58a14412eac6eff36bb6f25c7baaff659bf5d7375",
+  "kernel_inputs_sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f",
+  "checks": [
+    {
+      "id": "upper_face_s20",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        225.0
+      ],
+      "total_area_mm2": 225.0,
+      "passed": true
+    },
+    {
+      "id": "upper_face_s75",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        225.0
+      ],
+      "total_area_mm2": 225.0,
+      "passed": true
+    },
+    {
+      "id": "lower_face_with_hole_s20",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        625.0,
+        -25.0
+      ],
+      "total_area_mm2": 600.0,
+      "passed": true
+    },
+    {
+      "id": "lower_face_with_hole_s75",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        625.0,
+        -25.0
+      ],
+      "total_area_mm2": 600.0,
+      "passed": true
+    },
+    {
+      "id": "projected_union_with_hole_s20",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        850.0,
+        -25.0
+      ],
+      "total_area_mm2": 825.0,
+      "passed": true
+    },
+    {
+      "id": "projected_union_with_hole_s75",
+      "rectilinear_open_cells_checked": 42,
+      "signed_ring_areas_mm2": [
+        850.0,
+        -25.0
+      ],
+      "total_area_mm2": 825.0,
+      "passed": true
+    }
+  ]
+}

@@ -20,7 +20,33 @@
       "path": "snapshot-metadata.json",
       "bytes": 446,
       "sha256": "7cbe5387d925a3a15499de5eb8cdad8134abbf7bd6d202ddb41626b791eab16d"
+    },
+    {
+      "path": "verify-footprints.py",
+      "bytes": 3841,
+      "sha256": "e6cac444f7a1fe72815fdf473e09d27a58963babe1200e4d27341551b0c249a5"
+    },
+    {
+      "path": "INDEPENDENT-FOOTPRINT-AUDIT.json",
+      "bytes": 1745,
+      "sha256": "91cb8d179dd11da429f5a20e0e09e963b8a8d1356c035142e8262671777507cd"
+    },
+    {
+      "path": "NATIVE-STATIC-AUDIT.json",
+      "bytes": 1735,
+      "sha256": "b82826b0aaa3986722b6deeeb2aadc486043b7b81a7cea8026ec1645ed493e97"
+    },
+    {
+      "path": "NATIVE-PRE-RESULT-REVIEW.md",
+      "bytes": 7224,
+      "sha256": "32b531bdc82ef85fe689d0ff7070f244aecc924cfd01689f4c0ba293110e87f9"
+    },
+    {
+      "path": "GEOMETRY-ORCHESTRATOR-STATIC-REVIEW.json",
+      "bytes": 3130,
+      "sha256": "e79f86f9d9c92825ba36641b29e13a54d0de9646ba74faf04572eaade0a75468"
     }
   ],
-  "excluded": "source/ and fixtures/ third-party payloads; bulky raw GitHub API records. Exact reference URLs/checksums retained in manifests."
+  "excluded": "source/ and fixtures/ third-party payloads; bulky raw GitHub API records. Exact reference URLs/checksums retained in manifests.",
+  "updated_utc": "2026-09-18T11:37:20.565777+00:00"
 }

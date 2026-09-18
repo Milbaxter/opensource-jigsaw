@@ -1,0 +1,116 @@
+[
+  {
+    "path": "src/Mod/CAM/libarea/Adaptive.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/Adaptive.cpp",
+    "sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de",
+    "bytes": 178309
+  },
+  {
+    "path": "src/Mod/CAM/libarea/Adaptive.hpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/Adaptive.hpp",
+    "sha256": "2885bb57d259cd5fe2d987b41ecf1e268e9c4c8be1402fc23b315872eadd3894",
+    "bytes": 10745
+  },
+  {
+    "path": "src/Mod/CAM/libarea/clipper.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/clipper.cpp",
+    "sha256": "2394b0df85c6c3cb7fe3431fb5171aa4e8aea9ab59d5af8cc72160a059fe8ea8",
+    "bytes": 159570
+  },
+  {
+    "path": "src/Mod/CAM/libarea/clipper.hpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/clipper.hpp",
+    "sha256": "ea2f63444c290ef1f015abd4983838201ead9d7e45ef1f8d43db09e1590155dc",
+    "bytes": 16008
+  },
+  {
+    "path": "src/3rdParty/Clipper2/CMakeLists.txt",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/CMakeLists.txt",
+    "sha256": "9838e05405efb2db0db11f20dea7c2d3fdfff211dd6be42e3c0e2611ae886348",
+    "bytes": 12832
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.core.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.core.h",
+    "sha256": "91e7c1b418f59db4a8f30355e75f60e5d26adfd66c37578bcfd79f76ae8036ab",
+    "bytes": 35291
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.engine.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.engine.h",
+    "sha256": "c3e8b7cabc80f5ab2592dd4401a8c445bd43422139ff216591aae94de1b5a175",
+    "bytes": 18966
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.export.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.export.h",
+    "sha256": "035e4257f1f127d6a17833331922f2b1b615371b64bb4cd625842102517793b0",
+    "bytes": 27954
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.h",
+    "sha256": "763c56acf64085af2b5081ca80466210507df3f49c53f9aaf3cce5597ed71e36",
+    "bytes": 25609
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+    "sha256": "951b3f1d9b804f9fe9f1a142e6133c2efda2ba1c26c47e4c7de14c6d03a0eb39",
+    "bytes": 4129
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.offset.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.offset.h",
+    "sha256": "00d0b670f40d030fad5cd658b71a34b8ff3185673825bbcc9f40e63d9216cbb2",
+    "bytes": 4735
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.rectclip.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.rectclip.h",
+    "sha256": "279c6ae467cf9cec001c473d569dd7943a241690f5d64a17561efcb1a8e2e38e",
+    "bytes": 2802
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.triangulation.h",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.triangulation.h",
+    "sha256": "a82d32e65583cce5a6d704796c54de3ddd2963d219057263a0f87f8d14a07d6c",
+    "bytes": 1289
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+    "sha256": "4c66d5cd0c69a1d1caee2434a0099a9366771dcf186a8d987ab1b2d294872e98",
+    "bytes": 88255
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+    "sha256": "ebc01258953212d20fed090a4a740f94926c3c6706a092fec4c5e9cb5292305a",
+    "bytes": 20974
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+    "sha256": "79c7d8d90dd3b577db77a152c4739f6f49bfda8727528291250d3d8e8d79e18c",
+    "bytes": 28076
+  },
+  {
+    "path": "src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+    "sha256": "5f5e634479b0da062e9345cf90e511efd7d098535b297e92701fc319880fb230",
+    "bytes": 38173
+  },
+  {
+    "path": "src/3rdParty/Clipper2/LICENSE",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/LICENSE",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+    "bytes": 1338
+  },
+  {
+    "path": "src/3rdParty/Clipper2/clipper.version.in",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/3rdParty/Clipper2/clipper.version.in",
+    "sha256": "0fa7b02aae2751806611a1d8636df89f162608c1af2a9e6b9b5876876a99c544",
+    "bytes": 138
+  }
+]

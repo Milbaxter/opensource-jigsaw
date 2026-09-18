@@ -1,0 +1,108 @@
+{
+  "status": "Prospective packet. Native drivers compiled but no binary, geometry control or toolpath executed. Independent static review complete; awaiting parent publication. No binary payload or full upstream source copies.",
+  "files": [
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-screen-preregistration.md",
+      "target": "native-screen-preregistration.md",
+      "sha256": "49ecbf4fd5c2b6f7d567fa215e0d5dfcd30f64301a4e50bb7ede45b4a60a6ff1",
+      "bytes": 12767
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/kernel-inputs.json",
+      "target": "kernel-inputs.json",
+      "sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f",
+      "bytes": 8554
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/extract-inputs.py",
+      "target": "extract-inputs.py",
+      "sha256": "a3f6b7f7e3cd975ddf2b0620d00a413b4065df90e41ef5ce2f65f9edc596c63a",
+      "bytes": 3407
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/fetch-sources.py",
+      "target": "fetch-sources.py",
+      "sha256": "955690cf3d02a5f16f2dae1c4d9e99d3e9bccf9fd50b0392ca22e2c05337138d",
+      "bytes": 1192
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/prepare-native.py",
+      "target": "prepare-native.py",
+      "sha256": "2d31b54dd775cfe2230c69b2b863aa999ec1cc775d82c978d9ee05bb6283ba20",
+      "bytes": 3244
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-driver.cpp",
+      "target": "native-driver.cpp",
+      "sha256": "a9c76c59fa8bb2379dfbd08cea59b0f6edc3ae66da20ec09acc12279d2360850",
+      "bytes": 8242
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/visibility-oracle.py",
+      "target": "visibility-oracle.py",
+      "sha256": "4d67f4757c35f1612f4b2a13bc9e307da3df54c96125dc96a1001e7a8b31bd6e",
+      "bytes": 11363
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/run-screen.py",
+      "target": "run-screen.py",
+      "sha256": "4434f4af129c7c96018a5e431d3f52efd32111b9abba862e6ba0da6a91decbaa",
+      "bytes": 10416
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/prepared-source-manifest.json",
+      "target": "prepared-source-manifest.json",
+      "sha256": "e8ba6e55b63cd3d176dc630f0cf983ace5361be10cf282b803bd8e789a1258ff",
+      "bytes": 920
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/native-source/manifest.json",
+      "target": "native-source/manifest.json",
+      "sha256": "a9b7f128f72660b1575c302ec31f644812268cfd87d2a19b956767ea2a6fda91",
+      "bytes": 6412
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/RIGHTS.md",
+      "target": "RIGHTS.md",
+      "sha256": "376c145c787bfc2e11bc7e250b059bcf7686d709769051b6e7ee74af3d474b6a",
+      "bytes": 2446
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/REPRODUCE.md",
+      "target": "REPRODUCE.md",
+      "sha256": "ce05d3a1a68bfa19194e71a89f8d61e019e9f14a4aee345d4ee4ec2efa913202",
+      "bytes": 2312
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/LICENSE-MIT.txt",
+      "target": "LICENSE-MIT.txt",
+      "sha256": "b054050774603183d60479b79a979f3bc49ca23ae1cf338f0d3bfb81f49bd9ef",
+      "bytes": 1087
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/LICENSE-LGPL-2.1.txt",
+      "target": "LICENSE-LGPL-2.1.txt",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95",
+      "bytes": 26419
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/license-provenance.json",
+      "target": "license-provenance.json",
+      "sha256": "fb80c084c07f03cba95149650ba21bc795bc5f1f202d4ea9db217849a7456c3c",
+      "bytes": 168
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/source-freeze.json",
+      "target": "source-freeze.json",
+      "sha256": "61e3d41ab66bb47d4fe06403db0e6c31a3544ad76c8439dd80af7117c41c0c73",
+      "bytes": 7683
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/SCREEN.md",
+      "target": "SCREEN.md",
+      "sha256": "0a0516f246065acf529f2d87d78469a9ce7341647a280dbeecf19d89720b3be2",
+      "bytes": 10549
+    }
+  ],
+  "total_bytes": 117181
+}

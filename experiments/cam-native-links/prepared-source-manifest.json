@@ -1,0 +1,27 @@
+{
+  "kind": "prospective source preparation; no executable run",
+  "original_resolve_body_sha256": "1ee5c87a56fad7485ca0cc2fcc5d7326c543cd24b8a9d618e7f1e3ebdc32f7a2",
+  "input_sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f",
+  "files": [
+    {
+      "path": "prepared/Adaptive-instrumented.cpp",
+      "bytes": 178599,
+      "sha256": "9177b890f6375fd7630dc99d3958f1fe9bac3673f903b72c6308e4a9c9018882"
+    },
+    {
+      "path": "prepared/Adaptive-original.cpp",
+      "bytes": 178309,
+      "sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de"
+    },
+    {
+      "path": "prepared/Adaptive.hpp",
+      "bytes": 10865,
+      "sha256": "167101268463cc83672709cba84d7899608fdf9f067ce7e54cc7c8da27ecda95"
+    },
+    {
+      "path": "prepared/inputs.hpp",
+      "bytes": 1282,
+      "sha256": "21db8b6afed2556e665041afbaa34e3463f5f0c90899dc0edfb661e7ee4efae6"
+    }
+  ]
+}

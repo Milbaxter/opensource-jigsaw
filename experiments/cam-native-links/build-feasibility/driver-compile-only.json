@@ -1,0 +1,48 @@
+{
+  "executed": false,
+  "builds": [
+    {
+      "name": "plain",
+      "command": [
+        "clang++",
+        "-std=c++20",
+        "-O2",
+        "-DUSINGZ",
+        "-Iwork/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/include",
+        "-Iwork/round7-c/native-source/src/Mod/CAM/libarea",
+        "work/round7-c/native-driver.cpp",
+        "work/round7-c/native-source/src/Mod/CAM/libarea/clipper.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+        "-o",
+        "work/round7-c/build-feasibility/driver-plain"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "name": "capture",
+      "command": [
+        "clang++",
+        "-std=c++20",
+        "-O2",
+        "-DUSINGZ",
+        "-Iwork/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/include",
+        "-Iwork/round7-c/native-source/src/Mod/CAM/libarea",
+        "work/round7-c/native-driver.cpp",
+        "work/round7-c/native-source/src/Mod/CAM/libarea/clipper.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+        "work/round7-c/native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+        "-DCAM_CAPTURE",
+        "-o",
+        "work/round7-c/build-feasibility/driver-capture"
+      ],
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ]
+}

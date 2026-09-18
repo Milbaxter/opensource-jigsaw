@@ -1,0 +1,213 @@
+{
+  "frozen_at_utc": "2026-09-18T11:38:48Z",
+  "status": "Prospective source and binary hash freeze before any native kernel/geometry control execution. Compile/link only has completed. Await parent protocol publication.",
+  "native_commit": "691a041981b7972d3170ceadb96163019712d2b0",
+  "compiler": "Apple clang16.0.0 arm64-apple-darwin24.0.0",
+  "files": [
+    {
+      "path": "LICENSE-LGPL-2.1.txt",
+      "bytes": 26419,
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "path": "LICENSE-MIT.txt",
+      "bytes": 1087,
+      "sha256": "b054050774603183d60479b79a979f3bc49ca23ae1cf338f0d3bfb81f49bd9ef"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "bytes": 2312,
+      "sha256": "ce05d3a1a68bfa19194e71a89f8d61e019e9f14a4aee345d4ee4ec2efa913202"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 2446,
+      "sha256": "376c145c787bfc2e11bc7e250b059bcf7686d709769051b6e7ee74af3d474b6a"
+    },
+    {
+      "path": "bin/capture",
+      "bytes": 532488,
+      "sha256": "f6609f837811da3acaea9ddcdd3a99d3a701cfe3d82296e4112fadaae33e9882"
+    },
+    {
+      "path": "bin/plain",
+      "bytes": 532264,
+      "sha256": "a5ed61bec81543c92c8aea9e8feaf0b9d50dbd040481326c970496cd0011619f"
+    },
+    {
+      "path": "extract-inputs.py",
+      "bytes": 3407,
+      "sha256": "a3f6b7f7e3cd975ddf2b0620d00a413b4065df90e41ef5ce2f65f9edc596c63a"
+    },
+    {
+      "path": "fetch-sources.py",
+      "bytes": 1192,
+      "sha256": "955690cf3d02a5f16f2dae1c4d9e99d3e9bccf9fd50b0392ca22e2c05337138d"
+    },
+    {
+      "path": "kernel-inputs.json",
+      "bytes": 8554,
+      "sha256": "d5202bdf9183d12e69b7e2e5bd8f9f58032c344e3764b4269f0be0cc9cee798f"
+    },
+    {
+      "path": "license-provenance.json",
+      "bytes": 168,
+      "sha256": "fb80c084c07f03cba95149650ba21bc795bc5f1f202d4ea9db217849a7456c3c"
+    },
+    {
+      "path": "native-driver.cpp",
+      "bytes": 8242,
+      "sha256": "a9c76c59fa8bb2379dfbd08cea59b0f6edc3ae66da20ec09acc12279d2360850"
+    },
+    {
+      "path": "native-screen-preregistration.md",
+      "bytes": 12767,
+      "sha256": "49ecbf4fd5c2b6f7d567fa215e0d5dfcd30f64301a4e50bb7ede45b4a60a6ff1"
+    },
+    {
+      "path": "native-source/manifest.json",
+      "bytes": 6412,
+      "sha256": "a9b7f128f72660b1575c302ec31f644812268cfd87d2a19b956767ea2a6fda91"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/CMakeLists.txt",
+      "bytes": 12832,
+      "sha256": "9838e05405efb2db0db11f20dea7c2d3fdfff211dd6be42e3c0e2611ae886348"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.core.h",
+      "bytes": 35291,
+      "sha256": "91e7c1b418f59db4a8f30355e75f60e5d26adfd66c37578bcfd79f76ae8036ab"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.engine.h",
+      "bytes": 18966,
+      "sha256": "c3e8b7cabc80f5ab2592dd4401a8c445bd43422139ff216591aae94de1b5a175"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.export.h",
+      "bytes": 27954,
+      "sha256": "035e4257f1f127d6a17833331922f2b1b615371b64bb4cd625842102517793b0"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.h",
+      "bytes": 25609,
+      "sha256": "763c56acf64085af2b5081ca80466210507df3f49c53f9aaf3cce5597ed71e36"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+      "bytes": 4129,
+      "sha256": "951b3f1d9b804f9fe9f1a142e6133c2efda2ba1c26c47e4c7de14c6d03a0eb39"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.offset.h",
+      "bytes": 4735,
+      "sha256": "00d0b670f40d030fad5cd658b71a34b8ff3185673825bbcc9f40e63d9216cbb2"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.rectclip.h",
+      "bytes": 2802,
+      "sha256": "279c6ae467cf9cec001c473d569dd7943a241690f5d64a17561efcb1a8e2e38e"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.triangulation.h",
+      "bytes": 1289,
+      "sha256": "a82d32e65583cce5a6d704796c54de3ddd2963d219057263a0f87f8d14a07d6c"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.version.h",
+      "bytes": 126,
+      "sha256": "0d636f1599b09743496d5c15c7dcb5bc3101bd423d6745bf17e480edbffccdac"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+      "bytes": 88255,
+      "sha256": "4c66d5cd0c69a1d1caee2434a0099a9366771dcf186a8d987ab1b2d294872e98"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+      "bytes": 20974,
+      "sha256": "ebc01258953212d20fed090a4a740f94926c3c6706a092fec4c5e9cb5292305a"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+      "bytes": 28076,
+      "sha256": "79c7d8d90dd3b577db77a152c4739f6f49bfda8727528291250d3d8e8d79e18c"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+      "bytes": 38173,
+      "sha256": "5f5e634479b0da062e9345cf90e511efd7d098535b297e92701fc319880fb230"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/LICENSE",
+      "bytes": 1338,
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/clipper.version.in",
+      "bytes": 138,
+      "sha256": "0fa7b02aae2751806611a1d8636df89f162608c1af2a9e6b9b5876876a99c544"
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/Adaptive.cpp",
+      "bytes": 178309,
+      "sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de"
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/Adaptive.hpp",
+      "bytes": 10745,
+      "sha256": "2885bb57d259cd5fe2d987b41ecf1e268e9c4c8be1402fc23b315872eadd3894"
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/clipper.cpp",
+      "bytes": 159570,
+      "sha256": "2394b0df85c6c3cb7fe3431fb5171aa4e8aea9ab59d5af8cc72160a059fe8ea8"
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/clipper.hpp",
+      "bytes": 16008,
+      "sha256": "ea2f63444c290ef1f015abd4983838201ead9d7e45ef1f8d43db09e1590155dc"
+    },
+    {
+      "path": "prepare-native.py",
+      "bytes": 3244,
+      "sha256": "2d31b54dd775cfe2230c69b2b863aa999ec1cc775d82c978d9ee05bb6283ba20"
+    },
+    {
+      "path": "prepared-source-manifest.json",
+      "bytes": 920,
+      "sha256": "e8ba6e55b63cd3d176dc630f0cf983ace5361be10cf282b803bd8e789a1258ff"
+    },
+    {
+      "path": "prepared/Adaptive-instrumented.cpp",
+      "bytes": 178599,
+      "sha256": "9177b890f6375fd7630dc99d3958f1fe9bac3673f903b72c6308e4a9c9018882"
+    },
+    {
+      "path": "prepared/Adaptive-original.cpp",
+      "bytes": 178309,
+      "sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de"
+    },
+    {
+      "path": "prepared/Adaptive.hpp",
+      "bytes": 10865,
+      "sha256": "167101268463cc83672709cba84d7899608fdf9f067ce7e54cc7c8da27ecda95"
+    },
+    {
+      "path": "prepared/inputs.hpp",
+      "bytes": 1282,
+      "sha256": "21db8b6afed2556e665041afbaa34e3463f5f0c90899dc0edfb661e7ee4efae6"
+    },
+    {
+      "path": "run-screen.py",
+      "bytes": 10416,
+      "sha256": "4434f4af129c7c96018a5e431d3f52efd32111b9abba862e6ba0da6a91decbaa"
+    },
+    {
+      "path": "visibility-oracle.py",
+      "bytes": 11363,
+      "sha256": "4d67f4757c35f1612f4b2a13bc9e307da3df54c96125dc96a1001e7a8b31bd6e"
+    }
+  ]
+}
