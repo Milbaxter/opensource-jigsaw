@@ -6,7 +6,7 @@ Updated 18 September 2026. **No combination has cleared the pursuit bar yet.** A
 
 | Combination | Question being tested | Current evidence |
 |---|---|---|
-| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed bytes? | [Two failed setup attempts](../experiments/render-budget/attempt-002/outcomes/RESULTS-ATTEMPT-002.md) retained: draw-order mismatch repaired, then actual writer alignment invalidated the size bound. Zero allocation quality/held-out renders. A third prospective repair is being reviewed. |
+| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed bytes? | [Two failed setup attempts](../experiments/render-budget/attempt-002/outcomes/RESULTS.md) retained: draw-order mismatch repaired, then actual writer alignment invalidated the size bound. Zero allocation quality/held-out renders. A third prospective repair is being reviewed. |
 
 A [new native-build scheduling lead](round10/developer-workflows/source-screen.md) is at source/design review only. No compile benchmark or score.
 
