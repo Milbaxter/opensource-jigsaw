@@ -1,0 +1,62 @@
+[
+  {
+    "name": "clipper2",
+    "sha": "7618bec88aa6232f3ec3d1a27ef0e639649118a6",
+    "date": "2026-05-12T13:31:22Z",
+    "message": "Migrate to Clipper2 (squashed commits)",
+    "adaptive_sha256": "d2072978a561ae6e8a341400e79d5ddc21db763dd65cd14da7584d57538420f1",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  },
+  {
+    "name": "adaptive_test",
+    "sha": "2a184e86c9827e3982db722b10ca6e877842042d",
+    "date": "2026-05-09T00:31:10Z",
+    "message": "add adaptive generator version to python input dictionary",
+    "adaptive_sha256": "5b12cc56bf184e04aef97464b3395b62713fa10b3a99243fcf1ad1c0958710e4",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  },
+  {
+    "name": "adaptive_test_speed",
+    "sha": "230ceb11682e2b71423ae1de9617e04e501957a4",
+    "date": "2026-04-17T14:12:14Z",
+    "message": "increase stepover on slow adaptive tests",
+    "adaptive_sha256": "09e68e47c64ad17ccf449ef25366017a09d7d2b61debd9e2d67b4783ffbcd693",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  },
+  {
+    "name": "main",
+    "sha": "c93c7ed3604d89bc53125a41f53e11ad41a0af2f",
+    "date": "2025-08-20T14:41:34Z",
+    "message": "Merge pull request #23246 from Roy-043/Draft-Make-Draft_Label-tooltip-consistent",
+    "adaptive_sha256": "9b0b2b9eb08aa77d5ca7dee00daf5ef1fc83e80d0b9ca6bbf35aaedd1e7d26e1",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  },
+  {
+    "name": "roadmap_clipper",
+    "sha": "5328e74e3d0a1ed100dc11ff1594ce067524d831",
+    "date": "2026-03-13T17:27:54Z",
+    "message": "link FPA grant proposal",
+    "adaptive_sha256": "ad70158a758f84028ec0416cfe24999eb81c6009f43b449f1c554dd8bc44b8d8",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  },
+  {
+    "name": "clipper_clean_paths",
+    "sha": "99623864284007dc497d853aa1c4c402f20fcf61",
+    "date": "2026-09-17T23:12:19Z",
+    "message": "WIP",
+    "adaptive_sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de",
+    "has_triangulate": false,
+    "has_detour": false,
+    "has_resolve": true
+  }
+]

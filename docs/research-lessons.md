@@ -25,3 +25,7 @@ The [independent rubric audit](../research/rubric-audit/AUDIT.md) retains every 
 This clarifies existing gates 2, 4 and 7. It does not rescore historical candidates or replace failed metrics. A known algorithm or existing vendor is not an automatic rejection; a useful integration still needs an observed advantage over the strongest practical alternative. A feasible path to a durable asset need not mean it is already owned, and reviewers must apply that standard consistently.
 
 Continue-discovery, limited-research-test and validation-ready are distinct decisions. Only the last clears the pursuit bar.
+
+## Follow funded work before prototyping
+
+The CAM screen found genuine native routing cost, but a later primary-source check revealed an approved grant covering its replacement. For future candidates, follow issue comments, linked funding proposals, maintainer progress updates and accessible development branches before investing in a prototype. Distinguish an approved grant from payment, an existing awarded project from an available contract, and a planned draft from a publicly tested implementation. This improves discovery order; it does not require a world-first algorithm or lower any pursuit gate.

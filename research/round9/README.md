@@ -1,7 +1,7 @@
 # Round nine: render-checked asset delivery
 
-No pursuit pass or executed texture experiment yet. Astra is reviewing a prospective comparison of actual glTF/KTX encoding and rendering under fixed byte budgets. The input set is four per-model CC0 Khronos assets. The draft has not been frozen: an accessible automatic commercial comparator is being inspected before choosing the final test.
+No pursuit pass. The [frozen CP-SAT/texture experiment](../../experiments/render-budget/README.md) uses four CC0 Khronos assets, twelve byte-budget cells, and four strong baselines. [Attempt001](../../experiments/render-budget/attempt-001/RESULTS-ATTEMPT-001.md) passed 11 authored codec/browser controls and prepared 279 options, then stopped on exact original-source/GLB pixel mismatch. No allocation search or held-out comparison ran. The failed attempt is retained while diagnosis proceeds separately.
 
-[Commercial and buyer source screen](commerce-source-screen.md) records a concrete buyer request, nearby advertised offers, and strong competition. Prices are offers, not verified transactions. The earlier game-suite pricing is too broad to stand in for this narrow workflow’s budget.
+[Commercial and buyer source screen](commerce-source-screen.md) records a concrete buyer request and competing offers. Prices are offers, not verified transactions. The [conditional commercial experiment](texture-independent-review/COMMERCIAL-EXPERIMENT-DRAFT.md) confronts the $50/batch price, buyer acquisition, labor, repeat orders and full study cost; it is not authorized outreach or a passing score.
 
-[Allocator harness audit](allocator-harness-audit/README.md):22 authored synthetic cases matched independent exhaustive enumeration. This checks an initial implementation, not real-asset utility.
+The [allocator harness audit](allocator-harness-audit/README.md) passed 22 tiny exhaustive cases, followed by 23 JSONL/error-recovery checks and a Node IPC check. Those verify the implementation on authored cases, not asset utility. Independent header/role/mip checks passed all 186 real KTX options; the later renderer integrity failure remains decisive for attempt001.

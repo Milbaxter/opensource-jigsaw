@@ -1,0 +1,62 @@
+{
+  "purpose": "Read-only source inspection, no geometry execution. Initial raw download attempts timed out; all files replaced from GitHub contents API and full hashes recorded.",
+  "commit": "6dc1667f580357e8a2154c28b7867bea7e8ad3a7",
+  "files": [
+    {
+      "path": "License.txt",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/License.txt",
+      "bytes": 877,
+      "sha256": "ffad87821cce7cfd3be00b63ffadd01b04e83a4c6a0bcc68f06362ffd42d705e",
+      "git_blob_sha": "c259ddf6cd36f4745ca71bff1092d3c9d2af900d"
+    },
+    {
+      "path": "Detour/Include/DetourNavMeshBuilder.h",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Include/DetourNavMeshBuilder.h",
+      "bytes": 6756,
+      "sha256": "39fde320de4931e85949215ca9395e1027980572afe4962dfbc7d02804131798",
+      "git_blob_sha": "9425a7a78931ca683d43a6de4b477980d651dea2"
+    },
+    {
+      "path": "Detour/Include/DetourNavMeshQuery.h",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Include/DetourNavMeshQuery.h",
+      "bytes": 31191,
+      "sha256": "7fec77b2d0f0ed8d588fb271a01da41943d4cd9b33d0809e761083950e2d625d",
+      "git_blob_sha": "101b3c852257d9c968982dd7ad751c8ae151518b"
+    },
+    {
+      "path": "Detour/Include/DetourNavMesh.h",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Include/DetourNavMesh.h",
+      "bytes": 31855,
+      "sha256": "09e9bf590eea65048eb4646f5561023e2894d53cb774a869f175d17e96a735cb",
+      "git_blob_sha": "4c1277d780212621dae19cd19fb9a84b4841fd9e"
+    },
+    {
+      "path": "Detour/Source/DetourNavMeshBuilder.cpp",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Source/DetourNavMeshBuilder.cpp",
+      "bytes": 24212,
+      "sha256": "bbe5adf461cae282291e498db50550eb3a12706e352dd83021165d38950119f3",
+      "git_blob_sha": "e93a97629b800b83d020a2fc53fc46415bcc0e75"
+    },
+    {
+      "path": "Detour/Source/DetourNavMeshQuery.cpp",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Source/DetourNavMeshQuery.cpp",
+      "bytes": 104916,
+      "sha256": "fb3f040b35633ad01dfec2a18e1dd1433b10ede69780dddf65bd0a016af0183b",
+      "git_blob_sha": "cebe26b5d0363c5131dfdd7026227344714594f7"
+    },
+    {
+      "path": "Detour/Include/DetourStatus.h",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Include/DetourStatus.h",
+      "bytes": 2707,
+      "sha256": "7255e33173c4bdb26f4224514d098fdc5c31e19cd80263a4e56475627602ade9",
+      "git_blob_sha": "8e1bb44b9dc9525efbac1d0b34fa98a99254b591"
+    },
+    {
+      "path": "Detour/Include/DetourCommon.h",
+      "url": "https://github.com/recastnavigation/recastnavigation/blob/6dc1667f580357e8a2154c28b7867bea7e8ad3a7/Detour/Include/DetourCommon.h",
+      "bytes": 19435,
+      "sha256": "24d69468f73782718855b3691ae348e50437febc7594635b37a940f1c0c8db46",
+      "git_blob_sha": "d54bc7edc7d5c4932e9605f000b7e640c8b0a09d"
+    }
+  ]
+}
