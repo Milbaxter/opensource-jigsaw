@@ -1,0 +1,236 @@
+[
+  {
+    "repo": "ProjectPythia/ERA5_interactive-cookbook",
+    "sha": "b44811d348c117bda9b6e94d2a1e038cdf2aebe6",
+    "path": "notebooks/01BasicVisualization.ipynb",
+    "url": "https://raw.githubusercontent.com/ProjectPythia/ERA5_interactive-cookbook/b44811d348c117bda9b6e94d2a1e038cdf2aebe6/notebooks/01BasicVisualization.ipynb",
+    "bytes": 2196209,
+    "sha256": "ca4fa5593c663d663e711a8b727b25bf956c02a39dabf9ce67288d2039fa3d91",
+    "local": "ProjectPythia__ERA5_interactive-cookbook__notebooks__01BasicVisualization.ipynb"
+  },
+  {
+    "repo": "ProjectPythia/ERA5_interactive-cookbook",
+    "sha": "b44811d348c117bda9b6e94d2a1e038cdf2aebe6",
+    "path": "notebooks/06_era5_anomaly.ipynb",
+    "url": "https://raw.githubusercontent.com/ProjectPythia/ERA5_interactive-cookbook/b44811d348c117bda9b6e94d2a1e038cdf2aebe6/notebooks/06_era5_anomaly.ipynb",
+    "bytes": 382723,
+    "sha256": "ef33738cc4de8ce1d30e1ece0c5bcfb7fda5356c0e94dd4b51e1cb80118438a6",
+    "local": "ProjectPythia__ERA5_interactive-cookbook__notebooks__06_era5_anomaly.ipynb"
+  },
+  {
+    "repo": "ProjectPythia/ERA5_interactive-cookbook",
+    "sha": "b44811d348c117bda9b6e94d2a1e038cdf2aebe6",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/ProjectPythia/ERA5_interactive-cookbook/b44811d348c117bda9b6e94d2a1e038cdf2aebe6/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local": "ProjectPythia__ERA5_interactive-cookbook__LICENSE"
+  },
+  {
+    "repo": "pangeo-gallery/physical-oceanography",
+    "sha": "c9e30e255278d0d269cfff4dc33d0e8f1fd8b896",
+    "path": "01_sea-surface-height.ipynb",
+    "url": "https://raw.githubusercontent.com/pangeo-gallery/physical-oceanography/c9e30e255278d0d269cfff4dc33d0e8f1fd8b896/01_sea-surface-height.ipynb",
+    "bytes": 6209,
+    "sha256": "6bf89a78c5c04d53162a43e0471e245119bcacad4d1220e1a6ad52b71ed4d2cd",
+    "local": "pangeo-gallery__physical-oceanography__01_sea-surface-height.ipynb"
+  },
+  {
+    "repo": "pangeo-gallery/physical-oceanography",
+    "sha": "c9e30e255278d0d269cfff4dc33d0e8f1fd8b896",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/pangeo-gallery/physical-oceanography/c9e30e255278d0d269cfff4dc33d0e8f1fd8b896/LICENSE",
+    "bytes": 1072,
+    "sha256": "a7069ad1e8ab095f402658d5b45bc5f8da7327bcaf66e7d569cd5b7bc8836e92",
+    "local": "pangeo-gallery__physical-oceanography__LICENSE"
+  },
+  {
+    "repo": "google-research/weatherbench2",
+    "sha": "b5fc06726ca5017aa63b3d68b1766ac14504a73f",
+    "path": "docs/source/evaluation.ipynb",
+    "url": "https://raw.githubusercontent.com/google-research/weatherbench2/b5fc06726ca5017aa63b3d68b1766ac14504a73f/docs/source/evaluation.ipynb",
+    "bytes": 785040,
+    "sha256": "093f63e0b9e892058cd9de9a0526d94a397de0a81567aea4ff6ca9ab107287f6",
+    "local": "google-research__weatherbench2__docs__source__evaluation.ipynb"
+  },
+  {
+    "repo": "google-research/weatherbench2",
+    "sha": "b5fc06726ca5017aa63b3d68b1766ac14504a73f",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/google-research/weatherbench2/b5fc06726ca5017aa63b3d68b1766ac14504a73f/LICENSE",
+    "bytes": 11357,
+    "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "local": "google-research__weatherbench2__LICENSE"
+  },
+  {
+    "repo": "NCEI-NOAAGov/data-tour-notebooks",
+    "sha": "0d9d754d96a5ad998f22ab21a38e893b3662d8d9",
+    "path": ".license",
+    "url": "https://raw.githubusercontent.com/NCEI-NOAAGov/data-tour-notebooks/0d9d754d96a5ad998f22ab21a38e893b3662d8d9/.license",
+    "bytes": 522,
+    "sha256": "277a74b87c9b03e0a8dcc02f01ea7691e1cc8b60f9d28b78beb245971a567e0d",
+    "local": "NCEI-NOAAGov__data-tour-notebooks__.license"
+  },
+  {
+    "repo": "NCEI-NOAAGov/data-tour-notebooks",
+    "sha": "0d9d754d96a5ad998f22ab21a38e893b3662d8d9",
+    "path": "oisst/oisst-v2.1.ipynb",
+    "url": "https://raw.githubusercontent.com/NCEI-NOAAGov/data-tour-notebooks/0d9d754d96a5ad998f22ab21a38e893b3662d8d9/oisst/oisst-v2.1.ipynb",
+    "bytes": 1423951,
+    "sha256": "45a27b96e8b5d1dec7aa1605428a8ada6242906af22b3cba37951abff2990f3c",
+    "local": "NCEI-NOAAGov__data-tour-notebooks__oisst__oisst-v2.1.ipynb"
+  },
+  {
+    "repo": "NCEI-NOAAGov/data-tour-notebooks",
+    "sha": "0d9d754d96a5ad998f22ab21a38e893b3662d8d9",
+    "path": "oisst/README.md",
+    "url": "https://raw.githubusercontent.com/NCEI-NOAAGov/data-tour-notebooks/0d9d754d96a5ad998f22ab21a38e893b3662d8d9/oisst/README.md",
+    "bytes": 3500,
+    "sha256": "fe9fc0355b3e1651066288d9c7026546ad98a24fa7ea288b07739252e0c3daa7",
+    "local": "NCEI-NOAAGov__data-tour-notebooks__oisst__README.md"
+  },
+  {
+    "repo": "ecjoliver/marineHeatWaves",
+    "sha": "d7292bf08ade0af213fa760b0d7e4adfe5f52894",
+    "path": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/ecjoliver/marineHeatWaves/d7292bf08ade0af213fa760b0d7e4adfe5f52894/LICENSE.txt",
+    "bytes": 958,
+    "sha256": "33f2685f2ec6cbdcd1ff0b9a9914cc9aaaf414413be09112814b59a7862d3988",
+    "local": "ecjoliver__marineHeatWaves__LICENSE.txt"
+  },
+  {
+    "repo": "ecjoliver/marineHeatWaves",
+    "sha": "d7292bf08ade0af213fa760b0d7e4adfe5f52894",
+    "path": "docs/marineHeatWaves_manual.html",
+    "url": "https://raw.githubusercontent.com/ecjoliver/marineHeatWaves/d7292bf08ade0af213fa760b0d7e4adfe5f52894/docs/marineHeatWaves_manual.html",
+    "bytes": 970290,
+    "sha256": "fdaa8adf4c1e67b8b6a6e686bbe33236fa7cb40b4489506e59a1223877e99f14",
+    "local": "ecjoliver__marineHeatWaves__docs__marineHeatWaves_manual.html"
+  },
+  {
+    "repo": "xarray-contrib/xarray-tutorial",
+    "sha": "54df4e2fc01e51905210793f7aa01df0d87be86b",
+    "path": "fundamentals/03.2_groupby_with_xarray.ipynb",
+    "url": "https://raw.githubusercontent.com/xarray-contrib/xarray-tutorial/54df4e2fc01e51905210793f7aa01df0d87be86b/fundamentals/03.2_groupby_with_xarray.ipynb",
+    "bytes": 17403,
+    "sha256": "45c2b8f34982797fbe65decd57208b7127d923a92737d548509f46b2aa9cc7a8",
+    "local": "xarray-contrib__xarray-tutorial__fundamentals__03.2_groupby_with_xarray.ipynb"
+  },
+  {
+    "repo": "xarray-contrib/xarray-tutorial",
+    "sha": "54df4e2fc01e51905210793f7aa01df0d87be86b",
+    "path": "fundamentals/03.4_weighted.ipynb",
+    "url": "https://raw.githubusercontent.com/xarray-contrib/xarray-tutorial/54df4e2fc01e51905210793f7aa01df0d87be86b/fundamentals/03.4_weighted.ipynb",
+    "bytes": 4420,
+    "sha256": "0f3d21d52f9ebeb1c89a99ea9df8b9688190280b0a1c4f6211c936124fddefec",
+    "local": "xarray-contrib__xarray-tutorial__fundamentals__03.4_weighted.ipynb"
+  },
+  {
+    "repo": "xarray-contrib/xarray-tutorial",
+    "sha": "54df4e2fc01e51905210793f7aa01df0d87be86b",
+    "path": "fundamentals/02.1_indexing_Basic.ipynb",
+    "url": "https://raw.githubusercontent.com/xarray-contrib/xarray-tutorial/54df4e2fc01e51905210793f7aa01df0d87be86b/fundamentals/02.1_indexing_Basic.ipynb",
+    "bytes": 20803,
+    "sha256": "9e377f1296827100fec9e1ba531d5adf8ff7a930596f7d174ae72976f84bdfd3",
+    "local": "xarray-contrib__xarray-tutorial__fundamentals__02.1_indexing_Basic.ipynb"
+  },
+  {
+    "repo": "xarray-contrib/xarray-tutorial",
+    "sha": "54df4e2fc01e51905210793f7aa01df0d87be86b",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/xarray-contrib/xarray-tutorial/54df4e2fc01e51905210793f7aa01df0d87be86b/LICENSE",
+    "bytes": 11359,
+    "sha256": "c1b9df1275e769f3dbab000d1e457a2d4b0f28eb5da6c77e48dc37eeba202ed7",
+    "local": "xarray-contrib__xarray-tutorial__LICENSE"
+  },
+  {
+    "repo": "GeoscienceAustralia/dea-notebooks",
+    "sha": "a6648997c16e240aa82f3e5b500f814d457994fc",
+    "path": "How_to_guides/External_data_Climate.ipynb",
+    "url": "https://raw.githubusercontent.com/GeoscienceAustralia/dea-notebooks/a6648997c16e240aa82f3e5b500f814d457994fc/How_to_guides/External_data_Climate.ipynb",
+    "bytes": 213106,
+    "sha256": "b6eaad5cc862618f36e899bb0174acda287f19874a285ce8a93c809c38eea42a",
+    "local": "GeoscienceAustralia__dea-notebooks__How_to_guides__External_data_Climate.ipynb"
+  },
+  {
+    "repo": "GeoscienceAustralia/dea-notebooks",
+    "sha": "a6648997c16e240aa82f3e5b500f814d457994fc",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/GeoscienceAustralia/dea-notebooks/a6648997c16e240aa82f3e5b500f814d457994fc/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local": "GeoscienceAustralia__dea-notebooks__LICENSE"
+  },
+  {
+    "repo": "GeoscienceAustralia/dea-notebooks",
+    "sha": "a6648997c16e240aa82f3e5b500f814d457994fc",
+    "path": "Supplementary_data/External_data_Climate/victoria_boundary.geojson",
+    "url": "https://raw.githubusercontent.com/GeoscienceAustralia/dea-notebooks/a6648997c16e240aa82f3e5b500f814d457994fc/Supplementary_data/External_data_Climate/victoria_boundary.geojson",
+    "bytes": 96283,
+    "sha256": "eed1f04cb8c904c92005e001a3de931bbe8687bc952eb94a30fa8a3e793c1ee9",
+    "local": "GeoscienceAustralia__dea-notebooks__Supplementary_data__External_data_Climate__victoria_boundary.geojson"
+  },
+  {
+    "repo": "ProjectPythia/AtmosCol-2023",
+    "sha": "9742801d5674b9ec15691e698b4ecef9db43a6de",
+    "path": "notebooks/3.Aplicaciones/3.3.ERA5.ipynb",
+    "url": "https://raw.githubusercontent.com/ProjectPythia/AtmosCol-2023/9742801d5674b9ec15691e698b4ecef9db43a6de/notebooks/3.Aplicaciones/3.3.ERA5.ipynb",
+    "bytes": 975395,
+    "sha256": "f19d8cc75868025855fb26eefd85547b3b609ac358938e96eb15e573ece2de6a",
+    "local": "ProjectPythia__AtmosCol-2023__notebooks__3.Aplicaciones__3.3.ERA5.ipynb"
+  },
+  {
+    "repo": "ProjectPythia/AtmosCol-2023",
+    "sha": "9742801d5674b9ec15691e698b4ecef9db43a6de",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/ProjectPythia/AtmosCol-2023/9742801d5674b9ec15691e698b4ecef9db43a6de/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local": "ProjectPythia__AtmosCol-2023__LICENSE"
+  },
+  {
+    "repo": "google-research/arco-era5",
+    "sha": "8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d",
+    "path": "docs/0-Surface-Reanalysis-Walkthrough.ipynb",
+    "url": "https://raw.githubusercontent.com/google-research/arco-era5/8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d/docs/0-Surface-Reanalysis-Walkthrough.ipynb",
+    "bytes": 5636083,
+    "sha256": "8a0d24abd0bdcde732ddd7beb7f256f1b35297744ecfbcfb3caf452a1cf76485",
+    "local": "google-research__arco-era5__docs__0-Surface-Reanalysis-Walkthrough.ipynb"
+  },
+  {
+    "repo": "google-research/arco-era5",
+    "sha": "8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/google-research/arco-era5/8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d/LICENSE",
+    "bytes": 11358,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "local": "google-research__arco-era5__LICENSE"
+  },
+  {
+    "repo": "earth-mover/risk-analysis-workshop",
+    "sha": "ece787dc5add9f9764f859df55d1bc2b119439ce",
+    "path": "era5.py",
+    "url": "https://raw.githubusercontent.com/earth-mover/risk-analysis-workshop/ece787dc5add9f9764f859df55d1bc2b119439ce/era5.py",
+    "bytes": 15161,
+    "sha256": "b6b354fc50a0b2afd9dbff223d09b003244d778c9382fe8a94f5ac4f683c59b2",
+    "local": "earth-mover__risk-analysis-workshop__era5.py"
+  },
+  {
+    "repo": "earth-mover/risk-analysis-workshop",
+    "sha": "ece787dc5add9f9764f859df55d1bc2b119439ce",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/earth-mover/risk-analysis-workshop/ece787dc5add9f9764f859df55d1bc2b119439ce/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local": "earth-mover__risk-analysis-workshop__LICENSE"
+  },
+  {
+    "repo": "NOC-OI/python-advanced-esces",
+    "sha": "c0d5536d712da22484cf4c2df8785a9723caef00",
+    "path": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/NOC-OI/python-advanced-esces/c0d5536d712da22484cf4c2df8785a9723caef00/LICENSE.md",
+    "bytes": 3514,
+    "sha256": "01cafa48fe581c9bbbbfdc6555f03b1f8a971070ee444751e9ec8de702eb17aa",
+    "local": "NOC-OI__python-advanced-esces__LICENSE.md"
+  }
+]

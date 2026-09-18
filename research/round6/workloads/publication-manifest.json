@@ -1,0 +1,144 @@
+{
+  "scope": "Publication-safe source/metadata feasibility packet only. Raw notebooks and their embedded media excluded; raw notebooks remain local for audit. No performance or scientific payload data.",
+  "notes": "build_ledger.py is preserved as .py.txt for historical source provenance. Its raw notebook/provenance inputs are not bundled; this is not a standalone benchmark. All published bytes match originals.",
+  "files": [
+    {
+      "path": "GeoscienceAustralia__dea-notebooks__LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "published_path": "GeoscienceAustralia__dea-notebooks__LICENSE"
+    },
+    {
+      "path": "NCEI-NOAAGov__data-tour-notebooks__.license",
+      "bytes": 522,
+      "sha256": "277a74b87c9b03e0a8dcc02f01ea7691e1cc8b60f9d28b78beb245971a567e0d",
+      "published_path": "NCEI-NOAAGov__data-tour-notebooks__.license"
+    },
+    {
+      "path": "NOC-OI__python-advanced-esces__LICENSE.md",
+      "bytes": 3514,
+      "sha256": "01cafa48fe581c9bbbbfdc6555f03b1f8a971070ee444751e9ec8de702eb17aa",
+      "published_path": "NOC-OI__python-advanced-esces__LICENSE.md"
+    },
+    {
+      "path": "ProjectPythia__AtmosCol-2023__LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "published_path": "ProjectPythia__AtmosCol-2023__LICENSE"
+    },
+    {
+      "path": "ProjectPythia__ERA5_interactive-cookbook__LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "published_path": "ProjectPythia__ERA5_interactive-cookbook__LICENSE"
+    },
+    {
+      "path": "WORKLOADS.md",
+      "bytes": 8645,
+      "sha256": "cd98d014c22e3f53d4bd278f3425c2cbbd98940e079d8614d4caa546f1ac1d34",
+      "published_path": "WORKLOADS.md"
+    },
+    {
+      "path": "arco-pinned-readme.md",
+      "bytes": 102446,
+      "sha256": "790e4b77ee742d55fbf7f9205f3056beb5d86241e71ef1ef4a6a063cc415ba72",
+      "published_path": "arco-pinned-readme.md"
+    },
+    {
+      "path": "arco-readme-provenance.json",
+      "bytes": 225,
+      "sha256": "ed117610872019f2161a4ea47cd0667fe57dcbcbd14d21209f918f2a013cfdfe",
+      "published_path": "arco-readme-provenance.json"
+    },
+    {
+      "path": "arco-zmetadata.txt",
+      "bytes": 132785,
+      "sha256": "3d3b333d05e0d17a76cfe0ab6425a75b24456b4e59a916f34bbea9629106a0b9",
+      "published_path": "arco-zmetadata.txt"
+    },
+    {
+      "path": "build_ledger.py",
+      "bytes": 7152,
+      "sha256": "4e69082714e305c52603ba751ced35452096ff0490d83dc5afebbe768ef42edd",
+      "published_path": "build_ledger.py.txt"
+    },
+    {
+      "path": "data-metadata-access.json",
+      "bytes": 12288,
+      "sha256": "ad9b0e5e1923440adabb5e42c17f0fa0e56b509f38143ea3c6e0b823cbc2a78d",
+      "published_path": "data-metadata-access.json"
+    },
+    {
+      "path": "earth-mover__risk-analysis-workshop__LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "published_path": "earth-mover__risk-analysis-workshop__LICENSE"
+    },
+    {
+      "path": "ecjoliver__marineHeatWaves__LICENSE.txt",
+      "bytes": 958,
+      "sha256": "33f2685f2ec6cbdcd1ff0b9a9914cc9aaaf414413be09112814b59a7862d3988",
+      "published_path": "ecjoliver__marineHeatWaves__LICENSE.txt"
+    },
+    {
+      "path": "google-research__arco-era5__LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "published_path": "google-research__arco-era5__LICENSE"
+    },
+    {
+      "path": "google-research__weatherbench2__LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "published_path": "google-research__weatherbench2__LICENSE"
+    },
+    {
+      "path": "object-metadata-summary.json",
+      "bytes": 2323,
+      "sha256": "b086d93d05dc22782495d92bca83bcfa1ee4a30e404ccaf69cb86afcf51fe1ac",
+      "published_path": "object-metadata-summary.json"
+    },
+    {
+      "path": "pangeo-gallery__physical-oceanography__LICENSE",
+      "bytes": 1072,
+      "sha256": "a7069ad1e8ab095f402658d5b45bc5f8da7327bcaf66e7d569cd5b7bc8836e92",
+      "published_path": "pangeo-gallery__physical-oceanography__LICENSE"
+    },
+    {
+      "path": "source-pins.json",
+      "bytes": 12220,
+      "sha256": "e529f340460256eddb15606a3befd478fe5de231943c3cf91d1f2c316f813fd4",
+      "published_path": "source-pins.json"
+    },
+    {
+      "path": "storage-feasibility-estimates.json",
+      "bytes": 1558,
+      "sha256": "ecbd303a9bc7b776621891f614ea14673931b57d45662f63b5729e16bf1d74dd",
+      "published_path": "storage-feasibility-estimates.json"
+    },
+    {
+      "path": "wb2-era5-license.txt",
+      "bytes": 8435,
+      "sha256": "ffe05f9653f14ffd23322bf1ebecfd6dd519ba59726280b34593fcf69ccab60e",
+      "published_path": "wb2-era5-license.txt"
+    },
+    {
+      "path": "wb2-era5-zmetadata.txt",
+      "bytes": 36570,
+      "sha256": "123bb279f6aa9c6375d5d2c2b95591aeddc797ec7400272a7b38f43f475b35e2",
+      "published_path": "wb2-era5-zmetadata.txt"
+    },
+    {
+      "path": "workload-ledger.json",
+      "bytes": 10856,
+      "sha256": "d939191a564d303e9cb08cffc0d40fe4df40ce9494b38c57dcdfa04e89efd8c3",
+      "published_path": "workload-ledger.json"
+    },
+    {
+      "path": "xarray-contrib__xarray-tutorial__LICENSE",
+      "bytes": 11359,
+      "sha256": "c1b9df1275e769f3dbab000d1e457a2d4b0f28eb5da6c77e48dc37eeba202ed7",
+      "published_path": "xarray-contrib__xarray-tutorial__LICENSE"
+    }
+  ]
+}

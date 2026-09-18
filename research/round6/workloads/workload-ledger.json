@@ -1,0 +1,198 @@
+{
+  "scope": "Source and schema feasibility inspection only. No performance execution or frozen protocol.",
+  "workloads": [
+    {
+      "id": "DEA-ERA5",
+      "source": {
+        "repo": "GeoscienceAustralia/dea-notebooks",
+        "sha": "a6648997c16e240aa82f3e5b500f814d457994fc",
+        "path": "How_to_guides/External_data_Climate.ipynb",
+        "url": "https://raw.githubusercontent.com/GeoscienceAustralia/dea-notebooks/a6648997c16e240aa82f3e5b500f814d457994fc/How_to_guides/External_data_Climate.ipynb",
+        "bytes": 213106,
+        "sha256": "b6eaad5cc862618f36e899bb0174acda287f19874a285ce8a93c809c38eea42a"
+      },
+      "cell_indices_zero_based": [
+        18,
+        22,
+        26,
+        28
+      ],
+      "patterns": [
+        "ERA5 total_precipitation, Victoria bounding box from supplied polygon, hourly 2020-01-01 through 2020-12-31; annual sum and map"
+      ],
+      "source_access": "Anonymous ARCO store explicitly specified; metadata and sample object HEAD independently verified",
+      "required_adaptation": "Full year touches 8784 global hourly chunks. To meet 512 MB cap, disclose shorter time window before execution; this changes annual scientific result. No claim unchanged full-notebook replay.",
+      "fit": "Authentic regional operator; different variable from most temperature examples. Full year is over bounded source-read budget.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "ATMOSCOL-ERA5",
+      "source": {
+        "repo": "ProjectPythia/AtmosCol-2023",
+        "sha": "9742801d5674b9ec15691e698b4ecef9db43a6de",
+        "path": "notebooks/3.Aplicaciones/3.3.ERA5.ipynb",
+        "url": "https://raw.githubusercontent.com/ProjectPythia/AtmosCol-2023/9742801d5674b9ec15691e698b4ecef9db43a6de/notebooks/3.Aplicaciones/3.3.ERA5.ipynb",
+        "bytes": 975395,
+        "sha256": "f19d8cc75868025855fb26eefd85547b3b609ac358938e96eb15e573ece2de6a"
+      },
+      "cell_indices_zero_based": [
+        28,
+        31,
+        45
+      ],
+      "patterns": [
+        "Global 2m temperature map at 2018-01-01 12:00",
+        "Colombia longitude 275..300, latitude 14..-3, all hours 2024-06-14; daily mean map",
+        "Bogota nearest latitude 4.7, longitude 285.9; hourly 2024 point series and mean"
+      ],
+      "source_access": "Arraylake earthmover-public/era5-surface-aws spatial and temporal groups; unchanged authenticated workflow not run",
+      "required_adaptation": "Port variable t2 to ARCO 2m_temperature and replace source connector explicitly. Verify same grid/time/units before equivalence claims. Shorten annual request if source read budget requires. WB2 coarser source would change resolution/cadence and does not contain 2024.",
+      "fit": "Best compact complementary operator example, but it ALREADY uses two layouts; not evidence that one layout is current best baseline.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "EARTHMOVER-RISK",
+      "source": {
+        "repo": "earth-mover/risk-analysis-workshop",
+        "sha": "ece787dc5add9f9764f859df55d1bc2b119439ce",
+        "path": "era5.py",
+        "url": "https://raw.githubusercontent.com/earth-mover/risk-analysis-workshop/ece787dc5add9f9764f859df55d1bc2b119439ce/era5.py",
+        "bytes": 15161,
+        "sha256": "b6b354fc50a0b2afd9dbff223d09b003244d778c9382fe8a94f5ac4f683c59b2"
+      },
+      "cell_indices_zero_based": [],
+      "patterns": [
+        "Global convective precipitation cp at 2024-09-24T20:00 nearest",
+        "India/Bangladesh longitude 67..99 latitude 37.5..5; sp,t2,d2 at 2024-05-28T10:00, wet-bulb temperature",
+        "NYC nearest latitude41 longitude286; entire-history t2,d2; derived heat index then daily maxima and annual heat-wave index"
+      ],
+      "source_access": "Explicit client.login(); original Arraylake program not executed. Two public-group layouts shown in source.",
+      "required_adaptation": "Anonymous ARCO substitution must be disclosed and exact variables, units, coordinate conventions verified; window reduction changes climatological result. Source includes third-party embedded illustration: do not republish notebook/media wholesale.",
+      "fit": "Authentic illustrative risk workflow; also strongest evidence for incumbent two-layout approach. Its independent-project status versus AtmosCol is weak because both demonstrate same vendor dataset.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "NOAA-OISST",
+      "source": {
+        "repo": "NCEI-NOAAGov/data-tour-notebooks",
+        "sha": "0d9d754d96a5ad998f22ab21a38e893b3662d8d9",
+        "path": "oisst/oisst-v2.1.ipynb",
+        "url": "https://raw.githubusercontent.com/NCEI-NOAAGov/data-tour-notebooks/0d9d754d96a5ad998f22ab21a38e893b3662d8d9/oisst/oisst-v2.1.ipynb",
+        "bytes": 1423951,
+        "sha256": "45a27b96e8b5d1dec7aa1605428a8ada6242906af22b3cba37951abff2990f3c"
+      },
+      "cell_indices_zero_based": [
+        4,
+        8,
+        13,
+        19,
+        20,
+        21,
+        25
+      ],
+      "patterns": [
+        "Global SST nearest 2020-07-04, zlev0, map",
+        "Arctic sea ice latitude66.5..90 allhistory; latitude-longitude mean",
+        "Eagerly download all daily April2020 files, then anomaly map April12"
+      ],
+      "source_access": "NOAA OPeNDAP/HTTP URLs present; notebook not executed",
+      "required_adaptation": "Replacing full eager HTTP requests with lazy hyperslabs changes implementation. CDR use agreement is separate from notebook code license.",
+      "fit": "Credible agency source; mainly global/fullscan and regional reduction, no point series.",
+      "code_license": "US government work: no US copyright; worldwide royalty-free nonexclusive grant in repository .license",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "XARRAY-ERSST",
+      "source": {
+        "repo": "xarray-contrib/xarray-tutorial",
+        "sha": "54df4e2fc01e51905210793f7aa01df0d87be86b",
+        "path": "fundamentals/03.2_groupby_with_xarray.ipynb",
+        "url": "https://raw.githubusercontent.com/xarray-contrib/xarray-tutorial/54df4e2fc01e51905210793f7aa01df0d87be86b/fundamentals/03.2_groupby_with_xarray.ipynb",
+        "bytes": 17403,
+        "sha256": "45c2b8f34982797fbe65decd57208b7127d923a92737d548509f46b2aa9cc7a8"
+      },
+      "cell_indices_zero_based": [],
+      "patterns": [
+        "ERSSTv5 nearest coordinate longitude300 latitude50 history",
+        "Seasonal/climatological aggregations and global maps comparing 2018 and1970"
+      ],
+      "source_access": "Uses xr.tutorial.load_dataset, eagerly loads complete dataset before selections",
+      "required_adaptation": "Moving downstream selections before original eager load would be an adapted I/O workload, not original remote point-query trace. Data rights need separate verification.",
+      "fit": "Exclude from claims of unchanged point I/O. Useful operator illustration only.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "WB2-EVALUATION",
+      "source": {
+        "repo": "google-research/weatherbench2",
+        "sha": "b5fc06726ca5017aa63b3d68b1766ac14504a73f",
+        "path": "docs/source/evaluation.ipynb",
+        "url": "https://raw.githubusercontent.com/google-research/weatherbench2/b5fc06726ca5017aa63b3d68b1766ac14504a73f/docs/source/evaluation.ipynb",
+        "bytes": 785040,
+        "sha256": "093f63e0b9e892058cd9de9a0526d94a397de0a81567aea4ff6ca9ab107287f6"
+      },
+      "cell_indices_zero_based": [],
+      "patterns": [
+        "Year2020 evaluation: geopotential pressure levels500/700/850 and2m_temperature; global/tropical/extratropical metrics"
+      ],
+      "source_access": "Public WB2 stores; notebook includes forecast and other datasets beyond ERA5",
+      "required_adaptation": "Do not assume ERA5 license covers HRES or all forecast sources; bound dates explicitly",
+      "fit": "Fullscan evaluation, weak support for sparse partial replicas.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "ARCO-NATIVE",
+      "source": {
+        "repo": "google-research/arco-era5",
+        "sha": "8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d",
+        "path": "docs/0-Surface-Reanalysis-Walkthrough.ipynb",
+        "url": "https://raw.githubusercontent.com/google-research/arco-era5/8fb5e9b982f489ba91af3ced9ce0b0a8ade8dd7d/docs/0-Surface-Reanalysis-Walkthrough.ipynb",
+        "bytes": 5636083,
+        "sha256": "8a0d24abd0bdcde732ddd7beb7f256f1b35297744ecfbcfb3caf452a1cf76485"
+      },
+      "cell_indices_zero_based": [],
+      "patterns": [
+        "Native Gaussian-grid temperature map 2020-10-31T18",
+        "USA dewpoint map, India February2020 regrid, tornado-event GRIB extraction"
+      ],
+      "source_access": "Public co/single-level-reanalysis.zarr path",
+      "required_adaptation": "Native Gaussian grid/regridding not plain regular lat-lon hyperslab. Substitution with analysis-ready grid changes source representation.",
+      "fit": "Exclude from immediate regular-array benchmark.",
+      "code_license": "Apache-2.0",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    },
+    {
+      "id": "PANGEO-SSH",
+      "source": {
+        "repo": "pangeo-gallery/physical-oceanography",
+        "sha": "c9e30e255278d0d269cfff4dc33d0e8f1fd8b896",
+        "path": "01_sea-surface-height.ipynb",
+        "url": "https://raw.githubusercontent.com/pangeo-gallery/physical-oceanography/c9e30e255278d0d269cfff4dc33d0e8f1fd8b896/01_sea-surface-height.ipynb",
+        "bytes": 6209,
+        "sha256": "6bf89a78c5c04d53162a43e0471e245119bcacad4d1220e1a6ad52b71ed4d2cd"
+      },
+      "cell_indices_zero_based": [],
+      "patterns": [
+        "Sea-surface-height global mean and Hovmoller"
+      ],
+      "source_access": "Intake ocean catalog; payload not accessed",
+      "required_adaptation": "Dataset rights and catalog target not independently finalized",
+      "fit": "Fullscan case; rights incomplete. Hold.",
+      "code_license": "MIT",
+      "trace_type": "public demonstration/teaching program; not production query telemetry",
+      "performance_run": false
+    }
+  ]
+}

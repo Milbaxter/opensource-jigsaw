@@ -1,0 +1,41 @@
+import json, hashlib
+from pathlib import Path
+P=Path(__file__).resolve().parent
+sources=[]
+for f in ['downloaded-source-provenance.json','sources-second.json','sources-third.json']:
+    sources += json.loads((P/f).read_text())
+for s in sources:
+    if 'local' not in s and 'repo' in s and 'name' in s:
+        s['path']=s['name']
+        s['local']=s['repo'].replace('/','__')+'__'+s['name'].replace('/','__')
+        s['sha']=s['url'].split('/')[5]
+bylocal={s['local']:s for s in sources if 'local' in s}
+def source(local):
+    s=bylocal[local]
+    return {k:s[k] for k in ['repo','sha','path','url','bytes','sha256'] if k in s}
+def item(id,local,cells,patterns,access,adaptation,fit,license):
+    return dict(id=id,source=source(local),cell_indices_zero_based=cells,patterns=patterns,source_access=access,required_adaptation=adaptation,fit=fit,code_license=license,trace_type='public demonstration/teaching program; not production query telemetry',performance_run=False)
+r=[]
+r.append(item('DEA-ERA5','GeoscienceAustralia__dea-notebooks__How_to_guides__External_data_Climate.ipynb',[18,22,26,28],['ERA5 total_precipitation, Victoria bounding box from supplied polygon, hourly 2020-01-01 through 2020-12-31; annual sum and map'], 'Anonymous ARCO store explicitly specified; metadata and sample object HEAD independently verified','Full year touches 8784 global hourly chunks. To meet 512 MB cap, disclose shorter time window before execution; this changes annual scientific result. No claim unchanged full-notebook replay.','Authentic regional operator; different variable from most temperature examples. Full year is over bounded source-read budget.','Apache-2.0'))
+r.append(item('ATMOSCOL-ERA5','ProjectPythia__AtmosCol-2023__notebooks__3.Aplicaciones__3.3.ERA5.ipynb',[28,31,45],['Global 2m temperature map at 2018-01-01 12:00','Colombia longitude 275..300, latitude 14..-3, all hours 2024-06-14; daily mean map','Bogota nearest latitude 4.7, longitude 285.9; hourly 2024 point series and mean'],'Arraylake earthmover-public/era5-surface-aws spatial and temporal groups; unchanged authenticated workflow not run','Port variable t2 to ARCO 2m_temperature and replace source connector explicitly. Verify same grid/time/units before equivalence claims. Shorten annual request if source read budget requires. WB2 coarser source would change resolution/cadence and does not contain 2024.','Best compact complementary operator example, but it ALREADY uses two layouts; not evidence that one layout is current best baseline.','Apache-2.0'))
+r.append(item('EARTHMOVER-RISK','earth-mover__risk-analysis-workshop__era5.py',[],['Global convective precipitation cp at 2024-09-24T20:00 nearest','India/Bangladesh longitude 67..99 latitude 37.5..5; sp,t2,d2 at 2024-05-28T10:00, wet-bulb temperature','NYC nearest latitude41 longitude286; entire-history t2,d2; derived heat index then daily maxima and annual heat-wave index'],'Explicit client.login(); original Arraylake program not executed. Two public-group layouts shown in source.','Anonymous ARCO substitution must be disclosed and exact variables, units, coordinate conventions verified; window reduction changes climatological result. Source includes third-party embedded illustration: do not republish notebook/media wholesale.','Authentic illustrative risk workflow; also strongest evidence for incumbent two-layout approach. Its independent-project status versus AtmosCol is weak because both demonstrate same vendor dataset.','Apache-2.0'))
+r.append(item('NOAA-OISST','NCEI-NOAAGov__data-tour-notebooks__oisst__oisst-v2.1.ipynb',[4,8,13,19,20,21,25],['Global SST nearest 2020-07-04, zlev0, map','Arctic sea ice latitude66.5..90 allhistory; latitude-longitude mean','Eagerly download all daily April2020 files, then anomaly map April12'],'NOAA OPeNDAP/HTTP URLs present; notebook not executed','Replacing full eager HTTP requests with lazy hyperslabs changes implementation. CDR use agreement is separate from notebook code license.','Credible agency source; mainly global/fullscan and regional reduction, no point series.','US government work: no US copyright; worldwide royalty-free nonexclusive grant in repository .license'))
+r.append(item('XARRAY-ERSST','xarray-contrib__xarray-tutorial__fundamentals__03.2_groupby_with_xarray.ipynb',[],['ERSSTv5 nearest coordinate longitude300 latitude50 history','Seasonal/climatological aggregations and global maps comparing 2018 and1970'],'Uses xr.tutorial.load_dataset, eagerly loads complete dataset before selections','Moving downstream selections before original eager load would be an adapted I/O workload, not original remote point-query trace. Data rights need separate verification.','Exclude from claims of unchanged point I/O. Useful operator illustration only.','Apache-2.0'))
+r.append(item('WB2-EVALUATION','google-research__weatherbench2__docs__source__evaluation.ipynb',[],['Year2020 evaluation: geopotential pressure levels500/700/850 and2m_temperature; global/tropical/extratropical metrics'],'Public WB2 stores; notebook includes forecast and other datasets beyond ERA5','Do not assume ERA5 license covers HRES or all forecast sources; bound dates explicitly','Fullscan evaluation, weak support for sparse partial replicas.','Apache-2.0'))
+r.append(item('ARCO-NATIVE','google-research__arco-era5__docs__0-Surface-Reanalysis-Walkthrough.ipynb',[],['Native Gaussian-grid temperature map 2020-10-31T18','USA dewpoint map, India February2020 regrid, tornado-event GRIB extraction'],'Public co/single-level-reanalysis.zarr path','Native Gaussian grid/regridding not plain regular lat-lon hyperslab. Substitution with analysis-ready grid changes source representation.','Exclude from immediate regular-array benchmark.','Apache-2.0'))
+r.append(item('PANGEO-SSH','pangeo-gallery__physical-oceanography__01_sea-surface-height.ipynb',[],['Sea-surface-height global mean and Hovmoller'],'Intake ocean catalog; payload not accessed','Dataset rights and catalog target not independently finalized','Fullscan case; rights incomplete. Hold.','MIT'))
+(P/'workload-ledger.json').write_text(json.dumps({'scope':'Source and schema feasibility inspection only. No performance execution or frozen protocol.','workloads':r},indent=2)+'\n')
+# Preserve exact provenance without copying entire notebook output/media.
+refs=[]
+for s in sources:
+    if 'local' not in s: continue
+    f=P/s['local']
+    if not f.exists(): continue
+    refs.append({k:s[k] for k in ['repo','sha','path','url','bytes','sha256','local'] if k in s})
+(P/'source-pins.json').write_text(json.dumps(refs,indent=2)+'\n')
+heads=json.loads((P/'object-heads.json').read_text())
+clean=[]
+for o in heads['objects']:
+    h=o.get('headers',{})
+    clean.append({'url':o['url'],'status':o.get('http_status'), 'error':o.get('error'),'payload_downloaded':False,'date_of_scientific_data':'not decoded or verified','headers':{k:v for k,v in h.items() if k.lower() in ['content-type','content-length','etag','last-modified','x-goog-generation','x-goog-metageneration','x-goog-hash']}})
+(P/'object-metadata-summary.json').write_text(json.dumps({'retrieval_utc':heads['utc'],'objects':clean},indent=2)+'\n')

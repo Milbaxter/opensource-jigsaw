@@ -1,0 +1,53 @@
+{
+  "method": "Static metadata arithmetic only; float32 logical values, no codec runs or performance evaluation. Does not estimate source scan costs, metadata, storage transaction overhead, filesystem minimums, or payload compression. Each documented request materialized exactly as extracted cube; duplicates conservatively retained. Not an optimized plan.",
+  "victoria_polygon_bbox": [
+    140.96186579971746,
+    -39.133945085581566,
+    149.97619755281158,
+    -33.98063640290455
+  ],
+  "arrays": [
+    {
+      "request": "DEA precipitation Victoria2020",
+      "logical_bytes": 26562816,
+      "details": {
+        "latitude_count": 21,
+        "longitude_count": 36,
+        "time_count": 8784
+      }
+    },
+    {
+      "request": "AtmosCol global t2 map",
+      "logical_bytes": 4152960,
+      "details": {}
+    },
+    {
+      "request": "AtmosCol Colombia day t2",
+      "logical_bytes": 669024,
+      "details": {}
+    },
+    {
+      "request": "AtmosCol Bogota annual t2",
+      "logical_bytes": 35136,
+      "details": {}
+    },
+    {
+      "request": "Earthmover global cp map",
+      "logical_bytes": 4152960,
+      "details": {}
+    },
+    {
+      "request": "Earthmover India three variables one hour",
+      "logical_bytes": 202788,
+      "details": {}
+    },
+    {
+      "request": "Earthmover NYC entire allocated time axis two variables",
+      "logical_bytes": 10589184,
+      "details": {
+        "deliberate_upper_bound": "Entire ARCO allocated axis, including beyond valid range"
+      }
+    }
+  ],
+  "sum_logical_bytes": 46364868
+}

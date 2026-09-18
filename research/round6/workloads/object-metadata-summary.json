@@ -1,0 +1,61 @@
+{
+  "retrieval_utc": "2026-09-18T10:41:19.913829+00:00",
+  "objects": [
+    {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/2m_temperature/0.0.0",
+      "status": null,
+      "error": "HTTP Error 404: Not Found",
+      "payload_downloaded": false,
+      "date_of_scientific_data": "not decoded or verified",
+      "headers": {}
+    },
+    {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/2m_temperature/740304.0.0",
+      "status": 200,
+      "error": null,
+      "payload_downloaded": false,
+      "date_of_scientific_data": "not decoded or verified",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Last-Modified": "Thu, 21 Sep 2023 04:53:29 GMT",
+        "ETag": "\"346eb317e654b937067b3d29f10fb196\"",
+        "x-goog-generation": "1695272009312997",
+        "x-goog-metageneration": "1",
+        "x-goog-hash": "crc32c=D+v6Ug==",
+        "Content-Length": "2312993"
+      }
+    },
+    {
+      "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/time/0",
+      "status": 200,
+      "error": null,
+      "payload_downloaded": false,
+      "date_of_scientific_data": "not decoded or verified",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Last-Modified": "Tue, 19 Sep 2023 07:07:40 GMT",
+        "ETag": "\"b41261a1b9577ad9c9e14aa7728d7340\"",
+        "x-goog-generation": "1695107260951691",
+        "x-goog-metageneration": "1",
+        "x-goog-hash": "crc32c=QuCViw==",
+        "Content-Length": "3573"
+      }
+    },
+    {
+      "url": "https://storage.googleapis.com/weatherbench2/datasets/era5/1959-2022-6h-64x32_equiangular_conservative.zarr/2m_temperature/0.0.0",
+      "status": 200,
+      "error": null,
+      "payload_downloaded": false,
+      "date_of_scientific_data": "not decoded or verified",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Last-Modified": "Sat, 23 Sep 2023 07:15:23 GMT",
+        "ETag": "\"37199b8214981932d54613b5a774e28e\"",
+        "x-goog-generation": "1695453322984185",
+        "x-goog-metageneration": "1",
+        "x-goog-hash": "crc32c=2XohaQ==",
+        "Content-Length": "580059"
+      }
+    }
+  ]
+}

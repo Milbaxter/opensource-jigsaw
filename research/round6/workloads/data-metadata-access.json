@@ -1,0 +1,148 @@
+[
+  {
+    "label": "wb2-era5-license",
+    "url": "https://storage.googleapis.com/weatherbench2/datasets/era5/LICENSE",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 8435,
+    "sha256": "ffe05f9653f14ffd23322bf1ebecfd6dd519ba59726280b34593fcf69ccab60e",
+    "capped_read_bytes": 2000000,
+    "text": "ECMWF Copernicus License found at https://apps.ecmwf.int/datasets/licences/copernicus/\n\nUse of data accessed via this service\n\nLicence Agreement\n\nLicence to Use Copernicus Products\n\n1. Definitions\n1.1. \u2018Licensor\u2019 means the European Union, represented by the European Centre for Medium-Range Weather Forecasts (ECMWF).\n\n1.2. \u2018Licensee\u2019 means all natural or legal persons who agree to the terms of this Licence.\n\n1.3. \u2018Licence\u2019 means this license agreement between the Licensor and the Licensee as amended from time to time.\n\n1.4. \u2018Copernicus Services\u2019 means:\n\n1.4.1. the Copernicus Atmosphere Monitoring Service (CAMS), which is to provide information on air quality on a local, national, and European scale, and the chemical composition of the atmosphere on a global scale.\n\n1.4.2. the Copernicus Climate Change Service (C3S), which is to provide information to increase the knowledge base to support policies on adaptation to and mitigation of climate change\n\n1.5. \u2018Copernicus Products\u2019 means all products listed in the C3S or CAMS Service Product Specification or any other items available through an ECMWF Copernicus portal, except those items which are labelled/flagged as being subject to their own separate terms of use.\n\n1.6. \u2018Intellectual Property Rights\u2019 refers to intellectual property rights of all kinds,\n\n1.6.1. including: all patents; rights to inventions; copyright and related rights; moral rights; trademarks and service marks; trade names and domain names; rights in get-up; rights to goodwill or to sue for passing off or unfair competition; rights in designs; rights in computer software; database rights; rights in confidential information (including know-how and trade secrets); any other rights in the nature of intellectual property rights;\n\n1.6.2. in each case whether registered or unregistered and including all applications (or rights to apply) for, and renewals or extensions of, such rights and all similar or equivalent rights or forms of protection which subsist or will subsist now or in the future in any part of the world together with all rights of action in relation to the infringement of any of the above.\n\n1.7. \u2018Copernicus Contractor\u2019 refers to providers of Copernicus related goods and services to ECMWF, including information and data, to the Licensor and/or to the users.\n\n1.8. \u2018Copernicus Regulations\u2019 refers to Regulation (EU) No 377/2014 of the European Parliament and of the Council of 3 April 2014 establishing the Copernicus Programme.\n\n1.9.  \u2018ECMWF Agreement\u2019 refers to the agreement between the European Commission and ECMWF dated 11 November 2014 on the implementation of CAMS and C3S.\n\n2. Introduction\nCopernicus is funded under the Copernicus Regulation and operated by ECMWF under the ECMWF Agreement. Access to all Copernicus (previously known as GMES or Global Monitoring for Environment and Security) Information and Data is regulated under Regulation (EU) No 1159/2013 of the European Parliament and of the Council of 12 July 2013 on the European Earth monitoring programme, under the ECMWF Agreement and under the European Commission\u2019s Terms and Conditions. Access to all Copernicus information is regulated under Regulation (EU) No 1159/2013 and under the ECMWF Agreement.\n\n3. Terms of the Licence\nThis Licence sets out the terms for use of Copernicus Products. By agreeing to these terms the Licensee agrees to abide by all of the terms and conditions in this Licence for the use of Copernicus Products.\n\n4. Licence Permission\n4.1. This Licence is free of charge, worldwide, non-exclusive, royalty free and perpetual.\n\n4.2. Access to Copernicus Products is given for any purpose in so far as it is lawful, whereas use may include, but is not limited to: reproduction; distribution; communication to the public; adaptation, modification and combination with other data and information; or any combination of the foregoing.\n\n5. Attribution\n5.1. All users of Copernicus Products must provide clear and visible attribution to the Copernicus programme. The Licensee will communicate to the public the source of the Copernicus Products by crediting the Copernicus Climate Change and Atmosphere Monitoring Services:\n\n5.1.1. Where the Licensee communicates or distributes Copernicus Products to the public, the Licensee shall inform the recipients of the source by using the following or any similar notice:\n\n'Generated using Copernicus Climate Change Service information [Year]' and/or\n'Generated using Copernicus Atmosphere Monitoring Service information [Year]'.\n5.1.2. Where the Licensee makes or contributes to a publication or distribution containing adapted or modified Copernicus Products, the Licensee shall provide the following or any similar notice:\n\n'Contains modified Copernicus Climate Change Service information [Year]'; and/or\n'Contains modified Copernicus Atmosphere Monitoring Service information [Year]'\n5.1.3. Any such publication or distribution covered by clauses 5.1.1 and 5.1.2 shall state that neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains.\n\n6. Intellectual Property Rights\n6.1. All Intellectual Property Rights in the Copernicus Products belong, and will continue to belong, to the European Union.\n\n6.2. All Intellectual Property Rights of new items created as a result of modifying or adapting the Copernicus Products through the applications and workflows accessible on the ECMWF Copernicus portals (e.g. through the CDS Toolbox) will belong to the European Union.\n\n6.3. All other new Intellectual Property Rights created as a result of modifying or adapting the Copernicus information will be owned by the creator.\n\n7. Provision of Third Party Information and Data\nThis Licence only covers Copernicus Products. Access to third party products, information, and data related to Copernicus information to which the Licensee is directed or which can be directly accessed through any Copernicus portal will be subject to different licence terms.\n\n8. Disclaimers\n8.1. Neither the Licensor nor ECMWF warrant that Copernicus Products will be free from errors or omissions or that such errors or omissions can or will be rectified, or that the Licensee will have uninterrupted, continuous, or timely access to Copernicus Products.\n\n8.2. The Licensor, as well as ECMWF, exclude all warranties, conditions, terms, undertakings, obligations whether express or implied by statute including but not limited to the implied warranties of satisfactory quality and fitness for a particular purpose or otherwise to the fullest extent permitted by law.\n\n9. Liabilities\nNeither the Licensor nor ECMWF will accept liability for any damage, loss whether direct, indirect or consequential resulting from the Licensee\u2019s use of the Copernicus Products.\n\n10.Termination of and Changes to this Licence\nThe Licensor may terminate this licence if the Licensee breaches its obligations under these terms. The Licensor may revise this Licence at any time and will notify the Licensee of any revisions.\n\n11.Arbitration Clause and Governing Law\nIn the event of a dispute arising in connection with this License, the parties shall attempt to settle their differences in an amicable manner. If any dispute cannot be so settled, it shall be settled under the Rules of Arbitration of the International Chamber of Commerce by one arbitrator appointed in accordance with the said rules sitting in London, United Kingdom. The proceedings shall be in the English language. The right of appeal by either party to regular Courts on a question of law arising in the course of any arbitral proceedings or out of an award made in any arbitral proceedings is hereby agreed to be excluded.\n\nIt is the intention of the parties that this License shall comprehensively govern the legal relations between the parties to the Licence, without interference or contradiction by any unspecified law. However, where a matter is not specifically covered by these terms or a provision of the Licence terms is ambiguous or unclear, resolution shall be found by reference to the laws of England and Wales, including any relevant law of the European Union.\n\nNothing stated in this License shall be construed as a waiver of any privileges or immunities of the Licensor or of ECMWF.\n\nVersion 1.2 (November 2019)\n\nYou need to log in first in order to accept this licence and terms of use."
+  },
+  {
+    "label": "arco-license",
+    "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "label": "arco-zmetadata",
+    "url": "https://storage.googleapis.com/gcp-public-data-arco-era5/ar/full_37-1h-0p25deg-chunk-1.zarr-v3/.zmetadata",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 132785,
+    "sha256": "3d3b333d05e0d17a76cfe0ab6425a75b24456b4e59a916f34bbea9629106a0b9",
+    "capped_read_bytes": 2000000,
+    "example_arrays": {
+      ".zattrs": {
+        "valid_time_start": "1940-01-01",
+        "last_updated": "2026-09-18 04:40:05.198736+00:00",
+        "valid_time_stop": "2026-06-30",
+        "valid_time_stop_era5t": "2026-09-12"
+      },
+      "2m_temperature/.zarray": {
+        "chunks": [
+          1,
+          721,
+          1440
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          1323648,
+          721,
+          1440
+        ],
+        "zarr_format": 2
+      },
+      "2m_temperature/.zattrs": {
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "long_name": "2 metre temperature",
+        "short_name": "t2m",
+        "units": "K"
+      },
+      "total_precipitation/.zarray": {
+        "chunks": [
+          1,
+          721,
+          1440
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          1323648,
+          721,
+          1440
+        ],
+        "zarr_format": 2
+      },
+      "total_precipitation/.zattrs": {
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "latitude",
+          "longitude"
+        ],
+        "long_name": "Total precipitation",
+        "short_name": "tp",
+        "units": "m"
+      }
+    }
+  },
+  {
+    "label": "wb2-era5-zmetadata",
+    "url": "https://storage.googleapis.com/weatherbench2/datasets/era5/1959-2022-6h-64x32_equiangular_conservative.zarr/.zmetadata",
+    "status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 36570,
+    "sha256": "123bb279f6aa9c6375d5d2c2b95591aeddc797ec7400272a7b38f43f475b35e2",
+    "capped_read_bytes": 2000000,
+    "example_arrays": {
+      ".zattrs": {},
+      "2m_temperature/.zarray": {
+        "chunks": [
+          100,
+          64,
+          32
+        ],
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 5,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "dtype": "<f4",
+        "fill_value": "NaN",
+        "filters": null,
+        "order": "C",
+        "shape": [
+          92044,
+          64,
+          32
+        ],
+        "zarr_format": 2
+      },
+      "2m_temperature/.zattrs": {
+        "_ARRAY_DIMENSIONS": [
+          "time",
+          "longitude",
+          "latitude"
+        ],
+        "long_name": "2 metre temperature",
+        "short_name": "t2m",
+        "units": "K"
+      }
+    }
+  }
+]
