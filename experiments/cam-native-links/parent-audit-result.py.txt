@@ -1,0 +1,29 @@
+import collections, hashlib, json, pathlib, statistics, tarfile
+base=pathlib.Path('work/round7-c'); p=base/'results-resource-repair'
+s=json.loads((p/'summary.json').read_text()); totals=collections.Counter(); cpu=0
+for w in s['workloads']:
+ d=p/w['id']; cap=json.loads((d/'capture.json').read_text()); plains=[json.loads((d/f'plain-{i}.json').read_text()) for i in range(3)]
+ assert all(x['results']==cap['results'] for x in plains); totals['kernel_equalities']+=3
+ assert statistics.median(x['cpu_seconds'] for x in plains)==w['kernel_cpu_median']
+ records=[json.loads(x) for x in (d/'capture.json.trace.jsonl').read_text().splitlines()]
+ ends={r['index']:r for r in records if r['event']=='end'}
+ assert len(ends)==w['requests']; totals['requests']+=len(ends)
+ for i,r in ends.items():
+  reps=json.loads((d/f'requests/{i:06d}.replay.json').read_text())['repeats']; assert len(reps)==3
+  for x in reps:
+   assert x['success']==r['success']
+   if r['success']: assert x['path']==r['path'] and x['path_z']==r['path_z']; totals['successful_path_equalities']+=1
+   totals['replay_outcome_equalities']+=1
+  totals['native_failed_proposals']+=not r['success']; cpu+=statistics.median(x['cpu_seconds'] for x in reps)
+assert abs(cpu-s['upper_bound']['all_replay_cpu'])<1e-9
+geom=json.loads((p/'geometry-summary.json').read_text()); counts=collections.Counter('eligible' if x['eligible'] else x['reason'] for x in geom)
+assert len(geom)==totals['requests']==147; assert counts['eligible']==13
+m=json.loads((base/'results-publication-manifest.json').read_text())
+for e in m['files']:
+ b=pathlib.Path(e['source']).read_bytes(); assert len(b)==e['bytes'] and hashlib.sha256(b).hexdigest()==e['sha256']
+with tarfile.open(base/'results-resource-repair.tar.gz') as t:
+ for member in t.getmembers():
+  assert member.isfile() and not pathlib.PurePosixPath(member.name).is_absolute() and '..' not in pathlib.PurePosixPath(member.name).parts
+ archive_count=len(t.getmembers())
+out={'scope':'Independent parent recount of saved observations and publication hashes; no new timing run or independent algorithm correctness proof.','counts':dict(totals),'geometry':dict(counts),'all_replay_cpu':cpu,'kernel_cpu_total':sum(x['kernel_cpu_median'] for x in s['workloads']),'archive_members':archive_count,'publication_files_verified':len(m['files']),'status':'PASS_RECOUNT_ONLY'}
+pathlib.Path('work/round10-parent/cam-result-audit.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2))

@@ -1,0 +1,8 @@
+{
+  "source_files": 1408,
+  "original_total_bytes": 4363254,
+  "normalized_files": 319,
+  "normalization": "Only local execution path strings in process metadata commands replaced with <experiment>/python3; all native observations/input/timing bytes untouched. Original private files retained.",
+  "archive_sha256": "d9cf520f4289ff4c9161600d8a6910b3e3391422c1b8ede625daa224fc2a7d56",
+  "archive_bytes": 683765
+}

@@ -1,0 +1,71 @@
+{
+  "status": "HOLD_INSUFFICIENT_HEADROOM",
+  "workloads": [
+    {
+      "id": "upper_face_s20",
+      "valid": true,
+      "requests": 26,
+      "kernel_cpu_median": 0.222315,
+      "kernel_wall_median": 0.223081916,
+      "trace_acquisition_wall": 0.24953975
+    },
+    {
+      "id": "upper_face_s75",
+      "valid": true,
+      "requests": 4,
+      "kernel_cpu_median": 0.078182,
+      "kernel_wall_median": 0.07860475,
+      "trace_acquisition_wall": 0.078360416
+    },
+    {
+      "id": "lower_face_with_hole_s20",
+      "valid": true,
+      "requests": 27,
+      "kernel_cpu_median": 0.76524,
+      "kernel_wall_median": 0.771016,
+      "trace_acquisition_wall": 0.766566208
+    },
+    {
+      "id": "lower_face_with_hole_s75",
+      "valid": true,
+      "requests": 10,
+      "kernel_cpu_median": 0.177595,
+      "kernel_wall_median": 0.178358541,
+      "trace_acquisition_wall": 0.175538167
+    },
+    {
+      "id": "projected_union_with_hole_s20",
+      "valid": true,
+      "requests": 59,
+      "kernel_cpu_median": 2.871388,
+      "kernel_wall_median": 2.893443041,
+      "trace_acquisition_wall": 2.884570958
+    },
+    {
+      "id": "projected_union_with_hole_s75",
+      "valid": true,
+      "requests": 21,
+      "kernel_cpu_median": 0.313445,
+      "kernel_wall_median": 0.321271125,
+      "trace_acquisition_wall": 0.33216475
+    }
+  ],
+  "scope": "One actual upstream CAD fixture, six explicitly configured native-kernel footprint workloads; not full FreeCAD/OCC or customer job replay.",
+  "errors": [],
+  "native_acquisition_control_replay_wall": 30.2523719999881,
+  "upper_bound": {
+    "all_replay_cpu": 2.875791,
+    "kernel_cpu_total": 4.428165,
+    "native_failed_proposals": 18,
+    "failed_configurations": 4,
+    "profile_possible": true,
+    "recovery_possible": true
+  },
+  "geometry_wall": 14.163518666988239,
+  "eligible_replay_cpu": 0.0007979999999999999,
+  "eligible_nonstraight": [],
+  "recovered_proposals": [],
+  "profile_headroom": false,
+  "recovery_headroom": false,
+  "cumulative_observed_peak_rss_bytes": 33898496
+}

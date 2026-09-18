@@ -1,0 +1,20 @@
+{
+  "scope": "Independent parent recount of saved observations and publication hashes; no new timing run or independent algorithm correctness proof.",
+  "counts": {
+    "kernel_equalities": 18,
+    "requests": 147,
+    "successful_path_equalities": 387,
+    "replay_outcome_equalities": 441,
+    "native_failed_proposals": 18
+  },
+  "geometry": {
+    "endpoint_in_hole": 126,
+    "eligible": 13,
+    "unsupported_center_topology": 8
+  },
+  "all_replay_cpu": 2.875790999999999,
+  "kernel_cpu_total": 4.428165,
+  "archive_members": 1409,
+  "publication_files_verified": 9,
+  "status": "PASS_RECOUNT_ONLY"
+}

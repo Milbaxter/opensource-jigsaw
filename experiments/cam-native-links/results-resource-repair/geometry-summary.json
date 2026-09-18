@@ -1,0 +1,1917 @@
+[
+  {
+    "workload": "upper_face_s20",
+    "index": 1,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 39,
+    "total_wall_seconds": 0.007272040995303541
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 49,
+    "total_wall_seconds": 0.007475999998860061
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 3,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 52,
+    "total_wall_seconds": 0.007949250022647902
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 59,
+    "total_wall_seconds": 0.008019666012842208
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 5,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 58,
+    "total_wall_seconds": 0.008042999979807064
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 6,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 63,
+    "total_wall_seconds": 0.008756499999435619
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 7,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 65,
+    "total_wall_seconds": 0.008217708993470296
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 8,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 71,
+    "total_wall_seconds": 0.008665375004056841
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 9,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 72,
+    "total_wall_seconds": 0.008640999993076548
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 10,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 73,
+    "total_wall_seconds": 0.00863137500709854
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 11,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 74,
+    "total_wall_seconds": 0.008249250007793307
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 12,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 78,
+    "total_wall_seconds": 0.008755500020924956
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 13,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 81,
+    "total_wall_seconds": 0.0094009579916019
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 14,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 89,
+    "total_wall_seconds": 0.009250707982573658
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 15,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 87,
+    "total_wall_seconds": 0.008826457982650027
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 16,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 90,
+    "total_wall_seconds": 0.009122957999352366
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 17,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 94,
+    "total_wall_seconds": 0.009508166986051947
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 18,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 97,
+    "total_wall_seconds": 0.00929383299080655
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 19,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 100,
+    "component_vertices": 343,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.015118167008040473
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 20,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 104,
+    "component_vertices": 347,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.013564958004280925
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 21,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 105,
+    "total_wall_seconds": 0.009729250014061108
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 22,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 101,
+    "total_wall_seconds": 0.009197750012390316
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 23,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 103,
+    "total_wall_seconds": 0.011406249977881089
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 24,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 105,
+    "component_vertices": 339,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.014606625016313046
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 25,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 109,
+    "component_vertices": 349,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.014210083987563848
+  },
+  {
+    "workload": "upper_face_s20",
+    "index": 26,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 0,
+    "native_endpoint": [
+      0,
+      1
+    ],
+    "stock_edges": 110,
+    "total_wall_seconds": 0.00955587500357069
+  },
+  {
+    "workload": "upper_face_s75",
+    "index": 1,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 62,
+    "total_wall_seconds": 0.00859383400529623
+  },
+  {
+    "workload": "upper_face_s75",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 68,
+    "total_wall_seconds": 0.009653625020291656
+  },
+  {
+    "workload": "upper_face_s75",
+    "index": 3,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 71,
+    "total_wall_seconds": 0.008677333011291921
+  },
+  {
+    "workload": "upper_face_s75",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 73,
+    "total_wall_seconds": 0.009055834001628682
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 1,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.0075634999957401305
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 107,
+    "total_wall_seconds": 0.009019540972076356
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 3,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 114,
+    "total_wall_seconds": 0.00962604201049544
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 119,
+    "total_wall_seconds": 0.009548000001814216
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 5,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 119,
+    "total_wall_seconds": 0.009489249991020188
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 6,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 121,
+    "total_wall_seconds": 0.010202167002717033
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 7,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 112,
+    "total_wall_seconds": 0.014714457996888086
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 8,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 108,
+    "total_wall_seconds": 0.008767916995566338
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 9,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 98,
+    "total_wall_seconds": 0.008958624996012077
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 10,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 98,
+    "total_wall_seconds": 0.008862584014423192
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 11,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 101,
+    "total_wall_seconds": 0.008891415985999629
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 12,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 103,
+    "total_wall_seconds": 0.00922524998895824
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 13,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 107,
+    "total_wall_seconds": 0.009154792001936585
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 14,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 107,
+    "total_wall_seconds": 0.009218791004968807
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 15,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 111,
+    "total_wall_seconds": 0.009267999994335696
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 16,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 113,
+    "total_wall_seconds": 0.009378667018609121
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 17,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 115,
+    "total_wall_seconds": 0.009610209002858028
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 18,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 114,
+    "total_wall_seconds": 0.009338625008240342
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 19,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 118,
+    "total_wall_seconds": 0.009488875017268583
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 20,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 122,
+    "total_wall_seconds": 0.009993416984798387
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 21,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 123,
+    "total_wall_seconds": 0.009564957988914102
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 22,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 117,
+    "total_wall_seconds": 0.010898125008679926
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 23,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 100,
+    "total_wall_seconds": 0.012087250011973083
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 24,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 86,
+    "total_wall_seconds": 0.01356324998778291
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 25,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 81,
+    "total_wall_seconds": 0.012020459020277485
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 26,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 63,
+    "total_wall_seconds": 0.014735875010956079
+  },
+  {
+    "workload": "lower_face_with_hole_s20",
+    "index": 27,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 49,
+    "total_wall_seconds": 0.02447791601298377
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 1,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 159,
+    "total_wall_seconds": 0.015550167008768767
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 159,
+    "total_wall_seconds": 0.017746666999300942
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 3,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 155,
+    "total_wall_seconds": 0.013044166000327095
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 150,
+    "total_wall_seconds": 0.010692666983231902
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 5,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 140,
+    "total_wall_seconds": 0.015340082987677306
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 6,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 137,
+    "total_wall_seconds": 0.011478250002255663
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 7,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 134,
+    "total_wall_seconds": 0.009995250002248213
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 8,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.00787454200326465
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 9,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.008311250014230609
+  },
+  {
+    "workload": "lower_face_with_hole_s75",
+    "index": 10,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 72,
+    "component_vertices": 434,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.01280983301694505
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 1,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 103,
+    "total_wall_seconds": 0.010048083000583574
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 132,
+    "total_wall_seconds": 0.011244875000556931
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 3,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 142,
+    "total_wall_seconds": 0.011580124992178753
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 143,
+    "total_wall_seconds": 0.020659250003518537
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 5,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 148,
+    "total_wall_seconds": 0.010412792005809024
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 6,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 150,
+    "total_wall_seconds": 0.010768833017209545
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 7,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 154,
+    "total_wall_seconds": 0.011252291995333508
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 8,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 157,
+    "total_wall_seconds": 0.010683583008358255
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 9,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 158,
+    "total_wall_seconds": 0.010378124978160486
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 10,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 165,
+    "total_wall_seconds": 0.010112666990607977
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 11,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 165,
+    "total_wall_seconds": 0.010325792012736201
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 12,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 165,
+    "total_wall_seconds": 0.010766208986751735
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 13,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 165,
+    "total_wall_seconds": 0.010368165996624157
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 14,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 175,
+    "total_wall_seconds": 0.014197999989846721
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 15,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 177,
+    "total_wall_seconds": 0.011578290985198691
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 16,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 179,
+    "total_wall_seconds": 0.01364629200543277
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 17,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 183,
+    "total_wall_seconds": 0.010922958987066522
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 18,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 188,
+    "total_wall_seconds": 0.011956583999563009
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 19,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 187,
+    "total_wall_seconds": 0.013643332989886403
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 20,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 193,
+    "total_wall_seconds": 0.011003874999005347
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 21,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 194,
+    "total_wall_seconds": 0.01119666700833477
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 22,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 196,
+    "total_wall_seconds": 0.011422750016208738
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 23,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 195,
+    "total_wall_seconds": 0.011067083018133417
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 24,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 195,
+    "total_wall_seconds": 0.011123000003863126
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 25,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 202,
+    "total_wall_seconds": 0.011595249990932643
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 26,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 202,
+    "total_wall_seconds": 0.03911166699253954
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 27,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 210,
+    "total_wall_seconds": 0.011559040984138846
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 28,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 210,
+    "total_wall_seconds": 0.011116334004327655
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 29,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 214,
+    "total_wall_seconds": 0.01341395900817588
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 30,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 214,
+    "total_wall_seconds": 0.012991541996598244
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 31,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 222,
+    "total_wall_seconds": 0.014921875001164153
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 32,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 222,
+    "total_wall_seconds": 0.015503458998864517
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 33,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 227,
+    "component_vertices": 551,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.02118083299137652
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 34,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 226,
+    "total_wall_seconds": 0.02672783299931325
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 35,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 226,
+    "total_wall_seconds": 0.017105375009123236
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 36,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 236,
+    "total_wall_seconds": 0.018478250014595687
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 37,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 236,
+    "total_wall_seconds": 0.015124541998375207
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 38,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 240,
+    "total_wall_seconds": 0.015214500017464161
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 39,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 240,
+    "total_wall_seconds": 0.015422708005644381
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 40,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.01050062500871718
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 41,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 252,
+    "total_wall_seconds": 0.01591158300288953
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 42,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 244,
+    "total_wall_seconds": 0.01594870802364312
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 43,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 240,
+    "total_wall_seconds": 0.017444790981244296
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 44,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 240,
+    "total_wall_seconds": 0.01795941701857373
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 45,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 240,
+    "total_wall_seconds": 0.016761083010351285
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 46,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 218,
+    "total_wall_seconds": 0.016269124986138195
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 47,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 220,
+    "total_wall_seconds": 0.01599808398168534
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 48,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 220,
+    "total_wall_seconds": 0.015861457999562845
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 49,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 220,
+    "total_wall_seconds": 0.01820566601236351
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 50,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 206,
+    "total_wall_seconds": 0.019354916992597282
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 51,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 206,
+    "total_wall_seconds": 0.018642458016984165
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 52,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 185,
+    "total_wall_seconds": 0.016271625005174428
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 53,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 169,
+    "total_wall_seconds": 0.017789083998650312
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 54,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 155,
+    "total_wall_seconds": 0.01470516697736457
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 55,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 146,
+    "total_wall_seconds": 0.013425583019852638
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 56,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 130,
+    "total_wall_seconds": 0.012983791995793581
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 57,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 130,
+    "total_wall_seconds": 0.012365707982098684
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 58,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 121,
+    "component_vertices": 628,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.016419249994214624
+  },
+  {
+    "workload": "projected_union_with_hole_s20",
+    "index": 59,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 240,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 104,
+    "total_wall_seconds": 0.011925416998565197
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 1,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 170,
+    "total_wall_seconds": 0.015071792004164308
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 2,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 167,
+    "total_wall_seconds": 0.014479916979325935
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 3,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.008834125008434057
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 4,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 163,
+    "total_wall_seconds": 0.010587374999886379
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 5,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 132,
+    "total_wall_seconds": 0.013773624988971278
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 6,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.008498707989929244
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 7,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.00855458399746567
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 8,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 127,
+    "total_wall_seconds": 0.011790916993049905
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 9,
+    "eligible": false,
+    "reason": "unsupported_center_topology",
+    "total_wall_seconds": 0.009056665992829949
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 10,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 124,
+    "total_wall_seconds": 0.01297895799507387
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 11,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 125,
+    "component_vertices": 398,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.015828166011488065
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 12,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 124,
+    "component_vertices": 497,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.01705224998295307
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 13,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 100,
+    "component_vertices": 500,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.01590124997892417
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 14,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 98,
+    "component_vertices": 633,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.016878958995221183
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 15,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 96,
+    "total_wall_seconds": 0.012524165998911485
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 16,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 93,
+    "component_vertices": 471,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.01423395800520666
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 17,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 92,
+    "total_wall_seconds": 0.011266332992818207
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 18,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 78,
+    "total_wall_seconds": 0.015433083986863494
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 19,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      0,
+      0
+    ],
+    "stock_edges": 78,
+    "total_wall_seconds": 0.015317582990974188
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 20,
+    "eligible": true,
+    "reason": null,
+    "native_clearance": 0,
+    "native_endpoint": [
+      1,
+      1
+    ],
+    "stock_edges": 70,
+    "component_vertices": 712,
+    "nonstraight": false,
+    "native_path_full_clear": true,
+    "graph_exclusion": "geometry_size_cap",
+    "total_wall_seconds": 0.015817874984350055
+  },
+  {
+    "workload": "projected_union_with_hole_s75",
+    "index": 21,
+    "eligible": false,
+    "reason": "endpoint_in_hole",
+    "native_clearance": 900,
+    "native_endpoint": [
+      1,
+      0
+    ],
+    "stock_edges": 63,
+    "total_wall_seconds": 0.012290459009818733
+  }
+]

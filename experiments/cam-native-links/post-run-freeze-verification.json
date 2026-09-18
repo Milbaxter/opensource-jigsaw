@@ -1,0 +1,197 @@
+{
+  "all_match": true,
+  "files": [
+    {
+      "path": "LICENSE-LGPL-2.1.txt",
+      "matches": true
+    },
+    {
+      "path": "LICENSE-MIT.txt",
+      "matches": true
+    },
+    {
+      "path": "REPRODUCE.md",
+      "matches": true
+    },
+    {
+      "path": "RIGHTS.md",
+      "matches": true
+    },
+    {
+      "path": "bin/capture",
+      "matches": true
+    },
+    {
+      "path": "bin/plain",
+      "matches": true
+    },
+    {
+      "path": "extract-inputs.py",
+      "matches": true
+    },
+    {
+      "path": "fetch-sources.py",
+      "matches": true
+    },
+    {
+      "path": "kernel-inputs.json",
+      "matches": true
+    },
+    {
+      "path": "license-provenance.json",
+      "matches": true
+    },
+    {
+      "path": "native-driver.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-screen-preregistration.md",
+      "matches": true
+    },
+    {
+      "path": "native-source/manifest.json",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/CMakeLists.txt",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.core.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.engine.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.export.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.minkowski.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.offset.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.rectclip.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.triangulation.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/include/clipper2/clipper.version.h",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.engine.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.offset.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.rectclip.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/Clipper2Lib/src/clipper.triangulation.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/LICENSE",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/3rdParty/Clipper2/clipper.version.in",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/Adaptive.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/Adaptive.hpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/clipper.cpp",
+      "matches": true
+    },
+    {
+      "path": "native-source/src/Mod/CAM/libarea/clipper.hpp",
+      "matches": true
+    },
+    {
+      "path": "prepare-native.py",
+      "matches": true
+    },
+    {
+      "path": "prepared-source-manifest.json",
+      "matches": true
+    },
+    {
+      "path": "prepared/Adaptive-instrumented.cpp",
+      "matches": true
+    },
+    {
+      "path": "prepared/Adaptive-original.cpp",
+      "matches": true
+    },
+    {
+      "path": "prepared/Adaptive.hpp",
+      "matches": true
+    },
+    {
+      "path": "prepared/inputs.hpp",
+      "matches": true
+    },
+    {
+      "path": "run-screen.py",
+      "matches": true
+    },
+    {
+      "path": "visibility-oracle.py",
+      "matches": true
+    },
+    {
+      "path": "RESOURCE-AMENDMENT.md",
+      "matches": true
+    },
+    {
+      "path": "run-screen-portable.py",
+      "matches": true
+    },
+    {
+      "path": "resource-support-diagnostic.json",
+      "matches": true
+    },
+    {
+      "path": "source-freeze.json",
+      "matches": true
+    },
+    {
+      "path": "results/binary-hashes.json",
+      "matches": true
+    },
+    {
+      "path": "results/execution-start.json",
+      "matches": true
+    },
+    {
+      "path": "results/summary.json",
+      "matches": true
+    }
+  ]
+}

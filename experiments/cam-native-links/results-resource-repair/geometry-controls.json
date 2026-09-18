@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "inside": true,
+    "hole": true,
+    "cross_hole": true,
+    "touch_corner": true,
+    "outside_even_mid_inside": true,
+    "whole_disk": true,
+    "too_close": true,
+    "zero_segment": true,
+    "continuous_corner": true,
+    "fraction_distance": true,
+    "simple_collinear": true,
+    "nonzero_self_crossing": true,
+    "touching_rings_rejected": true,
+    "nested_island": true,
+    "disjoint_topology": true,
+    "disconnected": true,
+    "graph_optimum": true,
+    "finite_request": true,
+    "nan_request_rejected": true,
+    "inf_request_rejected": true,
+    "fractional_coordinate_rejected": true,
+    "graph_path_visible": true
+  },
+  "all_pass": true,
+  "total_wall_seconds": 0.005531333008548245
+}
