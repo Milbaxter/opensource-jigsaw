@@ -1,0 +1,65 @@
+{
+  "status": "prospective Stage0 protocol; no font shaping executed",
+  "files": [
+    {
+      "source": "stage0-preregistration.md",
+      "target": "stage0-preregistration.md",
+      "bytes": 8814,
+      "sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32"
+    },
+    {
+      "source": "stage0-targets.json",
+      "target": "stage0-targets.json",
+      "bytes": 4599,
+      "sha256": "b796e44ad433d95185cb001a1fdc91b9a6502d1600ec337885d2af62a7c46b2f"
+    },
+    {
+      "source": "stage0-corpus-sources.json",
+      "target": "stage0-corpus-sources.json",
+      "bytes": 1565,
+      "sha256": "75b5636882300729f0b67aab047451b979bfec60e405f91cf2b056c009f7f5ec"
+    },
+    {
+      "source": "font-input-inspection.json",
+      "target": "font-input-inspection.json",
+      "bytes": 2637,
+      "sha256": "fa661d805438d9c8564434fee4278f1620184b465d420729b27ff99ab6aed80c"
+    },
+    {
+      "source": "dependency-pins.json",
+      "target": "dependency-pins.json",
+      "bytes": 1982,
+      "sha256": "fb52a27622be3e7f84348a88ed0b3a727aac2df29a6988fe5821e9552bf7e847"
+    },
+    {
+      "source": "dependency-rights-inspection.json",
+      "target": "dependency-rights-inspection.json",
+      "bytes": 1745,
+      "sha256": "1b19a83276b3c245d1ab33da0ecb202ab3a16c34dc40a8571454c3db4d59510a"
+    },
+    {
+      "source": "rights-notes.md",
+      "target": "rights-notes.md",
+      "bytes": 2746,
+      "sha256": "0f15d5a58b241c69b9cf721e18afb1fa4be83dcde23eaf636bcc47811ff9fac4"
+    },
+    {
+      "source": "SCREEN.md",
+      "target": "SCREEN.md",
+      "bytes": 6974,
+      "sha256": "430569f1752abbb6f8b404e994807eb39a238bd5589295f3dc76b0f60effe14d"
+    },
+    {
+      "source": "source-inspection/manifest.json",
+      "target": "source-inspection/manifest.json",
+      "bytes": 9999,
+      "sha256": "4d904db549451f00e91362eeb17b9324439f264e0013029eb7a80b20efe1bac8"
+    },
+    {
+      "source": "structural-input-inspection.json",
+      "target": "structural-input-inspection.json",
+      "bytes": 2645,
+      "sha256": "e4eba160e140bca328250c0e8773ea0a9d7223b9bf61a3d01578b003dad2f65b"
+    }
+  ]
+}

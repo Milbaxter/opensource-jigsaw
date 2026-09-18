@@ -1,0 +1,194 @@
+[
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "diffenator3-lib/src/wordselect.rs",
+    "sha256": "b447c62027aaa90deef35bcba8ac2ec1daa5eb616abe8ae8a9454254b7945108",
+    "local": "googlefonts__diffenator3__diffenator3-lib__src__wordselect.rs",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/diffenator3-lib/src/wordselect.rs"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "diffenator3-lib/src/render/wordlists.rs",
+    "sha256": "6f2bd0ee5bc815ecb9cb25ac4971505d7c3de38545ef321587bbd39bf8a87b72",
+    "local": "googlefonts__diffenator3__diffenator3-lib__src__render__wordlists.rs",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/diffenator3-lib/src/render/wordlists.rs"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "diffenator3-lib/src/render/shaper.rs",
+    "sha256": "a6c509f3e87ccbfafd0fa8fd84e9c6ed2bc5c3fbbb06640fe365ce74250b5659",
+    "local": "googlefonts__diffenator3__diffenator3-lib__src__render__shaper.rs",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/diffenator3-lib/src/render/shaper.rs"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "ttj/src/layout/gsub.rs",
+    "sha256": "9d49ad5ac58319e9df9428597608c5d54cf62a4701c0a6cb38664c8835bd3674",
+    "local": "googlefonts__diffenator3__ttj__src__layout__gsub.rs",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/ttj/src/layout/gsub.rs"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "LICENSE.md",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "local": "googlefonts__diffenator3__LICENSE.md",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/LICENSE.md"
+  },
+  {
+    "repo": "googlefonts/diffenator2",
+    "commit": "cecdab703d462cfea25b748b19ea4813d3f4d680",
+    "path": "src/diffenator2/wordlistbuilder.py",
+    "sha256": "4d7aa483345d22876fd70fc7534ff805b4fd5f9488a3853c6b6b10c8242a8030",
+    "local": "googlefonts__diffenator2__src__diffenator2__wordlistbuilder.py",
+    "url": "https://github.com/googlefonts/diffenator2/blob/cecdab703d462cfea25b748b19ea4813d3f4d680/src/diffenator2/wordlistbuilder.py"
+  },
+  {
+    "repo": "googlefonts/diffenator2",
+    "commit": "cecdab703d462cfea25b748b19ea4813d3f4d680",
+    "path": "src/diffenator2/shape.py",
+    "sha256": "897ee1871630a5452a64f8f8d0cd9a3eba4987f3bdb72ae0fbe3544f7b6d8739",
+    "local": "googlefonts__diffenator2__src__diffenator2__shape.py",
+    "url": "https://github.com/googlefonts/diffenator2/blob/cecdab703d462cfea25b748b19ea4813d3f4d680/src/diffenator2/shape.py"
+  },
+  {
+    "repo": "googlefonts/diffenator2",
+    "commit": "cecdab703d462cfea25b748b19ea4813d3f4d680",
+    "path": "LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "local": "googlefonts__diffenator2__LICENSE.txt",
+    "url": "https://github.com/googlefonts/diffenator2/blob/cecdab703d462cfea25b748b19ea4813d3f4d680/LICENSE.txt"
+  },
+  {
+    "repo": "simoncozens/fontFeatures",
+    "commit": "360b0dc62b31e893ff2270d1ca3438f1e5b6616d",
+    "path": "Lib/fontFeatures/ttLib/GSUBUnparser.py",
+    "sha256": "4f07372a525887e27c6f9b7d7381fad65f4e7be34e71ba72404072fcf07c17db",
+    "local": "simoncozens__fontFeatures__Lib__fontFeatures__ttLib__GSUBUnparser.py",
+    "url": "https://github.com/simoncozens/fontFeatures/blob/360b0dc62b31e893ff2270d1ca3438f1e5b6616d/Lib/fontFeatures/ttLib/GSUBUnparser.py"
+  },
+  {
+    "repo": "simoncozens/fontFeatures",
+    "commit": "360b0dc62b31e893ff2270d1ca3438f1e5b6616d",
+    "path": "Lib/fontFeatures/shaperLib/Chaining.py",
+    "sha256": "3c2392c44b18f28ebdee38319a5431fd205772516fe5b9648b8b8a823fe73c74",
+    "local": "simoncozens__fontFeatures__Lib__fontFeatures__shaperLib__Chaining.py",
+    "url": "https://github.com/simoncozens/fontFeatures/blob/360b0dc62b31e893ff2270d1ca3438f1e5b6616d/Lib/fontFeatures/shaperLib/Chaining.py"
+  },
+  {
+    "repo": "simoncozens/fontFeatures",
+    "commit": "360b0dc62b31e893ff2270d1ca3438f1e5b6616d",
+    "path": "LICENSE",
+    "sha256": "d5994322910cffa232bc79d86aba7f1cd768cf58928b9486d95edd0d08bc5c6a",
+    "local": "simoncozens__fontFeatures__LICENSE",
+    "url": "https://github.com/simoncozens/fontFeatures/blob/360b0dc62b31e893ff2270d1ca3438f1e5b6616d/LICENSE"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "distr/specimen.html",
+    "local": "tonsky__FiraCode__6.2__distr__specimen.html",
+    "sha256": "0fcab75b1a3093afb78cea84f728627feae9aa14ae500402f186333ba7c98609",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/distr/specimen.html"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "distr/specimen.html",
+    "local": "tonsky__FiraCode__5.2__distr__specimen.html",
+    "sha256": "0fcab75b1a3093afb78cea84f728627feae9aa14ae500402f186333ba7c98609",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/distr/specimen.html"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "features/calt/dashes.fea",
+    "local": "tonsky__FiraCode__6.2__features__calt__dashes.fea",
+    "sha256": "76cc1778a7af1bb4ad5a7259166f80fd891b3abe199823f893d82a12910df9eb",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/features/calt/dashes.fea"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "extras/showcases.txt",
+    "local": "tonsky__FiraCode__5.2__extras__showcases.txt",
+    "sha256": "72d24898e996c88f451f009ed451416489da76777476e3516ede1500273dd418",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/extras/showcases.txt"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "clojure/fira_code/checks.clj",
+    "local": "tonsky__FiraCode__5.2__clojure__fira_code__checks.clj",
+    "sha256": "f58f3c8a3895099ebd6fb1365794a6a369d82761318e108c73400157604f1a9d",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/clojure/fira_code/checks.clj"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "clojure/fira_code/calt.clj",
+    "local": "tonsky__FiraCode__5.2__clojure__fira_code__calt.clj",
+    "sha256": "79eaafa1966cd4eb2cf708a3fdc685c288c3ff8eb9c1ca1f463b92c68bff9d42",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/clojure/fira_code/calt.clj"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "script/check",
+    "local": "tonsky__FiraCode__5.2__script__check",
+    "sha256": "07928316cf550e72666e32bff138dba75ff4931dd4a3895d5f6ce6f06c573c97",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/script/check"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "extras/showcases.txt",
+    "local": "tonsky__FiraCode__6.2__extras__showcases.txt",
+    "sha256": "785df89cf95f41f6cb454824301d568a712509ddf2b263b3e4324c2b8df37b7a",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/extras/showcases.txt"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "clojure/fira_code/checks.clj",
+    "local": "tonsky__FiraCode__6.2__clojure__fira_code__checks.clj",
+    "sha256": "aa29ad93640b4f044d2d528f6510ba77e00b65ec41cc6b90c42743816353683e",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/clojure/fira_code/checks.clj"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "clojure/fira_code/calt.clj",
+    "local": "tonsky__FiraCode__6.2__clojure__fira_code__calt.clj",
+    "sha256": "260e44371d541650a410fb298550cb4d2aabbfb18ee49a6a4325894d97bdd31d",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/clojure/fira_code/calt.clj"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "script/check",
+    "local": "tonsky__FiraCode__6.2__script__check",
+    "sha256": "07928316cf550e72666e32bff138dba75ff4931dd4a3895d5f6ce6f06c573c97",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/script/check"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "diffenator3-lib/src/staticdiff.rs",
+    "local": "googlefonts__diffenator3__diffenator3-lib__src__staticdiff.rs",
+    "sha256": "11d0026f3125c044e6c561cba27b6ea0bf0875d4db154b66b064c3b49873a8a4",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/diffenator3-lib/src/staticdiff.rs"
+  },
+  {
+    "repo": "googlefonts/diffenator3",
+    "commit": "ba0d0b451f4435e0f381de494a1f65a6c17d72c5",
+    "path": "diffenator3-lib/src/lib.rs",
+    "local": "googlefonts__diffenator3__diffenator3-lib__src__lib.rs",
+    "sha256": "52c32ec7cf077f0687617a057f08a2287482caaafd8e7b9567ccc8293142f355",
+    "url": "https://github.com/googlefonts/diffenator3/blob/ba0d0b451f4435e0f381de494a1f65a6c17d72c5/diffenator3-lib/src/lib.rs"
+  }
+]

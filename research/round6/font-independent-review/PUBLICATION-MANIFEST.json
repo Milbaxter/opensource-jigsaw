@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-09-18T10:52:45.178303+00:00",
+  "status": "prospective independent review, no evaluation",
+  "reviewed_draft_sha256": "d0bcee063588bf49301411039fc34963975fbe2fe463da1a8241af7d9ec3ca8a",
+  "files": [
+    {
+      "path": "PRE-RESULT-REVIEW.md",
+      "bytes": 8760,
+      "sha256": "2e7eef758e1aa8998547643382867cbd30737bcd15c2dc7ea6cdb2b9e9dbf735"
+    },
+    {
+      "path": "structural-root-inspection.json",
+      "bytes": 62111,
+      "sha256": "959c057e9c2e710ef38888af313291876baeb17ea675a941df29eb175d5bce22"
+    },
+    {
+      "path": "STAGE0-READINESS.md",
+      "bytes": 2376,
+      "sha256": "9b4d79867dd5903e572857df2aea2522e8d336de4c4f52c89be4bc959f31302a"
+    }
+  ],
+  "updated_utc": "2026-09-18T10:54:26.133247+00:00",
+  "reviewed_stage0_protocol_sha256": "b3cdeee4cb2660c0cdcba69ad32b05e8cd90b7e60222b4a99830d2665f1361b6",
+  "reviewed_final_stage0_protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32"
+}

@@ -1,0 +1,51 @@
+{
+  "python": "3.14.6",
+  "harfbuzz_runtime": "12.3.0",
+  "packages": [
+    {
+      "package": "fonttools",
+      "version": "4.60.0",
+      "used_in_stage0": true,
+      "files": [
+        {
+          "filename": "fonttools-4.60.0-cp314-cp314-macosx_10_13_universal2.whl",
+          "sha256": "b6fe3efdc956bdad95145cea906ad9ff345c17b706356dfc1098ce3230591343",
+          "bytes": 2821835,
+          "url": "https://files.pythonhosted.org/packages/86/dd/a126706e45e0ce097cef6de4108b5597795acaa945fdbdd922dbc090d335/fonttools-4.60.0-cp314-cp314-macosx_10_13_universal2.whl",
+          "pypi_sha256_matches": true
+        }
+      ],
+      "pypi_metadata_url": "https://pypi.org/pypi/fonttools/4.60.0/json"
+    },
+    {
+      "package": "uharfbuzz",
+      "version": "0.53.2",
+      "used_in_stage0": true,
+      "files": [
+        {
+          "filename": "uharfbuzz-0.53.2-cp310-abi3-macosx_10_9_universal2.whl",
+          "sha256": "56d0ceb8af633035b37e9bb8bd642a657eba64cb99636058075d40ad8188758f",
+          "bytes": 2720623,
+          "url": "https://files.pythonhosted.org/packages/41/72/1e19d87f3ba246cbc88dbd60d03e4cbac8df3aad5d84d22cf32fc2a50e79/uharfbuzz-0.53.2-cp310-abi3-macosx_10_9_universal2.whl",
+          "pypi_sha256_matches": true
+        }
+      ],
+      "pypi_metadata_url": "https://pypi.org/pypi/uharfbuzz/0.53.2/json"
+    },
+    {
+      "package": "z3-solver",
+      "version": "4.15.3.0",
+      "used_in_stage0": false,
+      "files": [
+        {
+          "filename": "z3_solver-4.15.3.0-py3-none-macosx_13_0_arm64.whl",
+          "sha256": "65335aab295ded7c0ce27c85556067087a87052389ff160777d1a1d48ef0d74f",
+          "bytes": 36882388,
+          "url": "https://files.pythonhosted.org/packages/63/45/dd8e9d7500faa05eafa589cc8f0f0b982ce575d51b455d62dab8e19dd571/z3_solver-4.15.3.0-py3-none-macosx_13_0_arm64.whl",
+          "pypi_sha256_matches": true
+        }
+      ],
+      "pypi_metadata_url": "https://pypi.org/pypi/z3-solver/4.15.3.0/json"
+    }
+  ]
+}

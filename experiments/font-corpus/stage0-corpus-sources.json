@@ -1,0 +1,34 @@
+[
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "distr/specimen.html",
+    "local": "tonsky__FiraCode__6.2__distr__specimen.html",
+    "sha256": "0fcab75b1a3093afb78cea84f728627feae9aa14ae500402f186333ba7c98609",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/distr/specimen.html"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "distr/specimen.html",
+    "local": "tonsky__FiraCode__5.2__distr__specimen.html",
+    "sha256": "0fcab75b1a3093afb78cea84f728627feae9aa14ae500402f186333ba7c98609",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/distr/specimen.html"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "8da49d55f8b5978c5f888dd85452b79aad16cca2",
+    "path": "extras/showcases.txt",
+    "local": "tonsky__FiraCode__5.2__extras__showcases.txt",
+    "sha256": "72d24898e996c88f451f009ed451416489da76777476e3516ede1500273dd418",
+    "url": "https://github.com/tonsky/FiraCode/blob/8da49d55f8b5978c5f888dd85452b79aad16cca2/extras/showcases.txt"
+  },
+  {
+    "repo": "tonsky/FiraCode",
+    "commit": "eee6db993696aba61ff4eef03698e2987d79910c",
+    "path": "extras/showcases.txt",
+    "local": "tonsky__FiraCode__6.2__extras__showcases.txt",
+    "sha256": "785df89cf95f41f6cb454824301d568a712509ddf2b263b3e4324c2b8df37b7a",
+    "url": "https://github.com/tonsky/FiraCode/blob/eee6db993696aba61ff4eef03698e2987d79910c/extras/showcases.txt"
+  }
+]
