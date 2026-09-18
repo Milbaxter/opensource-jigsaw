@@ -1,0 +1,194 @@
+[
+  {
+    "name": "A_cheap_fee",
+    "passed": true
+  },
+  {
+    "name": "A_large_fee",
+    "passed": true
+  },
+  {
+    "name": "B_cheap_fee",
+    "passed": true
+  },
+  {
+    "name": "B_large_fee",
+    "passed": true
+  },
+  {
+    "name": "C_cheap_fee",
+    "passed": true
+  },
+  {
+    "name": "C_large_fee",
+    "passed": true
+  },
+  {
+    "name": "D_cheap_fee",
+    "passed": true
+  },
+  {
+    "name": "D_large_fee",
+    "passed": true
+  },
+  {
+    "name": "48_exact",
+    "passed": true
+  },
+  {
+    "name": "48_01_ceiling",
+    "passed": true
+  },
+  {
+    "name": "second_side_boundary",
+    "passed": true
+  },
+  {
+    "name": "volume_boundary",
+    "passed": true
+  },
+  {
+    "name": "girth_boundary",
+    "passed": true
+  },
+  {
+    "name": "minimum_40",
+    "passed": true
+  },
+  {
+    "name": "dim_ceiling",
+    "passed": true
+  },
+  {
+    "name": "exact_boundary",
+    "passed": true
+  },
+  {
+    "name": "face_touch",
+    "passed": true
+  },
+  {
+    "name": "overlap_rejected",
+    "passed": true
+  },
+  {
+    "name": "bounds_rejected",
+    "passed": true
+  },
+  {
+    "name": "duplicate_rejected",
+    "passed": true
+  },
+  {
+    "name": "missing_rejected",
+    "passed": true
+  },
+  {
+    "name": "nonpositive_rejected",
+    "passed": true
+  },
+  {
+    "name": "rotation_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_0_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_0_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_0_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_1_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_1_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_1_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_2_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_2_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_2_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_3",
+    "passed": true
+  },
+  {
+    "name": "rotation_3_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_3_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_3_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_4",
+    "passed": true
+  },
+  {
+    "name": "rotation_4_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_4_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_4_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "rotation_5",
+    "passed": true
+  },
+  {
+    "name": "rotation_5_shrink_0",
+    "passed": true
+  },
+  {
+    "name": "rotation_5_shrink_1",
+    "passed": true
+  },
+  {
+    "name": "rotation_5_shrink_2",
+    "passed": true
+  },
+  {
+    "name": "bad_fee_(0, 1, 1)",
+    "passed": true
+  },
+  {
+    "name": "bad_fee_(-1, 1, 1)",
+    "passed": true
+  }
+]

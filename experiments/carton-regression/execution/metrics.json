@@ -1,0 +1,90 @@
+{
+  "arms": {
+    "H": {
+      "generation": 8037,
+      "postdiscovery": 3000,
+      "elapsed_seconds": 30.38729641799,
+      "classifications": {
+        "excluded_volume": 3979,
+        "S_cheap_fit": 3876,
+        "L_no_cheap_fit": 2432,
+        "excluded_zero_shrink": 201,
+        "witness": 487,
+        "S_no_large_fit": 62
+      },
+      "witness_seeds": 3
+    },
+    "R": {
+      "generation": 8252,
+      "postdiscovery": 0,
+      "elapsed_seconds": 10.944150540977716,
+      "classifications": {
+        "excluded_volume": 2799,
+        "S_cheap_fit": 2752,
+        "excluded_zero_shrink": 72,
+        "L_no_cheap_fit": 2607,
+        "S_no_large_fit": 20,
+        "witness": 2
+      },
+      "witness_seeds": 2
+    }
+  },
+  "trace_rows": 19289,
+  "unique_generated_case_hashes": 19161,
+  "raw_candidate_placement_records": 489,
+  "retained_witnesses": 5,
+  "distinct_families": [
+    "A",
+    "B",
+    "C"
+  ],
+  "controls_passed": 48,
+  "clean_process_replays": [
+    {
+      "fixture": "witness-H-7001.json",
+      "passed": true,
+      "neighborhood_cases": 40,
+      "neighborhood_counts": {
+        "S_cheap_fit": 32,
+        "witness": 8
+      }
+    },
+    {
+      "fixture": "witness-H-7005.json",
+      "passed": true,
+      "neighborhood_cases": 51,
+      "neighborhood_counts": {
+        "S_cheap_fit": 49,
+        "witness": 2
+      }
+    },
+    {
+      "fixture": "witness-H-7009.json",
+      "passed": true,
+      "neighborhood_cases": 36,
+      "neighborhood_counts": {
+        "witness": 8,
+        "S_cheap_fit": 28
+      }
+    },
+    {
+      "fixture": "witness-R-7001.json",
+      "passed": true,
+      "neighborhood_cases": 82,
+      "neighborhood_counts": {
+        "S_cheap_fit": 78,
+        "witness": 4
+      }
+    },
+    {
+      "fixture": "witness-R-7005.json",
+      "passed": true,
+      "neighborhood_cases": 70,
+      "neighborhood_counts": {
+        "S_cheap_fit": 60,
+        "witness": 9,
+        "S_no_large_fit": 1
+      }
+    }
+  ]
+}

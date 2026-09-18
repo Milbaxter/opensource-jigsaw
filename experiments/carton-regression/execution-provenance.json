@@ -1,0 +1,61 @@
+{
+  "retrieved_at": "2026-09-18T08:39:07.158808+00:00",
+  "sources": [
+    {
+      "name": "FAILED direct retrieval of FedEx service-guide PDF URL: HTML response",
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/Service_Guide_2026.pdf",
+      "bytes": 1770,
+      "sha256": "c62bfcd5337ed3b595c50215415b1507f71a29432b886985f68b5c54cdc6ec9e",
+      "republished": false,
+      "content_type": "text/html",
+      "http_status": 200,
+      "format": "HTML, not PDF",
+      "pdf_hash_available": false,
+      "source_verification": "Official 186-page PDF was inspected through web tool; cover updated September 11,2026; relevant pages127,135,155,158. Parent independently confirmed. Direct-download hash below identifies only the HTML response.",
+      "retrieval_success": false
+    },
+    {
+      "name": "py3dbp-1.1.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/80/57/fe0637d2c0b276e5ddfd6fa4ba13dd479d12bdee932fab1229dda4f84421/py3dbp-1.1.2.tar.gz",
+      "bytes": 4301,
+      "sha256": "d8c92c120eecfbee600a4dfd8b0a42d63459c97de67a26ff8ad39529a5125e07",
+      "republished": false,
+      "matches_pypi_hash": true
+    },
+    {
+      "name": "hypothesis-6.168.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "url": "https://files.pythonhosted.org/packages/6d/c4/494e42304b15f4ec649d36bbc3fc01cef1b63405cf30d4087ae07d048172/hypothesis-6.168.0-cp314-cp314-macosx_11_0_arm64.whl",
+      "bytes": 784632,
+      "sha256": "9ba679f183c67adcb6f4ad93694beafb6da99fe691757f4e57b04ae77e581ba8",
+      "republished": false,
+      "matches_pypi_hash": true
+    }
+  ],
+  "installed_licenses": [
+    {
+      "distribution_file": "hypothesis-6.168.0.dist-info/licenses/LICENSE.txt",
+      "license": "MPL-2.0",
+      "sha256": "ac89037bac63550644dce8cf32c6765e5fab9dc1a1ce94b89f8a805f341a6750",
+      "raw_copy_published": false
+    },
+    {
+      "distribution_file": "sortedcontainers-2.4.0.dist-info/LICENSE",
+      "license": "Apache-2.0",
+      "sha256": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6",
+      "raw_copy_published": false
+    }
+  ],
+  "built_py3dbp_wheel_sha256": "04057f01e7c7535092f0eded62a4c40e0ff1f8bcf3c1573dfccdd7fadf811920",
+  "provenance_correction": {
+    "corrected_at": "2026-09-18T08:42:26.281923+00:00",
+    "error": "Original provenance mislabeled a1770-byte HTTP200text/html response hash as a service-guide PDF hash. Parent identified size anomaly; researcher rechecked content-type and magic bytes and confirmed HTML. No actualPDF downloaded/hashavailable.",
+    "original_incorrect_record": {
+      "name": "FedEx 2026 Service Guide updated 2026-09-11",
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/Service_Guide_2026.pdf",
+      "bytes": 1770,
+      "sha256": "c62bfcd5337ed3b595c50215415b1507f71a29432b886985f68b5c54cdc6ec9e",
+      "republished": false
+    },
+    "effect": "No change to prototype or observed packing results. Tariff claims supported by primary-source web parsing and parent independent inspection, not locally hash-pinned PDF."
+  }
+}

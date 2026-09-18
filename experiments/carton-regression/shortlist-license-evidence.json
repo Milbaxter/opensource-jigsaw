@@ -1,0 +1,23 @@
+[
+  {
+    "repository": "HypothesisWorks/hypothesis",
+    "license_url": "https://github.com/HypothesisWorks/hypothesis/blob/master/LICENSE.txt",
+    "sha": "a37c2bca372e6c2c58fba6ddb50122d0d4536793",
+    "license_summary": "Top-level code is MPL-2.0 except explicitly identified exceptions; exact package and dependency review remains required.",
+    "scope": "Top-level license inspection only; pin exact dependencies before any experiment."
+  },
+  {
+    "repository": "hgrecco/pint",
+    "license_url": "https://github.com/hgrecco/pint/blob/master/LICENSE",
+    "sha": "49aec52e352cb22ac004957001830297944c6a0f",
+    "license_summary": "BSD-style permissive license with redistribution conditions; confirm the exact pinned package terms before execution.",
+    "scope": "Top-level license inspection only; pin exact dependencies before any experiment."
+  },
+  {
+    "repository": "mikedh/trimesh",
+    "license_url": "https://github.com/mikedh/trimesh/blob/main/LICENSE.md",
+    "sha": "d0571124dc68ee63553001f17f043d19250159cc",
+    "license_summary": "MIT license; attribution and notice requirements apply.",
+    "scope": "Top-level license inspection only; pin exact dependencies before any experiment."
+  }
+]

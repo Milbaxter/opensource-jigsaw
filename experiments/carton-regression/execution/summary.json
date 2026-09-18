@@ -1,0 +1,375 @@
+{
+  "synthetic": true,
+  "protocol_commit": "ee5b14c",
+  "implementation_sha256": "aefd721b10c73ad1907b52f27c6a6edd01feb798c050247f1ba0a39707ad9388",
+  "environment": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "platform": "macOS-15.0-arm64-arm-64bit-Mach-O",
+    "py3dbp": "1.1.2",
+    "hypothesis": "6.168.0"
+  },
+  "controls_passed": 48,
+  "seeds": [
+    {
+      "arm": "H",
+      "seed": 7000,
+      "counts": {
+        "excluded_volume": 434,
+        "S_cheap_fit": 257,
+        "L_no_cheap_fit": 288,
+        "excluded_zero_shrink": 21
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.5660657090193126,
+      "trace_path": "trace-H-7000.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7001,
+      "counts": {
+        "excluded_volume": 284,
+        "L_no_cheap_fit": 106,
+        "S_cheap_fit": 628,
+        "witness": 85,
+        "excluded_zero_shrink": 7,
+        "S_no_large_fit": 19
+      },
+      "generation_evaluations": 129,
+      "postdiscovery_evaluations": 1000,
+      "status": "budget_censored_postdiscovery",
+      "witness_path": "witness-H-7001.json",
+      "elapsed_seconds": 3.6338043749856297,
+      "trace_path": "trace-H-7001.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7002,
+      "counts": {
+        "excluded_volume": 332,
+        "S_cheap_fit": 328,
+        "L_no_cheap_fit": 321,
+        "excluded_zero_shrink": 15,
+        "S_no_large_fit": 4
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.773367582994979,
+      "trace_path": "trace-H-7002.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7003,
+      "counts": {
+        "excluded_volume": 394,
+        "S_cheap_fit": 285,
+        "L_no_cheap_fit": 294,
+        "excluded_zero_shrink": 24,
+        "S_no_large_fit": 3
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.5659340000129305,
+      "trace_path": "trace-H-7003.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7004,
+      "counts": {
+        "excluded_volume": 385,
+        "L_no_cheap_fit": 298,
+        "S_cheap_fit": 285,
+        "excluded_zero_shrink": 30,
+        "S_no_large_fit": 2
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.6410915839951485,
+      "trace_path": "trace-H-7004.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7005,
+      "counts": {
+        "excluded_volume": 486,
+        "S_cheap_fit": 716,
+        "L_no_cheap_fit": 218,
+        "excluded_zero_shrink": 20,
+        "witness": 275,
+        "S_no_large_fit": 30
+      },
+      "generation_evaluations": 745,
+      "postdiscovery_evaluations": 1000,
+      "status": "budget_censored_postdiscovery",
+      "witness_path": "witness-H-7005.json",
+      "elapsed_seconds": 5.991031709010713,
+      "trace_path": "trace-H-7005.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7006,
+      "counts": {
+        "excluded_volume": 381,
+        "S_cheap_fit": 282,
+        "L_no_cheap_fit": 293,
+        "excluded_zero_shrink": 43,
+        "S_no_large_fit": 1
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.558471832977375,
+      "trace_path": "trace-H-7006.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7007,
+      "counts": {
+        "excluded_volume": 424,
+        "excluded_zero_shrink": 17,
+        "L_no_cheap_fit": 272,
+        "S_cheap_fit": 286,
+        "S_no_large_fit": 1
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.5193049579975195,
+      "trace_path": "trace-H-7007.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7008,
+      "counts": {
+        "excluded_volume": 445,
+        "S_cheap_fit": 294,
+        "L_no_cheap_fit": 242,
+        "excluded_zero_shrink": 17,
+        "S_no_large_fit": 2
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 2.431962917005876,
+      "trace_path": "trace-H-7008.jsonl.gz"
+    },
+    {
+      "arm": "H",
+      "seed": 7009,
+      "counts": {
+        "excluded_volume": 414,
+        "L_no_cheap_fit": 100,
+        "S_cheap_fit": 515,
+        "excluded_zero_shrink": 7,
+        "witness": 127
+      },
+      "generation_evaluations": 163,
+      "postdiscovery_evaluations": 1000,
+      "status": "budget_censored_postdiscovery",
+      "witness_path": "witness-H-7009.json",
+      "elapsed_seconds": 2.7062617499905173,
+      "trace_path": "trace-H-7009.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7000,
+      "counts": {
+        "excluded_volume": 328,
+        "S_cheap_fit": 340,
+        "excluded_zero_shrink": 4,
+        "L_no_cheap_fit": 325,
+        "S_no_large_fit": 3
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3200633749947883,
+      "trace_path": "trace-R-7000.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7001,
+      "counts": {
+        "L_no_cheap_fit": 33,
+        "S_cheap_fit": 28,
+        "excluded_volume": 34,
+        "witness": 1
+      },
+      "generation_evaluations": 96,
+      "postdiscovery_evaluations": 0,
+      "status": "witness",
+      "witness_path": "witness-R-7001.json",
+      "elapsed_seconds": 0.16479766598786227,
+      "trace_path": "trace-R-7001.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7002,
+      "counts": {
+        "S_cheap_fit": 320,
+        "excluded_volume": 351,
+        "L_no_cheap_fit": 320,
+        "excluded_zero_shrink": 8,
+        "S_no_large_fit": 1
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.2753218750003725,
+      "trace_path": "trace-R-7002.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7003,
+      "counts": {
+        "L_no_cheap_fit": 332,
+        "excluded_volume": 317,
+        "S_cheap_fit": 337,
+        "excluded_zero_shrink": 11,
+        "S_no_large_fit": 3
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3797874590090942,
+      "trace_path": "trace-R-7003.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7004,
+      "counts": {
+        "L_no_cheap_fit": 298,
+        "S_cheap_fit": 346,
+        "excluded_volume": 347,
+        "excluded_zero_shrink": 6,
+        "S_no_large_fit": 3
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3155347919964697,
+      "trace_path": "trace-R-7004.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7005,
+      "counts": {
+        "L_no_cheap_fit": 58,
+        "excluded_volume": 44,
+        "S_cheap_fit": 52,
+        "excluded_zero_shrink": 1,
+        "witness": 1
+      },
+      "generation_evaluations": 156,
+      "postdiscovery_evaluations": 0,
+      "status": "witness",
+      "witness_path": "witness-R-7005.json",
+      "elapsed_seconds": 0.22932804099400528,
+      "trace_path": "trace-R-7005.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7006,
+      "counts": {
+        "L_no_cheap_fit": 305,
+        "excluded_volume": 354,
+        "S_cheap_fit": 332,
+        "excluded_zero_shrink": 9
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.2653720829985105,
+      "trace_path": "trace-R-7006.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7007,
+      "counts": {
+        "S_cheap_fit": 352,
+        "excluded_volume": 338,
+        "L_no_cheap_fit": 292,
+        "excluded_zero_shrink": 13,
+        "S_no_large_fit": 5
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3527619169908576,
+      "trace_path": "trace-R-7007.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7008,
+      "counts": {
+        "L_no_cheap_fit": 332,
+        "S_cheap_fit": 332,
+        "excluded_volume": 326,
+        "excluded_zero_shrink": 8,
+        "S_no_large_fit": 2
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3224667079921346,
+      "trace_path": "trace-R-7008.jsonl.gz"
+    },
+    {
+      "arm": "R",
+      "seed": 7009,
+      "counts": {
+        "L_no_cheap_fit": 312,
+        "S_cheap_fit": 313,
+        "excluded_volume": 360,
+        "excluded_zero_shrink": 12,
+        "S_no_large_fit": 3
+      },
+      "generation_evaluations": 1000,
+      "postdiscovery_evaluations": 0,
+      "status": "no_witness",
+      "elapsed_seconds": 1.3187166250136215,
+      "trace_path": "trace-R-7009.jsonl.gz"
+    }
+  ],
+  "witnesses": [
+    {
+      "path": "witness-H-7001.json",
+      "arm": "H",
+      "seed": 7001,
+      "family": "B",
+      "case_sha256": "755ce941965652213671325c55924c92161b15fccb72535442e55c6f95190257"
+    },
+    {
+      "path": "witness-H-7005.json",
+      "arm": "H",
+      "seed": 7005,
+      "family": "B",
+      "case_sha256": "fccde77c48847aba3316d0e8400539992c41fb7836c1b7d899bd69e153c2013f"
+    },
+    {
+      "path": "witness-H-7009.json",
+      "arm": "H",
+      "seed": 7009,
+      "family": "A",
+      "case_sha256": "2d85e45c9dc74dba71470928fca8989e73014ca55987f79c0a4be99c175673d8"
+    },
+    {
+      "path": "witness-R-7001.json",
+      "arm": "R",
+      "seed": 7001,
+      "family": "C",
+      "case_sha256": "104379687170113dc890f81531fd2e60d00757405378df18dfe7f403b52f037c"
+    },
+    {
+      "path": "witness-R-7005.json",
+      "arm": "R",
+      "seed": 7005,
+      "family": "B",
+      "case_sha256": "5796d5495303acc13e1a877a29f031b5943c3645da507da1aa30c29109127501"
+    }
+  ]
+}

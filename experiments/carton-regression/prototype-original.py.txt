@@ -1,0 +1,271 @@
+"""C07 prospective protocol implementation. Synthetic cuboids; AHS component only."""
+from __future__ import annotations
+import argparse, gzip, hashlib, itertools, json, math, os, platform, random, sys, time
+from decimal import Decimal
+from pathlib import Path
+from importlib.metadata import version
+from hypothesis import find, settings, strategies as st, Phase, HealthCheck
+from hypothesis.errors import NoSuchExample
+from py3dbp import Packer, Bin, Item
+
+ROOT = Path(__file__).resolve().parent
+FAMILIES = {
+    'A': ((48,12,12),(49,12,12)),
+    'B': ((30,30,7),(31,31,7)),
+    'C': ((38,18,15),(39,18,15)),
+    'D': ((47,16,13),(48,16,13)),
+}
+# Independently declared six orthogonal dimension permutations.
+ROTATIONS = ((0,1,2),(1,0,2),(1,2,0),(2,1,0),(2,0,1),(0,2,1))
+PERMUTATIONS = tuple(itertools.permutations(range(3)))
+
+def digest(obj):
+    return hashlib.sha256(json.dumps(obj,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+
+def fee(outer, weight):
+    if len(outer)!=3 or any(Decimal(str(x))<=0 for x in outer) or weight<=0:
+        raise ValueError('nonpositive dimensions/weight')
+    axes=sorted((math.ceil(Decimal(str(x))) for x in outer),reverse=True)
+    l,w,h=axes
+    triggers=[]
+    if l>48: triggers.append('longest_side')
+    if w>30: triggers.append('second_side')
+    if l+2*w+2*h>105: triggers.append('girth')
+    if l*w*h>10368: triggers.append('volume')
+    dim=math.ceil(Decimal(l*w*h)/Decimal(139))
+    return {'rounded_outer':axes,'ahs_dimension_usd':29.5 if triggers else 0.0,
+            'triggers':triggers,'dim_lb':dim,
+            'modeled_billable_lb':max(math.ceil(weight),dim,40 if triggers else 0)}
+
+def inner_ticks(outer): return tuple(int(x*4)-1 for x in outer)
+
+def rotated(dims, rotation):
+    if not isinstance(rotation,int) or rotation not in range(6):
+        raise ValueError('unsupported rotation')
+    return tuple(dims[x] for x in ROTATIONS[rotation])
+
+def verify(items, inner, placements):
+    """Exact integer containment and disjoint intervals; no engine helpers."""
+    expected={str(i):tuple(d) for i,d in enumerate(items)}
+    ids=[p['id'] for p in placements]
+    if len(ids)!=len(set(ids)) or set(ids)!=set(expected): return False,'IDs'
+    boxes=[]
+    for p in placements:
+        if tuple(p['dimensions_ticks'])!=expected[p['id']]: return False,'source_dimensions'
+        d=rotated(expected[p['id']],p['rotation'])
+        pos=p['position_ticks']
+        if any(type(x) is not int for x in list(d)+list(pos)): return False,'not_integer'
+        if any(x<=0 for x in d): return False,'nonpositive'
+        if any(x<0 for x in pos): return False,'negative_position'
+        if any(pos[k]+d[k]>inner[k] for k in range(3)): return False,'bounds'
+        boxes.append((pos,d))
+    for (p,d),(q,e) in itertools.combinations(boxes,2):
+        if not any(p[k]+d[k]<=q[k] or q[k]+e[k]<=p[k] for k in range(3)):
+            return False,'overlap'
+    return True,'valid'
+
+def exact_ticks(value):
+    ticks=Decimal(str(value))*4
+    if ticks!=ticks.to_integral_value(): raise ValueError('engine output off quarter-inch lattice')
+    return int(ticks)
+
+def pack(items, outer, mode):
+    p=Packer()
+    inner=inner_ticks(outer)
+    p.add_bin(Bin('carton',*(Decimal(x)/4 for x in inner),100))
+    for idx,d in enumerate(items): p.add_item(Item(str(idx),*(Decimal(x)/4 for x in d),Decimal('0.5')))
+    p.pack(bigger_first=mode,distribute_items=False,number_of_decimals=3)
+    b=p.bins[0]
+    placements=[{'id':i.name,'dimensions_ticks':list(items[int(i.name)]),
+                 'rotation':int(i.rotation_type),'position_ticks':[exact_ticks(x) for x in i.position]}
+                for i in b.items]
+    fitted=[i.name for i in b.items]; unfitted=[i.name for i in b.unfitted_items]
+    if len(fitted+unfitted)!=len(set(fitted+unfitted)) or set(fitted+unfitted)!=set(map(str,range(len(items)))):
+        raise ValueError('engine duplicate/missing fitted/unfitted IDs')
+    # Validate even partial fits after mapping their IDs onto a dense local list.
+    partial_items=[items[int(p['id'])] for p in placements]
+    partial=[dict(p,id=str(j)) for j,p in enumerate(placements)]
+    valid,why=verify(partial_items,inner,partial)
+    if not valid: raise ValueError('invalid engine geometry: '+why)
+    full=not unfitted and len(fitted)==len(items)
+    return {'mode':mode,'full_fit':full,'placements':placements,'unfitted':unfitted,
+            'geometry':why,'fee':fee(outer,len(items)*0.5+1)}
+
+def evaluate(case):
+    family,items,index,axis,shrink=case
+    cheap,large=FAMILIES[family]
+    cap=math.prod(inner_ticks(cheap)); vol=sum(math.prod(x) for x in items)
+    if not (cap*.2<=vol<=cap): return {'classification':'excluded_volume'}
+    if items[index][axis]<=1: return {'classification':'excluded_zero_shrink'}
+    smaller=[list(d) for d in items]
+    smaller[index][axis]-=min(shrink,smaller[index][axis]-1)
+    # Run every combination, preserving useful failures and mode-rescued outcomes.
+    runs={}
+    for label,dims in [('L',items),('S',smaller)]:
+        for size,outer in [('cheap',cheap),('large',large)]:
+            runs[label+'_'+size]=[pack(dims,outer,m) for m in (False,True)]
+    result={'classification':'no_witness','runs':runs,'smaller':smaller}
+    lgood=[r for r in runs['L_cheap'] if r['full_fit']]
+    if not lgood: result['classification']='L_no_cheap_fit';return result
+    if any(r['full_fit'] for r in runs['S_cheap']):
+        result['classification']='S_cheap_fit';return result
+    if not any(r['full_fit'] for r in runs['S_large']):
+        result['classification']='S_no_large_fit';return result
+    inherited=[dict(p,dimensions_ticks=list(smaller[int(p['id'])])) for p in lgood[0]['placements']]
+    valid,why=verify(smaller,inner_ticks(cheap),inherited)
+    if not valid: raise ValueError('analytic inherited witness failed: '+why)
+    gap=fee(large,len(items)*.5+1)['ahs_dimension_usd']-fee(cheap,len(items)*.5+1)['ahs_dimension_usd']
+    if gap<=0: raise ValueError('predeclared carton fee gap failed')
+    result.update(classification='witness',inherited_cheap_placements=inherited,ahs_component_gap_usd=gap)
+    return result
+
+@st.composite
+def cases(draw):
+    fam=draw(st.sampled_from(tuple(FAMILIES)))
+    lim=inner_ticks(FAMILIES[fam][0]);n=draw(st.integers(2,8));items=[]
+    for _ in range(n):
+        dims=[draw(st.integers(1,b)) for b in lim]
+        perm=draw(st.sampled_from(PERMUTATIONS));items.append([dims[i] for i in perm])
+    return [fam,items,draw(st.integers(0,n-1)),draw(st.integers(0,2)),draw(st.integers(1,4))]
+
+def random_case(rng):
+    fam=rng.choice(tuple(FAMILIES));lim=inner_ticks(FAMILIES[fam][0]);n=rng.randint(2,8);items=[]
+    for _ in range(n):
+        d=[rng.randint(1,x) for x in lim];perm=rng.choice(PERMUTATIONS)
+        items.append([d[i] for i in perm])
+    return [fam,items,rng.randrange(n),rng.randrange(3),rng.randint(1,4)]
+
+def controls():
+    checks=[]
+    def check(name,value):
+        checks.append({'name':name,'passed':bool(value)})
+        if not value: raise AssertionError(name)
+    for family,(a,b) in FAMILIES.items():
+        check(family+'_cheap_fee',fee(a,5)['ahs_dimension_usd']==0)
+        check(family+'_large_fee',fee(b,5)['ahs_dimension_usd']==29.5)
+    check('48_exact',fee((48,10,10),1)['ahs_dimension_usd']==0)
+    check('48_01_ceiling',fee(('48.01',10,10),1)['ahs_dimension_usd']==29.5)
+    check('second_side_boundary',fee((30,30,1),1)['ahs_dimension_usd']==0 and 'second_side' in fee((31,31,1),1)['triggers'])
+    check('volume_boundary',fee((32,18,18),1)['ahs_dimension_usd']==0 and 'volume' in fee((33,18,18),1)['triggers'])
+    check('girth_boundary',fee((47,16,13),1)['ahs_dimension_usd']==0 and 'girth' in fee((48,16,13),1)['triggers'])
+    check('minimum_40',fee((49,1,1),1)['modeled_billable_lb']==40)
+    check('dim_ceiling',fee((10,10,10),1)['modeled_billable_lb']==8)
+    base=[{'id':'0','dimensions_ticks':[4,4,4],'rotation':0,'position_ticks':[0,0,0]}]
+    check('exact_boundary',verify([[4,4,4]],(4,4,4),base)[0])
+    two=base+[{'id':'1','dimensions_ticks':[4,4,4],'rotation':0,'position_ticks':[4,0,0]}]
+    check('face_touch',verify([[4,4,4]]*2,(8,4,4),two)[0])
+    check('overlap_rejected',not verify([[4,4,4]]*2,(8,4,4),[two[0],dict(two[1],position_ticks=[3,0,0])])[0])
+    check('bounds_rejected',not verify([[4,4,4]],(3,4,4),base)[0])
+    check('duplicate_rejected',not verify([[4,4,4]]*2,(8,4,4),[two[0],dict(two[1],id='0')])[0])
+    check('missing_rejected',not verify([[4,4,4]]*2,(8,4,4),base)[0])
+    check('nonpositive_rejected',not verify([[0,4,4]],(8,4,4),[dict(base[0],dimensions_ticks=[0,4,4])])[0])
+    # Independent explicit expected dimensions, including each possible shrinking source axis.
+    expected=((2,3,4),(3,2,4),(3,4,2),(4,3,2),(4,2,3),(2,4,3))
+    for rot,bounds in enumerate(expected):
+        p={'id':'0','dimensions_ticks':[2,3,4],'rotation':rot,'position_ticks':[0,0,0]}
+        check('rotation_'+str(rot),verify([[2,3,4]],bounds,[p])[0])
+        for axis in range(3):
+            d=[2,3,4];d[axis]-=1
+            check(f'rotation_{rot}_shrink_{axis}',verify([d],bounds,[dict(p,dimensions_ticks=d)])[0])
+    for bad in [(0,1,1),(-1,1,1)]:
+        rejected=False
+        try: fee(bad,1)
+        except ValueError: rejected=True
+        check('bad_fee_'+str(bad),rejected)
+    return checks
+
+class BudgetStop(Exception): pass
+
+def search():
+    output=ROOT/'execution';output.mkdir(exist_ok=True)
+    frozen=json.loads((ROOT/'implementation-freeze.json').read_text())
+    actual=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    if actual!=frozen['prototype_sha256']: raise RuntimeError('implementation differs from frozen hash')
+    checks=controls()
+    (output/'controls.json').write_text(json.dumps(checks,indent=2))
+    summary={'synthetic':True,'protocol_commit':'ee5b14c','implementation_sha256':actual,
+             'environment':{'python':sys.version,'platform':platform.platform(),'py3dbp':version('py3dbp'),'hypothesis':version('hypothesis')},
+             'controls_passed':len(checks),'seeds':[],'witnesses':[]}
+    for arm in ['H','R']:
+        arm_start=time.monotonic()
+        for seed in range(7000,7010):
+            if time.monotonic()-arm_start>=600:
+                summary['seeds'].append({'arm':arm,'seed':seed,'status':'arm_time_censored'});continue
+            record={'arm':arm,'seed':seed,'counts':{},'generation_evaluations':0,'postdiscovery_evaluations':0}
+            best=None;first=None;found=None;start=time.monotonic()
+            trace_path=output/f'trace-{arm}-{seed}.jsonl.gz'
+            with gzip.open(trace_path,'wt') as trace:
+                def predicate(case):
+                    nonlocal best,first
+                    phase='generation' if first is None else 'postdiscovery'
+                    key=phase+'_evaluations'
+                    if time.monotonic()-arm_start>=600 or record[key]>=1000: raise BudgetStop(phase)
+                    record[key]+=1
+                    stamp=time.monotonic()
+                    try: result=evaluate(case)
+                    except Exception as exc:
+                        result={'classification':'error','error':type(exc).__name__+': '+str(exc)}
+                    label=result['classification'];record['counts'][label]=record['counts'].get(label,0)+1
+                    trace.write(json.dumps({'arm':arm,'seed':seed,'phase':phase,'ordinal':record[key],
+                                           'case':case,'case_sha256':digest(case),'result_sha256':digest(result),
+                                           'classification':label,'error':result.get('error'),
+                                           'elapsed_seconds':time.monotonic()-stamp})+'\n')
+                    if label=='error': raise RuntimeError(result['error'])
+                    if label=='witness':
+                        if first is None: first=case
+                        best=(case,result)
+                        (output/f'candidate-{arm}-{seed}-{record[key]}-{phase}.json').write_text(json.dumps({'case':case,'result':result},indent=2))
+                    return label=='witness'
+                try:
+                    if arm=='H':
+                        found=find(cases(),predicate,random=random.Random(seed),settings=settings(
+                            max_examples=1000,database=None,deadline=None,phases=[Phase.generate,Phase.shrink],
+                            suppress_health_check=list(HealthCheck)))
+                    else:
+                        rng=random.Random(seed)
+                        for _ in range(1000):
+                            c=random_case(rng)
+                            if predicate(c): found=c;break
+                    record['status']='witness' if best else 'no_witness'
+                except NoSuchExample: record['status']='no_witness'
+                except BudgetStop as exc: record['status']='budget_censored_'+str(exc)
+                except Exception as exc:
+                    record['status']='error';record['error']=type(exc).__name__+': '+str(exc)
+                if best:
+                    # find's returned case takes priority over last successful internal trial.
+                    selected=found if found is not None else best[0]
+                    result=evaluate(selected)
+                    if result['classification']!='witness': raise RuntimeError('selected candidate did not replay')
+                    fixture={'arm':arm,'seed':seed,'original_case':first,'case':selected,'result':result,
+                             'shrink_finished':found is not None,'case_sha256':digest(selected),
+                             'size_original':{'items':len(first[1]),'ticks':sum(map(sum,first[1])),'bytes':len(json.dumps(first))},
+                             'size_selected':{'items':len(selected[1]),'ticks':sum(map(sum,selected[1])),'bytes':len(json.dumps(selected))}}
+                    path=output/f'witness-{arm}-{seed}.json';path.write_text(json.dumps(fixture,indent=2))
+                    summary['witnesses'].append({'path':path.name,'arm':arm,'seed':seed,'family':selected[0],'case_sha256':digest(selected)})
+                    record['witness_path']=path.name
+            record['elapsed_seconds']=time.monotonic()-start
+            record['trace_path']=trace_path.name
+            summary['seeds'].append(record)
+            (output/'summary.json').write_text(json.dumps(summary,indent=2))
+            print(json.dumps(record),flush=True)
+            if record['status']=='error':
+                raise RuntimeError('halt on engine/checker error; see retained trace')
+    (output/'summary.json').write_text(json.dumps(summary,indent=2))
+
+def replay(path):
+    fixture=json.loads(Path(path).read_text());case=fixture['case'];result=evaluate(case)
+    if result['classification']!='witness': raise AssertionError('clean replay failed')
+    family,items,_,_,_=case;neighbors=[]
+    for idx,item in enumerate(items):
+        for axis in range(3):
+            for amount in range(1,5):
+                if item[axis]-amount<1: continue
+                c=[family,items,idx,axis,amount];r=evaluate(c)
+                neighbors.append({'case':c,'classification':r['classification'],'result_sha256':digest(r)})
+    data={'case_sha256':digest(case),'result_sha256':digest(result),'witness':True,'neighbors':neighbors}
+    out=Path(path).with_name(Path(path).stem+'-replay.json');out.write_text(json.dumps(data,indent=2));print(out)
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('command',choices=['search','replay']);parser.add_argument('path',nargs='?');args=parser.parse_args()
+    if args.command=='search': search()
+    else: replay(args.path)

@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-09-18T08:36:27.231754+00:00",
+  "prototype_sha256": "aefd721b10c73ad1907b52f27c6a6edd01feb798c050247f1ba0a39707ad9388",
+  "protocol_sha256": "27e0b4ffc1be41c0b378e91c524993d170c6010c9b92676e91c7416299578eae",
+  "protocol_commit": "ee5b14c",
+  "note": "Written before any prototype engine execution."
+}

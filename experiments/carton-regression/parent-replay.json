@@ -1,0 +1,43 @@
+{
+  "prototype_sha256": "aefd721b10c73ad1907b52f27c6a6edd01feb798c050247f1ba0a39707ad9388",
+  "controls_passed": 48,
+  "witnesses": [
+    {
+      "fixture": "witness-H-7001.json",
+      "case_sha256": "755ce941965652213671325c55924c92161b15fccb72535442e55c6f95190257",
+      "exact_output_reproduced": true,
+      "cheaper_witness_verified": true,
+      "ahs_component_gap_usd": 29.5
+    },
+    {
+      "fixture": "witness-H-7005.json",
+      "case_sha256": "fccde77c48847aba3316d0e8400539992c41fb7836c1b7d899bd69e153c2013f",
+      "exact_output_reproduced": true,
+      "cheaper_witness_verified": true,
+      "ahs_component_gap_usd": 29.5
+    },
+    {
+      "fixture": "witness-H-7009.json",
+      "case_sha256": "2d85e45c9dc74dba71470928fca8989e73014ca55987f79c0a4be99c175673d8",
+      "exact_output_reproduced": true,
+      "cheaper_witness_verified": true,
+      "ahs_component_gap_usd": 29.5
+    },
+    {
+      "fixture": "witness-R-7001.json",
+      "case_sha256": "104379687170113dc890f81531fd2e60d00757405378df18dfe7f403b52f037c",
+      "exact_output_reproduced": true,
+      "cheaper_witness_verified": true,
+      "ahs_component_gap_usd": 29.5
+    },
+    {
+      "fixture": "witness-R-7005.json",
+      "case_sha256": "5796d5495303acc13e1a877a29f031b5943c3645da507da1aa30c29109127501",
+      "exact_output_reproduced": true,
+      "cheaper_witness_verified": true,
+      "ahs_component_gap_usd": 29.5
+    }
+  ],
+  "elapsed_seconds": 0.012676874990575016,
+  "scope": "Independent parent process reran frozen implementation, compared exact recorded outputs, inspected code and replayed controls. Same checker, not a second independent geometry implementation. No real orders or invoice savings."
+}

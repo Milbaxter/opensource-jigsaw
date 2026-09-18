@@ -1,0 +1,730 @@
+{
+  "arm": "H",
+  "seed": 7001,
+  "original_case": [
+    "B",
+    [
+      [
+        12,
+        79,
+        70
+      ],
+      [
+        30,
+        37,
+        19
+      ],
+      [
+        9,
+        46,
+        53
+      ],
+      [
+        8,
+        117,
+        78
+      ]
+    ],
+    3,
+    0,
+    3
+  ],
+  "case": [
+    "B",
+    [
+      [
+        60,
+        80,
+        12
+      ],
+      [
+        16,
+        16,
+        16
+      ],
+      [
+        48,
+        1,
+        1
+      ],
+      [
+        73,
+        100,
+        8
+      ]
+    ],
+    3,
+    0,
+    1
+  ],
+  "result": {
+    "classification": "witness",
+    "runs": {
+      "L_cheap": [
+        {
+          "mode": false,
+          "full_fit": false,
+          "placements": [
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                16,
+                0
+              ]
+            }
+          ],
+          "unfitted": [
+            "3"
+          ],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              30,
+              30,
+              7
+            ],
+            "ahs_dimension_usd": 0.0,
+            "triggers": [],
+            "dim_lb": 46,
+            "modeled_billable_lb": 46
+          }
+        },
+        {
+          "mode": true,
+          "full_fit": true,
+          "placements": [
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                73,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                73,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 1,
+              "position_ticks": [
+                89,
+                0,
+                0
+              ]
+            }
+          ],
+          "unfitted": [],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              30,
+              30,
+              7
+            ],
+            "ahs_dimension_usd": 0.0,
+            "triggers": [],
+            "dim_lb": 46,
+            "modeled_billable_lb": 46
+          }
+        }
+      ],
+      "L_large": [
+        {
+          "mode": false,
+          "full_fit": true,
+          "placements": [
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                16,
+                0
+              ]
+            },
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                73,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                16
+              ]
+            }
+          ],
+          "unfitted": [],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              31,
+              31,
+              7
+            ],
+            "ahs_dimension_usd": 29.5,
+            "triggers": [
+              "second_side",
+              "girth"
+            ],
+            "dim_lb": 49,
+            "modeled_billable_lb": 49
+          }
+        },
+        {
+          "mode": true,
+          "full_fit": true,
+          "placements": [
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                73,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                8
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                73,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 1,
+              "position_ticks": [
+                89,
+                0,
+                0
+              ]
+            }
+          ],
+          "unfitted": [],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              31,
+              31,
+              7
+            ],
+            "ahs_dimension_usd": 29.5,
+            "triggers": [
+              "second_side",
+              "girth"
+            ],
+            "dim_lb": 49,
+            "modeled_billable_lb": 49
+          }
+        }
+      ],
+      "S_cheap": [
+        {
+          "mode": false,
+          "full_fit": false,
+          "placements": [
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                16,
+                0
+              ]
+            }
+          ],
+          "unfitted": [
+            "3"
+          ],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              30,
+              30,
+              7
+            ],
+            "ahs_dimension_usd": 0.0,
+            "triggers": [],
+            "dim_lb": 46,
+            "modeled_billable_lb": 46
+          }
+        },
+        {
+          "mode": true,
+          "full_fit": false,
+          "placements": [
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                72,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                12
+              ]
+            },
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                60,
+                0,
+                0
+              ]
+            }
+          ],
+          "unfitted": [
+            "1"
+          ],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              30,
+              30,
+              7
+            ],
+            "ahs_dimension_usd": 0.0,
+            "triggers": [],
+            "dim_lb": 46,
+            "modeled_billable_lb": 46
+          }
+        }
+      ],
+      "S_large": [
+        {
+          "mode": false,
+          "full_fit": true,
+          "placements": [
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "1",
+              "dimensions_ticks": [
+                16,
+                16,
+                16
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                16,
+                0
+              ]
+            },
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                72,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                48,
+                0,
+                16
+              ]
+            }
+          ],
+          "unfitted": [],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              31,
+              31,
+              7
+            ],
+            "ahs_dimension_usd": 29.5,
+            "triggers": [
+              "second_side",
+              "girth"
+            ],
+            "dim_lb": 49,
+            "modeled_billable_lb": 49
+          }
+        },
+        {
+          "mode": true,
+          "full_fit": false,
+          "placements": [
+            {
+              "id": "0",
+              "dimensions_ticks": [
+                60,
+                80,
+                12
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "id": "3",
+              "dimensions_ticks": [
+                72,
+                100,
+                8
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                0,
+                0,
+                12
+              ]
+            },
+            {
+              "id": "2",
+              "dimensions_ticks": [
+                48,
+                1,
+                1
+              ],
+              "rotation": 0,
+              "position_ticks": [
+                60,
+                0,
+                0
+              ]
+            }
+          ],
+          "unfitted": [
+            "1"
+          ],
+          "geometry": "valid",
+          "fee": {
+            "rounded_outer": [
+              31,
+              31,
+              7
+            ],
+            "ahs_dimension_usd": 29.5,
+            "triggers": [
+              "second_side",
+              "girth"
+            ],
+            "dim_lb": 49,
+            "modeled_billable_lb": 49
+          }
+        }
+      ]
+    },
+    "smaller": [
+      [
+        60,
+        80,
+        12
+      ],
+      [
+        16,
+        16,
+        16
+      ],
+      [
+        48,
+        1,
+        1
+      ],
+      [
+        72,
+        100,
+        8
+      ]
+    ],
+    "inherited_cheap_placements": [
+      {
+        "id": "3",
+        "dimensions_ticks": [
+          72,
+          100,
+          8
+        ],
+        "rotation": 0,
+        "position_ticks": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "0",
+        "dimensions_ticks": [
+          60,
+          80,
+          12
+        ],
+        "rotation": 0,
+        "position_ticks": [
+          0,
+          0,
+          8
+        ]
+      },
+      {
+        "id": "1",
+        "dimensions_ticks": [
+          16,
+          16,
+          16
+        ],
+        "rotation": 0,
+        "position_ticks": [
+          73,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "2",
+        "dimensions_ticks": [
+          48,
+          1,
+          1
+        ],
+        "rotation": 1,
+        "position_ticks": [
+          89,
+          0,
+          0
+        ]
+      }
+    ],
+    "ahs_component_gap_usd": 29.5
+  },
+  "shrink_finished": false,
+  "case_sha256": "755ce941965652213671325c55924c92161b15fccb72535442e55c6f95190257",
+  "size_original": {
+    "items": 4,
+    "ticks": 558,
+    "bytes": 71
+  },
+  "size_selected": {
+    "items": 4,
+    "ticks": 431,
+    "bytes": 70
+  }
+}

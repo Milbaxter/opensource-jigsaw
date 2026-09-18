@@ -1,0 +1,5 @@
+# Independent source check
+
+On 2026-09-18, the parent opened the official [FedEx 2026 Service Guide](https://www.fedex.com/content/dam/fedex/us-united-states/services/Service_Guide_2026.pdf) through the web reader. It returned an application/pdf document of 186 pages, with September 11, 2026 on the cover. Page 127 supports the Zone 2 dimension handling component of $29.50 and the 40-pound minimum; page 135 supports upward fractional-inch rounding. The code models only this component and dimensional weight, not an invoice or customer tariff.
+
+The parent caught a separate provenance error: the researcher's direct-download body was 1,770 bytes of HTML, mislabeled as a PDF checksum. The corrected provenance explicitly preserves that failed retrieval and removes the PDF-checksum claim. The web-reader inspection supports the rules, but does not supply a locally verified PDF checksum. This remains a disclosed preregistration deviation. Geometry results are unaffected; a judge must account for the provenance limitation.
