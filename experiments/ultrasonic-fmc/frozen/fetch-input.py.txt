@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+"""Fetch original CC-BY4 measured data; no algorithm/evaluation code."""
+from pathlib import Path
+import hashlib,urllib.request
+root=Path(__file__).resolve().parent
+url='https://ndownloader.figshare.com/files/13206053'
+with urllib.request.urlopen(url,timeout=60) as response:
+    data=response.read()
+if len(data)!=1869782 or not data.startswith(b'MATLAB 5.0 MAT-file'):
+    raise RuntimeError('Unexpected data type/size; do not treat a failed retrieval as MAT')
+if hashlib.sha256(data).hexdigest()!='b244d0e800087590da0664ef97473494dc6ef38a683ec80f262af307c8c37b89':
+    raise RuntimeError('Original input SHA-256 mismatch')
+(root/'fmc-input.mat').write_bytes(data)
+print('Verified original input. A. Velichko and A. J. Croxford, 2018, DOI10.6084/m9.figshare.7178630, CC BY4.0.')

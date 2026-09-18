@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "SCREEN.md",
+      "bytes": 7272,
+      "sha256": "62d1de188b40e302984102df16e8f4d4e9538f8ce96363b1158e422551db5684"
+    },
+    {
+      "path": "soiling-schema.json",
+      "bytes": 1716,
+      "sha256": "3060ad84ca0bd74b69267543757b2f1914662099d07b6acaca74d11e6aacad26"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 841,
+      "sha256": "34710d82289c1c982ce6aff2f88c3127d1903eaf9142cbe4944ebeafdd66c1f7"
+    }
+  ]
+}

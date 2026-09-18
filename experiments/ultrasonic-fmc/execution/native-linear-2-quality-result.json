@@ -1,0 +1,29 @@
+{
+  "method": "native-linear-2",
+  "mode": "quality",
+  "series": [
+    {
+      "repeat": 0,
+      "warmup": false,
+      "batch_seconds": 3.6055053749878425,
+      "stage_seconds": {
+        "migration_coordinates_and_weights": 0.3263142321957275,
+        "spectrum_fft_and_mask": 2.6776276276796125,
+        "interpolation_prefilter_and_evaluation": 0.4604488469194621,
+        "physical_origin_weight_and_accumulation": 0.07309688429813832,
+        "image_inverse_fft": 0.001980165019631386
+      },
+      "peak_rss_bytes": 394133504,
+      "over_120_seconds": false
+    }
+  ],
+  "preparation_seconds": {
+    "input_load_and_validation": 0.031590166996465996,
+    "transmit_fft_preparation": 0.041870208020554855
+  },
+  "import_seconds": 0.35546516699832864,
+  "process_elapsed_seconds": 4.134488207986578,
+  "peak_rss_bytes": 394133504,
+  "source_sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+  "status": "completed"
+}

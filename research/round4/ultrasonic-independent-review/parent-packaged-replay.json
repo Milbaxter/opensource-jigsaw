@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-09-18T10:36:21.685426+00:00",
+  "source_sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+  "scope": "selected control queries and one velocity, original code imported unchanged; not performance evidence",
+  "checks": [
+    {
+      "kind": "independent_direct_sum",
+      "ku_index": 0,
+      "queries": 5,
+      "relative_l2": 3.465241785880202e-06
+    },
+    {
+      "kind": "independent_direct_sum",
+      "ku_index": 37,
+      "queries": 5,
+      "relative_l2": 2.0034021145338236e-07
+    },
+    {
+      "kind": "independent_direct_sum",
+      "ku_index": 127,
+      "queries": 5,
+      "relative_l2": 1.307761365104191e-07
+    },
+    {
+      "kind": "image_replay",
+      "method": "finufft",
+      "relative_l2_vs_original": 0.0,
+      "dominant_x_m": 0.0,
+      "dominant_z_m": 0.020864,
+      "distance_to_nominal_hole_m": 0.0008640000000000002
+    },
+    {
+      "kind": "image_replay",
+      "method": "arim-linear",
+      "relative_l2_vs_original": 0.0,
+      "dominant_x_m": 0.0,
+      "dominant_z_m": 0.020735999999999997,
+      "distance_to_nominal_hole_m": 0.0007359999999999971
+    },
+    {
+      "kind": "image_replay",
+      "method": "native-linear-2",
+      "relative_l2_vs_original": 0.0,
+      "dominant_x_m": 0.0,
+      "dominant_z_m": 0.020992,
+      "distance_to_nominal_hole_m": 0.0009919999999999998
+    },
+    {
+      "kind": "image_replay",
+      "method": "native-cubic-2",
+      "relative_l2_vs_original": 0.0,
+      "dominant_x_m": 0.0,
+      "dominant_z_m": 0.020992,
+      "distance_to_nominal_hole_m": 0.0009919999999999998
+    }
+  ],
+  "packaging_replay": {
+    "description": "Parent executed the exact reviewer against reconstructed published source/results in a separate scratch directory. Source and checker bytes unchanged. No performance test.",
+    "reviewer_source_sha256": "3f43a6f95726002e258f671a82384427c506eb7869559c897b9edb3d00b2caea",
+    "published_source_manifest": "experiments/ultrasonic-fmc/result-publication-manifest.json"
+  }
+}

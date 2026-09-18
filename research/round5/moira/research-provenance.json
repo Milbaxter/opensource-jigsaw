@@ -1,0 +1,21 @@
+{
+  "screened_utc": "2026-09-18T10:30:47.131432+00:00",
+  "local_sources": [
+    {
+      "name": "isma2024.pdf",
+      "bytes": 10652799,
+      "sha256": "777b701889297d8d0a8f0859b9edbfec6de59192aac9b11b2e2bf2ca84b15566",
+      "meaning": "verified primary PDF"
+    },
+    {
+      "name": "dataset-paper-download-failed.html",
+      "bytes": 5893,
+      "sha256": "acf7266bfa15ef8864c88bb995afa789fa444f94258ea8e09ea3001c26ea63d7",
+      "meaning": "failed PDF retrieval returned HTML; not paper evidence"
+    }
+  ],
+  "dataset_paper": "https://doi.org/10.3390/app15073691",
+  "dataset_identity_limitation": "Remark 3: middle cart M2 always faulty in three-cart fault experiments; observed publisher indexed text, corroborated author-hosted indexed text. Direct publisher retrieval intermittently fails.",
+  "evaluation": null,
+  "publication_policy": "Publish authored memo and provenance only, not downloaded paper/HTML or full API payload."
+}

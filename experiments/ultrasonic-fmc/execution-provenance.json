@@ -1,0 +1,85 @@
+{
+  "platform": "macOS-15.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "python": "Python 3.12.14",
+  "packages": [
+    {
+      "name": "arim",
+      "version": "0.10"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.1"
+    },
+    {
+      "name": "finufft",
+      "version": "2.5.1"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "llvmlite",
+      "version": "0.44.0"
+    },
+    {
+      "name": "numba",
+      "version": "0.61.2"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pip",
+      "version": "25.0.1"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.11.10"
+    },
+    {
+      "name": "pooch",
+      "version": "1.9.0"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "name": "scipy",
+      "version": "1.16.2"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0"
+    }
+  ],
+  "input_sha256": "b244d0e800087590da0664ef97473494dc6ef38a683ec80f262af307c8c37b89",
+  "source_freeze": {
+    "created_at": "2026-09-18T10:27:13.704432+00:00",
+    "protocol_commit": "4fc6057fb027cee066700076c6e39ef17622a57f",
+    "protocol_sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646",
+    "files": {
+      "prototype.py": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+      "run_frozen.py": "e7c61a428792df36c13c4b495653ddce4358a0e24bc456888ec1e40fb36bb863"
+    },
+    "pre_execution": "Source syntax parsed only; no prototype import, controls, reconstruction or performance execution before this freeze.",
+    "pre_execution_review": "Initial unexecuted source snapshot retained. Independent static review corrected phase placement to pre-interpolation, nonvacuous origin controls, native out-of-grid zero behavior and peak-connected widths. No prototype imports/controls/reconstruction/performance ran before either freeze. Driver requires numerical and candidate physical/image checks before timed performance; on failure it retains two native diagnostics and stops."
+  },
+  "threads": 1,
+  "scope": "Local CPU experiment; single measured CC-BY4 FMC specimen; no third-party binary redistribution."
+}

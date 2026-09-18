@@ -1,0 +1,15 @@
+{
+  "verified_at_utc": "2026-09-18T10:37:23.062955+00:00",
+  "original_manifest_entries_verified": 49,
+  "parent_replay": "../../research/round4/ultrasonic-independent-review/parent-packaged-replay.json",
+  "formatted_helper_checks": {
+    "fetch-input.py": "Executed from scratch; original MAT header, byte count and SHA256 verified.",
+    "render_results.py": "Executed against copied original arrays in scratch; generated plot without error."
+  },
+  "formatted_helpers": {
+    "fetch-input.py": "361cbc5d732f6d93e8bb271164441626e9aee9b2088a3ddfb98cb4ea18506db9",
+    "render_results.py": "ba8eb8faa057a55915cac442ea0f7c2e8eb7dc6dfe1a3e7b1b6009bce0ac0838"
+  },
+  "repository_lint": "ruff check passed; ruff format --check passed133files",
+  "scope": "Packaging, verified downloader and presentation checks only; no new benchmark or changed thresholds."
+}

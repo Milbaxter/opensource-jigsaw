@@ -1,0 +1,14 @@
+[
+  {
+    "original": "execution/driver.json",
+    "original_sha256": "2c2c76de9b2fe80e938c64e2663fcd22bc3c8df657b41687f71bb7acc3b7411a",
+    "published_sha256": "1b515b07db5f18275bb84d374e0f50acac222612242d81500ed15aa4fe691354",
+    "transformation": "Replace local experiment root with ${EXPERIMENT_ROOT}; retain every result, command argument, status and elapsed time."
+  },
+  {
+    "original": "driver-console.log",
+    "original_sha256": "8e1d5a99bd1ec8c6bb9357567305a1ebf6878e2033bdcecfb33b8de3781564ec",
+    "published_sha256": "eb13c9dace08939c6300a24e2858acad6e29ae8b41342e6ad2d3c02d7ea7ac8b",
+    "transformation": "Replace local experiment root with ${EXPERIMENT_ROOT}; retain every result, command argument, status and elapsed time."
+  }
+]

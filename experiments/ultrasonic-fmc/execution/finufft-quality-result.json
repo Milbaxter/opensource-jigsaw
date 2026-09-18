@@ -1,0 +1,31 @@
+{
+  "method": "finufft",
+  "mode": "quality",
+  "series": [
+    {
+      "repeat": 0,
+      "warmup": false,
+      "batch_seconds": 6.968442707991926,
+      "stage_seconds": {
+        "migration_coordinates_and_weights": 0.360420399782015,
+        "spectrum_fft_and_mask": 2.75363748986274,
+        "canonical_inverse_fft": 1.0079945540055633,
+        "nufft_plan_and_points": 0.19809888556483202,
+        "nufft_evaluation": 2.464463567273924,
+        "physical_origin_weight_and_accumulation": 0.10461275107809342,
+        "image_inverse_fft": 0.0020527479355223477
+      },
+      "peak_rss_bytes": 416088064,
+      "over_120_seconds": false
+    }
+  ],
+  "preparation_seconds": {
+    "input_load_and_validation": 0.03200549999019131,
+    "transmit_fft_preparation": 0.030262709013186395
+  },
+  "import_seconds": 0.36034962499979883,
+  "process_elapsed_seconds": 7.492705917014973,
+  "peak_rss_bytes": 416088064,
+  "source_sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+  "status": "completed"
+}

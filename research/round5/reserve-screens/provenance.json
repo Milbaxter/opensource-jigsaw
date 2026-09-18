@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-18T10:34:11.369335+00:00",
+  "scope": "Three reserve feasibility screens. No performance execution.",
+  "local_reads": [
+    {
+      "path": "soiling-meta.txt",
+      "sha256": "8d9a55a3870498adf85f832acd0080c6529b16eb4c8599988f3b24936ad5081f",
+      "bytes": 4343
+    },
+    {
+      "path": "soiling-data.csv",
+      "sha256": "42ee3f211056cc076ea8dbe8294055e9dd3ddd9065bc2924f7facda99587ca77",
+      "bytes": 3418752
+    },
+    {
+      "path": "urban-readme.txt",
+      "sha256": "a014c4286894adc348ba5c23695749754b1e86d79a45ea3d3302b8efa1ba4cdf",
+      "bytes": 29274
+    }
+  ],
+  "publication_policy": "Only authored screen, schema and provenance. Raw data and downloaded README excluded.",
+  "components": "Conceptual candidates only; no installation/runtime compatibility verification or execution pins."
+}

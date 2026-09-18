@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "FEASIBILITY.md",
+      "bytes": 6922,
+      "sha256": "9c0c80d2eb72f4a9f26404cc00a2e4641a0c3a79e40caa2dea0438a89cc7418a"
+    },
+    {
+      "path": "data-access.json",
+      "bytes": 1793,
+      "sha256": "0dd73f2b16fc072b5271d3a0f37e735e1cdafc78551e072d787eee0846204629"
+    },
+    {
+      "path": "research-provenance.json",
+      "bytes": 946,
+      "sha256": "eb0f452442a8fc0ff1ced459f1e55e658367309275f93fb1017ff8d20c00db2e"
+    }
+  ],
+  "notes": [
+    "No archives or performance results; paper PDF and failed HTML excluded."
+  ]
+}

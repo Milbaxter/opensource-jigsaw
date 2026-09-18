@@ -1,0 +1,26 @@
+{
+  "method": "arim-linear",
+  "mode": "quality",
+  "series": [
+    {
+      "repeat": 0,
+      "warmup": false,
+      "batch_seconds": 2.1866638339997735,
+      "stage_seconds": {
+        "arim_hilbert_preparation": 0.020625832985388115,
+        "arim_contact_tfm_including_focal_law": 2.1521909170260187
+      },
+      "peak_rss_bytes": 426115072,
+      "over_120_seconds": false
+    }
+  ],
+  "preparation_seconds": {
+    "input_load_and_validation": 0.03191033302573487,
+    "transmit_fft_preparation": 0.03010995898512192
+  },
+  "import_seconds": 0.37081266700988635,
+  "process_elapsed_seconds": 2.7378104170202278,
+  "peak_rss_bytes": 442761216,
+  "source_sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+  "status": "completed"
+}

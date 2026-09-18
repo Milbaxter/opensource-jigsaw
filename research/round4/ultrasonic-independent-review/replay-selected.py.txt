@@ -1,0 +1,28 @@
+"""Independent audit of frozen source; no fitting or changing benchmark criteria."""
+import hashlib,importlib.util,json,pathlib,sys,datetime
+BASE=pathlib.Path(__file__).resolve().parent
+ROOT=BASE.parent/'round4-c'
+expected='e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02'
+assert hashlib.sha256((ROOT/'prototype.py').read_bytes()).hexdigest()==expected
+spec=importlib.util.spec_from_file_location('frozen_ultrasound',ROOT/'prototype.py')
+p=importlib.util.module_from_spec(spec);spec.loader.exec_module(p);p.frozen()
+np=p.np
+acq=p.Acquisition();checks=[]
+for j in [0,37,127]:
+ omega,kv,_,_=p.query_grid(6400.,acq.ku[j]);pick=np.linspace(0,len(omega)-1,5,dtype=int)
+ coef=p.coefficients(p.masked_spectrum(acq,6400.,j,2,p.Stage()),p.Stage())
+ o,v=omega[pick],kv[pick]
+ actual=p.nufft_eval(coef,o,v,1e-6,p.Stage())
+ # Explicit scalar-frequency summation, independently construct centered modes.
+ truth=np.array([np.sum(coef*np.exp(-1j*((np.arange(coef.shape[0])[:,None]-coef.shape[0]//2)*w*p.DT+(np.arange(coef.shape[1])[None,:]-coef.shape[1]//2)*k*p.PITCH))) for w,k in zip(o,v)])
+ checks.append({'kind':'independent_direct_sum','ku_index':j,'queries':5,'relative_l2':float(np.linalg.norm(actual-truth)/np.linalg.norm(truth))})
+for method in ['finufft','arim-linear','native-linear-2','native-cubic-2']:
+ img=p.image(acq,6400.,method,p.Stage())
+ stored=np.load(ROOT/'execution'/(method+'-images.npz'))['images'][4]
+ x,z=acq.x,acq.z
+ amplitude=np.abs(img);mask=(np.abs(x)[None,:]<=.015)&(z[:,None]>=.005)&(z[:,None]<=.030)
+ iz,ix=np.unravel_index(np.argmax(np.where(mask,amplitude,-1)),amplitude.shape)
+ checks.append({'kind':'image_replay','method':method,'relative_l2_vs_original':float(np.linalg.norm(img-stored)/np.linalg.norm(stored)),'dominant_x_m':float(x[ix]),'dominant_z_m':float(z[iz]),'distance_to_nominal_hole_m':float(np.hypot(x[ix],z[iz]-.020))})
+result={'timestamp':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source_sha256':expected,'scope':'selected control queries and one velocity, original code imported unchanged; not performance evidence','checks':checks}
+(BASE/'independent-replay.json').write_text(json.dumps(result,indent=2)+'\n')
+print(json.dumps(result,indent=2))

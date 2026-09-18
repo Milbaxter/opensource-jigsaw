@@ -1,0 +1,18 @@
+{
+  "stage_seconds": {
+    "migration_coordinates_and_weights": 0.35527603968512267,
+    "spectrum_fft_and_mask": 2.6967470984964166,
+    "canonical_inverse_fft": 0.9235652500065044,
+    "nufft_plan_and_points": 0.23738004156621173,
+    "nufft_evaluation": 9.112834017927526,
+    "physical_origin_weight_and_accumulation": 0.12828211282612756,
+    "image_inverse_fft": 0.001982000918360427
+  },
+  "preparation_seconds": {
+    "input_load_and_validation": 0.03194420799263753,
+    "transmit_fft_preparation": 0.030741750000743195
+  },
+  "peak_rss_bytes": 428605440,
+  "elapsed_seconds": 14.142609625007026,
+  "source_sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02"
+}

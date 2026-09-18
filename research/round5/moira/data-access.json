@@ -1,0 +1,60 @@
+{
+  "retrieved_utc": "2026-09-18T10:30:03.910561+00:00",
+  "records": [
+    {
+      "record": "14761243",
+      "url": "https://zenodo.org/records/14761243",
+      "title": "MOIRA-UNIMORE Bearing Dataset for Independent Cart Systems",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "metadata_sha256": "f03b1a597d26261ae3ce00ec3ea984bd3023b6892d13f0e8c64e69cb69e268c5",
+      "files": [
+        {
+          "name": "Experiment Type 5.zip",
+          "bytes": 12231339390,
+          "checksum": "md5:ce7f45abf1f98aa3875d7c67719dfdfe"
+        },
+        {
+          "name": "Experiment Type 6.zip",
+          "bytes": 27934990137,
+          "checksum": "md5:956f06e32383f65c37cabac88ab8997f"
+        }
+      ]
+    },
+    {
+      "record": "14764717",
+      "url": "https://zenodo.org/records/14764717",
+      "title": "MOIRA-UNIMORE Bearing Dataset for Independent Cart Systems",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "metadata_sha256": "ad37751a0f4dd1d1b8bc8eb6f2cebe909ba40e92cf28b0dbab8b607800e0f764",
+      "files": [
+        {
+          "name": "Experiment Type 7.zip",
+          "bytes": 28427771525,
+          "checksum": "md5:c24f5e295e8e434af5f1b4edc3f80d09"
+        }
+      ]
+    },
+    {
+      "record": "14765815",
+      "url": "https://zenodo.org/records/14765815",
+      "title": "MOIRA-UNIMORE Bearing Dataset for Independent Cart Systems",
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "metadata_sha256": "fe1ff08c3667a5ac34e4bc7b09b7cbf61406681cc98d07d0b321ebf019ab77d3",
+      "files": [
+        {
+          "name": "Experiment Type 8.zip",
+          "bytes": 28882304349,
+          "checksum": "md5:0dbd52c1ddd85ec78a73db0d15e9d26e"
+        }
+      ]
+    }
+  ],
+  "archives_downloaded": false,
+  "performance_executed": false
+}

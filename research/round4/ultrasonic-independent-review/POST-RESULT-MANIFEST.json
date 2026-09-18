@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-18T10:31:52.092224+00:00",
+  "decision": "HOLD_original_physical_gate_failed",
+  "performance_phase_executed": false,
+  "files": {
+    "work/ultrasonic-independent-review/POST-RESULT-REVIEW.md": {
+      "sha256": "1a980782d4678481f92d2a7a52afc24deb910965c675a8d66642895ade63717d",
+      "bytes": 6539
+    },
+    "work/ultrasonic-independent-review/POST-FREEZE-SOURCE-ADDENDUM.md": {
+      "sha256": "ded8e1fb54a0de32e194f2eaec7aadf590a39bc1037f65bbfa2a0bff5ab0590f",
+      "bytes": 2923
+    },
+    "work/ultrasonic-independent-review/replay-selected.py": {
+      "sha256": "3f43a6f95726002e258f671a82384427c506eb7869559c897b9edb3d00b2caea",
+      "bytes": 2218
+    },
+    "work/ultrasonic-independent-review/independent-replay.json": {
+      "sha256": "69654519f795e35b67b4654437267901f7cabdd5bb72973018068fab8f67ffbb",
+      "bytes": 1621
+    },
+    "work/round4-c/execution/controls.json": {
+      "sha256": "6286bc310d6f74792a01f55dd26b8326337e03fe76aa61298e5fcff35e055577",
+      "bytes": 31678
+    },
+    "work/round4-c/execution/precheck-summary.json": {
+      "sha256": "19756f48349282fbd92e36a9f9ec0e1a835d8f35b542508f684abc320f931329",
+      "bytes": 400483
+    },
+    "work/round4-c/execution/driver.json": {
+      "sha256": "2c2c76de9b2fe80e938c64e2663fcd22bc3c8df657b41687f71bb7acc3b7411a",
+      "bytes": 3750
+    }
+  },
+  "publication": "Publish own review/replay code/JSON and manifest; do not bundle downloaded papers, wheels, native libraries or raw MAT. Replay requires original frozen source and verified input."
+}
