@@ -1,0 +1,51 @@
+[
+  {
+    "source": "prototype.py",
+    "destination": "prototype.py",
+    "bytes": 21339,
+    "sha256": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+    "published_path": "frozen/prototype.py.txt"
+  },
+  {
+    "source": "run_frozen.py",
+    "destination": "run_frozen.py",
+    "bytes": 3758,
+    "sha256": "e7c61a428792df36c13c4b495653ddce4358a0e24bc456888ec1e40fb36bb863",
+    "published_path": "frozen/run_frozen.py.txt"
+  },
+  {
+    "source": "implementation-freeze.json",
+    "destination": "implementation-freeze.json",
+    "bytes": 1006,
+    "sha256": "b98901c401e10f2b70c93846e4aae1c17681d892775053fe2f041b4da52e0400",
+    "published_path": "implementation-freeze.json"
+  },
+  {
+    "source": "unexecuted-initial-prototype.py.txt",
+    "destination": "unexecuted-initial-prototype.py.txt",
+    "bytes": 20276,
+    "sha256": "1a34b8ec34a0bbb53a5ace19da6abcdbd0acf3811c77bb3605f4a799be1ca673",
+    "published_path": "unexecuted-initial-prototype.py.txt"
+  },
+  {
+    "source": "unexecuted-initial-freeze.json",
+    "destination": "unexecuted-initial-freeze.json",
+    "bytes": 543,
+    "sha256": "72ee7d67ae9efcf69f1912d7ce29c123f5c0fa2db23b668d21defe9a7a374955",
+    "published_path": "unexecuted-initial-freeze.json"
+  },
+  {
+    "source": "LICENSE-GPL-3.0.txt",
+    "destination": "LICENSE-GPL-3.0.txt",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "published_path": "LICENSE-GPL-3.0.txt"
+  },
+  {
+    "source": "THIRD-PARTY-NOTICES.md",
+    "destination": "THIRD-PARTY-NOTICES.md",
+    "bytes": 3430,
+    "sha256": "2bf66f367d1e6c9e4ea2ff847dd83cff14b748424dc18ffe38b83b8e9ba4ef4f",
+    "published_path": "THIRD-PARTY-NOTICES.md"
+  }
+]

@@ -1,0 +1,68 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+"""Finite driver. Every subprocess, timeout, partial result and failure is retained."""
+import hashlib,json,os,pathlib,random,subprocess,sys,time
+ROOT=pathlib.Path(__file__).resolve().parent
+OUT=ROOT/'execution';OUT.mkdir(exist_ok=True)
+PYTHON=ROOT/'.venv/bin/python'
+START=time.monotonic();records=[]
+
+def save():
+ (OUT/'driver.json').write_text(json.dumps({'elapsed_seconds':time.monotonic()-START,'records':records},indent=2)+'\n')
+
+def run(label,args,per_batch_cap=180,total_cap=750):
+ log=OUT/(label+'-console.log');t=time.monotonic();last=t;last_size=0;reason=None
+ with log.open('w') as output:
+  p=subprocess.Popen([str(PYTHON),str(ROOT/'prototype.py'),*args],cwd=ROOT,stdout=output,stderr=subprocess.STDOUT,env={**os.environ,'PYTHONUNBUFFERED':'1'})
+  while p.poll() is None:
+   now=time.monotonic()
+   content=log.read_text(errors='replace')
+   if len(content)!=last_size:
+    for line in content[last_size:].splitlines():
+     try:obj=json.loads(line)
+     except (ValueError,TypeError):continue
+     if 'repeat' in obj or 'reference_velocity' in obj:last=now
+    last_size=len(content)
+   try:
+    mem=int(subprocess.check_output(['ps','-o','rss=','-p',str(p.pid)],stderr=subprocess.DEVNULL).strip() or b'0')*1024
+   except (subprocess.CalledProcessError,ValueError):mem=0
+   if mem>2.5*1024**3:reason='memory_cap_2.5GiB'
+   elif now-last>per_batch_cap:reason='per_batch_time_cap'
+   elif now-t>total_cap:reason='per_process_time_cap'
+   if reason:
+    p.terminate()
+    try:p.wait(timeout=5)
+    except subprocess.TimeoutExpired:p.kill();p.wait()
+    break
+   time.sleep(.5)
+  rc=p.wait()
+ records.append({'label':label,'command':[str(PYTHON),str(ROOT/'prototype.py'),*args],'returncode':rc,'censored_reason':reason,'seconds':time.monotonic()-t,'console':log.name})
+ save();print(json.dumps(records[-1]),flush=True);return rc
+
+if __name__=='__main__':
+ freeze=json.loads((ROOT/'implementation-freeze.json').read_text())
+ for name,sha in freeze['files'].items():
+  if hashlib.sha256((ROOT/name).read_bytes()).hexdigest()!=sha:raise RuntimeError('Frozen source mismatch: '+name)
+ controls_rc=run('controls',['controls'],per_batch_cap=300,total_cap=360)
+ # Preserve established physical/migration diagnostic comparisons even on control failure.
+ run('reference',['reference'],per_batch_cap=180,total_cap=750)
+ for kind in ['nearest','linear']:
+  run('arim-'+kind+'-quality',['batch','--method','arim-'+kind,'--mode','quality'])
+ run('finufft-quality',['batch','--method','finufft','--mode','quality'])
+ summary_rc=run('precheck-summary',['summary'],per_batch_cap=180,total_cap=200)
+ precheck=json.loads((OUT/'summary.json').read_text()) if summary_rc==0 else {}
+ (OUT/'precheck-summary.json').write_text(json.dumps(precheck,indent=2)+'\n')
+ candidate=next((r for r in precheck.get('rows',[]) if r['method']=='finufft'),{})
+ if controls_rc!=0 or not precheck.get('arim_location_check',False) or not candidate.get('quality_pass_all',False):
+  for kind in ['linear','cubic']:
+   run('native-'+kind+'-2-quality',['batch','--method','native-'+kind+'-2','--mode','quality'])
+  save();sys.exit(2)
+ methods=['finufft']+[f'{family}-{kind}-{pad}' for family in ['matched','native'] for kind in ['linear','cubic'] for pad in [1,2,4,8]]
+ random.Random(9401).shuffle(methods)
+ (OUT/'method-order.json').write_text(json.dumps(methods,indent=2)+'\n')
+ performance_start=time.monotonic()
+ for method in methods:
+  if time.monotonic()-performance_start>=1800:
+   records.append({'label':method,'censored_reason':'overall_performance_30minute_cap','returncode':None});save();continue
+  run(method+'-timing',['batch','--method',method,'--mode','timing'])
+ run('summary',['summary'],per_batch_cap=180,total_cap=200)
+ save()

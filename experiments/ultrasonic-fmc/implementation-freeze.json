@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-18T10:27:13.704432+00:00",
+  "protocol_commit": "4fc6057fb027cee066700076c6e39ef17622a57f",
+  "protocol_sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646",
+  "files": {
+    "prototype.py": "e1f9067cb7dbdba218ea3c0b9f26facf47dc1c3516b7780c727589d34a682e02",
+    "run_frozen.py": "e7c61a428792df36c13c4b495653ddce4358a0e24bc456888ec1e40fb36bb863"
+  },
+  "pre_execution": "Source syntax parsed only; no prototype import, controls, reconstruction or performance execution before this freeze.",
+  "pre_execution_review": "Initial unexecuted source snapshot retained. Independent static review corrected phase placement to pre-interpolation, nonvacuous origin controls, native out-of-grid zero behavior and peak-connected widths. No prototype imports/controls/reconstruction/performance ran before either freeze. Driver requires numerical and candidate physical/image checks before timed performance; on failure it retains two native diagnostics and stops."
+}

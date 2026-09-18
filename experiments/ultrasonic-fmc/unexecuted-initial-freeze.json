@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-09-18T10:25:30.123894+00:00",
+  "protocol_commit": "4fc6057fb027cee066700076c6e39ef17622a57f",
+  "protocol_sha256": "39efd6e39d50c3a98ff57c2d27196b3f7175e9c8cd132ac2315b0f0a44d3a646",
+  "files": {
+    "prototype.py": "1a34b8ec34a0bbb53a5ace19da6abcdbd0acf3811c77bb3605f4a799be1ca673",
+    "run_frozen.py": "f99d6f3f0b33b47d71488d8874ff04abd3b2018d61f107af517e8b4f0b9ac6e4"
+  },
+  "pre_execution": "Source syntax parsed only; no prototype import, controls, reconstruction or performance execution before this freeze."
+}

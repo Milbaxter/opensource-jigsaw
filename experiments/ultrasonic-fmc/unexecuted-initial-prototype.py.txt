@@ -1,0 +1,353 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 opensource-jigsaw contributors.
+# This program is free software under GPL version 3 or (at your option) later.
+# It is provided WITHOUT ANY WARRANTY; see LICENSE-GPL-3.0.txt.
+# Migration formulation adapted from Sufayan Mulani's BSD-3-Clause DCWA/WA
+# reference (commit 246d97a9ff19983e0b047cd259e3ac62c6b3b88a).
+# See THIRD-PARTY-NOTICES.md for copyright, license and mathematical scope.
+"""Frozen, offline, single-specimen numerical experiment. Not inspection approval."""
+from __future__ import annotations
+import os
+for _name in ('OMP_NUM_THREADS','OPENBLAS_NUM_THREADS','MKL_NUM_THREADS','VECLIB_MAXIMUM_THREADS','NUMBA_NUM_THREADS'):
+    os.environ[_name] = '1'
+import argparse
+import contextlib
+import copy
+import hashlib
+import importlib.metadata
+import json
+import platform
+import resource
+import sys
+import time
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+START = time.perf_counter()
+import numpy as np
+from scipy import fft, ndimage, signal
+from scipy.io import loadmat
+import finufft
+import arim
+from arim.io.brain import load_expdata
+from arim.im.tfm import contact_tfm
+from arim.geometry import Points
+IMPORT_SECONDS = time.perf_counter() - START
+VELS = [6272.,6304.,6336.,6368.,6400.,6432.,6464.,6496.,6528.]
+NX,NZ,DX,DZ = 128,256,0.0003,0.000128
+DT,PITCH,NTA,NRA = 4e-8,0.0006,1024,128
+OUT = ROOT/'execution'
+
+
+def dump(path, obj):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    path.write_text(json.dumps(obj,indent=2,allow_nan=False,default=lambda v:v.item() if isinstance(v,np.generic) else str(v))+'\n')
+
+
+def rss():
+    v = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    return int(v if sys.platform=='darwin' else v*1024)
+
+
+def frozen():
+    f=ROOT/'implementation-freeze.json'
+    if not f.exists():raise RuntimeError('No implementation freeze')
+    expected=json.loads(f.read_text())['files'][Path(__file__).name]
+    actual=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    if actual!=expected:raise RuntimeError('Frozen source hash mismatch')
+    return actual
+
+
+def validate(exp, velocity=6400.):
+    if not np.isfinite(velocity) or velocity<=0:raise ValueError('Invalid velocity')
+    required={'array','tx','rx','time','time_data','num_els','ph_velocity'}
+    if not required.issubset(exp):raise ValueError('Missing acquisition metadata')
+    n=int(exp['num_els']); tx=np.asarray(exp['tx']);rx=np.asarray(exp['rx'])
+    t=np.asarray(exp['time']);y=np.asarray(exp['time_data']);a=exp['array']
+    if tx.dtype.kind not in 'ui' or rx.dtype.kind not in 'ui':raise ValueError('Noninteger pair IDs')
+    if tx.shape!=(n*n,) or rx.shape!=(n*n,) or y.shape!=(len(t),n*n):raise ValueError('Missing pairs or invalid trace dimensions')
+    if np.any(tx<1) or np.any(tx>n) or np.any(rx<1) or np.any(rx>n):raise ValueError('Pair out of range')
+    if len(set(zip(tx.tolist(),rx.tolist())))!=n*n:raise ValueError('Duplicate pair')
+    if len(t)<2 or not np.all(np.isfinite(t)) or not np.all(np.diff(t)>0) or not np.allclose(np.diff(t),np.diff(t)[0],rtol=1e-10,atol=1e-16):raise ValueError('Nonuniform time')
+    if not np.all(np.isfinite(y)):raise ValueError('Nonfinite trace')
+    if not np.isfinite(float(exp['ph_velocity'])) or float(exp['ph_velocity'])<=0:raise ValueError('Invalid metadata velocity')
+    xyz=[np.asarray(a[k],float) for k in ['el_xc','el_yc','el_zc']]
+    if any(v.shape!=(n,) or not np.all(np.isfinite(v)) for v in xyz):raise ValueError('Invalid probe coordinates')
+    if not np.allclose(np.diff(xyz[0]),np.diff(xyz[0])[0],rtol=1e-10,atol=1e-12) or not np.all(np.diff(xyz[0])>0):raise ValueError('Nonuniform pitch')
+    if not np.allclose(xyz[1],0) or not np.allclose(xyz[2],0):raise ValueError('Nonplanar probe')
+    return True
+
+
+class Stage:
+    def __init__(self):self.values={}
+    @contextlib.contextmanager
+    def time(self,name):
+        t=time.perf_counter()
+        try:yield
+        finally:self.values[name]=self.values.get(name,0.)+time.perf_counter()-t
+
+
+class Acquisition:
+    def __init__(self):
+        self.stage=Stage()
+        with self.stage.time('input_load_and_validation'):
+            p=ROOT/'fmc-input.mat'
+            if hashlib.sha256(p.read_bytes()).hexdigest()!='b244d0e800087590da0664ef97473494dc6ef38a683ec80f262af307c8c37b89':raise ValueError('Input hash')
+            self.exp=loadmat(p,simplify_cells=True)['exp_data'];validate(self.exp)
+            # Actual unmodified domain-library IO is exercised.
+            self.frame=load_expdata(str(p))
+            if self.frame.timetraces.shape!=(4096,512):raise ValueError('Unexpected Arim data dimensions')
+            if not np.allclose(self.frame.timetraces.T,self.exp['time_data']):raise ValueError('Arim/raw data disagreement')
+            self.x0=float(self.exp['array']['el_xc'][0]);self.t0=float(self.exp['time'][0])
+            if not np.isclose(np.diff(self.exp['time'])[0],DT) or not np.isclose(np.diff(self.exp['array']['el_xc'])[0],PITCH):raise ValueError('Unexpected units')
+        with self.stage.time('transmit_fft_preparation'):
+            # s[n,r,t], explicit IDs; no assumption about input column ordering.
+            raw=np.empty((512,64,64),dtype=np.float64)
+            raw[:,self.frame.rx,self.frame.tx]=self.frame.timetraces.T
+            self.txdata=fft.fft(raw,n=NRA,axis=2,workers=1)
+            del raw
+            self.ku=2*np.pi*fft.fftfreq(NRA,PITCH)
+        x=(np.arange(NX)-NX//2)*DX;z=np.arange(NZ)*DZ
+        self.x,self.z=x,z
+        X,Z=np.meshgrid(x,z)
+        self.points=Points(np.stack([X,np.zeros_like(X),Z],axis=-1))
+        self.analytic=None
+
+    def arim_image(self,c,mode,stage):
+        validate(self.exp,c)
+        if self.analytic is None:
+            with stage.time('arim_hilbert_preparation'):
+                self.analytic=arim.Frame(signal.hilbert(self.frame.timetraces,axis=-1),self.frame.time,self.frame.tx,self.frame.rx,self.frame.probe,self.frame.examination_object,metadata=self.frame.metadata)
+        with stage.time('arim_contact_tfm_including_focal_law'):
+            result=contact_tfm(self.analytic,self.points,c,interpolation=mode).res
+        return result
+
+
+def query_grid(c,ku):
+    kx=2*np.pi*fft.fftfreq(NX,DX)
+    kz=2*np.pi*fft.fftfreq(NZ,DZ)[:NZ//2]
+    X,Z=np.meshgrid(kx,kz)
+    v=X-ku
+    with np.errstate(divide='ignore',invalid='ignore',over='ignore'):
+        k=np.sqrt(Z**4+2*(ku**2+v**2)*Z**2+(ku**2-v**2)**2)/(2*Z)
+        az2=k*k-ku*ku;bz2=k*k-v*v
+        az=np.sqrt(np.maximum(az2,0));bz=np.sqrt(np.maximum(bz2,0))
+        w=k/(np.sqrt(az*bz)*(az+bz))
+    valid=(Z>0)&np.isfinite(k)&(az2>0)&(bz2>0)&(k*c<np.pi/DT)&(np.abs(v)<np.pi/PITCH)
+    w=np.nan_to_num(w,nan=0.,posinf=.007,neginf=-.007);w=np.clip(w,-.007,.007);w[~valid]=0
+    indices=np.flatnonzero(valid)
+    return (k*c).ravel()[indices],v.ravel()[indices],w.ravel()[indices],indices
+
+
+def masked_spectrum(acq,c,j,pad,stage):
+    nt=512*pad
+    with stage.time('spectrum_fft_and_mask'):
+        spec=fft.fft2(acq.txdata[:,:,j],s=(nt,NRA),workers=1)
+        omega=2*np.pi*fft.fftfreq(nt,DT)
+        kv=2*np.pi*fft.fftfreq(NRA,PITCH)
+        mask=(np.abs(omega[:,None]/c)>=np.abs(acq.ku[j]))&(np.abs(omega[:,None]/c)>=np.abs(kv[None,:]))
+        spec*=mask
+    return spec
+
+
+def coefficients(spec,stage):
+    with stage.time('canonical_inverse_fft'):
+        return np.ascontiguousarray(fft.fftshift(fft.ifft2(spec,workers=1)))
+
+
+def nufft_eval(coeff,omega,kv,eps,stage):
+    with stage.time('nufft_plan_and_points'):
+        plan=finufft.Plan(2,coeff.shape,eps=eps,isign=-1,nthreads=1,dtype='complex128')
+        plan.setpts(np.ascontiguousarray(omega*DT),np.ascontiguousarray(kv*PITCH))
+    with stage.time('nufft_evaluation'):
+        vals=plan.execute(coeff)
+    return vals
+
+
+def interp_eval(spec,omega,kv,order,stage):
+    with stage.time('interpolation_prefilter_and_evaluation'):
+        shifted=fft.fftshift(spec)
+        coords=np.stack([(omega*DT/(2*np.pi)+.5)*spec.shape[0],(kv*PITCH/(2*np.pi)+.5)*spec.shape[1]])
+        # grid-wrap enforces the explicitly declared periodic interpolant.
+        real=ndimage.map_coordinates(shifted.real,coords,order=order,mode='grid-wrap',prefilter=order>1)
+        imag=ndimage.map_coordinates(shifted.imag,coords,order=order,mode='grid-wrap',prefilter=order>1)
+    return real+1j*imag
+
+
+def oversample(coeff,factor,stage):
+    with stage.time('coefficient_oversampling_fft'):
+        if factor==1:padded=coeff
+        else:
+            pads=[((factor-1)*n//2,(factor-1)*n//2) for n in coeff.shape]
+            padded=np.pad(coeff,pads)
+        return fft.fft2(fft.ifftshift(padded),workers=1)
+
+
+def direct_eval(coeff,omega,kv):
+    n=np.arange(coeff.shape[0])-coeff.shape[0]//2
+    r=np.arange(coeff.shape[1])-coeff.shape[1]//2
+    # Independent explicit finite sum; vectorization does not use an FFT.
+    A=np.exp(-1j*np.outer(omega*DT,n));B=np.exp(-1j*np.outer(kv*PITCH,r))
+    return np.sum((A@coeff)*B,axis=1)
+
+
+def image(acq,c,method,stage):
+    validate(acq.exp,c)
+    if method.startswith('arim-'):return acq.arim_image(c,method.split('-')[1],stage)
+    field=np.zeros((NZ,NX),complex)
+    for j,ku in enumerate(acq.ku):
+        with stage.time('migration_coordinates_and_weights'):
+            omega,kv,weight,idx=query_grid(c,ku)
+        if not len(idx):continue
+        if method.startswith('native-'):
+            _,kind,p=method.split('-');spec=masked_spectrum(acq,c,j,int(p),stage)
+            vals=interp_eval(spec,omega,kv,1 if kind=='linear' else 3,stage)
+        else:
+            spec=masked_spectrum(acq,c,j,2,stage);coef=coefficients(spec,stage)
+            del spec
+            if method in ['finufft','reference']:
+                vals=nufft_eval(coef,omega,kv,1e-6 if method=='finufft' else 1e-12,stage)
+            else:
+                _,kind,p=method.split('-');over=oversample(coef,int(p),stage)
+                vals=interp_eval(over,omega,kv,1 if kind=='linear' else 3,stage)
+                del over
+            del coef
+        with stage.time('physical_origin_weight_and_accumulation'):
+            vals=vals*np.exp(-1j*(omega*acq.t0+(kv+ku)*acq.x0))*weight*(-(4*np.pi)**2)
+            field[:NZ//2].flat[idx]+=vals
+    with stage.time('image_inverse_fft'):
+        result=fft.fftshift(fft.ifft2(field,workers=1),axes=1)*acq.z[:,None]
+    return result
+
+
+def norm_error(a,b,floor=1e-30):
+    return float(np.linalg.norm(a-b)/max(float(np.linalg.norm(b)),floor))
+
+
+def controls():
+    acq=Acquisition();records=[]
+    def record(name,passed,detail=None):records.append({'name':name,'passed':bool(passed),'detail':detail})
+    rng=np.random.default_rng(9400)
+    # Preregistered real masked-polynomial reference queries, all velocities.
+    for c in VELS:
+        for j in np.linspace(0,NRA-1,8,dtype=int):
+            omega,kv,_,_=query_grid(c,acq.ku[j])
+            pick=np.sort(rng.choice(len(omega),size=min(16,len(omega)),replace=False))
+            o,v=omega[pick],kv[pick]
+            st=Stage();coef=coefficients(masked_spectrum(acq,c,j,2,st),st)
+            expected=direct_eval(coef,o,v);floor=max(float(np.sum(np.abs(coef)))*1e-12,1e-30)
+            for eps,limit in [(1e-6,1e-5),(1e-12,1e-9)]:
+                actual=nufft_eval(coef,o,v,eps,st);err=norm_error(actual,expected,floor)
+                record(f'query-{c}-{j}-{eps}',err<=limit,{'relative_l2':err,'floor':floor,'queries':len(pick)})
+    # Synthetic polynomial controls, independent of measured input.
+    for name,coef in [('zero',np.zeros((16,8),complex)),('impulse',np.pad(np.ones((1,1),complex),((9,6),(5,2))))]:
+        o=np.array([0.,.13,.91,2.])*1/DT;v=np.array([0.,-.35,.71,1.1])/PITCH
+        actual=nufft_eval(coef,o,v,1e-12,Stage());expected=direct_eval(coef,o,v)
+        record(name,norm_error(actual,expected)<=1e-9,{'error':norm_error(actual,expected)})
+        shift_t=1.37*DT;shift_x=.31*PITCH
+        phase=np.exp(-1j*(o*shift_t+v*shift_x))
+        record(name+'-translated-origins',norm_error(actual*phase,expected*phase)<=1e-9)
+    mutations={}
+    e=copy.deepcopy(acq.exp);e['tx']=e['tx'][:-1];e['rx']=e['rx'][:-1];e['time_data']=e['time_data'][:,:-1];mutations['missing-pair']=e
+    e=copy.deepcopy(acq.exp);e['tx'][1]=e['tx'][0];e['rx'][1]=e['rx'][0];mutations['duplicate-pair']=e
+    for val,label in [(np.nan,'nan'),(np.inf,'inf')]:
+        e=copy.deepcopy(acq.exp);e['time_data'][0,0]=val;mutations[label+'-data']=e
+        try:validate(acq.exp,val);record(label+'-velocity',False)
+        except ValueError:record(label+'-velocity',True)
+    e=copy.deepcopy(acq.exp);e['time'][3]+=DT*.1;mutations['nonuniform-time']=e
+    e=copy.deepcopy(acq.exp);e['array']['el_xc'][3]+=.0001;mutations['nonuniform-pitch']=e
+    e=copy.deepcopy(acq.exp);del e['array'];mutations['missing-array']=e
+    for name,e in mutations.items():
+        try:validate(e);record(name,False)
+        except ValueError:record(name,True)
+    result={'source_sha256':frozen(),'records':records,'all_passed':all(r['passed'] for r in records),'elapsed_seconds':time.perf_counter()-START,'peak_rss_bytes':rss()}
+    dump(OUT/'controls.json',result);print(json.dumps({'controls':len(records),'all_passed':result['all_passed']}),flush=True)
+    return result['all_passed']
+
+
+def batch(method,mode):
+    acq=Acquisition();series=[]
+    if mode=='reference':
+        stage=Stage();images=[]
+        for c in VELS:
+            images.append(image(acq,c,'reference',stage));print(json.dumps({'reference_velocity':c}),flush=True)
+        np.savez_compressed(OUT/'reference-images.npz',images=np.stack(images),velocities=VELS,x=acq.x,z=acq.z)
+        dump(OUT/'reference-result.json',{'stage_seconds':stage.values,'preparation_seconds':acq.stage.values,'peak_rss_bytes':rss(),'elapsed_seconds':time.perf_counter()-START,'source_sha256':frozen()});return
+    repeats=1 if mode=='quality' else 4
+    for repeat in range(repeats):
+        stage=Stage();t=time.perf_counter();imgs=[]
+        for c in VELS:imgs.append(image(acq,c,method,stage))
+        elapsed=time.perf_counter()-t
+        series.append({'repeat':repeat,'warmup':mode=='timing' and repeat==0,'batch_seconds':elapsed,'stage_seconds':stage.values,'peak_rss_bytes':rss(),'over_120_seconds':elapsed>120})
+        if repeat==0:np.savez_compressed(OUT/(method+'-images.npz'),images=np.stack(imgs),velocities=VELS,x=acq.x,z=acq.z)
+        dump(OUT/(method+'-'+mode+'-result.json'),{'method':method,'mode':mode,'series':series,'preparation_seconds':acq.stage.values,'import_seconds':IMPORT_SECONDS,'process_elapsed_seconds':time.perf_counter()-START,'peak_rss_bytes':rss(),'source_sha256':frozen(),'status':'completed' if repeat==repeats-1 else 'running'})
+        print(json.dumps({'method':method,'repeat':repeat,'batch_seconds':elapsed,'peak_rss_bytes':rss()}),flush=True)
+        if elapsed>120:raise TimeoutError('Per-batch resource target exceeded; retained result is censored')
+
+
+def profiles(img,x,z):
+    a=np.abs(img);evalmask=(np.abs(x)[None,:]<=.015)&(z[:,None]>=.005)&(z[:,None]<=.030)
+    target=(np.abs(x)[None,:]<=.002)&(z[:,None]>=.018)&(z[:,None]<=.022)
+    loc=np.unravel_index(np.argmax(np.where(evalmask,a,-np.inf)),a.shape)
+    loc_t=np.unravel_index(np.argmax(np.where(target,a,-np.inf)),a.shape)
+    peak=float(a[loc_t]);r,k=loc_t
+    def width(v,spacing):
+        inds=np.flatnonzero(v>=peak*.5)
+        return float((inds[-1]-inds[0]+1)*spacing) if len(inds) else None
+    return {'dominant_x':float(x[loc[1]]),'dominant_z':float(z[loc[0]]),'target_x':float(x[k]),'target_z':float(z[r]),'target_peak':peak,'lateral_fwhm':width(a[r],DX),'axial_fwhm':width(a[:,k],DZ),'background_max_ratio':float(np.max(a[evalmask&~target])/max(peak,1e-30)),'lateral_profile':a[r].tolist(),'axial_profile':a[:,k].tolist()}
+
+
+def summarize():
+    ref=np.load(OUT/'reference-images.npz');rs=ref['images'];x,z=ref['x'],ref['z']
+    X,Z=np.meshgrid(x,z);mask=(abs(X)<=.015)&(Z>=.005)&(Z<=.030);target=(abs(X)<=.002)&(Z>=.018)&(Z<=.022)
+    rows=[]
+    for path in sorted(OUT.glob('*-images.npz')):
+        if path.name=='reference-images.npz':continue
+        name=path.name[:-11];imgs=np.load(path)['images'];entries=[]
+        for idx,(a,b) in enumerate(zip(imgs,rs)):
+            pa,pb=profiles(a,x,z),profiles(b,x,z)
+            amp_error=abs(pa['target_peak']-pb['target_peak'])/max(pb['target_peak'],1e-30)
+            displacement=np.hypot((pa['target_x']-pb['target_x'])/DX,(pa['target_z']-pb['target_z'])/DZ)
+            aa=np.abs(a);bb=np.abs(b)
+            maxima=(aa==ndimage.maximum_filter(aa,size=3))&(aa>=pa['target_peak']*.5)&mask&~target
+            ref_near=ndimage.maximum_filter(bb,size=3)>=pb['target_peak']*.5
+            new_count=int(np.sum(maxima&~ref_near))
+            err=norm_error(a[mask],b[mask])
+            entries.append({'velocity':VELS[idx],'complex_image_relative_l2':err,'peak_amplitude_relative_error':amp_error,'peak_displacement_grid_units':float(displacement),'new_strong_offtarget_maxima':new_count,'profile':pa,'quality_pass':err<=.01 and amp_error<=.01 and displacement<=1 and new_count==0})
+        timing=OUT/(name+'-timing-result.json');data=json.loads(timing.read_text()) if timing.exists() else None
+        timed=[r['batch_seconds'] for r in data['series'] if not r['warmup']] if data else []
+        rows.append({'method':name,'quality_pass_all':all(e['quality_pass'] for e in entries),'conditions':entries,'median_warm_batch_seconds':float(np.median(timed)) if len(timed)==3 else None,'peak_rss_bytes':data['peak_rss_bytes'] if data else None})
+    controls=json.loads((OUT/'controls.json').read_text())
+    candidate=next((r for r in rows if r['method']=='finufft'),None)
+    baselines=[r for r in rows if r['method'].startswith(('matched-','native-')) and r['quality_pass_all'] and r['median_warm_batch_seconds'] is not None]
+    best=min(baselines,key=lambda r:r['median_warm_batch_seconds']) if baselines else None
+    arims=[r for r in rows if r['method'].startswith('arim-')]
+    location=False
+    if candidate and arims:
+        cp=candidate['conditions'][4]['profile'];ap=next((r for r in arims if r['method']=='arim-linear'),arims[0])['conditions'][4]['profile']
+        location=np.hypot(cp['dominant_x'],cp['dominant_z']-.020)<=.0005 and np.hypot(cp['dominant_x']-ap['dominant_x'],cp['dominant_z']-ap['dominant_z'])<=.0005
+    win=False;comparison=None
+    if best and candidate and candidate['median_warm_batch_seconds'] is not None:
+        bt,ct=best['median_warm_batch_seconds'],candidate['median_warm_batch_seconds'];bm,cm=best['peak_rss_bytes'],candidate['peak_rss_bytes']
+        comparison={'baseline':best['method'],'speed_ratio':bt/ct,'absolute_batch_seconds_saved':bt-ct,'memory_ratio':cm/bm,'memory_bytes_saved':bm-cm}
+        win=(bt/ct>=2 and bt-ct>=1 and cm<=1.1*bm) or (cm<=.5*bm and bm-cm>=128*1024**2 and ct<=1.1*bt)
+    passed=bool(controls['all_passed'] and candidate and candidate['quality_pass_all'] and location and best and win)
+    dump(OUT/'summary.json',{'protocol':'4fc6057fb027cee066700076c6e39ef17622a57f','source_sha256':frozen(),'controls_pass':controls['all_passed'],'arim_location_check':bool(location),'rows':rows,'comparison':comparison,'technical_screen_pass':passed,'claim':'One measured homogeneous-planar specimen; no buyer/launch/qualification pass.'})
+    print(json.dumps({'technical_screen_pass':passed,'comparison':comparison,'arim_location_check':bool(location),'passing_baselines':len(baselines)}),flush=True)
+
+
+def main():
+    source=frozen();OUT.mkdir(exist_ok=True)
+    p=argparse.ArgumentParser();p.add_argument('action',choices=['controls','batch','reference','summary']);p.add_argument('--method',default='finufft');p.add_argument('--mode',choices=['quality','timing'],default='quality');a=p.parse_args()
+    try:
+        if a.action=='controls':ok=controls();sys.exit(0 if ok else 2)
+        elif a.action=='batch':batch(a.method,a.mode)
+        elif a.action=='reference':batch('reference','reference')
+        else:summarize()
+    except Exception as e:
+        import traceback
+        label=a.action+'-'+a.method+'-'+a.mode
+        dump(OUT/(label+'-error.json'),{'error_type':type(e).__name__,'error':str(e),'traceback':traceback.format_exc(),'elapsed_seconds':time.perf_counter()-START,'peak_rss_bytes':rss(),'source_sha256':source})
+        raise
+
+if __name__=='__main__':main()
