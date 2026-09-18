@@ -1,0 +1,396 @@
+{
+  "rubric_version": "v2",
+  "candidate_id": "C07",
+  "reviewer": "Independent Astra reviewer B; did not propose or implement C07; separately implemented geometry checker and directly reran py3dbp",
+  "idea": {
+    "title": "Constructive, fee-prioritized cartonization regression witnesses",
+    "thesis": "An offline assurance service could discover packing regressions around catalog and engine changes, certify a cheaper feasible cuboid placement, and attach the affected carrier fee component for engineering triage.",
+    "components": [
+      {
+        "repository": "enzoruiz/3dbinpacking",
+        "role": "Unmodified heuristic packing engine under test, py3dbp 1.1.2",
+        "necessity": "Its actual packing decisions and returned placements supply the behavior to test; no seeded fake regression substitutes for execution."
+      },
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "role": "Structured paired-input generation and bounded shrinking, 6.168.0",
+        "necessity": "Generates and reduces reproducible counterexamples. It is useful but not uniquely necessary: the random baseline also discovers witnesses, and no search-speed advantage was shown."
+      }
+    ],
+    "buyer": "Head of shipping systems engineering or WMS integration QA; fulfillment operations co-owns the cost impact.",
+    "painful_workflow": "Regression testing cartonization after item-master, packing-rule and engine changes; detecting physically valid but needlessly expensive carton choices before release.",
+    "novel_mechanism": "Combine paired smaller-item tests with independently checked inherited placements, then attach a scoped carrier-charge discontinuity. A validity check alone accepts the expensive placement. This is practical composition, not novel metamorphic-testing research.",
+    "business_model": "Proposed offline audit, with a $500 paid repeat audit tested explicitly; no sale, accepted price or recurring revenue is observed.",
+    "integration_plan": "Translate consented deidentified order/catalog inputs to a versioned engine adapter, generate transformations, independently verify geometry, evaluate authorized carrier rules, and export replay fixtures for qualified human review. Only the public py3dbp bridge is implemented.",
+    "cheapest_falsification": "A capped three-team offline comparison against current QA: reject if no consequential missed regression is confirmed, access fails, or no team accepts a paid repeat offer."
+  },
+  "scores": {
+    "novel_synergy": 7,
+    "buyer_pain": 8,
+    "willingness_to_pay": 8,
+    "feasibility": 9,
+    "defensibility": 5,
+    "distribution": 7,
+    "evidence": 9
+  },
+  "score_reasons": {
+    "novel_synergy": "The executed bridge produces useful constructive, fee-linked counterexamples absent from checking a returned packing for validity alone, including both py3dbp sorting modes. That clears the narrow floor. Metamorphic testing already has bin-packing prior art; the standard-library random arm found two witnesses, and Hypothesis retained item counts while reducing serialized cases by only 1-3 bytes. No broader superiority is established.",
+    "buyer_pain": "Kodaris documents a concrete cartonization defect with excessive box counts and explicit regression checks. Carrier dimensions have real price consequences, and WMS testing suppliers describe the recurring workflow. This supports a named engineering/operations owner, while incidence of this precise monotonicity failure remains unknown.",
+    "willingness_to_pay": "Paccurate posts a $249/month cartonization offer and paid simulation, and Cycle Labs sells WMS regression testing. These establish a plausible paid category without pretending anyone has bought this entrant. CartonPilot free auditing and incumbent simulation constrain a separate audit price.",
+    "feasibility": "Five real synthetic counterexamples replay with exact fits, 48 controls pass, and this reviewer separately implemented interval geometry checks without importing the prototype. Essential integration is demonstrated. Production-engine adapters, physical packing constraints and negotiated complete-rate evaluation remain outside the boundary.",
+    "defensibility": "Below the frozen floor. The implementation is readily copied; prior art already covers packing metamorphic checks, and incumbents have cost simulation, generated WMS test data and fixture validation. The proposed permissioned regression corpus has neither secured access nor evidence that cross-client reuse is permitted or uniquely useful. Maintaining public tariffs and adapters is plausible service work but, on present evidence, does not establish durable value beyond ordinary integration labor.",
+    "distribution": "Actual Paccurate partner and Deposco integration pages identify a narrow recruitable population; public business inquiry routes and engineering/QA roles are concrete. No relationship, response rate or approved outreach is claimed. These are existing channels, but they also direct prospects to established suppliers.",
+    "evidence": "The packet preserves predeclared criteria, unsuccessful seeds, raw traces, shrinking censoring, exact versions, controls, replays, adverse prior art and the failed tariff-download correction. This reviewer independently checked primary pricing/defect/competitor pages, exact-package rights and the official tariff text, and reran all witnesses with a second geometry implementation. Synthetic relevance and lack of production incidence are explicit limitations."
+  },
+  "confidence": 0.76,
+  "confidence_basis": "The technical evidence and established paid workflow make the tightly capped experiment informative; this is not a commercial-success probability. However, the frozen score and durability floor still prevent a validation-ready recommendation. Confidence does not override those criteria.",
+  "recommendation": "watch",
+  "gates": {
+    "problem_and_paid_category": {
+      "passed": true,
+      "reasoning": "Pass for the workflow/category, not entrant demand: a primary software release records a real cartonization defect and current Paccurate pricing establishes an offered paid category; Cycle Labs independently describes commercial WMS regression QA.",
+      "references": [
+        "https://www.kodaris.com/content/releases/kor-154-release",
+        "https://paccurate.io/pricing",
+        "https://cyclelabs.io/blog/off-the-shelf-testing-for-complex-wms-landscapes/"
+      ]
+    },
+    "comparative_mechanism": {
+      "passed": true,
+      "reasoning": "Pass only for the declared synthetic capability. On the same retained L/S inputs both engine ordering modes miss S in the cheap carton while independent inherited geometry certifies it. Ordinary validity checking cannot flag that avoidable fee component. Random search also succeeds; its speed is better in this run, distributions differ, and neither Hypothesis superiority nor modern-commercial-engine superiority is claimed. Strong commercial alternatives inspected include Paccurate, Cycle Labs, CartonPilot and Sendflex. A buyer-workflow comparison remains the proposed next experiment.",
+      "references": [
+        "experiments/carton-regression/execution/summary.json",
+        "experiments/carton-regression/execution/witness-H-7009.json",
+        "https://cartonpilot.com/cartonization-api",
+        "https://www.sendflex.com/resources/articles/parcel-simulators-proving-intelligent-cartonization-roi"
+      ]
+    },
+    "executed_bridge": {
+      "passed": true,
+      "reasoning": "Pass: frozen original code, installed versions and full traces show Hypothesis-generated paired inputs consumed by actual py3dbp, placements consumed by independent geometry validation, and carton dimensions consumed by original scoped fee evaluation. Five fixtures replayed. This reviewer separately reran direct engine calls and a distinct interval checker. All inputs are synthetic rigid cuboids, with no physical packing or observed savings claim.",
+      "references": [
+        "experiments/carton-regression/prototype-original.py.txt",
+        "experiments/carton-regression/execution-provenance.json",
+        "experiments/carton-regression/requirements-executed.txt",
+        "experiments/carton-regression/parent-replay.json",
+        "experiments/carton-regression/independent-verification.json"
+      ]
+    },
+    "failure_and_baseline_checks": {
+      "passed": true,
+      "reasoning": "Pass under the original finite protocol: 48 boundary/invalid-geometry controls pass; all 20 search seeds and failed cases remain; five fixtures across three families replay. Hypothesis shrinking was capped for all three discoveries, not finished or minimal. Random found two witnesses. The required locally fetched tariff PDF hash was not obtained: an HTML response was misidentified and corrected transparently. Independent official-PDF text inspection supports the tariff constants, so the deviation does not erase the geometry/result comparison.",
+      "references": [
+        "experiments/carton-regression/PREREGISTRATION.md",
+        "experiments/carton-regression/execution/controls.json",
+        "experiments/carton-regression/execution/summary.json",
+        "experiments/carton-regression/execution-provenance.json",
+        "experiments/carton-regression/PARENT-TARIFF-CHECK.md"
+      ]
+    },
+    "rights_and_access": {
+      "passed": true,
+      "reasoning": "Pass for offline consent-based validation: exact py3dbp release metadata declares MIT, repository notice supplies its terms; Hypothesis 6.168.0 ships MPL-2.0 and sortedcontainers 2.4.0 Apache-2.0. Use unmodified installed dependencies and preserve notices/source obligations when distributing. Synthetic fixtures are original; link to tariff facts without republishing the carrier PDF. Real inputs are realistically contractable from integration teams using documented order/catalog interfaces, but no access is secured: obtaining authorized deidentified exports is a first-stage kill criterion and customer data cannot be pooled without separate permission.",
+      "references": [
+        "experiments/carton-regression/c07-package-pins.json",
+        "experiments/carton-regression/shortlist-license-evidence.json",
+        "https://pypi.org/project/py3dbp/1.1.2/",
+        "https://pypi.org/project/hypothesis/6.168.0/",
+        "https://docs.paccurate.io/resource-types",
+        "https://paccurate.io/partners/"
+      ]
+    },
+    "bounded_safe_use": {
+      "passed": true,
+      "reasoning": "Pass: purely offline fixture review, no production rule changes, shipment decisions, carrier commitments or autonomous release authority. Rigid cuboid feasibility is not physical packing safety; fragile/rotation-constrained items must be excluded or separately modeled. No unlicensed weights or external private data enter the public demonstration.",
+      "references": [
+        "experiments/carton-regression/PREREGISTRATION.md",
+        "experiments/carton-regression/RESULTS.md"
+      ]
+    },
+    "economic_and_acquisition_experiment": {
+      "passed": true,
+      "reasoning": "Pass as a specified experiment, not an approved purchase/outreach or business pass: three consenting teams, 21 days, 24 total engineering hours at $100/hour plus $300 cash ($2700 fully loaded cap), 100-1000 deidentified orders/team, current team QA baseline, access/incidence/time/paid-repeat targets and explicit kills. Recruitment and integration consume that same capped labor budget. Unknown conversion and retention remain named hypotheses; a three-week audit cannot establish annual retention.",
+      "references": [
+        "experiments/carton-regression/PREREGISTRATION.md",
+        "https://paccurate.io/partners/",
+        "https://deposco.com/platform/software-integrations/paccurate/"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://www.kodaris.com/content/releases/kor-154-release",
+      "title": "Kodaris January 22 2026 release, KOD-29391",
+      "kind": "demand",
+      "claim": "Cartonization regressions are an actual software workflow.",
+      "finding": "A documented UPS dimensional-weight/cartonization issue includes checks for roughly 5-7 cartons rather than 25 on a 50-item order. This is not proof the candidate would discover that particular defect.",
+      "supports": true
+    },
+    {
+      "url": "https://paccurate.io/pricing",
+      "title": "Paccurate current pricing",
+      "kind": "pricing",
+      "claim": "A paid cartonization and analysis category exists.",
+      "finding": "Posted startup offer is $249/month for 5000 shipments; enterprise includes advanced analyses. Posted offer does not prove paid adoption of this entrant.",
+      "supports": true
+    },
+    {
+      "url": "https://cyclelabs.io/blog/off-the-shelf-testing-for-complex-wms-landscapes/",
+      "title": "Cycle Labs WMS regression testing",
+      "kind": "demand",
+      "claim": "WMS configuration/regression QA is a recurring commercial workflow.",
+      "finding": "A supplier discusses tests for complex custom WMS rules. It is both category evidence and an incumbent, not an independent buyer testimonial.",
+      "supports": true
+    },
+    {
+      "url": "https://cyclelabs.io/blog/design-wms-test-data-to-expose-hidden-risks/",
+      "title": "Cycle Labs generated WMS test data",
+      "kind": "competitor",
+      "claim": "Generating adversarial or reusable WMS test inputs alone is not differentiated.",
+      "finding": "CycleData supports reusable generated test-data workflows; the proposed entrant must demonstrate a narrower advantage.",
+      "supports": false
+    },
+    {
+      "url": "https://cartonpilot.com/cartonization-api",
+      "title": "CartonPilot cartonization API and free audit",
+      "kind": "competitor",
+      "claim": "Generic carton audits face free alternatives.",
+      "finding": "Vendor offers a free audit and cost/DIM-aware placement API including batch operation. Its marketing savings and algorithm count are not independently validated here.",
+      "supports": false
+    },
+    {
+      "url": "https://www.sendflex.com/resources/articles/parcel-simulators-proving-intelligent-cartonization-roi",
+      "title": "Sendflex parcel simulation",
+      "kind": "competitor",
+      "claim": "Historical-order what-if carton/rate simulation already exists.",
+      "finding": "Vendor describes evaluating packing rules, carton mixes and carrier rate effects on historical orders. No candidate head-to-head was executed.",
+      "supports": false
+    },
+    {
+      "url": "https://packvium.com/",
+      "title": "Packvium independent packing validation",
+      "kind": "competitor",
+      "claim": "Exact geometry validation and deterministic regression fixtures are prior capabilities.",
+      "finding": "Documentation advertises independently recomputed objectives, integer geometry and fixture comparisons; adoption and performance are not inferred from documentation.",
+      "supports": false
+    },
+    {
+      "url": "https://mice.cs.columbia.edu/getTechreport.php?format=pdf&techreportID=1550",
+      "title": "Murphy and Kaiser metamorphic runtime checking, GAFFitter",
+      "kind": "competitor",
+      "claim": "Metamorphic testing applied to bin packing is prior research.",
+      "finding": "Prior bin-packing checks rule out a broad research-novelty claim. The proposed differentiator is a narrow constructive fee-linked assurance artifact.",
+      "supports": false
+    },
+    {
+      "url": "https://www.fedex.com/content/dam/fedex/us-united-states/services/Service_Guide_2026.pdf",
+      "title": "FedEx 2026 Service Guide, September 11 update",
+      "kind": "technical",
+      "claim": "The synthetic carton transitions cross an actual published fee rule.",
+      "finding": "Official PDF text independently inspected: p127 dimension thresholds and Zone2 $29.50; p135 divisor139 and upward inch rounding. Only a scoped fee component is modeled. Failed direct HTML retrieval is disclosed, not a PDF checksum.",
+      "supports": true
+    },
+    {
+      "url": "https://github.com/enzoruiz/3dbinpacking",
+      "title": "py3dbp packing engine",
+      "kind": "technical",
+      "claim": "An independently useful real packing component is tested.",
+      "finding": "Pinned unmodified 1.1.2 is an old public heuristic engine; its two sorting modes and placement outputs are actually exercised. This target cannot establish modern production incidence.",
+      "supports": true
+    },
+    {
+      "url": "https://pypi.org/project/py3dbp/1.1.2/",
+      "title": "Exact py3dbp 1.1.2 release metadata",
+      "kind": "license",
+      "claim": "The executed packing dependency declares MIT.",
+      "finding": "Exact sdist metadata/setup classifier declares MIT. The sdist omits a LICENSE file; preserve repository copyright/notice if redistributing source. Offline installation avoids claiming original ownership.",
+      "supports": true
+    },
+    {
+      "url": "https://pypi.org/project/hypothesis/6.168.0/",
+      "title": "Exact Hypothesis 6.168.0 release",
+      "kind": "license",
+      "claim": "Executed generator has compatible documented rights.",
+      "finding": "Installed release includes MPL-2.0 license, independently hashed. Retain covered-file notices and applicable source availability obligations if distributing modifications.",
+      "supports": true
+    },
+    {
+      "url": "https://paccurate.io/partners/",
+      "title": "Paccurate partner directory",
+      "kind": "demand",
+      "claim": "A concrete population for recruitment exists.",
+      "finding": "Published WMS/automation/shipping partners and public inquiry routes identify relevant integrator firms. No response, relationship or consent is implied.",
+      "supports": true
+    }
+  ],
+  "rights": [
+    {
+      "repository": "enzoruiz/3dbinpacking",
+      "version": "py3dbp 1.1.2; sdist SHA256 d8c92c120eecfbee600a4dfd8b0a42d63459c97de67a26ff8ad39529a5125e07",
+      "license": "MIT",
+      "source": "https://pypi.org/project/py3dbp/1.1.2/",
+      "obligations": "Exact source distribution declares MIT in setup.py/PKG-INFO but omits LICENSE. Repository license at https://github.com/enzoruiz/3dbinpacking/blob/master/LICENSE supplies notice. Retain copyright/license when redistributing code; deliver harness with dependency installation rather than silently bundling omitted notices."
+    },
+    {
+      "repository": "HypothesisWorks/hypothesis",
+      "version": "6.168.0; executed wheel SHA256 9ba679f183c67adcb6f4ad93694beafb6da99fe691757f4e57b04ae77e581ba8",
+      "license": "MPL-2.0",
+      "source": "https://pypi.org/project/hypothesis/6.168.0/",
+      "obligations": "Unmodified installed dependency. Preserve notices and satisfy MPL covered-file source obligations on distribution, especially modifications. Its sortedcontainers 2.4.0 dependency is Apache-2.0; retain applicable license/notices."
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "protocol",
+      "path": "experiments/carton-regression/PREREGISTRATION.md",
+      "sha256": "27e0b4ffc1be41c0b378e91c524993d170c6010c9b92676e91c7416299578eae"
+    },
+    {
+      "role": "implementation",
+      "path": "experiments/carton-regression/prototype-original.py.txt",
+      "sha256": "aefd721b10c73ad1907b52f27c6a6edd01feb798c050247f1ba0a39707ad9388"
+    },
+    {
+      "role": "results",
+      "path": "experiments/carton-regression/execution/summary.json",
+      "sha256": "94d4c8306386fb9853c15fee3a275562468a1a6f1cb4d995276b636b3729bc93"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/RESULTS.md",
+      "sha256": "d415cabd735bd24101fb4c1a82b8fecf1045d99cd642770701a91f57b5e4055e"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/controls.json",
+      "sha256": "2450851afe4e47339a5b613e8cbbd4dbe07fd63ae5177c06eddbeb8d7e981914"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution-provenance.json",
+      "sha256": "ef470b03d63c9cbaaa6bcb7b41159844d6fe71cad0afa2bf678af5d89976e71f"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/parent-replay.json",
+      "sha256": "b446222ff4a7de674e9e7aa2130d62424f52bc8d8c2fd9afa58a3a767ef42e88"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/PARENT-TARIFF-CHECK.md",
+      "sha256": "24384026929b8364663ae542c8d2f37c64dae73285f581a7f84952343944fb24"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/requirements-executed.txt",
+      "sha256": "7af046cb5a9d64d7b8f1a6fb8ee2dffdcb3d54c266f3ab9c9fc66d056959d886"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/c07-package-pins.json",
+      "sha256": "e22ffb7ba88314ce88130938e54a2bc8cd2b7f2ec76fe1748cd5db9603ece511"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/shortlist-license-evidence.json",
+      "sha256": "50972d87d3c4b875321a1962c82d018d07441deb9c1ba5b15afffdd8cf1ae2e9"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/independent-verify-original.py.txt",
+      "sha256": "7e934d1642dc784a109ca6801e4c38874c6df07d2b1b6b0c4f8d2e53931f3ca1"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/independent-verification.json",
+      "sha256": "52bf6f9e47144d45d573dd27566af7c63dea31c073f013c7159a4b33e7f0cc6f"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7001-replay.json",
+      "sha256": "36895938ebb9c338d26f60300fb23d917cc8bae78137b084f8753fd441f472b6"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7001.json",
+      "sha256": "720dfd8f511def21fc5de473056c6524838358bdd87ae20398a9b2eab8c42148"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7005-replay.json",
+      "sha256": "eb0737404f739d87bb2f5020db090b26490c00eaf3b7d9ec1904e8c874292dca"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7005.json",
+      "sha256": "1e76754f95789f2a5ba3566954269b04bf56d1714703e903737624b7619169aa"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7009-replay.json",
+      "sha256": "cf5650280eb93b9a5655cd21199dbab0f7dea3deb0403fb0eccb5ae14a51cefd"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-H-7009.json",
+      "sha256": "65fdd535a72dad275f0e6b3b795ce9d333298fdfc6d0ff9494e72c4f2bc4ef52"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-R-7001-replay.json",
+      "sha256": "cf851107951eaed06eb681a25b921cdf35ac48fc04cd1493e8c6daf03eeee509"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-R-7001.json",
+      "sha256": "e161b161e508b620f6a3955ba3134c9be6fb2f935bc486fd9b63557999aac918"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-R-7005-replay.json",
+      "sha256": "ee7ae641fa3a2585fde2cc68041bb9afcff4674259c743a43c0c90be2d028a9d"
+    },
+    {
+      "role": "other",
+      "path": "experiments/carton-regression/execution/witness-R-7005.json",
+      "sha256": "f2f9f084e67ead64e487e7d2aa53f01890d4ed3f9da01a2c7e0f7f9c702fa9d0"
+    }
+  ],
+  "unresolved_blockers": [],
+  "remaining_hypotheses": [
+    "Modern production engines and real catalogs exhibit a consequential failure this service catches beyond existing rule-aware QA.",
+    "At least two teams can authorize the required order/catalog/contract exports within the stated time and integration cap.",
+    "A $500 repeat audit has incremental value against incumbent QA, free carton audits and a simple metamorphic script.",
+    "A legitimate cross-client corpus or specialized integration knowledge could provide durable value; access and reuse permissions are presently absent.",
+    "Saved engineering labor and confirmed negotiated-charge impact cover acquisition, onboarding and support cost; no invoice ROI is observed.",
+    "A paid repeat offer is a short-term signal only; retention and scalable service margins remain untested."
+  ],
+  "experiment": {
+    "owner": "Project owner acting as offline technical-audit lead; recruit and handle data only if separately authorized. No external contact was performed.",
+    "buyer": "Shipping systems engineering or WMS/cartonization integration QA lead, with fulfillment operations as budget co-owner.",
+    "recruitment_channel": "Three consenting firms selected from actual WMS/shipping partner and service directories; contact public business inquiry routes only when authorized. Existing relationships are not claimed.",
+    "sample_size": 3,
+    "max_days": 21,
+    "max_engineering_hours": 24.0,
+    "max_cash_usd": 300.0,
+    "baseline": "Each participating team current rule-aware QA workflow on the same 100-1000 deidentified orders and actual catalog/authorized carrier rules. Total engineering labor including recruitment/integration is capped at 24 hours valued at $100/hour, plus $300 cash: $2700 fully loaded.",
+    "success_metrics": [
+      "At least two teams provide complete authorized datasets within the cap.",
+      "At least one independently confirmed consequential regression was missed by the current workflow.",
+      "At least two engineering hours saved per audit after including review/integration effort.",
+      "At least one explicit willingness to purchase a $500 repeat audit; report commitment versus actual payment separately."
+    ],
+    "kill_metrics": [
+      "Kill if authorized complete inputs cannot be obtained.",
+      "Kill if no consequential regression is confirmed beyond the team baseline.",
+      "Kill if integration exceeds eight engineering hours per team or total labor/cash/time caps are exhausted.",
+      "Kill if no team accepts the paid repeat offer."
+    ],
+    "limitations": [
+      "This review is watch, not authorization or recommendation to proceed under the frozen v2 gate.",
+      "Rigid-cuboid certification and scoped charge components do not establish safe physical packing, total invoice savings or avoided damages.",
+      "No modern proprietary engine comparison, paying customer, secured dataset, sustained defect incidence or retention is established.",
+      "Three weeks cannot validate annual retention or long-run scalable margins."
+    ]
+  }
+}

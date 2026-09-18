@@ -1,0 +1,108 @@
+"""Second implementation of geometry validation plus direct engine rerun; no prototype imports."""
+
+import hashlib
+import importlib.metadata
+import itertools
+import json
+import platform
+from decimal import Decimal
+from pathlib import Path
+
+from py3dbp import Bin, Item, Packer
+
+p = Path(__file__).resolve().parent
+src = p / "execution"
+cartons = {
+    "A": ((48, 12, 12), (49, 12, 12)),
+    "B": ((30, 30, 7), (31, 31, 7)),
+    "C": ((38, 18, 15), (39, 18, 15)),
+    "D": ((47, 16, 13), (48, 16, 13)),
+}
+orientations = {0: (0, 1, 2), 1: (1, 0, 2), 2: (1, 2, 0), 3: (2, 1, 0), 4: (2, 0, 1), 5: (0, 2, 1)}
+
+
+def check(items, outer, placements):
+    assert sorted(int(x["id"]) for x in placements) == list(range(len(items)))
+    intervals = []
+    for x in placements:
+        d = items[int(x["id"])]
+        assert list(d) == x["dimensions_ticks"]
+        q = [d[i] for i in orientations[x["rotation"]]]
+        assert all(type(v) is int and v > 0 for v in q)
+        assert all(type(v) is int and v >= 0 for v in x["position_ticks"])
+        segment = [(a, a + w) for a, w in zip(x["position_ticks"], q)]
+        assert all(end <= size * 4 - 1 for (_, end), size in zip(segment, outer))
+        intervals.append(segment)
+    for first, second in itertools.combinations(intervals, 2):
+        overlap = [min(a[1], b[1]) - max(a[0], b[0]) for a, b in zip(first, second)]
+        assert not all(x > 0 for x in overlap)
+    return True
+
+
+out = []
+for f in sorted(src.glob("witness-*.json")):
+    if f.stem.endswith("-replay"):
+        continue
+    x = json.loads(f.read_text())
+    family, largeitems, index, axis, delta = x["case"]
+    smallitems = [list(d) for d in largeitems]
+    smallitems[index][axis] -= min(delta, smallitems[index][axis] - 1)
+    check(smallitems, cartons[family][0], x["result"]["inherited_cheap_placements"])
+    fit = {}
+    for label, items in [("L", largeitems), ("S", smallitems)]:
+        for size, outer in zip(["cheap", "large"], cartons[family]):
+            flags = []
+            for mode in [False, True]:
+                packer = Packer()
+                packer.add_bin(Bin("c", *[Decimal(d) - Decimal(".25") for d in outer], 100))
+                for i, d in enumerate(items):
+                    packer.add_item(Item(str(i), *[Decimal(a) / 4 for a in d], Decimal(".5")))
+                packer.pack(bigger_first=mode, distribute_items=False, number_of_decimals=3)
+                b = packer.bins[0]
+                full = len(b.items) == len(items) and not b.unfitted_items
+                if full:
+                    placements = []
+                    for item in b.items:
+                        coords = [Decimal(str(a)) * 4 for a in item.position]
+                        assert all(a == a.to_integral_value() for a in coords)
+                        placements.append(
+                            {
+                                "id": item.name,
+                                "dimensions_ticks": items[int(item.name)],
+                                "rotation": item.rotation_type,
+                                "position_ticks": [int(a) for a in coords],
+                            }
+                        )
+                    check(items, outer, placements)
+                flags.append(full)
+            fit[label + "_" + size] = flags
+    assert fit == {k: [a["full_fit"] for a in v] for k, v in x["result"]["runs"].items()}
+    assert any(fit["L_cheap"]) and not any(fit["S_cheap"]) and any(fit["S_large"])
+    out.append(
+        {
+            "file": f.name,
+            "sha256": hashlib.sha256(f.read_bytes()).hexdigest(),
+            "inherited_geometry_valid_second_checker": True,
+            "fresh_engine_fits_match": True,
+            "fits": fit,
+            "size_original": x["size_original"],
+            "size_selected": x["size_selected"],
+        }
+    )
+(p / "independent-verification-rerun.json").write_text(
+    json.dumps(
+        {
+            "checker_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+            "no_prototype_import": True,
+            "versions": {k: importlib.metadata.version(k) for k in ["py3dbp", "hypothesis"]},
+            "python": platform.python_version(),
+            "witnesses": out,
+        },
+        indent=2,
+    )
+)
+print(
+    "Verified",
+    len(out),
+    "witnesses: fresh engine fits and independently implemented exact interval checker",
+)

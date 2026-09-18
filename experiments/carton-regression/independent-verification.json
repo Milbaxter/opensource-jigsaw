@@ -1,0 +1,181 @@
+{
+  "checker_sha256": "7e934d1642dc784a109ca6801e4c38874c6df07d2b1b6b0c4f8d2e53931f3ca1",
+  "no_prototype_import": true,
+  "versions": {
+    "py3dbp": "1.1.2",
+    "hypothesis": "6.168.0"
+  },
+  "python": "3.14.6",
+  "witnesses": [
+    {
+      "file": "witness-H-7001.json",
+      "sha256": "720dfd8f511def21fc5de473056c6524838358bdd87ae20398a9b2eab8c42148",
+      "inherited_geometry_valid_second_checker": true,
+      "fresh_engine_fits_match": true,
+      "fits": {
+        "L_cheap": [
+          false,
+          true
+        ],
+        "L_large": [
+          true,
+          true
+        ],
+        "S_cheap": [
+          false,
+          false
+        ],
+        "S_large": [
+          true,
+          false
+        ]
+      },
+      "size_original": {
+        "items": 4,
+        "ticks": 558,
+        "bytes": 71
+      },
+      "size_selected": {
+        "items": 4,
+        "ticks": 431,
+        "bytes": 70
+      }
+    },
+    {
+      "file": "witness-H-7005.json",
+      "sha256": "1e76754f95789f2a5ba3566954269b04bf56d1714703e903737624b7619169aa",
+      "inherited_geometry_valid_second_checker": true,
+      "fresh_engine_fits_match": true,
+      "fits": {
+        "L_cheap": [
+          true,
+          true
+        ],
+        "L_large": [
+          true,
+          true
+        ],
+        "S_cheap": [
+          false,
+          false
+        ],
+        "S_large": [
+          true,
+          true
+        ]
+      },
+      "size_original": {
+        "items": 5,
+        "ticks": 677,
+        "bytes": 85
+      },
+      "size_selected": {
+        "items": 5,
+        "ticks": 532,
+        "bytes": 82
+      }
+    },
+    {
+      "file": "witness-H-7009.json",
+      "sha256": "65fdd535a72dad275f0e6b3b795ce9d333298fdfc6d0ff9494e72c4f2bc4ef52",
+      "inherited_geometry_valid_second_checker": true,
+      "fresh_engine_fits_match": true,
+      "fits": {
+        "L_cheap": [
+          true,
+          false
+        ],
+        "L_large": [
+          true,
+          true
+        ],
+        "S_cheap": [
+          false,
+          false
+        ],
+        "S_large": [
+          false,
+          true
+        ]
+      },
+      "size_original": {
+        "items": 3,
+        "ticks": 438,
+        "bytes": 59
+      },
+      "size_selected": {
+        "items": 3,
+        "ticks": 375,
+        "bytes": 58
+      }
+    },
+    {
+      "file": "witness-R-7001.json",
+      "sha256": "e161b161e508b620f6a3955ba3134c9be6fb2f935bc486fd9b63557999aac918",
+      "inherited_geometry_valid_second_checker": true,
+      "fresh_engine_fits_match": true,
+      "fits": {
+        "L_cheap": [
+          false,
+          true
+        ],
+        "L_large": [
+          false,
+          true
+        ],
+        "S_cheap": [
+          false,
+          false
+        ],
+        "S_large": [
+          false,
+          true
+        ]
+      },
+      "size_original": {
+        "items": 7,
+        "ticks": 868,
+        "bytes": 112
+      },
+      "size_selected": {
+        "items": 7,
+        "ticks": 868,
+        "bytes": 112
+      }
+    },
+    {
+      "file": "witness-R-7005.json",
+      "sha256": "f2f9f084e67ead64e487e7d2aa53f01890d4ed3f9da01a2c7e0f7f9c702fa9d0",
+      "inherited_geometry_valid_second_checker": true,
+      "fresh_engine_fits_match": true,
+      "fits": {
+        "L_cheap": [
+          true,
+          false
+        ],
+        "L_large": [
+          true,
+          true
+        ],
+        "S_cheap": [
+          false,
+          false
+        ],
+        "S_large": [
+          false,
+          true
+        ]
+      },
+      "size_original": {
+        "items": 6,
+        "ticks": 794,
+        "bytes": 99
+      },
+      "size_selected": {
+        "items": 6,
+        "ticks": 794,
+        "bytes": 99
+      }
+    }
+  ]
+}
