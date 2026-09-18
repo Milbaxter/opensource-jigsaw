@@ -1,0 +1,38 @@
+[
+  {
+    "repo": "CATIA-Systems/FMPy",
+    "commit": "e42e288f448830c5f146ae334b38e91d17ff19fa",
+    "path": "tests/test_fmu_state.py",
+    "url": "https://raw.githubusercontent.com/CATIA-Systems/FMPy/e42e288f448830c5f146ae334b38e91d17ff19fa/tests/test_fmu_state.py",
+    "local": "CATIA-Systems__FMPy__tests__test_fmu_state.py",
+    "bytes": 4113,
+    "sha256": "27df51ad9725c263bad80bf2545e66f6dd545e23a1e0d4948d40f5f34225f79d"
+  },
+  {
+    "repo": "CATIA-Systems/FMPy",
+    "commit": "e42e288f448830c5f146ae334b38e91d17ff19fa",
+    "path": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/CATIA-Systems/FMPy/e42e288f448830c5f146ae334b38e91d17ff19fa/LICENSE.txt",
+    "local": "CATIA-Systems__FMPy__LICENSE.txt",
+    "bytes": 7701,
+    "sha256": "218ffc61af5ce78406a34e87a344878b681b9ec1c1cbe0e5768f05f7f8e3eabb"
+  },
+  {
+    "repo": "modelica/Reference-FMUs",
+    "commit": "86ca571ec1ed4bbb4950a9355c2b88ff8ec2f78e",
+    "path": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/modelica/Reference-FMUs/86ca571ec1ed4bbb4950a9355c2b88ff8ec2f78e/LICENSE.txt",
+    "local": "modelica__Reference-FMUs__LICENSE.txt",
+    "bytes": 1551,
+    "sha256": "3bd19affe120c783d1bb63f423ba1e5b31fed892d98d583001aac013a3432041"
+  },
+  {
+    "repo": "modelica/Reference-FMUs",
+    "commit": "86ca571ec1ed4bbb4950a9355c2b88ff8ec2f78e",
+    "path": "tests/test_targets.py",
+    "url": "https://raw.githubusercontent.com/modelica/Reference-FMUs/86ca571ec1ed4bbb4950a9355c2b88ff8ec2f78e/tests/test_targets.py",
+    "local": "reference-test-targets.py.txt",
+    "bytes": 2654,
+    "sha256": "47f2ab73a185491da14904d0d7da60f9f967bc96ff5e7a31aa7a8591743a5e6a"
+  }
+]

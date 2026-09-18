@@ -1,0 +1,47 @@
+{
+  "scope": "Read-only candidate/prior-art screen. No performance, binary execution, or purchased/private data. Issue bodies are linked and paraphrased rather than republished. Source excerpts retain matching OSS licenses.",
+  "files": [
+    {
+      "path": "SCREEN.md",
+      "bytes": 12425,
+      "sha256": "7dc4e65e57e99ad664b021bd0a1fe532cd7a716c80281020b72adef22fa9bfcb",
+      "published_path": "SCREEN.md"
+    },
+    {
+      "path": "source-pins.json",
+      "bytes": 1670,
+      "sha256": "9dce6659d2c178671a830c0d399547b824821b352fc8801f8697862a70282db3",
+      "published_path": "source-pins.json"
+    },
+    {
+      "path": "historical-issue-provenance.json",
+      "bytes": 1565,
+      "sha256": "a6ea4e7e3489e0cb56d815107a0593ffccc3450c686b39025824bdee1a4a6422",
+      "published_path": "historical-issue-provenance.json"
+    },
+    {
+      "path": "CATIA-Systems__FMPy__tests__test_fmu_state.py",
+      "bytes": 4113,
+      "sha256": "27df51ad9725c263bad80bf2545e66f6dd545e23a1e0d4948d40f5f34225f79d",
+      "published_path": "CATIA-Systems__FMPy__tests__test_fmu_state.py.txt"
+    },
+    {
+      "path": "CATIA-Systems__FMPy__LICENSE.txt",
+      "bytes": 7701,
+      "sha256": "218ffc61af5ce78406a34e87a344878b681b9ec1c1cbe0e5768f05f7f8e3eabb",
+      "published_path": "CATIA-Systems__FMPy__LICENSE.txt"
+    },
+    {
+      "path": "modelica__Reference-FMUs__LICENSE.txt",
+      "bytes": 1551,
+      "sha256": "3bd19affe120c783d1bb63f423ba1e5b31fed892d98d583001aac013a3432041",
+      "published_path": "modelica__Reference-FMUs__LICENSE.txt"
+    },
+    {
+      "path": "reference-test-targets.py.txt",
+      "bytes": 2654,
+      "sha256": "47f2ab73a185491da14904d0d7da60f9f967bc96ff5e7a31aa7a8591743a5e6a",
+      "published_path": "reference-test-targets.py.txt"
+    }
+  ]
+}
