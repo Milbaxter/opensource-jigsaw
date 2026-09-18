@@ -1,0 +1,2880 @@
+{
+  "scope": "source/unchangedGLB diagnostic only; frozen six selection views; no search/heldout",
+  "initialControl": {
+    "repeat": [
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 39380,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 49238,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 49199,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 39504,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 45867,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 47742,
+        "rawDifferences": 0
+      }
+    ],
+    "roundtrip": [
+      {
+        "mae": 0.0000021244319634066596,
+        "p95": 0,
+        "pixels": 39380,
+        "rawDifferences": 10
+      },
+      {
+        "mae": 0.000008920258464489009,
+        "p95": 0,
+        "pixels": 49238,
+        "rawDifferences": 8
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 49199,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 39504,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 0,
+        "p95": 0,
+        "pixels": 45867,
+        "rawDifferences": 0
+      },
+      {
+        "mae": 5.74985974449266e-7,
+        "p95": 0,
+        "pixels": 47742,
+        "rawDifferences": 21
+      }
+    ],
+    "foreground": 39380,
+    "backend": {
+      "vendor": "WebKit",
+      "renderer": "WebKit WebGL",
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "extensions": [
+        "EXT_clip_control",
+        "EXT_color_buffer_float",
+        "EXT_color_buffer_half_float",
+        "EXT_conservative_depth",
+        "EXT_depth_clamp",
+        "EXT_disjoint_timer_query_webgl2",
+        "EXT_float_blend",
+        "EXT_polygon_offset_clamp",
+        "EXT_render_snorm",
+        "EXT_texture_compression_bptc",
+        "EXT_texture_compression_rgtc",
+        "EXT_texture_filter_anisotropic",
+        "EXT_texture_mirror_clamp_to_edge",
+        "EXT_texture_norm16",
+        "KHR_parallel_shader_compile",
+        "NV_shader_noperspective_interpolation",
+        "OES_draw_buffers_indexed",
+        "OES_sample_variables",
+        "OES_shader_multisample_interpolation",
+        "OES_texture_float_linear",
+        "WEBGL_blend_func_extended",
+        "WEBGL_clip_cull_distance",
+        "WEBGL_compressed_texture_astc",
+        "WEBGL_compressed_texture_etc",
+        "WEBGL_compressed_texture_etc1",
+        "WEBGL_compressed_texture_pvrtc",
+        "WEBGL_compressed_texture_s3tc",
+        "WEBGL_compressed_texture_s3tc_srgb",
+        "WEBGL_debug_renderer_info",
+        "WEBGL_debug_shaders",
+        "WEBGL_lose_context",
+        "WEBGL_multi_draw",
+        "WEBGL_polygon_mode",
+        "WEBGL_provoking_vertex",
+        "WEBGL_render_shared_exponent",
+        "WEBGL_stencil_texturing"
+      ]
+    },
+    "bindings": 30
+  },
+  "runtime": {
+    "glb": [
+      {
+        "name": "",
+        "type": "Group",
+        "id": 34,
+        "uuid": "7e49b8f5-b7b7-4b10-9068-845cc74d7e31",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": []
+      },
+      {
+        "name": "Hose_low",
+        "type": "Mesh",
+        "id": 37,
+        "uuid": "af1e161b-d636-46ed-9bf3-8f2adf265829",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "HoseMat",
+            "id": 19,
+            "uuid": "998ef331-20d9-402d-9d82-7a84ddb67567",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 2
+          }
+        ]
+      },
+      {
+        "name": "RubberWood_low",
+        "type": "Mesh",
+        "id": 38,
+        "uuid": "97951e8d-2456-4413-af07-c8d214296aca",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "RubberWoodMat",
+            "id": 20,
+            "uuid": "814fd575-6462-417b-878b-94449b70741b",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "GlassPlastic_low",
+        "type": "Mesh",
+        "id": 39,
+        "uuid": "9a2ed7ba-c7e7-4e2b-abac-09b6687af82e",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "GlassPlasticMat",
+            "id": 21,
+            "uuid": "df5409e1-7e6f-469e-93c1-4a4d4eeb076e",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "MetalParts_low",
+        "type": "Mesh",
+        "id": 36,
+        "uuid": "57ee415f-6d37-4136-818b-5d3af97233ca",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "MetalPartsMat",
+            "id": 18,
+            "uuid": "8d3f9704-5bb5-4981-9e26-d3b307b67924",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "LeatherParts_low",
+        "type": "Mesh",
+        "id": 40,
+        "uuid": "522fecb3-547f-4ce8-9e8a-915a4d733aba",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "LeatherPartsMat",
+            "id": 22,
+            "uuid": "355e3368-b166-4820-9e4b-3b9d3328a1a5",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "Lenses_low",
+        "type": "Mesh",
+        "id": 35,
+        "uuid": "bc4af341-d6b5-49e5-90ad-1182ba4cb3c4",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "LensesMat",
+            "id": 17,
+            "uuid": "b91e0e55-a1fa-4c15-91d4-d51d378ee538",
+            "transparent": false,
+            "transmission": 1,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      }
+    ],
+    "source": [
+      {
+        "name": "",
+        "type": "Group",
+        "id": 76,
+        "uuid": "7425a902-adf2-47ec-9160-8b28cdcf9973",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": []
+      },
+      {
+        "name": "Hose_low",
+        "type": "Mesh",
+        "id": 77,
+        "uuid": "cff9dd6f-b0e4-4852-b5bb-cadaba724ce5",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "HoseMat",
+            "id": 29,
+            "uuid": "1096290a-d309-4201-a90e-d7ef4a926bc4",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 2
+          }
+        ]
+      },
+      {
+        "name": "RubberWood_low",
+        "type": "Mesh",
+        "id": 78,
+        "uuid": "92f27e35-e5d8-40bd-9594-2ed1af41e69e",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "RubberWoodMat",
+            "id": 30,
+            "uuid": "9d8f5a8e-27f7-46a0-87d7-9d03aad45ac7",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "GlassPlastic_low",
+        "type": "Mesh",
+        "id": 79,
+        "uuid": "e9979bad-a5c6-42c5-aa1a-86ada254c01e",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "GlassPlasticMat",
+            "id": 31,
+            "uuid": "9c2e8993-c2df-40b9-8d88-06d41fa68cf8",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "MetalParts_low",
+        "type": "Mesh",
+        "id": 81,
+        "uuid": "f4dfa56a-4e3f-423a-ab58-218e5d83f3b7",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "MetalPartsMat",
+            "id": 33,
+            "uuid": "057ef585-8fa8-49ed-897d-dc80762e874a",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "LeatherParts_low",
+        "type": "Mesh",
+        "id": 82,
+        "uuid": "2028b762-172c-490e-9718-18d770b5c05c",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "LeatherPartsMat",
+            "id": 34,
+            "uuid": "9209d0c8-2df7-4e5b-b2e9-44116f54801c",
+            "transparent": false,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      },
+      {
+        "name": "Lenses_low",
+        "type": "Mesh",
+        "id": 80,
+        "uuid": "4fb8e590-2cb1-462a-9884-6fd2ebb15f3d",
+        "renderOrder": 0,
+        "matrixAutoUpdate": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "matrixWorld": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "parent": "",
+        "materials": [
+          {
+            "name": "LensesMat",
+            "id": 32,
+            "uuid": "2e44f9c9-ce46-4a12-94ed-3a60800572a7",
+            "transparent": false,
+            "transmission": 1,
+            "depthWrite": true,
+            "depthTest": true,
+            "side": 0
+          }
+        ]
+      }
+    ]
+  },
+  "matchedNodeCount": 6,
+  "meshOrder": [
+    "GlassPlastic_low",
+    "Hose_low",
+    "LeatherParts_low",
+    "Lenses_low",
+    "MetalParts_low",
+    "RubberWood_low"
+  ],
+  "baseline": [
+    {
+      "view": [
+        0,
+        20,
+        0
+      ],
+      "rawDifferences": 10,
+      "maxChannel": 18,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 249,
+          "y": 342,
+          "reference": [
+            71,
+            56,
+            32,
+            255
+          ],
+          "source": [
+            70,
+            56,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 249,
+          "y": 343,
+          "reference": [
+            99,
+            86,
+            56,
+            255
+          ],
+          "source": [
+            98,
+            86,
+            56,
+            255
+          ]
+        },
+        {
+          "x": 250,
+          "y": 343,
+          "reference": [
+            113,
+            100,
+            67,
+            255
+          ],
+          "source": [
+            112,
+            100,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 252,
+          "y": 346,
+          "reference": [
+            108,
+            98,
+            68,
+            255
+          ],
+          "source": [
+            108,
+            98,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 245,
+          "y": 354,
+          "reference": [
+            234,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            220,
+            219,
+            219,
+            255
+          ]
+        },
+        {
+          "x": 241,
+          "y": 355,
+          "reference": [
+            233,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            215,
+            215,
+            215,
+            255
+          ]
+        }
+      ],
+      "mae": 0.0000021244319634066596,
+      "p95": 0,
+      "pixels": 39380
+    },
+    {
+      "view": [
+        60,
+        20,
+        0
+      ],
+      "rawDifferences": 8,
+      "maxChannel": 119,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 293,
+          "y": 338,
+          "reference": [
+            39,
+            37,
+            35,
+            255
+          ],
+          "source": [
+            158,
+            151,
+            133,
+            255
+          ]
+        },
+        {
+          "x": 210,
+          "y": 347,
+          "reference": [
+            103,
+            93,
+            58,
+            255
+          ],
+          "source": [
+            103,
+            92,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 348,
+          "reference": [
+            77,
+            64,
+            38,
+            255
+          ],
+          "source": [
+            77,
+            64,
+            37,
+            255
+          ]
+        },
+        {
+          "x": 213,
+          "y": 349,
+          "reference": [
+            105,
+            95,
+            60,
+            255
+          ],
+          "source": [
+            104,
+            95,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 350,
+          "reference": [
+            123,
+            113,
+            75,
+            255
+          ],
+          "source": [
+            123,
+            112,
+            75,
+            255
+          ]
+        },
+        {
+          "x": 218,
+          "y": 350,
+          "reference": [
+            125,
+            112,
+            76,
+            255
+          ],
+          "source": [
+            125,
+            112,
+            75,
+            255
+          ]
+        }
+      ],
+      "mae": 0.000008920258464489009,
+      "p95": 0,
+      "pixels": 49238
+    },
+    {
+      "view": [
+        120,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 49199
+    },
+    {
+      "view": [
+        180,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 39504
+    },
+    {
+      "view": [
+        240,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 45867
+    },
+    {
+      "view": [
+        300,
+        20,
+        0
+      ],
+      "rawDifferences": 21,
+      "maxChannel": 1,
+      "pixelsListed": 21,
+      "locations": [
+        {
+          "x": 279,
+          "y": 337,
+          "reference": [
+            45,
+            40,
+            25,
+            255
+          ],
+          "source": [
+            44,
+            40,
+            25,
+            255
+          ]
+        },
+        {
+          "x": 272,
+          "y": 342,
+          "reference": [
+            61,
+            56,
+            37,
+            255
+          ],
+          "source": [
+            61,
+            56,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 279,
+          "y": 349,
+          "reference": [
+            87,
+            76,
+            50,
+            255
+          ],
+          "source": [
+            86,
+            76,
+            50,
+            255
+          ]
+        },
+        {
+          "x": 297,
+          "y": 350,
+          "reference": [
+            62,
+            44,
+            28,
+            255
+          ],
+          "source": [
+            61,
+            44,
+            28,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 350,
+          "reference": [
+            67,
+            50,
+            32,
+            255
+          ],
+          "source": [
+            66,
+            50,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 287,
+          "y": 351,
+          "reference": [
+            73,
+            61,
+            38,
+            255
+          ],
+          "source": [
+            72,
+            61,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 351,
+          "reference": [
+            82,
+            70,
+            46,
+            255
+          ],
+          "source": [
+            82,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 289,
+          "y": 351,
+          "reference": [
+            82,
+            69,
+            46,
+            255
+          ],
+          "source": [
+            81,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 351,
+          "reference": [
+            70,
+            54,
+            36,
+            255
+          ],
+          "source": [
+            69,
+            54,
+            36,
+            255
+          ]
+        },
+        {
+          "x": 300,
+          "y": 351,
+          "reference": [
+            86,
+            72,
+            47,
+            255
+          ],
+          "source": [
+            86,
+            71,
+            47,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            96,
+            85,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 293,
+          "y": 352,
+          "reference": [
+            100,
+            87,
+            60,
+            255
+          ],
+          "source": [
+            99,
+            87,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 294,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            97,
+            84,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 352,
+          "reference": [
+            92,
+            79,
+            53,
+            255
+          ],
+          "source": [
+            91,
+            79,
+            53,
+            255
+          ]
+        },
+        {
+          "x": 302,
+          "y": 352,
+          "reference": [
+            111,
+            99,
+            69,
+            255
+          ],
+          "source": [
+            110,
+            99,
+            69,
+            255
+          ]
+        },
+        {
+          "x": 296,
+          "y": 353,
+          "reference": [
+            117,
+            105,
+            75,
+            255
+          ],
+          "source": [
+            117,
+            105,
+            74,
+            255
+          ]
+        },
+        {
+          "x": 301,
+          "y": 353,
+          "reference": [
+            116,
+            104,
+            72,
+            255
+          ],
+          "source": [
+            115,
+            104,
+            72,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 354,
+          "reference": [
+            133,
+            121,
+            86,
+            255
+          ],
+          "source": [
+            132,
+            121,
+            86,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 354,
+          "reference": [
+            118,
+            107,
+            73,
+            255
+          ],
+          "source": [
+            117,
+            107,
+            73,
+            255
+          ]
+        },
+        {
+          "x": 303,
+          "y": 354,
+          "reference": [
+            132,
+            122,
+            88,
+            255
+          ],
+          "source": [
+            131,
+            122,
+            88,
+            255
+          ]
+        },
+        {
+          "x": 313,
+          "y": 354,
+          "reference": [
+            145,
+            136,
+            100,
+            254
+          ],
+          "source": [
+            145,
+            135,
+            100,
+            254
+          ]
+        }
+      ],
+      "mae": 5.74985974449266e-7,
+      "p95": 0,
+      "pixels": 47742
+    }
+  ],
+  "matchedMatrices": [
+    {
+      "view": [
+        0,
+        20,
+        0
+      ],
+      "rawDifferences": 10,
+      "maxChannel": 18,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 249,
+          "y": 342,
+          "reference": [
+            71,
+            56,
+            32,
+            255
+          ],
+          "source": [
+            70,
+            56,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 249,
+          "y": 343,
+          "reference": [
+            99,
+            86,
+            56,
+            255
+          ],
+          "source": [
+            98,
+            86,
+            56,
+            255
+          ]
+        },
+        {
+          "x": 250,
+          "y": 343,
+          "reference": [
+            113,
+            100,
+            67,
+            255
+          ],
+          "source": [
+            112,
+            100,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 252,
+          "y": 346,
+          "reference": [
+            108,
+            98,
+            68,
+            255
+          ],
+          "source": [
+            108,
+            98,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 245,
+          "y": 354,
+          "reference": [
+            234,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            220,
+            219,
+            219,
+            255
+          ]
+        },
+        {
+          "x": 241,
+          "y": 355,
+          "reference": [
+            233,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            215,
+            215,
+            215,
+            255
+          ]
+        }
+      ],
+      "mae": 0.0000021244319634066596,
+      "p95": 0,
+      "pixels": 39380,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        60,
+        20,
+        0
+      ],
+      "rawDifferences": 8,
+      "maxChannel": 119,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 293,
+          "y": 338,
+          "reference": [
+            39,
+            37,
+            35,
+            255
+          ],
+          "source": [
+            158,
+            151,
+            133,
+            255
+          ]
+        },
+        {
+          "x": 210,
+          "y": 347,
+          "reference": [
+            103,
+            93,
+            58,
+            255
+          ],
+          "source": [
+            103,
+            92,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 348,
+          "reference": [
+            77,
+            64,
+            38,
+            255
+          ],
+          "source": [
+            77,
+            64,
+            37,
+            255
+          ]
+        },
+        {
+          "x": 213,
+          "y": 349,
+          "reference": [
+            105,
+            95,
+            60,
+            255
+          ],
+          "source": [
+            104,
+            95,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 350,
+          "reference": [
+            123,
+            113,
+            75,
+            255
+          ],
+          "source": [
+            123,
+            112,
+            75,
+            255
+          ]
+        },
+        {
+          "x": 218,
+          "y": 350,
+          "reference": [
+            125,
+            112,
+            76,
+            255
+          ],
+          "source": [
+            125,
+            112,
+            75,
+            255
+          ]
+        }
+      ],
+      "mae": 0.000008920258464489009,
+      "p95": 0,
+      "pixels": 49238,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        120,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 49199,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        180,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 39504,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        240,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 45867,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        300,
+        20,
+        0
+      ],
+      "rawDifferences": 21,
+      "maxChannel": 1,
+      "pixelsListed": 21,
+      "locations": [
+        {
+          "x": 279,
+          "y": 337,
+          "reference": [
+            45,
+            40,
+            25,
+            255
+          ],
+          "source": [
+            44,
+            40,
+            25,
+            255
+          ]
+        },
+        {
+          "x": 272,
+          "y": 342,
+          "reference": [
+            61,
+            56,
+            37,
+            255
+          ],
+          "source": [
+            61,
+            56,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 279,
+          "y": 349,
+          "reference": [
+            87,
+            76,
+            50,
+            255
+          ],
+          "source": [
+            86,
+            76,
+            50,
+            255
+          ]
+        },
+        {
+          "x": 297,
+          "y": 350,
+          "reference": [
+            62,
+            44,
+            28,
+            255
+          ],
+          "source": [
+            61,
+            44,
+            28,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 350,
+          "reference": [
+            67,
+            50,
+            32,
+            255
+          ],
+          "source": [
+            66,
+            50,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 287,
+          "y": 351,
+          "reference": [
+            73,
+            61,
+            38,
+            255
+          ],
+          "source": [
+            72,
+            61,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 351,
+          "reference": [
+            82,
+            70,
+            46,
+            255
+          ],
+          "source": [
+            82,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 289,
+          "y": 351,
+          "reference": [
+            82,
+            69,
+            46,
+            255
+          ],
+          "source": [
+            81,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 351,
+          "reference": [
+            70,
+            54,
+            36,
+            255
+          ],
+          "source": [
+            69,
+            54,
+            36,
+            255
+          ]
+        },
+        {
+          "x": 300,
+          "y": 351,
+          "reference": [
+            86,
+            72,
+            47,
+            255
+          ],
+          "source": [
+            86,
+            71,
+            47,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            96,
+            85,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 293,
+          "y": 352,
+          "reference": [
+            100,
+            87,
+            60,
+            255
+          ],
+          "source": [
+            99,
+            87,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 294,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            97,
+            84,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 352,
+          "reference": [
+            92,
+            79,
+            53,
+            255
+          ],
+          "source": [
+            91,
+            79,
+            53,
+            255
+          ]
+        },
+        {
+          "x": 302,
+          "y": 352,
+          "reference": [
+            111,
+            99,
+            69,
+            255
+          ],
+          "source": [
+            110,
+            99,
+            69,
+            255
+          ]
+        },
+        {
+          "x": 296,
+          "y": 353,
+          "reference": [
+            117,
+            105,
+            75,
+            255
+          ],
+          "source": [
+            117,
+            105,
+            74,
+            255
+          ]
+        },
+        {
+          "x": 301,
+          "y": 353,
+          "reference": [
+            116,
+            104,
+            72,
+            255
+          ],
+          "source": [
+            115,
+            104,
+            72,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 354,
+          "reference": [
+            133,
+            121,
+            86,
+            255
+          ],
+          "source": [
+            132,
+            121,
+            86,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 354,
+          "reference": [
+            118,
+            107,
+            73,
+            255
+          ],
+          "source": [
+            117,
+            107,
+            73,
+            255
+          ]
+        },
+        {
+          "x": 303,
+          "y": 354,
+          "reference": [
+            132,
+            122,
+            88,
+            255
+          ],
+          "source": [
+            131,
+            122,
+            88,
+            255
+          ]
+        },
+        {
+          "x": 313,
+          "y": 354,
+          "reference": [
+            145,
+            136,
+            100,
+            254
+          ],
+          "source": [
+            145,
+            135,
+            100,
+            254
+          ]
+        }
+      ],
+      "mae": 5.74985974449266e-7,
+      "p95": 0,
+      "pixels": 47742,
+      "referencePNG": null,
+      "sourcePNG": null
+    }
+  ],
+  "restoredMatrices": [
+    {
+      "view": [
+        0,
+        20,
+        0
+      ],
+      "rawDifferences": 10,
+      "maxChannel": 18,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 249,
+          "y": 342,
+          "reference": [
+            71,
+            56,
+            32,
+            255
+          ],
+          "source": [
+            70,
+            56,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 249,
+          "y": 343,
+          "reference": [
+            99,
+            86,
+            56,
+            255
+          ],
+          "source": [
+            98,
+            86,
+            56,
+            255
+          ]
+        },
+        {
+          "x": 250,
+          "y": 343,
+          "reference": [
+            113,
+            100,
+            67,
+            255
+          ],
+          "source": [
+            112,
+            100,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 252,
+          "y": 346,
+          "reference": [
+            108,
+            98,
+            68,
+            255
+          ],
+          "source": [
+            108,
+            98,
+            67,
+            255
+          ]
+        },
+        {
+          "x": 245,
+          "y": 354,
+          "reference": [
+            234,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            220,
+            219,
+            219,
+            255
+          ]
+        },
+        {
+          "x": 241,
+          "y": 355,
+          "reference": [
+            233,
+            229,
+            218,
+            255
+          ],
+          "source": [
+            215,
+            215,
+            215,
+            255
+          ]
+        }
+      ],
+      "mae": 0.0000021244319634066596,
+      "p95": 0,
+      "pixels": 39380,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        60,
+        20,
+        0
+      ],
+      "rawDifferences": 8,
+      "maxChannel": 119,
+      "pixelsListed": 6,
+      "locations": [
+        {
+          "x": 293,
+          "y": 338,
+          "reference": [
+            39,
+            37,
+            35,
+            255
+          ],
+          "source": [
+            158,
+            151,
+            133,
+            255
+          ]
+        },
+        {
+          "x": 210,
+          "y": 347,
+          "reference": [
+            103,
+            93,
+            58,
+            255
+          ],
+          "source": [
+            103,
+            92,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 348,
+          "reference": [
+            77,
+            64,
+            38,
+            255
+          ],
+          "source": [
+            77,
+            64,
+            37,
+            255
+          ]
+        },
+        {
+          "x": 213,
+          "y": 349,
+          "reference": [
+            105,
+            95,
+            60,
+            255
+          ],
+          "source": [
+            104,
+            95,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 215,
+          "y": 350,
+          "reference": [
+            123,
+            113,
+            75,
+            255
+          ],
+          "source": [
+            123,
+            112,
+            75,
+            255
+          ]
+        },
+        {
+          "x": 218,
+          "y": 350,
+          "reference": [
+            125,
+            112,
+            76,
+            255
+          ],
+          "source": [
+            125,
+            112,
+            75,
+            255
+          ]
+        }
+      ],
+      "mae": 0.000008920258464489009,
+      "p95": 0,
+      "pixels": 49238,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        120,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 49199,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        180,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 39504,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        240,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 45867,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        300,
+        20,
+        0
+      ],
+      "rawDifferences": 21,
+      "maxChannel": 1,
+      "pixelsListed": 21,
+      "locations": [
+        {
+          "x": 279,
+          "y": 337,
+          "reference": [
+            45,
+            40,
+            25,
+            255
+          ],
+          "source": [
+            44,
+            40,
+            25,
+            255
+          ]
+        },
+        {
+          "x": 272,
+          "y": 342,
+          "reference": [
+            61,
+            56,
+            37,
+            255
+          ],
+          "source": [
+            61,
+            56,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 279,
+          "y": 349,
+          "reference": [
+            87,
+            76,
+            50,
+            255
+          ],
+          "source": [
+            86,
+            76,
+            50,
+            255
+          ]
+        },
+        {
+          "x": 297,
+          "y": 350,
+          "reference": [
+            62,
+            44,
+            28,
+            255
+          ],
+          "source": [
+            61,
+            44,
+            28,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 350,
+          "reference": [
+            67,
+            50,
+            32,
+            255
+          ],
+          "source": [
+            66,
+            50,
+            32,
+            255
+          ]
+        },
+        {
+          "x": 287,
+          "y": 351,
+          "reference": [
+            73,
+            61,
+            38,
+            255
+          ],
+          "source": [
+            72,
+            61,
+            38,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 351,
+          "reference": [
+            82,
+            70,
+            46,
+            255
+          ],
+          "source": [
+            82,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 289,
+          "y": 351,
+          "reference": [
+            82,
+            69,
+            46,
+            255
+          ],
+          "source": [
+            81,
+            69,
+            46,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 351,
+          "reference": [
+            70,
+            54,
+            36,
+            255
+          ],
+          "source": [
+            69,
+            54,
+            36,
+            255
+          ]
+        },
+        {
+          "x": 300,
+          "y": 351,
+          "reference": [
+            86,
+            72,
+            47,
+            255
+          ],
+          "source": [
+            86,
+            71,
+            47,
+            255
+          ]
+        },
+        {
+          "x": 288,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            96,
+            85,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 293,
+          "y": 352,
+          "reference": [
+            100,
+            87,
+            60,
+            255
+          ],
+          "source": [
+            99,
+            87,
+            60,
+            255
+          ]
+        },
+        {
+          "x": 294,
+          "y": 352,
+          "reference": [
+            97,
+            85,
+            58,
+            255
+          ],
+          "source": [
+            97,
+            84,
+            58,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 352,
+          "reference": [
+            92,
+            79,
+            53,
+            255
+          ],
+          "source": [
+            91,
+            79,
+            53,
+            255
+          ]
+        },
+        {
+          "x": 302,
+          "y": 352,
+          "reference": [
+            111,
+            99,
+            69,
+            255
+          ],
+          "source": [
+            110,
+            99,
+            69,
+            255
+          ]
+        },
+        {
+          "x": 296,
+          "y": 353,
+          "reference": [
+            117,
+            105,
+            75,
+            255
+          ],
+          "source": [
+            117,
+            105,
+            74,
+            255
+          ]
+        },
+        {
+          "x": 301,
+          "y": 353,
+          "reference": [
+            116,
+            104,
+            72,
+            255
+          ],
+          "source": [
+            115,
+            104,
+            72,
+            255
+          ]
+        },
+        {
+          "x": 295,
+          "y": 354,
+          "reference": [
+            133,
+            121,
+            86,
+            255
+          ],
+          "source": [
+            132,
+            121,
+            86,
+            255
+          ]
+        },
+        {
+          "x": 298,
+          "y": 354,
+          "reference": [
+            118,
+            107,
+            73,
+            255
+          ],
+          "source": [
+            117,
+            107,
+            73,
+            255
+          ]
+        },
+        {
+          "x": 303,
+          "y": 354,
+          "reference": [
+            132,
+            122,
+            88,
+            255
+          ],
+          "source": [
+            131,
+            122,
+            88,
+            255
+          ]
+        },
+        {
+          "x": 313,
+          "y": 354,
+          "reference": [
+            145,
+            136,
+            100,
+            254
+          ],
+          "source": [
+            145,
+            135,
+            100,
+            254
+          ]
+        }
+      ],
+      "mae": 5.74985974449266e-7,
+      "p95": 0,
+      "pixels": 47742,
+      "referencePNG": null,
+      "sourcePNG": null
+    }
+  ],
+  "matchedOrder": [
+    {
+      "view": [
+        0,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 39380,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        60,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 49238,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        120,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 49199,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        180,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 39504,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        240,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 45867,
+      "referencePNG": null,
+      "sourcePNG": null
+    },
+    {
+      "view": [
+        300,
+        20,
+        0
+      ],
+      "rawDifferences": 0,
+      "maxChannel": 0,
+      "pixelsListed": 0,
+      "locations": [],
+      "mae": 0,
+      "p95": 0,
+      "pixels": 47742,
+      "referencePNG": null,
+      "sourcePNG": null
+    }
+  ]
+}

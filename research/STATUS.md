@@ -1,18 +1,18 @@
 # Research status
 
-Updated 18 September 2026. **No combination has cleared the pursuit bar yet.** A pass would authorize a named, capped validation experiment under [rubric v2](../docs/rubric-v2.md), not establish profitability. The broad published crawl contains [2,246 distinct repository names](round2/broad-crawl-counts.json); only a subset received deep investigation. Source inspection, executed experiments, and formal scores are separate below.
+Updated 18 September 2026. **No combination has cleared the pursuit bar yet.** A pass would recommend a named, capped validation experiment under [rubric v2](../docs/rubric-v2.md), not establish profitability. The broad published crawl contains [2,246 distinct repository names](round2/broad-crawl-counts.json); only a subset received deep investigation. Source inspection, executed experiments, and formal scores are separate below.
 
 ## Active leads
 
 | Combination | Question being tested | Current evidence |
 |---|---|---|
-| FreeCAD adaptive machining + game navigation | Can routing through the actual cleared-stock state improve native detour planning under equal geometric constraints? | [Source screen](round8/cam/SCREEN.md) and [independent review](round8/cam-independent-review/REVIEW.md). [Native screen completed](../experiments/cam-native-links/RESULTS.md): 441 matching replays; 13 eligible requests all straight, so restricted screen failed. [Follow-on held](round10/cam-follow-on/FUNDED-BASELINE-REVIEW.md) after inspecting funded exact-workflow competition and 51 public author branches. No Detour execution/performance result. |
-| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed deliverable bytes versus strong automatic alternatives? | [Buyer and competition screen](round9/commerce-source-screen.md). [Protocol and implementation frozen](../experiments/render-budget/README.md), with independent static review and a conditional $50/batch commercial experiment. The first run passed 11 authored controls and encoded 279 options, then stopped on unchanged-source/GLB pixel mismatch before any search or held-out evaluation; diagnosis pending. |
+| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed deliverable bytes versus strong automatic alternatives? | [Buyer and competition screen](round9/commerce-source-screen.md). [Protocol and implementation frozen](../experiments/render-budget/README.md), with independent static review and a conditional $50/batch commercial experiment. The first run passed 11 authored controls and encoded 279 options, then stopped on unchanged-source/GLB pixel mismatch before any search or held-out evaluation; [Diagnosis](../experiments/render-budget/diagnostics/roundtrip-001/RESULTS.md) identifies runtime draw-order dependence; [attempt002 is prospectively frozen](../experiments/render-budget/attempt-002/README.md) with the same exact-pixel gate. |
 
 ## Executed experiments retained
 
 | Combination | Observed result | Decision |
 |---|---|---|
+| FreeCAD adaptive machining + proposed game navigation | All 441 native replay comparisons matched, but the conservative subset had no eligible non-straight request. Detour never ran. | [Restricted screen failed](../experiments/cam-native-links/RESULTS.md); [follow-on held for funded competition](round10/cam-follow-on/FUNDED-BASELINE-REVIEW.md). |
 | Hypothesis + dbt/DuckDB temporal regression tests | Reproduced generated merge/full-refresh discrepancies; independent replay and comparison documented. Later real-model examples were covered by fixed schedules. | [WATCH, 76/100](round2/dbt-independent-review/judgement.md); no pass. |
 | Hypothesis + 3D carton packing | Five counterexamples across three carton families, independently geometry-checked. Buyer value and durable service advantage remain insufficient. | [WATCH, 76.5/100](round2/carton-independent-review/REVIEW.md); no pass. |
 | LiDAR delivery checks | Independent holdouts exposed false positives and misses; corrections and an invalid original label retained. | [Failed comparison](../experiments/lidar-delivery/README.md). |

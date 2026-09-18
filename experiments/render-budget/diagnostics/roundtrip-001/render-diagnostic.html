@@ -1,0 +1,91 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script type="importmap">{"imports":{"three":"/runtime/node_modules/three/build/three.module.js","three/addons/":"/runtime/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="view" width="512" height="512"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {KTX2Loader} from 'three/addons/loaders/KTX2Loader.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('view'),alpha:true,antialias:false,preserveDrawingBuffer:true});
+renderer.setSize(512,512,false);renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;renderer.setClearColor(0,0);
+const env=new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),0,0.1,100,{size:256}).texture;
+const ktx=new KTX2Loader().setTranscoderPath('/runtime/node_modules/three/examples/jsm/libs/basis/').detectSupport(renderer);
+const loader=new GLTFLoader().setKTX2Loader(ktx);
+const textureLoader=new THREE.TextureLoader();
+const readBuffer=new Uint8Array(512*512*4);
+const gl=renderer.getContext();
+const properties=['map','normalMap','roughnessMap','metalnessMap','aoMap','emissiveMap','clearcoatMap','clearcoatNormalMap','clearcoatRoughnessMap','transmissionMap','thicknessMap','sheenColorMap','sheenRoughnessMap','specularColorMap','specularIntensityMap'];
+let state;
+const train=Array.from({length:6},(_,k)=>[k*60,20,0]);
+const held=[5,40].flatMap(e=>Array.from({length:6},(_,k)=>[30+k*60,e,0])).flatMap(v=>[v,[v[0],v[1],1]]);
+function sceneFor(gltf) {
+  const scene=new THREE.Scene();scene.environment=env;scene.environmentIntensity=1;scene.add(gltf.scene);
+  const ambient=new THREE.AmbientLight(0xffffff,.5),directional=new THREE.DirectionalLight(0xffffff,3);scene.add(ambient,directional);
+  return {scene,directional,gltf};
+}
+function pixels(s,v) {
+  const [az,el,light]=v;const a=az*Math.PI/180,e=el*Math.PI/180;
+  const camera=new THREE.PerspectiveCamera(35,1,Math.max(state.radius/100,1e-5),Math.max(state.radius*100,1));
+  const d=state.radius/Math.sin(17.5*Math.PI/180)*1.15;
+  camera.position.set(d*Math.cos(e)*Math.sin(a),d*Math.sin(e),d*Math.cos(e)*Math.cos(a)).add(state.center);camera.lookAt(state.center);
+  s.directional.position.set(...(light?[-3,1,-2]:[1,2,3])).normalize();s.scene.environmentRotation.set(0,light?Math.PI/2:0,0);
+  renderer.render(s.scene,camera);gl.readPixels(0,0,512,512,gl.RGBA,gl.UNSIGNED_BYTE,readBuffer);
+  return new Uint8Array(readBuffer);
+}
+function error(a,b) {
+  let total=0,n=0;const per=[];
+  for(let i=0;i<a.length;i+=4) if(a[i+3]>2) {
+    let v=0;
+    for(let c=0;c<3;c++) {
+      // WebGL's default drawing buffer is premultiplied; composite those stored channels directly.
+      const aa=Math.min(255,a[i+c]+45.9*(1-a[i+3]/255));
+      const bb=Math.min(255,b[i+c]+45.9*(1-b[i+3]/255));v+=Math.abs(aa-bb)/765;
+    }
+    total+=v;n++;per.push(v);
+  }
+  if(!n)throw Error('Empty foreground');per.sort((a,b)=>a-b);
+  return {mae:total/n,p95:per[Math.floor((n-1)*.95)],pixels:n};
+}
+function releaseTexture(t){t.dispose();const image=t.source?.data;if(image&&typeof image.close==='function')image.close();}
+function dispose(s) {const textures=new Set();s?.gltf.scene.traverse(o=>{o.geometry?.dispose();if(o.material)for(const m of Array.isArray(o.material)?o.material:[o.material]){for(const p of properties)if(m[p])textures.add(m[p]);m.dispose();}});textures.forEach(releaseTexture);}
+function equality(a,b){let rawDifferences=0;for(let i=0;i<a.length;i++)if(a[i]!==b[i])rawDifferences++;return {...error(a,b),rawDifferences};}
+window.setup=async model=>{
+  if(state){const all=new Set([...state.variants.values(),...state.bindings.map(b=>b.original)]);all.forEach(releaseTexture);dispose(state.base);}
+  const base=sceneFor(await loader.loadAsync('/generated/'+model.name+'/original.glb'));
+  const box=new THREE.Box3().setFromObject(base.gltf.scene),sphere=box.getBoundingSphere(new THREE.Sphere());
+  state={model,base,center:sphere.center,radius:sphere.radius,bindings:[],variants:new Map(),references:null,heldReferences:null};
+  if(!(sphere.radius>0))throw Error('Invalid model extent');
+  const materials=new Set();base.gltf.scene.traverse(o=>{if(o.material)for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);});
+  for(const m of materials) for(const p of properties) if(m[p]) {
+    const association=base.gltf.parser.associations.get(m[p]);
+    if(!Number.isInteger(association?.textures))throw Error('Unidentified texture '+p);
+    const image=model.textureIndexToImage[association.textures];if(!Number.isInteger(image))throw Error('Missing texture identity');
+    state.bindings.push({material:m,property:p,image,original:m[p]});
+  }
+  state.references=train.map(v=>pixels(base,v));
+  const repeat=train.map((v,i)=>equality(state.references[i],pixels(base,v)));
+  const source=sceneFor(await loader.loadAsync('/'+model.sourcePath));
+  const roundtrip=train.map((v,i)=>equality(state.references[i],pixels(source,v)));dispose(source);
+  return {repeat,roundtrip,foreground:repeat[0].pixels,backend:{vendor:gl.getParameter(gl.VENDOR),renderer:gl.getParameter(gl.RENDERER),version:gl.getParameter(gl.VERSION),extensions:gl.getSupportedExtensions()},bindings:state.bindings.length};
+};
+
+window.diagnose=async model=>{
+ const initialControl=await window.setup(model);
+ const target=state.base,source=sceneFor(await loader.loadAsync('/'+model.sourcePath));
+ function objects(s){s.gltf.scene.updateMatrixWorld(true);const a=[];s.gltf.scene.traverse(o=>{a.push({name:o.name,type:o.type,id:o.id,uuid:o.uuid,renderOrder:o.renderOrder,matrixAutoUpdate:o.matrixAutoUpdate,matrix:o.matrix.elements.slice(),matrixWorld:o.matrixWorld.elements.slice(),parent:o.parent?.name,materials:o.material?(Array.isArray(o.material)?o.material:[o.material]).map(m=>({name:m.name,id:m.id,uuid:m.uuid,transparent:m.transparent,transmission:m.transmission,depthWrite:m.depthWrite,depthTest:m.depthTest,side:m.side})):[]});});return a;}
+ function compare(a,b){const sparse=[];let rawDifferences=0,maxChannel=0;for(let i=0;i<a.length;i+=4){const differing=[0,1,2,3].filter(c=>a[i+c]!==b[i+c]);if(differing.length){rawDifferences+=differing.length;maxChannel=Math.max(maxChannel,...differing.map(c=>Math.abs(a[i+c]-b[i+c])));if(sparse.length<256)sparse.push({x:(i/4)%512,y:Math.floor(i/4/512),reference:Array.from(a.slice(i,i+4)),source:Array.from(b.slice(i,i+4))});}}return {rawDifferences,maxChannel,pixelsListed:sparse.length,locations:sparse,...error(a,b)};}
+ function series(save=false){return train.map(v=>{const a=pixels(target,v),referencePNG=save?renderer.domElement.toDataURL():null,b=pixels(source,v),sourcePNG=save?renderer.domElement.toDataURL():null;return {view:v,...compare(a,b),referencePNG,sourcePNG};});}
+ const runtime={glb:objects(target),source:objects(source)},baseline=series(true);
+ const sourceNodes=[],targetByName=new Map();target.gltf.scene.traverse(o=>{if(o.name){if(targetByName.has(o.name))throw Error('Ambiguous target name '+o.name);targetByName.set(o.name,o);}});source.gltf.scene.traverse(o=>{if(o.name&&targetByName.has(o.name))sourceNodes.push({node:o,matrix:o.matrix.clone(),automatic:o.matrixAutoUpdate,target:targetByName.get(o.name)});});
+ for(const x of sourceNodes){x.node.matrix.copy(x.target.matrix);x.node.matrixAutoUpdate=false;}
+ source.gltf.scene.updateMatrixWorld(true);const matchedMatrices=series();
+ for(const x of sourceNodes){x.node.matrix.copy(x.matrix);x.node.matrixAutoUpdate=x.automatic;}
+ source.gltf.scene.updateMatrixWorld(true);const restoredMatrices=series();
+ const names=[...new Set(runtime.glb.filter(o=>o.type==='Mesh').map(o=>o.name))].sort();
+ for(const s of [source,target])s.gltf.scene.traverse(o=>{if(o.isMesh){const index=names.indexOf(o.name);if(index<0)throw Error('Mesh correspondence missing');o.renderOrder=index+1;}});
+ const matchedOrder=series();
+ dispose(source);
+ return {scope:'source/unchangedGLB diagnostic only; frozen six selection views; no search/heldout',initialControl,runtime,matchedNodeCount:sourceNodes.length,meshOrder:names,baseline,matchedMatrices,restoredMatrices,matchedOrder};
+};
+window.pipelineReady=true;
+</script></body></html>

@@ -1,0 +1,317 @@
+{
+  "frozen_utc": "2026-09-18T12:39:46.709012+00:00",
+  "scope": "Attempt002 prospective canonical-renderer amendment, before its execution. Attempt001 remains failed. No allocation/search/heldout outcome observed.",
+  "protocol_sha256": "a37a1d110f7c720cf22d60ee9c907cac1cf0c18ad72ec96661a90b0854be0af8",
+  "implementation_freeze_sha256": "9b9e251a4b169d545bd1de5a44d57058d991ca752d7b421ea738f00161bdc470",
+  "independent_review_manifest_sha256": "76b16ce6a2716961149d14258254d840bc6f1d07e74e0be0376fae416ebe58e3",
+  "files": [
+    {
+      "path": "AMENDMENT-002.md",
+      "bytes": 5573,
+      "sha256": "79f778af866d90686f56f725abd4375a0e82a8d30adb829ed6d7bc7975a6e54d",
+      "public_target": "experiments/render-budget/attempt-002/source/AMENDMENT-002.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/AMENDMENT-002.md"
+    },
+    {
+      "path": "BoomBox-LICENSE.md",
+      "bytes": 772,
+      "sha256": "a97e7d2efd7fc8bce46ff0ec663cc220c63497bb876e5f8cff3020c8d7198fc5",
+      "public_target": "experiments/render-budget/attempt-002/source/BoomBox-LICENSE.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/BoomBox-LICENSE.md"
+    },
+    {
+      "path": "BoomBox-README.md",
+      "bytes": 1000,
+      "sha256": "4a0ba4006d903b85dea52788053399d835b22ebb3ab4b1e305ccee103d7b2271",
+      "public_target": "experiments/render-budget/attempt-002/source/BoomBox-README.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/BoomBox-README.md"
+    },
+    {
+      "path": "FlightHelmet-LICENSE.md",
+      "bytes": 777,
+      "sha256": "97d142b221f4379656153eb1d2261f19d88a4da9a6bde6dda5aed548c08d90d3",
+      "public_target": "experiments/render-budget/attempt-002/source/FlightHelmet-LICENSE.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/FlightHelmet-LICENSE.md"
+    },
+    {
+      "path": "FlightHelmet-README.md",
+      "bytes": 3348,
+      "sha256": "7724b64fb4fae1135ddec3738d1eb9320d3bb9c890f599c423a09e205fb7257f",
+      "public_target": "experiments/render-budget/attempt-002/source/FlightHelmet-README.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/FlightHelmet-README.md"
+    },
+    {
+      "path": "PREREGISTRATION-DRAFT.md",
+      "bytes": 26375,
+      "sha256": "a37a1d110f7c720cf22d60ee9c907cac1cf0c18ad72ec96661a90b0854be0af8",
+      "public_target": "experiments/render-budget/attempt-002/source/PREREGISTRATION-DRAFT.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/PREREGISTRATION-DRAFT.md"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "bytes": 4369,
+      "sha256": "07289f655a53f76fb6d50713f064a6b1a9128df673c0cda69310f04c656a0d09",
+      "public_target": "experiments/render-budget/attempt-002/source/REPRODUCTION.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/REPRODUCTION.md"
+    },
+    {
+      "path": "ToyCar-LICENSE.md",
+      "bytes": 913,
+      "sha256": "1bafd1612199909f5eaf75aea630258e0358d99935ed7e9efce40e24a05c9d4a",
+      "public_target": "experiments/render-budget/attempt-002/source/ToyCar-LICENSE.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/ToyCar-LICENSE.md"
+    },
+    {
+      "path": "ToyCar-README.md",
+      "bytes": 2073,
+      "sha256": "aed216cda25deab59a115bdd6f486da0437fe4e1d9df11c34e496242dbf89fe2",
+      "public_target": "experiments/render-budget/attempt-002/source/ToyCar-README.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/ToyCar-README.md"
+    },
+    {
+      "path": "WaterBottle-LICENSE.md",
+      "bytes": 776,
+      "sha256": "08c75232969ea00d997a590975fd5b1b92716ebd6a21f8536b897b2f3c557879",
+      "public_target": "experiments/render-budget/attempt-002/source/WaterBottle-LICENSE.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/WaterBottle-LICENSE.md"
+    },
+    {
+      "path": "WaterBottle-README.md",
+      "bytes": 1004,
+      "sha256": "4ddb88bb6b835ab1b658041f1c5391b5b2128be65725d1ef84b1e434d818eb1c",
+      "public_target": "experiments/render-budget/attempt-002/source/WaterBottle-README.md",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/WaterBottle-README.md"
+    },
+    {
+      "path": "asset-source-pins.json",
+      "bytes": 4463,
+      "sha256": "0f18c971c6617fff309c7a234ce0304a74eab3690d22e91731cd5d045a35070e",
+      "public_target": "experiments/render-budget/attempt-002/source/asset-source-pins.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/asset-source-pins.json"
+    },
+    {
+      "path": "attempts/attempt-001/raw-execution/prepared.json",
+      "bytes": 499229,
+      "sha256": "17d9c8818787816cb75e383aceff7d534de9c1d1be981e3361611e7f4bbb99de",
+      "public_target": "experiments/render-budget/attempt-002/source/attempts/attempt-001/raw-execution/prepared.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/attempts/attempt-001/raw-execution/prepared.json"
+    },
+    {
+      "path": "cli-LICENSE",
+      "bytes": 1075,
+      "sha256": "daa927f0644c8f5deb7f7b08e6f469dbf07ab910cc1ec05a9bfff043f02a364b",
+      "public_target": "experiments/render-budget/attempt-002/source/cli-LICENSE",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/cli-LICENSE"
+    },
+    {
+      "path": "competitor-package-pins.json",
+      "bytes": 2038,
+      "sha256": "3199157a996c9d3d9de79cd70a04b1c4e6bab5aa7ba145587adb54ff285d65a5",
+      "public_target": "experiments/render-budget/attempt-002/source/competitor-package-pins.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/competitor-package-pins.json"
+    },
+    {
+      "path": "core-LICENSE",
+      "bytes": 3750,
+      "sha256": "c3c8ac75823d1f437dafbab233222dbd468f7ffb6ff118193a08b27aab269786",
+      "public_target": "experiments/render-budget/attempt-002/source/core-LICENSE",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/core-LICENSE"
+    },
+    {
+      "path": "downloaded-inputs.json",
+      "bytes": 17374,
+      "sha256": "a6fe963301f3004c25f96bc27bda7e135dbfc67d6409a9ef841d34f70e94f365",
+      "public_target": "experiments/render-budget/attempt-002/source/downloaded-inputs.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/downloaded-inputs.json"
+    },
+    {
+      "path": "generated/BoomBox/model.json",
+      "bytes": 52331,
+      "sha256": "d5d0e6336245d4004fba81480d221162653a0e0fce0016c12e348614c882f388",
+      "public_target": "experiments/render-budget/attempt-002/source/generated/BoomBox/model.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/generated/BoomBox/model.json"
+    },
+    {
+      "path": "generated/FlightHelmet/model.json",
+      "bytes": 209539,
+      "sha256": "69af69de00451d8b9528f28b82ca1abd92839899fb7ab424cd84e6bdf4f02f8f",
+      "public_target": "experiments/render-budget/attempt-002/source/generated/FlightHelmet/model.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/generated/FlightHelmet/model.json"
+    },
+    {
+      "path": "generated/ToyCar/model.json",
+      "bytes": 120929,
+      "sha256": "5040d1ad897fcdf6d9fd5f3df0147e48c8ce9643035647ae1be60c7fdec27431",
+      "public_target": "experiments/render-budget/attempt-002/source/generated/ToyCar/model.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/generated/ToyCar/model.json"
+    },
+    {
+      "path": "generated/WaterBottle/model.json",
+      "bytes": 52563,
+      "sha256": "bbc4d6d75e14314f9381aec1a3b1b33f4fd73263b1b2aed56273f304a11ee26d",
+      "public_target": "experiments/render-budget/attempt-002/source/generated/WaterBottle/model.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/generated/WaterBottle/model.json"
+    },
+    {
+      "path": "implementation-freeze-002.json",
+      "bytes": 2652,
+      "sha256": "9b9e251a4b169d545bd1de5a44d57058d991ca752d7b421ea738f00161bdc470",
+      "public_target": "experiments/render-budget/attempt-002/source/implementation-freeze-002.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/implementation-freeze-002.json"
+    },
+    {
+      "path": "input-schema.json",
+      "bytes": 3684,
+      "sha256": "5ad006adab39cff4d587c246df4e33f98c18b17cd710a0c68ecac0dafffe4e1a",
+      "public_target": "experiments/render-budget/attempt-002/source/input-schema.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/input-schema.json"
+    },
+    {
+      "path": "installed-tool-pins.json",
+      "bytes": 3065,
+      "sha256": "bd601bce98e7511f84bb4ee53ab9cf1e2a242ccaa0701549c17753888399e858",
+      "public_target": "experiments/render-budget/attempt-002/source/installed-tool-pins.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/installed-tool-pins.json"
+    },
+    {
+      "path": "ktx-download.json",
+      "bytes": 431,
+      "sha256": "e9d16359e577a2103aa8b2061d60b0ea023b69d32d5b9c2e90552846eb4d5b04",
+      "public_target": "experiments/render-budget/attempt-002/source/ktx-download.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/ktx-download.json"
+    },
+    {
+      "path": "ortools-package-pin.json",
+      "bytes": 6412,
+      "sha256": "a5a8fb8dc0de72866073f8bc54eba88a39d01cbc800f137ad83f95d5da67fa7f",
+      "public_target": "experiments/render-budget/attempt-002/source/ortools-package-pin.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/ortools-package-pin.json"
+    },
+    {
+      "path": "prospective-tool-pins.json",
+      "bytes": 9069,
+      "sha256": "a9d0ec6d354ce0c66d117e7583169610682bcdeafc64551534ad4afff3cd2be6",
+      "public_target": "experiments/render-budget/attempt-002/source/prospective-tool-pins.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/prospective-tool-pins.json"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 166,
+      "sha256": "2d0861f5b672734d0235b7347675e5e33f1e165749c870c51468af3a55d1cfbe",
+      "public_target": "experiments/render-budget/attempt-002/source/requirements-lock.txt",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/requirements-lock.txt"
+    },
+    {
+      "path": "reuse-attempt-001.json",
+      "bytes": 59673,
+      "sha256": "e6cde88aa7e1ce0c041d685fb199878c03e93a600e72c4c2e5504d0d292889c2",
+      "public_target": "experiments/render-budget/attempt-002/source/reuse-attempt-001.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/reuse-attempt-001.json"
+    },
+    {
+      "path": "runtime/byte-bound.mjs",
+      "bytes": 3347,
+      "sha256": "f818156175c806d48df7d95f381bd8bed7c91eaa9bbc0a42fd3fd34b6f4e579c",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/byte-bound.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/byte-bound.mjs"
+    },
+    {
+      "path": "runtime/common.mjs",
+      "bytes": 3975,
+      "sha256": "99fd2b09037347bd2c2d4944ad181e6a7f19d46c8e883f745ebbffe061725f36",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/common.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/common.mjs"
+    },
+    {
+      "path": "runtime/comparator-worker.mjs",
+      "bytes": 1769,
+      "sha256": "b38975c75c4a32981bfc4ca9d66813986e4faa72b2cde53a914b51d9e452e509",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/comparator-worker.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/comparator-worker.mjs"
+    },
+    {
+      "path": "runtime/controls.mjs",
+      "bytes": 1517,
+      "sha256": "fd761936bc8afb6ce2cc1ab2b65ad7d174a552f9814473c5bb702905102613e2",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/controls.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/controls.mjs"
+    },
+    {
+      "path": "runtime/encoding.mjs",
+      "bytes": 3275,
+      "sha256": "99af0b1305757c84a1a9520293cc0d6b1a895c7a5a40bb70a954d558cc87ac12",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/encoding.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/encoding.mjs"
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "bytes": 3541,
+      "sha256": "360892c19dde92eeaf05f5c55a3abba70cc77ce07c9b64e21984e4691c4bfd98",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/integrity.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/integrity.mjs"
+    },
+    {
+      "path": "runtime/package-lock.json",
+      "bytes": 46319,
+      "sha256": "30d0baa4ed242319a95b0354d0a478377bc7b6e3bec56dc435ac97010c27ef4a",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/package-lock.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/package-lock.json"
+    },
+    {
+      "path": "runtime/package.json",
+      "bytes": 258,
+      "sha256": "e36ca11b21037bd0f2eb28db810a6bd4b417b3f2bcebe58d394d5e8103df55be",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/package.json",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/package.json"
+    },
+    {
+      "path": "runtime/prepare.mjs",
+      "bytes": 3960,
+      "sha256": "7f88aaf851fd59be22d944c8bd807e01af77811efcc7c6533b138b9b7babdb1a",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/prepare.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/prepare.mjs"
+    },
+    {
+      "path": "runtime/render.html",
+      "bytes": 10970,
+      "sha256": "7ba5e380ff9831259333de2292d456f6e7e2f77db17d070b09a234c2081d91f6",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/render.html",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/render.html"
+    },
+    {
+      "path": "runtime/reuse.mjs",
+      "bytes": 870,
+      "sha256": "823930a4ffde6f59066b8d75c8840413bb6bf5428a90710108ce46106bab475e",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/reuse.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/reuse.mjs"
+    },
+    {
+      "path": "runtime/run.mjs",
+      "bytes": 14096,
+      "sha256": "c596128807d970db5bb22f19f351f7b7116e0479cb1463b94ed52a42214418cb",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/run.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/run.mjs"
+    },
+    {
+      "path": "runtime/search.mjs",
+      "bytes": 7697,
+      "sha256": "772b107c39ca780813a30cb64229d49ff625c2cd58b51bea5956cdfbfc582226",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/search.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/search.mjs"
+    },
+    {
+      "path": "runtime/solver-client.mjs",
+      "bytes": 1267,
+      "sha256": "e6d559bf705736a0e17b47964062c386180549ceda711d91dbbd0e8cfbb6b9ff",
+      "public_target": "experiments/render-budget/attempt-002/source/runtime/solver-client.mjs",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/runtime/solver-client.mjs"
+    },
+    {
+      "path": "solve.py",
+      "bytes": 3864,
+      "sha256": "6c74cbd4861304ae001b04d63fd72c13e207676dbe6249bc2fcebefdc7abfb07",
+      "public_target": "experiments/render-budget/attempt-002/source/solve.py",
+      "actual_public_target": "experiments/render-budget/attempt-002/source/solve.py.txt"
+    }
+  ]
+}

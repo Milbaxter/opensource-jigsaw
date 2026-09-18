@@ -1,0 +1,31 @@
+{
+  "primary_runtime_package": "three0.186.0; npm integrity in runtime/package-lock.json",
+  "source_baseline_freeze": "1a842b49a92b0723f810bec70d9c05daf7cb78a7",
+  "files": [
+    {
+      "path": "runtime/node_modules/three/src/renderers/webgl/WebGLRenderLists.js",
+      "bytes": 4559,
+      "sha256": "3139dfcd01675333266c02d853a768913318f353e694de39545aa50747d2011a"
+    },
+    {
+      "path": "runtime/node_modules/three/src/renderers/WebGLRenderer.js",
+      "bytes": 111481,
+      "sha256": "9e8740aad691246b31b3704014e8f3bbd38a8e7bf4b1b4d23868541b023cc63a"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet.gltf",
+      "bytes": 18698,
+      "sha256": "c9c16c8b85749f62f38ec6069700e5388c6894d8e566f51a35cc270255402cd3"
+    },
+    {
+      "path": "generated/FlightHelmet/original.glb",
+      "bytes": 48383360,
+      "sha256": "7d275b4bef091ca7cef1bb8ed274ac7b6e8a7f2b5a6c164f3e78ef3bbaa21af7"
+    },
+    {
+      "path": "generated/FlightHelmet/model.json",
+      "bytes": 209539,
+      "sha256": "69af69de00451d8b9528f28b82ca1abd92839899fb7ab424cd84e6bdf4f02f8f"
+    }
+  ]
+}

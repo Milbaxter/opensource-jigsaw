@@ -1,0 +1,135 @@
+<!doctype html><html><head><meta charset="utf-8">
+<script type="importmap">{"imports":{"three":"/runtime/node_modules/three/build/three.module.js","three/addons/":"/runtime/node_modules/three/examples/jsm/"}}</script>
+</head><body><canvas id="view" width="512" height="512"></canvas>
+<script type="module">
+import * as THREE from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {KTX2Loader} from 'three/addons/loaders/KTX2Loader.js';
+import {RoomEnvironment} from 'three/addons/environments/RoomEnvironment.js';
+const renderer=new THREE.WebGLRenderer({canvas:document.getElementById('view'),alpha:true,antialias:false,preserveDrawingBuffer:true});
+renderer.setSize(512,512,false);renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1;renderer.setClearColor(0,0);
+const env=new THREE.PMREMGenerator(renderer).fromScene(new RoomEnvironment(),0,0.1,100,{size:256}).texture;
+const ktx=new KTX2Loader().setTranscoderPath('/runtime/node_modules/three/examples/jsm/libs/basis/').detectSupport(renderer);
+const loader=new GLTFLoader().setKTX2Loader(ktx);
+const textureLoader=new THREE.TextureLoader();
+const readBuffer=new Uint8Array(512*512*4);
+const gl=renderer.getContext();
+const properties=['map','normalMap','roughnessMap','metalnessMap','aoMap','emissiveMap','clearcoatMap','clearcoatNormalMap','clearcoatRoughnessMap','transmissionMap','thicknessMap','sheenColorMap','sheenRoughnessMap','specularColorMap','specularIntensityMap'];
+let state;
+const train=Array.from({length:6},(_,k)=>[k*60,20,0]);
+const held=[5,40].flatMap(e=>Array.from({length:6},(_,k)=>[30+k*60,e,0])).flatMap(v=>[v,[v[0],v[1],1]]);
+function canonicalOrder(gltf) {
+  const entries=[];
+  function visit(o,path) {
+    if(o.isMesh){
+      if(Array.isArray(o.material)&&o.material.length>1||o.geometry.groups.length>1)throw Error('Unsupported multiple render groups in canonical mesh');
+      o.renderOrder=entries.length+1;
+      entries.push({path:path.join('.'),name:o.name,renderOrder:o.renderOrder});
+    }
+    o.children.forEach((child,i)=>visit(child,[...path,i]));
+  }
+  visit(gltf.scene,[]);if(!entries.length)throw Error('No canonical mesh identities');return entries;
+}
+function corresponding(s) {if(JSON.stringify(s.canonical)!==JSON.stringify(state.base.canonical))throw Error('Canonical scene/primitive identity mismatch');}
+function sceneFor(gltf) {
+  const canonical=canonicalOrder(gltf);
+  const scene=new THREE.Scene();scene.environment=env;scene.environmentIntensity=1;scene.add(gltf.scene);
+  const ambient=new THREE.AmbientLight(0xffffff,.5),directional=new THREE.DirectionalLight(0xffffff,3);scene.add(ambient,directional);
+  return {scene,directional,gltf,canonical};
+}
+function pixels(s,v) {
+  const [az,el,light]=v;const a=az*Math.PI/180,e=el*Math.PI/180;
+  const camera=new THREE.PerspectiveCamera(35,1,Math.max(state.radius/100,1e-5),Math.max(state.radius*100,1));
+  const d=state.radius/Math.sin(17.5*Math.PI/180)*1.15;
+  camera.position.set(d*Math.cos(e)*Math.sin(a),d*Math.sin(e),d*Math.cos(e)*Math.cos(a)).add(state.center);camera.lookAt(state.center);
+  s.directional.position.set(...(light?[-3,1,-2]:[1,2,3])).normalize();s.scene.environmentRotation.set(0,light?Math.PI/2:0,0);
+  renderer.render(s.scene,camera);gl.readPixels(0,0,512,512,gl.RGBA,gl.UNSIGNED_BYTE,readBuffer);
+  return new Uint8Array(readBuffer);
+}
+function error(a,b) {
+  let total=0,n=0;const per=[];
+  for(let i=0;i<a.length;i+=4) if(a[i+3]>2) {
+    let v=0;
+    for(let c=0;c<3;c++) {
+      // WebGL's default drawing buffer is premultiplied; composite those stored channels directly.
+      const aa=Math.min(255,a[i+c]+45.9*(1-a[i+3]/255));
+      const bb=Math.min(255,b[i+c]+45.9*(1-b[i+3]/255));v+=Math.abs(aa-bb)/765;
+    }
+    total+=v;n++;per.push(v);
+  }
+  if(!n)throw Error('Empty foreground');per.sort((a,b)=>a-b);
+  return {mae:total/n,p95:per[Math.floor((n-1)*.95)],pixels:n};
+}
+function releaseTexture(t){t.dispose();const image=t.source?.data;if(image&&typeof image.close==='function')image.close();}
+function dispose(s) {const textures=new Set();s?.gltf.scene.traverse(o=>{o.geometry?.dispose();if(o.material)for(const m of Array.isArray(o.material)?o.material:[o.material]){for(const p of properties)if(m[p])textures.add(m[p]);m.dispose();}});textures.forEach(releaseTexture);}
+function equality(a,b){let rawDifferences=0;for(let i=0;i<a.length;i++)if(a[i]!==b[i])rawDifferences++;return {...error(a,b),rawDifferences};}
+window.setup=async model=>{
+  if(state){const all=new Set([...state.variants.values(),...state.bindings.map(b=>b.original)]);all.forEach(releaseTexture);dispose(state.base);}
+  const base=sceneFor(await loader.loadAsync('/generated/'+model.name+'/original.glb'));
+  const box=new THREE.Box3().setFromObject(base.gltf.scene),sphere=box.getBoundingSphere(new THREE.Sphere());
+  state={model,base,center:sphere.center,radius:sphere.radius,bindings:[],variants:new Map(),references:null,heldReferences:null};
+  if(!(sphere.radius>0))throw Error('Invalid model extent');
+  const materials=new Set();base.gltf.scene.traverse(o=>{if(o.material)for(const m of Array.isArray(o.material)?o.material:[o.material])materials.add(m);});
+  for(const m of materials) for(const p of properties) if(m[p]) {
+    const association=base.gltf.parser.associations.get(m[p]);
+    if(!Number.isInteger(association?.textures))throw Error('Unidentified texture '+p);
+    const image=model.textureIndexToImage[association.textures];if(!Number.isInteger(image))throw Error('Missing texture identity');
+    state.bindings.push({material:m,property:p,image,original:m[p]});
+  }
+  state.references=train.map(v=>pixels(base,v));
+  const repeat=train.map((v,i)=>equality(state.references[i],pixels(base,v)));
+  const source=sceneFor(await loader.loadAsync('/'+model.sourcePath));corresponding(source);
+  const roundtrip=train.map((v,i)=>equality(state.references[i],pixels(source,v)));dispose(source);
+  return {repeat,roundtrip,canonical:base.canonical,foreground:repeat[0].pixels,backend:{vendor:gl.getParameter(gl.VENDOR),renderer:gl.getParameter(gl.RENDERER),version:gl.getParameter(gl.VERSION),extensions:gl.getSupportedExtensions()},bindings:state.bindings.length};
+};
+async function variant(i,o,original) {
+  if(o===0)return original;
+  const id=i+':'+o+':'+original.uuid;
+  if(state.variants.has(id))return state.variants.get(id);
+  const option=state.model.images[i].options[o];let t=option.mime==='image/ktx2'?await ktx.loadAsync('/'+option.path):await textureLoader.loadAsync('/'+option.path);
+
+  for(const p of ['mapping','channel','wrapS','wrapT','magFilter','minFilter','anisotropy','colorSpace','matrixAutoUpdate','premultiplyAlpha','unpackAlignment'])t[p]=original[p];
+  t.offset.copy(original.offset);t.repeat.copy(original.repeat);t.center.copy(original.center);t.rotation=original.rotation;t.matrix.copy(original.matrix);t.flipY=false;t.needsUpdate=true;
+  if(option.mime!=='image/ktx2')t.generateMipmaps=original.generateMipmaps;
+  state.variants.set(id,t);return t;
+}
+async function assign(vector) {
+  for(const b of state.bindings) {b.material[b.property]=await variant(b.image,vector[b.image],b.original);b.material.needsUpdate=true;}
+  const live=new Set(state.bindings.map(b=>b.material[b.property]));
+  const cost=t=>{const i=t.image;return ((i?.width??0)*(i?.height??0)*4*4/3);};
+  let bytes=[...state.variants.values()].reduce((s,t)=>s+cost(t),0);
+  for(const [id,t]of state.variants)if(bytes>256*1024*1024&&!live.has(t)){bytes-=cost(t);state.variants.delete(id);releaseTexture(t);}
+  if(bytes>512*1024*1024)throw Error('Active variant raw-equivalent texture cap 512MiB');
+}
+async function hashPixels(b){const h=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(h)).map(x=>x.toString(16).padStart(2,'0')).join('');}
+window.evaluateVector=async vector=>{await assign(vector);const frames=train.map(v=>pixels(state.base,v));return {memory:{...renderer.info.memory,variants:state.variants.size},views:frames.map((p,i)=>error(state.references[i],p)),hashes:await Promise.all(frames.map(hashPixels)),formats:[...new Set(state.bindings.map(b=>b.material[b.property]).map(t=>JSON.stringify({format:t.format,type:t.type,compressed:!!t.isCompressedTexture,colorSpace:t.colorSpace})))]};};
+window.evaluateFile=async ({url,heldout=false,saveImage=false})=>{
+  const s=sceneFor(await loader.loadAsync(url));corresponding(s);
+  const vv=heldout?held:train;
+  if(heldout&&!state.heldReferences){await assign(state.model.images.map(()=>0));state.heldReferences=held.map(v=>pixels(state.base,v));}
+  const refs=heldout?state.heldReferences:state.references;let worst=-1,worstData=null;
+  const frames=[];const result=vv.map((v,i)=>{const p=pixels(s,v);frames.push(p);const r=error(refs[i],p);if(r.mae>worst){worst=r.mae;if(saveImage)worstData=renderer.domElement.toDataURL();}return {...r,view:v};});dispose(s);
+  return {views:result,hashes:await Promise.all(frames.map(hashPixels)),worstImage:worstData};
+};
+window.textureControls=async cases=>{
+ const results=[];
+ const camera=new THREE.OrthographicCamera(-1,1,1,-1,.1,10);camera.position.z=2;
+ async function load(url){const t=url.endsWith('.ktx2')?await ktx.loadAsync('/'+url):await textureLoader.loadAsync('/'+url);t.flipY=false;t.needsUpdate=true;return t;}
+ function draw(t,kind){
+  t.colorSpace=kind==='color'?THREE.SRGBColorSpace:THREE.NoColorSpace;t.magFilter=THREE.NearestFilter;
+  const scene=new THREE.Scene();const material=kind==='normal'?new THREE.MeshNormalMaterial({normalMap:t,normalScale:new THREE.Vector2(1,1)}):new THREE.MeshBasicMaterial({map:t,transparent:true,depthWrite:false});
+  material.toneMapped=false;const mesh=new THREE.Mesh(new THREE.PlaneGeometry(2,2),material);scene.add(mesh);renderer.render(scene,camera);
+  const b=new Uint8Array(512*512*4);gl.readPixels(0,0,512,512,gl.RGBA,gl.UNSIGNED_BYTE,b);material.dispose();mesh.geometry.dispose();return b;
+ }
+ for(const c of cases){
+  const a=await load(c.source),b=await load(c.candidate),aa=draw(a,c.kind),bb=draw(b,c.kind);let worst=0;const samples=[];
+  for(const y of [128,384])for(const x of [128,384]){const p=(y*512+x)*4;const ref=Array.from(aa.slice(p,p+4)),got=Array.from(bb.slice(p,p+4));const error=Math.max(...ref.map((v,i)=>Math.abs(v-got[i])/255));worst=Math.max(worst,error);samples.push({ref,got,error});}
+  if(worst>.12)throw Error('Asymmetric texture control failed '+c.kind+' '+c.codec+' '+worst);
+  results.push({...c,worst,samples,format:b.format,compressed:!!b.isCompressedTexture});a.dispose();b.dispose();
+ }
+ const controlDir=cases[0].source.slice(0,cases[0].source.lastIndexOf('/'));
+ for(const bad of [controlDir+'/missing.png',controlDir+'/invalid.ktx2']){let rejected=false;try{await load(bad);}catch{rejected=true;}if(!rejected)throw Error('Invalid texture accepted');results.push({bad,rejected});}
+ return results;
+};
+window.pipelineReady=true;
+</script></body></html>

@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-09-18T11:49:08.930733+00:00",
+  "scope": "installed artifact metadata only; no asset encode/render performed",
+  "node": "v26.7.0",
+  "python": "Python 3.14.6",
+  "chrome": "Google Chrome153.0.8010.50",
+  "artifacts": [
+    {
+      "path": "runtime/node_modules/three/examples/jsm/libs/basis/basis_transcoder.js",
+      "bytes": 57529,
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+    },
+    {
+      "path": "runtime/node_modules/three/examples/jsm/libs/basis/basis_transcoder.wasm",
+      "bytes": 527333,
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+    },
+    {
+      "path": "tools/bin/toktx",
+      "bytes": 974960,
+      "sha256": "708e94078c8b8a8096f3573e2899bf08fbcf702d92bbbac47bd2098a1aaa6eb6"
+    },
+    {
+      "path": "tools/bin/ktx",
+      "bytes": 2041776,
+      "sha256": "abd30109cbf84859b2f34951f7967e801111abadaac588468d98ed075100ad37"
+    },
+    {
+      "path": "tools/bin/ktx2check",
+      "bytes": 346080,
+      "sha256": "4dc207d813aa78ce1ffe2c4bdb0af0824ecba5ce15eb23107f5ca2ebe3469b18"
+    },
+    {
+      "path": "tools/lib/libktx.4.4.2.dylib",
+      "bytes": 2493744,
+      "sha256": "bd26f0747b7a800384b7b3c9221dafeb3943ef565a560ab98238cade597c0947"
+    },
+    {
+      "path": "runtime/package-lock.json",
+      "bytes": 46319,
+      "sha256": "30d0baa4ed242319a95b0354d0a478377bc7b6e3bec56dc435ac97010c27ef4a"
+    }
+  ],
+  "packages": [
+    {
+      "package": "@gltf-transform/core",
+      "version": "4.5.0",
+      "license": "MIT",
+      "package_json_sha256": "e597c677068db1668eb446517c655b06f2c0799fb8744c70819ec9fca20d28a1"
+    },
+    {
+      "package": "@gltf-transform/extensions",
+      "version": "4.5.0",
+      "license": "MIT",
+      "package_json_sha256": "38cfb3da61e6043f9fbcad822f5e975a95424df0ba5f82148cb45f7315440662"
+    },
+    {
+      "package": "@gltf-transform/functions",
+      "version": "4.5.0",
+      "license": "MIT",
+      "package_json_sha256": "9a83913c81aa2c63e60f03cb6cb08766b70382ee7613e8b59992b1bd793a12b8"
+    },
+    {
+      "package": "three",
+      "version": "0.186.0",
+      "license": "MIT",
+      "package_json_sha256": "ab4ff6950aab522dfe6980f19914a5eb2cadb689a36c6c44f4d3869c5e46dc89"
+    },
+    {
+      "package": "playwright",
+      "version": "1.63.0",
+      "license": "Apache-2.0",
+      "package_json_sha256": "8bc2ddebe8d9b051b9ecb87d62c6c63877e59d08617f32c3215681ca8bb70998"
+    },
+    {
+      "package": "sharp",
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "package_json_sha256": "27b5a6c6e1e1f27c527b09a963c932979403837d0f5f013ab5bdfb4a0ef2269a"
+    },
+    {
+      "package": "ktx-parse",
+      "version": "1.1.0",
+      "license": "MIT",
+      "package_json_sha256": "251845f7effebd730a76633b535f71129b26f9d7afabd8d72113a7b358aa2ddb"
+    },
+    {
+      "package": "@spatialpack/core",
+      "version": "0.1.0",
+      "license": "SEE LICENSE IN LICENSE",
+      "package_json_sha256": "13249475480fa9aa0dc545d35333c625dfca7ec3c8e76c4e18b2a73ec433abb3"
+    }
+  ]
+}

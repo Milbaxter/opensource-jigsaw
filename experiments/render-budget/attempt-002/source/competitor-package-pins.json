@@ -1,0 +1,60 @@
+[
+  {
+    "package": "@spatialpack/cli",
+    "version": "0.1.0",
+    "license": "MIT",
+    "repository": {
+      "url": "git+https://github.com/montabano1/SpatialPack.git",
+      "type": "git",
+      "directory": "packages/cli"
+    },
+    "dist": {
+      "shasum": "605444a6396bd6a18385da25e77e9f6be8963d02",
+      "tarball": "https://registry.npmjs.org/@spatialpack/cli/-/cli-0.1.0.tgz",
+      "fileCount": 65,
+      "integrity": "sha512-VIfFjKXFvDPLc7yD+Pe2RwK2Ej7mow4evy6bdA7w9t3/E8sjKdEAYswm8kJpCrwsnbv9CAG+vAuMawI9SMUXUw==",
+      "signatures": [
+        {
+          "sig": "MEQCIGZ66DFOsk02hIXBnqkk/DblOP4gxS4eiS0ZDSFCLMjsAiAiA+iU7SYpkKzSk0qAMj364Nw/Jqn3bPB1Q99wsXYiSA==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 1743743
+    },
+    "archive": {
+      "path": "cli-package-source.tgz",
+      "sha256": "be83262547f2736ab930b0b3ba56683a15ec4be2373b5ff02a5d339063a03fa6",
+      "bytes": 452374,
+      "execution": false
+    }
+  },
+  {
+    "package": "@spatialpack/core",
+    "version": "0.1.0",
+    "license": "SEE LICENSE IN LICENSE",
+    "repository": {
+      "url": "git+https://github.com/montabano1/SpatialPack.git",
+      "type": "git",
+      "directory": "packages/core"
+    },
+    "dist": {
+      "shasum": "b9ede4c23653c11f91970c24a199059f3141f68d",
+      "tarball": "https://registry.npmjs.org/@spatialpack/core/-/core-0.1.0.tgz",
+      "fileCount": 463,
+      "integrity": "sha512-Wlj3s+CcbiWRbBsyrsalXFiD4cAKvAQNmCZ4gLahib/ndx/X4jHxQzYEV28UNtwdKWffrMC9A+8/bFgDOdf1nw==",
+      "signatures": [
+        {
+          "sig": "MEUCIFK2i6bARrnPbX/7i/AP1UARZjjzTlRZF1oL2OJfCXjbAiEA2+M7/pdcb4v25U0jkVKwrVGbwzHnCzIU8IuZGGBrj54=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 5302610
+    },
+    "archive": {
+      "path": "core-package-source.tgz",
+      "sha256": "2e10b0f5595d522c263d0c68d5057bcf7b76209b31641c92ebdeef1183765fb5",
+      "bytes": 1556692,
+      "execution": false
+    }
+  }
+]

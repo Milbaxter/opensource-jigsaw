@@ -1,0 +1,5 @@
+# Separately authorized roundtrip diagnosis
+
+Purpose: diagnose attempt001's strict sourceglTF/unchangedGLB control failure, before any prospective amendment. Original frozen scripts and generated artifacts remain immutable. No allocation search, comparator search or held-out camera/light is invoked.
+
+Use the frozen six selection-view cameras and lighting solely on unchanged FlightHelmet. Save exact per-channel mismatch locations, runtime object/material identities, draw ordering and local/world matrices. First repeat the failed source-versus-GLB comparison. Then perform two diagnostic interventions separately: (1) align corresponding named source-node local matrices to the unchangedGLB matrices; restore source afterward; (2) assign matching unique mesh-name renderOrder values to both scenes. Compare full raw RGBA bytes. These are causal probes of serialization/runtime behavior, not candidate quality evaluations, and cannot pass or replace the frozen experiment. Preserve every result, including unsuccessful interventions. Do not adjust the frozen equality threshold.

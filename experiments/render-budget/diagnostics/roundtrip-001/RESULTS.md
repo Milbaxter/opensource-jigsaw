@@ -1,0 +1,11 @@
+# Roundtrip diagnostic: runtime draw ordering
+
+This is a separately authorized diagnosis of failed attempt001, not an optimization result or a continuation of that attempt. It used only unchanged FlightHelmet and the six already-used control views; no allocation or held-out evaluation occurred.
+
+The new process reproduced the strict sourceglTF-versus-GLB failure exactly: raw differing-channel counts[10,8,0,0,0,21]. Replacing corresponding source-node local matrices with the GLB matrices left every count unchanged, and restoring the source matrices also left them unchanged. Assigning identical mesh-name-ordered renderOrder values to both unchanged scenes produced exact full-RGBA equality in all six views: [0,0,0,0,0,0]. All source/reference frames and sparse mismatch coordinates are retained. One mismatched channel differed by119/255; this is not dismissed as harmless rounding.
+
+Captured runtime material IDs have different relative order: the GLB's MetalParts material18 precedes Hose19/RubberWood20/GlassPlastic21/Leather22, whereas the source's MetalParts33 follows Hose29/RubberWood30/GlassPlastic31. The pinned Three0.186.0 renderer sorts opaque render items by groupOrder, then renderOrder, then runtime material.id, before depth/object-ID tie breakers. Its transmission pass also renders that opaque list. These observations and the ordering intervention strongly localize the mismatch to runtime draw ordering; the diagnosis does not claim a proven micro-level explanation for every affected pixel.
+
+A separate independent rawJSON/BIN review found exact logical accessor bytes, image payloads, node transforms and material semantics; POSITION bound metadata differs slightly because the writer recomputes float32 bounds. That independent report is owned by the reviewer and is not replaced by this renderer's own semantic checks.
+
+Prospective amendment proposal: define a deterministic mesh order from stable scene-hierarchy/primitive traversal identity for every original/source/candidate/comparator load, check correspondence and fail closed when identities differ, and retain exact full-RGBA equality. This changes the renderer contract explicitly; it does not make the old default-renderer result pass. Keep attempt001 as failed and freeze any amended experiment before execution.

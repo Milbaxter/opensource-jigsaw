@@ -1,0 +1,1 @@
+Static decode attempt1 failed before decoding: old assumed sharp/lib/index.js path absent in pinned Sharp0.35.4. Corrected to package export resolution with createRequire. No encoding/rendering or frozen experiment changes.

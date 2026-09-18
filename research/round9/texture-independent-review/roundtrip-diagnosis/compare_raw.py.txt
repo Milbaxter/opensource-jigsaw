@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: MIT
+"""Read-only raw glTF/GLB comparison; no NodeIO, renderer, geometry mutation, or codec encoding."""
+import json,struct,hashlib,pathlib,copy
+R=pathlib.Path('work/round9-render-budget');O=pathlib.Path('work/texture-independent-review/roundtrip-diagnosis')
+src=R/'inputs/FlightHelmet/glTF/FlightHelmet.gltf';dst=R/'generated/FlightHelmet/original.glb'
+h=lambda b:hashlib.sha256(b).hexdigest()
+s=json.loads(src.read_bytes());gb=dst.read_bytes();magic,ver,total=struct.unpack_from('<III',gb);assert magic==0x46546c67 and ver==2 and total==len(gb)
+chunks={};offset=12
+while offset<len(gb):
+ n,t=struct.unpack_from('<II',gb,offset);chunks[t]=gb[offset+8:offset+8+n];offset+=8+n
+assert offset==len(gb)
+g=json.loads(chunks[0x4e4f534a]);sb=[(src.parent/x['uri']).read_bytes() for x in s['buffers']];bb=[chunks[0x004e4942]]
+width={5120:1,5121:1,5122:2,5123:2,5125:4,5126:4};arity={'SCALAR':1,'VEC2':2,'VEC3':3,'VEC4':4}
+def accessor(r,buf,i):
+ a=r['accessors'][i];assert 'sparse' not in a and a['type'] in arity
+ v=r['bufferViews'][a['bufferView']];n=width[a['componentType']]*arity[a['type']];stride=v.get('byteStride',n);start=v.get('byteOffset',0)+a.get('byteOffset',0)
+ data=b''.join(buf[v['buffer']][start+j*stride:start+j*stride+n] for j in range(a['count']));assert len(data)==a['count']*n
+ semantic={k:a[k] for k in ['type','componentType','count']};semantic['normalized']=a.get('normalized',False)
+ return data,semantic,{'accessor':i,'bufferView':a['bufferView'],'stride':stride,'byteOffset':start,'min':a.get('min'),'max':a.get('max')}
+def image(r,buf,i,original):
+ x=r['images'][i]
+ if original:return (src.parent/x['uri']).read_bytes()
+ v=r['bufferViews'][x['bufferView']];return buf[v.get('buffer',0)][v.get('byteOffset',0):v.get('byteOffset',0)+v['byteLength']]
+sh=[h(image(s,sb,i,True)) for i in range(len(s['images']))];gh=[h(image(g,bb,i,False)) for i in range(len(g['images']))]
+assert len(set(sh))==len(sh)
+def tex(r,hashes,i):
+ t=r['textures'][i];sam=r.get('samplers',[{}])[t.get('sampler',0)];return {'image':hashes[t['source']],'sampler':{'magFilter':sam.get('magFilter',9729),'minFilter':sam.get('minFilter',9987),'wrapS':sam.get('wrapS',10497),'wrapT':sam.get('wrapT',10497)},'other':{k:v for k,v in t.items() if k not in ['source','sampler','name']}}
+def material(r,hashes,m):
+ def walk(x):
+  if isinstance(x,list):return [walk(v) for v in x]
+  if not isinstance(x,dict):return x
+  return {k:(tex(r,hashes,v) if k=='index' else walk(v)) for k,v in x.items()}
+ return walk(r['materials'][m])
+attrs=[];meshes=[]
+for mi,(sm,gm) in enumerate(zip(s['meshes'],g['meshes'])):
+ assert len(sm['primitives'])==len(gm['primitives'])
+ mesh={'mesh':mi,'name_match':sm.get('name')==gm.get('name'),'primitives':[]}
+ for pi,(sp,gp) in enumerate(zip(sm['primitives'],gm['primitives'])):
+  assert set(sp['attributes'])==set(gp['attributes'])
+  for attr in ['indices']+list(sp['attributes']):
+   ai=sp['indices'] if attr=='indices' else sp['attributes'][attr];bi=gp['indices'] if attr=='indices' else gp['attributes'][attr]
+   a,ad,al=accessor(s,sb,ai);b,bd,bl=accessor(g,bb,bi)
+   attrs.append({'mesh':mi,'primitive':pi,'attribute':attr,'source':al,'glb':bl,'semantic_match':ad==bd,'logical_bytes_match':a==b,'logical_bytes':len(a),'source_sha256':h(a),'glb_sha256':h(b),'bounds_metadata_equal':(al['min'],al['max'])==(bl['min'],bl['max'])})
+  mesh['primitives'].append({'mode_match':sp.get('mode',4)==gp.get('mode',4),'material_semantics_match':material(s,sh,sp['material'])==material(g,gh,gp['material']),'attribute_order_source':list(sp['attributes']),'attribute_order_glb':list(gp['attributes']),'other_source':{k:v for k,v in sp.items() if k not in ['attributes','indices','mode','material']},'other_glb':{k:v for k,v in gp.items() if k not in ['attributes','indices','mode','material']}})
+ meshes.append(mesh)
+r={'scope':'Raw JSON/GLB parsing and logical strided-accessor/image bytes only. No rendering/encoding/NodeIO canonicalization.','source_sha256':h(src.read_bytes()),'glb_sha256':h(gb),'node_json_equal':s['nodes']==g['nodes'],'scene_json_equal':s['scenes']==g['scenes'] and s.get('scene',0)==g.get('scene',0),'extensions_used_equal':s.get('extensionsUsed')==g.get('extensionsUsed'),'extensions_required_equal':s.get('extensionsRequired')==g.get('extensionsRequired'),'images':[{'ordinal':i,'source_sha256':sh[i],'glb_sha256':gh[i],'encoded_bytes_equal':sh[i]==gh[i]} for i in range(len(sh))],'accessors':attrs,'meshes':meshes,'source_buffer_sha256':[h(x) for x in sb],'source_buffer_views':s['bufferViews'],'glb_buffer_views':g['bufferViews'],'glb_texture_to_source_image':[sh.index(gh[t['source']]) for t in g['textures']]}
+(O/'RAW-SEMANTIC-DIFF.json').write_text(json.dumps(r,indent=2)+'\n')
+print(json.dumps({'all30logical_accessors_equal':all(x['logical_bytes_match'] and x['semantic_match'] for x in attrs),'all15image_payloads_equal':all(x['encoded_bytes_equal'] for x in r['images']),'all6materials_match':all(x['material_semantics_match'] for m in meshes for x in m['primitives']),'nodes_scenes_equal':r['node_json_equal'] and r['scene_json_equal'],'accessors_with_bound_changes':[{'mesh':x['mesh'],'attribute':x['attribute'],'source':[x['source']['min'],x['source']['max']],'glb':[x['glb']['min'],x['glb']['max']]} for x in attrs if not x['bounds_metadata_equal']]},indent=2))

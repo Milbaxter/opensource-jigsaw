@@ -1,0 +1,1946 @@
+{
+  "name": "WaterBottle",
+  "images": [
+    {
+      "source": "WaterBottle_baseColor.png",
+      "roles": [
+        {
+          "role": "color",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": true,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/WaterBottle/glTF/WaterBottle_baseColor.png",
+          "mime": "image/png",
+          "bytes": 2165850,
+          "sha256": "62d0ad9b4e2c75e9bc7d67644a50d697563000ffa586d2e185ea38f5000e0a63",
+          "distortion": 0,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-0-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 46108,
+          "sha256": "bb839a4ba9de7ca9962aa5459fdaaa260e843b8f41962e1ec57f7e69a70753a4",
+          "distortion": 0.0038119434533107513,
+          "width": 2048,
+          "height": 2048,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-0-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 10806,
+          "sha256": "59bd3d94b7fc39cc5db653bbc3547cef7193adf6dac13dbf0f1b0cea9b0e2fd5",
+          "distortion": 0.004748522066712796,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-0-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 3616,
+          "sha256": "6760609a501f7e3555b2b85eac3805e5f590ef84566b9f5d010d06b63012afea",
+          "distortion": 0.005930814556096487,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-0-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 182558,
+          "sha256": "f729802db35f4e032217eff29d338b91b8c547ef53c4d5885751fc407aea368b",
+          "distortion": 0.0067347532784033295,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-0-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 50632,
+          "sha256": "05bba216f2698c5f31dfac0ba1431fa8bfb6b7019565d610528580aac4acc936",
+          "distortion": 0.007673037285974719,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-0-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 15815,
+          "sha256": "679774d7f3adc9b5319624499b8ce86962f159a1aba7994bd8bb460c67c58075",
+          "distortion": 0.00857269374385346,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-0-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1408930,
+          "sha256": "42efb93eadacc5f0cd7ba3ce8787686ea1b0c54e7c8ffc430617a32580831283",
+          "distortion": 0.0005275564256071287,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-0-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 383099,
+          "sha256": "d7202c08e5b986fcfd75e39bb0e781c9af50bae39ad93422f21d91e8dd72633a",
+          "distortion": 0.0031940136081702567,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-0-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 103862,
+          "sha256": "c80601bf68caaced030989ada3f8718dff075c1941a37ef04677ea62c639a6b3",
+          "distortion": 0.004167821360666265,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "WaterBottle_occlusionRoughnessMetallic.png",
+      "roles": [
+        {
+          "role": "data",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": false,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/WaterBottle/glTF/WaterBottle_occlusionRoughnessMetallic.png",
+          "mime": "image/png",
+          "bytes": 3577832,
+          "sha256": "10cc809d9762e8c671f1ae73618dd5fdd07792d2c6ec9c4691cdb991617c9369",
+          "distortion": 0,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-1-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 125202,
+          "sha256": "30363ca8a6e2ae2aa2d31c52fad6c9d0c24bc08b8d68fcd7e9ee0ab339646413",
+          "distortion": 0.006009574029960283,
+          "width": 2048,
+          "height": 2048,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-1-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 35142,
+          "sha256": "058841df6f08bb88f4575920b6c3e43777cfcbed15dee8cd4fe317b7d22e3222",
+          "distortion": 0.008174603593125293,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-1-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 11524,
+          "sha256": "830ee00d11af127207f3d2c6f1e36718876c93033b2e3ddc0fd08866bac1010b",
+          "distortion": 0.011330439685949791,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-1-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 238482,
+          "sha256": "d3d8ea0d2c05ee1b8214f71579265dd111f9f3c797eb804255938b63ef2cdd0c",
+          "distortion": 0.007734904881450357,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-1-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 71816,
+          "sha256": "d3101214f152a931475a11b20f546d7993a0d2cb445df3ab9bb5ad5b564a4a5b",
+          "distortion": 0.01094238680166644,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-1-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 26314,
+          "sha256": "ef29a848efc22abf860b72bbe28ba86454ea5c1448f3d237e71ce4c338c549ff",
+          "distortion": 0.015560828626506535,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-1-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 2942704,
+          "sha256": "6401e1c62acbe575d70b0810f50655bdf3ca7914b4d898b0fcb013d3f27883c6",
+          "distortion": 0.0007255195792131646,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-1-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 761726,
+          "sha256": "6a7f2297b466c30079240997ad967abe24a40e53dff02cdeb63ffd0e6f180fde",
+          "distortion": 0.004057280845962909,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-1-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 204676,
+          "sha256": "f831041d98b122975831778f2bd0ed5c28e6a0e9ae5236654b7f9baa87706f65",
+          "distortion": 0.005632521436018673,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "WaterBottle_normal.png",
+      "roles": [
+        {
+          "role": "normal",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": false,
+      "normal": true,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/WaterBottle/glTF/WaterBottle_normal.png",
+          "mime": "image/png",
+          "bytes": 3012733,
+          "sha256": "284883ce27cc22351557616bad247ef88de4ad42c7a74b493205c92dbd23e536",
+          "distortion": 0,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-2-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 64940,
+          "sha256": "3a011b6e97c02b9bd1b3c1cd66931bf2c88703656f0ba69f6be5c874843cddb9",
+          "distortion": 0.007157544161235429,
+          "width": 2048,
+          "height": 2048,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-2-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 8378,
+          "sha256": "f83b6ec5fdb76a29213cca1fb6f534484fe1ca5b14f39ae62812b30644ed835e",
+          "distortion": 0.0076148061667615985,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-2-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 2194,
+          "sha256": "591bf8dbd6ef0129c9e5aa310914f91c6a78e046d9504184b374f69ba3056ca5",
+          "distortion": 0.008068280913851283,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-2-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 174582,
+          "sha256": "8e8cc09b2b0c2c0bf301af0a6bf432daa6353723321910f5193b2780be77fddc",
+          "distortion": 0.0081696533764086,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-2-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 21459,
+          "sha256": "a3665bbc35ac46e6f9c71d45b5ee0322e3574b6a03ee61e657d0b8db6b3c16f2",
+          "distortion": 0.008054030470564895,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-2-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 7971,
+          "sha256": "afe2e964b384cbb17dda86a5c6e7042766004aa08a1285bec050e8b441185ee7",
+          "distortion": 0.00802650168351483,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-2-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1612069,
+          "sha256": "1a1814841b9c076235bc8bb6be0aac7160c6efea627bdf4fbb4679e2941e1db7",
+          "distortion": 0.001745396298663354,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-2-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 442375,
+          "sha256": "8e385af0c2e026a3de18779caf2b97dd6b7aca61118c1e68cf14ddf52467ec22",
+          "distortion": 0.005904080917746357,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-2-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 116410,
+          "sha256": "e5d6b8b59c36b8229aaca55ad38d98fc7369259aa0e1042de46ee9d136d00e1d",
+          "distortion": 0.006610830793703489,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "WaterBottle_emissive.png",
+      "roles": [
+        {
+          "role": "color",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": true,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/WaterBottle/glTF/WaterBottle_emissive.png",
+          "mime": "image/png",
+          "bytes": 59102,
+          "sha256": "e9b03ea395b0182917f876befda2d31639ce46058c832dd64e5ad02cde5bddb9",
+          "distortion": 0,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-3-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 7990,
+          "sha256": "a680f3f193e8c17e3b6f6679288092412aca3d831154684c48b20ca5811675b3",
+          "distortion": 0.000007348590426974801,
+          "width": 2048,
+          "height": 2048,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-3-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 2080,
+          "sha256": "c98cb9789aae7efeb3196d364408f472028bf0a4ece252dcbb6cd5aaccd2dfac",
+          "distortion": 0.000025994481604084658,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-3-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 590,
+          "sha256": "447cecac1fc75e1a97a31d54c8a00b9d549a9d68fa81fb59aaab66ae7fa3f993",
+          "distortion": 0.00003440863166758858,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-3-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 3142,
+          "sha256": "367660fa28641462c67cdcb90b2d984addda1d80352e678ce7ce0460f3405378",
+          "distortion": 0.000008912179984298658,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-3-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1903,
+          "sha256": "05f50d9b8801fd3137678789ec09d9fdcf33d9ed0824246e2425d1e3e3c3892e",
+          "distortion": 0.000025402642543020376,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-3-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1321,
+          "sha256": "db4f02fa09245fbd6ad0128a2f623cc0c19de93249f82776f3126b86bd3376f1",
+          "distortion": 0.00003053066777248078,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/WaterBottle/image-3-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 4893,
+          "sha256": "87a1a94aad2dfca410d71286696b1353103ad914387223f88854006f6e2315fc",
+          "distortion": 0.0000016994725644977985,
+          "width": 2048,
+          "height": 2048,
+          "metadata": {
+            "width": 2048,
+            "height": 2048,
+            "levels": 12,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/WaterBottle/image-3-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 2269,
+          "sha256": "f2cfaef593faca8ba409bc94ec9f530f1ef017e47abf9091975a1a6a70310ad2",
+          "distortion": 0.000022939295550577564,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/WaterBottle/image-3-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1424,
+          "sha256": "5872a7e6a30c4c126e18bb0ca1606a242e1fe1d326540a81692995bd02712d70",
+          "distortion": 0.000028206632028218706,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textureIndexToImage": [
+    0,
+    3,
+    2,
+    1
+  ],
+  "integrity": {
+    "sha256": "0c7e67bd771a3c5344a5a427f042497dc5c43a191cb0db5b07e9afdb64893547",
+    "semantic": {
+      "scenes": [
+        [
+          {
+            "camera": null,
+            "rotation": [
+              0,
+              1,
+              0,
+              0
+            ],
+            "mesh": {
+              "primitives": [
+                {
+                  "attributes": {
+                    "TEXCOORD_0": {
+                      "type": "VEC2",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 2549,
+                      "sha256": "dfd7497dc5651d8bb763e19dff0f2df432ef16c489f8df6539e3bd62cabaabcb"
+                    },
+                    "NORMAL": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 2549,
+                      "sha256": "edad66b30b8e63996051e5499b55da2c2d4600ef2692ed78ba054dabc46909ce"
+                    },
+                    "TANGENT": {
+                      "type": "VEC4",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 2549,
+                      "sha256": "edbf53ca7129b8bff41f39eb6a674fe8236ca928d6fb141874f962c50b19d5a2"
+                    },
+                    "POSITION": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 2549,
+                      "sha256": "6ac7bd13ccafba8d21734906c2491a304a0f1431b89d47fb71931595c0123947"
+                    }
+                  },
+                  "mode": 4,
+                  "material": {
+                    "pbrMetallicRoughness": {
+                      "baseColorTexture": {
+                        "sampler": {
+                          "wrapS": 10497,
+                          "wrapT": 10497
+                        },
+                        "imageIdentity": "source-image-0"
+                      },
+                      "metallicRoughnessTexture": {
+                        "sampler": {
+                          "wrapS": 10497,
+                          "wrapT": 10497
+                        },
+                        "imageIdentity": "source-image-1"
+                      }
+                    },
+                    "emissiveFactor": [
+                      1,
+                      1,
+                      1
+                    ],
+                    "emissiveTexture": {
+                      "sampler": {
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-3"
+                    },
+                    "normalTexture": {
+                      "sampler": {
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-2"
+                    },
+                    "occlusionTexture": {
+                      "sampler": {
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-1"
+                    }
+                  },
+                  "indices": {
+                    "type": "SCALAR",
+                    "normalized": false,
+                    "componentType": 5123,
+                    "count": 13530,
+                    "sha256": "328663470c7ef626f7e7a744d691926d6f89e1b82f0f2ad140514ee9b2921407"
+                  }
+                }
+              ]
+            },
+            "children": []
+          }
+        ]
+      ],
+      "scene": 0
+    }
+  },
+  "originalBytes": 8966920,
+  "originalSha256": "abc5bdce2abec38d67d815c9969e18f9684278c7d71939fa57d35eeabc5ce523",
+  "sourceJSON": {
+    "accessors": [
+      {
+        "bufferView": 0,
+        "componentType": 5126,
+        "count": 2549,
+        "type": "VEC2"
+      },
+      {
+        "bufferView": 1,
+        "componentType": 5126,
+        "count": 2549,
+        "type": "VEC3"
+      },
+      {
+        "bufferView": 2,
+        "componentType": 5126,
+        "count": 2549,
+        "type": "VEC4"
+      },
+      {
+        "bufferView": 3,
+        "componentType": 5126,
+        "count": 2549,
+        "type": "VEC3",
+        "max": [
+          0.05445001,
+          0.130220339,
+          0.0544500239
+        ],
+        "min": [
+          -0.05445001,
+          -0.130220339,
+          -0.0544500239
+        ]
+      },
+      {
+        "bufferView": 4,
+        "componentType": 5123,
+        "count": 13530,
+        "type": "SCALAR"
+      }
+    ],
+    "asset": {
+      "generator": "glTF Tools for Unity",
+      "version": "2.0"
+    },
+    "bufferViews": [
+      {
+        "buffer": 0,
+        "byteLength": 20392
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 20392,
+        "byteLength": 30588
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 50980,
+        "byteLength": 40784
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 91764,
+        "byteLength": 30588
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 122352,
+        "byteLength": 27060
+      }
+    ],
+    "buffers": [
+      {
+        "uri": "WaterBottle.bin",
+        "byteLength": 149412
+      }
+    ],
+    "images": [
+      {
+        "uri": "WaterBottle_baseColor.png"
+      },
+      {
+        "uri": "WaterBottle_occlusionRoughnessMetallic.png"
+      },
+      {
+        "uri": "WaterBottle_normal.png"
+      },
+      {
+        "uri": "WaterBottle_emissive.png"
+      }
+    ],
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "attributes": {
+              "TEXCOORD_0": 0,
+              "NORMAL": 1,
+              "TANGENT": 2,
+              "POSITION": 3
+            },
+            "indices": 4,
+            "material": 0
+          }
+        ],
+        "name": "WaterBottle"
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 0
+          },
+          "metallicRoughnessTexture": {
+            "index": 1
+          }
+        },
+        "normalTexture": {
+          "index": 2
+        },
+        "occlusionTexture": {
+          "index": 1
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "emissiveTexture": {
+          "index": 3
+        },
+        "name": "BottleMat"
+      }
+    ],
+    "nodes": [
+      {
+        "mesh": 0,
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "name": "WaterBottle"
+      }
+    ],
+    "scene": 0,
+    "scenes": [
+      {
+        "nodes": [
+          0
+        ]
+      }
+    ],
+    "textures": [
+      {
+        "source": 0
+      },
+      {
+        "source": 1
+      },
+      {
+        "source": 2
+      },
+      {
+        "source": 3
+      }
+    ]
+  },
+  "sourcePath": "inputs/WaterBottle/glTF/WaterBottle.gltf"
+}

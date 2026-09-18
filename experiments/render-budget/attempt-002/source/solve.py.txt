@@ -1,0 +1,85 @@
+"""Fixed-surrogate multiple-choice minimax allocation; stdin/stdout JSON."""
+import json
+import math
+import time
+import sys
+from ortools.sat.python import cp_model
+
+def validate(data):
+    n = len(data["costs"])
+    assert 0 < n <= 32
+    assert len(data["delta"]) == n and len(data["e0"]) == 6
+    assert all(isinstance(v, int) and v >= 0 for v in [data["budget"], data["overhead"]])
+    assert all(math.isfinite(v) and abs(v) <= 1 for v in data["e0"])
+    for costs, delta in zip(data["costs"], data["delta"]):
+        assert costs and len(costs) == len(delta)
+        assert all(isinstance(v, int) and v >= 0 for v in costs)
+        assert all(len(row) == 6 and all(math.isfinite(v) and abs(v) <= 1 for v in row) for row in delta)
+    assert len(data["pairs"]) <= 12
+    for p in data["pairs"]:
+        assert 0 <= p["i"] < n and 0 <= p["j"] < n and p["i"] != p["j"]
+        assert 0 <= p["o"] < len(data["costs"][p["i"]]) and 0 <= p["p"] < len(data["costs"][p["j"]])
+        assert len(p["correction"]) == 6 and all(math.isfinite(v) and abs(v) <= 3 for v in p["correction"])
+    for v in data["exclude"]:
+        assert len(v) == n and all(isinstance(o, int) and 0 <= o < len(data["costs"][i]) for i, o in enumerate(v))
+
+
+def solve(data):
+    validate(data)
+    began = time.process_time()
+    model = cp_model.CpModel()
+    choices = [[model.new_bool_var(f"x_{i}_{j}") for j in range(len(row))]
+               for i, row in enumerate(data["costs"])]
+    for row in choices:
+        model.add_exactly_one(row)
+    model.add(sum(v * data["costs"][i][j]
+                  for i, row in enumerate(choices) for j, v in enumerate(row))
+              + data["overhead"] <= data["budget"])
+    for vector in data["exclude"]:
+        model.add(sum(choices[i][j] for i, j in enumerate(vector)) <= len(choices) - 1)
+    pairs = []
+    for k, pair in enumerate(data["pairs"]):
+        z = model.new_bool_var(f"pair_{k}")
+        a = choices[pair["i"]][pair["o"]]
+        b = choices[pair["j"]][pair["p"]]
+        model.add(z <= a)
+        model.add(z <= b)
+        model.add(z >= a + b - 1)
+        pairs.append(z)
+    q = lambda v: round(v * 1_000_000)
+    maximum = model.new_int_var(-100_000_000, 100_000_000, "max_view_error")
+    for view in range(6):
+        prediction = q(data["e0"][view]) + sum(
+            choices[i][o] * q(data["delta"][i][o][view])
+            for i, row in enumerate(choices) for o in range(len(row)))
+        prediction += sum(z * q(pair["correction"][view])
+                          for z, pair in zip(pairs, data["pairs"]))
+        model.add(maximum >= prediction)
+    model.minimize(maximum)
+    solver = cp_model.CpSolver()
+    solver.parameters.num_search_workers = 1
+    solver.parameters.random_seed = 9107
+    solver.parameters.max_deterministic_time = 2.0
+    solver.parameters.max_time_in_seconds = 10.0
+    status = solver.solve(model)
+    result = {"status": solver.status_name(status), "wall_seconds": solver.wall_time,
+              "bound": solver.best_objective_bound, "scale": 1_000_000,
+              "branches": solver.num_branches, "conflicts": solver.num_conflicts}
+    if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
+        result["vector"] = [next(j for j, v in enumerate(row) if solver.value(v)) for row in choices]
+        result["objective"] = solver.objective_value
+    result["cpu_seconds"] = time.process_time() - began
+    result["deterministic_time"] = solver.response_proto.deterministic_time
+    return result
+
+
+if __name__ == "__main__":
+    if "--jsonl" in sys.argv:
+        for line in sys.stdin:
+            try:
+                result = solve(json.loads(line))
+            except Exception as exc:
+                result = {"error": str(exc), "exception": type(exc).__name__}
+            print(json.dumps(result), flush=True)
+    else:
+        json.dump(solve(json.load(sys.stdin)), sys.stdout)

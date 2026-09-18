@@ -1,0 +1,441 @@
+{
+  "scope": "Sharp CPU decoding only, not browser ImageBitmap decoding or shader evaluation.",
+  "sharpVersions": {
+    "aom": "3.15.0",
+    "archive": "3.8.9",
+    "cairo": "1.18.4",
+    "cgif": "0.5.3",
+    "exif": "0.6.26",
+    "expat": "2.8.3",
+    "ffi": "3.8.0",
+    "fontconfig": "2.18.3",
+    "freetype": "2.14.3",
+    "fribidi": "1.0.16",
+    "glib": "2.89.4",
+    "harfbuzz": "14.3.1",
+    "heif": "1.23.2",
+    "highway": "1.4.0",
+    "imagequant": "2.4.1",
+    "lcms": "2.19.1",
+    "mozjpeg": "0826579",
+    "pango": "1.58.2",
+    "pixman": "0.46.4",
+    "png": "1.6.58",
+    "proxy-libintl": "0.5",
+    "rsvg": "2.62.91",
+    "tiff": "4.7.2",
+    "uhdr": "2.0.2",
+    "vips": "8.18.6",
+    "webp": "1.6.0",
+    "xml2": "2.15.3",
+    "zlib-ng": "2.3.3",
+    "sharp": "0.35.4"
+  },
+  "rows": [
+    {
+      "index": 0,
+      "source": "FlightHelmet_Materials_RubberWoodMat_Normal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "27b2313802615c6cca44658583346b5947a82bab3c514d9d1414e5d3c5763e3e",
+      "glbPixelSHA256": "27b2313802615c6cca44658583346b5947a82bab3c514d9d1414e5d3c5763e3e",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 1,
+      "source": "FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "fd0b39d2508e162e8f80c9b1cd97a9467052d1f880e58c9385fa1867ce533fbf",
+      "glbPixelSHA256": "fd0b39d2508e162e8f80c9b1cd97a9467052d1f880e58c9385fa1867ce533fbf",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 2,
+      "source": "FlightHelmet_Materials_RubberWoodMat_BaseColor.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "3c2e23eaf130ec83bb24fa9699385f3a8a3dc08e27c37a4075217dfeb5e6ab15",
+      "glbPixelSHA256": "3c2e23eaf130ec83bb24fa9699385f3a8a3dc08e27c37a4075217dfeb5e6ab15",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 3,
+      "source": "FlightHelmet_Materials_GlassPlasticMat_Normal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "af5df60b12ad642e8d7cd7ffbbc7fc13b396f8179e725fc83e7f154247090d8d",
+      "glbPixelSHA256": "af5df60b12ad642e8d7cd7ffbbc7fc13b396f8179e725fc83e7f154247090d8d",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 4,
+      "source": "FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "0c747ec7a20f0309af7625f9f2e5f07bb39fa62aa41f313d984a7f6f318d6bb4",
+      "glbPixelSHA256": "0c747ec7a20f0309af7625f9f2e5f07bb39fa62aa41f313d984a7f6f318d6bb4",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 5,
+      "source": "FlightHelmet_Materials_GlassPlasticMat_BaseColor.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "557241815a07b5cce2e62e56df760a8256626f273be6962f71aa03254d319f4e",
+      "glbPixelSHA256": "557241815a07b5cce2e62e56df760a8256626f273be6962f71aa03254d319f4e",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 6,
+      "source": "FlightHelmet_Materials_MetalPartsMat_Normal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "5c33d0e439dbd614bad53ea03e1373a5782dfe87d753012f5b2c1b79138a866e",
+      "glbPixelSHA256": "5c33d0e439dbd614bad53ea03e1373a5782dfe87d753012f5b2c1b79138a866e",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 7,
+      "source": "FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "a7f981bfd526b677c3ef9e29fce34438773968003cf5db8c2d49f218fc72b8b3",
+      "glbPixelSHA256": "a7f981bfd526b677c3ef9e29fce34438773968003cf5db8c2d49f218fc72b8b3",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 8,
+      "source": "FlightHelmet_Materials_MetalPartsMat_BaseColor.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "ba598b22b0843b7e93d9abdbec78669e4029052f98612b4e89b1cbf43ef2d7c4",
+      "glbPixelSHA256": "ba598b22b0843b7e93d9abdbec78669e4029052f98612b4e89b1cbf43ef2d7c4",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 9,
+      "source": "FlightHelmet_Materials_LeatherPartsMat_Normal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "a0fb78e086d61babc074b8c005bdc77a2bf6cdabdcefe852e654f0f40b4fe22b",
+      "glbPixelSHA256": "a0fb78e086d61babc074b8c005bdc77a2bf6cdabdcefe852e654f0f40b4fe22b",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 10,
+      "source": "FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "ea1a89717de7af3c60b68559700466d3912bfb30a5de9ae437777e8388b0b6f3",
+      "glbPixelSHA256": "ea1a89717de7af3c60b68559700466d3912bfb30a5de9ae437777e8388b0b6f3",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 11,
+      "source": "FlightHelmet_Materials_LeatherPartsMat_BaseColor.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 2048,
+        "height": 2048,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 16777216
+      },
+      "sourcePixelSHA256": "cfeda73a9b69c20f6f2d56b938ea08d4274efc26ef808dfd93b52823c688398f",
+      "glbPixelSHA256": "cfeda73a9b69c20f6f2d56b938ea08d4274efc26ef808dfd93b52823c688398f",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 12,
+      "source": "FlightHelmet_Materials_LensesMat_Normal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "sourcePixelSHA256": "dae91b08e32616600d10dbc7d2209253494660ad8051240dd4fee2a0a0f8d85d",
+      "glbPixelSHA256": "dae91b08e32616600d10dbc7d2209253494660ad8051240dd4fee2a0a0f8d85d",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 13,
+      "source": "FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "sourcePixelSHA256": "ccac85a11975a3570f9aa489d52c73c9a4c957a77f19579ec9dcfca7af3d3997",
+      "glbPixelSHA256": "ccac85a11975a3570f9aa489d52c73c9a4c957a77f19579ec9dcfca7af3d3997",
+      "exactDecodedPixels": true
+    },
+    {
+      "index": 14,
+      "source": "FlightHelmet_Materials_LensesMat_BaseColor.png",
+      "sourceInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "glbInfo": {
+        "format": "raw",
+        "width": 1024,
+        "height": 1024,
+        "channels": 4,
+        "depth": "uchar",
+        "premultiplied": false,
+        "hasAlpha": true,
+        "size": 4194304
+      },
+      "sourcePixelSHA256": "a39f17ab1b1e504c5ec540a4757b94dafe36f3100a9496d30dcf0380f18749b7",
+      "glbPixelSHA256": "a39f17ab1b1e504c5ec540a4757b94dafe36f3100a9496d30dcf0380f18749b7",
+      "exactDecodedPixels": true
+    }
+  ]
+}

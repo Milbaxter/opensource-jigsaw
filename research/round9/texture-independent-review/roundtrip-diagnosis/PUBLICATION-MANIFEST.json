@@ -1,0 +1,65 @@
+{
+  "time_utc": "2026-09-18T12:39:08.507171+00:00",
+  "source_files": [
+    {
+      "path": "work/round9-render-budget/runtime/node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16"
+    },
+    {
+      "path": "work/round9-render-budget/runtime/node_modules/three/src/renderers/WebGLRenderer.js",
+      "sha256": "9e8740aad691246b31b3704014e8f3bbd38a8e7bf4b1b4d23868541b023cc63a"
+    },
+    {
+      "path": "work/round9-render-budget/runtime/node_modules/three/src/renderers/webgl/WebGLRenderLists.js",
+      "sha256": "3139dfcd01675333266c02d853a768913318f353e694de39545aa50747d2011a"
+    }
+  ],
+  "files": [
+    {
+      "path": "DIAGNOSIS.md",
+      "bytes": 8559,
+      "sha256": "ed1e21610867bc4d428d0ad6714b24212e025e5d03db52098c624219ed511837"
+    },
+    {
+      "path": "compare_raw.py",
+      "bytes": 5327,
+      "sha256": "c6af7363dff481ce72ea74c47714f4024996349ec0285c43bf6ceabdfe1211a9"
+    },
+    {
+      "path": "decode_pngs.mjs",
+      "bytes": 1804,
+      "sha256": "54c92a674e294f3186b38ad549d0e328416ba16ec9817929f0e56e73c4ba52c4"
+    },
+    {
+      "path": "RAW-SEMANTIC-DIFF.json",
+      "bytes": 34375,
+      "sha256": "f681a141c7492682280ffdee4c0a50045d8c87e7841845cedc25de0cde6dd94a"
+    },
+    {
+      "path": "DECODED-IMAGE-DIFF.json",
+      "bytes": 12666,
+      "sha256": "2ed1d1ea0a70ef69346005ff275c19b793cf3c3b8026786a6d05a5abd336c5cb"
+    },
+    {
+      "path": "ATTEMPTS.md",
+      "bytes": 224,
+      "sha256": "55ddf45f5bd12c63860863d7eefb3aeaff9717c0665ef4415707ec28a7b2c128"
+    },
+    {
+      "path": "check_diagnostic.mjs",
+      "bytes": 1980,
+      "sha256": "ebbe997f5ef0ff025d56cd636e9c44445447a3f11ae955535be2b530b9e2cf93"
+    },
+    {
+      "path": "DIAGNOSTIC-VERIFICATION.json",
+      "bytes": 1725,
+      "sha256": "10e7abd7bc235c1927a100fbe6308cee8e752f63a55afbe3bac141ff247c6e20"
+    },
+    {
+      "path": "AMENDMENT-HASH-CHECK.json",
+      "bytes": 79097,
+      "sha256": "f75c2fe349b5c25fa1a9086765029de090ec4ae89e5074c63790e246e184fb5e"
+    }
+  ],
+  "scope": "Independent static semantic diagnosis, saved-image diagnostic verification and prospective amendment source/hash review. No new rendering or optimization. Original control remains failed."
+}

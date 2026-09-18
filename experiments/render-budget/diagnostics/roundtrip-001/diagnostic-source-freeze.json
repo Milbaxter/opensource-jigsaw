@@ -1,0 +1,18 @@
+{
+  "prepared_utc": "2026-09-18T12:29:20.897189+00:00",
+  "parent_authorized_diagnostic_only": true,
+  "files": [
+    {
+      "path": "PLAN.md",
+      "sha256": "cbac6f3d00f49117ebb259b2413f6cfd39e23e3fa0291c8ef0e7f91261f42256"
+    },
+    {
+      "path": "render-diagnostic.html",
+      "sha256": "12c8eab0aab218b53a261b5a7726ae665160b40ebb7c7bff2b3d69df4221fc6e"
+    },
+    {
+      "path": "run-diagnostic.mjs",
+      "sha256": "99de0ea0403f7878f2a3844169363ef5c322672b7a62308160a4b942f08ee5b7"
+    }
+  ]
+}

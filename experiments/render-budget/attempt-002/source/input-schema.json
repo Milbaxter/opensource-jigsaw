@@ -1,0 +1,100 @@
+[
+  {
+    "model": "FlightHelmet",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet.gltf",
+    "sha256": "c9c16c8b85749f62f38ec6069700e5388c6894d8e566f51a35cc270255402cd3",
+    "json_bytes": 18698,
+    "texture_objects": 15,
+    "image_objects": 15,
+    "materials": 6,
+    "cameras": 0,
+    "buffer_bytes": 3227148,
+    "extensions": [
+      "KHR_materials_transmission"
+    ],
+    "listed_gltf_directory_bytes": 48392569,
+    "image_uris": [
+      "FlightHelmet_Materials_RubberWoodMat_Normal.png",
+      "FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.png",
+      "FlightHelmet_Materials_RubberWoodMat_BaseColor.png",
+      "FlightHelmet_Materials_GlassPlasticMat_Normal.png",
+      "FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.png",
+      "FlightHelmet_Materials_GlassPlasticMat_BaseColor.png",
+      "FlightHelmet_Materials_MetalPartsMat_Normal.png",
+      "FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.png",
+      "FlightHelmet_Materials_MetalPartsMat_BaseColor.png",
+      "FlightHelmet_Materials_LeatherPartsMat_Normal.png",
+      "FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.png",
+      "FlightHelmet_Materials_LeatherPartsMat_BaseColor.png",
+      "FlightHelmet_Materials_LensesMat_Normal.png",
+      "FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.png",
+      "FlightHelmet_Materials_LensesMat_BaseColor.png"
+    ]
+  },
+  {
+    "model": "ToyCar",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar.gltf",
+    "sha256": "8e7341dfb0429663d0e93455757ea151cfd4fc5e4a7bc9e55d577bb5b498beb5",
+    "json_bytes": 17626,
+    "texture_objects": 8,
+    "image_objects": 8,
+    "materials": 3,
+    "cameras": 8,
+    "buffer_bytes": 3664368,
+    "extensions": [
+      "KHR_texture_transform",
+      "KHR_materials_clearcoat",
+      "KHR_materials_transmission",
+      "KHR_materials_sheen"
+    ],
+    "listed_gltf_directory_bytes": 5432398,
+    "image_uris": [
+      "ToyCar_normal.png",
+      "ToyCar_emissive.png",
+      "ToyCar_basecolor.png",
+      "ToyCar_occlusion_roughness_metallic.png",
+      "Fabric_normal.png",
+      "Fabric_occlusion.png",
+      "Fabric_baseColor.png",
+      "ToyCar_clearcoat.png"
+    ]
+  },
+  {
+    "model": "WaterBottle",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle.gltf",
+    "sha256": "0596f4e61dc781439d254fdfb5e3462daf1762c18715e3e3ac13001aa8f3f547",
+    "json_bytes": 2727,
+    "texture_objects": 4,
+    "image_objects": 4,
+    "materials": 1,
+    "cameras": 0,
+    "buffer_bytes": 149412,
+    "extensions": [],
+    "listed_gltf_directory_bytes": 8967656,
+    "image_uris": [
+      "WaterBottle_baseColor.png",
+      "WaterBottle_occlusionRoughnessMetallic.png",
+      "WaterBottle_normal.png",
+      "WaterBottle_emissive.png"
+    ]
+  },
+  {
+    "model": "BoomBox",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox.gltf",
+    "sha256": "b1d2e0e56864c71a4b65fc560bfc1572b1eb32cfb9c8e86d06e6f9ace2803a43",
+    "json_bytes": 2702,
+    "texture_objects": 4,
+    "image_objects": 4,
+    "materials": 1,
+    "cameras": 0,
+    "buffer_bytes": 207816,
+    "extensions": [],
+    "listed_gltf_directory_bytes": 10615115,
+    "image_uris": [
+      "BoomBox_baseColor.png",
+      "BoomBox_occlusionRoughnessMetallic.png",
+      "BoomBox_normal.png",
+      "BoomBox_emissive.png"
+    ]
+  }
+]

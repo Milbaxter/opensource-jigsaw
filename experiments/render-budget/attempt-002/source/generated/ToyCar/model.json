@@ -1,0 +1,4548 @@
+{
+  "name": "ToyCar",
+  "images": [
+    {
+      "source": "ToyCar_normal.png",
+      "roles": [
+        {
+          "role": "normal",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": false,
+      "normal": true,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/ToyCar_normal.png",
+          "mime": "image/png",
+          "bytes": 98429,
+          "sha256": "f3af8fd862a8a1ed13b6cf508d4edc3df6a484c43ed32bc5927a03b452515833",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-0-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 65020,
+          "sha256": "dfa75d73852cba0020c4a02d829e4c553b6666aaadc4700bc479a39295bd7bcf",
+          "distortion": 0.01287880949921889,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-0-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 19742,
+          "sha256": "8b2d5bbc774f8bc57b695d54cdf581a13be2cd07614aad68d76734a934e00cd7",
+          "distortion": 0.026782069551076766,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-0-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 1694,
+          "sha256": "74a890d47f707489a51aa7b55b15f0ccd5f090f6015e43459a0b2526607214a0",
+          "distortion": 0.03284065832792318,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-0-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 34182,
+          "sha256": "788fd573c47ee2764eb4e958de2d45f95c9e6b7d4f3f8ea37bcddb5df082cb7f",
+          "distortion": 0.022081131176085986,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-0-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 11195,
+          "sha256": "cbc576aba2d88f1375b53dc63fb01c7f05fb139313844c6217c8633d18c8ad0b",
+          "distortion": 0.02730102347139411,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-0-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 4699,
+          "sha256": "a09a545880b0ef65ef178a9b02500407364fa2ad116d73c53778140bf451b5f2",
+          "distortion": 0.03214017132843018,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-0-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 98455,
+          "sha256": "6cae0f6bdc3071c69d3cd1f38c6468b7f4c07ab21ac3236992633743c4b6d032",
+          "distortion": 0.005251681943067119,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-0-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 45234,
+          "sha256": "d8707fa31608de49274d0ceab5b4ea71b44fd47af9dafc98c5a1c248f14b0d74",
+          "distortion": 0.016448649203117584,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-0-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 19142,
+          "sha256": "9c8c337e8b52a897e282978df931e0635adbc9f5a0fc98495783a3055b195be8",
+          "distortion": 0.029583354782764013,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "ToyCar_emissive.png",
+      "roles": [
+        {
+          "role": "color",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": true,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/ToyCar_emissive.png",
+          "mime": "image/png",
+          "bytes": 83739,
+          "sha256": "f35fdda6764b6b6521296326143a654f6cae13c082fd6021e766677c422cf7e6",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-1-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 15250,
+          "sha256": "9242fdc7dcfa13507f16217c1f0edbdffbc30b7ec1d963dfc4aa1a4f99415521",
+          "distortion": 0.0016143674164806133,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-1-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 3230,
+          "sha256": "0eaeb38e3b2d2c7c7847a41cc9a9c76106aa8ba4e6adbeb6e40772ee51422a72",
+          "distortion": 0.003204750858878098,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-1-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 492,
+          "sha256": "75355fc55b432df1af5237d0ed2f614ac11789d12c0223c9185398ed3e0fa346",
+          "distortion": 0.00398794560650243,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-1-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 23064,
+          "sha256": "d2ef5b7b7c3b5ddd7deebe1c22a001eb98eb1c94383fcf882a7a23927377d330",
+          "distortion": 0.0010417651506805555,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-1-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 7929,
+          "sha256": "661d05d05f16b5a94762f9c8503442da5fbe2082968a8e19b187cd7452a5bce7",
+          "distortion": 0.0027470083797661374,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-1-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 2875,
+          "sha256": "a03c70b6ea07672e49f07157088e9ef05ef686eac54af9cfac8b2b2c8a534227",
+          "distortion": 0.0037992415085310797,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-1-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 67893,
+          "sha256": "89d8edbd71e11d2603253d686f8b6c2579a7d5e64ebf2b1f62d5ac745af3df1f",
+          "distortion": 0.00011284772087553308,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-1-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 21110,
+          "sha256": "735ef968e1b9ae072dc23184e3807ae954b7c30624dcfe93a7325b4840a4a26e",
+          "distortion": 0.002492560592350629,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-1-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 7777,
+          "sha256": "3c07856a03df02595d12b3e527053ef8d1af8cba21c384d6dc548827fe983187",
+          "distortion": 0.003676524193455866,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "ToyCar_basecolor.png",
+      "roles": [
+        {
+          "role": "color",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": true,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/ToyCar_basecolor.png",
+          "mime": "image/png",
+          "bytes": 196648,
+          "sha256": "7d51b5df33344f00dbc248f9a6043a7eaa6864b9f7ece1fb90f884a425423ed7",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-2-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 23828,
+          "sha256": "5696cad4d150206f38c65291439f66f5b7ab35facaeba83c2033212f09209dfa",
+          "distortion": 0.0039553112454008615,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-2-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 11372,
+          "sha256": "7e46cbf2d11dc39297cf94559a54494d984e1736b59ee232c4d24ab0e5394110",
+          "distortion": 0.009583262524561802,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-2-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 4800,
+          "sha256": "906ef2ae3412a8053545804c086ff992d72b1558944fe2b35e0b9b0a48961140",
+          "distortion": 0.016136904947230007,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-2-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 42994,
+          "sha256": "ba84ef6b58c0adfc1f45762f5078d81284a87d2777c5b11718931ab1546fa01b",
+          "distortion": 0.007230550479249156,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-2-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 19393,
+          "sha256": "8170657c0508ebd7dc5a854b98fa951b872dc799c5ae016b7e593e38df0ed5b0",
+          "distortion": 0.011653579761848724,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-2-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 8230,
+          "sha256": "935bf214a6dd22a152cdbb6a416549c86ae15f485c9985a74aef9594268fcc38",
+          "distortion": 0.018107669805520022,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-2-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 196181,
+          "sha256": "90ce9f93c6e6c2ec495afa0400f8c84ebde629ea2354f8d7b0e37ff8e1713df9",
+          "distortion": 0.00048728893005750524,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-2-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 71625,
+          "sha256": "10ba7bb00823e50bd6a1f86cf9370e37358de6f8a2806f404230b448334d0dbb",
+          "distortion": 0.0060509052151935284,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-2-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 25534,
+          "sha256": "189fc748e79dc8090d91b3d5ee61bdad7d4cbf8536cc6c13b3b03f3d0412c02e",
+          "distortion": 0.010742828269423582,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "ToyCar_occlusion_roughness_metallic.png",
+      "roles": [
+        {
+          "role": "data",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": false,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/ToyCar_occlusion_roughness_metallic.png",
+          "mime": "image/png",
+          "bytes": 457137,
+          "sha256": "22911f36dc5e9a3b2acc6dfb8f7946f4c963b5296ab10e8dc6cce260140ce8a3",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-3-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 51892,
+          "sha256": "1568e51997f1e7ceb774b26141965c8b5c16548bbff483e3e03ed612890d252c",
+          "distortion": 0.00830527162242472,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-3-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 21538,
+          "sha256": "01ea2d8e8c2475cf961e1e71c06ad39451fff87f67dd4a506130fbb2cb135b0f",
+          "distortion": 0.016059264638162343,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-3-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 9162,
+          "sha256": "89916f7b96e62529d3d924f2bb5421d7cc822e6586ce252a71412ee8a22e1fb8",
+          "distortion": 0.02663137647849048,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-3-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 74195,
+          "sha256": "e012f56a03b7763b3a58807a6f12ba6966cd20ea9f97f6191dc30c236b6bb7b5",
+          "distortion": 0.012675262900050284,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-3-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 31302,
+          "sha256": "d3e20ecc3254cc29abec38df808a6931007705a38167d5da673d7d536a12828c",
+          "distortion": 0.021377929986770863,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-3-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 11446,
+          "sha256": "89e5f22b4620d3c6b0195d16903067d934f461997285824c3de8b216f095b9f0",
+          "distortion": 0.03406776478093566,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-3-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 616996,
+          "sha256": "062661192e0e1c705e37d7ff8f95186a6cafa2662205604f1f169ae9be2a7dc8",
+          "distortion": 0.0007046793021394242,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-3-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 186897,
+          "sha256": "ca80e8ce300b3935a4a097fb2a8d058070b93c1079f9d166a5bfeb428d6cd07c",
+          "distortion": 0.0067334792193240265,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-3-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 55510,
+          "sha256": "3239ee0f4e7ad1599b8361258709fc734b41e98aae4b7cc3cd49e160b44f650f",
+          "distortion": 0.011290955387739693,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "Fabric_normal.png",
+      "roles": [
+        {
+          "role": "normal",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": false,
+      "normal": true,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/Fabric_normal.png",
+          "mime": "image/png",
+          "bytes": 294759,
+          "sha256": "24aee901f99facf761329b374b46a83d83060fecac88aa290e2cb92c2f6b90c2",
+          "distortion": 0,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-4-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 12872,
+          "sha256": "7c8b970f0c6879d0f967e7f36c6d17a26db475357704814d8303739413aba981",
+          "distortion": 0.011901978916162763,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-4-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 4110,
+          "sha256": "56430ffb8d5dccaadc63bf87df32837a1cf213b2b610b00b65a7fbba7a489e04",
+          "distortion": 0.015028403035685721,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-4-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 1418,
+          "sha256": "743d7413364584d86f6ee554c9a076cf5a3e08d5f18c29643d42709f1bb2eecf",
+          "distortion": 0.017980702559874648,
+          "width": 128,
+          "height": 128,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-4-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 34510,
+          "sha256": "7b039416ea00990ae330efea573e3d258dfe6596a53944de640eae1b6e2ec85b",
+          "distortion": 0.011612638442198134,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-4-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 10368,
+          "sha256": "54fc197d2dcbb10654ed398bd22bf0eed8038de8d658f624e006a9df2382c8d9",
+          "distortion": 0.015204611919136263,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-4-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 3610,
+          "sha256": "4f8f68c1f69d8d154cd232847e7a28d3ebb0e0f0cf7b92c1cbba347caaabe72d",
+          "distortion": 0.018996083723690056,
+          "width": 128,
+          "height": 128,
+          "metadata": {
+            "width": 128,
+            "height": 128,
+            "levels": 8,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-4-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 288707,
+          "sha256": "25c4924ba17b15d94f9afb89e1429e0d7b495019d8c1f9fc06bcc78263f12274",
+          "distortion": 0.003331419255197922,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-4-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 75606,
+          "sha256": "f9e87f94eb46fa079bfeae365efe8348134f23c2a82fbc30b21a21f00c5f154d",
+          "distortion": 0.008957752070966283,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-4-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 19933,
+          "sha256": "a4047caf547bc4d41096533453ce2e045a169c9110224e79bb4385dba69c43b2",
+          "distortion": 0.01159778459623533,
+          "width": 128,
+          "height": 128,
+          "metadata": {
+            "width": 128,
+            "height": 128,
+            "levels": 8,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "Fabric_occlusion.png",
+      "roles": [
+        {
+          "role": "data",
+          "channels": [
+            0
+          ]
+        }
+      ],
+      "color": false,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/Fabric_occlusion.png",
+          "mime": "image/png",
+          "bytes": 191518,
+          "sha256": "b9e421842b576be7cf98a8fb8103ebf371b1d3d13eb226379ec4b5d8b8db3fcd",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-5-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 16170,
+          "sha256": "9b8bc7b4ac1720b0c129b7bbda194168c5ebe0cb95cf23e46eadcca8c2274829",
+          "distortion": 0.0030017665788213102,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-5-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 7332,
+          "sha256": "001c1dbee03984d20f4e4c4473c45671c61e5d0ac088323f523f691d7437d282",
+          "distortion": 0.004748643613325017,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-5-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 3462,
+          "sha256": "86beb5939a6ca264d06b5551f7ab0aab6605b947e3c5ed9e069f83fbbeafd468",
+          "distortion": 0.006262203291345259,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-5-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 98811,
+          "sha256": "2d305084921c4554f84e617567be73f8bbccfbc795a92009d4a2f65e5b392564",
+          "distortion": 0.0031106537463591317,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-5-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 36582,
+          "sha256": "f50cffccbca534d5f89c96f2ecca2b3d34a1133cc01857958550df1ca510f709",
+          "distortion": 0.004373651392315863,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-5-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 11855,
+          "sha256": "be1f49f3a445872e6f91c5f106ef1c155d485bdb6a4fa04ccf568645c5b62d72",
+          "distortion": 0.006395792493627646,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-5-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 574769,
+          "sha256": "8549ff5598897995a2773604085a8b439e7a2a67bd804c48a76f32436afca2e4",
+          "distortion": 0.0002842734841737692,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-5-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 201929,
+          "sha256": "b6a05c9513716e6d334f9baf29766ee3cf06f58fe585bb8bd5962d54d02041fe",
+          "distortion": 0.0026798023897036255,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-5-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 63767,
+          "sha256": "8c3d2ba46e77821fea0b5bca617bd88a73b127d395a3b0bef71053b53c35bb4f",
+          "distortion": 0.0034225426468165623,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "Fabric_baseColor.png",
+      "roles": [
+        {
+          "role": "color",
+          "channels": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "color": true,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/Fabric_baseColor.png",
+          "mime": "image/png",
+          "bytes": 412812,
+          "sha256": "2d37e6edee4d5249c7076847cd47a732596c0385ce596d8a8d92746b4b902ef7",
+          "distortion": 0,
+          "width": 512,
+          "height": 512
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-6-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 42572,
+          "sha256": "224ac99caf654b8f111249e792cbecc4ab63a7c3e58900ea46a12f93a72f8ae5",
+          "distortion": 0.024855036517357418,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-6-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 8034,
+          "sha256": "42b76f088628b5ec41040027e44b3b047eb23cecf84d710fdc26fd10c2d86566",
+          "distortion": 0.02836764466526942,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-6-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 554,
+          "sha256": "f8dc1ea5425c0b0a720dd9190bd8cf7115570b8ff6bcec0927fd3aca71643183",
+          "distortion": 0.02640834135166045,
+          "width": 128,
+          "height": 128,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-6-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 25654,
+          "sha256": "0320b656bb08365ca2cb2f6778bae1ea58b59cc616ef2168e0eea0cadd99b7e6",
+          "distortion": 0.0276425579793904,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-6-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 7064,
+          "sha256": "87dc36106ec577c98dcbe987a9edb12a545a11e2e516ddf8d67202210dc47eb9",
+          "distortion": 0.027499215119786244,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-6-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 1974,
+          "sha256": "9503f20b98eb3f8fb35307cca676b85d01ef451ea45cae66ac54f31f002e6866",
+          "distortion": 0.026453090493178857,
+          "width": 128,
+          "height": 128,
+          "metadata": {
+            "width": 128,
+            "height": 128,
+            "levels": 8,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-6-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 281215,
+          "sha256": "05b8e0c703dfed77ff585e02c80fbbc19877e0b56178082f601911b88680a40f",
+          "distortion": 0.00438424902024367,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-6-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 69183,
+          "sha256": "df98eae74129966b8cfec2dc46206b5589b290ed3ea31302c8e5560466c00989",
+          "distortion": 0.020484605178321125,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-6-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 17552,
+          "sha256": "d42edc2b5c6aed5cb2581f26acaefaef6267796db1ed49dd9c85251df8f5bcc4",
+          "distortion": 0.023933266035077134,
+          "width": 128,
+          "height": 128,
+          "metadata": {
+            "width": 128,
+            "height": 128,
+            "levels": 8,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 1,
+              "transferFunction": 2,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "source": "ToyCar_clearcoat.png",
+      "roles": [
+        {
+          "role": "data",
+          "channels": [
+            0
+          ]
+        }
+      ],
+      "color": false,
+      "normal": false,
+      "mixed": false,
+      "options": [
+        {
+          "codec": "original",
+          "fraction": 1,
+          "path": "inputs/ToyCar/glTF/ToyCar_clearcoat.png",
+          "mime": "image/png",
+          "bytes": 15362,
+          "sha256": "0dee4964f011c50bb1942cdc4f373f7e85277a3bbd75ae9f45261b763618f0ec",
+          "distortion": 0,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "codec": "webp",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-7-webp-1.webp",
+          "mime": "image/webp",
+          "bytes": 11012,
+          "sha256": "227527c0ffcf42ea786915e9622618d6d07f5d8d15fc5da2cbc63fc4a49ab48e",
+          "distortion": 0.00025881224987550237,
+          "width": 1024,
+          "height": 1024,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-7-webp-0.5.webp",
+          "mime": "image/webp",
+          "bytes": 5116,
+          "sha256": "fd386f9901cf3eecd3680ac58cf65b08e593d6733e17860882f1fcc29fbae5b3",
+          "distortion": 0.004338118609259126,
+          "width": 512,
+          "height": 512,
+          "metadata": null
+        },
+        {
+          "codec": "webp",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-7-webp-0.25.webp",
+          "mime": "image/webp",
+          "bytes": 2534,
+          "sha256": "22326c1fc32f50907fccac5f24c123d757501835752ff3abbf80a95d5043a157",
+          "distortion": 0.008371682260553516,
+          "width": 256,
+          "height": 256,
+          "metadata": null
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-7-etc1s-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 18294,
+          "sha256": "a4ba352af2640f129382bd1e130ece418d655df917f9b40e205b16384b4d5d4d",
+          "distortion": 0.00035267250210630765,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-7-etc1s-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 10243,
+          "sha256": "6bce3f2009342cc68cca624cc2915f343feb10e521d7b9cc3be2129557df660a",
+          "distortion": 0.0040588154512287795,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "etc1s",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-7-etc1s-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 5176,
+          "sha256": "1a605856e0df21b807fb3d0c2df37484236763a14d4081511af641c152926c69",
+          "distortion": 0.00789362963507823,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 163,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                8,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 63,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 1,
+          "path": "generated/ToyCar/image-7-uastc-1.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 44406,
+          "sha256": "59d60fc946e4adb4511229249176d3d239439d606ccfb291d1746002ed5d5772",
+          "distortion": 0.00006597556319891787,
+          "width": 1024,
+          "height": 1024,
+          "metadata": {
+            "width": 1024,
+            "height": 1024,
+            "levels": 11,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.5,
+          "path": "generated/ToyCar/image-7-uastc-0.5.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 24648,
+          "sha256": "db28001ce225b9bc09d2aafb46fbbfe27a067efe8d7ebec9c9f13344dc2a3c27",
+          "distortion": 0.004072750315946073,
+          "width": 512,
+          "height": 512,
+          "metadata": {
+            "width": 512,
+            "height": 512,
+            "levels": 10,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        },
+        {
+          "codec": "uastc",
+          "fraction": 0.25,
+          "path": "generated/ToyCar/image-7-uastc-0.25.ktx2",
+          "mime": "image/ktx2",
+          "bytes": 11735,
+          "sha256": "c5f44de2b7dbe6a34fc0dbcd2ca0698c320e602b22419d4c0c2897dc19eb478c",
+          "distortion": 0.007881403904331601,
+          "width": 256,
+          "height": 256,
+          "metadata": {
+            "width": 256,
+            "height": 256,
+            "levels": 9,
+            "orientation": "rd",
+            "swizzle": "",
+            "descriptor": {
+              "vendorId": 0,
+              "descriptorType": 0,
+              "versionNumber": 2,
+              "colorModel": 166,
+              "colorPrimaries": 0,
+              "transferFunction": 1,
+              "flags": 0,
+              "texelBlockDimension": [
+                3,
+                3,
+                0,
+                0
+              ],
+              "bytesPlane": [
+                16,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "samples": [
+                {
+                  "bitOffset": 0,
+                  "bitLength": 127,
+                  "channelType": 0,
+                  "samplePosition": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "sampleLower": 0,
+                  "sampleUpper": 4294967295
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "textureIndexToImage": [
+    2,
+    1,
+    0,
+    3,
+    6,
+    4,
+    5,
+    7
+  ],
+  "integrity": {
+    "sha256": "fca4f269fd324e17722a8837c73d95f904c70fe13b2791231248eda3f8426713",
+    "semantic": {
+      "scenes": [
+        [
+          {
+            "camera": null,
+            "rotation": [
+              0.7071068,
+              0,
+              0,
+              0.7071067
+            ],
+            "scale": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "mesh": {
+              "primitives": [
+                {
+                  "attributes": {
+                    "POSITION": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 66951,
+                      "sha256": "9ea213f75fcce49c0010ed0142451dc57a80b82ad23fd71ac8dbca86b89699bf"
+                    },
+                    "NORMAL": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 66951,
+                      "sha256": "fb481db3b53595943b930d9685f2a285c5308259d8496f69f7841448c02f51c3"
+                    },
+                    "TEXCOORD_0": {
+                      "type": "VEC2",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 66951,
+                      "sha256": "c0408e5b49dd2b39975f8fe6f8552837bc6049c513a363cb93fe93b24c702997"
+                    }
+                  },
+                  "mode": 4,
+                  "material": {
+                    "doubleSided": true,
+                    "pbrMetallicRoughness": {
+                      "baseColorTexture": {
+                        "sampler": {
+                          "magFilter": 9729,
+                          "minFilter": 9987,
+                          "wrapS": 10497,
+                          "wrapT": 10497
+                        },
+                        "imageIdentity": "source-image-2"
+                      },
+                      "metallicRoughnessTexture": {
+                        "sampler": {
+                          "magFilter": 9729,
+                          "minFilter": 9987,
+                          "wrapS": 10497,
+                          "wrapT": 10497
+                        },
+                        "imageIdentity": "source-image-3"
+                      }
+                    },
+                    "emissiveFactor": [
+                      1,
+                      1,
+                      1
+                    ],
+                    "emissiveTexture": {
+                      "sampler": {
+                        "magFilter": 9729,
+                        "minFilter": 9987,
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-1"
+                    },
+                    "normalTexture": {
+                      "sampler": {
+                        "magFilter": 9729,
+                        "minFilter": 9987,
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-0"
+                    },
+                    "occlusionTexture": {
+                      "sampler": {
+                        "magFilter": 9729,
+                        "minFilter": 9987,
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-3"
+                    },
+                    "extensions": {
+                      "KHR_materials_clearcoat": {
+                        "clearcoatFactor": 1,
+                        "clearcoatRoughnessFactor": 0,
+                        "clearcoatTexture": {
+                          "sampler": {
+                            "magFilter": 9729,
+                            "minFilter": 9987,
+                            "wrapS": 10497,
+                            "wrapT": 10497
+                          },
+                          "imageIdentity": "source-image-7"
+                        }
+                      }
+                    }
+                  },
+                  "indices": {
+                    "type": "SCALAR",
+                    "normalized": false,
+                    "componentType": 5125,
+                    "count": 266511,
+                    "sha256": "aa3700da4a6037ca57c53f46c4c9c9ae5dd2cf4b99849ed8289bce348fee623b"
+                  }
+                }
+              ]
+            },
+            "children": []
+          },
+          {
+            "camera": null,
+            "rotation": [
+              0.7071068,
+              0,
+              0,
+              0.7071067
+            ],
+            "scale": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "mesh": {
+              "primitives": [
+                {
+                  "attributes": {
+                    "POSITION": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 8959,
+                      "sha256": "ee3d33082c25c73ea0ef5cf433796c0cdbfa69df72750718e982a93675052bf0"
+                    },
+                    "NORMAL": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 8959,
+                      "sha256": "fd62c282f1911cce7d1f7849c06c1931d0333a8183978b1dd93c6ad24439fa3b"
+                    },
+                    "TEXCOORD_0": {
+                      "type": "VEC2",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 8959,
+                      "sha256": "fdb64b67722577e16bf811573335f5b58bbeb520434037c0a0204f5b1917a105"
+                    }
+                  },
+                  "mode": 4,
+                  "material": {
+                    "doubleSided": true,
+                    "pbrMetallicRoughness": {
+                      "baseColorFactor": [
+                        0.15,
+                        0.15,
+                        0.15,
+                        1
+                      ],
+                      "metallicFactor": 0,
+                      "baseColorTexture": {
+                        "sampler": {
+                          "magFilter": 9729,
+                          "minFilter": 9987,
+                          "wrapS": 10497,
+                          "wrapT": 10497
+                        },
+                        "imageIdentity": "source-image-6",
+                        "extensions": {
+                          "KHR_texture_transform": {
+                            "scale": [
+                              3,
+                              3
+                            ],
+                            "texCoord": 0
+                          }
+                        }
+                      }
+                    },
+                    "normalTexture": {
+                      "sampler": {
+                        "magFilter": 9729,
+                        "minFilter": 9987,
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-4",
+                      "extensions": {
+                        "KHR_texture_transform": {
+                          "scale": [
+                            3,
+                            3
+                          ],
+                          "texCoord": 0
+                        }
+                      }
+                    },
+                    "occlusionTexture": {
+                      "sampler": {
+                        "magFilter": 9729,
+                        "minFilter": 9987,
+                        "wrapS": 10497,
+                        "wrapT": 10497
+                      },
+                      "imageIdentity": "source-image-5",
+                      "extensions": {
+                        "KHR_texture_transform": {
+                          "texCoord": 0
+                        }
+                      }
+                    },
+                    "extensions": {
+                      "KHR_materials_sheen": {
+                        "sheenColorFactor": [
+                          1,
+                          0,
+                          0
+                        ],
+                        "sheenRoughnessFactor": 0.5
+                      }
+                    }
+                  },
+                  "indices": {
+                    "type": "SCALAR",
+                    "normalized": false,
+                    "componentType": 5123,
+                    "count": 52815,
+                    "sha256": "347dd50109b937a6e89e64d329b5a465c3e061629ef66819c10c0f075ee47126"
+                  }
+                }
+              ]
+            },
+            "children": []
+          },
+          {
+            "camera": null,
+            "rotation": [
+              0.7071068,
+              0,
+              0,
+              0.7071067
+            ],
+            "scale": [
+              0.0001,
+              0.0001,
+              0.0001
+            ],
+            "mesh": {
+              "primitives": [
+                {
+                  "attributes": {
+                    "POSITION": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 1519,
+                      "sha256": "25f8f42624ecb0f246de32a8e11e068821052b7b1a0a1f06769663a521b57459"
+                    },
+                    "NORMAL": {
+                      "type": "VEC3",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 1519,
+                      "sha256": "cb546c28981b0208dbe1be225feee0eafda09b0fdbe8a92722ded2fe29e27882"
+                    },
+                    "TEXCOORD_0": {
+                      "type": "VEC2",
+                      "normalized": false,
+                      "componentType": 5126,
+                      "count": 1519,
+                      "sha256": "92b736c763a6f7d11d7682e633ca8a801e9435b6afe8539c3eb34114999aac5f"
+                    }
+                  },
+                  "mode": 4,
+                  "material": {
+                    "pbrMetallicRoughness": {
+                      "baseColorFactor": [
+                        0.3,
+                        0.8,
+                        0.3,
+                        1
+                      ],
+                      "roughnessFactor": 0,
+                      "metallicFactor": 0
+                    },
+                    "extensions": {
+                      "KHR_materials_transmission": {
+                        "transmissionFactor": 1
+                      }
+                    }
+                  },
+                  "indices": {
+                    "type": "SCALAR",
+                    "normalized": false,
+                    "componentType": 5123,
+                    "count": 7482,
+                    "sha256": "caa648d5b1cca8bb03c2ddb987c2896cb5ea7d0dd7298fb272e19852f071a0a8"
+                  }
+                }
+              ]
+            },
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera001",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.9
+              }
+            },
+            "rotation": [
+              -0.330993533,
+              -0.274300218,
+              -0.101194724,
+              0.8971969
+            ],
+            "translation": [
+              -0.0169006381,
+              0.0253599286,
+              0.0302319955
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera002",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.41
+              }
+            },
+            "rotation": [
+              -0.12160936,
+              -0.2651013,
+              -0.03372518,
+              0.9559263
+            ],
+            "translation": [
+              -0.04332856,
+              0.0235993266,
+              0.0760967
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera003",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.68
+              }
+            },
+            "rotation": [
+              -0.103828281,
+              -0.298918,
+              -0.0327368826,
+              0.9480485
+            ],
+            "translation": [
+              -0.0121543175,
+              0.0101683857,
+              0.0269274339
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera004",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.63
+              }
+            },
+            "rotation": [
+              0.00262248516,
+              -0.333805561,
+              0.0009287149,
+              0.9426378
+            ],
+            "translation": [
+              -0.0391006,
+              -0.00724446634,
+              0.0497552231
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera005",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.96
+              }
+            },
+            "rotation": [
+              -0.0464569926,
+              -0.9334676,
+              -0.13119027,
+              0.330558747
+            ],
+            "translation": [
+              -0.00747511769,
+              0.0108056553,
+              -0.0208431184
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera006",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.96
+              }
+            },
+            "rotation": [
+              -0.118150666,
+              -0.881382942,
+              -0.307792783,
+              0.338331461
+            ],
+            "translation": [
+              -0.04173353,
+              0.027297115,
+              -0.04835121
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera007",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.96
+              }
+            },
+            "rotation": [
+              0.0496652424,
+              -0.9284824,
+              -0.134623677,
+              -0.3425349
+            ],
+            "translation": [
+              0.0137228724,
+              0.009173209,
+              -0.0244436264
+            ],
+            "mesh": null,
+            "children": []
+          },
+          {
+            "camera": {
+              "name": "Camera008",
+              "type": "perspective",
+              "perspective": {
+                "znear": 0.001,
+                "zfar": 2,
+                "yfov": 0.96
+              }
+            },
+            "rotation": [
+              -0.21798256,
+              -0.300790727,
+              -0.07082678,
+              0.9257387
+            ],
+            "translation": [
+              -0.006532357,
+              0.0125829373,
+              0.0118280016
+            ],
+            "mesh": null,
+            "children": []
+          }
+        ]
+      ],
+      "scene": 0
+    }
+  },
+  "originalBytes": 5422152,
+  "originalSha256": "312626338c1e19721a1275dc7e51a315b51533f1e46645f6ad04a6fcf3c24115",
+  "sourceJSON": {
+    "asset": {
+      "version": "2.0",
+      "generator": "babylon.js glTF exporter for 3dsmax 2020 v20200721.1",
+      "copyright": "Public domain (CC0). Toy car model created by Guido Odendahl. Materials edited by Eric Chadwick."
+    },
+    "extensionsUsed": [
+      "KHR_texture_transform",
+      "KHR_materials_clearcoat",
+      "KHR_materials_transmission",
+      "KHR_materials_sheen"
+    ],
+    "scene": 0,
+    "scenes": [
+      {
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "nodes": [
+      {
+        "name": "ToyCar",
+        "mesh": 0,
+        "rotation": [
+          0.7071068,
+          0,
+          0,
+          0.7071067
+        ],
+        "scale": [
+          0.0001,
+          0.0001,
+          0.0001
+        ]
+      },
+      {
+        "name": "Fabric",
+        "mesh": 1,
+        "rotation": [
+          0.7071068,
+          0,
+          0,
+          0.7071067
+        ],
+        "scale": [
+          0.0001,
+          0.0001,
+          0.0001
+        ]
+      },
+      {
+        "name": "Glass",
+        "mesh": 2,
+        "rotation": [
+          0.7071068,
+          0,
+          0,
+          0.7071067
+        ],
+        "scale": [
+          0.0001,
+          0.0001,
+          0.0001
+        ]
+      },
+      {
+        "camera": 0,
+        "translation": [
+          -0.0169006381,
+          0.0253599286,
+          0.0302319955
+        ],
+        "rotation": [
+          -0.330993533,
+          -0.274300218,
+          -0.101194724,
+          0.8971969
+        ],
+        "scale": [
+          1.00000024,
+          1,
+          1.00000012
+        ],
+        "name": "Camera001"
+      },
+      {
+        "camera": 1,
+        "translation": [
+          -0.04332856,
+          0.0235993266,
+          0.0760967
+        ],
+        "rotation": [
+          -0.12160936,
+          -0.2651013,
+          -0.03372518,
+          0.9559263
+        ],
+        "scale": [
+          0.99999994,
+          1.00000036,
+          1.00000024
+        ],
+        "name": "Camera002"
+      },
+      {
+        "camera": 2,
+        "translation": [
+          -0.0121543175,
+          0.0101683857,
+          0.0269274339
+        ],
+        "rotation": [
+          -0.103828281,
+          -0.298918,
+          -0.0327368826,
+          0.9480485
+        ],
+        "scale": [
+          0.99999994,
+          1.00000012,
+          0.99999994
+        ],
+        "name": "Camera003"
+      },
+      {
+        "camera": 3,
+        "translation": [
+          -0.0391006,
+          -0.00724446634,
+          0.0497552231
+        ],
+        "rotation": [
+          0.00262248516,
+          -0.333805561,
+          0.0009287149,
+          0.9426378
+        ],
+        "scale": [
+          1.00000012,
+          1.00000024,
+          1.00000012
+        ],
+        "name": "Camera004"
+      },
+      {
+        "camera": 4,
+        "translation": [
+          -0.00747511769,
+          0.0108056553,
+          -0.0208431184
+        ],
+        "rotation": [
+          -0.0464569926,
+          -0.9334676,
+          -0.13119027,
+          0.330558747
+        ],
+        "scale": [
+          1,
+          0.99999994,
+          1.00000036
+        ],
+        "name": "Camera005"
+      },
+      {
+        "camera": 5,
+        "translation": [
+          -0.04173353,
+          0.027297115,
+          -0.04835121
+        ],
+        "rotation": [
+          -0.118150666,
+          -0.881382942,
+          -0.307792783,
+          0.338331461
+        ],
+        "scale": [
+          0.9999998,
+          0.999999762,
+          1.00000012
+        ],
+        "name": "Camera006"
+      },
+      {
+        "camera": 6,
+        "translation": [
+          0.0137228724,
+          0.009173209,
+          -0.0244436264
+        ],
+        "rotation": [
+          0.0496652424,
+          -0.9284824,
+          -0.134623677,
+          -0.3425349
+        ],
+        "scale": [
+          0.99999994,
+          1.00000012,
+          0.999999762
+        ],
+        "name": "Camera007"
+      },
+      {
+        "camera": 7,
+        "translation": [
+          -0.006532357,
+          0.0125829373,
+          0.0118280016
+        ],
+        "rotation": [
+          -0.21798256,
+          -0.300790727,
+          -0.07082678,
+          0.9257387
+        ],
+        "scale": [
+          1,
+          1.00000012,
+          0.99999994
+        ],
+        "name": "Camera008"
+      }
+    ],
+    "cameras": [
+      {
+        "perspective": {
+          "yfov": 0.9,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera001"
+      },
+      {
+        "perspective": {
+          "yfov": 0.41,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera002"
+      },
+      {
+        "perspective": {
+          "yfov": 0.68,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera003"
+      },
+      {
+        "perspective": {
+          "yfov": 0.63,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera004"
+      },
+      {
+        "perspective": {
+          "yfov": 0.96,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera005"
+      },
+      {
+        "perspective": {
+          "yfov": 0.96,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera006"
+      },
+      {
+        "perspective": {
+          "yfov": 0.96,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera007"
+      },
+      {
+        "perspective": {
+          "yfov": 0.96,
+          "zfar": 2,
+          "znear": 0.001
+        },
+        "type": "perspective",
+        "name": "Camera008"
+      }
+    ],
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "attributes": {
+              "POSITION": 1,
+              "NORMAL": 2,
+              "TEXCOORD_0": 3
+            },
+            "indices": 0,
+            "material": 0
+          }
+        ],
+        "name": "ToyCar"
+      },
+      {
+        "primitives": [
+          {
+            "attributes": {
+              "POSITION": 5,
+              "NORMAL": 6,
+              "TEXCOORD_0": 7
+            },
+            "indices": 4,
+            "material": 1
+          }
+        ],
+        "name": "Fabric"
+      },
+      {
+        "primitives": [
+          {
+            "attributes": {
+              "POSITION": 9,
+              "NORMAL": 10,
+              "TEXCOORD_0": 11
+            },
+            "indices": 8,
+            "material": 2
+          }
+        ],
+        "name": "Glass"
+      }
+    ],
+    "accessors": [
+      {
+        "bufferView": 0,
+        "componentType": 5125,
+        "count": 266511,
+        "type": "SCALAR",
+        "name": "accessorIndices"
+      },
+      {
+        "bufferView": 1,
+        "componentType": 5126,
+        "count": 66951,
+        "max": [
+          93.5376358,
+          189.744751,
+          -9.92424
+        ],
+        "min": [
+          -93.53764,
+          -194.049515,
+          -126.166245
+        ],
+        "type": "VEC3",
+        "name": "accessorPositions"
+      },
+      {
+        "bufferView": 1,
+        "byteOffset": 803412,
+        "componentType": 5126,
+        "count": 66951,
+        "type": "VEC3",
+        "name": "accessorNormals"
+      },
+      {
+        "bufferView": 2,
+        "componentType": 5126,
+        "count": 66951,
+        "type": "VEC2",
+        "name": "accessorUVs"
+      },
+      {
+        "bufferView": 0,
+        "byteOffset": 1066044,
+        "componentType": 5123,
+        "count": 52815,
+        "type": "SCALAR",
+        "name": "accessorIndices"
+      },
+      {
+        "bufferView": 1,
+        "byteOffset": 1606824,
+        "componentType": 5126,
+        "count": 8959,
+        "max": [
+          384.478271,
+          369.811462,
+          162.062759
+        ],
+        "min": [
+          -349.9509,
+          -369.811523,
+          -10.1260958
+        ],
+        "type": "VEC3",
+        "name": "accessorPositions"
+      },
+      {
+        "bufferView": 1,
+        "byteOffset": 1714332,
+        "componentType": 5126,
+        "count": 8959,
+        "type": "VEC3",
+        "name": "accessorNormals"
+      },
+      {
+        "bufferView": 2,
+        "byteOffset": 535608,
+        "componentType": 5126,
+        "count": 8959,
+        "type": "VEC2",
+        "name": "accessorUVs"
+      },
+      {
+        "bufferView": 0,
+        "byteOffset": 1171676,
+        "componentType": 5123,
+        "count": 7482,
+        "type": "SCALAR",
+        "name": "accessorIndices"
+      },
+      {
+        "bufferView": 1,
+        "byteOffset": 1821840,
+        "componentType": 5126,
+        "count": 1519,
+        "max": [
+          57.41104,
+          91.125824,
+          -89.59808
+        ],
+        "min": [
+          -57.41105,
+          -93.18028,
+          -120.691849
+        ],
+        "type": "VEC3",
+        "name": "accessorPositions"
+      },
+      {
+        "bufferView": 1,
+        "byteOffset": 1840068,
+        "componentType": 5126,
+        "count": 1519,
+        "type": "VEC3",
+        "name": "accessorNormals"
+      },
+      {
+        "bufferView": 2,
+        "byteOffset": 607280,
+        "componentType": 5126,
+        "count": 1519,
+        "type": "VEC2",
+        "name": "accessorUVs"
+      }
+    ],
+    "bufferViews": [
+      {
+        "buffer": 0,
+        "byteLength": 1186640,
+        "name": "bufferViewScalar",
+        "target": 34963
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 1186640,
+        "byteLength": 1858296,
+        "byteStride": 12,
+        "name": "bufferViewFloatVec3",
+        "target": 34962
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 3044936,
+        "byteLength": 619432,
+        "byteStride": 8,
+        "name": "bufferViewFloatVec2",
+        "target": 34962
+      }
+    ],
+    "buffers": [
+      {
+        "uri": "ToyCar.bin",
+        "byteLength": 3664368
+      }
+    ],
+    "materials": [
+      {
+        "name": "ToyCar",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorTexture": {
+            "index": 2
+          },
+          "metallicRoughnessTexture": {
+            "index": 3
+          }
+        },
+        "normalTexture": {
+          "index": 0
+        },
+        "occlusionTexture": {
+          "index": 3
+        },
+        "emissiveTexture": {
+          "index": 1
+        },
+        "emissiveFactor": [
+          1,
+          1,
+          1
+        ],
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 1,
+            "clearcoatTexture": {
+              "index": 7,
+              "texCoord": 0
+            }
+          }
+        }
+      },
+      {
+        "name": "Fabric",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.15,
+            0.15,
+            0.15,
+            1
+          ],
+          "baseColorTexture": {
+            "index": 6,
+            "extensions": {
+              "KHR_texture_transform": {
+                "offset": [
+                  0,
+                  0
+                ],
+                "scale": [
+                  3,
+                  3
+                ],
+                "texCoord": 0
+              }
+            }
+          },
+          "metallicFactor": 0,
+          "roughnessFactor": 1
+        },
+        "normalTexture": {
+          "index": 4,
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0,
+                0
+              ],
+              "scale": [
+                3,
+                3
+              ],
+              "texCoord": 0
+            }
+          }
+        },
+        "occlusionTexture": {
+          "index": 5,
+          "extensions": {
+            "KHR_texture_transform": {
+              "offset": [
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1
+              ],
+              "texCoord": 0
+            }
+          }
+        },
+        "extensions": {
+          "KHR_materials_sheen": {
+            "sheenRoughnessFactor": 0.5,
+            "sheenColorFactor": [
+              1,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "name": "Glass",
+        "alphaMode": "OPAQUE",
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.3,
+            0.8,
+            0.3,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0
+        },
+        "extensions": {
+          "KHR_materials_transmission": {
+            "transmissionFactor": 1
+          }
+        }
+      }
+    ],
+    "textures": [
+      {
+        "sampler": 0,
+        "source": 0,
+        "name": "ToyCar_normal.png"
+      },
+      {
+        "sampler": 0,
+        "source": 1,
+        "name": "ToyCar_emissive.png"
+      },
+      {
+        "sampler": 0,
+        "source": 2,
+        "name": "ToyCar_basecolor.png"
+      },
+      {
+        "sampler": 0,
+        "source": 3,
+        "name": "ToyCar_occlusion_roughness_metallic.png"
+      },
+      {
+        "sampler": 0,
+        "source": 4,
+        "name": "Fabric_normal.png"
+      },
+      {
+        "sampler": 0,
+        "source": 5,
+        "name": "Fabric_occlusion.png"
+      },
+      {
+        "sampler": 0,
+        "source": 6,
+        "name": "Fabric_baseColor.png"
+      },
+      {
+        "sampler": 0,
+        "source": 7,
+        "name": "ToyCar_clearcoat.png"
+      }
+    ],
+    "images": [
+      {
+        "uri": "ToyCar_normal.png"
+      },
+      {
+        "uri": "ToyCar_emissive.png"
+      },
+      {
+        "uri": "ToyCar_basecolor.png"
+      },
+      {
+        "uri": "ToyCar_occlusion_roughness_metallic.png"
+      },
+      {
+        "uri": "Fabric_normal.png"
+      },
+      {
+        "uri": "Fabric_occlusion.png"
+      },
+      {
+        "uri": "Fabric_baseColor.png"
+      },
+      {
+        "uri": "ToyCar_clearcoat.png"
+      }
+    ],
+    "samplers": [
+      {
+        "magFilter": 9729,
+        "minFilter": 9987
+      }
+    ]
+  },
+  "sourcePath": "inputs/ToyCar/glTF/ToyCar.gltf"
+}

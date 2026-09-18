@@ -1,0 +1,280 @@
+{
+  "commit": "c6a6bd13ab2b3c685c7903d03561b8a9392f38b8",
+  "retrieved_utc": "2026-09-18T11:23:05.299051+00:00",
+  "files": [
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox.bin",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox.bin",
+      "bytes": 207816,
+      "sha256": "f6c61a95af3e0e2462a9ac01d1e681706149452e0191930e0591a81d50b5b944",
+      "git_blob": "240a16b4671b221e2e14fa3074b190211d987c89"
+    },
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox.gltf",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox.gltf",
+      "bytes": 2702,
+      "sha256": "b1d2e0e56864c71a4b65fc560bfc1572b1eb32cfb9c8e86d06e6f9ace2803a43",
+      "git_blob": "b5e53c31afd8a9f13341ce8f30c0e0f02fa7fcba"
+    },
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox_baseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox_baseColor.png",
+      "bytes": 3285844,
+      "sha256": "099816a7afc5f6690494313ac8039806fd6d5b84179126a808b2678aaab3563a",
+      "git_blob": "992429df5b1808b2f2c825e42eb3c576ee3885c9"
+    },
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox_emissive.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox_emissive.png",
+      "bytes": 132833,
+      "sha256": "e9970da7010591b73070151fe5039a158413499e38300d14106e367472c03b5b",
+      "git_blob": "315a499403951d16f9b97e7309dd26822f4c362a"
+    },
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox_normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox_normal.png",
+      "bytes": 2514469,
+      "sha256": "c9a7904e7f25246ac47f86c337cfd4ec8e103fff83e07d3af472e5c620ec6f27",
+      "git_blob": "6953c0249b79e99656ff9401129bafa74466e0e8"
+    },
+    {
+      "path": "inputs/BoomBox/glTF/BoomBox_occlusionRoughnessMetallic.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/glTF/BoomBox_occlusionRoughnessMetallic.png",
+      "bytes": 4471451,
+      "sha256": "496704a4836ff364dc4441f41651edb25178498926c859933e33df42d6361412",
+      "git_blob": "4370d6092f4df6b64c0b8da090dd29ecd8c2c74b"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet.bin",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet.bin",
+      "bytes": 3227148,
+      "sha256": "9e623a27f837e1cc995d1380da5fd3becf4d29586fefba882fc0ba76b49f94bf",
+      "git_blob": "3a878be10d32ec4eb4ab4c37b781792abe94a332"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet.gltf",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet.gltf",
+      "bytes": 18698,
+      "sha256": "c9c16c8b85749f62f38ec6069700e5388c6894d8e566f51a35cc270255402cd3",
+      "git_blob": "03b53b40cffe79b6b6647af7a51c37c4abfabf9b"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_BaseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_BaseColor.png",
+      "bytes": 2306649,
+      "sha256": "0914544aabe161046f417274051e34ecc85163cfce6698581b3e1e18c96fe4f1",
+      "git_blob": "6d8e33b53dc0f7676a175c0aeb43cc71c8f006cb"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_Normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_Normal.png",
+      "bytes": 2648815,
+      "sha256": "c297f18f3b4259fc8b411cdc843a4a44b8cef3e3a53b21cec7b53574e5ef6872",
+      "git_blob": "25aa956368b82bd3368259b6283c0f087b236cee"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.png",
+      "bytes": 3696183,
+      "sha256": "d4519704f15395c7138421a5814b478df549a2411bc6fa97dd6d02ba62dc6c54",
+      "git_blob": "01ff83ed9cb29ed84466aa20db37bcbb81b6f0f8"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_BaseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_BaseColor.png",
+      "bytes": 5478748,
+      "sha256": "c9346ac6daa3ad34d0b36c1e7cf311ccbcc298710ea453cdf3b6ad40dc60013f",
+      "git_blob": "693a01d35c260d030d7c5bdd1f9bd3ff1c140401"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_Normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_Normal.png",
+      "bytes": 5675531,
+      "sha256": "7fb69b26f80c67df41e87d7344bde9d24dda0be77546b0a6acabc4040694872a",
+      "git_blob": "5d2d37bbeba9e46e7f6c5234a6ab75cd601fcdf7"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.png",
+      "bytes": 4375686,
+      "sha256": "b77e60f175e4632cd3d892bc9f0e748f522c9288a469585d5cb90270cd68910e",
+      "git_blob": "72ea477505d6614dec6e7193eba63585272a67e2"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_BaseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_BaseColor.png",
+      "bytes": 696304,
+      "sha256": "b55f6561f8adabc907360443aab010f3effaf05074fdccea46d8c2d66247cf16",
+      "git_blob": "d2dd7873f05af6363d48a1810b5bb80d97f393b1"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_Normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_Normal.png",
+      "bytes": 5575,
+      "sha256": "430775894001933044c89070b1bfd4f9b8489f74780b1ab7079efb0afca95d8d",
+      "git_blob": "3989a09819f1e50550d76a93082417ccd98e4ef9"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.png",
+      "bytes": 601603,
+      "sha256": "35d81a71ab184f9b50f63ff8f3e0f90cfb6c99f9b2d9ed9d9887a902c16a458d",
+      "git_blob": "372a426ddd7832e6a99f8ee86a08e0100ddeb5ed"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_BaseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_BaseColor.png",
+      "bytes": 2680488,
+      "sha256": "8e26add3ad1b2398d58638580bb1fe56f2fbae3572b4a682b6595a5a26fb1b40",
+      "git_blob": "908a88b4a6bf151e0fcd93cbb6ed723f5ffcbb46"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_Normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_Normal.png",
+      "bytes": 3273483,
+      "sha256": "a833fcc12718c02bcba97cbc9760d06c4a711ce7f36c23076e7cf6d4393a80e7",
+      "git_blob": "191ef7ef0c22a59a5e86ad181c9ca7e90769c49e"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.png",
+      "bytes": 2976508,
+      "sha256": "17f3e27b51011b8f98751dae25958e2b850fcf1467f1019bec812553e0e5eb1d",
+      "git_blob": "95075d80991d015d094330ab5a5d0e68113f90f4"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_BaseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_BaseColor.png",
+      "bytes": 3594300,
+      "sha256": "f751d643d1f220b300705d9ad57ed284a883eb7d3788469199b752f4381dcc37",
+      "git_blob": "02dff40201fc3133a2d356a71fbfe6c8af001553"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_Normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_Normal.png",
+      "bytes": 3327566,
+      "sha256": "bb70753c836c59db7e245e5fe2c9db8eee833d29d67e03da348f6adb1e95142a",
+      "git_blob": "c3e6f7906eae6547997f11f23bb8c38586cb7741"
+    },
+    {
+      "path": "inputs/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.png",
+      "bytes": 3809284,
+      "sha256": "2727d4638514f75fcbd29777bf03db6bd2f0f1ad926e2976cf2346aa22c0bd19",
+      "git_blob": "6ce3f642ca76811a7b121b8ba87344222799d19d"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/Fabric_baseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/Fabric_baseColor.png",
+      "bytes": 412812,
+      "sha256": "2d37e6edee4d5249c7076847cd47a732596c0385ce596d8a8d92746b4b902ef7",
+      "git_blob": "8df710e1d8cbb27ac1fda4bdd0e12ae0c383a3ed"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/Fabric_normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/Fabric_normal.png",
+      "bytes": 294759,
+      "sha256": "24aee901f99facf761329b374b46a83d83060fecac88aa290e2cb92c2f6b90c2",
+      "git_blob": "4fb1b22fb39adf00ec72dee7951aab100eedd4a4"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/Fabric_occlusion.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/Fabric_occlusion.png",
+      "bytes": 191518,
+      "sha256": "b9e421842b576be7cf98a8fb8103ebf371b1d3d13eb226379ec4b5d8b8db3fcd",
+      "git_blob": "0d1e939a1c290c314e04caeb668c98f3dd2df34a"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar.bin",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar.bin",
+      "bytes": 3664368,
+      "sha256": "2f264fe41cedb20914817b891a9f02438f2e5049e17f0983b13245f93aeb9ceb",
+      "git_blob": "c39a233ac1fa9d88118cc336c2d5ad59805c3dbc"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar.gltf",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar.gltf",
+      "bytes": 17626,
+      "sha256": "8e7341dfb0429663d0e93455757ea151cfd4fc5e4a7bc9e55d577bb5b498beb5",
+      "git_blob": "b8fe470848e598643f6c2f14b0162d536038b51c"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar_basecolor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar_basecolor.png",
+      "bytes": 196648,
+      "sha256": "7d51b5df33344f00dbc248f9a6043a7eaa6864b9f7ece1fb90f884a425423ed7",
+      "git_blob": "5b19eb959b4746127593eafd004ec915fd934f44"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar_clearcoat.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar_clearcoat.png",
+      "bytes": 15362,
+      "sha256": "0dee4964f011c50bb1942cdc4f373f7e85277a3bbd75ae9f45261b763618f0ec",
+      "git_blob": "a80594406af5b411a2efd4b5cd21bf70e601d933"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar_emissive.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar_emissive.png",
+      "bytes": 83739,
+      "sha256": "f35fdda6764b6b6521296326143a654f6cae13c082fd6021e766677c422cf7e6",
+      "git_blob": "283ed4607a2f7009b98fcff901c00ccba75e0c7f"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar_normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar_normal.png",
+      "bytes": 98429,
+      "sha256": "f3af8fd862a8a1ed13b6cf508d4edc3df6a484c43ed32bc5927a03b452515833",
+      "git_blob": "1e55f7bb6face3bfa07c9a50f6fdcec14277a317"
+    },
+    {
+      "path": "inputs/ToyCar/glTF/ToyCar_occlusion_roughness_metallic.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/glTF/ToyCar_occlusion_roughness_metallic.png",
+      "bytes": 457137,
+      "sha256": "22911f36dc5e9a3b2acc6dfb8f7946f4c963b5296ab10e8dc6cce260140ce8a3",
+      "git_blob": "446e68ee60e4993a5a09816a93db9bba19117a78"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle.bin",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle.bin",
+      "bytes": 149412,
+      "sha256": "e4921f2d0c0a03cf65286bd195f3688d4f99d7b6a58f25935e70d516d744156e",
+      "git_blob": "b10cfd0133b85593e01ee7f7b107d85d3ec491a6"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle.gltf",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle.gltf",
+      "bytes": 2727,
+      "sha256": "0596f4e61dc781439d254fdfb5e3462daf1762c18715e3e3ac13001aa8f3f547",
+      "git_blob": "9f23f3add06376ba56326a9e3a99223a304c60a5"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle_baseColor.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle_baseColor.png",
+      "bytes": 2165850,
+      "sha256": "62d0ad9b4e2c75e9bc7d67644a50d697563000ffa586d2e185ea38f5000e0a63",
+      "git_blob": "f28c3f27d6dcfc1316a6cc00a4111b89cd4438b8"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle_emissive.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle_emissive.png",
+      "bytes": 59102,
+      "sha256": "e9b03ea395b0182917f876befda2d31639ce46058c832dd64e5ad02cde5bddb9",
+      "git_blob": "338905ffcef57d75868a2eb8abe2325291691089"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle_normal.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle_normal.png",
+      "bytes": 3012733,
+      "sha256": "284883ce27cc22351557616bad247ef88de4ad42c7a74b493205c92dbd23e536",
+      "git_blob": "6c119668ad52a16b7cd7b81422eabaf41f7f3b51"
+    },
+    {
+      "path": "inputs/WaterBottle/glTF/WaterBottle_occlusionRoughnessMetallic.png",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/glTF/WaterBottle_occlusionRoughnessMetallic.png",
+      "bytes": 3577832,
+      "sha256": "10cc809d9762e8c671f1ae73618dd5fdd07792d2c6ec9c4691cdb991617c9369",
+      "git_blob": "0999b4fd02a582785c39055e86fed916eb5df486"
+    }
+  ],
+  "operation": "download only, no rendering or encoding"
+}

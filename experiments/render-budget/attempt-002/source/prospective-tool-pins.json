@@ -1,0 +1,207 @@
+{
+  "npm": {
+    "@gltf-transform/core": {
+      "version": "4.5.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "f5b6c307810e5190829d9518540a0e2be27287a7",
+        "tarball": "https://registry.npmjs.org/@gltf-transform/core/-/core-4.5.0.tgz",
+        "fileCount": 54,
+        "integrity": "sha512-JlvShvnB4AtfGZqjnESS/wfPJbpVnyHhTwJBbWN4qXqkB3C5HIoxxpu/orwGBge6Pc0zObeWj70lVf+4gbuu0A==",
+        "signatures": [
+          {
+            "sig": "MEYCIQD6q5B3zkwXd3M8yuiik+mpGEXj6oOzMjp7E07jLe+GJgIhALRvM0Mq9+XZsMSB1j49C39ofFUmsRu5vuOBSQtcyQAS",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 976129
+      },
+      "engines": null
+    },
+    "@gltf-transform/functions": {
+      "version": "4.5.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "66c6c467550f86ee72b1ead78a0a86f21afd8f0b",
+        "tarball": "https://registry.npmjs.org/@gltf-transform/functions/-/functions-4.5.0.tgz",
+        "fileCount": 57,
+        "integrity": "sha512-7sMOuEfksMyF+/NTwUnEOgh7djohJ5XfeYg8rzXDG+9JIdbGVUpvJUY3XVBJCUJJ04dusDvcTHloOi1wfM8lnw==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCH/b+aBsX4A1jB04hSDyoLSPeIWWkdQXZjhVetfA9ThAIgC2kSlm32JrrsfchMtxSa3ufIgPJJl+5lDcHT4TA7RcQ=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 894617
+      },
+      "engines": null
+    },
+    "@gltf-transform/extensions": {
+      "version": "4.5.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "87d5bbccd42c6e71c7a8791757989277d934ec55",
+        "tarball": "https://registry.npmjs.org/@gltf-transform/extensions/-/extensions-4.5.0.tgz",
+        "fileCount": 100,
+        "integrity": "sha512-J4cKzrmEr75YkrtdI4cKosBg2vDC4rT56aq/QoijW7GT1Y9gSEMJbqyFO9xcFO3FNpZaZiDrHWUqE5Okrl5nOQ==",
+        "signatures": [
+          {
+            "sig": "MEUCIQDu8rDQ4c2H546LCDlVThTuHhC4ijv6vv+5nuQojCUl/QIgYY/LlruGArqmnzC596v8PLV6Dkq6aKjlgTQlm5cE/gc=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 1139690
+      },
+      "engines": null
+    },
+    "@gltf-transform/cli": {
+      "version": "4.5.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "0ca0d3cdcfc373bb5394c8949f1500e9ab9f4015",
+        "tarball": "https://registry.npmjs.org/@gltf-transform/cli/-/cli-4.5.0.tgz",
+        "fileCount": 26,
+        "integrity": "sha512-0i/qco9bR1tva3wI7iksrdcQoZmgFn4WFMJnKOWqXWdX/a2T+mrNomfGUEfFqMSI26JPSZXqasXyHiytiEpodQ==",
+        "signatures": [
+          {
+            "sig": "MEYCIQDDTihUhcMsGvF4IaoPqDO0YYKuWoFrd7adQvgCHG+gywIhAMNwoMjYFXbDClKHYTQPbcMdek3Nj4yJo85izifGTNUg",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEQCICl8ATZmZ041RpJy5D7gNjz8ehQ4U0aRfogTsIF8TY1+AiAmMJVVDkQgqin0nlhwzMDOkOGvZTul0WpII5hJ07/vuQ==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 247537
+      },
+      "engines": {
+        "node": ">=20"
+      }
+    },
+    "three": {
+      "version": "0.186.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "08f70ce80dffa9247a567b421165bec630e86f8d",
+        "tarball": "https://registry.npmjs.org/three/-/three-0.186.0.tgz",
+        "fileCount": 1263,
+        "integrity": "sha512-cr/fIM2ddMSVbYVgkfD4jLJv7Fh/8ZTjvo+7gQeSVGUZHxpx9FDwoL5iC7hUz/LiRA8wMbqfnb90xKfm1/HHkQ==",
+        "signatures": [
+          {
+            "sig": "MEUCIQCqkpMSfcPmAiqRs8HIKvK4UDWhsJLZdypQYUfGzGWikwIgdn90l00R0ujzlPwtF4x8ZAuzHgQ0+Br48FcrI/t7g+g=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIQDmb2CuJPSwa/JPplfl83qDB6ls22HZ4CWFL2NFwEfMQgIgRE833lwOCtmSAzedTl7EvJwmT9PxzSCZobUadZuNe7I=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 20443175
+      },
+      "engines": null
+    },
+    "playwright": {
+      "version": "1.63.0",
+      "license": "Apache-2.0",
+      "dist": {
+        "shasum": "99b56f9f69b1b70c44f00bf84b2fe52348ae2511",
+        "tarball": "https://registry.npmjs.org/playwright/-/playwright-1.63.0.tgz",
+        "fileCount": 62,
+        "integrity": "sha512-+7ziBLidS4NaNCdt57SUDT+wYmmd5fmiQejUic/kb+YsYSCPyOOE9sebzMjNmQrsnNpDJqd4WHvV/8lfKfUDUg==",
+        "signatures": [
+          {
+            "sig": "MEQCIFn72Uq9JNdpz1rV1lvXHFkN/RVw2SRE69/WaPi8+JVpAiBylqLY4s2V2Ykl102NEUg56SIXh9Ig1vzaxWMY+6phYw==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQDbhaeMgqrXvUZ8VnMwwCDWzJT2LAkJoad5xAQLowOEXQIhAI7AM5/Z5BCB4ChADMQtg5y2yUhs6LzrHzREhmKgiFpZ",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/playwright@1.63.0",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 5094512
+      },
+      "engines": {
+        "node": ">=20"
+      }
+    },
+    "sharp": {
+      "version": "0.35.4",
+      "license": "Apache-2.0",
+      "dist": {
+        "shasum": "361df3b2959daeb380541289960456c6be0f92de",
+        "tarball": "https://registry.npmjs.org/sharp/-/sharp-0.35.4.tgz",
+        "fileCount": 47,
+        "integrity": "sha512-n++8XWcj+jCOr2IOl7h8LbKnGBDY4aPbmprMONBNFdn0ImXqpGVv5zliDs0V9HbmbCQLpbuo2ej9rAoOQTvMDA==",
+        "signatures": [
+          {
+            "sig": "MEUCIDCUJqK5SizeEyDDsqFzyvrHumwcxPD00fjhtqGUk7/GAiEAisp4kyu4i7t9c/chacusdKGMlXfISSS+u74o0/V/Iok=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQCpt9y592NSK7thukTtceF5arkgjqMXLZ2ndIiFnYXQRAIhAOGvBZ5GKREZKH3pjKJXVisaxSERwH2LscQxpsFUXrcO",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/sharp@0.35.4",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 960214
+      },
+      "engines": {
+        "node": ">=20.9.0"
+      }
+    },
+    "ssim.js": {
+      "version": "3.5.0",
+      "license": "MIT",
+      "dist": {
+        "shasum": "d7276b9ee99b57a5ff0db34035f02f35197e62df",
+        "tarball": "https://registry.npmjs.org/ssim.js/-/ssim.js-3.5.0.tgz",
+        "fileCount": 102,
+        "integrity": "sha512-Aj6Jl2z6oDmgYFFbQqK7fght19bXdOxY7Tj03nF+03M9gCBAjeIiO8/PlEGMfKDwYpw4q6iBqVq2YuREorGg/g==",
+        "signatures": [
+          {
+            "sig": "MEYCIQCaQepZbibLk1womEf4fqDNe2zkBSDE/OtkHmihm6arRQIhAKy3Ehk2hGT2Ju3x3ZmOw8w++kk2EbA6JAJbtFJtIPaj",
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+          }
+        ],
+        "unpackedSize": 355360,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfhGmHCRA9TVsSAnZWagAAo9oP/2W78JxOw53Xu/pwusbb\ntwe0Yd+E7dZKjPkoeYRxwch3e9Ros5lvy23BcDbYiIUzsEUABvS4iB7NVhA6\nJtrNP4xWh3xsYcnnKT45isc3cP64HftYM2e/sirAPh4jXH0K7IHpcanaZ77F\nWMgjAvKOtarV5OsITNTxkx8taaZFoVRGNdQpNvWRHQAiA/xxm2F3GVbPRSTX\nhbxMv5TDubf6p3Y3+jp1Zn8ZY77aaSJ8E+E1vOpIJmZY4GEGawISzgR4Xsw9\nXbwT6SLGSzq6kFDT2ompE/WAN0BEXRsDOd9g1Ha+8zJrMAlNQJ1iQvGjz4Tx\nLhhAPbf8f/9gx1wDqsPwL96PjeqNaCub1NktzVjdtJO2/4HkMsfiFYn7Khvx\nqd2EtKtqtomRJPwehKcHP5kIsaWUJiMxleRy1nT+mGMD85bWIGTXbwgLHPsn\nsIJRqJ6EdirWOVFpAtBiG4Sp6sC132BSygao9MZ2QdWT9JgWnAr+M85vi1tp\nfYnLwEdDtNOLlzh78GTagLMouCYHXB0gJMWRecXOyXo3qmJWWJSjYI0crLUY\n0IzQcCF8acYPHqw+7du5v60y20KXgE+fvSito57Sm2ni0VEzLaFkKE394VWV\nEnZt0CRqbSOKPn+Fv7TpVaPzqrCqNsiQiUECQKjn7RIwQZGrEy11NjUPEcpx\nqVP0\r\n=v+CA\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "engines": null
+    }
+  },
+  "ktx": {
+    "tag": "v4.4.2",
+    "assets": [
+      {
+        "name": "KTX-Software-4.4.2-Darwin-arm64.pkg",
+        "url": "https://github.com/KhronosGroup/KTX-Software/releases/download/v4.4.2/KTX-Software-4.4.2-Darwin-arm64.pkg",
+        "size": 6785364,
+        "digest": "sha256:500bd8f9d63358c3f3a0d83b724c8574436a72c37dc0e4bad90ec1ca38032c3c"
+      },
+      {
+        "name": "KTX-Software-4.4.2-Darwin-x86_64.pkg",
+        "url": "https://github.com/KhronosGroup/KTX-Software/releases/download/v4.4.2/KTX-Software-4.4.2-Darwin-x86_64.pkg",
+        "size": 7031141,
+        "digest": "sha256:efecc685ab891a6e119a9fdc8cbe038e135f9a367eb2f5d8a059553f947f1fea"
+      },
+      {
+        "name": "pyktx-4.4.2-cp313-cp313-macosx_15_0_arm64.whl",
+        "url": "https://github.com/KhronosGroup/KTX-Software/releases/download/v4.4.2/pyktx-4.4.2-cp313-cp313-macosx_15_0_arm64.whl",
+        "size": 46855,
+        "digest": "sha256:eed083f4d95e0f826882877d4388f5c859e0e99b29642b59071bbc5ea6000ebb"
+      }
+    ]
+  },
+  "status": "metadata only; not installed or executed"
+}

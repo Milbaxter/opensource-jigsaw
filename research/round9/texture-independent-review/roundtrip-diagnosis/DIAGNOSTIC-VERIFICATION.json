@@ -1,0 +1,93 @@
+{
+  "sourceChecks": [
+    {
+      "path": "PLAN.md",
+      "sha256": "cbac6f3d00f49117ebb259b2413f6cfd39e23e3fa0291c8ef0e7f91261f42256",
+      "verified": true
+    },
+    {
+      "path": "render-diagnostic.html",
+      "sha256": "12c8eab0aab218b53a261b5a7726ae665160b40ebb7c7bff2b3d69df4221fc6e",
+      "verified": true
+    },
+    {
+      "path": "run-diagnostic.mjs",
+      "sha256": "99de0ea0403f7878f2a3844169363ef5c322672b7a62308160a4b942f08ee5b7",
+      "verified": true
+    }
+  ],
+  "resultSHA256": "da282efb9012ba531d3e40ee7c41ea07196710b682980f3d7ec24dd97fd021ed",
+  "views": [
+    {
+      "view": 0,
+      "differences": 10,
+      "max": 18,
+      "reportedMatch": true
+    },
+    {
+      "view": 1,
+      "differences": 8,
+      "max": 119,
+      "reportedMatch": true
+    },
+    {
+      "view": 2,
+      "differences": 0,
+      "max": 0,
+      "reportedMatch": true
+    },
+    {
+      "view": 3,
+      "differences": 0,
+      "max": 0,
+      "reportedMatch": true
+    },
+    {
+      "view": 4,
+      "differences": 0,
+      "max": 0,
+      "reportedMatch": true
+    },
+    {
+      "view": 5,
+      "differences": 21,
+      "max": 1,
+      "reportedMatch": true
+    }
+  ],
+  "interventions": {
+    "baseline": [
+      10,
+      8,
+      0,
+      0,
+      0,
+      21
+    ],
+    "matchedMatrices": [
+      10,
+      8,
+      0,
+      0,
+      0,
+      21
+    ],
+    "restoredMatrices": [
+      10,
+      8,
+      0,
+      0,
+      0,
+      21
+    ],
+    "matchedOrder": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "scope": "Source hashes and saved baseline PNG counts independently verified; matchedOrder equality inspected in diagnostic results/code, not separately rendered by reviewer."
+}

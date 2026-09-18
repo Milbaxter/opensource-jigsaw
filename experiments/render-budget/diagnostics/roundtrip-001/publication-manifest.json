@@ -1,0 +1,253 @@
+{
+  "created_utc": "2026-09-18T12:32:38.521418+00:00",
+  "scope": "diagnosis only, no search or heldout",
+  "files": [
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/PLAN.md",
+        "bytes": 1082,
+        "sha256": "cbac6f3d00f49117ebb259b2413f6cfd39e23e3fa0291c8ef0e7f91261f42256"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/PLAN.md",
+        "bytes": 1082,
+        "sha256": "cbac6f3d00f49117ebb259b2413f6cfd39e23e3fa0291c8ef0e7f91261f42256"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/RESULTS.md",
+        "bytes": 2305,
+        "sha256": "cfdd3595ebbf286d292f53a3d6f5b561615c9d191114c3cf67b738d8bdad4b1f"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/RESULTS.md",
+        "bytes": 2305,
+        "sha256": "cfdd3595ebbf286d292f53a3d6f5b561615c9d191114c3cf67b738d8bdad4b1f"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/diagnostic-input-pins.json",
+        "bytes": 1098,
+        "sha256": "b670e1fa122e2eb79ddf00b5f13e0c89fc6b1c3f6951f6940bc9a6dce35945bb"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/diagnostic-input-pins.json",
+        "bytes": 1098,
+        "sha256": "b670e1fa122e2eb79ddf00b5f13e0c89fc6b1c3f6951f6940bc9a6dce35945bb"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/diagnostic-source-freeze.json",
+        "bytes": 508,
+        "sha256": "3f2902c8cc36ef71c4d29cd3339603d853a93c8d255b9a68515d87f69674bca9"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/diagnostic-source-freeze.json",
+        "bytes": 508,
+        "sha256": "3f2902c8cc36ef71c4d29cd3339603d853a93c8d255b9a68515d87f69674bca9"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/render-diagnostic.html",
+        "bytes": 8395,
+        "sha256": "12c8eab0aab218b53a261b5a7726ae665160b40ebb7c7bff2b3d69df4221fc6e"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/render-diagnostic.html",
+        "bytes": 8395,
+        "sha256": "12c8eab0aab218b53a261b5a7726ae665160b40ebb7c7bff2b3d69df4221fc6e"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/result.json",
+        "bytes": 49571,
+        "sha256": "da282efb9012ba531d3e40ee7c41ea07196710b682980f3d7ec24dd97fd021ed"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/result.json",
+        "bytes": 49571,
+        "sha256": "da282efb9012ba531d3e40ee7c41ea07196710b682980f3d7ec24dd97fd021ed"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/run-diagnostic.mjs",
+        "bytes": 2236,
+        "sha256": "99de0ea0403f7878f2a3844169363ef5c322672b7a62308160a4b942f08ee5b7"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/run-diagnostic.mjs",
+        "bytes": 2236,
+        "sha256": "99de0ea0403f7878f2a3844169363ef5c322672b7a62308160a4b942f08ee5b7"
+      },
+      "transformation": "local-root redaction only"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-0-reference.png",
+        "bytes": 108212,
+        "sha256": "cb4d985889b455fdf47c43a8db81b5d90344b8c44b1e3fccafa1b35decabc5b4"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-0-reference.png",
+        "bytes": 108212,
+        "sha256": "cb4d985889b455fdf47c43a8db81b5d90344b8c44b1e3fccafa1b35decabc5b4"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-0-source.png",
+        "bytes": 108119,
+        "sha256": "b5cb2f9f1797179e8113a5c0c9f7de72b3c2572d43e322406066076852736fc9"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-0-source.png",
+        "bytes": 108119,
+        "sha256": "b5cb2f9f1797179e8113a5c0c9f7de72b3c2572d43e322406066076852736fc9"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-1-reference.png",
+        "bytes": 136481,
+        "sha256": "c9d2eee078a17c40cbcff8c998a8262429e9ff7f057062f2adfa0af917c24206"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-1-reference.png",
+        "bytes": 136481,
+        "sha256": "c9d2eee078a17c40cbcff8c998a8262429e9ff7f057062f2adfa0af917c24206"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-1-source.png",
+        "bytes": 136479,
+        "sha256": "d47fa6aed5933e330b4fb253816cc35df14cf2e12aa6d61fff718033d8836f44"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-1-source.png",
+        "bytes": 136479,
+        "sha256": "d47fa6aed5933e330b4fb253816cc35df14cf2e12aa6d61fff718033d8836f44"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-2-reference.png",
+        "bytes": 136937,
+        "sha256": "4b7116e89883d0b8da0c63a147ea515d5320823109b1e34a703095c8ed9fdb4a"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-2-reference.png",
+        "bytes": 136937,
+        "sha256": "4b7116e89883d0b8da0c63a147ea515d5320823109b1e34a703095c8ed9fdb4a"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-2-source.png",
+        "bytes": 136937,
+        "sha256": "4b7116e89883d0b8da0c63a147ea515d5320823109b1e34a703095c8ed9fdb4a"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-2-source.png",
+        "bytes": 136937,
+        "sha256": "4b7116e89883d0b8da0c63a147ea515d5320823109b1e34a703095c8ed9fdb4a"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-3-reference.png",
+        "bytes": 104044,
+        "sha256": "e535eaa87d8393a2c3ee9188cac7bffa24019327df843c5dad2b320192f597f2"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-3-reference.png",
+        "bytes": 104044,
+        "sha256": "e535eaa87d8393a2c3ee9188cac7bffa24019327df843c5dad2b320192f597f2"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-3-source.png",
+        "bytes": 104044,
+        "sha256": "e535eaa87d8393a2c3ee9188cac7bffa24019327df843c5dad2b320192f597f2"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-3-source.png",
+        "bytes": 104044,
+        "sha256": "e535eaa87d8393a2c3ee9188cac7bffa24019327df843c5dad2b320192f597f2"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-4-reference.png",
+        "bytes": 126070,
+        "sha256": "f54b8e76c8e0a1d3a3496927eb6a52f2a5a7b0c90cc371f2dae7e7a06b8935ee"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-4-reference.png",
+        "bytes": 126070,
+        "sha256": "f54b8e76c8e0a1d3a3496927eb6a52f2a5a7b0c90cc371f2dae7e7a06b8935ee"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-4-source.png",
+        "bytes": 126070,
+        "sha256": "f54b8e76c8e0a1d3a3496927eb6a52f2a5a7b0c90cc371f2dae7e7a06b8935ee"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-4-source.png",
+        "bytes": 126070,
+        "sha256": "f54b8e76c8e0a1d3a3496927eb6a52f2a5a7b0c90cc371f2dae7e7a06b8935ee"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-5-reference.png",
+        "bytes": 130873,
+        "sha256": "68f4d8e2bf414187a52eb0a0fbf36165e492f60c99ffe644c6ad67a50705101a"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-5-reference.png",
+        "bytes": 130873,
+        "sha256": "68f4d8e2bf414187a52eb0a0fbf36165e492f60c99ffe644c6ad67a50705101a"
+      },
+      "transformation": "none"
+    },
+    {
+      "source": {
+        "path": "diagnostics/roundtrip-001/view-5-source.png",
+        "bytes": 130866,
+        "sha256": "166200cecd36826d24557e29325d1e050ec5926519f49fb2ba13b423dfac3a49"
+      },
+      "published": {
+        "path": "publication/diagnostics/roundtrip-001/view-5-source.png",
+        "bytes": 130866,
+        "sha256": "166200cecd36826d24557e29325d1e050ec5926519f49fb2ba13b423dfac3a49"
+      },
+      "transformation": "none"
+    }
+  ]
+}
