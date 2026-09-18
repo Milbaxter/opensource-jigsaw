@@ -1,0 +1,13 @@
+# CAM routing: funded upstream work changes the commercial comparison
+
+Source screen, 18 September 2026. No new routing experiment or pursuit score.
+
+The [approved FPA grant 80](https://github.com/FreeCAD/FPA-grant-proposals/issues/80) proposes $3,750 for Clipper migration and related work, including $1,000 for Adaptive migration with an optional faster linking algorithm. The [April approval](https://github.com/FreeCAD/FPA-grant-proposals/issues/80#issuecomment-4185105075) establishes an approved expenditure, not verified payment or an available contract for this project. A [14 September author update](https://github.com/FreeCAD/FPA-grant-proposals/issues/80#issuecomment-5667717697) reports three subprojects complete and an Adaptive migration draft underway, with a separate linking-algorithm PR planned.
+
+This is direct evidence that maintainers value and fund closely related work. It is also stronger competitive evidence than a source TODO: a funded incumbent contributor is pursuing the same improvement. The $1,000 subproject includes migration, so it is not a price for our routing feature. No demand for a separate extension, available grant slot, recurring maintenance revenue, or permission to contact maintainers follows from it.
+
+The [closed slowdown issue 29356](https://github.com/FreeCAD/FreeCAD/issues/29356) and its [maintainer investigation](https://github.com/FreeCAD/FreeCAD/issues/29356#issuecomment-4268786148) identify engagement-point routing as expensive in stress tests and link the planned rewrite. Reported timings are build dependent; a [later comment](https://github.com/FreeCAD/FreeCAD/issues/29356#issuecomment-4269935674) identifies unoptimized Debug builds as an important cause of the observed slowdown. Historical slow tests must not be presented as an unresolved current regression or expected customer saving.
+
+**Consequence:** retain the completed native screen and development design, but inspect the accessible upstream draft before extending implementation. A future comparison needs the strongest applicable implementation and a specific reason buyers would need this additional integration. Known methods and existing suppliers do not automatically reject a useful combination; duplicating funded work without demonstrated extra value does not clear the bar.
+
+The public author-PR search returned five open PRs, none titled as an Adaptive migration or linking rewrite. This limited search does not prove the draft is unavailable; branches and related source still require inspection. No outreach, grant application, or third-party comment was made.

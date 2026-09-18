@@ -1,0 +1,49 @@
+# SPDX-License-Identifier: MIT
+"""Geometry acquisition only: all horizontal planar faces, no path planning."""
+import io,json,math,hashlib,pathlib,zipfile,xml.etree.ElementTree as ET
+from OCP.TopoDS import TopoDS,TopoDS_Shape
+from OCP.TopExp import TopExp_Explorer
+from OCP.TopAbs import TopAbs_FACE,TopAbs_WIRE,TopAbs_REVERSED
+from OCP.BRep import BRep_Builder
+from OCP.BRepTools import BRepTools,BRepTools_WireExplorer
+from OCP.BRepAdaptor import BRepAdaptor_Surface,BRepAdaptor_Curve
+from OCP.GeomAbs import GeomAbs_Plane,GeomAbs_Line,GeomAbs_Circle
+from OCP.BRepGProp import BRepGProp
+from OCP.GProp import GProp_GProps
+from OCP.BRepCheck import BRepCheck_Analyzer
+OUT=pathlib.Path('work/round10-parent'); SRC=pathlib.Path('work/cam-independent-review/fixtures'); DEF=.01
+SELECTION=[('Drilling_1.FCStd','Body'),('motor_mount_inch.fcstd','Pocket001'),('strange_part_with_holes.fcstd','Fillet002')]
+results=[]
+for filename,objname in SELECTION:
+ payload=(SRC/filename).read_bytes()
+ with zipfile.ZipFile(io.BytesIO(payload)) as z:
+  root=ET.fromstring(z.read('Document.xml'));obj=root.find(f'./ObjectData/Object[@name="{objname}"]');member=obj.find('./Properties/Property[@name="Shape"]/*').attrib['file'];brep=z.read(member)
+  meta={p.attrib['name']: next(iter(p)).attrib for p in root.findall('./Properties/Property') if p.attrib['name'] in ['License','LicenseURL','CreatedBy','LastModifiedBy']}
+ shape=TopoDS_Shape();BRepTools.Read_s(shape,io.BytesIO(brep),BRep_Builder());assert not shape.IsNull()
+ result={'file':filename,'source_sha256':hashlib.sha256(payload).hexdigest(),'object':objname,'brep_member':member,'brep_sha256':hashlib.sha256(brep).hexdigest(),'metadata':meta,'valid_occt':BRepCheck_Analyzer(shape).IsValid(),'faces':[]};ex=TopExp_Explorer(shape,TopAbs_FACE);index=0
+ while ex.More():
+  index+=1;face=TopoDS.Face(ex.Current());ex.Next();surface=BRepAdaptor_Surface(face)
+  if surface.GetType()!=GeomAbs_Plane:continue
+  plane=surface.Plane();n=plane.Axis().Direction()
+  if abs(n.Z())<1-1e-10:continue
+  prop=GProp_GProps();BRepGProp.SurfaceProperties_s(face,prop)
+  fr={'index':index,'z':plane.Location().Z(),'normal_z':n.Z()*(-1 if face.Orientation()==TopAbs_REVERSED else 1),'exact_area':prop.Mass(),'wires':[],'errors':[]};wx=TopExp_Explorer(face,TopAbs_WIRE)
+  while wx.More():
+   wire=TopoDS.Wire(wx.Current());wx.Next();we=BRepTools_WireExplorer(wire,face);points=[];kinds=[]
+   while we.More():
+    edge=we.Current();we.Next();curve=BRepAdaptor_Curve(edge);a,b=curve.FirstParameter(),curve.LastParameter();kind=curve.GetType();kinds.append(str(kind))
+    if kind==GeomAbs_Line: steps=1
+    elif kind==GeomAbs_Circle:
+     radius=curve.Circle().Radius();maxangle=2*math.acos(max(-1,1-DEF/radius));steps=max(2,math.ceil(abs(b-a)/maxangle))
+    else: fr['errors'].append('Unsupported curve '+str(kind));continue
+    ps=[curve.Value(a+(b-a)*i/steps) for i in range(steps+1)];coords=[[p.X(),p.Y()] for p in ps]
+    if edge.Orientation()==TopAbs_REVERSED:coords.reverse()
+    if points and math.dist(points[-1],coords[0])>1e-6:fr['errors'].append('Disconnected oriented edges')
+    points.extend(coords if not points else coords[1:])
+   if points and math.dist(points[0],points[-1])>1e-6:fr['errors'].append('Open wire')
+   area=sum(p[0]*q[1]-q[0]*p[1] for p,q in zip(points,points[1:]))/2
+   fr['wires'].append({'points':points,'signed_area':area,'curve_types':kinds})
+  fr['polygon_area']=abs(sum(w['signed_area'] for w in fr['wires']));fr['area_error']=fr['polygon_area']-fr['exact_area'];result['faces'].append(fr)
+ results.append(result)
+OUT.joinpath('demo-face-inventory.json').write_text(json.dumps({'scope':'Geometry acquisition only. No CAM routing executed; all horizontal planar faces retained. Final source objects selected before loading. Coordinates in document native millimetres; explicit object placements are identity. Circle chord sagitta at most .01 mm; no curve simplification or support for other edge types.','selection':SELECTION,'deflection_mm':DEF,'models':results},indent=2)+'\n')
+for r in results: print(r['file'],r['valid_occt'],[(f['index'],round(f['z'],4),round(f['exact_area'],3),len(f['wires']),sum(len(w['points']) for w in f['wires']),f['errors']) for f in r['faces']])

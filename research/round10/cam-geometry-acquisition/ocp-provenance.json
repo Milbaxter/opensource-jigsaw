@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-09-18T12:24:28.266818+00:00",
+  "source": "https://pypi.org/pypi/cadquery-ocp/8.0.1.0.0/json",
+  "binding_artifact": {
+    "filename": "cadquery_ocp-8.0.1.0.0-cp312-cp312-macosx_11_0_arm64.whl",
+    "url": "https://files.pythonhosted.org/packages/ef/b6/4ad1f51161ae618d00cd53439cc75b0528522744cebda9c87abc311206f8/cadquery_ocp-8.0.1.0.0-cp312-cp312-macosx_11_0_arm64.whl",
+    "size": 63264689,
+    "digests": {
+      "blake2b_256": "efb64ad1f51161ae618d00cd53439cc75b0528522744cebda9c87abc311206f8",
+      "md5": "6c6489b545753eccbf485533435be772",
+      "sha256": "b19e479129d734cc6ff70cbf8a570fda165ba7b6d3b83eb8472cae4e0bc5bc52"
+    }
+  },
+  "binding_license": "Apache-2.0",
+  "native_kernel_license": "LGPL-2.1 with OCCT exception; distinct from binding license",
+  "native_source_reference": "https://github.com/Open-Cascade-SAS/OCCT/blob/master/README.md",
+  "limitations": "Local acquisition dependency only; no binary redistribution; this record is not an exhaustive audit of wheel native dependencies. Native BREP read/validity succeeds. Initial binding API rename error preserved, no routing executed."
+}

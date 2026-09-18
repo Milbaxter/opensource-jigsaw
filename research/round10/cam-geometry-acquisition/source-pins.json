@@ -1,0 +1,20 @@
+[
+  {
+    "path": "src/Mod/CAM/CAMTests/Drilling_1.FCStd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/Drilling_1.FCStd",
+    "sha256": "a81e23567a56bfcaa7444a9f6081b1908846ff487b7c4e942f0d7bd4c2b03027",
+    "bytes": 266675
+  },
+  {
+    "path": "src/Mod/CAM/DemoParts/motor_mount_inch.fcstd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/DemoParts/motor_mount_inch.fcstd",
+    "sha256": "fe11c6e74323aa0a4d987ed1681a90fb2c792d43657c42039ec40ffa3a18e212",
+    "bytes": 17451
+  },
+  {
+    "path": "src/Mod/CAM/DemoParts/strange_part_with_holes.fcstd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/DemoParts/strange_part_with_holes.fcstd",
+    "sha256": "18c987d2e2fe2d030fca4f1eba3be6cb1410575c7c586ac02a77669c05c87d95",
+    "bytes": 39670
+  }
+]

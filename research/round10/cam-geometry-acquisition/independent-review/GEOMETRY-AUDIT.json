@@ -1,0 +1,1270 @@
+{
+  "scope": "Independent ZIP/XML + OCP BRep/curve acquisition verification only, no CAM kernel or route execution. Segment quarter/midpoint deviations are sampled checks; analytic bounds supply declared tolerance proof for these supported curve parameterizations.",
+  "extractor_sha256": "2ecbc4380404395b5ad85febf7d5cd8249941c1ffedf917f1e84c63c6df07f8b",
+  "inventory_sha256": "9f05d3adc47bf1b49785832e80ffe6a1643781ac87a27859d1d71d8bc30589b2",
+  "all_checks_pass": true,
+  "models": [
+    {
+      "file": "Drilling_1.FCStd",
+      "object": "Body",
+      "placement": {
+        "Px": "0.0000000000000000",
+        "Py": "0.0000000000000000",
+        "Pz": "0.0000000000000000",
+        "Q0": "0.0000000000000000",
+        "Q1": "0.0000000000000000",
+        "Q2": "0.0000000000000000",
+        "Q3": "1.0000000000000000",
+        "A": "0.0000000000000000",
+        "Ox": "0.0000000000000000",
+        "Oy": "0.0000000000000000",
+        "Oz": "1.0000000000000000"
+      },
+      "group_parents": [],
+      "visible_viewproviders": [
+        {
+          "name": "Body",
+          "expanded": "0",
+          "Extensions": "True"
+        },
+        {
+          "name": "X_Axis",
+          "expanded": "0"
+        },
+        {
+          "name": "Y_Axis",
+          "expanded": "0"
+        },
+        {
+          "name": "Z_Axis",
+          "expanded": "0"
+        },
+        {
+          "name": "XY_Plane",
+          "expanded": "0"
+        },
+        {
+          "name": "XZ_Plane",
+          "expanded": "0"
+        },
+        {
+          "name": "YZ_Plane",
+          "expanded": "0"
+        },
+        {
+          "name": "Pocket011",
+          "expanded": "0",
+          "Extensions": "True"
+        }
+      ],
+      "brep_location_identity": false,
+      "tip_check": {
+        "tip": "Pocket011",
+        "body_tip_volume_centroid_match": true,
+        "properties": [
+          [
+            873612.8612112361,
+            3.295194317848543,
+            10.017529447353681,
+            14.57521259223726
+          ],
+          [
+            873612.8612112361,
+            3.295194317848543,
+            10.017529447353681,
+            14.57521259223726
+          ]
+        ]
+      },
+      "faces": [
+        {
+          "index": 4,
+          "normal_z": -1.0,
+          "z": 0.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": 5.865147642787633,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": -35614.316838323546,
+              "edge_count": 11,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 5.1728291973635394e-14,
+              "max_sampled_chord_error_mm": 0.00991119719457804,
+              "analytic_edge_error_bound_mm": 0.009912830651255786,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Ellipse",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": 369.03929592011673,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009771549324161768,
+              "analytic_edge_error_bound_mm": 0.009771549324145685,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": 391.22034022070767,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009752906499427174,
+              "analytic_edge_error_bound_mm": 0.009755007420337549,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": 153.64723350326673,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262673538,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 4,
+              "is_occt_outer_wire": false,
+              "signed_area": 153.64723350326676,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262671857,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 5,
+              "is_occt_outer_wire": false,
+              "signed_area": 153.64723350326673,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262670328,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 6,
+              "is_occt_outer_wire": false,
+              "signed_area": 423.89275552371197,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009928448062382836,
+              "analytic_edge_error_bound_mm": 0.009929861946245441,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 7,
+              "is_occt_outer_wire": false,
+              "signed_area": 191.30033077601468,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009708266276880024,
+              "analytic_edge_error_bound_mm": 0.009708266276872015,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 8,
+              "is_occt_outer_wire": false,
+              "signed_area": 153.6472335032666,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00992113026267063,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 9,
+              "is_occt_outer_wire": false,
+              "signed_area": 262.8543479169816,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009767117220265971,
+              "analytic_edge_error_bound_mm": 0.009767117220253165,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 10,
+              "is_occt_outer_wire": false,
+              "signed_area": 246.52206966489166,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009743431013795378,
+              "analytic_edge_error_bound_mm": 0.009743431013782037,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 11,
+              "is_occt_outer_wire": false,
+              "signed_area": 171.492899855531,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009804971384764797,
+              "analytic_edge_error_bound_mm": 0.009804971384756604,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 12,
+              "is_occt_outer_wire": false,
+              "signed_area": 153.64723350326668,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262670073,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 13,
+              "is_occt_outer_wire": false,
+              "signed_area": 231.64375398412687,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00973337235226125,
+              "analytic_edge_error_bound_mm": 0.009733372352254044,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 14,
+              "is_occt_outer_wire": false,
+              "signed_area": 505.39807535029524,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009813329262624557,
+              "analytic_edge_error_bound_mm": 0.009816752064654504,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 15,
+              "is_occt_outer_wire": false,
+              "signed_area": 379.6761238768545,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009911371748514508,
+              "analytic_edge_error_bound_mm": 0.009911371748503206,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "normal_z": 1.0,
+          "z": 30.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": 8.127531892030674,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 34436.984616207395,
+              "edge_count": 15,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 2.453173877602249e-13,
+              "max_sampled_chord_error_mm": 0.00991119719457804,
+              "analytic_edge_error_bound_mm": 0.009912830651255823,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Ellipse",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": -1251.7854833408114,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009852965115672416,
+              "analytic_edge_error_bound_mm": 0.009852965115659206,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": -391.2203402207077,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009752906499427174,
+              "analytic_edge_error_bound_mm": 0.009755007420337549,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": -796.2311494500523,
+              "edge_count": 4,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 7.105427357601002e-15,
+              "max_sampled_chord_error_mm": 0.009780318347163626,
+              "analytic_edge_error_bound_mm": 0.009780318347156453,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 4,
+              "is_occt_outer_wire": false,
+              "signed_area": -4839.042386344234,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009882643571362825,
+              "analytic_edge_error_bound_mm": 0.00988264357135622,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 5,
+              "is_occt_outer_wire": false,
+              "signed_area": -379.6761238768545,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009911371748514508,
+              "analytic_edge_error_bound_mm": 0.009911371748503206,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 6,
+              "is_occt_outer_wire": false,
+              "signed_area": -505.39807535029524,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009813329262624557,
+              "analytic_edge_error_bound_mm": 0.009816752064654504,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 7,
+              "is_occt_outer_wire": false,
+              "signed_area": -1258.6248554280482,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009879845239748348,
+              "analytic_edge_error_bound_mm": 0.009879845239735978,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 8,
+              "is_occt_outer_wire": false,
+              "signed_area": -254.09618185145985,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00989197662861168,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 9,
+              "is_occt_outer_wire": false,
+              "signed_area": -254.09618185146158,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00989197662861168,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 10,
+              "is_occt_outer_wire": false,
+              "signed_area": -254.0961818514602,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009891976628613781,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 11,
+              "is_occt_outer_wire": false,
+              "signed_area": -254.0961818514595,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009891976628613781,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 12,
+              "is_occt_outer_wire": false,
+              "signed_area": -423.89275552371197,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009928448062382836,
+              "analytic_edge_error_bound_mm": 0.009929861946245441,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Ellipse"
+              ]
+            },
+            {
+              "wire_ordinal": 13,
+              "is_occt_outer_wire": false,
+              "signed_area": -369.03929592011673,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009771549324161768,
+              "analytic_edge_error_bound_mm": 0.009771549324145685,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "normal_z": 1.0,
+          "z": 16.000000000000004,
+          "max_sample_z_deviation_mm": 3.552713678800501e-15,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.17081974855364024,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 4839.042386344234,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009882643571362825,
+              "analytic_edge_error_bound_mm": 0.00988264357135622,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": -153.64723350326668,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262670073,
+              "analytic_edge_error_bound_mm": 0.009921130262666389,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": -153.6472335032668,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262672514,
+              "analytic_edge_error_bound_mm": 0.00992113026266639,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": -153.64723350326662,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262671624,
+              "analytic_edge_error_bound_mm": 0.009921130262666387,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 4,
+              "is_occt_outer_wire": false,
+              "signed_area": -153.64723350326665,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262670552,
+              "analytic_edge_error_bound_mm": 0.00992113026266639,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 5,
+              "is_occt_outer_wire": false,
+              "signed_area": -153.6472335032667,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009921130262671302,
+              "analytic_edge_error_bound_mm": 0.009921130262666387,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "normal_z": -1.0,
+          "z": 5.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.3175026252337432,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": -191.30033077601468,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009708266276880024,
+              "analytic_edge_error_bound_mm": 0.009708266276872015,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "normal_z": -1.0,
+          "z": 5.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.3036216908543281,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": -171.492899855531,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009804971384764797,
+              "analytic_edge_error_bound_mm": 0.009804971384756604,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "normal_z": 1.0,
+          "z": 14.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.4782554300982156,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 1258.6248554280482,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009879845239748348,
+              "analytic_edge_error_bound_mm": 0.009879845239735978,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": -231.64375398412687,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00973337235226125,
+              "analytic_edge_error_bound_mm": 0.009733372352254044,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "normal_z": 1.0,
+          "z": 40.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.8240213465735451,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 1251.7854833408114,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009852965115672416,
+              "analytic_edge_error_bound_mm": 0.009852965115659206,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "normal_z": 1.0,
+          "z": 40.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.49132015902250714,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 489.25775074639364,
+              "edge_count": 4,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 1.2809491335957507e-13,
+              "max_sampled_chord_error_mm": 0.00978031834716718,
+              "analytic_edge_error_bound_mm": 0.009780318347156453,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "normal_z": 1.0,
+          "z": 23.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": 3.410605131648481e-13,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 306.9733987036502,
+              "edge_count": 4,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 7.105427357601002e-15,
+              "analytic_edge_error_bound_mm": 0,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "normal_z": 1.0,
+          "z": 10.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.3728230893133855,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 254.09618185145985,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00989197662861168,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "normal_z": 1.0,
+          "z": 10.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.37282308931165176,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 254.09618185146158,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00989197662861168,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "normal_z": 1.0,
+          "z": 10.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.3728230893130444,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 254.0961818514602,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009891976628613781,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "normal_z": 1.0,
+          "z": 10.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.37282308931372654,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 254.0961818514595,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009891976628613781,
+              "analytic_edge_error_bound_mm": 0.009891976628596644,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        }
+      ],
+      "solid_count": 1,
+      "brep_transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "file": "motor_mount_inch.fcstd",
+      "object": "Pocket001",
+      "placement": {
+        "Px": "0.000000000000",
+        "Py": "0.000000000000",
+        "Pz": "0.000000000000",
+        "Q0": "0.000000000000",
+        "Q1": "0.000000000000",
+        "Q2": "0.000000000000",
+        "Q3": "1.000000000000"
+      },
+      "group_parents": [],
+      "visible_viewproviders": [
+        {
+          "name": "Pocket001",
+          "expanded": "0"
+        }
+      ],
+      "brep_location_identity": false,
+      "tip_check": null,
+      "faces": [
+        {
+          "index": 4,
+          "normal_z": -1.0,
+          "z": 0.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 5,
+          "polygon_area_error_mm2": 0.6171364961513746,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": false,
+              "signed_area": 19.535419987529735,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00951325477064238,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": 19.53541998752958,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009513254770641254,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": 19.53541998752963,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009513254770638042,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": 19.53541998752955,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009513254770641631,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 4,
+              "is_occt_outer_wire": false,
+              "signed_area": 313.74929107866967,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009880274453124435,
+              "analytic_edge_error_bound_mm": 0.00988027445312123,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 5,
+              "is_occt_outer_wire": true,
+              "signed_area": -1290.84884216596,
+              "edge_count": 8,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 1.9539925233402755e-14,
+              "max_sampled_chord_error_mm": 0.009122228883418952,
+              "analytic_edge_error_bound_mm": 0.00912222888341252,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "normal_z": 1.0,
+          "z": 5.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": 0.6170562542530433,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 1290.8488421659597,
+              "edge_count": 8,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 1.9539925233402755e-14,
+              "max_sampled_chord_error_mm": 0.009122228883418952,
+              "analytic_edge_error_bound_mm": 0.00912222888341252,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": -313.7493713205662,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009787734800269473,
+              "analytic_edge_error_bound_mm": 0.009787734800263959,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": -19.535419987530304,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00951325477064088,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": -19.53541998752992,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009513254770641631,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 4,
+              "is_occt_outer_wire": false,
+              "signed_area": -19.53541998752972,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00951325477063766,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 5,
+              "is_occt_outer_wire": false,
+              "signed_area": -19.535419987529707,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009513254770640554,
+              "analytic_edge_error_bound_mm": 0.009513254770636137,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        }
+      ],
+      "solid_count": 1,
+      "brep_transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "file": "strange_part_with_holes.fcstd",
+      "object": "Fillet002",
+      "placement": {
+        "Px": "0.000000000000",
+        "Py": "0.000000000000",
+        "Pz": "0.000000000000",
+        "Q0": "0.000000000000",
+        "Q1": "0.000000000000",
+        "Q2": "0.000000000000",
+        "Q3": "1.000000000000"
+      },
+      "group_parents": [],
+      "visible_viewproviders": [
+        {
+          "name": "Fillet002",
+          "expanded": "0"
+        }
+      ],
+      "brep_location_identity": false,
+      "tip_check": null,
+      "faces": [
+        {
+          "index": 1,
+          "normal_z": 1.0,
+          "z": 10.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 1,
+          "polygon_area_error_mm2": 0.1685964307688792,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": false,
+              "signed_area": -25.812060012237676,
+              "edge_count": 9,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 6.217248937900877e-15,
+              "max_sampled_chord_error_mm": 0.00997154319402849,
+              "analytic_edge_error_bound_mm": 0.009971543194027726,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": true,
+              "signed_area": 99.26265398318657,
+              "edge_count": 5,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 3.552713678800501e-15,
+              "max_sampled_chord_error_mm": 0.008555138626189852,
+              "analytic_edge_error_bound_mm": 0.008555138626189618,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": -5.903785623669043,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009311207372807927,
+              "analytic_edge_error_bound_mm": 0.009311207372806714,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": false,
+              "signed_area": -4.391274920293547,
+              "edge_count": 1,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009371937702601597,
+              "analytic_edge_error_bound_mm": 0.009371937702599668,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "normal_z": -1.0,
+          "z": 0.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 3,
+          "polygon_area_error_mm2": 0.161779337106708,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": false,
+              "signed_area": 5.903714801289711,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.00954517146028016,
+              "analytic_edge_error_bound_mm": 0.009545171460278334,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 1,
+              "is_occt_outer_wire": false,
+              "signed_area": 4.394540603754876,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009127244403392135,
+              "analytic_edge_error_bound_mm": 0.009127244403390676,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 2,
+              "is_occt_outer_wire": false,
+              "signed_area": 11.421161520659055,
+              "edge_count": 2,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 0,
+              "max_sampled_chord_error_mm": 0.009210818540716313,
+              "analytic_edge_error_bound_mm": 0.009210818540715072,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle"
+              ]
+            },
+            {
+              "wire_ordinal": 3,
+              "is_occt_outer_wire": true,
+              "signed_area": -99.26265398318657,
+              "edge_count": 5,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 3.552713678800501e-15,
+              "max_sampled_chord_error_mm": 0.008555138626189852,
+              "analytic_edge_error_bound_mm": 0.008555138626189618,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "normal_z": 1.0,
+          "z": 20.0,
+          "max_sample_z_deviation_mm": 0,
+          "outer_wire_ordinal": 0,
+          "polygon_area_error_mm2": -0.008941028089889613,
+          "wires": [
+            {
+              "wire_ordinal": 0,
+              "is_occt_outer_wire": true,
+              "signed_area": 11.146944637296556,
+              "edge_count": 5,
+              "orientation_correct_relative_to_face": true,
+              "max_point_match_error_mm": 3.552713678800501e-15,
+              "max_sampled_chord_error_mm": 0.008555138626190256,
+              "analytic_edge_error_bound_mm": 0.008555138626189618,
+              "curve_types": [
+                "GeomAbs_CurveType.GeomAbs_Circle",
+                "GeomAbs_CurveType.GeomAbs_Line"
+              ]
+            }
+          ]
+        }
+      ],
+      "solid_count": 1,
+      "brep_transform_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}
