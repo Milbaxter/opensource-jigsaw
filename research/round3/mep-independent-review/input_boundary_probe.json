@@ -1,0 +1,27 @@
+{
+  "source_sha256": "cd596f18d56048cc7a9b5378793d6f1f2276d5bf3952ad99fc816deeb23f854b",
+  "probe_sha256": "29f03e9d3a86263cf17b26a6edbb7d0ab702725bab52c7d2809b1d93209c660b",
+  "original_files_unchanged": true,
+  "checks": [
+    {
+      "case": "omitted_obstacle_classification",
+      "rejected": false,
+      "omitted_gid": "2Jq1CiSRrUSgVHe60172nn",
+      "solid_still_parsed": true,
+      "obstacles_count": 0,
+      "straight_path_labels": 0,
+      "straight_path_verified": true
+    },
+    {
+      "case": "nan_cost",
+      "rejected": false,
+      "accepted_nonfinite_cost": true
+    },
+    {
+      "case": "infinite_cost",
+      "rejected": false,
+      "accepted_nonfinite_cost": true
+    }
+  ],
+  "scope": "Additional adversarial tests after freeze; not among original generated fixtures and not a change to measured runs."
+}

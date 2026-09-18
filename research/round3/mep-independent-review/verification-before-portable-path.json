@@ -1,0 +1,1426 @@
+{
+  "source_sha256": "f20637fc49ead6f5492b5a88d696cead434bce23583925795d16abaa37315ad9",
+  "no_prototype_import": true,
+  "coverage": "All complete result/graph pairs present at invocation; continuous verifier checks found joint paths and all reported valid manual/greedy paths. Graph oracle independently recomputes finite subset optimum and length. Analytic extruded-rectangle IFC placement reconstruction independently checked against mesher. Not a new roadmap search or physical safety certification.",
+  "runtime_seconds": 2.136718988418579,
+  "count": 71,
+  "records": [
+    {
+      "result": "blocked-7400-result.json",
+      "sha256": "28f348bd68324350c5c5d7f2c75ab18141175b8ba2e3fc9a06c5cc56f3d364e2",
+      "graph_sha256": "959444e23fe20cb2b85ffe7ebb675dd844aafe6de05ae016fac62ea83a69bde5",
+      "case": "blocked",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "blocked-7401-result.json",
+      "sha256": "54c7bf21723f79e034f0036df74621238c87218869cb426b2369a24e697c9e03",
+      "graph_sha256": "d49241da2cc606699c77bac5220515d8f0613bedc72ced768bb9edd24068d756",
+      "case": "blocked",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "blocked-7402-result.json",
+      "sha256": "e7bc8ee0d54cfa08e01451abda632ca6b6b5e32184baea22db6b002aba1a1cd2",
+      "graph_sha256": "dbfc12c621ff6076b6cb2e4fbf42ec4c9bdeb42616070a6c60f8b30bda1be26f",
+      "case": "blocked",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance089-7400-result.json",
+      "sha256": "7d84f2368de17faa94c52fdb96d0d01938c08e85c2c3779eb5bcde0147a5db1f",
+      "graph_sha256": "9bad41f77d6aa508fc76ca7863fc23414f8e8f17c39b072ee756026179122be1",
+      "case": "clearance089",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance089-7401-result.json",
+      "sha256": "5af75b9c91e67a54f3ba2a2b584e344f5854d59e62535a1f326a56ccca8ca33d",
+      "graph_sha256": "1c90a1e2066534bd35139baf79565a5d80812e7770f469b3a296bbdea437ccf2",
+      "case": "clearance089",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance089-7402-result.json",
+      "sha256": "905452600bc0eaf117c23ccec24be88528b2200fecfd673001ab73150b7265eb",
+      "graph_sha256": "c6de2fa81a78c936ffda1c59e11c9b26d674418804f6a040d675ee7969a7237b",
+      "case": "clearance089",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance090-7400-result.json",
+      "sha256": "0e2835d6404cf97c80dae9699c305416b3c05e38fee3faf4ad0379ceef632499",
+      "graph_sha256": "286040d829d52806568ae58cd90bdbdf8d679cd54d0ca71b7e70c6e69ff0d708",
+      "case": "clearance090",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance090-7401-result.json",
+      "sha256": "0d5701fe1a0088f5a2cfa01147b36974ad4bbdaa096c055a53c1fb239b2d91dd",
+      "graph_sha256": "843abec04b6eaf8c3acd89fc80e4ff4aebf7a290a90ca87b0fa7dc5f8d9ec874",
+      "case": "clearance090",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance090-7402-result.json",
+      "sha256": "376c8acbe39f735cc6be82a4849d36313b7f4ac2f65113a79f8bae1173d1c663",
+      "graph_sha256": "13d126dbf883ba5597ad602f2ba3b7c5e37b15e825cd0cce882239fbce3cbd48",
+      "case": "clearance090",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance091-7400-result.json",
+      "sha256": "bc8ee3effdeebbe26bfcaace134309638026e9c93bd4678463649ef45e97323e",
+      "graph_sha256": "724c82e0d3053e76b55ab87f0ff446055f20f481b2b89a6bc3f596d46572f7e0",
+      "case": "clearance091",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance091-7401-result.json",
+      "sha256": "19fbd8f2f51ae6a8ad76e14f49162381e9cc45ff7627ecaed200cec7579fb3eb",
+      "graph_sha256": "d9f5a4ab35f7d3cc77fce5ecb31322125a197c4c46de8ef100a12aa5896cc216",
+      "case": "clearance091",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "clearance091-7402-result.json",
+      "sha256": "9b414c0eb85991732aabef85daa1ef7a8b1e52f940ecd746bf40511eaeb7e2f1",
+      "graph_sha256": "ffafb036b47064943d74083419e7721025bacff7f3ed3d1bbd2d831b9ca61dcb",
+      "case": "clearance091",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "double-7400-replay-result.json",
+      "sha256": "c31217f5a8fdcc28efdc1c92959af14bb1ad7e8684e97aaf3a5c4f4372c476e1",
+      "graph_sha256": "22a4a563c6d9660e2c29c28fc5bb97810718009bbe883ee3ee54bf32ea33ef77",
+      "case": "double",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "double-7400-result.json",
+      "sha256": "f0621bae80fd41d59c2f41b123f66a71fa34aa8328fba339fc2f06a8af6c6156",
+      "graph_sha256": "22a4a563c6d9660e2c29c28fc5bb97810718009bbe883ee3ee54bf32ea33ef77",
+      "case": "double",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "double-7401-result.json",
+      "sha256": "4c16f4fe48f0f0c1d00558257085f13faf6d71a0d6755a8a8ce2df348e3c013c",
+      "graph_sha256": "339e94c82d5cd0d3b3e795b7aba586ddb24ab09f840ef042688aae24bd2f88a7",
+      "case": "double",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "double-7402-result.json",
+      "sha256": "c0d8b3903305c55d7d34a785b8cffe2d71fc85df6b7db3eb4ff16610f55973ce",
+      "graph_sha256": "058e476038b6a1853d0c767b7290ed5e89fad83a54d296864e968eba00eb9a6e",
+      "case": "double",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "intact-7400-result.json",
+      "sha256": "0e4bde0a59a7d761612a3e17d7c82b5678c51c731ec953502551d81cefa9bee7",
+      "graph_sha256": "d0778b0805edda02fe23f4e24dca287904ebf10752a6da662357f547135eff71",
+      "case": "intact",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        0,
+        10.587763798504565
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 28,
+        "min_sampled_separation": 0.10967462699766291
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "intact-7401-result.json",
+      "sha256": "bb4d8da90aff630f6dcdc5435d640f5522880cfeeaf097e74a71074a0267730e",
+      "graph_sha256": "99d2d9f007b2fbe643d1afb86227683f0aae165073c56a43350a38a0289b5d5e",
+      "case": "intact",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        0,
+        14.314671074046014
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 25,
+        "min_sampled_separation": 0.33111145229815264
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "intact-7402-result.json",
+      "sha256": "05a27c9713a13413fab736838116cdc0c6339d39e7d2b8fda283963e789b3dde",
+      "graph_sha256": "0732ef5ef3a942e571b8b2e18c1d6ac2933c6bd63903129746f5bb8d2a0a0f31",
+      "case": "intact",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        0,
+        11.567972408475748
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 10,
+        "min_sampled_separation": 0.6638018114478239
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "lowbeam-7400-result.json",
+      "sha256": "299bb51be865e9dcbb6ed4580a147fe2f048297764def90da936426f8f44ae65",
+      "graph_sha256": "79f7213cf54df748245b1b00053bef420407689ca9ffc063cc98e4718bfb55e3",
+      "case": "lowbeam",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "lowbeam-7401-result.json",
+      "sha256": "6e2135ea539293a8e55ccc389f81f38f6b3101dc237a8e35e6b681e34ca048d4",
+      "graph_sha256": "88f62785e03aab4d4d9778b2363b41546b7dfec237b10f6e7df34a45867bb171",
+      "case": "lowbeam",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "lowbeam-7402-result.json",
+      "sha256": "1b50f9c1f343d5ecf93b4302d960599bea91e32650c16099d282918ca6eafb0b",
+      "graph_sha256": "b3b030732d31d7e17917c81bafd1512cbf2592a8ef05566b68d0e1795d11202c",
+      "case": "lowbeam",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 0,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "overhead-7400-result.json",
+      "sha256": "5b854385c48e0426d71e49c946b728b34f24fc2a8f6094d2b1f62649b9ba09b8",
+      "graph_sha256": "147eec021a8cc10cb98fc09d36c9f1a77ef9853933f2bbbe06e7321499535e7f",
+      "case": "overhead",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "overhead-7401-result.json",
+      "sha256": "6c05c59a3f15b34d18be5022bb7a9ff3f7d15f6841fce28b3cd6b0245d11f5ab",
+      "graph_sha256": "bb43bb0c615aa6550b351877c0f80ea2c4d91443fe303f929622a6750a5ffe15",
+      "case": "overhead",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "overhead-7402-result.json",
+      "sha256": "33d8a1d1c8a5d21ce252f8d20355b57c6daa2b9b8f39e9b35a8e290371442d04",
+      "graph_sha256": "1041e2cc5e394df5dad9a2249f45259a617b3f3c1915050cbae6a563bfb36fce",
+      "case": "overhead",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7300-7400-result.json",
+      "sha256": "ebb742e6916fe850511688773e074a9d4e38837fdc37bb8d651cdd72451dfe03",
+      "graph_sha256": "908f35a529a09ab9f2dbd9ac112c97b2c4bf51168a9dfbb945681c58119b0130",
+      "case": "random-7300",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        400,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.17559940247175376
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7300-7401-result.json",
+      "sha256": "f021e0c9eee6193de3434cd38c37fd791e3a829e015635d2e18a6b715c6fc725",
+      "graph_sha256": "2c1c29ceb506d3418d2af0f4d4f0b8bca2e328774906e1b913187fd3569b7adf",
+      "case": "random-7300",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        400,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.17559940247175376
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7300-7402-result.json",
+      "sha256": "fefcf47446116fe38226049290bc91966b5fd9c2ddf1d61261737391e9f100d4",
+      "graph_sha256": "5292119f678e35921471c93137f036ed1756036b1ced6dd5702e7589a68e8753",
+      "case": "random-7300",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        400,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.17559940247175376
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7301-7400-result.json",
+      "sha256": "57b3e9c6c4fee99a29ec2b0345f111f5c7520391201962de774cd81850bc33d1",
+      "graph_sha256": "8ebc5c8295a32b5e01ef5464d4a815fe6724de1e735e79d111895430c54d00b6",
+      "case": "random-7301",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.2051972309049921
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7301-7401-result.json",
+      "sha256": "6128d7335434f9fa1a1da995aaf766d1bc018be3bb35236254d2b0c24908bad9",
+      "graph_sha256": "ee93e28aba95f019787561740633f6138c2d9dc213fd07b700c702ebf59d1ac4",
+      "case": "random-7301",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.2051972309049921
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7301-7402-result.json",
+      "sha256": "5768932f044df9ab57f5eade67bed16747c7eabb0e32969565f094bdfd68744b",
+      "graph_sha256": "d6313ee6472d1042662513ac0d4f0e182b923359c1c31e4f7b7597a934b5e687",
+      "case": "random-7301",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.2051972309049921
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7302-7400-result.json",
+      "sha256": "6c9e7176785654bf2cc10946e768d653b27e81a1a620b9f3101527b25459834e",
+      "graph_sha256": "5ae1f0891855392394fe85ec7c25c1162da3d694ad84243616d338d7f708d77c",
+      "case": "random-7302",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.14004101621932463
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7302-7401-result.json",
+      "sha256": "550b1e6d97f68a8ab5c34f6c0693ce2a7a93cf53ebfa4b9fb616a9002e92c0c0",
+      "graph_sha256": "d280ab8c35d864b9d7edc9e4ad0ee4447fe8233068ed8232fa23b749828f07cd",
+      "case": "random-7302",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.14004101621932463
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7302-7402-result.json",
+      "sha256": "b51b39abc27f98f955d727fff433ccf4422a65b34e0020e29caea689b6d798a5",
+      "graph_sha256": "2f867fb9d09d95353dc008d7bd70ea3eec1063cf06ca4fa0d637492dee39425a",
+      "case": "random-7302",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 63,
+        "min_sampled_separation": 0.14004101621932463
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7303-7400-result.json",
+      "sha256": "7ff316c2b179656123efa9bdeee99c5e122f6401369d87ca8b20d9503a033e7e",
+      "graph_sha256": "bda63aed1682c0146f7bfc7d0c618a70838289c718c0fe2a39234fabea8d23eb",
+      "case": "random-7303",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 37,
+        "min_sampled_separation": 0.2178281683095786
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7303-7401-result.json",
+      "sha256": "b7f81459fc2fc2bde62c7c39f20f2a82cc809937411efc2802bf6b869ff21d3a",
+      "graph_sha256": "fed2a2f4204ab9c82c2080378ab4c3950bd2491f2a6dd4f029f7eafc0ab71faf",
+      "case": "random-7303",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 37,
+        "min_sampled_separation": 0.2178281683095786
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7303-7402-result.json",
+      "sha256": "5115c8b72d9000942e166f2bd1a94803845dea2020ced58ff438c9cad9917f35",
+      "graph_sha256": "1576c8f2e80b2fd2dbbda01c367877495a70f3d3fee5bd4bfe290fa23f6026eb",
+      "case": "random-7303",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 37,
+        "min_sampled_separation": 0.2178281683095786
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7304-7400-result.json",
+      "sha256": "c7c6426270534927239f00bba0cc21fc3e49602bba8282d9356548c0a82e1f82",
+      "graph_sha256": "f0cb52705ab3389cbf180c765875bbb876c78f909a2043dcb0455cffc0e670b9",
+      "case": "random-7304",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.22279917657125023
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7304-7401-result.json",
+      "sha256": "02ad3825ccbc53f69b87ea6cb034b2cea528b3b7af0c49925685f3d66de80cad",
+      "graph_sha256": "eda8ac304c9c184e1ab1a8298154df7283453b8c0477e5f5b3c94623e45a37c1",
+      "case": "random-7304",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.22279917657125023
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7304-7402-result.json",
+      "sha256": "8675b75bbd503f726fdfc8a9746e5ffdfc4e479b4f952469f2aa6c05ada31128",
+      "graph_sha256": "c86881918adfafc06b51c88e0f07df0561d012ef385750c71ccd3429f4978cfc",
+      "case": "random-7304",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 47,
+        "min_sampled_separation": 0.22279917657125023
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7305-7400-result.json",
+      "sha256": "af402230d25c0ed5b28eedaa04e742098e576b1c4038e759af4ab0056b76e97f",
+      "graph_sha256": "fc62c7a1e8dbfdaef8a2f55ddd252d5381df7dfee3066de0e138034e48eaefa7",
+      "case": "random-7305",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1000,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 111,
+        "min_sampled_separation": 0.11321761890426794
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7305-7401-result.json",
+      "sha256": "ab28035f5b9ff8450cd1c8d2acee182ed78613662ecc9902355cfe979e0f7b8b",
+      "graph_sha256": "f3a359de029145a117e3f9a7c585d67e0d5df7eb05e2f2831d0f95bc88c706a9",
+      "case": "random-7305",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1000,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 111,
+        "min_sampled_separation": 0.11321761890426794
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7305-7402-result.json",
+      "sha256": "06fc6aa64878e522b97deb98cb6d35591c2cfe7c03e7b6d073b9b9b02de4c8e5",
+      "graph_sha256": "908a022180496285cc9de7790d38913bc733efb0f9408fb68bf6550ee35b7835",
+      "case": "random-7305",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        17.38567694271031
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 372,
+        "min_sampled_separation": 0.052486235159973305
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7306-7400-result.json",
+      "sha256": "d213e9094c68fa799140fddadbb52efce3e7736054cb7228a0b81a7ab0427629",
+      "graph_sha256": "096b1688cbe7df2fa752945d3183f804e8722cf5a86623c2f6107a58b03845a8",
+      "case": "random-7306",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7306-7401-result.json",
+      "sha256": "e571e2d70a61b5bc41dd0c30acaba4f5ec5ec25c09c897bef223dd001cfc327a",
+      "graph_sha256": "7f8fee3213ec20e5011987f2bdb2041e375f1aaf17bc942b8494542a635015c5",
+      "case": "random-7306",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7306-7402-result.json",
+      "sha256": "2f9bce229966600af28af48898ac0de5c78c9bde289ca14f75d517083842a7d8",
+      "graph_sha256": "7cf088be356402de7ff6ae911baa5f803c71933a4218b957b404bd145bbd0f76",
+      "case": "random-7306",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7307-7400-result.json",
+      "sha256": "89a11cf56aecac9d099dc566c690f599d96df837b1a589dced9cc1a387940742",
+      "graph_sha256": "e06bc144ceb5bb8fb017d801e7efb6310cf2b213a5daec2086739e07d462d989",
+      "case": "random-7307",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 27,
+        "min_sampled_separation": 0.3657548961372532
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7307-7401-result.json",
+      "sha256": "8fb976c504b2b0049d68794ce22509587cd8d84963a9e6a9a37405dc1d80c6ee",
+      "graph_sha256": "0fcc32e3a87a81bf57a47fa8a839114a120462d9eb70ad5c1abb62a051515e62",
+      "case": "random-7307",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 27,
+        "min_sampled_separation": 0.3657548961372532
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7307-7402-result.json",
+      "sha256": "4872bc7b355552264ed6ad24d8f5512d0a605225d676bf626c069912af9a62b9",
+      "graph_sha256": "61c848c86e8796d068bae11bf567cbfcd13a515c0a43b4fb3a70feddbab5cad1",
+      "case": "random-7307",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 27,
+        "min_sampled_separation": 0.3657548961372532
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7308-7400-result.json",
+      "sha256": "1c839699406118e308f1cac2963f2cacc28fbcb29ca804458c2b7bc2f8ca529b",
+      "graph_sha256": "343c8be3790bae391e65fbd105f47d1aa0c4956abe63f7935a8050722fd3db41",
+      "case": "random-7308",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1000,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 33,
+        "min_sampled_separation": 0.31336914969162505
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7308-7401-replay-result.json",
+      "sha256": "167145c6d62324385d5aa35f7bb1b04a42906c7fbbaa01a2f6df7e34ebc57a50",
+      "graph_sha256": "c073b3488dda26f3e1d1969bfc8f72a745f2dec3f4a0fa250a25cda34cb25dc6",
+      "case": "random-7308",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        27.016833703345494
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 208,
+        "min_sampled_separation": 0.051500320277084996
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7308-7401-result.json",
+      "sha256": "b5079b10df33317a3c9bfd141a00a87fe781e10f2b85c69ec4deb09e72e6b6bd",
+      "graph_sha256": "c073b3488dda26f3e1d1969bfc8f72a745f2dec3f4a0fa250a25cda34cb25dc6",
+      "case": "random-7308",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        27.016833703345494
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 208,
+        "min_sampled_separation": 0.051500320277084996
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7308-7402-result.json",
+      "sha256": "6b3dfb1cf29d0dc6d0a7ceb609aeec92aaf9e8e4fd996d0ce74c890589ac3943",
+      "graph_sha256": "665f4233866ba213feef70511bd3470620f344db70279256bd3d60d369efcd06",
+      "case": "random-7308",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1000,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 33,
+        "min_sampled_separation": 0.31336914969162505
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7309-7400-result.json",
+      "sha256": "60464166b370ff11f58f41f3b5f2243fe452761f7657b08ccff2493f0304f5e2",
+      "graph_sha256": "e0b53c7b107427600673304a2daf379ee0dd5290308d4fa8b2935ef95c200f6b",
+      "case": "random-7309",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7309-7401-result.json",
+      "sha256": "4ead22274e10105d0a3ccf217652c5222fdec073dd7d0c4d0242bf0621c74ce9",
+      "graph_sha256": "b01ec1a63481fbecca74f0d4b2e8b27f23496d9abd5c3ae6b6df83e312acc220",
+      "case": "random-7309",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7309-7402-result.json",
+      "sha256": "7d9b108579f83a3204ff754e7456b95388d2300e8f0ef2ea3dfda5819fcd4e28",
+      "graph_sha256": "7cec6293bb4de0f94b1a277b1f1385c07fbb736cf00fb50278618bed00572aed",
+      "case": "random-7309",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 2,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7310-7400-result.json",
+      "sha256": "be4a82688952a0337e4be5d65dac32c230f9e950313bc9ecde1fd4e6ed3e274a",
+      "graph_sha256": "70d9775fabb3d993aa046736a4f2615220d44bcf9a8554fead01a15ecc8b513a",
+      "case": "random-7310",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 45,
+        "min_sampled_separation": 0.21547627435248629
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7310-7401-result.json",
+      "sha256": "585ca803190688d55e6dce7539c535a9959ab7855e7f5e47c0f637389ae07b79",
+      "graph_sha256": "c302d65ac10e0538228f066900298f04094221362c3a3c327a221ef7fd48fce3",
+      "case": "random-7310",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 45,
+        "min_sampled_separation": 0.21547627435248629
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7310-7402-result.json",
+      "sha256": "be2aa76aa0b81b10ce7c234fdca6b38a715850808d5f0957db5dc268c9aa8e36",
+      "graph_sha256": "68219e94c3af07c7d07bfbfef2120049dfc51ff7139eff7a25f8dd70c4eb5f49",
+      "case": "random-7310",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 45,
+        "min_sampled_separation": 0.21547627435248629
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7311-7400-result.json",
+      "sha256": "76eff190aa88963e6d26123f21919f548c89713d9fffe469de25a38e8e4a9e29",
+      "graph_sha256": "1a79b1e537e3e680e1eac04b9b5aa743b4dea60675dd1bc082832784e014bfcf",
+      "case": "random-7311",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        200,
+        37.217664243434704
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 279,
+        "min_sampled_separation": 0.05673974491319088
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7311-7401-result.json",
+      "sha256": "3f8b09b13a6ee4875de4089960dc970357ca00f09d11fa2bb803fe870cae8d75",
+      "graph_sha256": "4943e5d900b789b7a4fc9eaa32944bc88605fedaa4b0524a45f0a3fa95d9487b",
+      "case": "random-7311",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.25096640801085446
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "random-7311-7402-result.json",
+      "sha256": "341c89b4f55ab8689cf5374b8e600fd6e3983e2b1ff43bdb2410a5980ccb8c57",
+      "graph_sha256": "f185e9cca76a621dd9b09ce5c542fefb0885ed9533ce7e03cce322af4e88963b",
+      "case": "random-7311",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        1200,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.25096640801085446
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "rotation-7400-result.json",
+      "sha256": "3431d6d58f0c48d2012b51ad08a6ee0f314633275a238cb788e77f07c7b285e9",
+      "graph_sha256": "45488746f61de04bc0861173b53c75a34fbdcc683ebff226af86a5e4c1083b3b",
+      "case": "rotation",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "rotation-7401-result.json",
+      "sha256": "c62a31ed7523bbaed7c0a84a75936439744c2f7cb834a65afe110a5b308e456b",
+      "graph_sha256": "0d5465662e2ed65ab6c658e141d9c740186047e95d62799fc4e6dd821d45e5ba",
+      "case": "rotation",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "rotation-7402-result.json",
+      "sha256": "95648e2995d5994f0e636f6b9a699f09a74a48b0b3d0bb7363b1938ea33cd481",
+      "graph_sha256": "e31ad40aa385a0ae5c91fd1197710a85f02b04f76aa2a9ba56c497660839a01a",
+      "case": "rotation",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 2.220446049250313e-16,
+      "status": "no_roadmap_route",
+      "independent_oracle": null,
+      "manual_paths_checked": 3,
+      "greedy_paths_checked": 0,
+      "oracle_match": true
+    },
+    {
+      "result": "single-7400-result.json",
+      "sha256": "deb57040bd1e5814c15fe5f12d8bea5f53c2154da560137fbb91c0eaee03e6e4",
+      "graph_sha256": "3b8879cd2bb0b327ab4fab9fc71f0985261c62a991a1b88d7c7d389e562d3640",
+      "case": "single",
+      "seed": 7400,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        700,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 23,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "single-7401-result.json",
+      "sha256": "cf0844ba00b02b2bc7a12eb79f964b60a7e2ce4976000e43e15432f0dbd009ba",
+      "graph_sha256": "0ece9ab6bdcb7e14708601444aef6eed27021444b70a8389af3bdcb3dee9d119",
+      "case": "single",
+      "seed": 7401,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        700,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 23,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "single-7402-result.json",
+      "sha256": "26e7c2b5ef8434babfc6e329bb5f194ff9a97e5bdb208035c4c0e464d780f53c",
+      "graph_sha256": "1738f86a86f8ccf232d4685f0785b3a422388f2a2ad9c261fe37164bebb805b7",
+      "case": "single",
+      "seed": 7402,
+      "unit_scale": 1.0,
+      "analytic_ifc_mesher_max_error": 0.0,
+      "status": "found",
+      "independent_oracle": [
+        700,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 23,
+        "min_sampled_separation": 0.2999999999999998
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "units_transform-7400-result.json",
+      "sha256": "d3e5169c92cc62dee3bf674d7a76741866f0360fe337d105446fd5a78cf21c51",
+      "graph_sha256": "de784d783d733c4d05b4bfd8f741b562385781cd5b32022665c63ea57d6a9430",
+      "case": "units_transform",
+      "seed": 7400,
+      "unit_scale": 0.001,
+      "analytic_ifc_mesher_max_error": 3.1776437161565096e-14,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.29999999999997967
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "units_transform-7401-result.json",
+      "sha256": "2d4e8e1aab493081758c05bfc9dc45cbdc6ac5de4eb6a20a8c80c2c5d69fb372",
+      "graph_sha256": "0bad16cac34e1e8886fbada4ee67d3e7a901db26d27a304a0a646f4847b71c85",
+      "case": "units_transform",
+      "seed": 7401,
+      "unit_scale": 0.001,
+      "analytic_ifc_mesher_max_error": 3.1776437161565096e-14,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.29999999999997967
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    },
+    {
+      "result": "units_transform-7402-result.json",
+      "sha256": "f6ead6f020d8de29aedd1b5d36a95f645786b403f9a84b2f55a7c3b71446a83c",
+      "graph_sha256": "d45043b4048bb9e818e11fb6c644c99170e5487347bd256963e734a1032f244f",
+      "case": "units_transform",
+      "seed": 7402,
+      "unit_scale": 0.001,
+      "analytic_ifc_mesher_max_error": 3.1776437161565096e-14,
+      "status": "found",
+      "independent_oracle": [
+        600,
+        9.0
+      ],
+      "independent_continuous_check": {
+        "passed": true,
+        "interval_checks": 43,
+        "min_sampled_separation": 0.29999999999997967
+      },
+      "removal_cost_counted_once": true,
+      "manual_paths_checked": 4,
+      "greedy_paths_checked": 2,
+      "oracle_match": true
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "case": "single",
+  "seed": 7402,
+  "synthetic": true,
+  "unit_scale": 1,
+  "nodes": 103,
+  "raw_edges": 388,
+  "checked_edges": 377,
+  "comparison": {
+    "joint": {
+      "status": "found",
+      "cost": 700,
+      "length": 9.0,
+      "mask": 2,
+      "path": [
+        0,
+        1
+      ],
+      "expanded": 69,
+      "seconds": 0.00041770798270590603,
+      "states": [
+        [
+          1.5,
+          5.0,
+          0.0
+        ],
+        [
+          10.5,
+          5.0,
+          0.0
+        ]
+      ],
+      "removed_names": [
+        "panel-6-1"
+      ],
+      "continuous_check": true
+    },
+    "oracle": {
+      "path": [
+        0,
+        1
+      ],
+      "mask": 2,
+      "length": 9.0,
+      "objective": 0.0,
+      "allowed_mask": 2,
+      "cost": 700
+    },
+    "oracle_rows": [
+      {
+        "mask": 0,
+        "cost": 0,
+        "found": false
+      },
+      {
+        "mask": 1,
+        "cost": 1000,
+        "found": false
+      },
+      {
+        "mask": 2,
+        "cost": 700,
+        "found": true
+      },
+      {
+        "mask": 3,
+        "cost": 1700,
+        "found": true
+      },
+      {
+        "mask": 4,
+        "cost": 200,
+        "found": false
+      },
+      {
+        "mask": 5,
+        "cost": 1200,
+        "found": false
+      },
+      {
+        "mask": 6,
+        "cost": 900,
+        "found": true
+      },
+      {
+        "mask": 7,
+        "cost": 1900,
+        "found": true
+      }
+    ],
+    "oracle_match": true,
+    "greedy": [
+      {
+        "mode": "count",
+        "found": true,
+        "cost": 700,
+        "mask": 2,
+        "steps": [
+          "panel-6-1"
+        ],
+        "path": [
+          0,
+          1
+        ]
+      },
+      {
+        "mode": "cost",
+        "found": true,
+        "cost": 700,
+        "mask": 2,
+        "steps": [
+          "panel-6-1"
+        ],
+        "path": [
+          0,
+          1
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "index": 0,
+        "valid": true,
+        "cost": 1000,
+        "mask": 1,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            4.8,
+            2.0,
+            0.0
+          ],
+          [
+            7.2,
+            2.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "valid": true,
+        "cost": 700,
+        "mask": 2,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            4.8,
+            5.0,
+            0.0
+          ],
+          [
+            7.2,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "valid": true,
+        "cost": 200,
+        "mask": 4,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            4.8,
+            8.0,
+            0.0
+          ],
+          [
+            7.2,
+            8.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "valid": true,
+        "cost": 700,
+        "mask": 2,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "intact": null
+  }
+}

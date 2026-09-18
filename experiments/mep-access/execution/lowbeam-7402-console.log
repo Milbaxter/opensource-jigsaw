@@ -1,0 +1,4 @@
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 0 states
+Info:    Closest path is still start and goal
+{"case": "lowbeam", "seed": 7402, "nodes": 100, "edges": 337, "joint": null, "oracle_match": true}

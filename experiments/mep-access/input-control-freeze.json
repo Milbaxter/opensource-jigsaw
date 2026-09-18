@@ -1,0 +1,5 @@
+{
+  "frozen_at": "2026-09-18T09:02:53.463257+00:00",
+  "helper_sha256": "27a394f85e18f5cbeec73206f3426399071db4786009c9f4964989a5b37dd2a9",
+  "note": "Initial control function omitted explicit execution of preregistered missing-input/unknown-unit/bad-cost checks. This helper adds those checks without altering implementation or input domain. Frozen before helper execution; after first intact roadmap run."
+}

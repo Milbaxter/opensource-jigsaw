@@ -1,0 +1,7 @@
+{
+  "frozen_at": "2026-09-18T09:01:13.794848+00:00",
+  "protocol_commit": "4464c4d",
+  "prototype_sha256": "cd596f18d56048cc7a9b5378793d6f1f2276d5bf3952ad99fc816deeb23f854b",
+  "protocol_sha256": "f40a091dc339e29eee537d709ae95d748a200c27be990de2a4f298fb5662cf27",
+  "note": "Frozen before fixture authoring and geometry/planner execution."
+}

@@ -1,0 +1,10 @@
+{
+  "outcomes": 69,
+  "found": 45,
+  "no_graph_route": 24,
+  "random_runs": 36,
+  "random_dual_wins": 0,
+  "missed_route_despite_valid_manual": 12,
+  "joint_cost_worse_than_valid_manual": 10,
+  "input_frozen_source_sha256": "cd596f18d56048cc7a9b5378793d6f1f2276d5bf3952ad99fc816deeb23f854b"
+}

@@ -1,0 +1,18 @@
+{
+  "candidate": "MEP access options, original frozen prototype",
+  "rubric": "v2",
+  "accepted": false,
+  "recommendation": "hold",
+  "numeric_scoring": "Not performed because prospective comparative gate fails and input readiness has a reproduced blocker.",
+  "failing_findings": [
+    "Zero dual-baseline wins across twelve randomized fixtures; declared improvement gate not met.",
+    "An IFC solid without an intervention classification is silently omitted from collision checks.",
+    "NaN and positive-infinite allowed intervention costs are not rejected."
+  ],
+  "supported_findings": [
+    "IFC extraction/placements agree with independent analytic reconstruction for original rectangular fixtures.",
+    "Independent subset oracle and conservative continuous checks support all reported found paths on complete inputs.",
+    "Paid workflow and procurable scan/BIM inputs remain plausible."
+  ],
+  "next_action": "Preserve results; move active discovery onward. Reopen only on specific authorized buyer workflow evidence, not benchmark retuning."
+}

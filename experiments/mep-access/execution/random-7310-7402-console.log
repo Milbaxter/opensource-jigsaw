@@ -1,0 +1,5 @@
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 0 states
+Info:    Using approximate solution, heuristic cost-to-go is 0.000000
+Info:    ProblemDefinition: Adding approximate solution from planner PRM
+{"case": "random-7310", "seed": 7402, "nodes": 100, "edges": 324, "joint": 1200, "oracle_match": true}

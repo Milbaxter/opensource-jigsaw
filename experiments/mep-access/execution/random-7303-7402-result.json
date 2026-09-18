@@ -1,0 +1,409 @@
+{
+  "case": "random-7303",
+  "seed": 7402,
+  "synthetic": true,
+  "unit_scale": 1,
+  "nodes": 98,
+  "raw_edges": 326,
+  "checked_edges": 320,
+  "comparison": {
+    "joint": {
+      "status": "found",
+      "cost": 600,
+      "length": 9.0,
+      "mask": 9,
+      "path": [
+        0,
+        1
+      ],
+      "expanded": 66,
+      "seconds": 0.00036091599031351507,
+      "states": [
+        [
+          1.5,
+          5.0,
+          0.0
+        ],
+        [
+          10.5,
+          5.0,
+          0.0
+        ]
+      ],
+      "removed_names": [
+        "panel-4-1",
+        "panel-8-1"
+      ],
+      "continuous_check": true
+    },
+    "oracle": {
+      "path": [
+        0,
+        1
+      ],
+      "mask": 9,
+      "length": 9.0,
+      "objective": 0.0,
+      "allowed_mask": 9,
+      "cost": 600
+    },
+    "oracle_rows": [
+      {
+        "mask": 0,
+        "cost": 0,
+        "found": false
+      },
+      {
+        "mask": 1,
+        "cost": 300,
+        "found": false
+      },
+      {
+        "mask": 2,
+        "cost": 900,
+        "found": false
+      },
+      {
+        "mask": 3,
+        "cost": 1200,
+        "found": false
+      },
+      {
+        "mask": 4,
+        "cost": 900,
+        "found": false
+      },
+      {
+        "mask": 5,
+        "cost": 1200,
+        "found": false
+      },
+      {
+        "mask": 6,
+        "cost": 1800,
+        "found": false
+      },
+      {
+        "mask": 7,
+        "cost": 2100,
+        "found": false
+      },
+      {
+        "mask": 8,
+        "cost": 300,
+        "found": false
+      },
+      {
+        "mask": 9,
+        "cost": 600,
+        "found": true
+      },
+      {
+        "mask": 10,
+        "cost": 1200,
+        "found": false
+      },
+      {
+        "mask": 11,
+        "cost": 1500,
+        "found": true
+      },
+      {
+        "mask": 12,
+        "cost": 1200,
+        "found": false
+      },
+      {
+        "mask": 13,
+        "cost": 1500,
+        "found": true
+      },
+      {
+        "mask": 14,
+        "cost": 2100,
+        "found": false
+      },
+      {
+        "mask": 15,
+        "cost": 2400,
+        "found": true
+      },
+      {
+        "mask": 16,
+        "cost": 100,
+        "found": false
+      },
+      {
+        "mask": 17,
+        "cost": 400,
+        "found": false
+      },
+      {
+        "mask": 18,
+        "cost": 1000,
+        "found": false
+      },
+      {
+        "mask": 19,
+        "cost": 1300,
+        "found": false
+      },
+      {
+        "mask": 20,
+        "cost": 1000,
+        "found": false
+      },
+      {
+        "mask": 21,
+        "cost": 1300,
+        "found": false
+      },
+      {
+        "mask": 22,
+        "cost": 1900,
+        "found": false
+      },
+      {
+        "mask": 23,
+        "cost": 2200,
+        "found": false
+      },
+      {
+        "mask": 24,
+        "cost": 400,
+        "found": false
+      },
+      {
+        "mask": 25,
+        "cost": 700,
+        "found": true
+      },
+      {
+        "mask": 26,
+        "cost": 1300,
+        "found": false
+      },
+      {
+        "mask": 27,
+        "cost": 1600,
+        "found": true
+      },
+      {
+        "mask": 28,
+        "cost": 1300,
+        "found": false
+      },
+      {
+        "mask": 29,
+        "cost": 1600,
+        "found": true
+      },
+      {
+        "mask": 30,
+        "cost": 2200,
+        "found": false
+      },
+      {
+        "mask": 31,
+        "cost": 2500,
+        "found": true
+      }
+    ],
+    "oracle_match": true,
+    "greedy": [
+      {
+        "mode": "count",
+        "found": true,
+        "cost": 600,
+        "mask": 9,
+        "steps": [
+          "panel-8-1",
+          "panel-4-1"
+        ],
+        "path": [
+          0,
+          1
+        ]
+      },
+      {
+        "mode": "cost",
+        "found": true,
+        "cost": 600,
+        "mask": 9,
+        "steps": [
+          "panel-8-1",
+          "panel-4-1"
+        ],
+        "path": [
+          0,
+          1
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "index": 0,
+        "valid": false,
+        "cost": null,
+        "mask": null,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.8,
+            1.8686295961932742,
+            0.0
+          ],
+          [
+            5.2,
+            1.8686295961932742,
+            0.0
+          ],
+          [
+            6.8,
+            2.09529941040398,
+            0.0
+          ],
+          [
+            9.2,
+            2.09529941040398,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "valid": true,
+        "cost": 600,
+        "mask": 9,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.8,
+            4.856330538616752,
+            0.0
+          ],
+          [
+            5.2,
+            4.856330538616752,
+            0.0
+          ],
+          [
+            6.8,
+            5.004356081116839,
+            0.0
+          ],
+          [
+            9.2,
+            5.004356081116839,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "valid": true,
+        "cost": 1000,
+        "mask": 18,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.8,
+            8.037110911770885,
+            0.0
+          ],
+          [
+            5.2,
+            8.037110911770885,
+            0.0
+          ],
+          [
+            6.8,
+            7.8941317191652365,
+            0.0
+          ],
+          [
+            9.2,
+            7.8941317191652365,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "valid": true,
+        "cost": 600,
+        "mask": 9,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "intact": null
+  }
+}

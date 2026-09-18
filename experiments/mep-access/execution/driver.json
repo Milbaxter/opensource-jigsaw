@@ -1,0 +1,977 @@
+[
+  {
+    "case": "intact",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.6454835000040475,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "intact",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "intact",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.595393666997552,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "intact",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "blocked",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.686761832999764,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "blocked",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "blocked",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.597030667006038,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "blocked",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "blocked",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.7613415829837322,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "blocked",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "rotation",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.74891112500336,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "rotation",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "rotation",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.707089207979152,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "rotation",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "rotation",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.685753666999517,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "rotation",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "clearance089",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.7852878339763265,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance089",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "clearance089",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.636677249975037,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance089",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "clearance089",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.663603624998359,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance089",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "clearance090",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.7740567500004545,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance090",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "clearance090",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.681584959005704,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance090",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "clearance090",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.6824772499967366,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance090",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "clearance091",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.7980970830249134,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance091",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "clearance091",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.7487086660112254,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance091",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "clearance091",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.7616760000237264,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "clearance091",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "single",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.794759249984054,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "single",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "single",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.831256542005576,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "single",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "single",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.8402620420092717,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "single",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "double",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.940539083996555,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "double",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "double",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.9894937909848522,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "double",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "double",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.991501959011657,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "double",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "overhead",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.9157036249816883,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "overhead",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "overhead",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.8846625830046833,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "overhead",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "overhead",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9243944589979947,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "overhead",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "lowbeam",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 3.0597714169998653,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "lowbeam",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "lowbeam",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 3.037814166978933,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "lowbeam",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "lowbeam",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9251239160075784,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "lowbeam",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7300",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.9341709580039605,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7300",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7300",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.9623995829897467,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7300",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7300",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9686616249964572,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7300",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7301",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.8588445000059437,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7301",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7301",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.857701166998595,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7301",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7301",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.89483362500323,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7301",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7302",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.933377167006256,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7302",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7302",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 3.06364062501234,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7302",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7302",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 3.0427529999869876,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7302",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7303",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.9314772919751704,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7303",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7303",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.8239021670015063,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7303",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7303",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.915257707994897,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7303",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7304",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.8732420000014827,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7304",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7304",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.939446249976754,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7304",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7304",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 3.0658772089809645,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7304",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7305",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 3.0463472080009524,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7305",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7305",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 3.086127959017176,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7305",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7305",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 3.068507625022903,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7305",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7306",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.8901330000080634,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7306",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7306",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.907459874986671,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7306",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7306",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9037436670041643,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7306",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7307",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.958846666995669,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7307",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7307",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.869623083010083,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7307",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7307",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.894712792010978,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7307",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7308",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.835474958003033,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7308",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7308",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.9026365840109065,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7308",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7308",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9185934999841265,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7308",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7309",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.9949790829850826,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7309",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7309",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 3.063240208022762,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7309",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7309",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.993399708007928,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7309",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7310",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.8734325840196107,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7310",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7310",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 2.850289541995153,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7310",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7310",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.9389060409739614,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7310",
+      "--seed",
+      "7402"
+    ]
+  },
+  {
+    "case": "random-7311",
+    "seed": 7400,
+    "returncode": 0,
+    "wall_seconds": 2.951745625003241,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7311",
+      "--seed",
+      "7400"
+    ]
+  },
+  {
+    "case": "random-7311",
+    "seed": 7401,
+    "returncode": 0,
+    "wall_seconds": 3.0019923340005334,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7311",
+      "--seed",
+      "7401"
+    ]
+  },
+  {
+    "case": "random-7311",
+    "seed": 7402,
+    "returncode": 0,
+    "wall_seconds": 2.982042499992531,
+    "command": [
+      "<workspace>/work/round3-c/.venv/bin/python",
+      "<workspace>/work/round3-c/prototype.py",
+      "run",
+      "--case",
+      "random-7311",
+      "--seed",
+      "7402"
+    ]
+  }
+]

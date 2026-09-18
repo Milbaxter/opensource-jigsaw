@@ -1,0 +1,306 @@
+"""Prospective MEP geometry-only preplanning experiment; no physical authorization."""
+from __future__ import annotations
+import argparse, collections, gzip, hashlib, heapq, itertools, json, math, os, pathlib, random, sys, time, uuid
+import numpy as np
+import ifcopenshell
+import ifcopenshell.geom
+import ifcopenshell.util.unit
+from shapely.geometry import Polygon, MultiPoint, box
+from shapely.affinity import rotate, translate
+from ompl import base as ob, geometric as og, util as ou
+ROOT=pathlib.Path(__file__).resolve().parent
+CLEAR=.05;TOL=.0001
+
+def sha(path):return hashlib.sha256(pathlib.Path(path).read_bytes()).hexdigest()
+def write(path,x):pathlib.Path(path).write_text(json.dumps(x,indent=2))
+def wrap(a):return (a+math.pi)%(2*math.pi)-math.pi
+
+def scenarios():
+ out=[]
+ def base(name):return {'name':name,'objects':[],'unit':[1.8,.8,1.4],'start':[1.5,5,0],'goal':[10.5,5,0],'units':'m','offset':[0,0],'angle':0,'doors':[]}
+ def obj(c,name,x,y,dx,dy,z=0,h=3,allowed=False,cost=None):c['objects'].append({'id':name,'center':[x,y,z],'size':[dx,dy,h],'allowed':allowed,'cost':cost})
+ def barrier(c,x,centers,width,costs=None):
+  lo=0
+  for j,y in enumerate(centers):
+   lower=y-width/2;upper=y+width/2
+   if lower>lo:obj(c,f'wall-{x}-{j}',x,(lower+lo)/2,.2,lower-lo)
+   if costs is not None:obj(c,f'panel-{x}-{j}',x,y,.2,width,allowed=True,cost=costs[j])
+   lo=upper
+  if lo<10:obj(c,f'wall-{x}-end',x,(lo+10)/2,.2,10-lo)
+  c['doors'].append({'x':x,'centers':centers,'width':width})
+ c=base('intact');obj(c,'column',6,5,1,1);out.append(c)
+ c=base('blocked');obj(c,'full-barrier',6,5,.2,10);out.append(c)
+ for name,width in [('rotation',1.05),('clearance089',.89),('clearance090',.90),('clearance091',.91)]:
+  c=base(name);c['start'][2]=c['goal'][2]=math.pi/2;barrier(c,6,[5],width);out.append(c)
+ c=base('single');barrier(c,6,[2,5,8],1.4,[1000,700,200]);out.append(c)
+ c=base('double');barrier(c,4,[2,5,8],1.4,[100,300,900]);barrier(c,8,[2,5,8],1.4,[900,300,100]);out.append(c)
+ for name,z in [('overhead',1.6),('lowbeam',1.44)]:
+  c=json.loads(json.dumps(out[-1] if out[-1]['name']=='double' else next(x for x in out if x['name']=='double')));c['name']=name
+  next(x for x in c['objects'] if x['id']=='panel-4-0')['allowed']=False
+  obj(c,'beam',6,5,.2,10,z=z,h=.2);out.append(c)
+ c=json.loads(json.dumps(next(x for x in out if x['name']=='double')));c.update(name='units_transform',units='mm',offset=[100,200],angle=math.pi/6);out.append(c)
+ for seed in range(7300,7312):
+  r=random.Random(seed);c=base('random-'+str(seed));c['generator_seed']=seed;c['unit']=[r.uniform(1.6,2),r.uniform(.6,1),1.4]
+  for x in (4,8):
+   ys=[y+r.uniform(-.15,.15) for y in (2,5,8)];costs=[100,300,900];r.shuffle(costs);barrier(c,x,ys,1.4,costs)
+  r.choice([x for x in c['objects'] if x['allowed']])['allowed']=False;out.append(c)
+ return out
+
+def transform(q,c):
+ a=c['angle'];co=math.cos(a);si=math.sin(a)
+ return [co*q[0]-si*q[1]+c['offset'][0],si*q[0]+co*q[1]+c['offset'][1],wrap(q[2]+a)]
+
+def author(c,directory):
+ """Author original synthetic IFC; no geometry extraction/planning here."""
+ f=ifcopenshell.file(schema='IFC4');scale=1000 if c['units']=='mm' else 1
+ def point(v):return f.create_entity('IfcCartesianPoint',Coordinates=tuple(float(x) for x in v))
+ def axis(v=(0,0,0),yaw=0):return f.create_entity('IfcAxis2Placement3D',Location=point(v),Axis=f.create_entity('IfcDirection',DirectionRatios=(0.,0.,1.)),RefDirection=f.create_entity('IfcDirection',DirectionRatios=(math.cos(yaw),math.sin(yaw),0.)))
+ def place(parent,v,yaw=0):return f.create_entity('IfcLocalPlacement',PlacementRelTo=parent,RelativePlacement=axis([x*scale for x in v],yaw))
+ def gid(name):return ifcopenshell.guid.compress(uuid.uuid5(uuid.NAMESPACE_URL,'mep-original/'+c['name']+'/'+name).hex)
+ units=f.create_entity('IfcUnitAssignment',Units=[f.create_entity('IfcSIUnit',UnitType='LENGTHUNIT',Name='METRE',Prefix='MILLI' if scale==1000 else None)])
+ context=f.create_entity('IfcGeometricRepresentationContext',ContextIdentifier='Model',ContextType='Model',CoordinateSpaceDimension=3,Precision=1e-7,WorldCoordinateSystem=axis())
+ project=f.create_entity('IfcProject',GlobalId=gid('project'),Name=c['name'],RepresentationContexts=[context],UnitsInContext=units)
+ building=f.create_entity('IfcBuilding',GlobalId=gid('building'),Name='Synthetic building',ObjectPlacement=place(None,[*c['offset'],0]))
+ storey=f.create_entity('IfcBuildingStorey',GlobalId=gid('storey'),Name='Synthetic level',ObjectPlacement=place(building.ObjectPlacement,[0,0,0],c['angle']))
+ for parent,child in [(project,building),(building,storey)]:f.create_entity('IfcRelAggregates',GlobalId=gid('aggregate-'+child.Name),RelatingObject=parent,RelatedObjects=[child])
+ elements=[];ids={}
+ specs=[{'id':'floor','center':[6,5,-.1],'size':[12,10,.1],'allowed':False,'cost':None},
+        {'id':'equipment','center':[*c['start'][:2],0],'size':c['unit'],'allowed':False,'cost':None,'yaw':c['start'][2]}]+c['objects']
+ for spec in specs:
+  dx,dy,h=spec['size'];profile=f.create_entity('IfcRectangleProfileDef',ProfileType='AREA',XDim=dx*scale,YDim=dy*scale)
+  solid=f.create_entity('IfcExtrudedAreaSolid',SweptArea=profile,Position=axis(),ExtrudedDirection=f.create_entity('IfcDirection',DirectionRatios=(0.,0.,1.)),Depth=h*scale)
+  rep=f.create_entity('IfcShapeRepresentation',ContextOfItems=context,RepresentationIdentifier='Body',RepresentationType='SweptSolid',Items=[solid])
+  el=f.create_entity('IfcBuildingElementProxy',GlobalId=gid(spec['id']),Name=spec['id'],ObjectType='SYNTHETIC',ObjectPlacement=place(storey.ObjectPlacement,spec['center'],spec.get('yaw',0)),Representation=f.create_entity('IfcProductDefinitionShape',Representations=[rep]))
+  elements.append(el);ids[spec['id']]=el.GlobalId
+ f.create_entity('IfcRelContainedInSpatialStructure',GlobalId=gid('containment'),RelatedElements=elements,RelatingStructure=storey)
+ f.write(str(directory/(c['name']+'.ifc')))
+ metadata={'name':c['name'],'start':transform(c['start'],c),'goal':transform(c['goal'],c),'ids':ids,'units':c['units'],'transform':{'angle':c['angle'],'offset':c['offset']},
+           'interventions':{ids[x['id']]:{'name':x['id'],'allowed':x['allowed'],'cost':x['cost']} for x in c['objects']},'doors':c['doors']}
+ # Actual external route waypoints are declared input, not parsed obstacle geometry.
+ metadata['manual_routes']=[]
+ for route_index in range(3):
+  qs=[c['start'],[c['start'][0],c['start'][1],0]]
+  if c['doors']:
+   for door in c['doors']:
+    y=door['centers'][min(route_index,len(door['centers'])-1)]
+    qs.extend([[door['x']-1.2,y,0],[door['x']+1.2,y,0]])
+  else:
+   y=[2,5,8][route_index];qs.extend([[2,y,0],[10,y,0]])
+  qs.extend([[c['goal'][0],c['goal'][1],0],c['goal']]);metadata['manual_routes'].append([transform(q,c) for q in qs])
+ metadata['manual_routes'].append([metadata['start'],metadata['goal']]);write(directory/(c['name']+'.json'),metadata)
+
+def fixtures():
+ d=ROOT/'fixtures';d.mkdir(exist_ok=True);cs=scenarios();write(d/'generator-inputs.json',cs)
+ for c in cs:author(c,d)
+ write(ROOT/'fixture-manifest.json',[{'file':str(x.relative_to(ROOT)),'sha256':sha(x)} for x in sorted(d.iterdir())]);print(len(cs),'original IFC cases authored')
+
+class Scene:
+ def __init__(self,name):
+  d=ROOT/'fixtures';self.meta=json.loads((d/(name+'.json')).read_text());self.name=name;self.f=ifcopenshell.open(d/(name+'.ifc'))
+  self.unit_scale=ifcopenshell.util.unit.calculate_unit_scale(self.f)
+  if self.unit_scale not in (1.,.001):raise ValueError('unsupported unit')
+  settings=ifcopenshell.geom.settings();settings.set('use-world-coords',True);settings.set('convert-back-units',False)
+  self.shapes={}
+  for el in self.f.by_type('IfcBuildingElementProxy'):
+   shape=ifcopenshell.geom.create_shape(settings,el);v=np.asarray(shape.geometry.verts).reshape(-1,3)
+   if len(v)<4 or not np.isfinite(v).all():raise ValueError('missing/nonfinite geometry')
+   self.shapes[el.GlobalId]={'polygon':MultiPoint(v[:,:2]).convex_hull,'zmin':float(v[:,2].min()),'zmax':float(v[:,2].max())}
+  expected=set(self.meta['ids'].values())
+  if set(self.shapes)!=expected:raise ValueError('missing/unknown solid')
+  self.floor=self.shapes[self.meta['ids']['floor']]['polygon'];equipment=self.shapes[self.meta['ids']['equipment']]
+  self.start=self.meta['start'];self.goal=self.meta['goal']
+  local=rotate(translate(equipment['polygon'],-self.start[0],-self.start[1]),-self.start[2],origin=(0,0),use_radians=True)
+  self.body=local;bounds=local.bounds;self.radius=max(math.hypot(x,y) for x,y in local.exterior.coords)
+  self.height=equipment['zmax']-equipment['zmin'];self.bottom=equipment['zmin'];self.top=equipment['zmax']
+  self.obstacles=[];self.optional=[]
+  for gid,info in self.meta['interventions'].items():
+   sh=self.shapes[gid];active=not(sh['zmin']>self.top+CLEAR+TOL or sh['zmax']<self.bottom-CLEAR-TOL)
+   o={**info,**sh,'gid':gid,'active':active}
+   if info['allowed']:
+    if info['cost'] is None or info['cost']<=0:raise ValueError('unknown/nonpositive cost')
+    o['bit']=1<<len(self.optional);self.optional.append(o)
+   else:o['bit']=0
+   self.obstacles.append(o)
+  self.hard=[o for o in self.obstacles if o['active'] and not o['allowed']]
+  self.calls=0;self.uncertain=0
+ def pose(self,q):return translate(rotate(self.body,q[2],origin=(0,0),use_radians=True),q[0],q[1])
+ def state_valid(self,q):
+  body=self.pose(q)
+  return self.floor.covers(body) and body.distance(self.floor.boundary)>CLEAR+TOL and all(body.distance(o['polygon'])>CLEAR+TOL for o in self.hard)
+ def sweep_separate(self,a,b,obstacle=None):
+  """Conservative Lipschitz displacement bound, independently of OMPL validation."""
+  def rec(a,b,depth):
+   self.calls+=1;da=wrap(b[2]-a[2]);mid=[(a[0]+b[0])/2,(a[1]+b[1])/2,wrap(a[2]+da/2)]
+   body=self.pose(mid);B=math.hypot(b[0]-a[0],b[1]-a[1])/2+2*self.radius*math.sin(abs(da)/4)
+   if obstacle is None:
+    if not self.floor.covers(body):return False
+    dist=body.distance(self.floor.boundary)
+   else:dist=body.distance(obstacle)
+   if dist<=CLEAR+TOL:return False
+   if dist>B+CLEAR+TOL:return True
+   if B<=.001 or depth>=20:self.uncertain+=1;return False
+   return rec(a,mid,depth+1) and rec(mid,b,depth+1)
+  return rec(a,b,0)
+ def labels(self,a,b):
+  if not self.sweep_separate(a,b):return None
+  mask=0
+  for o in self.obstacles:
+   if not o['active']:continue
+   if not self.sweep_separate(a,b,o['polygon']):
+    if not o['allowed']:return None
+    mask|=o['bit']
+  return mask
+ def cost(self,mask):return sum(o['cost'] for o in self.optional if mask&o['bit'])
+ def names(self,mask):return [o['name'] for o in self.optional if mask&o['bit']]
+ def length(self,a,b):return math.hypot(b[0]-a[0],b[1]-a[1])+self.radius*abs(wrap(b[2]-a[2]))
+ def verify_path(self,qs,mask):
+  for a,b in zip(qs,qs[1:]):
+   labels=self.labels(a,b)
+   if labels is None or labels&~mask:return False
+  return True
+
+def roadmap(scene,seed):
+ ou.RNG.setSeed(seed);space=ob.SE2StateSpace();bounds=ob.RealVectorBounds(2);bb=scene.floor.bounds
+ for i in range(2):bounds.setLow(i,bb[i]);bounds.setHigh(i,bb[i+2])
+ space.setBounds(bounds);si=ob.SpaceInformation(space)
+ def valid(s):return scene.state_valid([s.getX(),s.getY(),s.getYaw()])
+ si.setStateValidityChecker(valid);si.setStateValidityCheckingResolution(.005);si.setup();states=[]
+ for q in [scene.start,scene.goal]:
+  s=space.allocState();s.setXY(q[0],q[1]);s.setYaw(q[2]);states.append(s)
+ problem=ob.ProblemDefinition(si);problem.setStartAndGoalStates(*states);planner=og.PRM(si);planner.setProblemDefinition(problem);planner.setup()
+ begin=time.monotonic();status=planner.solve(ob.timedPlannerTerminationCondition(0.0));planner.constructRoadmap(ob.timedPlannerTerminationCondition(2.0))
+ pdata=ob.PlannerData(si);planner.getPlannerData(pdata);nodes=[];raw=[];starts=[];goals=[]
+ for i in range(pdata.numVertices()):
+  s=pdata.getVertex(i).getState();nodes.append([s.getX(),s.getY(),s.getYaw()])
+  if pdata.isStartVertex(i):starts.append(i)
+  if pdata.isGoalVertex(i):goals.append(i)
+  for j in pdata.getEdges(i):
+   if i<j:raw.append([i,j])
+ return {'nodes':nodes,'raw_edges':raw,'starts':starts,'goals':goals,'planner_seconds':time.monotonic()-begin,'query_initial_status':str(status),'seed':seed,'planner':'OMPL PRM2.0.1','case':scene.name}
+
+def label_graph(scene,g):
+ edges=[];rejected=0;t=time.monotonic()
+ for i,j in g['raw_edges']:
+  mask=scene.labels(g['nodes'][i],g['nodes'][j])
+  if mask is None:rejected+=1;continue
+  edges.append([i,j,mask,scene.length(g['nodes'][i],g['nodes'][j])])
+ g.update(edges=edges,rejected_edges=rejected,checking_seconds=time.monotonic()-t,checker_calls=scene.calls,uncertain_intervals=scene.uncertain)
+ return g
+
+def adjacency(g):
+ adj=[[] for _ in g['nodes']]
+ for i,j,m,l in g['edges']:adj[i].append((j,m,l));adj[j].append((i,m,l))
+ return adj
+
+def path_search(g,adj,allowed=None,greedy=None):
+ targets=set(g['goals']);heap=[];dist={};prev={}
+ for s in g['starts']:dist[s]=(0.,0.);heapq.heappush(heap,(0.,0.,s))
+ while heap:
+  a,b,v=heapq.heappop(heap)
+  if (a,b)!=dist[v]:continue
+  if v in targets:
+   path=[v];mask=0
+   while v in prev:v,m=prev[v];mask|=m;path.append(v)
+   return {'path':list(reversed(path)),'mask':mask,'length':b,'objective':a}
+  for w,m,length in adj[v]:
+   if allowed is not None and m&~allowed:continue
+   primary=greedy(m) if greedy else 0;new=(a+primary,b+length)
+   if new<dist.get(w,(math.inf,math.inf)):dist[w]=new;prev[w]=(v,m);heapq.heappush(heap,(*new,w))
+ return None
+
+def joint(scene,g,adj):
+ start=time.monotonic();targets=set(g['goals']);heap=[];dist={};prev={};expanded=0
+ for s in g['starts']:dist[(s,0)]=(0.,0.);heapq.heappush(heap,(0.,0.,s,0))
+ while heap:
+  cost,length,v,mask=heapq.heappop(heap)
+  if (cost,length)!=dist[(v,mask)]:continue
+  expanded+=1
+  if expanded>100000 or time.monotonic()-start>60:return {'status':'censored','expanded':expanded}
+  if v in targets:
+   state=(v,mask);path=[v]
+   while state in prev:state=prev[state];path.append(state[0])
+   return {'status':'found','cost':cost,'length':length,'mask':mask,'path':list(reversed(path)),'expanded':expanded,'seconds':time.monotonic()-start}
+  for w,labels,l in adj[v]:
+   newmask=mask|labels;new=(scene.cost(newmask),length+l);state=(w,newmask)
+   if new<dist.get(state,(math.inf,math.inf)):dist[state]=new;prev[state]=(v,mask);heapq.heappush(heap,(*new,w,newmask))
+ return {'status':'no_roadmap_route','expanded':expanded,'seconds':time.monotonic()-start}
+
+def comparisons(scene,g):
+ adj=adjacency(g);optimal=joint(scene,g,adj);oracle=None;oracle_rows=[]
+ for mask in range(1<<len(scene.optional)):
+  answer=path_search(g,adj,allowed=mask);cost=scene.cost(mask)
+  oracle_rows.append({'mask':mask,'cost':cost,'found':answer is not None})
+  if answer and (oracle is None or (cost,answer['length'])<(oracle['cost'],oracle['length'])):oracle={**answer,'allowed_mask':mask,'cost':cost}
+ greedy=[]
+ for mode in ['count','cost']:
+  removed=0;steps=[]
+  for _ in range(len(scene.optional)+1):
+   metric=(lambda m:(m&~removed).bit_count()) if mode=='count' else (lambda m:scene.cost(m&~removed))
+   route=path_search(g,adj,greedy=metric)
+   if route is None:break
+   pending=route['mask']&~removed
+   if not pending:break
+   choice=min((o for o in scene.optional if pending&o['bit']),key=lambda o:(o['cost'],o['gid']));removed|=choice['bit'];steps.append(choice['name'])
+  greedy.append({'mode':mode,'found':route is not None and not(route['mask']&~removed),'cost':scene.cost(removed),'mask':removed,'steps':steps,'path':route['path'] if route else None})
+ manual=[]
+ for index,qs in enumerate(scene.meta['manual_routes']):
+  mask=0;valid=True
+  for a,b in zip(qs,qs[1:]):
+   labels=scene.labels(a,b)
+   if labels is None:valid=False;break
+   mask|=labels
+  manual.append({'index':index,'valid':valid,'cost':scene.cost(mask) if valid else None,'mask':mask if valid else None,'states':qs})
+ matched=(optimal['status']=='found' and oracle is not None and optimal['cost']==oracle['cost']) or(optimal['status']=='no_roadmap_route' and oracle is None)
+ if optimal['status']=='found':
+  qs=[g['nodes'][i] for i in optimal['path']];optimal.update(states=qs,removed_names=scene.names(optimal['mask']),continuous_check=scene.verify_path(qs,optimal['mask']))
+  if not optimal['continuous_check']:raise AssertionError('selected path failed independent conservative check')
+ if optimal['status']!='censored' and not matched:raise AssertionError('exhaustive oracle mismatch')
+ return {'joint':optimal,'oracle':oracle,'oracle_rows':oracle_rows,'oracle_match':matched,'greedy':greedy,'manual':manual,'intact':path_search(g,adj,allowed=0)}
+
+def run_case(name,seed,replay=None):
+ scene=Scene(name);g=roadmap(scene,seed) if replay is None else json.loads(gzip.open(replay,'rt').read());g=label_graph(scene,g) if replay is None else g
+ out=ROOT/'execution';out.mkdir(exist_ok=True);base=f'{name}-{seed}'
+ if replay is None:
+  with gzip.open(out/(base+'-graph.json.gz'),'wt') as f:json.dump(g,f)
+ result={'case':name,'seed':seed,'synthetic':True,'unit_scale':scene.unit_scale,'nodes':len(g['nodes']),'raw_edges':len(g['raw_edges']),'checked_edges':len(g['edges']), 'comparison':comparisons(scene,g)}
+ write(out/(base+('-replay' if replay else '')+'-result.json'),result);print(json.dumps({'case':name,'seed':seed,'nodes':len(g['nodes']),'edges':len(g['edges']),'joint':result['comparison']['joint'].get('cost'),'oracle_match':result['comparison']['oracle_match']}),flush=True)
+
+def controls():
+ scene=Scene('intact');checks=[]
+ def check(name,okay):checks.append({'name':name,'passed':bool(okay)});assert okay,name
+ check('separated_pose',scene.state_valid([2,2,0]));check('colliding_pose',not scene.state_valid([6,5,0]))
+ check('between_waypoint_collision',scene.labels([3,5,0],[9,5,0]) is None)
+ check('floor_tangency_rejected',not scene.state_valid([.9,2,0]))
+ check('intact_manual_detour',any(scene.verify_path(qs,0) for qs in scene.meta['manual_routes']))
+ rot=Scene('rotation');check('fixed_wrong_yaw',rot.labels([4.5,5,math.pi/2],[7.5,5,math.pi/2]) is None)
+ check('aligned_passage',rot.labels([4.5,5,0],[7.5,5,0])==0)
+ for n in ['clearance089','clearance090']:
+  s=Scene(n);check(n+'_rejected',s.labels([4.5,5,0],[7.5,5,0]) is None)
+ s=Scene('clearance091');check('clearance091_aligned',s.labels([4.5,5,0],[7.5,5,0])==0)
+ high=Scene('overhead');low=Scene('lowbeam');check('high_beam_inactive',not next(o for o in high.obstacles if o['name']=='beam')['active']);check('low_beam_active',next(o for o in low.obstacles if o['name']=='beam')['active'])
+ check('operational_forbidden',not next(o for o in high.obstacles if o['name']=='panel-4-0')['allowed'])
+ original=Scene('double');shifted=Scene('units_transform');a=math.pi/6
+ for name,gid in original.meta['ids'].items():
+  target=shifted.shapes[shifted.meta['ids'][name]]['polygon'];expected=translate(rotate(original.shapes[gid]['polygon'],a,origin=(0,0),use_radians=True),100,200)
+  check('units_placement_'+name,expected.hausdorff_distance(target)<TOL)
+ check('unit_scale',shifted.unit_scale==.001 and original.unit_scale==1)
+ write(ROOT/'execution/controls.json',checks);print(len(checks),'controls passed')
+
+def unit_replay(seed):
+ """Transform a genuine stored roadmap; identical finite graph invariant check."""
+ out=ROOT/'execution';g=json.loads(gzip.open(out/f'double-{seed}-graph.json.gz','rt').read());sc=Scene('units_transform')
+ g['nodes']=[transform(q,{'angle':math.pi/6,'offset':[100,200]}) for q in g['nodes']];g['case']='units_transform';g=label_graph(sc,g)
+ with gzip.open(out/f'units_transform-{seed}-graph.json.gz','wt') as f:json.dump(g,f)
+ answer=comparisons(sc,g);normal=json.loads((out/f'double-{seed}-result.json').read_text())['comparison']['joint']
+ assert answer['joint'].get('cost')==normal.get('cost'),'unit transformed optimal cost mismatch'
+ write(out/f'units_transform-{seed}-result.json',{'case':'units_transform','seed':seed,'comparison':answer,'invariance_passed':True})
+
+if __name__=='__main__':
+ parser=argparse.ArgumentParser();parser.add_argument('command',choices=['fixtures','controls','run','replay','units']);parser.add_argument('--case');parser.add_argument('--seed',type=int,default=7400);parser.add_argument('--graph');args=parser.parse_args()
+ freeze=json.loads((ROOT/'implementation-freeze.json').read_text())
+ if sha(__file__)!=freeze['prototype_sha256']:raise RuntimeError('implementation not frozen')
+ (ROOT/'execution').mkdir(exist_ok=True)
+ if args.command=='fixtures':fixtures()
+ elif args.command=='controls':controls()
+ elif args.command=='units':unit_replay(args.seed)
+ else:run_case(args.case,args.seed,args.graph if args.command=='replay' else None)

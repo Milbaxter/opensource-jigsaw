@@ -1,0 +1,71 @@
+{
+  "created_at": "2026-09-18T09:27:31.150416+00:00",
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "bytes": 8159,
+      "sha256": "c44dcae6e07157e0af261eb89caa757af54c8367293d7ff95d18a32f706189d8"
+    },
+    {
+      "path": "PRE-RESULT-REVIEW.md",
+      "bytes": 10339,
+      "sha256": "a402a87cd78761bc54a7f10f34a0d19832f3340dc50e3baace1c9aaad6fecaf0"
+    },
+    {
+      "path": "pre-result-provenance.json",
+      "bytes": 517,
+      "sha256": "a8153689876b8c9e46f593bcbf5073f98a565a36c02145b19d477e8c3bf550c9"
+    },
+    {
+      "path": "decision.json",
+      "bytes": 1058,
+      "sha256": "7062d5cf27307e064d21199102e401a230cd8bc59a618d1ac0e797df24596eb3"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 47715,
+      "sha256": "728857d74b01219d78dc9d6483670380dbfa1b49570cddc8a185155b7b3e3905"
+    },
+    {
+      "path": "independent-outcomes.json",
+      "bytes": 293,
+      "sha256": "959acf379792e12ca6d97c88b032420fb3ae70b4e4044e18c8dd8da114c33e24"
+    },
+    {
+      "path": "input_boundary_probe.json",
+      "bytes": 835,
+      "sha256": "b596add1436f3b3cef153fa08de945b4bbe3beaed7dcd0b0b9ca5edef822d0ad"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 8006,
+      "sha256": "f20637fc49ead6f5492b5a88d696cead434bce23583925795d16abaa37315ad9"
+    },
+    {
+      "path": "input_boundary_probe.py",
+      "bytes": 2136,
+      "sha256": "29f03e9d3a86263cf17b26a6edbb7d0ab702725bab52c7d2809b1d93209c660b"
+    },
+    {
+      "path": "raw-evidence/verify_results.py.txt",
+      "bytes": 8006,
+      "sha256": "f20637fc49ead6f5492b5a88d696cead434bce23583925795d16abaa37315ad9"
+    },
+    {
+      "path": "raw-evidence/input_boundary_probe.py.txt",
+      "bytes": 2136,
+      "sha256": "29f03e9d3a86263cf17b26a6edbb7d0ab702725bab52c7d2809b1d93209c660b"
+    },
+    {
+      "path": "verification-before-portable-path.json",
+      "bytes": 47714,
+      "sha256": "71fc1a4888785d1a02b158935ec418a642745957ef69c61a6e23267fc6100fc4"
+    }
+  ],
+  "notes": [
+    "No original proposer file was modified.",
+    "Preserve raw-evidence bytes if runnable scripts are formatted; verification outputs identify source hashes.",
+    "Verification count includes two duplicate replays; economic outcomes exclude them.",
+    "verification-before-portable-path.json preserves earlier output from pre-portable source; exact old source bytes are unavailable. Final verification.json is a fresh rerun from f20637f portable source and covers 71 pairs."
+  ]
+}

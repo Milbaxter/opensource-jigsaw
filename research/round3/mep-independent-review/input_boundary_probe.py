@@ -1,0 +1,67 @@
+"""Independent adversarial input probe; no writes to proposer files."""
+
+import hashlib
+import importlib.util
+import json
+import pathlib
+import sys
+from unittest.mock import patch
+
+root = (
+    pathlib.Path(sys.argv[1]).resolve()
+    if len(sys.argv) > 1
+    else pathlib.Path(__file__).resolve().parent.parent / "round3-c"
+)
+spec = importlib.util.spec_from_file_location("frozen_mep", root / "prototype.py")
+p = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(p)
+records = []
+for kind in ["omitted_obstacle_classification", "nan_cost", "infinite_cost"]:
+    name = "blocked" if kind == "omitted_obstacle_classification" else "single"
+    meta = json.loads((root / "fixtures" / f"{name}.json").read_text())
+    if kind == "omitted_obstacle_classification":
+        omitted = next(iter(meta["interventions"]))
+        del meta["interventions"][omitted]
+    else:
+        next(v for v in meta["interventions"].values() if v["allowed"])["cost"] = (
+            float("nan") if kind == "nan_cost" else float("inf")
+        )
+    raw = json.dumps(meta)
+    original = p.pathlib.Path.read_text
+
+    def reader(path, *args, **kwargs):
+        if path == root / "fixtures" / f"{name}.json":
+            return raw
+        return original(path, *args, **kwargs)
+
+    item = {"case": kind, "rejected": False}
+    with patch.object(p.pathlib.Path, "read_text", reader):
+        try:
+            scene = p.Scene(name)
+            if kind == "omitted_obstacle_classification":
+                item.update(
+                    omitted_gid=omitted,
+                    solid_still_parsed=omitted in scene.shapes,
+                    obstacles_count=len(scene.obstacles),
+                    straight_path_labels=scene.labels([3, 5, 0], [9, 5, 0]),
+                    straight_path_verified=scene.verify_path([[3, 5, 0], [9, 5, 0]], 0),
+                )
+            else:
+                item["accepted_nonfinite_cost"] = not all(
+                    __import__("math").isfinite(o["cost"]) for o in scene.optional
+                )
+        except Exception as e:
+            item.update(rejected=True, reason=repr(e))
+    records.append(item)
+out = {
+    "source_sha256": hashlib.sha256((root / "prototype.py").read_bytes()).hexdigest(),
+    "probe_sha256": hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest(),
+    "original_files_unchanged": True,
+    "checks": records,
+    "scope": (
+        "Additional adversarial tests after freeze; not among original generated fixtures "
+        "and not a change to measured runs."
+    ),
+}
+pathlib.Path(__file__).with_suffix(".json").write_text(json.dumps(out, indent=2) + "\n")
+print(json.dumps(out, indent=2))

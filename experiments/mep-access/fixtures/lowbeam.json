@@ -1,0 +1,277 @@
+{
+  "name": "lowbeam",
+  "start": [
+    1.5,
+    5.0,
+    0.0
+  ],
+  "goal": [
+    10.5,
+    5.0,
+    0.0
+  ],
+  "ids": {
+    "floor": "0xztvWV5PGChMF2Hrs2BOS",
+    "equipment": "1u4bzjGznU1gC9X5m0UXV6",
+    "wall-4-0": "0MgucISGrVvQwPPodkzEPH",
+    "panel-4-0": "00BiTZI8HHXxHEsE$A6bbz",
+    "wall-4-1": "3n4zMf4RzJn93JZrmpHwRT",
+    "panel-4-1": "2$Gu3Jv1DUkQIcXlvrYxMr",
+    "wall-4-2": "2SC5$2kTHJngK8fXNKzUgb",
+    "panel-4-2": "2nJvpelvHScgqU4G1o49ZD",
+    "wall-4-end": "2_aiwUlYbTqBleR1lEn9i0",
+    "wall-8-0": "13EcqqJz1GGhDmvT8St86j",
+    "panel-8-0": "3H6komuG5LSf$m0M_trpM_",
+    "wall-8-1": "0e2ml5CfXRDgJvZKuGFuiT",
+    "panel-8-1": "38dFKVpbHVn8mqAZ4Gqrwr",
+    "wall-8-2": "0egELmWDHPngmPPTcqHmoB",
+    "panel-8-2": "3MfPXngRDKbQHJwbwzCBLn",
+    "wall-8-end": "2qhdlpzdPNC8q5_yRjCh0j",
+    "beam": "34ky5xZePPLgY2lVagQ87g"
+  },
+  "units": "m",
+  "transform": {
+    "angle": 0,
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "interventions": {
+    "0MgucISGrVvQwPPodkzEPH": {
+      "name": "wall-4-0",
+      "allowed": false,
+      "cost": null
+    },
+    "00BiTZI8HHXxHEsE$A6bbz": {
+      "name": "panel-4-0",
+      "allowed": false,
+      "cost": 100
+    },
+    "3n4zMf4RzJn93JZrmpHwRT": {
+      "name": "wall-4-1",
+      "allowed": false,
+      "cost": null
+    },
+    "2$Gu3Jv1DUkQIcXlvrYxMr": {
+      "name": "panel-4-1",
+      "allowed": true,
+      "cost": 300
+    },
+    "2SC5$2kTHJngK8fXNKzUgb": {
+      "name": "wall-4-2",
+      "allowed": false,
+      "cost": null
+    },
+    "2nJvpelvHScgqU4G1o49ZD": {
+      "name": "panel-4-2",
+      "allowed": true,
+      "cost": 900
+    },
+    "2_aiwUlYbTqBleR1lEn9i0": {
+      "name": "wall-4-end",
+      "allowed": false,
+      "cost": null
+    },
+    "13EcqqJz1GGhDmvT8St86j": {
+      "name": "wall-8-0",
+      "allowed": false,
+      "cost": null
+    },
+    "3H6komuG5LSf$m0M_trpM_": {
+      "name": "panel-8-0",
+      "allowed": true,
+      "cost": 900
+    },
+    "0e2ml5CfXRDgJvZKuGFuiT": {
+      "name": "wall-8-1",
+      "allowed": false,
+      "cost": null
+    },
+    "38dFKVpbHVn8mqAZ4Gqrwr": {
+      "name": "panel-8-1",
+      "allowed": true,
+      "cost": 300
+    },
+    "0egELmWDHPngmPPTcqHmoB": {
+      "name": "wall-8-2",
+      "allowed": false,
+      "cost": null
+    },
+    "3MfPXngRDKbQHJwbwzCBLn": {
+      "name": "panel-8-2",
+      "allowed": true,
+      "cost": 100
+    },
+    "2qhdlpzdPNC8q5_yRjCh0j": {
+      "name": "wall-8-end",
+      "allowed": false,
+      "cost": null
+    },
+    "34ky5xZePPLgY2lVagQ87g": {
+      "name": "beam",
+      "allowed": false,
+      "cost": null
+    }
+  },
+  "doors": [
+    {
+      "x": 4,
+      "centers": [
+        2,
+        5,
+        8
+      ],
+      "width": 1.4
+    },
+    {
+      "x": 8,
+      "centers": [
+        2,
+        5,
+        8
+      ],
+      "width": 1.4
+    }
+  ],
+  "manual_routes": [
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        2.0,
+        0.0
+      ],
+      [
+        5.2,
+        2.0,
+        0.0
+      ],
+      [
+        6.8,
+        2.0,
+        0.0
+      ],
+      [
+        9.2,
+        2.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        5.0,
+        0.0
+      ],
+      [
+        5.2,
+        5.0,
+        0.0
+      ],
+      [
+        6.8,
+        5.0,
+        0.0
+      ],
+      [
+        9.2,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        8.0,
+        0.0
+      ],
+      [
+        5.2,
+        8.0,
+        0.0
+      ],
+      [
+        6.8,
+        8.0,
+        0.0
+      ],
+      [
+        9.2,
+        8.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ]
+  ]
+}

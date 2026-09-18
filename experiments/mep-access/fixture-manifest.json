@@ -1,0 +1,190 @@
+[
+  {
+    "file": "fixtures/blocked.ifc",
+    "sha256": "b34426e8301c633295496f7eb861b7609dca8c49ec1a204f0a7ffd61ac256006"
+  },
+  {
+    "file": "fixtures/blocked.json",
+    "sha256": "85104e8862554e10307605752186e85872b758fb92b5138573d09e860afe08e5"
+  },
+  {
+    "file": "fixtures/clearance089.ifc",
+    "sha256": "274cb94c85f6e7e2492cc2e88bc387a50a4bd887a1bd907d831d3a41d0a47402"
+  },
+  {
+    "file": "fixtures/clearance089.json",
+    "sha256": "d27d4006832d2b1948c4fcc4dbf580ad195bfc82fccf86b25c31492b57dbc6e9"
+  },
+  {
+    "file": "fixtures/clearance090.ifc",
+    "sha256": "4ddf50358a1fb3d46c9d0ffc04fd19608ac708666dbca0ccc86bb4d1b9b68f73"
+  },
+  {
+    "file": "fixtures/clearance090.json",
+    "sha256": "1960534f2ae52e0b375044cc6ca7f6885ea041bc819649a0cbee90e43ce50b1e"
+  },
+  {
+    "file": "fixtures/clearance091.ifc",
+    "sha256": "0a205441cd456387f8ef69377c63907e6a24e9322ef3ecc6e352282aff528b6e"
+  },
+  {
+    "file": "fixtures/clearance091.json",
+    "sha256": "ad7b4ab33f7586b6f6b4e77b17ca14866c6227d492ee2156aa4d13a0fd18bbf0"
+  },
+  {
+    "file": "fixtures/double.ifc",
+    "sha256": "8207393989c14892da1b1368a6ddfd1611a6b0815621d231349a39116ca2da29"
+  },
+  {
+    "file": "fixtures/double.json",
+    "sha256": "d356355a7b060ee52262cb9e65848c0ab6b9ea67b41d6ba59239efa2f3c281ac"
+  },
+  {
+    "file": "fixtures/generator-inputs.json",
+    "sha256": "ce0f435dff6a7d442a70bd73f424e85cbced5d8cdb7401640673ad63e70fe384"
+  },
+  {
+    "file": "fixtures/intact.ifc",
+    "sha256": "c04a71fce7098e0d2336edf636016a737ef95d62d0a4fa5df9a449c3779972db"
+  },
+  {
+    "file": "fixtures/intact.json",
+    "sha256": "8b85d88daf1ef5fa148611f67eea956af5b8f9bef8bd939e59cbfeaa20f268c0"
+  },
+  {
+    "file": "fixtures/lowbeam.ifc",
+    "sha256": "873dbee0a57bada1db768e21186e22d7e5ce372625adc57e9a814ab24198ebb6"
+  },
+  {
+    "file": "fixtures/lowbeam.json",
+    "sha256": "ba2282d76b1cecc289670d74c50b331a8e2d46eb5f2d2b37ad2e6d1c2a8b3620"
+  },
+  {
+    "file": "fixtures/overhead.ifc",
+    "sha256": "1f6ef63e971b78f931b4160367384c9cb73c0ad9fcfb17e8cb5b6a3af3a825c7"
+  },
+  {
+    "file": "fixtures/overhead.json",
+    "sha256": "7056e0d4301e11cd715bbfd9894efd334251cf1fa212f8a38b261ea61fc227bb"
+  },
+  {
+    "file": "fixtures/random-7300.ifc",
+    "sha256": "94cf7a77f3dc05422bd0dbf1b1d29aa7997a9890d632c7c37bfdfb2856e7548b"
+  },
+  {
+    "file": "fixtures/random-7300.json",
+    "sha256": "8abecc5e68d139a9caa0e2064cbf587a053f752fe42eb24bf775645668399bc8"
+  },
+  {
+    "file": "fixtures/random-7301.ifc",
+    "sha256": "924d75e985acac993a856518005e204b70349fcb1bb7653f9493468ad724ab44"
+  },
+  {
+    "file": "fixtures/random-7301.json",
+    "sha256": "b1acf842ec46e645e34753d1478fefd95ab589e4a079bcb103065bc9fce38e38"
+  },
+  {
+    "file": "fixtures/random-7302.ifc",
+    "sha256": "914850448c4d81d879f42d3f4e5d1655c3ff1a96581a2d9fb48a2f83237f8df2"
+  },
+  {
+    "file": "fixtures/random-7302.json",
+    "sha256": "5665ca002a0c3ae59fb86db7c931f1eed8ae316758512eea43977455909ae2c3"
+  },
+  {
+    "file": "fixtures/random-7303.ifc",
+    "sha256": "6e18721e50165e677f3c3f7acf34f119459d1e17ef0acafeff959b5bb33a6282"
+  },
+  {
+    "file": "fixtures/random-7303.json",
+    "sha256": "d8d0e2cb2b65c2fdbbd69f6d8d49e7fd481cdedfa1a35dc1b75ada066d0c9f8e"
+  },
+  {
+    "file": "fixtures/random-7304.ifc",
+    "sha256": "b86852fdd4bcd50ab43f30d80cf2e927f9f0ad58eadd5e3ce658b5e410e74c61"
+  },
+  {
+    "file": "fixtures/random-7304.json",
+    "sha256": "a3e56d323c89bfc10c50cecef8b36fb7bd2cdeb04adbda49e2790d814838285d"
+  },
+  {
+    "file": "fixtures/random-7305.ifc",
+    "sha256": "3f228f3513b39ce6b753fb4b3605d272ffbeb3e59eb87a4e0dad7853d24c66d6"
+  },
+  {
+    "file": "fixtures/random-7305.json",
+    "sha256": "3b0bf332a5c521a0d1c93bb2bfc5d30e0dd4264f7fc4ca8e125cb4b1d5fe49ec"
+  },
+  {
+    "file": "fixtures/random-7306.ifc",
+    "sha256": "58c1324782e9675ea532c7da4fb06e7ec4907a1ac36d9dc8f60939060535f8f3"
+  },
+  {
+    "file": "fixtures/random-7306.json",
+    "sha256": "534f451a897ceac30574e2c36036900dafe69ea6b74f170e33fd008c55367d0f"
+  },
+  {
+    "file": "fixtures/random-7307.ifc",
+    "sha256": "cf95e62019efe2eba9474f3aa496d50edc6eff0d1bc358305be339ad5f02dd9a"
+  },
+  {
+    "file": "fixtures/random-7307.json",
+    "sha256": "198eade52edba5ead57dc0094c743e83cb0795583b42f90c1f589d9d60792b11"
+  },
+  {
+    "file": "fixtures/random-7308.ifc",
+    "sha256": "fa7f80fdbf4e8c01a6ac7706fb9376b5c5f0e7f2bc659ddfafd3999fb1ab8494"
+  },
+  {
+    "file": "fixtures/random-7308.json",
+    "sha256": "30d6945f7f4fe2a9aeff6f3e29d53aade9cb2bcbd05046c0155fb391eaefa749"
+  },
+  {
+    "file": "fixtures/random-7309.ifc",
+    "sha256": "c01532a2b2b41e238da050049867e5199c2cf27610d20233463c935c3d54f676"
+  },
+  {
+    "file": "fixtures/random-7309.json",
+    "sha256": "ad4ecfa96a9aa0fd2f0bbdde6e9e4bebce50af1f8111d81f6d1aa59948760c89"
+  },
+  {
+    "file": "fixtures/random-7310.ifc",
+    "sha256": "abe06d9d578c6edea232317df9cdfeb7c1ea428fe70a1db606d06e8f9e0f1139"
+  },
+  {
+    "file": "fixtures/random-7310.json",
+    "sha256": "cd732ded43ac38efd9d29175d63f87cd8dc15b296bf09471a4fd35b390b13f3e"
+  },
+  {
+    "file": "fixtures/random-7311.ifc",
+    "sha256": "3e47655ed1f6ab76d5d4b4711a117c9e390e66fbdc97c60e52fc7517b16c9f51"
+  },
+  {
+    "file": "fixtures/random-7311.json",
+    "sha256": "bf03b150d85d4092f760e1562440ff8d55eefef4ae82e152b8d5e0d0686bee32"
+  },
+  {
+    "file": "fixtures/rotation.ifc",
+    "sha256": "5ea9d8121ee1440c57fd4e9c21086de39461e715ad1161773d0f6e8585f58578"
+  },
+  {
+    "file": "fixtures/rotation.json",
+    "sha256": "4601415bc2a636a545fa6e3c3c3ae2d9275a080b703d7efd7ba0afeeb31fa285"
+  },
+  {
+    "file": "fixtures/single.ifc",
+    "sha256": "905d200aca5103a2f4de7eec1d639d7313c5d54e7a5620827d6f05f616b32643"
+  },
+  {
+    "file": "fixtures/single.json",
+    "sha256": "c276b462701f5f8d9effbc6a6fd958ac818ff0fd807991f90b4c482422c5fb6c"
+  },
+  {
+    "file": "fixtures/units_transform.ifc",
+    "sha256": "20efe64bd2bdfd6beb6452a27052285e8525cb2e19d772aca7e59d4aad9d494b"
+  },
+  {
+    "file": "fixtures/units_transform.json",
+    "sha256": "8ba5b5a3c49ac9703ffb52313eb6b43cac93b17dd61f08fd085ff4cbf5ca5cc1"
+  }
+]

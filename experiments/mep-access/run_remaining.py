@@ -1,0 +1,44 @@
+import json
+import pathlib
+import subprocess
+import time
+
+p = pathlib.Path(__file__).resolve().parent
+cs = json.loads((p / "fixtures/generator-inputs.json").read_text())
+records = []
+for c in cs:
+    if c["name"] == "units_transform":
+        continue
+    for seed in (7400, 7401, 7402):
+        if c["name"] == "intact" and seed == 7400:
+            continue
+        start = time.monotonic()
+        cmd = [
+            str(p / ".venv/bin/python"),
+            str(p / "prototype.py"),
+            "run",
+            "--case",
+            c["name"],
+            "--seed",
+            str(seed),
+        ]
+        with (p / "execution" / f"{c['name']}-{seed}-console.log").open("w") as log:
+            proc = subprocess.run(cmd, stdout=log, stderr=subprocess.STDOUT)
+        record = {
+            "case": c["name"],
+            "seed": seed,
+            "returncode": proc.returncode,
+            "wall_seconds": time.monotonic() - start,
+            "command": cmd,
+        }
+        records.append(record)
+        (p / "execution/driver.json").write_text(json.dumps(records, indent=2))
+        print(json.dumps(record), flush=True)
+        if proc.returncode:
+            raise SystemExit("halt on failed run; retained console")
+for seed in (7400, 7401, 7402):
+    cmd = [str(p / ".venv/bin/python"), str(p / "prototype.py"), "units", "--seed", str(seed)]
+    with (p / "execution" / f"units_transform-{seed}-console.log").open("w") as log:
+        proc = subprocess.run(cmd, stdout=log, stderr=subprocess.STDOUT)
+    if proc.returncode:
+        raise SystemExit("halt on units replay failure")

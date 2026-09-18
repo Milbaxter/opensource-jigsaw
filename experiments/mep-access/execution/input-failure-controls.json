@@ -1,0 +1,30 @@
+{
+  "helper_sha256": "27a394f85e18f5cbeec73206f3426399071db4786009c9f4964989a5b37dd2a9",
+  "checks": [
+    {
+      "name": "unknown_unit",
+      "passed": true,
+      "reason": "unsupported unit"
+    },
+    {
+      "name": "missing_geometry",
+      "passed": true,
+      "reason": "missing/unknown solid"
+    },
+    {
+      "name": "invalid_cost_None",
+      "passed": true,
+      "reason": "unknown/nonpositive cost"
+    },
+    {
+      "name": "invalid_cost_0",
+      "passed": true,
+      "reason": "unknown/nonpositive cost"
+    },
+    {
+      "name": "invalid_cost_-1",
+      "passed": true,
+      "reason": "unknown/nonpositive cost"
+    }
+  ]
+}

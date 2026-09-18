@@ -1,0 +1,233 @@
+{
+  "case": "intact",
+  "seed": 7402,
+  "synthetic": true,
+  "unit_scale": 1,
+  "nodes": 97,
+  "raw_edges": 448,
+  "checked_edges": 445,
+  "comparison": {
+    "joint": {
+      "status": "found",
+      "cost": 0,
+      "length": 11.567972408475747,
+      "mask": 0,
+      "path": [
+        0,
+        8,
+        1
+      ],
+      "expanded": 59,
+      "seconds": 0.000348208996001631,
+      "states": [
+        [
+          1.5,
+          5.0,
+          0.0
+        ],
+        [
+          7.220692149108792,
+          1.8093139023476925,
+          0.22451268239780492
+        ],
+        [
+          10.5,
+          5.0,
+          0.0
+        ]
+      ],
+      "removed_names": [],
+      "continuous_check": true
+    },
+    "oracle": {
+      "path": [
+        0,
+        8,
+        1
+      ],
+      "mask": 0,
+      "length": 11.567972408475747,
+      "objective": 0.0,
+      "allowed_mask": 0,
+      "cost": 0
+    },
+    "oracle_rows": [
+      {
+        "mask": 0,
+        "cost": 0,
+        "found": true
+      }
+    ],
+    "oracle_match": true,
+    "greedy": [
+      {
+        "mode": "count",
+        "found": true,
+        "cost": 0,
+        "mask": 0,
+        "steps": [],
+        "path": [
+          0,
+          8,
+          1
+        ]
+      },
+      {
+        "mode": "cost",
+        "found": true,
+        "cost": 0,
+        "mask": 0,
+        "steps": [],
+        "path": [
+          0,
+          8,
+          1
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "index": 0,
+        "valid": true,
+        "cost": 0,
+        "mask": 0,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.0,
+            2.0,
+            0.0
+          ],
+          [
+            10.0,
+            2.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 1,
+        "valid": false,
+        "cost": null,
+        "mask": null,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.0,
+            5.0,
+            0.0
+          ],
+          [
+            10.0,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 2,
+        "valid": true,
+        "cost": 0,
+        "mask": 0,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            2.0,
+            8.0,
+            0.0
+          ],
+          [
+            10.0,
+            8.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      },
+      {
+        "index": 3,
+        "valid": false,
+        "cost": null,
+        "mask": null,
+        "states": [
+          [
+            1.5,
+            5.0,
+            0.0
+          ],
+          [
+            10.5,
+            5.0,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "intact": {
+      "path": [
+        0,
+        8,
+        1
+      ],
+      "mask": 0,
+      "length": 11.567972408475747,
+      "objective": 0.0
+    }
+  }
+}

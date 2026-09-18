@@ -1,0 +1,271 @@
+{
+  "name": "random-7308",
+  "start": [
+    1.5,
+    5.0,
+    0.0
+  ],
+  "goal": [
+    10.5,
+    5.0,
+    0.0
+  ],
+  "ids": {
+    "floor": "02tSarNh9Huw5Vq8cDupyU",
+    "equipment": "0pk_CRtl5NRQUKqTPLrLZA",
+    "wall-4-0": "3OdL8g_zXKbQ9JmQnJ8Gwf",
+    "panel-4-0": "38un28hYzUAQrOxODvZ5xG",
+    "wall-4-1": "04qdn4lw5HaeP3wIwD58pA",
+    "panel-4-1": "3odqsUiinKl9dYeKZAYupM",
+    "wall-4-2": "0f8Mno3WXOKvaEB7yxrTj8",
+    "panel-4-2": "33hxAKc3fMeORsnaBhEWiG",
+    "wall-4-end": "1d$fRxReDRn8UTU8cxnBvC",
+    "wall-8-0": "2LOy69IDfRZQ5S3kTerBil",
+    "panel-8-0": "2X4oSwxNfUvBvasyddj09v",
+    "wall-8-1": "3JYRAHkc1R8BejnXBkVutq",
+    "panel-8-1": "3shMfQikXOsPxVRpfga8ob",
+    "wall-8-2": "1LyvFr8AbLc8LjrZ$JFU8l",
+    "panel-8-2": "0AKab2JxLSmPg4migGpGGW",
+    "wall-8-end": "0d3Xw9UtDVT8qpIoczu_PB"
+  },
+  "units": "m",
+  "transform": {
+    "angle": 0,
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "interventions": {
+    "3OdL8g_zXKbQ9JmQnJ8Gwf": {
+      "name": "wall-4-0",
+      "allowed": false,
+      "cost": null
+    },
+    "38un28hYzUAQrOxODvZ5xG": {
+      "name": "panel-4-0",
+      "allowed": true,
+      "cost": 100
+    },
+    "04qdn4lw5HaeP3wIwD58pA": {
+      "name": "wall-4-1",
+      "allowed": false,
+      "cost": null
+    },
+    "3odqsUiinKl9dYeKZAYupM": {
+      "name": "panel-4-1",
+      "allowed": true,
+      "cost": 900
+    },
+    "0f8Mno3WXOKvaEB7yxrTj8": {
+      "name": "wall-4-2",
+      "allowed": false,
+      "cost": null
+    },
+    "33hxAKc3fMeORsnaBhEWiG": {
+      "name": "panel-4-2",
+      "allowed": true,
+      "cost": 300
+    },
+    "1d$fRxReDRn8UTU8cxnBvC": {
+      "name": "wall-4-end",
+      "allowed": false,
+      "cost": null
+    },
+    "2LOy69IDfRZQ5S3kTerBil": {
+      "name": "wall-8-0",
+      "allowed": false,
+      "cost": null
+    },
+    "2X4oSwxNfUvBvasyddj09v": {
+      "name": "panel-8-0",
+      "allowed": false,
+      "cost": 300
+    },
+    "3JYRAHkc1R8BejnXBkVutq": {
+      "name": "wall-8-1",
+      "allowed": false,
+      "cost": null
+    },
+    "3shMfQikXOsPxVRpfga8ob": {
+      "name": "panel-8-1",
+      "allowed": true,
+      "cost": 100
+    },
+    "1LyvFr8AbLc8LjrZ$JFU8l": {
+      "name": "wall-8-2",
+      "allowed": false,
+      "cost": null
+    },
+    "0AKab2JxLSmPg4migGpGGW": {
+      "name": "panel-8-2",
+      "allowed": true,
+      "cost": 900
+    },
+    "0d3Xw9UtDVT8qpIoczu_PB": {
+      "name": "wall-8-end",
+      "allowed": false,
+      "cost": null
+    }
+  },
+  "doors": [
+    {
+      "x": 4,
+      "centers": [
+        2.113073792414067,
+        5.016880017661734,
+        7.972321536672359
+      ],
+      "width": 1.4
+    },
+    {
+      "x": 8,
+      "centers": [
+        2.0175585275146823,
+        5.038317827159543,
+        7.921271633922414
+      ],
+      "width": 1.4
+    }
+  ],
+  "manual_routes": [
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        2.113073792414067,
+        0.0
+      ],
+      [
+        5.2,
+        2.113073792414067,
+        0.0
+      ],
+      [
+        6.8,
+        2.0175585275146823,
+        0.0
+      ],
+      [
+        9.2,
+        2.0175585275146823,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        5.016880017661734,
+        0.0
+      ],
+      [
+        5.2,
+        5.016880017661734,
+        0.0
+      ],
+      [
+        6.8,
+        5.038317827159543,
+        0.0
+      ],
+      [
+        9.2,
+        5.038317827159543,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        2.8,
+        7.972321536672359,
+        0.0
+      ],
+      [
+        5.2,
+        7.972321536672359,
+        0.0
+      ],
+      [
+        6.8,
+        7.921271633922414,
+        0.0
+      ],
+      [
+        9.2,
+        7.921271633922414,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ]
+  ]
+}

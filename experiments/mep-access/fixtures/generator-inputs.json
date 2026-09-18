@@ -1,0 +1,4626 @@
+[
+  {
+    "name": "intact",
+    "objects": [
+      {
+        "id": "column",
+        "center": [
+          6,
+          5,
+          0
+        ],
+        "size": [
+          1,
+          1,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": []
+  },
+  {
+    "name": "blocked",
+    "objects": [
+      {
+        "id": "full-barrier",
+        "center": [
+          6,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          10,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": []
+  },
+  {
+    "name": "rotation",
+    "objects": [
+      {
+        "id": "wall-6-0",
+        "center": [
+          6,
+          2.2375,
+          0
+        ],
+        "size": [
+          0.2,
+          4.475,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-6-end",
+        "center": [
+          6,
+          7.7625,
+          0
+        ],
+        "size": [
+          0.2,
+          4.475,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      1.5707963267948966
+    ],
+    "goal": [
+      10.5,
+      5,
+      1.5707963267948966
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 6,
+        "centers": [
+          5
+        ],
+        "width": 1.05
+      }
+    ]
+  },
+  {
+    "name": "clearance089",
+    "objects": [
+      {
+        "id": "wall-6-0",
+        "center": [
+          6,
+          2.2775,
+          0
+        ],
+        "size": [
+          0.2,
+          4.555,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-6-end",
+        "center": [
+          6,
+          7.7225,
+          0
+        ],
+        "size": [
+          0.2,
+          4.555,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      1.5707963267948966
+    ],
+    "goal": [
+      10.5,
+      5,
+      1.5707963267948966
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 6,
+        "centers": [
+          5
+        ],
+        "width": 0.89
+      }
+    ]
+  },
+  {
+    "name": "clearance090",
+    "objects": [
+      {
+        "id": "wall-6-0",
+        "center": [
+          6,
+          2.275,
+          0
+        ],
+        "size": [
+          0.2,
+          4.55,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-6-end",
+        "center": [
+          6,
+          7.725,
+          0
+        ],
+        "size": [
+          0.2,
+          4.55,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      1.5707963267948966
+    ],
+    "goal": [
+      10.5,
+      5,
+      1.5707963267948966
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 6,
+        "centers": [
+          5
+        ],
+        "width": 0.9
+      }
+    ]
+  },
+  {
+    "name": "clearance091",
+    "objects": [
+      {
+        "id": "wall-6-0",
+        "center": [
+          6,
+          2.2725,
+          0
+        ],
+        "size": [
+          0.2,
+          4.545,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-6-end",
+        "center": [
+          6,
+          7.7275,
+          0
+        ],
+        "size": [
+          0.2,
+          4.545,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      1.5707963267948966
+    ],
+    "goal": [
+      10.5,
+      5,
+      1.5707963267948966
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 6,
+        "centers": [
+          5
+        ],
+        "width": 0.91
+      }
+    ]
+  },
+  {
+    "name": "single",
+    "objects": [
+      {
+        "id": "wall-6-0",
+        "center": [
+          6,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-6-0",
+        "center": [
+          6,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 1000
+      },
+      {
+        "id": "wall-6-1",
+        "center": [
+          6,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-6-1",
+        "center": [
+          6,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 700
+      },
+      {
+        "id": "wall-6-2",
+        "center": [
+          6,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-6-2",
+        "center": [
+          6,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 200
+      },
+      {
+        "id": "wall-6-end",
+        "center": [
+          6,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 6,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      }
+    ]
+  },
+  {
+    "name": "double",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      }
+    ]
+  },
+  {
+    "name": "overhead",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "beam",
+        "center": [
+          6,
+          5,
+          1.6
+        ],
+        "size": [
+          0.2,
+          10,
+          0.2
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      }
+    ]
+  },
+  {
+    "name": "lowbeam",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "beam",
+        "center": [
+          6,
+          5,
+          1.44
+        ],
+        "size": [
+          0.2,
+          10,
+          0.2
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      }
+    ]
+  },
+  {
+    "name": "units_transform",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.65,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5999999999999996,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.35,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3000000000000007,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8,
+      0.8,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "mm",
+    "offset": [
+      100,
+      200
+    ],
+    "angle": 0.5235987755982988,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2,
+          5,
+          8
+        ],
+        "width": 1.4
+      }
+    ]
+  },
+  {
+    "name": "random-7300",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.5873518815656303,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1747037631312607,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          1.8747037631312606,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.3887012579781213,
+          0
+        ],
+        "size": [
+          0.2,
+          1.627994989693721,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          4.902698752824982,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.523160137360529,
+          0
+        ],
+        "size": [
+          0.2,
+          1.8409227690710939,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.143621521896076,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.421810760948038,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1563784781039246,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6141103940291043,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2282207880582086,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.9282207880582085,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.530452402375984,
+          0
+        ],
+        "size": [
+          0.2,
+          1.8044632286355506,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.1326840166937595,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.581405787498406,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4974435416092922,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8.030127558303052,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.365063779151527,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2698724416969487,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8490222637767315,
+      0.7834331616689744,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          1.8747037631312606,
+          4.902698752824982,
+          8.143621521896076
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.9282207880582085,
+          5.1326840166937595,
+          8.030127558303052
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7300
+  },
+  {
+    "name": "random-7301",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6124922171099504,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2249844342199008,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          1.9249844342199007,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.536608211596334,
+          0
+        ],
+        "size": [
+          0.2,
+          1.823247554752867,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.148231988972768,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.591652419771722,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4868408615979085,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.035072850570677,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.367536425285337,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2649271494293242,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.7007834101182554,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4015668202365108,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2.1015668202365108,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.606697188837453,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6102607372018838,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.111827557438395,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.609160385042939,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5946656552090888,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8.106493212647484,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.40324660632374,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1935067873525167,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.7347130197689475,
+      0.6931415602444816,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          1.9249844342199007,
+          5.148231988972768,
+          8.035072850570677
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2.1015668202365108,
+          5.111827557438395,
+          8.106493212647484
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7301
+  },
+  {
+    "name": "random-7302",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6989206314676834,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3978412629353667,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.0978412629353667,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.6163716911518162,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6370608564328988,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.134902119368266,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.549331785393769,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4288593320510063,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.9637614514192725,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.331880725709636,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3362385485807273,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6209353066858461,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2418706133716921,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.941870613371692,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.4313439702537094,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5789467137640347,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          4.920817327135727,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.404541280320097,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5674479063687397,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.888265233504467,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.294132616752233,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4117347664955329,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8976489091368922,
+      0.85011372882482,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.0978412629353667,
+          5.134902119368266,
+          7.9637614514192725
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.941870613371692,
+          4.920817327135727,
+          7.888265233504467
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7302
+  },
+  {
+    "name": "random-7303",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.5843147980966371,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1686295961932742,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          1.8686295961932742,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.362480067405013,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5877009424234778,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          4.856330538616752,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.446720725193819,
+          0
+        ],
+        "size": [
+          0.2,
+          1.7807803731541325,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.037110911770885,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.368555455885442,
+          0
+        ],
+        "size": [
+          0.2,
+          1.262889088229116,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.69764970520199,
+          0
+        ],
+        "size": [
+          0.2,
+          1.39529941040398,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2.09529941040398,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5498277457604095,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5090566707128588,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.004356081116839,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.449243900141038,
+          0
+        ],
+        "size": [
+          0.2,
+          1.489775638048397,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.8941317191652365,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.297065859582618,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4058682808347633,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.7160071356030575,
+      0.6770047406143467,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          1.8686295961932742,
+          4.856330538616752,
+          8.037110911770885
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2.09529941040398,
+          5.004356081116839,
+          7.8941317191652365
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7303
+  },
+  {
+    "name": "random-7304",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6863647154859361,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3727294309718723,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.0727294309718722,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5404676952819636,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5354765286201824,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.008205959592055,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.560754737239437,
+          0
+        ],
+        "size": [
+          0.2,
+          1.7050975552947625,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.113303514886818,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.40665175744341,
+          0
+        ],
+        "size": [
+          0.2,
+          1.186696485113183,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6393758037247121,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2787516074494243,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.9787516074494242,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.479514001600398,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6015247883019477,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          4.980276395751372,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.560099053289697,
+          0
+        ],
+        "size": [
+          0.2,
+          1.759645315076651,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8.139921710828023,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.419960855414011,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1600782891719774,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8706033148428902,
+      0.9149544383602433,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.0727294309718722,
+          5.008205959592055,
+          8.113303514886818
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.9787516074494242,
+          4.980276395751372,
+          8.139921710828023
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7304
+  },
+  {
+    "name": "random-7305",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.7129624357087508,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4259248714175017,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.1259248714175016,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.6325087779745533,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6131678131141038,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.139092684531605,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.509892513926415,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3415996587896188,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.880692343321225,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.290346171660612,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4193076566787752,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6320655778081566,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2641311556163133,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.9641311556163132,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.450864478917492,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5734666466023581,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          4.937597802218671,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.4353457414343165,
+          0
+        ],
+        "size": [
+          0.2,
+          1.595495878431291,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.933093680649963,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.316546840324982,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3669063193500381,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.9274455133663086,
+      0.8953793931282534,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.1259248714175016,
+          5.139092684531605,
+          7.880692343321225
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.9641311556163132,
+          4.937597802218671,
+          7.933093680649963
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7305
+  },
+  {
+    "name": "random-7306",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6580718771044466,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3161437542088932,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.016143754208893,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5676179161081314,
+          0
+        ],
+        "size": [
+          0.2,
+          1.7029483237984762,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.11909207800737,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.5032044704221095,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3682247848294793,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.887316862836849,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.293658431418425,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4126831371631514,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.5755088483644163,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1510176967288326,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.8510176967288325,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.3894363221879713,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6768372509182772,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          4.92785494764711,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.424872127513579,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5940343597329365,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.921889307380047,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.310944653690022,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3781106926199538,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.6370406368872141,
+      0.9297764732023827,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.016143754208893,
+          5.11909207800737,
+          7.887316862836849
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.8510176967288325,
+          4.92785494764711,
+          7.921889307380047
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7306
+  },
+  {
+    "name": "random-7307",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6685317466768564,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3370634933537129,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.037063493353713,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.532192048354896,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5902571100023666,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.027320603356079,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.552305241209705,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6499692757072513,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.077289879063331,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.388644939531666,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2227101209366698,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.5909778074361007,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1819556148722015,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.8819556148722014,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.443211590334762,
+          0
+        ],
+        "size": [
+          0.2,
+          1.722511950925122,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.004467565797324,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.512169457402966,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6154037832112849,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8.019871349008609,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.359935674504303,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2801286509913918,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8306419507543412,
+      0.6138490010133351,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.037063493353713,
+          5.027320603356079,
+          8.077289879063331
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.8819556148722014,
+          5.004467565797324,
+          8.019871349008609
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7307
+  },
+  {
+    "name": "random-7308",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.7065368962070334,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4130737924140668,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.113073792414067,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5649769050379003,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5038062252476667,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.016880017661734,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.494600777167046,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5554415190106248,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.972321536672359,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.336160768336178,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3276784633276417,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6587792637573412,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3175585275146824,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2.0175585275146823,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5279381773371123,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6207592996448605,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.038317827159543,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.479794730540979,
+          0
+        ],
+        "size": [
+          0.2,
+          1.482953806762871,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.921271633922414,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.310635816961206,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3787283660775866,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.6864716203991028,
+      0.6966260462976641,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.113073792414067,
+          5.016880017661734,
+          7.972321536672359
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2.0175585275146823,
+          5.038317827159543,
+          7.921271633922414
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7308
+  },
+  {
+    "name": "random-7309",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.722408826839486,
+          0
+        ],
+        "size": [
+          0.2,
+          1.444817653678972,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.144817653678972,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5076564805291746,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3256776537004047,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          4.870495307379377,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.399014881890846,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6570391490229381,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.927534456402316,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.313767228201158,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3724655435976842,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6065357689843193,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2130715379686385,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          1.9130715379686385,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.4987898674092706,
+          0
+        ],
+        "size": [
+          0.2,
+          1.7714366588812647,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.084508196849903,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5168036559673475,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4645909182348884,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.949099115084792,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.324549557542396,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3509008849152089,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.975456805199666,
+      0.9840042710308669,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.144817653678972,
+          4.870495307379377,
+          7.927534456402316
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          1.9130715379686385,
+          5.084508196849903,
+          7.949099115084792
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7309
+  },
+  {
+    "name": "random-7310",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.5837617517599343,
+          0
+        ],
+        "size": [
+          0.2,
+          1.1675235035198686,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          1.8675235035198685,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.4519067936172503,
+          0
+        ],
+        "size": [
+          0.2,
+          1.7687665801947632,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          5.036290083714632,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.514333790340331,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5560874132513964,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          7.992377496966029,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.346188748483014,
+          0
+        ],
+        "size": [
+          0.2,
+          1.307622503033972,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6802510188264413,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3605020376528827,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2.0605020376528826,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.5842868890562687,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6475697028067726,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          5.108071740459655,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.5766308449887445,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5371182090581783,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          8.045189949517834,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.372594974758917,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2548100504821669,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.6741898125728034,
+      0.7529039703757168,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          1.8675235035198685,
+          5.036290083714632,
+          7.992377496966029
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2.0605020376528826,
+          5.108071740459655,
+          8.045189949517834
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7310
+  },
+  {
+    "name": "random-7311",
+    "objects": [
+      {
+        "id": "wall-4-0",
+        "center": [
+          4,
+          0.6791161801984699,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3582323603969397,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-0",
+        "center": [
+          4,
+          2.0582323603969397,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-4-1",
+        "center": [
+          4,
+          3.5101134501925055,
+          0
+        ],
+        "size": [
+          0.2,
+          1.5037621795911322,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-1",
+        "center": [
+          4,
+          4.961994539988072,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-4-2",
+        "center": [
+          4,
+          6.496564447266774,
+          0
+        ],
+        "size": [
+          0.2,
+          1.6691398145574032,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-4-2",
+        "center": [
+          4,
+          8.031134354545475,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": false,
+        "cost": 900
+      },
+      {
+        "id": "wall-4-end",
+        "center": [
+          4,
+          9.365567177272737,
+          0
+        ],
+        "size": [
+          0.2,
+          1.2688656454545253,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "wall-8-0",
+        "center": [
+          8,
+          0.6804458172014037,
+          0
+        ],
+        "size": [
+          0.2,
+          1.3608916344028075,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-0",
+        "center": [
+          8,
+          2.0608916344028074,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 300
+      },
+      {
+        "id": "wall-8-1",
+        "center": [
+          8,
+          3.4722902255209833,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4227971822363514,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-1",
+        "center": [
+          8,
+          4.883688816639159,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 900
+      },
+      {
+        "id": "wall-8-2",
+        "center": [
+          8,
+          6.372353134679992,
+          0
+        ],
+        "size": [
+          0.2,
+          1.577328636081666,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      },
+      {
+        "id": "panel-8-2",
+        "center": [
+          8,
+          7.861017452720826,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4,
+          3
+        ],
+        "allowed": true,
+        "cost": 100
+      },
+      {
+        "id": "wall-8-end",
+        "center": [
+          8,
+          9.280508726360413,
+          0
+        ],
+        "size": [
+          0.2,
+          1.4389825472791742,
+          3
+        ],
+        "allowed": false,
+        "cost": null
+      }
+    ],
+    "unit": [
+      1.8899148343977517,
+      0.6654448172566079,
+      1.4
+    ],
+    "start": [
+      1.5,
+      5,
+      0
+    ],
+    "goal": [
+      10.5,
+      5,
+      0
+    ],
+    "units": "m",
+    "offset": [
+      0,
+      0
+    ],
+    "angle": 0,
+    "doors": [
+      {
+        "x": 4,
+        "centers": [
+          2.0582323603969397,
+          4.961994539988072,
+          8.031134354545475
+        ],
+        "width": 1.4
+      },
+      {
+        "x": 8,
+        "centers": [
+          2.0608916344028074,
+          4.883688816639159,
+          7.861017452720826
+        ],
+        "width": 1.4
+      }
+    ],
+    "generator_seed": 7311
+  }
+]

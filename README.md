@@ -6,7 +6,7 @@ Jigsaw searches broadly, connects technical ideas across unrelated fields, and a
 
 **A run can finish with zero winners. The threshold never moves to fill a shortlist.**
 
-**Continued research:** [Round two](research/round2/README.md) is testing new combinations and actual integration prototypes. The [versioned pursuit rubric v2](docs/rubric-v2.md) distinguishes approval for a bounded validation experiment from proof of a business. It was frozen before formal round-two scoring; historical results and the original CLI gate remain v1. No v2 pass has been awarded yet.
+**Continued research:** [Round two](research/round2/README.md) and [round three](research/round3/README.md) preserve executed prototypes, independent verification and failures. The latest MEP experiment found no qualifying advantage; its input-boundary defects are documented. The [versioned pursuit rubric v2](docs/rubric-v2.md) distinguishes approval for a bounded validation experiment from proof of a business. It was frozen before formal round-two scoring; historical results and the original CLI gate remain v1. No v2 pass has been awarded yet.
 
 ## How it works
 
@@ -74,7 +74,7 @@ jigsaw report --out runs/broad
 
 `discover` creates an Astra plan if none exists. You can edit `plan.json` before another discovery pass. Plans must contain 16–64 queries spanning at least 12 distinct field labels. Use valid GitHub Search syntax; the collector adds public/non-fork/non-archived restrictions and also filters returned metadata.
 
-## The acceptance bar
+## The CLI acceptance bar (v1)
 
 | Dimension | Weight | Required minimum / 10 |
 | --- | ---: | ---: |
@@ -96,6 +96,16 @@ jigsaw report --out runs/broad
 - Every component's detected license passes a conservative known-license screen. Unknown and `NOASSERTION` licenses block acceptance pending verification.
 
 Source presence and hostnames are mechanically checked; source truth, independence, substantive novelty, and license compatibility are model assessments that need human scrutiny. Two websites are not proof of two independent measurements. A pass means **worth testing**, not proven profitable. See [the research rubric](docs/rubric.md).
+
+## Executed-evidence pursuit reviews (v2)
+
+For a candidate with a preregistered executed experiment, use the separate [v2 rubric](docs/rubric-v2.md): score ≥80, per-dimension floors, confidence ≥0.75, and all seven evidence gates. Artifact hashes, exact component rights, the comparison, input access and capped next experiment are required. Historical v1 results are not rescored, and `jigsaw run` still uses its original v1 gate.
+
+```sh
+jigsaw assess --review path/to/review.json --evidence-root . --out runs/assessment
+```
+
+A technical integration alone cannot pass. The [research lessons](docs/research-lessons.md) explain how failed experiments improve subsequent search and comparison choices without changing thresholds to produce a winner.
 
 ## Outputs and resuming
 

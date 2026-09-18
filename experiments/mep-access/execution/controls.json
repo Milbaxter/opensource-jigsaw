@@ -1,0 +1,122 @@
+[
+  {
+    "name": "separated_pose",
+    "passed": true
+  },
+  {
+    "name": "colliding_pose",
+    "passed": true
+  },
+  {
+    "name": "between_waypoint_collision",
+    "passed": true
+  },
+  {
+    "name": "floor_tangency_rejected",
+    "passed": true
+  },
+  {
+    "name": "intact_manual_detour",
+    "passed": true
+  },
+  {
+    "name": "fixed_wrong_yaw",
+    "passed": true
+  },
+  {
+    "name": "aligned_passage",
+    "passed": true
+  },
+  {
+    "name": "clearance089_rejected",
+    "passed": true
+  },
+  {
+    "name": "clearance090_rejected",
+    "passed": true
+  },
+  {
+    "name": "clearance091_aligned",
+    "passed": true
+  },
+  {
+    "name": "high_beam_inactive",
+    "passed": true
+  },
+  {
+    "name": "low_beam_active",
+    "passed": true
+  },
+  {
+    "name": "operational_forbidden",
+    "passed": true
+  },
+  {
+    "name": "units_placement_floor",
+    "passed": true
+  },
+  {
+    "name": "units_placement_equipment",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-4-0",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-4-0",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-4-1",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-4-1",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-4-2",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-4-2",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-4-end",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-8-0",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-8-0",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-8-1",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-8-1",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-8-2",
+    "passed": true
+  },
+  {
+    "name": "units_placement_panel-8-2",
+    "passed": true
+  },
+  {
+    "name": "units_placement_wall-8-end",
+    "passed": true
+  },
+  {
+    "name": "unit_scale",
+    "passed": true
+  }
+]

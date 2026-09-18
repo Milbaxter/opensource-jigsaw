@@ -1,0 +1,4 @@
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 0 states
+Info:    Closest path is still start and goal
+{"case": "rotation", "seed": 7400, "nodes": 112, "edges": 456, "joint": null, "oracle_match": true}

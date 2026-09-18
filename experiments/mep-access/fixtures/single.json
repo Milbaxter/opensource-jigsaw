@@ -1,0 +1,190 @@
+{
+  "name": "single",
+  "start": [
+    1.5,
+    5.0,
+    0.0
+  ],
+  "goal": [
+    10.5,
+    5.0,
+    0.0
+  ],
+  "ids": {
+    "floor": "3$kCt$QJ9LBe3K7drzq5xO",
+    "equipment": "3Y4Fbe8V1TR9yAkfYeRZZR",
+    "wall-6-0": "00hPQIbxTOJvtCA3I_RY2W",
+    "panel-6-0": "12lFrbzo1RGA82wDBe_kSy",
+    "wall-6-1": "2xL7ii6SfHWOrgCgtqo6DT",
+    "panel-6-1": "1axo0ByyTGMByMG77zLO0m",
+    "wall-6-2": "1WzF3a9qDSCPJa2$7eU97O",
+    "panel-6-2": "3UshUCN61KfxaoDcZohjKf",
+    "wall-6-end": "21z6cP2Q5NTA3x2t89PCxU"
+  },
+  "units": "m",
+  "transform": {
+    "angle": 0,
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "interventions": {
+    "00hPQIbxTOJvtCA3I_RY2W": {
+      "name": "wall-6-0",
+      "allowed": false,
+      "cost": null
+    },
+    "12lFrbzo1RGA82wDBe_kSy": {
+      "name": "panel-6-0",
+      "allowed": true,
+      "cost": 1000
+    },
+    "2xL7ii6SfHWOrgCgtqo6DT": {
+      "name": "wall-6-1",
+      "allowed": false,
+      "cost": null
+    },
+    "1axo0ByyTGMByMG77zLO0m": {
+      "name": "panel-6-1",
+      "allowed": true,
+      "cost": 700
+    },
+    "1WzF3a9qDSCPJa2$7eU97O": {
+      "name": "wall-6-2",
+      "allowed": false,
+      "cost": null
+    },
+    "3UshUCN61KfxaoDcZohjKf": {
+      "name": "panel-6-2",
+      "allowed": true,
+      "cost": 200
+    },
+    "21z6cP2Q5NTA3x2t89PCxU": {
+      "name": "wall-6-end",
+      "allowed": false,
+      "cost": null
+    }
+  },
+  "doors": [
+    {
+      "x": 6,
+      "centers": [
+        2,
+        5,
+        8
+      ],
+      "width": 1.4
+    }
+  ],
+  "manual_routes": [
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        4.8,
+        2.0,
+        0.0
+      ],
+      [
+        7.2,
+        2.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        4.8,
+        5.0,
+        0.0
+      ],
+      [
+        7.2,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        4.8,
+        8.0,
+        0.0
+      ],
+      [
+        7.2,
+        8.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.5,
+        5.0,
+        0.0
+      ],
+      [
+        10.5,
+        5.0,
+        0.0
+      ]
+    ]
+  ]
+}

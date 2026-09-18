@@ -1,0 +1,29 @@
+"""Additional preregistered fail-closed checks; no planning/domain changes."""
+import hashlib,json,pathlib
+from unittest.mock import patch
+import prototype as p
+root=pathlib.Path(__file__).resolve().parent
+checks=[]
+# Work on original IFC/metadata copies in memory; preserve all frozen input files.
+for name,mutate in [('unknown_unit',lambda f:setattr(f.by_type('IfcSIUnit')[0],'Prefix','CENTI')),
+                    ('missing_geometry',lambda f:f.remove(f.by_guid(json.loads((root/'fixtures/intact.json').read_text())['ids']['equipment'])) )]:
+ f=p.ifcopenshell.open(root/'fixtures/intact.ifc');mutate(f);rejected=False;reason=None
+ with patch.object(p.ifcopenshell,'open',return_value=f):
+  try:p.Scene('intact')
+  except (ValueError,RuntimeError) as exc:rejected=True;reason=str(exc)
+ checks.append({'name':name,'passed':rejected,'reason':reason})
+for cost in [None,0,-1]:
+ raw=(root/'fixtures/single.json').read_text();meta=json.loads(raw)
+ next(v for v in meta['interventions'].values() if v['allowed'])['cost']=cost
+ original=p.pathlib.Path.read_text
+ def reader(path,*args,**kwargs):
+  if path.name=='single.json':return json.dumps(meta)
+  return original(path,*args,**kwargs)
+ rejected=False;reason=None
+ with patch.object(p.pathlib.Path,'read_text',reader):
+  try:p.Scene('single')
+  except ValueError as exc:rejected=True;reason=str(exc)
+ checks.append({'name':'invalid_cost_'+str(cost),'passed':rejected,'reason':reason})
+(root/'execution/input-failure-controls.json').write_text(json.dumps({'helper_sha256':hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest(),'checks':checks},indent=2))
+assert all(x['passed'] for x in checks)
+print(len(checks),'input rejection controls passed')
