@@ -1,0 +1,65 @@
+# Round 4: real-model temporal dbt testing feasibility screen
+
+Decision: **HOLD before implementation**. No new benchmark was executed, no preregistered success threshold was evaluated, and no pursuit score is asserted. This screen found real openly licensed model defects and a plausible reusable execution adapter. It did not establish a credible advantage over a strong fixed integration schedule or an existing snapshot-comparison workflow. A larger implementation is not currently justified merely to reproduce known failures.
+
+The findings improve on the earlier toy-model demonstration: actual model files and documented upstream corrections exist, and the NetSuite example has publicly available integration seeds. They do not resolve the earlier concerns about setup advantage, dblect prior art, or defensibility.
+
+## What was inspected
+
+Public GitHub issue/PR searches, source trees, reported reproductions, pre-change model files, correction patches, repository license texts, and the Infinite Lambda snapshot-testing macros. Search queries used `is:public`; raw responses remain in the research directory. No warehouse, dbt project, SQL model, fuzzer, or adapter benchmark was run. Reading source and reports reveals the failure families: these are **retrospective development cases, not blinded or held-out discoveries**.
+
+`candidate-pins.json` identifies exact source revisions. A PR's current `base.sha` is not necessarily its pre-change revision. Initial inspection encountered this in dbt_artifacts; the pins were corrected to the first PR commit's first parent before any execution. `fixed` is a merged revision only for NetSuite; the other two correction branches are explicitly unmerged proposals (ADE PR145 remains open; artifacts PR67 was closed without merging). GitHub's `merge_commit_sha` on an unmerged PR can identify a test merge and must not be called an accepted fix.
+
+## Candidate corpus and exclusions
+
+| Case | Provenance and relevant behavior | Eligibility / baseline consequence |
+|---|---|---|
+| dbt_artifacts `dim_dbt__models` | [PR67](https://github.com/brooklyn-data/dbt_artifacts/pull/67), before `aa494d006ebaaf3a60965606482400b3aa958b06`; proposed correction `35881a2105dbb54af3d7ecd6818fa84b919fe37f` | An existing empty target yields a NULL maximum timestamp and rejects the first arrivals. Portable-looking selected model, not execution verified. Ordinary empty-initial-state then append is sufficient. Seven affected models share one failure family and must not count as seven independent defects. |
+| ADE-Bench Airbnb `wow_agg_reviews` and `mom_agg_reviews` | [PR145](https://github.com/dbt-labs/ade-bench/pull/145), before `d739fc3502fe80a0e4da762eb852aeb3081cd0fa`; proposed correction `a8628f7601c32d1c90a5366a51899a1c62c4a099` | Actual DuckDB fixture report: the incremental branch restricts dates so the window function loses its preceding rows. An identical second dbt run suffices according to the report. The proposed table materialization is a valid negative control, but not evidence of repaired incremental efficiency. Two models are one family. This is a benchmark project, not evidence of production customer incidence. |
+| Fivetran NetSuite `int_netsuite2__tran_with_converted_amounts` | [Issue128](https://github.com/fivetran/dbt_netsuite/issues/128), [merged PR153](https://github.com/fivetran/dbt_netsuite/pull/153); before `379cb286ea70d24a43e3113ca55449a24807f5b2`, correction `26158bff3d330a5b9aa8e564793a403bcaa910c2` | Real Snowflake user reports account changes creating obsolete hashed-key rows; a full refresh only temporarily clears duplicates. Public package integration seeds exist. Changing the model to ephemeral avoids persistent stale rows. DuckDB execution and exact reproduced condition remain unverified. A valid mutable-account update schedule is a strong simple baseline. |
+| Gnosis decode watermark | [Documented remediation](https://github.com/gnosischain/dbt-cerebro/blob/65a60c8097e4c03064d281ce37ee7ecbf11bb9b7/docs/lessons/decode-watermark-late-logs.md), current inspected commit `65a60c8097e4c03064d281ce37ee7ecbf11bb9b7` | Genuine backfilled logs below the watermark are skipped. The actual decoding macro explicitly requires ClickHouse24+ and ABI data, uses database lookups while rendering, and has warehouse-specific append/merge behavior. Exclude from an unchanged DuckDB benchmark. A rewritten watermark-only example would again be a surrogate. |
+| Fivetran Jira PR170 | [Incremental granularity correction](https://github.com/fivetran/dbt_jira/pull/170) | Real weekly partition/filter alignment change; observed source patch is useful future native-adapter material. No portable execution/eligibility proof here; exclude from the proposed small corpus. |
+| Microsoft dbt-fabric #397 | Destructive refresh failure | Excluded: model full-refresh equivalence does not test that adapter failure class. |
+
+For dbt_artifacts, the proposed fix discussion itself reports subsequent uniqueness failures in downstream models on old historical inputs. Therefore it is **not** a general clean negative-control claim. A future experiment must freeze an explicit narrow admitted-input contract and distinguish selected-node equality from correctness of the whole package.
+
+## Bounded NetSuite setup assessment
+
+The inspected pre-change file contains four direct `ref()` dependencies, one optional exchange-rate branch, package variables, a package-dispatched lookback macro, and a dbt_utils generated surrogate key. The lookback macro calls `get_single_value` against the actual existing target during compilation; compiling a generic SQL string once and replaying it is not faithful. Each incremental step must actually execute dbt compilation/materialization against that step's populated target.
+
+The public integration project supplies raw seed identifiers, column types and local package wiring. Selected inspected seeds include accounting lines and transaction lines. The source package dependency is public. A whole-project reproduction can plausibly avoid model-specific SQL rewriting, but dependency installation, configuration and native materialization fidelity have not been tested. DuckDB is not established as a supported production adapter for this pinned package.
+
+A selected-node adapter could substitute declared typed tables at each direct `ref()` boundary while retaining the original model and original package macros. This is legitimate integration testing of one actual model, but it is not end-to-end source coverage. Populating those boundaries by hand would reintroduce substantial model-specific fixture work. The stronger route is to use upstream integration seeds and unmodified transformations, keeping the public source graph.
+
+Even then, valid temporal generation requires declarations not entailed by SQL: which keys are immutable, whether account reassignment is allowed, which related tables must change together, how `_fivetran_synced` propagates, and the admissible lookback window. SQLGlot can expose the columns feeding the surrogate key and the incremental predicate. It cannot establish those business semantics. Random changes to one table can simply violate the model's input contract and produce meaningless discrepancies.
+
+The same declarations enable a deterministic update suite. Compiler-derived mutation targets might reduce maintenance, but this screen has not measured it. No hand-estimated minutes, line-count difference, or alleged automatic oracle is being presented as measured labor savings.
+
+## Strong baselines and adverse prior art
+
+1. **Ordinary integration schedule using the same adapter and same inputs:** full refresh; unchanged replay; empty initial target then initial append; append with tied timestamp where admitted; mutable non-key and key-contributing-field changes where admitted; late insert within the admitted window; replay. Compare every final target against a separate fresh full refresh. Native uniqueness/not-null tests run too. These schedules directly cover the inspected reports; there is no credible reason to handicap them.
+2. **Infinite Lambda audit-helper-ext:** [consecutive snapshot validation](https://github.com/infinitelambda/dbt-audit-helper-ext/blob/main/docs/validation-incremental-load.md) already orchestrates historical source/legacy snapshots, day-one full refresh, subsequent target cloning and incremental validation; its extended clone follows dependencies. This is principally migration parity against legacy snapshots, not the identical generated full-refresh oracle. Nevertheless, automated multi-step fixture setup and comparison are substantial prior art. Its clone operation is dispatched and defaults to warehouse cloning for tables; DuckDB compatibility must be demonstrated, not assumed from the word `default`.
+3. **dblect:** Apache2 source inspected earlier at `8ebf61e9ad2c5b50484f6a63941503b177061b5d` includes static semantic checks, a real dbt/DuckDB harness, and explicit runtime state-machine, late-row, duplicate and shrinking concepts. The combination of compiler analysis and temporal property tests is not novel merely because this proposed harness executes it. Shipping/support or a better corpus could still have value; those advantages remain unproven.
+4. **Native dbt unit tests:** strong fixed input/branch tests but not a substitute for executing final multi-run materialization. A fair comparison includes an ordinary multi-run integration harness, not native mocked unit tests alone.
+
+Parent commercial evidence in `work/round4-parent/dbt-commercial-evidence.md` supports a workflow and prospective consulting population, not this narrow product's ROI. The named CHOP practitioner also built their own validator, which is adverse evidence against assuming this need is unserved.
+
+## Conditions for any future preregistration
+
+A genuine next experiment should separate **execution feasibility**, **setup advantage**, and **extra defect discovery** rather than using success at one as evidence of all three.
+
+- Freeze the adapter's admitted dialect, materializations, deterministic functions, comparison tolerances, input contracts, package versions and target state before evaluation. Exclude intentionally history-preserving/SCD behavior, hard deletes not reflected by design, output timestamps, and inaccessible database-side dependencies unless explicitly modeled.
+- Use original licensed model files and real dbt materialization. Require no per-model Python oracle or rewritten SQL. Compiler output may guide generic operations but must not replace running dbt.
+- Treat the inspected cases as a public development set. Reserve new model revisions independently **after** defining eligibility and **before** freezing/evaluating the adapter. A split of histories from these inspected bugs is not a held-out set of bug families.
+- Freeze a same-input baseline schedule and give it the same schema, keys, mutability contract, initial snapshot and allowed mutations. If it catches every case, report zero incremental detection benefit.
+- Measure actual replay time/calls, contract declarations, executed setup actions and errors. To claim human setup savings, use real operators in a counterbalanced task or credible existing workflow logs. Do not replace this with an author's retrospective timing guess.
+- Fixes must be evaluated under the same admitted histories; table/ephemeral corrections are acceptable correctness controls but say nothing about incremental performance.
+- Retain every compile/setup failure as an eligibility failure, all generated traces and negative controls. Run an independently reproducible diff check with bag semantics, including duplicate rows.
+
+No protocol is frozen here because the required setup/workflow comparison and independently reserved evaluation set are not yet available. **Stop condition reached for this research branch:** the source evidence supports real defects, but does not yet justify another large implementation over the existing 76-point candidate. Reopen for a willing project owner with an eligible model corpus and an observable repeated fixture-maintenance burden, or for a genuinely reserved public corpus that exposes a reusable adapter advantage.
+
+## Rights and publication
+
+The three inspected model repositories and Infinite Lambda package declare Apache2; Gnosis declares MIT. Exact pre-change license files for the three model candidates are retained alongside source pins; API license metadata alone is not used as the complete legal evidence. Hypothesis is MPL2, SQLGlot/DuckDB MIT, dbt Core/dbt-duckdb Apache2, as recorded in earlier component research. Any future lockfile still needs its own review.
+
+The publish manifest contains this analysis, compact model pins, license texts, and metadata-only source provenance/search ledgers. Raw issue bodies, customer example rows, model files, and raw API responses remain research evidence outside that manifest. No customer issue data was used as a test input. No external messages were sent.

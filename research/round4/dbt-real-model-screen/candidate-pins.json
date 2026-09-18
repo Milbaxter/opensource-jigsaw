@@ -1,0 +1,29 @@
+[
+  {
+    "repo": "dbt-labs/ade-bench",
+    "buggy": "d739fc3502fe80a0e4da762eb852aeb3081cd0fa",
+    "fixed": "a8628f7601c32d1c90a5366a51899a1c62c4a099",
+    "path": "shared/projects/dbt/airbnb/models/agg/wow_agg_reviews.sql",
+    "pr": "https://github.com/dbt-labs/ade-bench/pull/145",
+    "fixed_status": "open unmerged proposed fix",
+    "buggy_pin_method": "first PR commit first parent"
+  },
+  {
+    "repo": "brooklyn-data/dbt_artifacts",
+    "buggy": "aa494d006ebaaf3a60965606482400b3aa958b06",
+    "fixed": "35881a2105dbb54af3d7ecd6818fa84b919fe37f",
+    "path": "models/incremental/dim_dbt__models.sql",
+    "pr": "https://github.com/brooklyn-data/dbt_artifacts/pull/67",
+    "fixed_status": "closed unmerged proposed fix",
+    "buggy_pin_method": "first PR commit first parent"
+  },
+  {
+    "repo": "fivetran/dbt_netsuite",
+    "buggy": "379cb286ea70d24a43e3113ca55449a24807f5b2",
+    "fixed": "26158bff3d330a5b9aa8e564793a403bcaa910c2",
+    "path": "models/netsuite2/intermediate/int_netsuite2__tran_with_converted_amounts.sql",
+    "pr": "https://github.com/fivetran/dbt_netsuite/pull/153",
+    "fixed_status": "merged",
+    "buggy_pin_method": "first PR commit first parent"
+  }
+]

@@ -1,0 +1,3451 @@
+{
+  "notes": [
+    "Queries used is:public. Results are a candidate search, not prevalence evidence. The initial issues-historic query with parentheses lacked the dbt constraint and was discarded as overbroad."
+  ],
+  "results": [
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/453",
+      "title": "chore: add Redshift support",
+      "created_at": "2024-10-21T11:30:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/shadowkrusha/workspaces/pull/179",
+      "title": "Update dependency dbt-core to v1.6.15 [SECURITY]",
+      "created_at": "2024-05-28T22:32:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/dbt-labs/dbt-postgres/pull/78",
+      "title": "[WIP] - Partitioning support",
+      "created_at": "2024-05-01T11:29:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/391",
+      "title": "Add config blocks for the \"source\" models",
+      "created_at": "2023-10-02T21:39:56Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/artem-garmash/dbt-data-reliability/pull/2",
+      "title": "Athena support",
+      "created_at": "2023-09-06T11:57:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/dagster-io/dagster/pull/22280",
+      "title": "[dagster-dbt] Make default backfill_policy=None always for @dbt_asset",
+      "created_at": "2024-06-04T13:47:52Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/culpgrant/strava_mds/pull/75",
+      "title": "Update dependency dbt-duckdb to v1.10.1",
+      "created_at": "2024-03-09T01:03:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/dbeatty10/dbt-duckdb/pull/8",
+      "title": "Update dbt-core requirement from ~=1.3.0 to >=1.3,<1.5",
+      "created_at": "2023-01-30T06:14:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/cjubb39/materialize/pull/355",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T04:08:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/trouze/adi-domain-jaffle/pull/22",
+      "title": "Advanced ci demo",
+      "created_at": "2024-12-11T15:29:07Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/andrew-sha/tutorial/pull/22",
+      "title": "Update dependency sqlmesh to v0.236.2",
+      "created_at": "2024-04-08T22:58:48Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/tomsej/dbt-duckdb/pull/21",
+      "title": "Update dbt-core requirement from ~=1.3.0 to >=1.3,<1.5",
+      "created_at": "2023-01-30T21:11:24Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ahelium/materialize/pull/363",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T09:07:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ruchirK/materialize/pull/976",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T10:03:50Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/getindata/dbt-images/pull/63",
+      "title": "chore(deps): update dependency dbt-postgres to v1.6.1",
+      "created_at": "2023-01-05T00:28:58Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/getindata/dbt-images/pull/62",
+      "title": "chore(deps): update dependency dbt-core to v1.6.1",
+      "created_at": "2023-01-05T00:28:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/nharring-adjacent/materialize/pull/541",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.1.0 to >=1.1,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T23:05:30Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/wangandi/materialize/pull/611",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.2.0 to >=1.2,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T17:04:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/NocturnalGlory/materialize/pull/99",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.2.0 to >=1.2,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T17:10:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/GuinsooLab/duskbladesql/pull/162",
+      "title": "Update dbt-postgres requirement from ~=1.1.0 to >=1.1,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T11:09:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/elindsey/materialize/pull/197",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.1.0 to >=1.1,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T03:04:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/philip-stoev/materialize/pull/317",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T11:59:17Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/philip-stoev/materialize/pull/316",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T11:59:12Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/cjubb39/materialize/pull/356",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T04:08:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ahelium/materialize/pull/362",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T09:07:42Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/wangandi/materialize/pull/610",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.2.0 to >=1.2,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T17:03:57Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/NocturnalGlory/materialize/pull/98",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.2.0 to >=1.2,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T17:10:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ruf-io/materialize/pull/685",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T03:58:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ruf-io/materialize/pull/684",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T03:58:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/jayanth-kumar-structuredlabs/dbt-tutorial/pull/17",
+      "title": "Jayanth kumar structuredlabs patch 1",
+      "created_at": "2024-10-04T19:28:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/ruchirK/materialize/pull/975",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.3.0 to >=1.3,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-26T10:03:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/tempbottle/materialize/pull/38",
+      "title": "build(deps): bump dbt from 0.21.0 to 1.0.0 in /misc/dbt-materialize",
+      "created_at": "2021-12-07T23:26:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/Parsely/parsely_raw_data/pull/105",
+      "title": "Bump dbt from 0.17.2 to 1.0.0",
+      "created_at": "2021-12-07T08:04:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/datafold/datafold-demo-sung/pull/3",
+      "title": "quick change",
+      "created_at": "2023-09-07T16:47:35Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/agisota/mage-ai/pull/11",
+      "title": "Bump the pip group across 2 directories with 11 updates",
+      "created_at": "2024-06-11T21:17:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/prefeitura-rio/pipelines_rj_smtr/pull/142",
+      "title": "[WIP] Migra queries STPL",
+      "created_at": "2024-08-12T21:34:52Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/Santhin/jupyter-images/pull/2",
+      "title": "Update dependency acryl-datahub to v0.15.0.5",
+      "created_at": "2022-08-03T08:48:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/go-sql-driver/mysql/pull/1633",
+      "title": "Implement GTID tracking.",
+      "created_at": "2024-10-02T07:58:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/KlubJagiellonski/pola-backend/pull/595",
+      "title": "Bump dbt-bigquery from 0.19.0 to 0.19.1",
+      "created_at": "2021-05-01T07:50:47Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/pH14/materialize/pull/157",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.1.0 to >=1.1,<1.5 in /misc/dbt-materialize",
+      "created_at": "2023-01-25T17:08:37Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/getindata/dbt-images/pull/57",
+      "title": "chore(deps): update dependency acryl-datahub to v0.10.5.5",
+      "created_at": "2022-12-01T03:12:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/medic/cht-sync/pull/158",
+      "title": "feat: run dbt in batches",
+      "created_at": "2024-09-27T15:26:45Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/OpenLineage/OpenLineage/pull/3314",
+      "title": "[DBT][Feature] Consume dbt structured logs and report progress in real time",
+      "created_at": "2024-12-11T16:18:10Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user/pull/1501",
+      "title": "[Snyk] Security upgrade zeromq from 6.1.0 to 6.1.1",
+      "created_at": "2024-11-08T05:49:12Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/22381",
+      "title": "Normalization: Use strict > comparison in incremental mode",
+      "created_at": "2023-02-04T01:58:11Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/20342",
+      "title": "[IGNORE IT] Test PR to check how CI works on mater branch",
+      "created_at": "2022-12-10T13:59:34Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/20898",
+      "title": "Destination-bigquery: to handle new datatypes",
+      "created_at": "2022-12-28T11:04:22Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/openjdk/jdk/pull/16687",
+      "title": "8313367: SunMSCAPI cannot read Local Computer certs w/o Windows elevation",
+      "created_at": "2023-11-16T12:06:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/fivetran/dbt_fivetran_log/pull/81",
+      "title": "Update/rename package",
+      "created_at": "2023-05-04T23:41:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user/pull/1481",
+      "title": "[Snyk] Upgrade zeromq from 6.0.4 to 6.0.8",
+      "created_at": "2024-10-28T05:13:25Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/fivetran/dbt_hubspot_source/pull/126",
+      "title": "update/get-ticket-property-history-columns",
+      "created_at": "2024-07-24T17:27:31Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/20909",
+      "title": "New destination: databend (community PR #19815)",
+      "created_at": "2022-12-28T22:03:58Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/sspinc/dbt-utils/pull/1",
+      "title": "Fix legacy insert by period materialization",
+      "created_at": "2021-08-27T12:40:35Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/20631",
+      "title": "\ud83d\udea8 Destination Snowflake: checkpointing flush/commit and emit STATE message \ud83d\udea8 ",
+      "created_at": "2022-12-19T00:41:39Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/17494",
+      "title": "\ud83c\udf89 New Destination: DuckDB",
+      "created_at": "2022-10-01T20:50:07Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/21846",
+      "title": "Rename source acceptance test to connector acceptance test",
+      "created_at": "2023-01-25T14:28:44Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/15372",
+      "title": "Add test case for new fields appearing in data",
+      "created_at": "2022-08-05T17:46:12Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/20894",
+      "title": "process config control messages during `check` and `discover`",
+      "created_at": "2022-12-28T04:57:42Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/rodneyosodo/propeller/pull/1",
+      "title": "feat: add sdk and cli for task CRUD operations",
+      "created_at": "2024-12-13T13:19:15Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-missing.json",
+      "url": "https://github.com/Familiar-HQ/dittofeed/pull/5",
+      "title": "V5",
+      "created_at": "2024-11-25T07:59:47Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_zendesk/pull/273",
+      "title": "Fix false first-reply SLA breaches on privately-created tickets (RD-1277353)",
+      "created_at": "2026-09-17T22:57:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_intercom/pull/81",
+      "title": "Fix/closed conversations",
+      "created_at": "2026-03-04T15:21:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/190",
+      "title": "pre-release/v1.10.0-a1",
+      "created_at": "2026-06-04T19:17:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/178",
+      "title": "bugfix/remove_null_team_from_sprint_enhanced",
+      "created_at": "2026-04-02T16:00:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_fivetran_log/pull/194",
+      "title": "release_branch/v2.6.0",
+      "created_at": "2026-05-21T22:29:35Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_intercom/pull/68",
+      "title": "Simplify intermediate conversation model logic",
+      "created_at": "2025-09-16T16:21:55Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_salesforce_formula_utils/pull/140",
+      "title": "fix(redshift): fall back to raw model_large when fromjson() fails",
+      "created_at": "2026-09-10T18:01:21Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_intercom/pull/67",
+      "title": "Pre release updates",
+      "created_at": "2025-09-09T16:06:03Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk_tools/pull/22",
+      "title": "Fix broken links",
+      "created_at": "2026-09-12T08:43:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/67",
+      "title": "fix(connector_sdk) : Added a note in the README.md for the customer on how to resolve the error ",
+      "created_at": "2026-09-08T18:13:42Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_quickbooks/pull/223",
+      "title": "Feature: Exchange rate addition",
+      "created_at": "2026-08-29T01:09:48Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/623",
+      "title": "fix(csdk): Add changelog to connector_sdk repo",
+      "created_at": "2026-09-09T05:33:30Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_salesforce/pull/86",
+      "title": "Consolidate Salesforce history models (GA-1032074, Phase 1)",
+      "created_at": "2026-07-31T16:11:25Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_sage_intacct/pull/46",
+      "title": "Fix UNION ALL type mismatch in sage_intacct__ap_ar_enhanced",
+      "created_at": "2026-08-12T15:49:42Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_recharge/pull/52",
+      "title": "Bug fixes for missing cols/tables",
+      "created_at": "2026-08-08T02:36:31Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_quickbooks/pull/218",
+      "title": "fix/je-ar-lookup",
+      "created_at": "2026-07-28T01:15:24Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_app_reporting/pull/39",
+      "title": "Fix public models and add supported vars",
+      "created_at": "2026-07-31T16:21:55Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_workday/pull/37",
+      "title": "Fix/annual currency summary missing cols",
+      "created_at": "2026-07-28T15:34:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_apple_store/pull/54",
+      "title": "bugfix/app-store-app-identifier",
+      "created_at": "2026-08-20T15:28:59Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_sap/pull/49",
+      "title": "release/v0.8.0",
+      "created_at": "2026-07-24T16:27:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_greenhouse/pull/46",
+      "title": "Schema Update: V3 API",
+      "created_at": "2026-07-21T17:49:23Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_social_media_reporting/pull/41",
+      "title": "Connector models not surfaced",
+      "created_at": "2026-07-31T20:56:17Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_hubspot/pull/210",
+      "title": "Allow Conversations to run without user role or teams",
+      "created_at": "2026-08-06T14:47:02Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/great_expectations/pull/12012",
+      "title": "[FEATURE] Exasol integration",
+      "created_at": "2026-08-01T17:30:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_hubspot/pull/209",
+      "title": "Release/1.9.0",
+      "created_at": "2026-07-29T18:55:47Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/606",
+      "title": "refactor(cSDK): Add empty configuration file for examples with no configuration",
+      "created_at": "2026-07-14T18:50:52Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/53",
+      "title": "feature(connectors): add GLEIF LEI records connector",
+      "created_at": "2026-07-29T14:32:03Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_servicenow/pull/31",
+      "title": "Duplicate / malformed docs block",
+      "created_at": "2026-07-17T14:50:14Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_xero/pull/79",
+      "title": "feature/add_invoice_variables",
+      "created_at": "2026-07-02T21:04:41Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_ad_reporting/pull/181",
+      "title": "Fix macro argument types (#180)",
+      "created_at": "2026-06-18T14:54:01Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_quickbooks/pull/211",
+      "title": "fix/cast-string-literals",
+      "created_at": "2026-06-15T16:18:16Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_xero/pull/78",
+      "title": "Feature/new journal cash models",
+      "created_at": "2026-06-30T08:55:21Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_ad_reporting/pull/179",
+      "title": "Integrate upstream package variables into Quickstart",
+      "created_at": "2026-06-17T18:32:43Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_ga4_export/pull/21",
+      "title": "Release/v0.7.1",
+      "created_at": "2026-07-14T01:33:41Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/26",
+      "title": "feat: add wms_oracle community connector",
+      "created_at": "2026-06-11T19:34:51Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_workday/pull/35",
+      "title": "bugfix/cast_non_numeric_as_null",
+      "created_at": "2026-06-25T21:18:53Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_fivetran_log/pull/184",
+      "title": "Postgres - optimize audit_table",
+      "created_at": "2026-04-01T19:53:10Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_netsuite/pull/204",
+      "title": "bug/timestamp-case-tz-ntz",
+      "created_at": "2026-06-18T15:55:29Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_shopify/pull/160",
+      "title": "Release/1.8.2",
+      "created_at": "2026-06-15T18:13:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_shopify/pull/158",
+      "title": "bug/dupe-orders",
+      "created_at": "2026-05-28T20:42:34Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/180",
+      "title": "Bugfix/jira using teams incremental fix",
+      "created_at": "2026-04-06T20:13:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_workday/pull/33",
+      "title": "bugfix/cast_strings_as_floats",
+      "created_at": "2026-05-29T20:13:51Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/37",
+      "title": "feature(connectors): add open-meteo-marine-weather connector",
+      "created_at": "2026-07-01T20:03:38Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/176",
+      "title": "bugfix/jira_using_teams_incremental_fix",
+      "created_at": "2026-03-19T19:32:55Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_zendesk/pull/262",
+      "title": "SLA Reply Time - Accommodate Schedule Changes",
+      "created_at": "2026-05-22T20:21:50Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/595",
+      "title": "fix(docs): Change refs to new repo name",
+      "created_at": "2026-06-05T09:43:10Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/577",
+      "title": "Fix(connector_sdk) : Modifying existing example to mimic History Mode ",
+      "created_at": "2026-04-29T05:31:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_shopify/pull/157",
+      "title": "Feature/add quickstart variables",
+      "created_at": "2026-05-18T23:18:58Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/335",
+      "title": "Contributing my new connector `owasp_api_vulns` created for the OWASP API Vulnerability Advisor project submission for the AI Accelerate Hackathon 2025 Fivetran Challenge.",
+      "created_at": "2025-10-25T18:15:38Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/170",
+      "title": "[Bug fix] Incremental irregularities",
+      "created_at": "2026-02-17T20:57:40Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/39",
+      "title": "example(connector_sdk) : re-raised new connector",
+      "created_at": "2026-07-02T10:32:47Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/18",
+      "title": "feature(connector_sdk): Adding example for large volume data ; Ehi at scale",
+      "created_at": "2026-05-04T18:27:17Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/community_connectors/pull/41",
+      "title": "feature(connectors/bright_data_scrape): add Bright Data Web Scraper C\u2026",
+      "created_at": "2026-07-02T12:29:18Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/596",
+      "title": "fix(connector_sdk) : fixed exisiting links",
+      "created_at": "2026-06-09T15:13:07Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_tiktok_ads/pull/42",
+      "title": "feature/add_location_table_to_country_report",
+      "created_at": "2026-05-08T23:27:40Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/567",
+      "title": "Add Databricks FDA Drug Label Intelligence connector to AI tutorials",
+      "created_at": "2026-04-19T01:19:30Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_shopify/pull/154",
+      "title": "Release/v1.7.0",
+      "created_at": "2026-04-02T22:56:45Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/573",
+      "title": "Add FHIR R4 Healthcare Intelligence connector example",
+      "created_at": "2026-04-20T19:28:46Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/dbt_netsuite/pull/197",
+      "title": "Fix dispatch in `netsuite_union_relations` macro",
+      "created_at": "2026-04-14T19:36:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-fivetran.json",
+      "url": "https://github.com/fivetran/connector_sdk/pull/566",
+      "title": "Add Snowflake Cortex Clinical Trial Intelligence connector to AI tutorials",
+      "created_at": "2026-04-18T00:06:09Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/453",
+      "title": "chore: add Redshift support",
+      "created_at": "2024-10-21T11:30:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/391",
+      "title": "Add config blocks for the \"source\" models",
+      "created_at": "2023-10-02T21:39:56Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/548",
+      "title": "feat: Add AWS Athena support",
+      "created_at": "2026-04-11T17:15:30Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/408",
+      "title": "Adding support for Amazon Athena",
+      "created_at": "2023-11-27T06:09:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/558",
+      "title": "Bug: Fix start of week CI",
+      "created_at": "2026-06-01T21:07:01Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/384",
+      "title": "Fix bug with calculation of last_run stats for incremental models",
+      "created_at": "2023-09-18T15:25:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/358",
+      "title": "parse_json({{ field }}, wide_number_mode=>'round') was added for the \u2026",
+      "created_at": "2023-06-15T14:18:54Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/348",
+      "title": "Add batching to sources and fix batch size for tests",
+      "created_at": "2023-05-26T17:20:55Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/188",
+      "title": "Rework sources to be dbt models rather than manually created",
+      "created_at": "2022-08-31T02:24:35Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/67",
+      "title": "Handle incremental tables being empty",
+      "created_at": "2022-01-27T20:16:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/80",
+      "title": "quickfix | include build command",
+      "created_at": "2022-02-01T16:33:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-artifacts.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/pull/77",
+      "title": "Enforce consistency across materialised models.",
+      "created_at": "2022-01-31T14:04:25Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/ardatan/graphql-tools/pull/6790",
+      "title": "upgrade executor to non-duplicating incremental delivery format",
+      "created_at": "2024-12-20T13:45:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/graphql/graphql-spec/pull/1110",
+      "title": "Incremental Delivery spec draft",
+      "created_at": "2024-09-18T17:56:55Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/risingwavelabs/rfcs/pull/85",
+      "title": "RFC: Combine Historical and Incremental Data",
+      "created_at": "2024-01-12T06:29:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/kmod-project/kmod/pull/253",
+      "title": "Incremental depmod",
+      "created_at": "2024-11-17T17:32:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/ApiTracer/zxing-cpp/pull/3",
+      "title": "incremental update",
+      "created_at": "2023-02-06T17:32:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/Nuitka/MonolithPy/pull/17",
+      "title": "incremental build improvements",
+      "created_at": "2024-02-25T20:23:42Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/pangeo-data/rechunker/pull/28",
+      "title": "[WIP] Incremental rechunking",
+      "created_at": "2020-07-18T20:55:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/UI5/cli/pull/1036",
+      "title": "[RFC] 0017 Incremental Build",
+      "created_at": "2024-12-23T14:37:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/graphql/graphiql/pull/3601",
+      "title": "WIP: incremental payloads UI",
+      "created_at": "2024-05-14T18:16:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/quantified-uncertainty/metaforecast/pull/91",
+      "title": "Incremental fetchers",
+      "created_at": "2022-06-03T17:57:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/evref-inria/pharo-vm/pull/9",
+      "title": "Incremental gc",
+      "created_at": "2024-06-28T09:08:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/BP-WG/bp-wallet/pull/67",
+      "title": "Indexers Speed-ups: Implement LRU Caching and Incremental Updates",
+      "created_at": "2024-09-04T09:37:24Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/bitcoin-core/secp256k1/pull/1566",
+      "title": "BIP458: Schnorr (Incremental) Half Aggregation",
+      "created_at": "2024-07-02T15:24:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/vissong/add_word_watermark/pull/3",
+      "title": "watermark.go: aipr",
+      "created_at": "2024-05-28T10:09:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/manifoldmarkets/manifold/pull/2776",
+      "title": "New watermark on SVG graphs.",
+      "created_at": "2024-08-11T18:44:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/apache/hudi/pull/8753",
+      "title": "[HUDI-5095] Flink: Stores a special watermark(flag) to identify the current progress of writing data",
+      "created_at": "2023-05-18T09:37:03Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/openMVG/openMVG/pull/1091",
+      "title": "Add Incremental Matching",
+      "created_at": "2017-10-09T11:49:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/mfontanini/cppkafka/pull/283",
+      "title": "Incremental cooperative rebalancing",
+      "created_at": "2021-07-21T10:18:32Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/rocq-prover/rfcs/pull/63",
+      "title": "Incremental Include",
+      "created_at": "2022-02-15T21:03:57Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/daos-stack/daos/pull/13358",
+      "title": "DAOS-14010 rebuild: incremental reintegration",
+      "created_at": "2023-11-18T02:31:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/api-testing-training-01/coding/pull/31",
+      "title": "task:5  - Remove Duplicate Words",
+      "created_at": "2020-03-20T18:13:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/Blizzard/node-rdkafka/pull/965",
+      "title": "cooperative incremental rebalance",
+      "created_at": "2022-07-11T16:40:40Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/End-to-end-provenance/DDG-Explorer/pull/64",
+      "title": "Incremental drawing",
+      "created_at": "2016-12-16T15:48:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/bcoin-org/bcoin/pull/1170",
+      "title": "Wallet: add BIP125 RBF bump fee ",
+      "created_at": "2023-08-11T20:25:10Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/opensearch-project/OpenSearch/pull/16204",
+      "title": "Add support for incremental download of translog files",
+      "created_at": "2024-10-07T10:22:49Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/bryphe/sketch-v2/pull/1",
+      "title": "[WIP] Incremental Evaluation",
+      "created_at": "2019-05-14T00:49:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/IBM/detect-secrets/pull/153",
+      "title": "Allow for incremental scans",
+      "created_at": "2024-06-21T18:33:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/djc/instant-distance/pull/40",
+      "title": "Add incremental index",
+      "created_at": "2023-04-11T05:15:58Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/Datavault-UK/automate-dv/pull/198",
+      "title": "Added incremental predicates to Snowflakes tables",
+      "created_at": "2023-06-04T00:31:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/Barry-Guglielmo/scinamic/pull/1",
+      "title": "Incremental",
+      "created_at": "2024-02-21T16:24:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/axilleas/middleman/pull/1",
+      "title": "Incremental",
+      "created_at": "2017-04-27T21:09:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/opencaesar/kepler16b-example/pull/7",
+      "title": "Incremental",
+      "created_at": "2024-02-26T13:12:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/openid/AppAuth-iOS/pull/272",
+      "title": "Support incremental authorization",
+      "created_at": "2018-07-14T01:24:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/lance-h/netlify-next-included-files/pull/4",
+      "title": "Incremental",
+      "created_at": "2024-05-24T03:01:48Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/u6yuvi/Deployment/pull/1",
+      "title": "incremental",
+      "created_at": "2019-07-28T15:59:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/linkedin/coral/pull/520",
+      "title": "[Coral-Incremental]  Incremental plan generation for RelNode incremental rewrite",
+      "created_at": "2024-07-29T21:11:33Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/apache/hbase/pull/6345",
+      "title": "HBASE-28903: Incremental backup test missing explicit test for bulkloads",
+      "created_at": "2024-10-04T20:07:59Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/bgivertz/tuplex/pull/4",
+      "title": "Incremental",
+      "created_at": "2022-01-27T15:36:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/PowerShell/PowerShell-RFC/pull/361",
+      "title": "Incremental Dynamic Parameter Bind",
+      "created_at": "2023-10-19T22:03:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/serverpod/lsp_server/pull/5",
+      "title": "feat: TextDocument and incremental sync helper",
+      "created_at": "2024-10-26T20:49:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/blacktwin/JBOPS/pull/399",
+      "title": "Add incremental filename support to poster pull utility",
+      "created_at": "2023-09-15T18:31:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/schneiderkamplab/nanoT5/pull/3",
+      "title": "incremental",
+      "created_at": "2024-08-28T09:17:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/sagar-qa007/NewAppsmithRepo/pull/5",
+      "title": "Changes for duplicate",
+      "created_at": "2024-07-02T11:14:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/pinterest/rocksplicator/pull/634",
+      "title": "implement restore for incremental backup",
+      "created_at": "2022-08-10T22:49:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/sivaranjani1406/Bigdata/pull/1",
+      "title": "Incremental",
+      "created_at": "2024-10-26T08:13:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/relay-tools/relay-connection-handler-plus/pull/58",
+      "title": "chore(deps): update dependency relay-runtime to v21",
+      "created_at": "2021-03-10T00:22:50Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/jjangga0214/hasura-cli/pull/119",
+      "title": "fix: missing dist on npm package",
+      "created_at": "2024-12-24T14:33:19Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/apollographql/apollo-server/pull/7736",
+      "title": "Added support for new incremental delivery format",
+      "created_at": "2023-09-26T15:14:37Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/4Catalyzer/relay-network-layer/pull/92",
+      "title": "chore(deps): update dependency relay-runtime to v21",
+      "created_at": "2021-03-10T00:30:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/singer-io/tap-xero/pull/103",
+      "title": "TDL-19523 Added the missing tap-tester tests",
+      "created_at": "2022-06-28T10:31:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/spring-attic/spring-xd/pull/1894",
+      "title": "Adding SQL support for JDBC incremental sink to HDFS",
+      "created_at": "2016-02-19T01:41:59Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/EventEmitter2/EventEmitter2/pull/261",
+      "title": "Incremental Refactoring",
+      "created_at": "2020-06-11T00:50:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/objcio/swift-talk-backend/pull/104",
+      "title": "Incremental Fixes",
+      "created_at": "2019-03-12T08:06:56Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/BishopFox/unredacter/pull/33",
+      "title": "Incremental guess",
+      "created_at": "2023-01-21T03:06:56Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/maxthomaws/amazon-codeguru-reviewer-sample-app/pull/1",
+      "title": "Changement incr\u00e9mental",
+      "created_at": "2022-03-22T07:47:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/atsuto7/chat-space/pull/4",
+      "title": "Incremental search",
+      "created_at": "2019-05-22T10:48:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/ArduPilot/ardupilot/pull/20511",
+      "title": "INDI: Incremental Nonlinear Dynamic Inversion",
+      "created_at": "2022-04-12T01:45:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/jamesdwilson/openbazaar.org/pull/3",
+      "title": "incremental-improvements",
+      "created_at": "2015-10-03T15:42:47Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/llnl/libROM/pull/279",
+      "title": "Incremental DMD",
+      "created_at": "2024-04-02T20:06:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/RajashreePatil/newrepo/pull/1",
+      "title": "Dupliate_Incremental",
+      "created_at": "2019-12-31T13:05:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/dita-ot/dita-ot/pull/4050",
+      "title": "Incremental publishing",
+      "created_at": "2022-11-14T14:48:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/CodSpeedHQ/pypdf/pull/2",
+      "title": "incremental pdf",
+      "created_at": "2024-04-10T20:35:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/proyects-personals/frontend/pull/35",
+      "title": "Incremental portafolio",
+      "created_at": "2023-08-20T00:15:32Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/panoratech/Panora/pull/701",
+      "title": "Incremental sync for Attio provider",
+      "created_at": "2024-09-16T23:34:30Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/gatsby-uc/gatsby-plugin-s3/pull/244",
+      "title": "Incremental deploy",
+      "created_at": "2021-04-08T18:20:09Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/juho/tap-i18n/pull/1",
+      "title": "Incremental compilers",
+      "created_at": "2016-12-08T21:50:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/tidyverse/funs/pull/63",
+      "title": "`incremental_*()` functions",
+      "created_at": "2021-04-30T15:14:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/pfrstg/google-research/pull/5",
+      "title": "Incremental Updates",
+      "created_at": "2021-08-05T20:59:24Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/laboratoire-pedagogique/Git-Started/pull/16",
+      "title": "incremental button",
+      "created_at": "2023-05-02T04:22:30Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/laboratoire-pedagogique/Git-Started/pull/18",
+      "title": "Incremental Button",
+      "created_at": "2023-05-02T04:33:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/JKBGL/karki/pull/1",
+      "title": "incremental things",
+      "created_at": "2022-01-14T22:02:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/HealMon/chat-space/pull/6",
+      "title": "incremental search",
+      "created_at": "2019-09-05T03:52:50Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/reika0717/play-ground/pull/4",
+      "title": "Incremental search",
+      "created_at": "2017-12-12T05:25:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/mashk12345/merge/pull/1",
+      "title": "Update incremental",
+      "created_at": "2021-07-04T20:49:40Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/gubbsjuk/leine-lyd-plan/pull/26",
+      "title": "incremental scheduling",
+      "created_at": "2022-04-25T17:21:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/reflex-frp/reflex/pull/222",
+      "title": "Build incremental",
+      "created_at": "2018-08-19T09:43:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/ellekasai/shiori/pull/18",
+      "title": "Fix missing jekyll-gist gem in _config.yml",
+      "created_at": "2017-02-17T02:49:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/robocorp/robocode-kernel/pull/4",
+      "title": "Incremental build",
+      "created_at": "2020-09-15T11:20:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/saleazer/lets-learn-angular/pull/18",
+      "title": "Attempt incremental run and upload incremental report",
+      "created_at": "2024-09-22T17:08:42Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/alexsr/101worker/pull/1",
+      "title": "Messages incremental",
+      "created_at": "2017-06-01T17:25:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/celo-org/optics-monorepo/pull/881",
+      "title": "refactor: simplify `proversync` and remove incremental merkle usage",
+      "created_at": "2021-10-08T17:00:49Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/PeterAbdelShahid/fastfeedback/pull/3",
+      "title": "incremental regenration",
+      "created_at": "2021-03-24T09:11:10Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/babel/babel/pull/8877",
+      "title": "cli: Support `--incremental` option",
+      "created_at": "2018-10-16T03:55:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/tretikoff/spring-lang/pull/1",
+      "title": "Incremental lexing",
+      "created_at": "2021-05-16T18:48:40Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/analyticsengineersclub/max-coffee-shop/pull/15",
+      "title": "Incremental + Snapshot",
+      "created_at": "2021-10-06T03:17:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/RajashreePatil/java_structurizr/pull/1",
+      "title": "Dupliate_Incremental",
+      "created_at": "2019-07-31T11:19:00Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/chenzhehuai/kaldi/pull/28",
+      "title": "incremental determinization",
+      "created_at": "2019-03-27T13:55:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/Vertispan/j2clmavenplugin/pull/174",
+      "title": "Incremental draft",
+      "created_at": "2022-06-10T20:59:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/facebookresearch/fastText/pull/831",
+      "title": "Fix 10 missing dependencies in Makefile",
+      "created_at": "2019-06-25T11:04:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/eclipse-ee4j/eclipselink/pull/1962",
+      "title": "Allow an incremental build to perform less weaving",
+      "created_at": "2023-10-09T08:59:42Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/singer-io/tap-chargify/pull/40",
+      "title": "Incremental streams",
+      "created_at": "2021-05-06T08:36:02Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/mamba-org/cmake-micromamba/pull/1",
+      "title": "Updated for incremental builds and multiple environments",
+      "created_at": "2023-06-01T20:20:10Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/bgivertz/tuplex/pull/5",
+      "title": "Incremental resolution",
+      "created_at": "2022-02-04T16:27:03Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/horizonx-tech/ink-lending/pull/32",
+      "title": "incremental build",
+      "created_at": "2023-03-09T06:33:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/klorel/clusterisator/pull/13",
+      "title": "Pas incremental",
+      "created_at": "2013-02-18T18:48:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/brianyan918/espnet-ml/pull/1",
+      "title": "Incremental strategies",
+      "created_at": "2023-02-01T17:34:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/kirillkuks/SegmentsVisibility/pull/34",
+      "title": "incremental algorithm",
+      "created_at": "2023-04-01T15:05:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/taion/relay-todomvc/pull/803",
+      "title": "chore(deps): update relay monorepo to v21",
+      "created_at": "2021-03-10T01:00:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/scireum/sds/pull/2",
+      "title": "Incremental Upload",
+      "created_at": "2017-12-04T08:24:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic.json",
+      "url": "https://github.com/mbj/mutant/pull/1367",
+      "title": "Improve incremental mode",
+      "created_at": "2023-03-06T01:13:07Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/npogeant/halcyon-analytics/issues/26",
+      "title": "[AE-14] Build `fct_web_events` incrementally, with a late-arriving lookback",
+      "created_at": "2026-09-16T06:10:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dorukalkan/postgres-dbt-airflow-pipeline/pull/2",
+      "title": " productionize data engineering platform",
+      "created_at": "2026-09-01T12:46:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/adbrowne/smelt-sql/pull/190",
+      "title": "research: smelt vs dbt Fusion \u2014 capability gaps and marketing claims",
+      "created_at": "2026-09-05T22:49:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/COG-GTM/brc-teradata-migration-demo/pull/15",
+      "title": "feature: Databricks-safe SQL + Delta physical design for finance marts",
+      "created_at": "2026-09-03T17:36:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/pkuppens/on_prem_rag/issues/184",
+      "title": "[FEAT]: Rollup marts replacing Counter-based WBSO reporting",
+      "created_at": "2026-07-17T04:57:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/AltimateAI/dbt-pr-review-demo/pull/6",
+      "title": "Demo s006: Unsafe incremental conversion",
+      "created_at": "2026-06-06T00:59:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/docs.getdbt.com/issues/9150",
+      "title": "Improve dbt documentation with real-world examples for incremental models (Snowflake-focused)",
+      "created_at": "2026-05-09T07:48:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/cal-itp/data-infra/issues/5286",
+      "title": "Run dbt daily",
+      "created_at": "2026-05-07T23:01:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt/issues/15518",
+      "title": "[Feature] Microbatch - Lookback vs lag",
+      "created_at": "2026-07-13T07:02:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/AlejandroDelRosal/data-engineering-dbt/pull/3",
+      "title": "feat: incremental event pipeline with late-arriving data",
+      "created_at": "2026-08-26T18:04:49Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/wnl-icb-analytics/dbt-analytics/pull/1050",
+      "title": "feat(segmentation): calculate monthly historical eFI2 scores",
+      "created_at": "2026-08-31T06:24:11Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/br1gonzales/adata/issues/3",
+      "title": "Assessment Engine: 180-Minute University-Style Comprehensive Exam (60 Questions, 3-Day/Week Schedule) & Diagnostic Test",
+      "created_at": "2026-09-16T00:57:37Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt/issues/11129",
+      "title": "[Feature] dbt microbatch, alternative to now()-lookback to better ensure no data gaps",
+      "created_at": "2024-12-11T11:50:32Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/Red-Valley/tech-test-analytics-engineer-ai/pull/2",
+      "title": "Submission/julian ramirez",
+      "created_at": "2026-09-11T16:09:11Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/harshitk1010/product-service/pull/1",
+      "title": "feat: Real-Time E-Commerce Analytics Platform \u2014 complete end-to-end implementation",
+      "created_at": "2026-06-26T08:09:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/pgoslatara/dbt-ai/issues/60",
+      "title": "Weekly: dbt codebase review (2026-06-01)",
+      "created_at": "2026-06-01T14:55:02Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/COG-GTM/brc-teradata-migration-demo/pull/7",
+      "title": "feat: Unified dbt project consolidating Teradata, Databricks, and Snowflake banking DWH",
+      "created_at": "2026-04-02T13:15:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt/issues/11059",
+      "title": "[Feature] Could micro-batch strategy solve most of my windowing problems for incremental models?",
+      "created_at": "2024-11-27T15:32:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt-bigquery/pull/1410",
+      "title": "feat(incremental): optimize 'insert_overwrite' strategy (#1409)",
+      "created_at": "2024-11-21T18:18:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/maddala1028/snowflake-dbt-mini-project/pull/2",
+      "title": "Build incremental dbt silver layer",
+      "created_at": "2026-08-31T10:04:38Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/ptdnk6kp5j-cpu/datastreaming/issues/1",
+      "title": "Set up DBT project for layered DWH (Landing \u2192 Stage \u2192 Raw \u2192 Business \u2192 Analysis) with smart incremental processing",
+      "created_at": "2025-11-24T16:57:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/hoover180/enterprise-dbt-snowflake-pipeline/pull/6",
+      "title": "feat: clickstream synthetic data generator \u2014 schema drift, duplicates, late-arriving events",
+      "created_at": "2026-09-04T15:21:03Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/inaLitso/dbt_enpal_assessment/pull/1",
+      "title": "Ina assigment",
+      "created_at": "2025-09-15T09:51:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/hoover180/enterprise-dbt-snowflake-pipeline/issues/31",
+      "title": "[Phase 3B] Web clickstream incremental model \u2014 3-day late-arrival lookback, backfill demonstration",
+      "created_at": "2026-09-10T22:06:01Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/brooklyn-data/dbt_artifacts/issues/410",
+      "title": "[Feature]: Snapshots of \"source\" tables?",
+      "created_at": "2023-11-30T04:14:07Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt/issues/8664",
+      "title": "[CT-3129] Ability to test the incremental behavior of models after merge/insert/append/etc has occurred",
+      "created_at": "2023-09-18T17:28:30Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt/issues/10899",
+      "title": "[Feature] Microbatch should support individual lookback windows on both sides of the batch",
+      "created_at": "2024-10-22T10:58:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/hoover180/enterprise-dbt-snowflake-pipeline/pull/32",
+      "title": "Web clickstream incremental model \u2014 3-day late-arrival lookback, backfill",
+      "created_at": "2026-09-11T01:15:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dvryaboy/dblect/issues/7",
+      "title": "static: flag incremental models whose write can duplicate rows on the grain",
+      "created_at": "2026-05-25T00:47:19Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/maddala1028/snowflake-dbt-mini-project/pull/6",
+      "title": "Protect Silver application and payment version ordering",
+      "created_at": "2026-09-08T19:45:20Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/chrisgmartin/chrisgmartin.github.io/pull/2",
+      "title": "Add Production Data Pipelines interview guide",
+      "created_at": "2026-09-12T01:36:09Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/jdsmithwes/GroceryPriceProjectDBT/pull/3",
+      "title": "Convert Kroger hot-path models to dynamic tables; repoint Streamlit app",
+      "created_at": "2026-09-12T19:22:08Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/604",
+      "title": "[ADAP-629] [BQ] Support new partition configs with all incremental strategies",
+      "created_at": "2021-01-19T14:30:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/GaniuKuku/beejanride-analytics/pull/6",
+      "title": "feat(dbt): implement incremental fct_trips model",
+      "created_at": "2026-08-23T12:32:42Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/hoover180/enterprise-dbt-snowflake-pipeline/issues/46",
+      "title": "[Phase 3B] int_web_events_incremental lookback (3) doesn't match clickstream's actual 4-day max lateness",
+      "created_at": "2026-09-12T12:54:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/haotieu2001/haotieu2001.github.io/pull/19",
+      "title": "dbt guide: refocus to intermediate-to-strong scope for data engineers",
+      "created_at": "2026-09-02T05:51:19Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/velodb/dbt-for-apache-doris/pull/12",
+      "title": "[feature](dbt) Support Doris catalog-qualified relations",
+      "created_at": "2026-09-07T08:33:14Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/helloextend/poc-data-engineering-coding-challenge/pull/8",
+      "title": "[DATA-123] Fix order_fact revenue + [DATA-145] add refunds modeling",
+      "created_at": "2026-05-20T22:25:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/helloextend/poc-data-engineering-coding-challenge/pull/13",
+      "title": "feat: add refund models and update order facts (rahullpatil submission)",
+      "created_at": "2026-06-01T20:48:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/acepeda2019/dbt-fundamentals/pull/18",
+      "title": "refactor(dbt): rename incremental_lookback to date_window, apply across models",
+      "created_at": "2026-09-02T21:09:18Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/xylaaaaa/doris/pull/4",
+      "title": "[feature](dbt) Support Doris catalog-qualified relations",
+      "created_at": "2026-09-07T06:52:09Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/EvanWAppel/robbins/pull/7",
+      "title": "Add incremental time-series marts + a data-freshness surface",
+      "created_at": "2026-08-18T02:23:17Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/tthh97/market-movers-dbt/pull/15",
+      "title": "Give late-arriving prices somewhere to land, and assert completeness",
+      "created_at": "2026-08-07T09:30:27Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/amritxk/ecommerce-fintech-analytics-platform/pull/1",
+      "title": "Ecommerce_DBT",
+      "created_at": "2026-08-14T10:05:03Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/ruizengalways/enterprise-snowflake-data-project-framework/pull/7",
+      "title": "Breaking redesign: clean hybrid framework v2",
+      "created_at": "2026-09-09T02:36:55Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/crabb-beltran/de-dojo/pull/30",
+      "title": "Deepen dbt, Snowflake, Databricks and GCP sections for DE",
+      "created_at": "2026-09-06T21:23:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/velodb/dbt-for-apache-doris/pull/10",
+      "title": "[feature](examples) Add Doris dbt demos",
+      "created_at": "2026-08-20T04:25:40Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/sunil-thapa99/DE-interactive/pull/21",
+      "title": "Add dbt module (full standalone, basic to advanced)",
+      "created_at": "2026-08-16T02:34:48Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/hoover180/enterprise-dbt-snowflake-pipeline/pull/41",
+      "title": "fix: web clickstream identity is a real heuristic-matching problem, not a trivial exact key",
+      "created_at": "2026-09-11T20:50:02Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-late.json",
+      "url": "https://github.com/metabase/metabase/pull/78212",
+      "title": " support lookback windows for incremental transforms",
+      "created_at": "2026-07-21T09:03:13Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/rocky-data/rocky/issues/2059",
+      "title": "bug(engine): import-dbt builds a keyed incremental model from compiled delta SQL, so the first run loads only recent rows",
+      "created_at": "2026-09-17T12:22:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2165",
+      "title": "[Bug] dbt-snowflake: Glue catalog-linked Iceberg tables convert DECIMAL/NUMBER columns to INT",
+      "created_at": "2026-09-09T03:24:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/microsoft/dbt-fabric/issues/442",
+      "title": "[Bug] `fabric__alter_column_type` corrupts column names containing a hyphen (`-` replaced with CHAR(10))",
+      "created_at": "2026-09-03T21:47:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/ClickHouse/dbt-clickhouse/issues/740",
+      "title": "delete+insert on ReplicatedMergeTree + cluster leaves duplicate unique_key rows (staging IN subquery not visible on other replicas)",
+      "created_at": "2026-09-14T07:46:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2121",
+      "title": "Bigquery incremental insert overwrite models fails when there is a required partition filter on the table",
+      "created_at": "2026-08-13T14:01:02Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/ClickHouse/dbt-clickhouse/issues/723",
+      "title": "orphaned __dbt_new_data_<UUID> tables after failed/interrupted delete+insert incremental runs",
+      "created_at": "2026-08-24T20:19:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2151",
+      "title": "[Bug] <SnowflakeColumn.data_type emits character varying(16777216) instead of STRING, breaking ALTER ICEBERG TABLE ... ADD COLUMN on on_schema_change='append_new_columns'>",
+      "created_at": "2026-08-31T08:36:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2124",
+      "title": "[Bug] `tmp_relation_type: transient` does not persist the tmp relation, so Snowflake native lineage is still broken",
+      "created_at": "2026-08-14T11:20:33Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/eric-thomas-dagster/dagster-demo-factory/pull/25",
+      "title": "Neighborhood Intelligence: flag pre-existing build divergence + a live-demo-breaking bug",
+      "created_at": "2026-09-16T06:09:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2086",
+      "title": "[Bug] copy_partitions: true + dynamic insert_overwrite crashes on incremental BigQuery runs",
+      "created_at": "2026-07-21T15:28:52Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/Teradata/dbt-teradata/issues/242",
+      "title": "valid_history incremental strategy fails with Teradata Error 9134 when tracked columns are fixed-width CHAR",
+      "created_at": "2026-08-27T16:00:37Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/astronomer/astronomer-cosmos/issues/3001",
+      "title": "[Bug] WATCHER mode: consumer task retries are no-ops while producer sits up_for_retry, silently exhausting retries without re-running dbt",
+      "created_at": "2026-09-10T18:45:32Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/apache/doris/issues/65993",
+      "title": "[Tracking] dbt-doris adapter: issues, features & bug-fix progress",
+      "created_at": "2026-07-24T06:59:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/rocky-data/rocky/issues/2054",
+      "title": "bug(engine): a microbatch transformation model re-inserts every row on each run, the same defect as #1990",
+      "created_at": "2026-09-17T10:22:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/crzyc98/planwise_navigator/issues/663",
+      "title": "int_employee_match_calculations / int_employer_core_contributions / int_employer_eligibility are table-materialized but year-filtered, discarding all prior-year data",
+      "created_at": "2026-09-05T16:54:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2039",
+      "title": "[Bug] incremental model with delete+insert is slow on postgresql",
+      "created_at": "2026-06-25T12:34:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/npogeant/halcyon-analytics/issues/26",
+      "title": "[AE-14] Build `fct_web_events` incrementally, with a late-arriving lookback",
+      "created_at": "2026-09-16T06:10:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/databricks/dbt-databricks/issues/1684",
+      "title": "`CANNOT_DROP_TAGGED_COLUMN` still fails for the `table` materialization \u2014 #1597 only covers incremental `on_schema_change='sync_all_columns'`",
+      "created_at": "2026-09-18T01:41:55Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/databricks/dbt-databricks/issues/1662",
+      "title": "Incremental full refresh on UC managed Iceberg drops the table instead of create-or-replace (v1 materialization)",
+      "created_at": "2026-09-01T20:18:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/kegare825/citymov/issues/3",
+      "title": "Fix docs/code drift and remove dead configuration",
+      "created_at": "2026-09-12T11:05:19Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2129",
+      "title": "[Bug] dbt-spark drops the catalog prefix when listing relations in a catalog-qualified schema (schema: my_catalog.my_namespace)",
+      "created_at": "2026-08-19T10:16:24Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/chrisrogers37/city-cycles/issues/144",
+      "title": "[P2] dbt correctness, modeling & testing batch (NEW-DBT-04..15)",
+      "created_at": "2026-07-07T19:09:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/5729",
+      "title": "chore: remaining yolobus onboard steps (#5521)",
+      "created_at": "2026-09-17T23:46:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-autofix/pull/430",
+      "title": "Deterministic Migration For Older Versions",
+      "created_at": "2026-08-18T07:32:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1947",
+      "title": "[Bug] Connecting to Redshift (datashare) external database breaks on_schema_change",
+      "created_at": "2026-05-19T11:57:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1918",
+      "title": "[Bug] merge_update_columns: [] updates all columns",
+      "created_at": "2026-05-08T09:50:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2043",
+      "title": "[Bug] [Snowflake] validate_doc_columns is undefined after upgrading to 1.11.6",
+      "created_at": "2026-06-30T08:55:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/robintiman/semcast/pull/11",
+      "title": "Run stock dbt-postgres against semcast",
+      "created_at": "2026-07-30T12:36:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2156",
+      "title": "[Bug] Redshift temp-relation column introspection runs two slow catalog queries that cannot succeed on a datashare consumer, before falling back to the driver which answers in 50ms",
+      "created_at": "2026-09-03T18:06:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/2145",
+      "title": "[Bug] BigQuery list_relations_without_caching silently returns an empty list when listing is denied",
+      "created_at": "2026-08-27T05:46:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/ClickHouse/dbt-clickhouse/issues/731",
+      "title": "dbt Core 2.0 parity: future work (explicitly deferred items)",
+      "created_at": "2026-08-28T07:54:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1638",
+      "title": "[Bug] Glue CLDB is breaking with incremental run",
+      "created_at": "2026-02-11T22:56:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/ProyectoRespira/respira-data/pull/69",
+      "title": "Release/v0.4.0",
+      "created_at": "2026-08-21T21:22:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1592",
+      "title": "[Bug] `--empty` doesn't work with incremental models",
+      "created_at": "2026-02-02T21:38:33Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1640",
+      "title": "[Bug] insert_overwrite materialization does not respect column ordering for existing tables - dbt-snowflake",
+      "created_at": "2026-02-12T17:40:35Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1907",
+      "title": "[Bug] BigQuery incremental can inject _dbt_max_partition from comment text and fail first run",
+      "created_at": "2026-04-30T20:07:03Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/PlainsightPro/fabric-dbt-accelerator/issues/31",
+      "title": "Upgrade dbt-core and dbt-fabric from 1.9 \u2192 1.10",
+      "created_at": "2026-08-13T11:43:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1471",
+      "title": "[Bug] incremental materialization failing on dbt-redshift adapter",
+      "created_at": "2025-11-25T19:55:35Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/constructorfabric/insight/pull/3466",
+      "title": "perf(jira): recompute the field-history journal per issue, not in full",
+      "created_at": "2026-09-17T13:32:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1516",
+      "title": "`expand_target_column_types` not working on iceberg tables",
+      "created_at": "2025-12-23T03:06:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/databricks/dbt-databricks/issues/1344",
+      "title": "1.11.5 fails with DELTA_CONSTRAINT_ALREADY_EXISTS in incremental models with two or more foreign keys to same relation",
+      "created_at": "2026-03-05T08:49:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/databricks/dbt-databricks/issues/1333",
+      "title": "TABLE_OR_VIEW_NOT_FOUND on constraint DROP during V2 incremental materialization",
+      "created_at": "2026-02-24T07:56:26Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dremio/dbt-dremio/issues/306",
+      "title": "[Bug]: incremental_predicates option has no effect",
+      "created_at": "2025-08-13T04:01:12Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/1893",
+      "title": "[Bug] Iceberg incremental tmp relations can collide when sharing the same schema",
+      "created_at": "2026-04-24T11:42:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/manish39x/nyc-dbt-project/issues/2",
+      "title": "Audit findings: data-quality, scaling & deployment issues in nyc-dbt-project",
+      "created_at": "2026-06-20T18:55:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/664",
+      "title": "[Bug] Snapshots and incremental models cannot add array columns",
+      "created_at": "2024-10-14T19:47:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/Snowflake-Labs/dbt_constraints/issues/131",
+      "title": "Constraints skipped as \"insufficient privileges\" \u2014 meta.materialized default forces verify_permissions=true for all models (regression since 1.0.8)",
+      "created_at": "2026-07-28T13:30:10Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/958",
+      "title": "ADAP-1260: [Bug] [dbt-redshift] merge macro aliases cause Redshift materializations to fail",
+      "created_at": "2025-04-01T15:28:52Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/MauricioFBL/tmdb-data-platform/issues/1",
+      "title": "Rewrite docs stale after ADR-0005 (Silver moves to dbt)",
+      "created_at": "2026-07-12T05:26:29Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-incremental.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/issues/843",
+      "title": "[Bug] [Docs] Adapters do not have have integration test documentation",
+      "created_at": "2025-02-22T21:00:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/docs.getdbt.com/pull/9936",
+      "title": "Update incremental-microbatch.md",
+      "created_at": "2026-09-02T23:53:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/mitodl/ol-data-platform/pull/2659",
+      "title": "docs(skills): add ol-dbt-migration-validation, and fix ol-dbt-local-dev's incremental rule",
+      "created_at": "2026-09-09T20:34:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/Aarvion-AI/stackwise-skills/pull/36",
+      "title": "Add dbt expert skill",
+      "created_at": "2026-09-11T14:53:22Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/2123",
+      "title": "Fix _dbt_max_partition false-positive detection in BigQuery incremental (rebase of #1908)",
+      "created_at": "2026-08-14T09:26:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/2164",
+      "title": "Fix(snowflake): honor transient config for seeds (CORE-903)",
+      "created_at": "2026-09-08T13:38:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/databricks/dbt-databricks/pull/1658",
+      "title": "fix: stop running OPTIMIZE for auto liquid clustering",
+      "created_at": "2026-08-31T08:11:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/5729",
+      "title": "chore: remaining yolobus onboard steps (#5521)",
+      "created_at": "2026-09-17T23:46:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-autofix/pull/430",
+      "title": "Deterministic Migration For Older Versions",
+      "created_at": "2026-08-18T07:32:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/starburstdata/dbt-trino/pull/518",
+      "title": "Support nested ROW schema evolution for Iceberg incremental models",
+      "created_at": "2026-05-28T11:56:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/docs.getdbt.com/pull/9997",
+      "title": "Link fixes",
+      "created_at": "2026-09-11T16:56:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1908",
+      "title": "Fix _dbt_max_partition false-positive detection in BigQuery incremental",
+      "created_at": "2026-04-30T20:16:06Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/COG-GTM/brc-teradata-migration-demo/pull/15",
+      "title": "feature: Databricks-safe SQL + Delta physical design for finance marts",
+      "created_at": "2026-09-03T17:36:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/ProyectoRespira/respira-data/pull/69",
+      "title": "Release/v0.4.0",
+      "created_at": "2026-08-21T21:22:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/10013",
+      "title": "fix(solana): restore Raydium AMM V2 swaps",
+      "created_at": "2026-09-17T13:25:49Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/databricks/dbt-databricks/pull/1669",
+      "title": "fix: replace instead of drop on managed Iceberg full refresh",
+      "created_at": "2026-09-08T20:00:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/2115",
+      "title": "feat(bigquery): opt-in parallel partition copies with copy-job retry",
+      "created_at": "2026-08-10T16:55:59Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/docs.getdbt.com/pull/9863",
+      "title": "Fix microbatch backfill diagram and document that `--event-time-end` is exclusive",
+      "created_at": "2026-08-22T18:12:44Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/bodinkc30-Pete/airflow-dbt-ecommerce-data-platform/pull/1",
+      "title": "PART 20: Production Operations & Resilience + repo review fixes",
+      "created_at": "2026-09-17T20:43:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/TEAMSchools/teamster/pull/4820",
+      "title": "refactor(finalsite): make the contacts pull incremental and land it before its consumers",
+      "created_at": "2026-08-11T14:45:02Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/constructorfabric/insight/pull/3466",
+      "title": "perf(jira): recompute the field-history journal per issue, not in full",
+      "created_at": "2026-09-17T13:32:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/thegoodparty/gp-data-platform/pull/740",
+      "title": "[DATA-2219] Productionize per-voter turnout scores as a live incremental dbt model",
+      "created_at": "2026-08-03T19:12:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/constructorfabric/insight/pull/2670",
+      "title": "fix(ai): let the AI staging models replace a key instead of appending beside it",
+      "created_at": "2026-08-19T09:07:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/helium/oracles/pull/1249",
+      "title": "Add dbt project for the mobile catalog",
+      "created_at": "2026-09-10T12:55:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/Pavansailahar/Supply_chain_management/pull/3",
+      "title": "Bump the dbt group with 2 updates",
+      "created_at": "2026-09-02T15:11:36Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/fivetran/dbt_zendesk/pull/273",
+      "title": "Fix false first-reply SLA breaches on privately-created tickets (RD-1277353)",
+      "created_at": "2026-09-17T22:57:28Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dremio/dbt-dremio/pull/312",
+      "title": "Fix incremental predicates",
+      "created_at": "2025-11-25T00:54:16Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/colpal/cp-dbt-standard-package/pull/67",
+      "title": "fix(DPB-2686): PR-67 hygiene fixes (semantic_view scope deferred to DPB-2810)",
+      "created_at": "2026-06-26T13:26:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/docs.getdbt.com/pull/9902",
+      "title": "Add AWS + Iceberg page and update DuckDB Iceberg docs",
+      "created_at": "2026-08-29T23:15:42Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/mdrakiburrahman/ivm-bench/pull/68",
+      "title": "Fix customer portfolio ranking at displayed precision",
+      "created_at": "2026-09-14T20:17:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/databricks/dbt-databricks/pull/1674",
+      "title": "fix: replace instead of drop when rebuilding a managed Iceberg table",
+      "created_at": "2026-09-09T18:29:07Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-msft/dbt-sqlserver/pull/782",
+      "title": "spike: explore dbt Core 1.12 v2 parser support (fixes #770)",
+      "created_at": "2026-07-28T04:09:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/defnalk/energyemissions/pull/1",
+      "title": "Incremental improvements: refactors, edge cases, robustness",
+      "created_at": "2026-04-09T17:55:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/shadowkrusha/workspaces/pull/166",
+      "title": "Update dependency dbt-snowflake to v1.12.1",
+      "created_at": "2023-02-08T21:39:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1561",
+      "title": "fix(redshift): remove unused alias from delete+insert incremental strategy",
+      "created_at": "2026-01-20T16:12:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/Cognition-Partner-Workshops/uc-informatica-sas-to-dbt/pull/15",
+      "title": "informatica m_demo_mapping2: dbt models with verified parity",
+      "created_at": "2026-08-05T22:40:03Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1990",
+      "title": "feat(athena): let Python models self-materialize by returning None",
+      "created_at": "2026-05-30T16:16:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/AltimateAI/altimate-code/pull/1092",
+      "title": "feat(agent): add dbt-optimizer agent \u2014 6-lane dbt project optimization with evals",
+      "created_at": "2026-08-12T11:52:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cloudera/dbt-impala/pull/94",
+      "title": "[DBT-350] fix for dbt errors in CDSW",
+      "created_at": "2022-09-28T08:12:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/10003",
+      "title": "fix(zerofi): index SwapV4 (0x10) swaps",
+      "created_at": "2026-09-15T00:41:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/9993",
+      "title": "fix(solana): match both Orca two-hop trade legs by vault",
+      "created_at": "2026-09-10T21:54:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user/pull/1882",
+      "title": "feat: [#1670] Compile / Execute dbt Model (Full Refresh)",
+      "created_at": "2026-04-10T08:27:16Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/grafana/dbt_leaner_query/pull/43",
+      "title": "chore(deps): update dependency dbt-bigquery to v1.12.0",
+      "created_at": "2026-05-27T16:05:48Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/npbeard/procurement-intelligence/pull/5",
+      "title": "Add Databricks Jobs orchestration for daily Bronze\u2192Silver pipeline",
+      "created_at": "2026-06-16T06:47:02Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/constructorfabric/insight/pull/3364",
+      "title": "feat(github): reach the board history, membership and pull-request links the task streams could not",
+      "created_at": "2026-09-10T12:22:19Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/klaudiawolinska/airflow-openaq-medallion/pull/19",
+      "title": "feat: add silver transformations",
+      "created_at": "2026-08-07T17:46:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/databricks/dbt-databricks/pull/1561",
+      "title": "fix: deterministically name unnamed PK/FK so incremental constraints don't churn or collide",
+      "created_at": "2026-06-26T15:26:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/5624",
+      "title": "(BSR) feat(seed): add EPCI, ZRR and FRR through the IRIS referential etl",
+      "created_at": "2026-09-17T15:43:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/IBM/dbt-watsonx-spark/pull/49",
+      "title": "Enhance schema change handling in incremental materializations",
+      "created_at": "2025-10-30T16:52:15Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1931",
+      "title": "fix: wrap microbatch DELETE+INSERT in explicit transaction",
+      "created_at": "2026-05-14T13:59:00Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/josegalarza/tradeflow/pull/1",
+      "title": "Make `make demo` full-refresh so the position snapshot cannot go stale",
+      "created_at": "2026-08-21T05:31:59Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/IBM/dbt-watsonx-spark/pull/64",
+      "title": "Fix temp view relation rendering",
+      "created_at": "2026-04-16T13:44:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/danielmschaves/gcp-etl-dbt/pull/3",
+      "title": "feat: production-grade upgrade \u2014 pipeline, dbt modeling, and tooling",
+      "created_at": "2026-06-06T14:58:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/sjwiesman/materialize/pull/674",
+      "title": "build(deps): bump the simple group across 1 directory with 17 updates",
+      "created_at": "2026-09-14T11:47:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/PicnicSupermarket/dbt-score/pull/194",
+      "title": "test: reach and enforce 95% branch coverage",
+      "created_at": "2026-07-15T10:23:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/arnoN7/dbt-incremental-stream/pull/19",
+      "title": "Fix: Move custom config keys to meta to resolve CustomKeyInConfigDeprecation",
+      "created_at": "2026-04-07T18:54:24Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/shadowkrusha/workspaces/pull/179",
+      "title": "Update dependency dbt-core to v1.6.15 [SECURITY]",
+      "created_at": "2024-05-28T22:32:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/2064",
+      "title": "fix(redshift): restore transaction_open after execute() retry reconnect",
+      "created_at": "2026-07-10T15:02:00Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/brainforge-ai/analytics-engineering-assessment/pull/3",
+      "title": "Feature/austin_solution",
+      "created_at": "2026-05-14T20:40:52Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/bravecareer/brave_de_project/pull/26",
+      "title": "Update Week 5 models and fix daily metrics merge grain",
+      "created_at": "2026-05-11T06:40:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/rocky-data/rocky/pull/2058",
+      "title": "fix(engine): refuse incremental on transformation models (E037)",
+      "created_at": "2026-09-17T11:28:39Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/SQLMesh/sqlmesh/pull/6030",
+      "title": "feat: Add IBM Db2 engine adapter",
+      "created_at": "2026-09-05T17:48:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1895",
+      "title": "Athena: Add failing integration test proving insert_overwrite duplication bug",
+      "created_at": "2026-04-25T17:00:38Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/ade-bench/pull/145",
+      "title": "fix(airbnb): materialize mom/wow agg_reviews as table to avoid incremental + LAG NULL bug",
+      "created_at": "2026-05-19T16:58:45Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/CybercentreCanada/dbt-adapters/pull/5",
+      "title": "Fix python microbatch incremental_strategy date issue, add support fo\u2026",
+      "created_at": "2025-08-11T13:54:37Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/1863",
+      "title": "fix(functions): drop existing function on --full-refresh to handle signature changes",
+      "created_at": "2026-04-14T19:44:19Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/5497",
+      "title": "Partition dim_gtfs_schedule_file_parse_outcomes by dt for query pruning",
+      "created_at": "2026-06-27T08:53:48Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/MichaelaIsaacs/DataFactoryFabConAtlanta2026WorkshopInstructions/pull/1",
+      "title": "Fix lab documentation inaccuracies across Labs 1\u20136 medallion workshop",
+      "created_at": "2026-03-15T20:15:18Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/mizcausevic-dev/dbt-search-observatory/pull/7",
+      "title": "deps(deps): bump dbt-duckdb from 1.10.1 to 1.11.0",
+      "created_at": "2026-08-17T11:13:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/appspace/kwwhat/pull/155",
+      "title": "Add support for BigQuery",
+      "created_at": "2026-08-10T01:48:57Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/snowplow/dbt-snowplow-media-player/pull/100",
+      "title": "fix(media-player): normalise empty strings to null before surrogate key computation [AISP-1625]",
+      "created_at": "2026-08-06T13:29:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/edanalytics/edu_edfi_source/pull/206",
+      "title": "Build SQL dialect auto linter / add in github workflows",
+      "created_at": "2026-08-04T18:26:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/basedosdados/pipelines/pull/1923",
+      "title": "[Bugfix] materializa e testa em dev antes de escrever em prod",
+      "created_at": "2026-08-27T07:23:53Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/edanalytics/edu_wh/pull/263",
+      "title": "Build SQL dialect auto linter / add in github workflows",
+      "created_at": "2026-07-24T17:48:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/5289",
+      "title": "NTD: Add annual data onboarding runbook",
+      "created_at": "2026-05-08T21:58:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/jonaolden/data-stack-starter/pull/1",
+      "title": "Fix code-review findings: Snowflake keys, CI, codegen, Prefect, scripts",
+      "created_at": "2026-05-31T20:01:00Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/appspace/kwwhat/pull/156",
+      "title": "Feature/minimum required error codes",
+      "created_at": "2026-08-18T00:45:20Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/breezy-bays-labs/cute-dbt/pull/440",
+      "title": "dogfood: comprehensive live-preview feature showcase (DO NOT MERGE \u2014 founder validation)",
+      "created_at": "2026-06-14T22:30:41Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/fivetran/dbt_jira/pull/190",
+      "title": "pre-release/v1.10.0-a1",
+      "created_at": "2026-06-04T19:17:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/minhthy1016/dbt-databrick/pull/1",
+      "title": "Fix dbt model bugs, improve tests, and update docs",
+      "created_at": "2026-04-11T15:08:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cnstlungu/postcard-company-datamart/pull/8",
+      "title": "Move to dbt-core 1.12 and make the project parse under dbt v2",
+      "created_at": "2026-09-18T06:53:48Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/Red-Valley/tech-test-analytics-engineer-ai/pull/2",
+      "title": "Submission/julian ramirez",
+      "created_at": "2026-09-11T16:09:11Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/fivetran/dbt_intercom/pull/81",
+      "title": "Fix/closed conversations",
+      "created_at": "2026-03-04T15:21:14Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/datahub-project/datahub/pull/19473",
+      "title": "feat(ingest/dbt): support glob patterns in manifest_path for multi-project ingestion",
+      "created_at": "2026-08-27T09:47:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/COG-GTM/brc-teradata-migration-demo/pull/5",
+      "title": "feat: Complete Teradata-to-dbt Migration (5 SPs, 16 Models, 148 Tests)",
+      "created_at": "2026-04-01T11:00:54Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/9974",
+      "title": "fix(dex): add 8 Base platform models that were never wired into dex_base.base_trades",
+      "created_at": "2026-08-29T06:43:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dataengineerankur/dms-snowpipe-dbt-airflow/pull/278",
+      "title": "Fix: Remove embedded customer data from int_orders to ensure data freshness",
+      "created_at": "2026-03-21T14:17:58Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dataengineerankur/dms-snowpipe-dbt-airflow/pull/286",
+      "title": "Fix customer data freshness in orders fact table",
+      "created_at": "2026-03-21T14:30:04Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dataengineerankur/dms-snowpipe-dbt-airflow/pull/264",
+      "title": "Fix undefined var fct_orders_lookback_days in dbt models",
+      "created_at": "2026-03-21T13:56:09Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/sidymar/marvin-data-engineer-challenge/pull/1",
+      "title": "Case Engenheiro(a) de Dados \u2014 Settlement Reconciliation: produtos de dados (DuckDB \u00b7 dbt \u00b7 Airflow)",
+      "created_at": "2026-07-11T20:39:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/70894",
+      "title": "source-dbt-cloud contribution from VolubleRain1",
+      "created_at": "2025-12-12T17:17:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/Cognition-Partner-Workshops/uc-informatica-sas-to-dbt/pull/18",
+      "title": "informatica: execute m_demo_mapping2 on real Snowflake with verified parity",
+      "created_at": "2026-08-05T22:54:29Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/5187",
+      "title": "5104 - Initial dependency updates",
+      "created_at": "2026-04-29T19:05:31Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/MarquezProject/marquez/pull/3002",
+      "title": "Update dependency io.openlineage:openlineage-java to v1.53.0",
+      "created_at": "2025-01-01T00:29:00Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/TEAMSchools/teamster/pull/5248",
+      "title": "feat(cube): exclude not_taken from proficiency, expose strand breakdowns (2 of 2)",
+      "created_at": "2026-09-10T20:40:50Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dataengineerankur/dms-snowpipe-dbt-airflow/pull/262",
+      "title": "Fix data freshness: remove mutable customer attributes from int_orders",
+      "created_at": "2026-03-21T13:53:29Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/mdrakiburrahman/ivm-bench/pull/64",
+      "title": "feat(engine): add RisingWave as a streaming IVM engine",
+      "created_at": "2026-08-16T10:49:25Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dagster-io/dagster/pull/33555",
+      "title": "Fix KeyError in AssetDefinitionCollisionQuery when asset keys are mis\u2026",
+      "created_at": "2026-03-06T17:55:39Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/dataengineerankur/dms-snowpipe-dbt-airflow/pull/279",
+      "title": "Fix dbt compilation error: add default value to fct_orders_lookback_days variable",
+      "created_at": "2026-03-21T14:19:09Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/PieroRios2000/personal-finance-platform/pull/68",
+      "title": "feat: business-key MERGE in silver (T20, Phase 2)",
+      "created_at": "2026-09-17T12:19:17Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-titles.json",
+      "url": "https://github.com/GovHub-br/data-application-mir/pull/60",
+      "title": "fix(dbt/mir): usa id_hash como unique_key no merge incremental de ppa_tesouro",
+      "created_at": "2026-09-14T13:59:12Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/shadowkrusha/workspaces/pull/179",
+      "title": "Update dependency dbt-core to v1.6.15 [SECURITY]",
+      "created_at": "2024-05-28T22:32:21Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Tomme/dbt-athena/pull/50",
+      "title": "Support s3_data_dir and s3_data_naming",
+      "created_at": "2021-12-17T15:53:07Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/andrew-sha/tutorial/pull/22",
+      "title": "Update dependency sqlmesh to v0.236.2",
+      "created_at": "2024-04-08T22:58:48Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/sjwiesman/materialize/pull/282",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.5.0 to >=1.5,<1.7 in /misc/dbt-materialize",
+      "created_at": "2023-08-01T11:12:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Parsely/parsely_raw_data/pull/105",
+      "title": "Bump dbt from 0.17.2 to 1.0.0",
+      "created_at": "2021-12-07T08:04:23Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/getindata/dbt-images/pull/63",
+      "title": "chore(deps): update dependency dbt-postgres to v1.6.1",
+      "created_at": "2023-01-05T00:28:58Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/getindata/dbt-images/pull/62",
+      "title": "chore(deps): update dependency dbt-core to v1.6.1",
+      "created_at": "2023-01-05T00:28:51Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Santhin/jupyter-images/pull/9",
+      "title": "Update dependency dbt-core to v1.9.8",
+      "created_at": "2022-08-03T20:00:08Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/philip-stoev/materialize/pull/317",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T11:59:17Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/philip-stoev/materialize/pull/316",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T11:59:12Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/ruf-io/materialize/pull/685",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T03:58:05Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/ruf-io/materialize/pull/684",
+      "title": "build(deps-dev): update dbt-tests-adapter requirement from ~=1.4.0 to >=1.4,<1.6 in /misc/dbt-materialize",
+      "created_at": "2023-04-28T03:58:01Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Velir/dbt-ga4/pull/317",
+      "title": "User Export",
+      "created_at": "2024-04-13T23:49:13Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/datafold/datafold-demo-sung/pull/3",
+      "title": "quick change",
+      "created_at": "2023-09-07T16:47:35Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/jayanth-kumar-structuredlabs/dbt-tutorial/pull/17",
+      "title": "Jayanth kumar structuredlabs patch 1",
+      "created_at": "2024-10-04T19:28:46Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/datagero/demo-data-platform/pull/25",
+      "title": "8. Step Back - Refining Modularity and Orchestration Patterns in Ingestion Pipelines",
+      "created_at": "2024-11-04T02:31:43Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Santhin/jupyter-images/pull/2",
+      "title": "Update dependency acryl-datahub to v0.15.0.5",
+      "created_at": "2022-08-03T08:48:34Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/getindata/dbt-images/pull/57",
+      "title": "chore(deps): update dependency acryl-datahub to v0.10.5.5",
+      "created_at": "2022-12-01T03:12:27Z",
+      "state": "open"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/dbt-labs/dbt-adapters/pull/110",
+      "title": "Null-safe equality for `unique_key` within `delete+insert` and `merge` incremental strategies",
+      "created_at": "2024-02-27T10:58:45Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/community-tech-alliance/dbt-cta/pull/7",
+      "title": "feat: add actblue dbt",
+      "created_at": "2022-11-21T23:34:15Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/airbytehq/airbyte/pull/22381",
+      "title": "Normalization: Use strict > comparison in incremental mode",
+      "created_at": "2023-02-04T01:58:11Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/sjwiesman/materialize/pull/283",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.5.0 to >=1.5,<1.7 in /misc/dbt-materialize",
+      "created_at": "2023-08-01T11:13:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/MaterializeInc/materialize/pull/30787",
+      "title": "build(deps): update dbt-postgres requirement from ~=1.8.0 to >=1.8,<1.10 in /misc/dbt-materialize",
+      "created_at": "2024-12-10T02:53:16Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fullstorydev/dbt_fullstory/pull/8",
+      "title": "use incremental models to save time / money",
+      "created_at": "2023-11-01T19:50:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/rodneyosodo/propeller/pull/1",
+      "title": "feat: add sdk and cli for task CRUD operations",
+      "created_at": "2024-12-13T13:19:15Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3505",
+      "title": "(DA) fix(Analytics): Exclude cancelled bookings in subquery",
+      "created_at": "2024-11-26T15:12:49Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3462",
+      "title": "(DA-3796) feat(analytics): refacto video models",
+      "created_at": "2024-11-19T10:08:02Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3493",
+      "title": "(DE) feat(firebase): backfill partition dag",
+      "created_at": "2024-11-22T09:42:22Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/Familiar-HQ/dittofeed/pull/5",
+      "title": "V5",
+      "created_at": "2024-11-25T07:59:47Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user/pull/1417",
+      "title": "Remove deprecated apis",
+      "created_at": "2024-09-16T21:32:10Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3643",
+      "title": "(BSR) feat(cron): add retrieval_vector_build schedule to SCHEDULE_DIC\u2026",
+      "created_at": "2024-12-23T13:00:30Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3518",
+      "title": "(BSR) feat(deps): update apache-airflow and related dependencies to \u2026",
+      "created_at": "2024-11-28T15:56:39Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/stellar/stellar-dbt-public/pull/110",
+      "title": "Added Type-II Dimensional Models for the Soroban Contract tables",
+      "created_at": "2024-10-31T06:18:29Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/6051",
+      "title": "remake bridges.flows",
+      "created_at": "2024-06-02T03:22:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/dbt-labs/dbt-snowflake/pull/1257",
+      "title": "Use timestamp_tz type in microbatch `delete` DDL",
+      "created_at": "2024-11-27T21:22:40Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/prefeitura-rio/pipelines_rj_smtr/pull/297",
+      "title": "GPS Viagens 2.0",
+      "created_at": "2024-10-29T23:29:21Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/dbt-labs/dbt-bigquery/pull/1255",
+      "title": "Add support for non-incremental materialized views",
+      "created_at": "2024-06-11T20:23:43Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/prefeitura-rio/pipelines_rj_smtr/pull/255",
+      "title": "[WIP] Flow de captura SERPRO [DESATUALIZADO]",
+      "created_at": "2024-10-02T20:41:34Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3627",
+      "title": "(DE-932) feat(dbt): add selectors dbt cli",
+      "created_at": "2024-12-19T12:49:21Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fivetran/dbt_netsuite/pull/153",
+      "title": "Remove incremental logic from `int_netsuite2__tran_with_converted_amounts`",
+      "created_at": "2024-12-12T22:33:36Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3654",
+      "title": "(BSR) feat(dbt): add dbt docs to airflow",
+      "created_at": "2024-12-27T15:42:07Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3655",
+      "title": "(DE-830) feat(dbt): add diversity metric in dbt",
+      "created_at": "2024-12-27T16:18:35Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/cal-itp/data-infra/pull/3366",
+      "title": "Add seed table for ntd_id (2022) and (organization) source_record_id",
+      "created_at": "2024-06-06T18:31:07Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fivetran/dbt_netsuite/pull/154",
+      "title": "Releases/v0.17.latest",
+      "created_at": "2024-12-17T19:15:42Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/AltimateAI/vscode-dbt-power-user/pull/1527",
+      "title": "feat: generate dbt tests in documentation editor",
+      "created_at": "2024-12-31T08:58:32Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/prefeitura-rio/pipelines_rj_civitas/pull/65",
+      "title": "fix: add ROW_NUMBER to avoid duplicates in incremental models",
+      "created_at": "2024-11-27T16:07:29Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fivetran/dbt_shopify_source/pull/93",
+      "title": "feature/product-inventory-api-update",
+      "created_at": "2024-12-20T01:35:07Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/hongbo-miao/hongbomiao.com/pull/21397",
+      "title": "fix(dbt_hm_postgres): update dependency dbt-postgres to v1.9.0",
+      "created_at": "2024-12-09T19:08:02Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3660",
+      "title": "(DE-796) feat(cicd): include exposures to dbt compilation",
+      "created_at": "2024-12-31T13:45:08Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3586",
+      "title": "(DE-908) docs(dbt): Add dbt tables doc for training_data",
+      "created_at": "2024-12-10T16:08:28Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3582",
+      "title": "(DE-904) refactor(dbt): Migrate last training data queries to dbt",
+      "created_at": "2024-12-10T13:27:04Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/cloudquery/policies/pull/313",
+      "title": "fix(deps): Update dependency dbt-postgres to v1.7.3",
+      "created_at": "2023-12-01T00:36:09Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fivetran/dbt_reddit_ads/pull/15",
+      "title": "Add suffix to duplicate passthrough fields ",
+      "created_at": "2024-11-12T22:33:26Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/covoiturage-gouv-fr/mono/pull/2729",
+      "title": "Add firsts fraud dbt models",
+      "created_at": "2024-12-12T10:14:28Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/duneanalytics/spellbook/pull/7383",
+      "title": "Add PancakeSwapX on Ethereum to Dex Trades",
+      "created_at": "2024-12-25T10:25:54Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3545",
+      "title": "(DE-875) fix(dbt): remove hard_delete param from dbt_project",
+      "created_at": "2024-12-02T15:01:08Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3621",
+      "title": "(DE-935) refactor(dbt): remove clean batch of tables",
+      "created_at": "2024-12-17T14:29:28Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3641",
+      "title": "(DA-3778) feat(dbt): Add action history transfo to clean model",
+      "created_at": "2024-12-23T08:46:03Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/fivetran/dbt_stripe/pull/101",
+      "title": "move cent conversions upstream to source package",
+      "created_at": "2024-12-18T19:34:29Z",
+      "state": "closed"
+    },
+    {
+      "search_file": "issues-historic-duplicate.json",
+      "url": "https://github.com/pass-culture/data-gcp/pull/3562",
+      "title": "(BSR) feat(dbt): remove clean collective_offer",
+      "created_at": "2024-12-03T16:51:17Z",
+      "state": "closed"
+    }
+  ]
+}

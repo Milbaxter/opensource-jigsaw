@@ -1,0 +1,52 @@
+{
+  "files": [
+    {
+      "path": "SCREEN.md",
+      "bytes": 13023,
+      "sha256": "d640fa7ea2756e8f499b7c5a55515869d058a64ca935fa08de21a5d55872cac2"
+    },
+    {
+      "path": "candidate-pins.json",
+      "bytes": 1193,
+      "sha256": "9d01c52abfccabde182342d4cbf5758b1f05f777de752a5caae6cf808595fe65"
+    },
+    {
+      "path": "search-ledger.json",
+      "bytes": 132102,
+      "sha256": "8ecd8ed7ac08d3f648946b2957af36587cc7baf96fb32c77f6cfca909fe8395b"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 10539,
+      "sha256": "091bbe3d947c4725cf97c4c82fae172d94cc08c9954bb5bc051cc02299d3d0f4"
+    },
+    {
+      "path": "ade-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "artifacts-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "netsuite-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "audit-ext-LICENSE.txt",
+      "bytes": 11345,
+      "sha256": "578dae58c0eeb502e5fd1e1603f74d73f1396ad3f8b86d9558709bc98b2aacb9"
+    },
+    {
+      "path": "gnosis-LICENSE.txt",
+      "bytes": 1062,
+      "sha256": "573ff9bd7b42fb56f2828a23a92f9e531924dad13c47ee8f8bb38063d6b16abc"
+    }
+  ],
+  "notes": [
+    "Only these files are selected for publication. No raw customer issue bodies/rows or copied model files. No execution benchmark occurred."
+  ]
+}

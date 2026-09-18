@@ -1,0 +1,326 @@
+{
+  "retrieved_at": "2026-09-18T09:49:26.971911+00:00",
+  "scope": "Static source and public GitHub API inspection only; no model evaluation. Search output includes discarded search attempts. Candidate pins supersede initial current-base reads.",
+  "files": [
+    {
+      "path": "SCREEN.md",
+      "bytes": 13023,
+      "sha256": "d640fa7ea2756e8f499b7c5a55515869d058a64ca935fa08de21a5d55872cac2"
+    },
+    {
+      "path": "ade-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "ade-base-tree.json",
+      "bytes": 497545,
+      "sha256": "4f9d9a257b59be70e34da21e4c9cb48d91e9379c8fee1a9adbbe5d9556eb7dc3"
+    },
+    {
+      "path": "ade-buggy.sql",
+      "bytes": 1456,
+      "sha256": "d4dc213744f7635a38f4ac06bc046edc2f9d10c464745256d2153230bf89df1a"
+    },
+    {
+      "path": "ade-license.json",
+      "bytes": 16567,
+      "sha256": "974047d618c8affe4d0d9ad6c0cf4fdf3db0f4468b4adee8860c950ed81c7cb4"
+    },
+    {
+      "path": "ade-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "ade-pinned-dbt_project.yml",
+      "bytes": 127,
+      "sha256": "e45906ce02e79f16fb87a838d86bb4e497e37a9591f97608fa013bbcd8b9cbc2"
+    },
+    {
+      "path": "ade-pr145-commits.json",
+      "bytes": 4058,
+      "sha256": "5c6b8abe17e2033fb5318b953373be279067cdade5b6332dc41afab361f0043e"
+    },
+    {
+      "path": "ade-pr145-files.json",
+      "bytes": 1821,
+      "sha256": "1d00127ea0c13b9f7a61dd8f7bf54f25bf7e39dd28bc4e5354ac80d6e4a7a830"
+    },
+    {
+      "path": "ade-pr145.json",
+      "bytes": 18317,
+      "sha256": "e12078fe380cdc4351ee3d4976baa7fb86ba6169a54862783f387c65efb6d57c"
+    },
+    {
+      "path": "artifacts-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "artifacts-base-tree.json",
+      "bytes": 15969,
+      "sha256": "c86fff5ddd0fed9a42a045c6d45c80db6a6b95f228013acfae584e7a3c3f33da"
+    },
+    {
+      "path": "artifacts-buggy.sql",
+      "bytes": 801,
+      "sha256": "6665964075d2b9cfa81e73402c4e0d687bc6df1c6b55a2708f3185e21202f381"
+    },
+    {
+      "path": "artifacts-license.json",
+      "bytes": 16630,
+      "sha256": "eb958f68ed8f189c274f2d236da0eeb1cdcb9aaa7b45f1a05bec215a95fe8f50"
+    },
+    {
+      "path": "artifacts-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "artifacts-pinned-dbt_project.yml",
+      "bytes": 412,
+      "sha256": "752bd62a7d4d1e5d4fb994c728d3fd2415b6cabf1fb2114465172c1f9e526a5c"
+    },
+    {
+      "path": "artifacts-pr384-files.json",
+      "bytes": 3572,
+      "sha256": "abecec2d5b42f8c0eac4b113e4f5144d2154649e0ecf7379d710a3ec31fd9142"
+    },
+    {
+      "path": "artifacts-pr67-commits.json",
+      "bytes": 6860,
+      "sha256": "7ede3a24afebae6a22e591ac9371b59740816c8004f2a7f06dd05d4f6faf3203"
+    },
+    {
+      "path": "artifacts-pr67-files.json",
+      "bytes": 7341,
+      "sha256": "036e34653fb21e3b1d27a7de604e3a9caaeaa57f4b11685f52501dbfec8919d3"
+    },
+    {
+      "path": "artifacts-pr67.json",
+      "bytes": 18585,
+      "sha256": "3c22ee684b7f429c82769a1e5a5e15b4cda7e65ad3cf606360975453a6cb4ad9"
+    },
+    {
+      "path": "audit-ext-LICENSE.txt",
+      "bytes": 11345,
+      "sha256": "578dae58c0eeb502e5fd1e1603f74d73f1396ad3f8b86d9558709bc98b2aacb9"
+    },
+    {
+      "path": "audit-ext-clone-extended.sql",
+      "bytes": 3614,
+      "sha256": "26b9fbc0779bd2d373e83e885cf038f876b226ce10262b03d82aa9d87b0c8fe7"
+    },
+    {
+      "path": "audit-ext-clone.sql",
+      "bytes": 3362,
+      "sha256": "797df795e5b33de6b31ec9e5a3716a8c7a2fda064434c071822ef3d119e7e9fe"
+    },
+    {
+      "path": "audit-ext-commit.json",
+      "bytes": 22168,
+      "sha256": "78a365eb2ba86adb2ea35fcf1b592c2b2d43b70cbd767d1b03ecd5cd0945fede"
+    },
+    {
+      "path": "audit-ext-license.json",
+      "bytes": 16670,
+      "sha256": "36a63cf6c6163d64b65ff22c000fe52a32b9496b10fd63134b4de88afca72a1a"
+    },
+    {
+      "path": "audit-ext-tree.json",
+      "bytes": 84115,
+      "sha256": "19a953a057c09fc12e48a9984e182b01f6774265cb5f5c943cea1f301b886851"
+    },
+    {
+      "path": "audit-ext-validation.md",
+      "bytes": 10648,
+      "sha256": "1794696f8affb0e66ec18a642f85b615a481e4ad0616d713f9bba396263dcc28"
+    },
+    {
+      "path": "candidate-pins.json",
+      "bytes": 1193,
+      "sha256": "9d01c52abfccabde182342d4cbf5758b1f05f777de752a5caae6cf808595fe65"
+    },
+    {
+      "path": "gnosis-LICENSE.txt",
+      "bytes": 1062,
+      "sha256": "573ff9bd7b42fb56f2828a23a92f9e531924dad13c47ee8f8bb38063d6b16abc"
+    },
+    {
+      "path": "gnosis-commit.json",
+      "bytes": 10126,
+      "sha256": "57d6ef76134886f7a12fb8d6ca3a043d3eb5ace0aa382af5326fec5eaa6b67d7"
+    },
+    {
+      "path": "gnosis-decode_logs.sql",
+      "bytes": 22647,
+      "sha256": "71ae5157ad228e08bd593be1bce2ab2f0d2cded71e07d16a855cae57b4def780"
+    },
+    {
+      "path": "gnosis-get_incremental_filter.sql",
+      "bytes": 4546,
+      "sha256": "787dcc6bef37bfd7c5149a5e17f1f2c488203fb819281ed90f46f056a1b4d4b2"
+    },
+    {
+      "path": "gnosis-license.json",
+      "bytes": 2387,
+      "sha256": "575ce4429ff81fcd28c7718fabc77852818ed42c6495f4f675cecb76796c065b"
+    },
+    {
+      "path": "gnosis-repo.json",
+      "bytes": 6539,
+      "sha256": "69883a81c010264e43ebf4e37635844e9175b5cf4957ac4b57ff1645901998d3"
+    },
+    {
+      "path": "gnosis-tree.json",
+      "bytes": 590549,
+      "sha256": "3bd90d9d70308eb3bb4040f16b4b28fe44032004e375abc077fdcb325e91c2a0"
+    },
+    {
+      "path": "issues-artifacts.json",
+      "bytes": 53366,
+      "sha256": "10b7b26dd34bb2e55f4376909d99cdc10f0f32f1dd649bec052adf9407053dab"
+    },
+    {
+      "path": "issues-fivetran.json",
+      "bytes": 451706,
+      "sha256": "ee534d5ad83bdaecc296bd852e846e1afd413f702fd4d76fa554cdf6ab31f327"
+    },
+    {
+      "path": "issues-historic-duplicate.json",
+      "bytes": 882185,
+      "sha256": "6f751bc0ccfd193dd257d783b48c31921c1f218b2a08a6a02a2df8b2765fafb2"
+    },
+    {
+      "path": "issues-historic-missing.json",
+      "bytes": 1126143,
+      "sha256": "824c8c4afa20964e6c26134adc32e211b52d2c863cbf944fa950e53047fa6f45"
+    },
+    {
+      "path": "issues-historic.json",
+      "bytes": 511649,
+      "sha256": "b49eb4f5f12e2bade96a86261eda89fbddf1040f7c3a5840bb4ca2845a78c3d6"
+    },
+    {
+      "path": "issues-incremental.json",
+      "bytes": 366380,
+      "sha256": "a95379dcef1089add8feaa910e4812f386654d86f4d736fd701ab3417b715e50"
+    },
+    {
+      "path": "issues-late.json",
+      "bytes": 309180,
+      "sha256": "edc4549f41ed2c34ad0244da4b557ccd151bda3092c319349b8e7424ad723c7b"
+    },
+    {
+      "path": "issues-titles.json",
+      "bytes": 966336,
+      "sha256": "18d08a790cd98242468314ad4de55905cf2176bb436b7b8a0f225df054b593c2"
+    },
+    {
+      "path": "jira-pr170-files.json",
+      "bytes": 15742,
+      "sha256": "42d64b6f45c0ece458e786484935d3cdfc55a8012da3d5aaf141a19ae1efc6ef"
+    },
+    {
+      "path": "jira-pr170.json",
+      "bytes": 20911,
+      "sha256": "20b9c3d3c3760f8d4081907dbf39f72c147aa577a7cf8e3885dfe8686c2fa5d7"
+    },
+    {
+      "path": "netsuite--integration_tests--dbt_project.yml",
+      "bytes": 3931,
+      "sha256": "67924753b44f299eed3693ab5f1bf98cf8fc54e357ca1dd993c81e25e6eecd1e"
+    },
+    {
+      "path": "netsuite--integration_tests--packages.yml",
+      "bytes": 25,
+      "sha256": "0f14e8c3e1667de8a7f61c031787282de610a28526e96ae3b6782232c63ef053"
+    },
+    {
+      "path": "netsuite--integration_tests--seeds--netsuite2_tran_acct_line_data.csv",
+      "bytes": 513,
+      "sha256": "8e58fe28038fb446764bcd4b4da191031a1e812fab9d45e3681128f88bf4635f"
+    },
+    {
+      "path": "netsuite--integration_tests--seeds--netsuite2_transaction_line_data.csv",
+      "bytes": 2962,
+      "sha256": "e8f409d5717aba5fdfb8294403ee21eb3fdc802b9f9a88e6e73137d83d70cebd"
+    },
+    {
+      "path": "netsuite--macros--netsuite_lookback.sql",
+      "bytes": 662,
+      "sha256": "612e297bbec7aaa59a81fc9e29e3b12e85d50e530a8e548d17aba4c4d55fdc95"
+    },
+    {
+      "path": "netsuite--models--netsuite2--intermediate--int_netsuite2__tran_lines_w_accounting_period.sql",
+      "bytes": 1203,
+      "sha256": "72ece312b14d9624aa6ecf3cb1e3c78b40baf34e67db48c548650dde1e480c1e"
+    },
+    {
+      "path": "netsuite--packages.yml",
+      "bytes": 80,
+      "sha256": "4ebdd9cc0ab8f7b734e0b6cc708afa5ad3a4a056b4d3cae24f9420b3dc16145f"
+    },
+    {
+      "path": "netsuite-LICENSE.txt",
+      "bytes": 11346,
+      "sha256": "8a7be4a26ca5039be5360a50cb3ce30944a03da262edcc428eef7604b9727dbe"
+    },
+    {
+      "path": "netsuite-base-tree.json",
+      "bytes": 30799,
+      "sha256": "4d68d7253fb1c6f28d74f1e7129c4d61c3828a5fc9d95e920931c1fd776c66a4"
+    },
+    {
+      "path": "netsuite-buggy.sql",
+      "bytes": 6028,
+      "sha256": "e58ca92fc642c3e37d8dc6920d1a95b4d85b01c723ee626ac343088de4fd6acf"
+    },
+    {
+      "path": "netsuite-issue128.json",
+      "bytes": 12531,
+      "sha256": "2e21c9862af02d016eb485aca83b292681d70d829fdb9740a03bb3cfa7658115"
+    },
+    {
+      "path": "netsuite-issue140.json",
+      "bytes": 6663,
+      "sha256": "ce5ce8a246a7bba47ded2181939554eff0b3264e17ade471058fd6e5125f4b94"
+    },
+    {
+      "path": "netsuite-license.json",
+      "bytes": 16572,
+      "sha256": "7a602ae41e7b9933d5781183347f88b4b2fb92f139de3bcc70a645e3a2c79fa0"
+    },
+    {
+      "path": "netsuite-pinned-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "netsuite-pinned-dbt_project.yml",
+      "bytes": 3668,
+      "sha256": "695d2c500cc88b10b97ba6aae78c3c2e37fd296c188b8643a505e7ea22b2e759"
+    },
+    {
+      "path": "netsuite-pr153-commits.json",
+      "bytes": 18489,
+      "sha256": "ae2c2078daea483660708910f10ba541c3fffd589b521aa54061db89c75b7226"
+    },
+    {
+      "path": "netsuite-pr153-files.json",
+      "bytes": 7766,
+      "sha256": "ce8d030cbf7adaec015abebf7b339da82a7edfe469cb351ce81f3b0b32c6a94c"
+    },
+    {
+      "path": "netsuite-pr153.json",
+      "bytes": 22228,
+      "sha256": "72c4ffd45c2dd961e2646e2825b7b33f68295d56cdb8d41611880e40d9870cea"
+    },
+    {
+      "path": "search-ledger.json",
+      "bytes": 132102,
+      "sha256": "8ecd8ed7ac08d3f648946b2957af36587cc7baf96fb32c77f6cfca909fe8395b"
+    }
+  ]
+}
