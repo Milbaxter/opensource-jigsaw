@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-09-18T11:13:43.895009+00:00",
+  "files": [
+    {
+      "path": "REVIEW.md",
+      "bytes": 9630,
+      "sha256": "88610a2e699016192979a769317d44625746b7eed31d12c6115c5b5f7d5c2a1a"
+    },
+    {
+      "path": "source-manifest.json",
+      "bytes": 7147,
+      "sha256": "71d7e3456ee4eefa496c62158a22d481fcb5d63fecda58f36f490ff72b2d76f9"
+    },
+    {
+      "path": "fixture-inspection.json",
+      "bytes": 31005,
+      "sha256": "ca4a6b20e5725bd60877bff9114e153e6a144c83ce9026b43ba0d3985e132073"
+    },
+    {
+      "path": "snapshot-metadata.json",
+      "bytes": 446,
+      "sha256": "7cbe5387d925a3a15499de5eb8cdad8134abbf7bd6d202ddb41626b791eab16d"
+    }
+  ],
+  "excluded": "source/ and fixtures/ third-party payloads; bulky raw GitHub API records. Exact reference URLs/checksums retained in manifests."
+}

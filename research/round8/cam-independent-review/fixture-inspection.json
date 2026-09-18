@@ -1,0 +1,977 @@
+[
+  {
+    "path": "src/Mod/CAM/CAMTests/test_adaptive.fcstd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/test_adaptive.fcstd",
+    "sha256": "34207b128f433c53b68f09e58a14412eac6eff36bb6f25c7baaff659bf5d7375",
+    "bytes": 20661,
+    "metadata": [
+      {
+        "name": "Comment",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Comment\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Company",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Company\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreatedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreatedBy\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreationDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreationDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2017-07-06T09:15:01-05:00\" />\n        </Property>"
+      },
+      {
+        "name": "Id",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Id\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Label",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Label\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"test_adaptive\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedBy\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"Russell Johnson\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2023-03-16T05:18:51Z\" />\n        </Property>"
+      },
+      {
+        "name": "License",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"License\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"Creative Commons Attribution\" />\n        </Property>"
+      },
+      {
+        "name": "LicenseURL",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LicenseURL\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"https://creativecommons.org/licenses/by/4.0/\" />\n        </Property>"
+      },
+      {
+        "name": "Material",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Material\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "Meta",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Meta\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "ShowHidden",
+        "type": "App::PropertyBool",
+        "xml": "<Property name=\"ShowHidden\" type=\"App::PropertyBool\" status=\"1\">\n            <Bool value=\"false\" />\n        </Property>"
+      },
+      {
+        "name": "TipName",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"TipName\" type=\"App::PropertyString\" status=\"83886080\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Uid",
+        "type": "App::PropertyUUID",
+        "xml": "<Property name=\"Uid\" type=\"App::PropertyUUID\" status=\"16777217\">\n            <Uuid value=\"874707ed-f6d9-45a9-80bf-792e4261f2f4\" />\n        </Property>"
+      }
+    ],
+    "objects": [
+      {
+        "type": "Part::Box",
+        "name": "Box",
+        "id": "1"
+      },
+      {
+        "type": "Part::Box",
+        "name": "Box001",
+        "id": "41"
+      },
+      {
+        "type": "Part::Box",
+        "name": "Box002",
+        "id": "43"
+      },
+      {
+        "type": "Part::Cut",
+        "name": "Cut",
+        "id": "44"
+      },
+      {
+        "type": "Part::MultiFuse",
+        "name": "Fusion",
+        "id": "48"
+      }
+    ],
+    "payload_candidates": [
+      {
+        "name": "Document.xml",
+        "bytes": 16977
+      },
+      {
+        "name": "GuiDocument.xml",
+        "bytes": 22931
+      }
+    ]
+  },
+  {
+    "path": "src/Mod/CAM/CAMTests/Drilling_1.FCStd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/Drilling_1.FCStd",
+    "sha256": "a81e23567a56bfcaa7444a9f6081b1908846ff487b7c4e942f0d7bd4c2b03027",
+    "bytes": 266675,
+    "metadata": [
+      {
+        "name": "Comment",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Comment\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Company",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Company\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreatedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreatedBy\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreationDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreationDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2017-01-15T09:28:50-06:00\" />\n        </Property>"
+      },
+      {
+        "name": "Id",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Id\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Label",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Label\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"Drilling_1\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedBy\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2022-01-30T23:23:07Z\" />\n        </Property>"
+      },
+      {
+        "name": "License",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"License\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"CreativeCommons Attribution\" />\n        </Property>"
+      },
+      {
+        "name": "LicenseURL",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LicenseURL\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"http://creativecommons.org/licenses/by/4.0/\" />\n        </Property>"
+      },
+      {
+        "name": "Material",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Material\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "Meta",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Meta\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "ShowHidden",
+        "type": "App::PropertyBool",
+        "xml": "<Property name=\"ShowHidden\" type=\"App::PropertyBool\" status=\"1\">\n            <Bool value=\"false\" />\n        </Property>"
+      },
+      {
+        "name": "TipName",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"TipName\" type=\"App::PropertyString\" status=\"83886080\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Uid",
+        "type": "App::PropertyUUID",
+        "xml": "<Property name=\"Uid\" type=\"App::PropertyUUID\" status=\"16777217\">\n            <Uuid value=\"ca03909a-f1f3-41f9-bf0e-1b0103327d87\" />\n        </Property>"
+      }
+    ],
+    "objects": [
+      {
+        "type": "PartDesign::Body",
+        "name": "Body",
+        "id": "1"
+      },
+      {
+        "type": "App::Origin",
+        "name": "BodyOrigin",
+        "id": "2"
+      },
+      {
+        "type": "App::Line",
+        "name": "X_Axis",
+        "id": "3"
+      },
+      {
+        "type": "App::Line",
+        "name": "Y_Axis",
+        "id": "4"
+      },
+      {
+        "type": "App::Line",
+        "name": "Z_Axis",
+        "id": "5"
+      },
+      {
+        "type": "App::Plane",
+        "name": "XY_Plane",
+        "id": "6"
+      },
+      {
+        "type": "App::Plane",
+        "name": "XZ_Plane",
+        "id": "7"
+      },
+      {
+        "type": "App::Plane",
+        "name": "YZ_Plane",
+        "id": "8"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch",
+        "id": "9"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad",
+        "id": "10"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch001",
+        "id": "11"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket",
+        "id": "12"
+      },
+      {
+        "type": "PartDesign::LinearPattern",
+        "name": "LinearPattern",
+        "id": "13"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch002",
+        "id": "14"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket001",
+        "id": "15"
+      },
+      {
+        "type": "PartDesign::PolarPattern",
+        "name": "PolarPattern",
+        "id": "16"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch003",
+        "id": "17"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad001",
+        "id": "18"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch004",
+        "id": "19"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad002",
+        "id": "20"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch005",
+        "id": "21"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket002",
+        "id": "22"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch006",
+        "id": "23"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket003",
+        "id": "24"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch007",
+        "id": "25"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket004",
+        "id": "26"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch008",
+        "id": "27"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket005",
+        "id": "28"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch009",
+        "id": "29"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket006",
+        "id": "30"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch010",
+        "id": "31"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket007",
+        "id": "32"
+      },
+      {
+        "type": "PartDesign::Plane",
+        "name": "DatumPlane",
+        "id": "33"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch011",
+        "id": "34"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket008",
+        "id": "35"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch012",
+        "id": "254"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket009",
+        "id": "255"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch013",
+        "id": "258"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket010",
+        "id": "259"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch014",
+        "id": "310"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket011",
+        "id": "311"
+      }
+    ],
+    "payload_candidates": [
+      {
+        "name": "Document.xml",
+        "bytes": 189053
+      },
+      {
+        "name": "GuiDocument.xml",
+        "bytes": 209239
+      }
+    ]
+  },
+  {
+    "path": "src/Mod/CAM/CAMTests/Fixtures/test_28534_truncated_pocket.FCStd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/Fixtures/test_28534_truncated_pocket.FCStd",
+    "sha256": "23502741098771f29a473bdc0a4f1132fa3aa00a8c2fead4d58a01cfa60cdc03",
+    "bytes": 46187,
+    "metadata": [
+      {
+        "name": "Comment",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Comment\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Company",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Company\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreatedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreatedBy\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "CreationDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreationDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2026-03-13T05:53:58+03:00\" />\n        </Property>"
+      },
+      {
+        "name": "Id",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Id\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Label",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Label\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"test_28534_truncated_pocket\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedBy\" type=\"App::PropertyString\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "LastModifiedDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedDate\" type=\"App::PropertyString\" status=\"16777217\">\n            <String value=\"2026-07-14T16:12:47Z\" />\n        </Property>"
+      },
+      {
+        "name": "License",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"License\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"All rights reserved\" />\n        </Property>"
+      },
+      {
+        "name": "LicenseURL",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LicenseURL\" type=\"App::PropertyString\" status=\"1\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Material",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Material\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "Meta",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Meta\" type=\"App::PropertyMap\" status=\"1\">\n            <Map count=\"0\">\n            </Map>\n        </Property>"
+      },
+      {
+        "name": "ShowHidden",
+        "type": "App::PropertyBool",
+        "xml": "<Property name=\"ShowHidden\" type=\"App::PropertyBool\" status=\"1\">\n            <Bool value=\"false\" />\n        </Property>"
+      },
+      {
+        "name": "TipName",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"TipName\" type=\"App::PropertyString\" status=\"83886081\">\n            <String value=\"\" />\n        </Property>"
+      },
+      {
+        "name": "Uid",
+        "type": "App::PropertyUUID",
+        "xml": "<Property name=\"Uid\" type=\"App::PropertyUUID\" status=\"16777217\">\n            <Uuid value=\"159f1396-5fce-4f5a-8beb-d83c5f5ed981\" />\n        </Property>"
+      },
+      {
+        "name": "UnitSystem",
+        "type": "App::PropertyEnumeration",
+        "xml": "<Property name=\"UnitSystem\" type=\"App::PropertyEnumeration\" status=\"1\">\n            <Integer value=\"4\" CustomEnum=\"true\" />\n            <CustomEnumList count=\"10\">\n                <Enum value=\"Standard (mm, kg, s, \u00b0)\" />\n                <Enum value=\"MKS (m, kg, s, \u00b0)\" />\n                <Enum value=\"US customary (in, lb)\" />\n                <Enum value=\"Imperial decimal (in, lb)\" />\n                <Enum value=\"Building Euro (cm, m\u00b2, m\u00b3)\" />\n                <Enum value=\"Building US (ft-in, sqft, cft)\" />\n                <Enum value=\"Metric small parts &amp; CNC (mm, mm/min)\" />\n                <Enum value=\"Imperial for Civil Eng (ft, lb, mph)\" />\n                <Enum value=\"FEM (mm, N, s)\" />\n                <Enum value=\"Meter decimal (m, m\u00b2, m\u00b3)\" />\n            </CustomEnumList>\n        </Property>"
+      },
+      {
+        "name": "UseHasher",
+        "type": "App::PropertyBool",
+        "xml": "<Property name=\"UseHasher\" type=\"App::PropertyBool\" status=\"67108865\">\n            <Bool value=\"true\" />\n        </Property>"
+      }
+    ],
+    "objects": [
+      {
+        "type": "Path::FeaturePython",
+        "name": "Job",
+        "id": "392"
+      },
+      {
+        "type": "App::DocumentObjectGroup",
+        "name": "Operations",
+        "id": "393"
+      },
+      {
+        "type": "App::FeaturePython",
+        "name": "SetupSheet",
+        "id": "394"
+      },
+      {
+        "type": "App::DocumentObjectGroup",
+        "name": "Model",
+        "id": "395"
+      },
+      {
+        "type": "App::DocumentObjectGroup",
+        "name": "Tools",
+        "id": "397"
+      },
+      {
+        "type": "Part::FeaturePython",
+        "name": "Stock",
+        "id": "412"
+      },
+      {
+        "type": "Part::FeaturePython",
+        "name": "_6mm_2_Flute_Endmill",
+        "id": "413"
+      },
+      {
+        "type": "App::FeaturePython",
+        "name": "PropertyBag001",
+        "id": "414"
+      },
+      {
+        "type": "App::Plane",
+        "name": "XZ_Plane012",
+        "id": "415"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch019",
+        "id": "416"
+      },
+      {
+        "type": "PartDesign::Revolution",
+        "name": "Revolution001",
+        "id": "417"
+      },
+      {
+        "type": "App::Line",
+        "name": "X_Axis012",
+        "id": "418"
+      },
+      {
+        "type": "App::Line",
+        "name": "Y_Axis012",
+        "id": "419"
+      },
+      {
+        "type": "App::Line",
+        "name": "Z_Axis012",
+        "id": "420"
+      },
+      {
+        "type": "App::Plane",
+        "name": "XY_Plane012",
+        "id": "421"
+      },
+      {
+        "type": "App::Plane",
+        "name": "YZ_Plane012",
+        "id": "422"
+      },
+      {
+        "type": "App::Point",
+        "name": "Origin024",
+        "id": "423"
+      },
+      {
+        "type": "App::Origin",
+        "name": "Origin025",
+        "id": "424"
+      },
+      {
+        "type": "PartDesign::Body",
+        "name": "Body013",
+        "id": "425"
+      },
+      {
+        "type": "Path::FeaturePython",
+        "name": "TC__6mm_2_Flute_Endmill",
+        "id": "426"
+      },
+      {
+        "type": "Path::FeaturePython",
+        "name": "Pocket_Shape",
+        "id": "427"
+      },
+      {
+        "type": "Part::Feature",
+        "name": "Clone002",
+        "id": "428"
+      }
+    ],
+    "payload_candidates": [
+      {
+        "name": "Document.xml",
+        "bytes": 107656
+      },
+      {
+        "name": "Job.nc",
+        "bytes": 0
+      },
+      {
+        "name": "TC__6mm_2_Flute_Endmill.nc",
+        "bytes": 56
+      },
+      {
+        "name": "Pocket_Shape.nc",
+        "bytes": 2430
+      },
+      {
+        "name": "GuiDocument.xml",
+        "bytes": 67299
+      },
+      {
+        "name": "ShapeAppearance",
+        "bytes": 76
+      },
+      {
+        "name": "ShapeAppearance1",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance2",
+        "bytes": 76
+      },
+      {
+        "name": "ShapeAppearance3",
+        "bytes": 76
+      },
+      {
+        "name": "ShapeAppearance4",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance5",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance6",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance7",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance8",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance9",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance10",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance11",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance12",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance13",
+        "bytes": 40
+      },
+      {
+        "name": "ShapeAppearance14",
+        "bytes": 40
+      }
+    ]
+  },
+  {
+    "path": "src/Mod/CAM/DemoParts/motor_mount_inch.fcstd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/DemoParts/motor_mount_inch.fcstd",
+    "sha256": "fe11c6e74323aa0a4d987ed1681a90fb2c792d43657c42039ec40ffa3a18e212",
+    "bytes": 17451,
+    "metadata": [
+      {
+        "name": "Comment",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Comment\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Company",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Company\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "CreatedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreatedBy\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "CreationDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreationDate\" type=\"App::PropertyString\">\n\t\t\t<String value=\"Sun Nov 18 13:18:26 2012 \" />\n\t\t</Property>"
+      },
+      {
+        "name": "FileName",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"FileName\" type=\"App::PropertyString\">\n\t\t\t<String value=\"/home/danfalck/cadcam/freecad/freecad1/src/Mod/Path/DemoParts/motor_mount_inch.fcstd\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Id",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Id\" type=\"App::PropertyString\">\n\t\t\t<String value=\"23f38bf9-61c6-4898-9e1a-efabf9c6dc23\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Label",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Label\" type=\"App::PropertyString\">\n\t\t\t<String value=\"motor_mount_inch\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LastModifiedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedBy\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LastModifiedDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedDate\" type=\"App::PropertyString\">\n\t\t\t<String value=\"Sun Dec  7 13:06:11 2014&#10;\" />\n\t\t</Property>"
+      },
+      {
+        "name": "License",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"License\" type=\"App::PropertyString\">\n\t\t\t<String value=\"CC-BY 3.0\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LicenseURL",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LicenseURL\" type=\"App::PropertyString\">\n\t\t\t<String value=\"http://creativecommons.org/licenses/by/3.0/\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Material",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Material\" type=\"App::PropertyMap\">\n\t\t\t<Map count=\"0\">\n\t\t\t</Map>\n\t\t</Property>"
+      },
+      {
+        "name": "Meta",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Meta\" type=\"App::PropertyMap\">\n\t\t\t<Map count=\"0\">\n\t\t\t</Map>\n\t\t</Property>"
+      },
+      {
+        "name": "Uid",
+        "type": "App::PropertyUUID",
+        "xml": "<Property name=\"Uid\" type=\"App::PropertyUUID\">\n\t\t\t<Uuid value=\"9a254748-621c-42e5-9853-05aa331f4302\" />\n\t\t</Property>"
+      }
+    ],
+    "objects": [
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch001"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch002"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket001"
+      }
+    ],
+    "payload_candidates": [
+      {
+        "name": "Document.xml",
+        "bytes": 28247
+      },
+      {
+        "name": "GuiDocument.xml",
+        "bytes": 16832
+      }
+    ]
+  },
+  {
+    "path": "src/Mod/CAM/DemoParts/strange_part_with_holes.fcstd",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/DemoParts/strange_part_with_holes.fcstd",
+    "sha256": "18c987d2e2fe2d030fca4f1eba3be6cb1410575c7c586ac02a77669c05c87d95",
+    "bytes": 39670,
+    "metadata": [
+      {
+        "name": "Comment",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Comment\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Company",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Company\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "CreatedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreatedBy\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "CreationDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"CreationDate\" type=\"App::PropertyString\">\n\t\t\t<String value=\"Sun Nov 24 12:24:46 2013 \" />\n\t\t</Property>"
+      },
+      {
+        "name": "FileName",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"FileName\" type=\"App::PropertyString\">\n\t\t\t<String value=\"/home/danfalck/cadcam/freecad/freecad1/src/Mod/Path/DemoParts/strange_part_with_holes.fcstd\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Id",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Id\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Label",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"Label\" type=\"App::PropertyString\">\n\t\t\t<String value=\"strange_part_with_holes\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LastModifiedBy",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedBy\" type=\"App::PropertyString\">\n\t\t\t<String value=\"\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LastModifiedDate",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LastModifiedDate\" type=\"App::PropertyString\">\n\t\t\t<String value=\"Sun Dec  7 13:09:01 2014&#10;\" />\n\t\t</Property>"
+      },
+      {
+        "name": "License",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"License\" type=\"App::PropertyString\">\n\t\t\t<String value=\"CC-BY 3.0\" />\n\t\t</Property>"
+      },
+      {
+        "name": "LicenseURL",
+        "type": "App::PropertyString",
+        "xml": "<Property name=\"LicenseURL\" type=\"App::PropertyString\">\n\t\t\t<String value=\"http://creativecommons.org/licenses/by/3.0/\" />\n\t\t</Property>"
+      },
+      {
+        "name": "Material",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Material\" type=\"App::PropertyMap\">\n\t\t\t<Map count=\"0\">\n\t\t\t</Map>\n\t\t</Property>"
+      },
+      {
+        "name": "Meta",
+        "type": "App::PropertyMap",
+        "xml": "<Property name=\"Meta\" type=\"App::PropertyMap\">\n\t\t\t<Map count=\"0\">\n\t\t\t</Map>\n\t\t</Property>"
+      },
+      {
+        "name": "Uid",
+        "type": "App::PropertyUUID",
+        "xml": "<Property name=\"Uid\" type=\"App::PropertyUUID\">\n\t\t\t<Uuid value=\"d3ccbc2f-08bc-416d-9de1-d61d61470bba\" />\n\t\t</Property>"
+      }
+    ],
+    "objects": [
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad"
+      },
+      {
+        "type": "PartDesign::Fillet",
+        "name": "Fillet"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch001"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch002"
+      },
+      {
+        "type": "PartDesign::Pocket",
+        "name": "Pocket001"
+      },
+      {
+        "type": "Part::Feature",
+        "name": "Shape"
+      },
+      {
+        "type": "Part::Feature",
+        "name": "Shape001"
+      },
+      {
+        "type": "Part::Feature",
+        "name": "Pocket001_cs"
+      },
+      {
+        "type": "Part::Plane",
+        "name": "Plane001"
+      },
+      {
+        "type": "Sketcher::SketchObject",
+        "name": "Sketch003"
+      },
+      {
+        "type": "PartDesign::Pad",
+        "name": "Pad001"
+      },
+      {
+        "type": "Part::Feature",
+        "name": "Shape002"
+      },
+      {
+        "type": "PartDesign::Fillet",
+        "name": "Fillet001"
+      },
+      {
+        "type": "PartDesign::Fillet",
+        "name": "Fillet002"
+      }
+    ],
+    "payload_candidates": [
+      {
+        "name": "Document.xml",
+        "bytes": 24042
+      },
+      {
+        "name": "GuiDocument.xml",
+        "bytes": 41567
+      }
+    ]
+  }
+]

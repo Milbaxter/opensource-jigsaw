@@ -1,0 +1,138 @@
+[
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Base/Generator/linking.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Base/Generator/linking.py",
+    "local": "691a0419__src__Mod__CAM__Path__Base__Generator__linking.py",
+    "sha256": "6a9cf9573bb42590da26248e4459f1ccba0c63792b344e21cece2f0a2f0d40e4",
+    "bytes": 10823
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/CAMTests/TestLinkingGenerator.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/TestLinkingGenerator.py",
+    "local": "691a0419__src__Mod__CAM__CAMTests__TestLinkingGenerator.py",
+    "sha256": "fe926c4e3c40e3a8d89c214b79b5fc3460aa66c7c562b9debb34374a7b56a9e0",
+    "bytes": 8738
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Op/Adaptive.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Op/Adaptive.py",
+    "local": "691a0419__src__Mod__CAM__Path__Op__Adaptive.py",
+    "sha256": "e0bbb6c2ecab2e7fbe4cb52972b91a0cab1ac3998dcc6c99ec1925bd4473ed6a",
+    "bytes": 81925
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/libarea/Adaptive.cpp",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/Adaptive.cpp",
+    "local": "691a0419__src__Mod__CAM__libarea__Adaptive.cpp",
+    "sha256": "f00732d9f9cc85c5aebedb5ad95b6ae20bad8501c1f39983e0ab58de0bc279de",
+    "bytes": 178309
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Op/Drilling.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Op/Drilling.py",
+    "local": "691a0419__src__Mod__CAM__Path__Op__Drilling.py",
+    "sha256": "bfdc0ebf0afd3c7ed477f252c7e80faac198435e44cec05107af85445cde9ec4",
+    "bytes": 32179
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Op/Area.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Op/Area.py",
+    "local": "691a0419__src__Mod__CAM__Path__Op__Area.py",
+    "sha256": "3051a5886a5123c13615eb186c5d9e0ed1ce8fe3e85473d46b88fabe754cc602",
+    "bytes": 20426
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Op/PocketBase.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Op/PocketBase.py",
+    "local": "691a0419__src__Mod__CAM__Path__Op__PocketBase.py",
+    "sha256": "60acf1c15c8b34dcc6273ec26d0d6608fe07ad0424b14e47dd279fd7dbf10f2d",
+    "bytes": 13459
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/Path/Base/Generator/adaptive_common.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Base/Generator/adaptive_common.py",
+    "local": "691a0419__src__Mod__CAM__Path__Base__Generator__adaptive_common.py",
+    "sha256": "a5843771f6807caf7e528997d3c44b10f54dd880ce5718703ddcfc8c5b47a2d3",
+    "bytes": 21126
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/CAMTests/TestPathAdaptive.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/TestPathAdaptive.py",
+    "local": "691a0419__src__Mod__CAM__CAMTests__TestPathAdaptive.py",
+    "sha256": "b8ee2218bd2f325af70328b77b272197960859652303343b2f111e70043b1d68",
+    "bytes": 50061
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "src/Mod/CAM/CAMTests/TestPathPocket.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/CAMTests/TestPathPocket.py",
+    "local": "691a0419__src__Mod__CAM__CAMTests__TestPathPocket.py",
+    "sha256": "de1d877250ddbdf90fe1b7fde8ed9af3d900a7c7d35ce9537905a5e4439f4773",
+    "bytes": 30540
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/LICENSE",
+    "local": "691a0419__LICENSE",
+    "sha256": "7ffe1954587c77dfba1cf8eb9b2ea743671fa6e63f9e7a2f258119d42e14eefe",
+    "bytes": 27030
+  },
+  {
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "path": "LICENSES/LGPL-2.1-or-later.txt",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/LICENSES/LGPL-2.1-or-later.txt",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "commit": "145529fe741292ff0b3977a01195bf0247425794",
+    "path": "src/Mod/CAM/Path/Base/Generator/linking.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/145529fe741292ff0b3977a01195bf0247425794/src/Mod/CAM/Path/Base/Generator/linking.py",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "commit": "145529fe741292ff0b3977a01195bf0247425794",
+    "path": "src/Mod/CAM/CAMTests/TestLinkingGenerator.py",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/145529fe741292ff0b3977a01195bf0247425794/src/Mod/CAM/CAMTests/TestLinkingGenerator.py",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "src/Mod/CAM/libarea/Adaptive.hpp",
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/Adaptive.hpp",
+    "local": "691a0419__src__Mod__CAM__libarea__Adaptive.hpp",
+    "bytes": 10745,
+    "sha256": "2885bb57d259cd5fe2d987b41ecf1e268e9c4c8be1402fc23b315872eadd3894"
+  },
+  {
+    "path": "src/Mod/CAM/libarea/CMakeLists.txt",
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/CMakeLists.txt",
+    "local": "691a0419__src__Mod__CAM__libarea__CMakeLists.txt",
+    "bytes": 3865,
+    "sha256": "2a5a4a369e59d7188d69189c18fd90b3cd9ce232ca550d31e0093a64c33e9719"
+  },
+  {
+    "path": "src/Mod/CAM/libarea/AdaptiveWrapper.cpp",
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/libarea/AdaptiveWrapper.cpp",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "src/Mod/CAM/Path/Op/MillFace.py",
+    "commit": "691a041981b7972d3170ceadb96163019712d2b0",
+    "url": "https://raw.githubusercontent.com/FreeCAD/FreeCAD/691a041981b7972d3170ceadb96163019712d2b0/src/Mod/CAM/Path/Op/MillFace.py",
+    "local": "691a0419__src__Mod__CAM__Path__Op__MillFace.py",
+    "bytes": 15920,
+    "sha256": "ebc826759db3f181a5ec0fc9a9ba6ae73df93aba66a9d974ac35dfb236235487"
+  }
+]
