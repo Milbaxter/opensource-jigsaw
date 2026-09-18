@@ -1,0 +1,471 @@
+{
+  "scope": "Prospective harness controls on authored synthetic data; no asset experiment",
+  "implementation_sha256": "a99d224964c5434dc2cf7e475249f618ebd157d88d46e59b78ef677049fc89d8",
+  "cases": [
+    {
+      "id": "synthetic-00",
+      "passed": true,
+      "enumerated_feasible_vectors": 0,
+      "oracle_optimum": null,
+      "solver": {
+        "status": "INFEASIBLE",
+        "wall_seconds": 0.001991,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0
+      },
+      "process_wall_seconds": 17.762176374992123,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-01",
+      "passed": true,
+      "enumerated_feasible_vectors": 9,
+      "oracle_optimum": 130000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.003578,
+        "bound": 130000.0,
+        "scale": 1000000,
+        "branches": 16,
+        "conflicts": 0,
+        "vector": [
+          0,
+          1,
+          0
+        ],
+        "objective": 130000.0
+      },
+      "process_wall_seconds": 0.2885388750000857,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-02",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 90000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0023320000000000003,
+        "bound": 90000.0,
+        "scale": 1000000,
+        "branches": 15,
+        "conflicts": 0,
+        "vector": [
+          1,
+          0
+        ],
+        "objective": 90000.0
+      },
+      "process_wall_seconds": 0.21361241699196398,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-03",
+      "passed": true,
+      "enumerated_feasible_vectors": 10,
+      "oracle_optimum": 50000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.002787,
+        "bound": 50000.0,
+        "scale": 1000000,
+        "branches": 47,
+        "conflicts": 0,
+        "vector": [
+          0,
+          1,
+          0
+        ],
+        "objective": 50000.0
+      },
+      "process_wall_seconds": 0.2285232080030255,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-04",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 70000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.00218,
+        "bound": 70000.0,
+        "scale": 1000000,
+        "branches": 16,
+        "conflicts": 0,
+        "vector": [
+          1,
+          0
+        ],
+        "objective": 70000.0
+      },
+      "process_wall_seconds": 0.22743625001749024,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-05",
+      "passed": true,
+      "enumerated_feasible_vectors": 0,
+      "oracle_optimum": null,
+      "solver": {
+        "status": "INFEASIBLE",
+        "wall_seconds": 0.0004,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0
+      },
+      "process_wall_seconds": 0.20145670798956417,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-06",
+      "passed": true,
+      "enumerated_feasible_vectors": 3,
+      "oracle_optimum": 40000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.001968,
+        "bound": 40000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          1,
+          1
+        ],
+        "objective": 40000.0
+      },
+      "process_wall_seconds": 0.20301795899285935,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-07",
+      "passed": true,
+      "enumerated_feasible_vectors": 11,
+      "oracle_optimum": 70000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.004001,
+        "bound": 70000.0,
+        "scale": 1000000,
+        "branches": 87,
+        "conflicts": 0,
+        "vector": [
+          1,
+          2,
+          1
+        ],
+        "objective": 70000.0
+      },
+      "process_wall_seconds": 0.20690908300457522,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-08",
+      "passed": true,
+      "enumerated_feasible_vectors": 4,
+      "oracle_optimum": 100000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0017130000000000001,
+        "bound": 100000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          2,
+          0
+        ],
+        "objective": 100000.0
+      },
+      "process_wall_seconds": 0.20436462500947528,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-09",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 110000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0020050000000000003,
+        "bound": 110000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          1,
+          0,
+          1
+        ],
+        "objective": 110000.0
+      },
+      "process_wall_seconds": 0.20500962500227615,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-10",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 120000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.002434,
+        "bound": 120000.0,
+        "scale": 1000000,
+        "branches": 24,
+        "conflicts": 0,
+        "vector": [
+          1,
+          1
+        ],
+        "objective": 120000.0
+      },
+      "process_wall_seconds": 0.2057047499984037,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-11",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 130000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0023020000000000002,
+        "bound": 130000.0,
+        "scale": 1000000,
+        "branches": 19,
+        "conflicts": 1,
+        "vector": [
+          1,
+          1,
+          0
+        ],
+        "objective": 130000.0
+      },
+      "process_wall_seconds": 0.20055637499899603,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-12",
+      "passed": true,
+      "enumerated_feasible_vectors": 5,
+      "oracle_optimum": 80000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.002154,
+        "bound": 80000.0,
+        "scale": 1000000,
+        "branches": 14,
+        "conflicts": 0,
+        "vector": [
+          2,
+          1
+        ],
+        "objective": 80000.0
+      },
+      "process_wall_seconds": 0.20396949999849312,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-13",
+      "passed": true,
+      "enumerated_feasible_vectors": 0,
+      "oracle_optimum": null,
+      "solver": {
+        "status": "INFEASIBLE",
+        "wall_seconds": 0.000418,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0
+      },
+      "process_wall_seconds": 0.20446987499599345,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-14",
+      "passed": true,
+      "enumerated_feasible_vectors": 5,
+      "oracle_optimum": 40000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.001788,
+        "bound": 40000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          1,
+          0
+        ],
+        "objective": 40000.0
+      },
+      "process_wall_seconds": 0.2067488329776097,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-15",
+      "passed": true,
+      "enumerated_feasible_vectors": 11,
+      "oracle_optimum": 100000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.00236,
+        "bound": 100000.0,
+        "scale": 1000000,
+        "branches": 37,
+        "conflicts": 1,
+        "vector": [
+          1,
+          1,
+          0
+        ],
+        "objective": 100000.0
+      },
+      "process_wall_seconds": 0.20456716700573452,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-16",
+      "passed": true,
+      "enumerated_feasible_vectors": 6,
+      "oracle_optimum": 130000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0032700000000000003,
+        "bound": 130000.0,
+        "scale": 1000000,
+        "branches": 94,
+        "conflicts": 0,
+        "vector": [
+          2,
+          1
+        ],
+        "objective": 130000.0
+      },
+      "process_wall_seconds": 0.2021906249865424,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "synthetic-17",
+      "passed": true,
+      "enumerated_feasible_vectors": 0,
+      "oracle_optimum": null,
+      "solver": {
+        "status": "INFEASIBLE",
+        "wall_seconds": 0.00042500000000000003,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0
+      },
+      "process_wall_seconds": 0.19920862501021475,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "beneficial-interaction",
+      "passed": true,
+      "enumerated_feasible_vectors": 4,
+      "oracle_optimum": 10000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.0017280000000000002,
+        "bound": 10000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          1,
+          1
+        ],
+        "objective": 10000.0
+      },
+      "process_wall_seconds": 0.19912779098376632,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "minimax-not-mean",
+      "passed": true,
+      "enumerated_feasible_vectors": 2,
+      "oracle_optimum": 200000,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.001391,
+        "bound": 200000.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          1
+        ],
+        "objective": 200000.0
+      },
+      "process_wall_seconds": 0.20052779201068915,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "all-excluded",
+      "passed": true,
+      "enumerated_feasible_vectors": 0,
+      "oracle_optimum": null,
+      "solver": {
+        "status": "INFEASIBLE",
+        "wall_seconds": 0.000304,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0
+      },
+      "process_wall_seconds": 0.19722833298146725,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "id": "round-ties-even",
+      "passed": true,
+      "enumerated_feasible_vectors": 2,
+      "oracle_optimum": 0,
+      "solver": {
+        "status": "OPTIMAL",
+        "wall_seconds": 0.001435,
+        "bound": 0.0,
+        "scale": 1000000,
+        "branches": 0,
+        "conflicts": 0,
+        "vector": [
+          0
+        ],
+        "objective": 0.0
+      },
+      "process_wall_seconds": 0.20062420901376754,
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "passed": 22,
+  "total": 22
+}

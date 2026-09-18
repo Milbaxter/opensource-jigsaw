@@ -1,0 +1,48 @@
+"""Fixed-surrogate multiple-choice minimax allocation; stdin/stdout JSON."""
+import json
+import sys
+from ortools.sat.python import cp_model
+
+data = json.load(sys.stdin)
+model = cp_model.CpModel()
+choices = [[model.new_bool_var(f"x_{i}_{j}") for j in range(len(row))]
+           for i, row in enumerate(data["costs"])]
+for row in choices:
+    model.add_exactly_one(row)
+model.add(sum(v * data["costs"][i][j]
+              for i, row in enumerate(choices) for j, v in enumerate(row))
+          + data["overhead"] <= data["budget"])
+for vector in data["exclude"]:
+    model.add(sum(choices[i][j] for i, j in enumerate(vector)) <= len(choices) - 1)
+pairs = []
+for k, pair in enumerate(data["pairs"]):
+    z = model.new_bool_var(f"pair_{k}")
+    a = choices[pair["i"]][pair["o"]]
+    b = choices[pair["j"]][pair["p"]]
+    model.add(z <= a)
+    model.add(z <= b)
+    model.add(z >= a + b - 1)
+    pairs.append(z)
+q = lambda v: round(v * 1_000_000)
+maximum = model.new_int_var(-100_000_000, 100_000_000, "max_view_error")
+for view in range(6):
+    prediction = q(data["e0"][view]) + sum(
+        choices[i][o] * q(data["delta"][i][o][view])
+        for i, row in enumerate(choices) for o in range(len(row)))
+    prediction += sum(z * q(pair["correction"][view])
+                      for z, pair in zip(pairs, data["pairs"]))
+    model.add(maximum >= prediction)
+model.minimize(maximum)
+solver = cp_model.CpSolver()
+solver.parameters.num_search_workers = 1
+solver.parameters.random_seed = 9107
+solver.parameters.max_deterministic_time = 2.0
+solver.parameters.max_time_in_seconds = 10.0
+status = solver.solve(model)
+result = {"status": solver.status_name(status), "wall_seconds": solver.wall_time,
+          "bound": solver.best_objective_bound, "scale": 1_000_000,
+          "branches": solver.num_branches, "conflicts": solver.num_conflicts}
+if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
+    result["vector"] = [next(j for j, v in enumerate(row) if solver.value(v)) for row in choices]
+    result["objective"] = solver.objective_value
+json.dump(result, sys.stdout)

@@ -1,0 +1,115 @@
+"""Independent exhaustive synthetic check of the prospective minimax interface.
+
+No image, real asset, encoder, renderer, or commercial comparator is executed.
+"""
+
+import hashlib
+import itertools
+import json
+import pathlib
+import random
+import subprocess
+import time
+
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent / "round9-render-budget"
+SCRIPT = ROOT / "solve.py"
+PYTHON = ROOT / "venv/bin/python"
+
+
+def exhaustive(case):
+    feasible = []
+    banned = {tuple(v) for v in case["exclude"]}
+    for vector in itertools.product(*(range(len(v)) for v in case["costs"])):
+        if vector in banned:
+            continue
+        size = case["overhead"] + sum(case["costs"][i][o] for i, o in enumerate(vector))
+        if size > case["budget"]:
+            continue
+        errors = []
+        for view in range(6):
+            error = round(case["e0"][view] * 1_000_000)
+            for i, o in enumerate(vector):
+                error += round(case["delta"][i][o][view] * 1_000_000)
+            for pair in case["pairs"]:
+                if vector[pair["i"]] == pair["o"] and vector[pair["j"]] == pair["p"]:
+                    error += round(pair["correction"][view] * 1_000_000)
+            errors.append(error)
+        feasible.append({"vector": list(vector), "bytes": size, "objective": max(errors)})
+    return feasible
+
+
+def make_cases():
+    rng = random.Random(197103)
+    cases = []
+    # Diverse tiny state spaces, including negative deltas, competing views,
+    # positive and negative interactions, exclusions, and impossible byte caps.
+    for n in range(18):
+        counts = [2, 3, 2] if n % 2 else [3, 2]
+        costs = [[rng.randrange(1, 9) for _ in range(k)] for k in counts]
+        case = {
+            "id": f"synthetic-{n:02}",
+            "costs": costs,
+            "overhead": 3,
+            "budget": 2 if n == 0 else rng.randrange(6, 22),
+            "e0": [rng.randrange(0, 10) / 100 for _ in range(6)],
+            "delta": [[[rng.randrange(-10, 11) / 100 for _ in range(6)] for _ in range(k)] for k in counts],
+            "pairs": [{"i": 0, "o": 1, "j": 1, "p": 1,
+                       "correction": [rng.randrange(-15, 16) / 100 for _ in range(6)]}],
+            "exclude": [[0] * len(counts)] if n % 3 == 0 else [],
+        }
+        cases.append(case)
+    # This paired choice must be selected despite each component alone being worse.
+    cases.append({"id": "beneficial-interaction", "costs": [[1, 2], [1, 2]],
+                  "overhead": 0, "budget": 4, "e0": [0.1] * 6,
+                  "delta": [[[0] * 6, [0.02] * 6], [[0] * 6, [0.02] * 6]],
+                  "pairs": [{"i": 0, "o": 1, "j": 1, "p": 1, "correction": [-0.13] * 6}],
+                  "exclude": []})
+    # Worst-view minimization must reject the lower-average but bad worst-view choice.
+    cases.append({"id": "minimax-not-mean", "costs": [[1, 1]], "overhead": 0, "budget": 1,
+                  "e0": [0] * 6, "delta": [[[0.4, 0, 0, 0, 0, 0], [0.2] * 6]],
+                  "pairs": [], "exclude": []})
+    cases.append({"id": "all-excluded", "costs": [[1, 2]], "overhead": 0, "budget": 3,
+                  "e0": [0] * 6, "delta": [[[0] * 6, [-0.1] * 6]],
+                  "pairs": [], "exclude": [[0], [1]]})
+    cases.append({"id": "round-ties-even", "costs": [[1, 1]], "overhead": 0, "budget": 1,
+                  "e0": [0] * 6, "delta": [[[0.0000005] * 6, [0.0000015] * 6]],
+                  "pairs": [], "exclude": []})
+    return cases
+
+
+if __name__ == "__main__":
+    source_hash = hashlib.sha256(SCRIPT.read_bytes()).hexdigest()
+    cases = make_cases()
+    (HERE / "allocator-synthetic-inputs.json").write_text(json.dumps(cases, indent=2) + "\n")
+    records = []
+    for case in cases:
+        oracle = exhaustive(case)
+        started = time.monotonic()
+        proc = subprocess.run([str(PYTHON), str(SCRIPT)], input=json.dumps(case),
+                              text=True, capture_output=True, timeout=30)
+        result = json.loads(proc.stdout) if proc.returncode == 0 else None
+        if oracle:
+            optimal = min(r["objective"] for r in oracle)
+            feasible_by_vector = {tuple(r["vector"]): r for r in oracle}
+            selected = feasible_by_vector.get(tuple(result.get("vector", []))) if result else None
+            passed = bool(selected and result["status"] == "OPTIMAL"
+                          and selected["objective"] == optimal
+                          and result["objective"] == optimal
+                          and result["bound"] == optimal)
+        else:
+            optimal = None
+            passed = bool(result and result["status"] == "INFEASIBLE" and "vector" not in result)
+        records.append({"id": case["id"], "passed": passed,
+                        "enumerated_feasible_vectors": len(oracle),
+                        "oracle_optimum": optimal, "solver": result,
+                        "process_wall_seconds": time.monotonic() - started,
+                        "exit_code": proc.returncode, "stderr": proc.stderr})
+    assert hashlib.sha256(SCRIPT.read_bytes()).hexdigest() == source_hash, "Source changed during audit"
+    report = {"scope": "Prospective harness controls on authored synthetic data; no asset experiment",
+              "implementation_sha256": source_hash, "cases": records,
+              "passed": sum(r["passed"] for r in records), "total": len(records)}
+    (HERE / "allocator-synthetic-results.json").write_text(json.dumps(report, indent=2) + "\n")
+    print(json.dumps({"passed": report["passed"], "total": report["total"],
+                      "implementation_sha256": source_hash}))
+    raise SystemExit(0 if report["passed"] == report["total"] else 1)

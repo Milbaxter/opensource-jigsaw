@@ -1,0 +1,29 @@
+{
+  "scope": "synthetic harness controls, before real-asset protocol freeze",
+  "files": [
+    {
+      "source": "check_allocator.py",
+      "published": "check_allocator.py.txt",
+      "bytes": 5687,
+      "sha256": "46166530a13c52ce73595f3686fc78ee3468640e55d0c642af1f484e9c2b4be4"
+    },
+    {
+      "source": "allocator-synthetic-inputs.json",
+      "published": "allocator-synthetic-inputs.json",
+      "bytes": 26450,
+      "sha256": "75dc1e5c9a28be1b72ddf3d8c5dd9f0daeff503d48281681e50b6a5e53f12c10"
+    },
+    {
+      "source": "allocator-synthetic-results.json",
+      "published": "allocator-synthetic-results.json",
+      "bytes": 10973,
+      "sha256": "cb738134cb19e0bf2d486d2fa8ecef3f29e7205275b8828edfa21ef6772dbefb"
+    },
+    {
+      "source": "audited-solve-original.py.txt",
+      "published": "audited-solve-original.py.txt",
+      "bytes": 2065,
+      "sha256": "a99d224964c5434dc2cf7e475249f618ebd157d88d46e59b78ef677049fc89d8"
+    }
+  ]
+}
