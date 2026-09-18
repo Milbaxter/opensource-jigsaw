@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "researcher": "Manual Astra source inspection",
+  "date": "2026-09-18",
+  "performance_runs": 0,
+  "prototypes_executed": 0,
+  "outreach": false,
+  "pursuit_passes": 0,
+  "scores": null,
+  "entries": [
+    {
+      "id": "R9C01",
+      "name": "CTDL condition-profile typed linking",
+      "decision": "HOLD",
+      "reason": "Buyer Python already handles supplied example; corequisite ground truth and input reuse rights unresolved; RFP deadline passed.",
+      "proposed_repositories": [
+        "CredentialEngine/ctdl-xtra",
+        "lark-parser/lark",
+        "RDFLib/rdflib",
+        "RDFLib/pySHACL"
+      ],
+      "sources": [
+        "https://github.com/CredentialEngine/ctdl-xtra/issues/208",
+        "https://github.com/CredentialEngine/ctdl-xtra/issues/259",
+        "https://credentialengine.org/2026/07/09/credential-engine-releases-rfp-to-scale-ctdl-xtra-platform/"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "source inspection"
+    },
+    {
+      "id": "R9C02",
+      "name": "Multi-frame factor-graph optical-only video stabilization",
+      "decision": "HOLD",
+      "reason": "Existing native optical mode and active GMFlow PR; no demonstrated residual gap or licensed ground-truth clips; historical $500 offer not reconfirmed.",
+      "proposed_repositories": [
+        "gyroflow/gyroflow",
+        "opencv/opencv",
+        "borglab/gtsam"
+      ],
+      "sources": [
+        "https://github.com/gyroflow/gyroflow/issues/45",
+        "https://github.com/gyroflow/gyroflow/pull/1143"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "source inspection"
+    },
+    {
+      "id": "R9C03",
+      "name": "Browser denoising via ONNX/WebGPU execution",
+      "decision": "HOLD",
+      "reason": "Existing pmndrs denoiser and exact integration PR; no identified mechanism advantage.",
+      "proposed_repositories": [
+        "gkjohnson/three-gpu-pathtracer",
+        "RenderKit/oidn",
+        "microsoft/onnxruntime"
+      ],
+      "sources": [
+        "https://github.com/gkjohnson/three-gpu-pathtracer/issues/85",
+        "https://github.com/gkjohnson/three-gpu-pathtracer/pull/663",
+        "https://github.com/pmndrs/denoiser"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C04",
+      "name": "Arrow validity masks in nullable SQL proof circuits",
+      "decision": "REJECT_STALE_OPENING",
+      "reason": "Underlying issue closed despite bounty directory open label.",
+      "proposed_repositories": [
+        "spaceandtimefdn/sxt-proof-of-sql",
+        "apache/arrow"
+      ],
+      "sources": [
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/183"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C05",
+      "name": "Bounded state exploration for database crash recovery",
+      "decision": "REJECT_CLOSED_AND_REPEAT",
+      "reason": "Challenge completed and paid; generic QA overlaps earlier work.",
+      "proposed_repositories": [
+        "tursodatabase/turso",
+        "tlaplus/tlaplus"
+      ],
+      "sources": [
+        "https://algora.io/challenges/turso"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C06",
+      "name": "Compiler dependency graph type-cost attribution",
+      "decision": "HOLD",
+      "reason": "Bounty availability unclear; native analyze-trace already identifies related hot types, plus native compiler alternative.",
+      "proposed_repositories": [
+        "microsoft/TypeScript",
+        "google/perfetto",
+        "microsoft/typescript-analyze-trace"
+      ],
+      "sources": [
+        "https://algora.io/challenges/tsperf",
+        "https://github.com/microsoft/typescript-analyze-trace",
+        "https://github.com/microsoft/TypeScript/wiki/Performance"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C07",
+      "name": "Transactional virtual-array index updates",
+      "decision": "HOLD",
+      "reason": "RFP deadline passed; specific unserved update bottleneck not demonstrated.",
+      "proposed_repositories": [
+        "pydata/xarray",
+        "fsspec/kerchunk",
+        "earth-mover/icechunk"
+      ],
+      "sources": [
+        "https://secoora.org/wp-content/uploads/2026/02/SECOORA-DMAC-RFP-2026-2031_v2.pdf"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C08",
+      "name": "Typed identifier and unit contracts for supply EDI",
+      "decision": "HOLD",
+      "reason": "RFP deadline passed; representative prototype transactions not acquired, no verified unit failure.",
+      "proposed_repositories": [
+        "hyperledger/fabric",
+        "hgrecco/pint",
+        "pytransitions/transitions"
+      ],
+      "sources": [
+        "https://www.lmunet.edu/orgsp/request-for-proposal"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    },
+    {
+      "id": "R9C09",
+      "name": "Sandboxed streaming SQL WASM UDFs",
+      "decision": "REJECT_UNDIFFERENTIATED",
+      "reason": "Routine runtime integration; existing proposals and current payment availability unverified.",
+      "proposed_repositories": [
+        "getdozer/dozer",
+        "bytecodealliance/wasmtime",
+        "wasmi-labs/wasmi"
+      ],
+      "sources": [
+        "https://github.com/getdozer/dozer/issues/1653"
+      ],
+      "combination_status": "hypothesis, not validated integration",
+      "license_depth": "not audited; stopped before build"
+    }
+  ]
+}

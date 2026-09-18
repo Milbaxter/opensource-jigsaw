@@ -1,0 +1,117 @@
+[
+  {
+    "repo": "CredentialEngine/ctdl-xtra",
+    "url": "https://github.com/CredentialEngine/ctdl-xtra",
+    "stars_at_inspection": 7,
+    "commit": "772da7703a87bbc6ee48b82831eebad188825449",
+    "github_license_detection": "Apache-2.0",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/CredentialEngine/ctdl-xtra/blob/772da7703a87bbc6ee48b82831eebad188825449/LICENSE",
+        "sha256": "cae6867b992715987176ee76feb36c53eca77c805fe513de704c067f481fd2fe",
+        "bytes": 11352
+      }
+    ]
+  },
+  {
+    "repo": "lark-parser/lark",
+    "url": "https://github.com/lark-parser/lark",
+    "stars_at_inspection": 5986,
+    "commit": "9a4fb9c7458e8155636773a3cded0016d52516da",
+    "github_license_detection": "MIT",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/lark-parser/lark/blob/9a4fb9c7458e8155636773a3cded0016d52516da/LICENSE",
+        "sha256": "2eee60f52d4e11357bf89e72b034d050e285e47fda1361e5662fb322ee27d771",
+        "bytes": 1055
+      }
+    ]
+  },
+  {
+    "repo": "RDFLib/pySHACL",
+    "url": "https://github.com/RDFLib/pySHACL",
+    "stars_at_inspection": 349,
+    "commit": "469cca7a22a078b36c167c1e8dadecf5e5ec6c75",
+    "github_license_detection": "Apache-2.0",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "error": "gh: Not Found (HTTP 404)\n"
+      },
+      {
+        "path": "LICENSE.txt",
+        "url": "https://github.com/RDFLib/pySHACL/blob/469cca7a22a078b36c167c1e8dadecf5e5ec6c75/LICENSE.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      }
+    ]
+  },
+  {
+    "repo": "RDFLib/rdflib",
+    "url": "https://github.com/RDFLib/rdflib",
+    "stars_at_inspection": 2514,
+    "commit": "b3e60e79c9b0b85d760832fb7bd4d0da3392bb76",
+    "github_license_detection": "BSD-3-Clause",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/RDFLib/rdflib/blob/b3e60e79c9b0b85d760832fb7bd4d0da3392bb76/LICENSE",
+        "sha256": "53a705e51bfd199e8c97d0442376cb4bbd4ffcf13ba4f2c4c2794211400e4012",
+        "bytes": 1524
+      }
+    ]
+  },
+  {
+    "repo": "gyroflow/gyroflow",
+    "url": "https://github.com/gyroflow/gyroflow",
+    "stars_at_inspection": 9511,
+    "commit": "d918ab3594e539f25a67a9f1d2b8e042798f61f7",
+    "github_license_detection": "GPL-3.0",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/gyroflow/gyroflow/blob/d918ab3594e539f25a67a9f1d2b8e042798f61f7/LICENSE",
+        "sha256": "68d582065b2bb3f3daf767409f0bccfae1c71b9f72c332d1473a2d2e269b3209",
+        "bytes": 36157
+      }
+    ]
+  },
+  {
+    "repo": "borglab/gtsam",
+    "url": "https://github.com/borglab/gtsam",
+    "stars_at_inspection": 3686,
+    "commit": "d56360ce662cc5e94b96f3c5cbc398fc5775dd36",
+    "github_license_detection": "NOASSERTION",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/borglab/gtsam/blob/d56360ce662cc5e94b96f3c5cbc398fc5775dd36/LICENSE",
+        "sha256": "166a2480cceb95a561987cf51896cf28c735dc5af882a6f35dd12d7b548a4bb6",
+        "bytes": 1108
+      },
+      {
+        "path": "LICENSE.BSD",
+        "url": "https://github.com/borglab/gtsam/blob/d56360ce662cc5e94b96f3c5cbc398fc5775dd36/LICENSE.BSD",
+        "sha256": "ec9746ecc24d4b36c4c8412ced73a9c7351238396d1fd17b70b3ba1e6a2e5bd0",
+        "bytes": 1530
+      }
+    ]
+  },
+  {
+    "repo": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "stars_at_inspection": 90882,
+    "commit": "fb96a94a037c8d6bbb60e971e865dd89a052c031",
+    "github_license_detection": "Apache-2.0",
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/opencv/opencv/blob/fb96a94a037c8d6bbb60e971e865dd89a052c031/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      }
+    ]
+  }
+]

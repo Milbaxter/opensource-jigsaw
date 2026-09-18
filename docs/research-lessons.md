@@ -29,3 +29,5 @@ Continue-discovery, limited-research-test and validation-ready are distinct deci
 ## Follow funded work before prototyping
 
 The CAM screen found genuine native routing cost, but a later primary-source check revealed an approved grant covering its replacement. For future candidates, follow issue comments, linked funding proposals, maintainer progress updates and accessible development branches before investing in a prototype. Distinguish an approved grant from payment, an existing awarded project from an available contract, and a planned draft from a publicly tested implementation. This improves discovery order; it does not require a world-first algorithm or lower any pursuit gate.
+
+Bounty aggregators can retain closed tasks as apparent opportunities. Verify the underlying issue, deadline and award status. A broad multi-year procurement budget does not establish a price for one proposed component; existing buyer-authored scripts may already solve the apparent gap.

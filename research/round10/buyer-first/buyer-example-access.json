@@ -1,0 +1,18 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/1BiqA0tSV11HuXyOHDxdgpj1AqZhMot9-KpGHoi4uPgc/edit",
+  "download": "public Google Sheets XLSX export; no account or credentials used",
+  "bytes": 814548,
+  "sha256": "bf1feb34081ab20a147355b11b6bb1206f7b14e444e1556ee900ecb864cefd51",
+  "redistribution_license": "No explicit grant found; do not redistribute raw workbook or embedded code",
+  "sheets": [
+    "1. Original xTRA",
+    "2. xTRA with CTIDs",
+    "3. Pattern for Script",
+    "4. Script",
+    "5. Updated BU File",
+    "6. Missing Courses",
+    "7. Addl CTDL for Co-Prerequisit",
+    "Transposed Header and Samples "
+  ],
+  "embedded_code_fragments": 3
+}

@@ -45,7 +45,9 @@ Before investing in a prototype, compare against the strongest simple baseline a
 products. Follow relevant issue comments, linked grants, maintainer progress updates, and public
 development branches: active funded work can be the closest alternative even before release.
 Distinguish proposed or approved funding from payment, and an awarded project from an available
-contract. An inaccessible planned implementation is an uncertainty, not proof it does not exist.
+contract. Check underlying bounty issue state and procurement deadlines/award status; aggregator
+listings can be stale. A multi-year project budget is not a price for one proposed feature.
+An inaccessible planned implementation is an uncertainty, not proof it does not exist.
 Define one same-input, falsifiable advantage; running the bridge alone is insufficient.
 Never report a proposed experiment as executed or seeded synthetic defects as production failures.
 Record all unresolved CRITICAL assumptions; do not erase them to help an idea pass. Describe

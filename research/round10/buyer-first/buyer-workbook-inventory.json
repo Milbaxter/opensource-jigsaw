@@ -1,0 +1,42 @@
+[
+  {
+    "sheet": "1. Original xTRA",
+    "xml_rows": 1755,
+    "maximum_row_number": 1755
+  },
+  {
+    "sheet": "2. xTRA with CTIDs",
+    "xml_rows": 1755,
+    "maximum_row_number": 1755
+  },
+  {
+    "sheet": "3. Pattern for Script",
+    "xml_rows": 4,
+    "maximum_row_number": 4
+  },
+  {
+    "sheet": "4. Script",
+    "xml_rows": 366,
+    "maximum_row_number": 366
+  },
+  {
+    "sheet": "5. Updated BU File",
+    "xml_rows": 1847,
+    "maximum_row_number": 1847
+  },
+  {
+    "sheet": "6. Missing Courses",
+    "xml_rows": 12,
+    "maximum_row_number": 12
+  },
+  {
+    "sheet": "7. Addl CTDL for Co-Prerequisit",
+    "xml_rows": 1850,
+    "maximum_row_number": 1850
+  },
+  {
+    "sheet": "Transposed Header and Samples ",
+    "xml_rows": 1000,
+    "maximum_row_number": 1000
+  }
+]
