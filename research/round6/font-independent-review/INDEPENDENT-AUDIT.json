@@ -1,0 +1,979 @@
+{
+  "audited_at_utc": "2026-09-18T11:05:49.926763+00:00",
+  "collector_imported": false,
+  "full_replay_status": "HOLD_CEILING",
+  "fonts": [
+    {
+      "font": "FiraCode-5.2-FiraCode-Regular.ttf",
+      "font_sha256": "28c3ae21a853f1d74673384c7a0d620abb0e877b8c6cd8b64173a95512476824",
+      "author_replay_observations_byte_identical": true,
+      "decompressed_observations_sha256": "ce0313902e48e596180740ed6d923ef854ccb633b61efe76c48c8d0aa2e92d4e",
+      "observations": 16716,
+      "retained_native_witnesses_audited": 56,
+      "target_count": 103,
+      "covered": 98,
+      "uncovered": [
+        45,
+        92,
+        116,
+        119,
+        120
+      ],
+      "within_budget": true,
+      "elapsed_total_seconds": 6.1114882080000825,
+      "peak_rss_bytes": 87293952,
+      "witnesses": [
+        {
+          "text": "==!!===",
+          "native_covered": [
+            43,
+            77,
+            79
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#! #= ##",
+          "native_covered": [
+            93,
+            94,
+            126
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#( #? #_",
+          "native_covered": [
+            95,
+            96,
+            97
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#{ #[ ]#",
+          "native_covered": [
+            73,
+            90,
+            91
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "-- -~ .-",
+          "native_covered": [
+            81,
+            82,
+            100
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ".= := ::",
+          "native_covered": [
+            74,
+            75,
+            99
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/\\ \\/ |-",
+          "native_covered": [
+            113,
+            114,
+            121
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<< <= <>",
+          "native_covered": [
+            37,
+            86,
+            87
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~ ~~ ~>",
+          "native_covered": [
+            62,
+            64,
+            83
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "?? %% &&",
+          "native_covered": [
+            60,
+            98,
+            107
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "^= ?= /=",
+          "native_covered": [
+            61,
+            105,
+            117
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|> <| ||",
+          "native_covered": [
+            30,
+            31,
+            35
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "++ **",
+          "native_covered": [
+            66,
+            104
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ".? ?.",
+          "native_covered": [
+            102,
+            106
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/* */",
+          "native_covered": [
+            68,
+            109
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ">= >>",
+          "native_covered": [
+            36,
+            80
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "{| [|",
+          "native_covered": [
+            71,
+            72
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|] |}",
+          "native_covered": [
+            69,
+            70
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "!= !==",
+          "native_covered": [
+            44,
+            78
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "---<<<",
+          "native_covered": [
+            34,
+            46
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ".. ...",
+          "native_covered": [
+            56,
+            101
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/// //",
+          "native_covered": [
+            58,
+            111
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<$ <$>",
+          "native_covered": [
+            50,
+            85
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<* <*>",
+          "native_covered": [
+            49,
+            84
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<+ <+>",
+          "native_covered": [
+            51,
+            88
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "www Fl",
+          "native_covered": [
+            59,
+            118
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "</ <!--",
+          "native_covered": [
+            38,
+            89
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<|| |||",
+          "native_covered": [
+            29,
+            32
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "||> <|||",
+          "native_covered": [
+            27,
+            28
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "~- -~ ~@",
+          "native_covered": [
+            63,
+            65,
+            81
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "$>",
+          "native_covered": [
+            76
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "*>",
+          "native_covered": [
+            67
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "*a",
+          "native_covered": [
+            124
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+>",
+          "native_covered": [
+            103
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+a",
+          "native_covered": [
+            123
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "-a",
+          "native_covered": [
+            122
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/>",
+          "native_covered": [
+            110
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":<",
+          "native_covered": [
+            112
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":A",
+          "native_covered": [
+            125
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ";;",
+          "native_covered": [
+            108
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "__",
+          "native_covered": [
+            127
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#_(",
+          "native_covered": [
+            53
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "***",
+          "native_covered": [
+            40
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+++",
+          "native_covered": [
+            57
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "..<",
+          "native_covered": [
+            55
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "..=",
+          "native_covered": [
+            54
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "0xF",
+          "native_covered": [
+            115
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":::",
+          "native_covered": [
+            41
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "::=",
+          "native_covered": [
+            42
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "</>",
+          "native_covered": [
+            52
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<|>",
+          "native_covered": [
+            25
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~>",
+          "native_covered": [
+            48
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~~",
+          "native_covered": [
+            47
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ">>>",
+          "native_covered": [
+            33
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "~~>",
+          "native_covered": [
+            39
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|||>",
+          "native_covered": [
+            26
+          ],
+          "traced_untraced_equal": true
+        }
+      ]
+    },
+    {
+      "font": "FiraCode-6.2-FiraCode-Regular.ttf",
+      "font_sha256": "5992ab9640e2df491b2f609467b1de60e8bc39b2c28db184342a0592d98f6117",
+      "author_replay_observations_byte_identical": true,
+      "decompressed_observations_sha256": "85e8db5912625a8da7f35363bf4bc656ccd1158e30a067240a802a8ef1d5d256",
+      "observations": 16716,
+      "retained_native_witnesses_audited": 55,
+      "target_count": 101,
+      "covered": 95,
+      "uncovered": [
+        95,
+        206,
+        260,
+        274,
+        276,
+        300
+      ],
+      "within_budget": true,
+      "elapsed_total_seconds": 6.059930582996458,
+      "peak_rss_bytes": 89784320,
+      "witnesses": [
+        {
+          "text": "==!!===",
+          "native_covered": [
+            88,
+            173,
+            178
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#! #= ##",
+          "native_covered": [
+            208,
+            210,
+            306
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#( #? #_",
+          "native_covered": [
+            212,
+            214,
+            216
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#{ #[ ]#",
+          "native_covered": [
+            164,
+            202,
+            204
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "-- |> <|",
+          "native_covered": [
+            46,
+            48,
+            185
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/\\ \\/ |-",
+          "native_covered": [
+            251,
+            253,
+            281
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<< <= <>",
+          "native_covered": [
+            68,
+            194,
+            196
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~ ~~ ~>",
+          "native_covered": [
+            140,
+            145,
+            188
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "?? %% &&",
+          "native_covered": [
+            135,
+            218,
+            235
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "^= ?= /=",
+          "native_covered": [
+            138,
+            231,
+            261
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "~- -~ ~@",
+          "native_covered": [
+            143,
+            147,
+            183
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":=!=",
+          "native_covered": [
+            169,
+            176
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "++ **",
+          "native_covered": [
+            149,
+            228
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ".? ?.",
+          "native_covered": [
+            224,
+            233
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/* */",
+          "native_covered": [
+            154,
+            241
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ";; ::",
+          "native_covered": [
+            166,
+            238
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ">= >>",
+          "native_covered": [
+            65,
+            181
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "{| [|",
+          "native_covered": [
+            160,
+            162
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|] |}",
+          "native_covered": [
+            156,
+            158
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|| ..",
+          "native_covered": [
+            62,
+            221
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/// //",
+          "native_covered": [
+            127,
+            245
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<$ <$>",
+          "native_covered": [
+            105,
+            192
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<* <*>",
+          "native_covered": [
+            103,
+            190
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<+ <+>",
+          "native_covered": [
+            107,
+            198
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "www Fl",
+          "native_covered": [
+            131,
+            272
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "... ..<",
+          "native_covered": [
+            116,
+            119
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "</ <!--",
+          "native_covered": [
+            71,
+            200
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<|| |||",
+          "native_covered": [
+            43,
+            50
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "||> <|||",
+          "native_covered": [
+            36,
+            40
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "$>",
+          "native_covered": [
+            171
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "*>",
+          "native_covered": [
+            152
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "*a",
+          "native_covered": [
+            297
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+>",
+          "native_covered": [
+            226
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+a",
+          "native_covered": [
+            294
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "-a",
+          "native_covered": [
+            291
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "/>",
+          "native_covered": [
+            243
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":<",
+          "native_covered": [
+            248
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":A",
+          "native_covered": [
+            303
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "__",
+          "native_covered": [
+            310
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "!==",
+          "native_covered": [
+            92
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "#_(",
+          "native_covered": [
+            111
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "***",
+          "native_covered": [
+            77
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "+++",
+          "native_covered": [
+            123
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "..=",
+          "native_covered": [
+            113
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "0xF",
+          "native_covered": [
+            255
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ":::",
+          "native_covered": [
+            81
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "::=",
+          "native_covered": [
+            85
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "</>",
+          "native_covered": [
+            109
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<<<",
+          "native_covered": [
+            58
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<|>",
+          "native_covered": [
+            30
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~>",
+          "native_covered": [
+            101
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "<~~",
+          "native_covered": [
+            98
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": ">>>",
+          "native_covered": [
+            54
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "~~>",
+          "native_covered": [
+            74
+          ],
+          "traced_untraced_equal": true
+        },
+        {
+          "text": "|||>",
+          "native_covered": [
+            32
+          ],
+          "traced_untraced_equal": true
+        }
+      ]
+    }
+  ],
+  "negative_and_positive_controls": [
+    {
+      "name": "single",
+      "raw_trace_outer_effects": [
+        0
+      ],
+      "independent_expected_final_glyph_ids": [
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "unmatched",
+      "raw_trace_outer_effects": [],
+      "independent_expected_final_glyph_ids": [
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "nested",
+      "raw_trace_outer_effects": [
+        1
+      ],
+      "independent_expected_final_glyph_ids": [
+        3,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "name": "failed_nested",
+      "raw_trace_outer_effects": [],
+      "independent_expected_final_glyph_ids": [
+        2,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "name": "restored",
+      "raw_trace_outer_effects": [],
+      "independent_expected_final_glyph_ids": [
+        2,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "name": "ignore",
+      "raw_trace_outer_effects": [],
+      "independent_expected_final_glyph_ids": [
+        2,
+        3
+      ],
+      "passed": true
+    },
+    {
+      "name": "boundary",
+      "raw_trace_outer_effects": [],
+      "independent_expected_final_glyph_ids": [
+        2
+      ],
+      "passed": true
+    }
+  ],
+  "verdict": "HOLD: existing budget-eligible baseline leaves only 5 and 6 roots; proposed >=10 gain impossible."
+}

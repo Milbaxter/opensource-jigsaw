@@ -1,0 +1,89 @@
+{
+  "note": "Final HOLD report supersedes earlier prospective status. Original Python checker bytes preserved as .py.txt; restore original filename and scratch sibling inputs for replay. Manifest source hashes remain unchanged.",
+  "files": [
+    {
+      "path": "PRE-RESULT-REVIEW.md",
+      "bytes": 8760,
+      "sha256": "2e7eef758e1aa8998547643382867cbd30737bcd15c2dc7ea6cdb2b9e9dbf735",
+      "published_path": "PRE-RESULT-REVIEW.md"
+    },
+    {
+      "path": "structural-root-inspection.json",
+      "bytes": 62111,
+      "sha256": "959c057e9c2e710ef38888af313291876baeb17ea675a941df29eb175d5bce22",
+      "published_path": "structural-root-inspection.json"
+    },
+    {
+      "path": "STAGE0-READINESS.md",
+      "bytes": 2376,
+      "sha256": "9b4d79867dd5903e572857df2aea2522e8d336de4c4f52c89be4bc959f31302a",
+      "published_path": "STAGE0-READINESS.md"
+    },
+    {
+      "path": "STAGE0-STATIC-REVIEW.md",
+      "bytes": 4207,
+      "sha256": "a600eb251c1b054eb596a3b6613a2efab174cd7ec26a74f034907376a148e1a3",
+      "published_path": "STAGE0-STATIC-REVIEW.md"
+    },
+    {
+      "path": "native-source-manifest.json",
+      "bytes": 1583,
+      "sha256": "f6913b83a813e8b7d7b74bdee566eb64dc30b87efe100f8b64fa8aa805f11c29",
+      "published_path": "native-source-manifest.json"
+    },
+    {
+      "path": "POST-RESULT-REVIEW.md",
+      "bytes": 4774,
+      "sha256": "d84d5dec7a4dbfec399df1579383abb55f6f16ce13fd0acd6b6b638197b1dbef",
+      "published_path": "POST-RESULT-REVIEW.md"
+    },
+    {
+      "path": "independent-audit.py",
+      "bytes": 5853,
+      "sha256": "9b12c8dc6b098bc6e157eb22b080973db91a63cc3a73921c281c255765db1d3b",
+      "published_path": "independent-audit.py.txt"
+    },
+    {
+      "path": "INDEPENDENT-AUDIT.json",
+      "bytes": 20510,
+      "sha256": "3ad18e243fc4e5d6aadf37cf1c362be9e7c36129a600ccdaa1267b1d10a7d745",
+      "published_path": "INDEPENDENT-AUDIT.json"
+    },
+    {
+      "path": "replay-1/replay-input-manifest.json",
+      "bytes": 1823,
+      "sha256": "337a2a4363820896a3687a0c4f9a955244029d1e4ea4e6a8caccffb7bf88f02e",
+      "published_path": "replay-1/replay-input-manifest.json"
+    },
+    {
+      "path": "replay-1/console.log",
+      "bytes": 90,
+      "sha256": "ce1da23c179682d45e7934928c454a042e3cca125a3b79533b7c11daae0d2c55",
+      "published_path": "replay-1/console.log"
+    },
+    {
+      "path": "replay-1/stage0-execution/execution-start.json",
+      "bytes": 225,
+      "sha256": "30b497bf98d5278229fc9fa9f86d086ac96ed82bfa34a9c99d24404a8323a263",
+      "published_path": "replay-1/stage0-execution/execution-start.json"
+    },
+    {
+      "path": "replay-1/stage0-execution/corpus.json",
+      "bytes": 158,
+      "sha256": "28aac6eaf95614af251442cf7af67da3075e365be79d7748f7b6886cf08a26ff",
+      "published_path": "replay-1/stage0-execution/corpus.json"
+    },
+    {
+      "path": "replay-1/stage0-execution/controls.json",
+      "bytes": 54716,
+      "sha256": "abf84ee024c3b49b648525f04ac3697da2b10a15126ca0016e79495c6d84a6cb",
+      "published_path": "replay-1/stage0-execution/controls.json"
+    },
+    {
+      "path": "replay-1/stage0-execution/summary.json",
+      "bytes": 19445,
+      "sha256": "24fa18b89fa947beb397746555f33a03caeeeec23f929cd3ee30408901c9ea55",
+      "published_path": "replay-1/stage0-execution/summary.json"
+    }
+  ]
+}

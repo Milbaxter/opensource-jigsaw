@@ -1,0 +1,80 @@
+[
+  {
+    "repo": "DerKevinRiehl/sumoITScontrol",
+    "commit": "48a88131f35e2a42f6e0b4511f2f1ee0792daa40",
+    "reported_license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "retrieved_utc": "2026-09-18T11:05:12.488195+00:00",
+    "files": [
+      {
+        "path": "sumoITScontrol-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/DerKevinRiehl/sumoITScontrol/48a88131f35e2a42f6e0b4511f2f1ee0792daa40/LICENSE",
+        "bytes": 35153,
+        "sha256": "c2e3e0bee457e94ee1aa1aeae5d1977a55d107bf5eb9b4221ef5b12e7fd56e51"
+      },
+      {
+        "path": "sumoITScontrol-README.md",
+        "source_url": "https://raw.githubusercontent.com/DerKevinRiehl/sumoITScontrol/48a88131f35e2a42f6e0b4511f2f1ee0792daa40/README.md",
+        "bytes": 18590,
+        "sha256": "6e83cfab848879fc403a745ff14d6b86de7cdff5ac4f4117c040e089bc439afa"
+      }
+    ]
+  },
+  {
+    "repo": "UMN-Choi-Lab/BO4Mob",
+    "commit": "ef571e6819a6e1eb13388f7c0454d32f665b6ce4",
+    "reported_license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retrieved_utc": "2026-09-18T11:05:12.351110+00:00",
+    "files": [
+      {
+        "path": "BO4Mob-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/UMN-Choi-Lab/BO4Mob/ef571e6819a6e1eb13388f7c0454d32f665b6ce4/LICENSE",
+        "bytes": 1096,
+        "sha256": "0a1dcbf5fd3ef2c224226b4816d5a1b7c3a05e1f68c82c85b45fa3abe7cf2249"
+      },
+      {
+        "path": "BO4Mob-README.md",
+        "source_url": "https://raw.githubusercontent.com/UMN-Choi-Lab/BO4Mob/ef571e6819a6e1eb13388f7c0454d32f665b6ce4/README.md",
+        "bytes": 29030,
+        "sha256": "dbe6a49f7a05bbf54779e284716357f3d89a64d4fc80b092c8638640d0d4f5d8"
+      }
+    ]
+  },
+  {
+    "repo": "UMN-Choi-Lab/BO4Mob_data",
+    "commit": "a75603b67fe333011409e712c5a9409fbe92a049",
+    "reported_license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "retrieved_utc": "2026-09-18T11:05:12.013597+00:00",
+    "files": [
+      {
+        "path": "BO4Mob_data-LICENSE",
+        "source_url": "https://raw.githubusercontent.com/UMN-Choi-Lab/BO4Mob_data/a75603b67fe333011409e712c5a9409fbe92a049/LICENSE",
+        "bytes": 1095,
+        "sha256": "82c8bfd17b3aba44976e2476e2032111dd2240ec8eba53a69fc06a20b26c2f33"
+      },
+      {
+        "path": "BO4Mob_data-README.md",
+        "source_url": "https://raw.githubusercontent.com/UMN-Choi-Lab/BO4Mob_data/a75603b67fe333011409e712c5a9409fbe92a049/README.md",
+        "bytes": 701,
+        "sha256": "2cd7e4441cd7d7780741477ec12b36bdfcdd238169892fc3514d46d2e1f69e93"
+      }
+    ]
+  }
+]

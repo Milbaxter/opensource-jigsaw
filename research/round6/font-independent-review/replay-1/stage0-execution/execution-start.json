@@ -1,0 +1,6 @@
+{
+  "source_sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab",
+  "protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32",
+  "python": "3.14.6",
+  "harfbuzz": "12.3.0"
+}

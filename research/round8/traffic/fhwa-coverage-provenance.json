@@ -1,0 +1,7 @@
+{
+  "url": "https://data.transportation.gov/resource/ag7u-9n3t.json?%24select=count%28%2A%29+as+rows%2Ccount%28volume%29+as+volume_rows%2Ccount%28max_lanes_closed%29+as+max_lanes_closed_rows%2Ccount%28distinct+id%29+as+workzones%2Cmin%28measurement_tstamp%29+as+earliest%2Cmax%28measurement_tstamp%29+as+latest",
+  "sha256": "0af3b12ec9dfee23472f129f98a7eb5bbf18e907885aa3f96d441f68fc847b15",
+  "bytes": 167,
+  "retrieved_utc": "2026-09-18T11:04:07.759043+00:00",
+  "operation": "aggregate metadata coverage, not performance evaluation"
+}

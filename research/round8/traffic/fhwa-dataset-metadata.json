@@ -1,0 +1,2703 @@
+{
+  "id": "ag7u-9n3t",
+  "name": "Data for Artificial Intelligence: Data-Centric AI for Transportation: Work Zone Use Case Processed Integrated Traffic Work Zone Data",
+  "assetType": "dataset",
+  "attribution": "U.S. Department of Transportation Intelligent Transportation Systems Joint Program Office (JPO) -- Recommended citation: \"U.S. Department of Transportation Federal Highway Administration. (2024). Data for Artificial Intelligence: Data-Centric AI for Transportation: Work Zone Use Case Processed Integrated Traffic Work Zone Data. [Dataset]. Provided by ITS DataHub through Data.transportation.gov. Accessed YYYY-MM-DD from https://doi.org/10.21949/1404187\"",
+  "averageRating": 0,
+  "category": "Roadways and Bridges",
+  "createdAt": 1726513304,
+  "description": "Data for Artificial Intelligence: Data-Centric AI for Transportation: Work Zone Use Case proposes a data integration pipeline that enhances the utilization of work zone and traffic data from diversified platforms and introduces a novel deep learning model to predict the traffic speed and traffic collision likelihood during planned work zone events. This dataset is the processed integrated traffic data with work zone and incident information. Attached below are the number of lanes data and impacted work zone .pkl file.",
+  "diciBackend": false,
+  "displayType": "table",
+  "domainCName": "data.transportation.gov",
+  "downloadCount": 2688,
+  "hideFromCatalog": false,
+  "hideFromDataJson": false,
+  "locked": false,
+  "newBackend": true,
+  "numberOfComments": 0,
+  "oid": 40866137,
+  "provenance": "official",
+  "publicationAppendEnabled": false,
+  "publicationDate": 1726513721,
+  "publicationGroup": 19651585,
+  "publicationStage": "published",
+  "rowsUpdatedAt": 1726515156,
+  "tableId": 19651585,
+  "totalTimesRated": 0,
+  "viewCount": 817,
+  "viewLastModified": 1788387301,
+  "viewType": "tabular",
+  "approvals": [
+    {
+      "reviewedAt": 1732136538,
+      "reviewedAutomatically": false,
+      "state": "approved",
+      "submissionId": 6620117,
+      "submissionObject": "public_audience_request",
+      "submissionOutcome": "change_audience",
+      "submittedAt": 1732125048,
+      "targetAudience": "public",
+      "workflowId": 568,
+      "reviewer": {
+        "id": "a95h-dqad",
+        "displayName": "DOT DataHub (DoNotDelete)"
+      },
+      "submissionDetails": {
+        "permissionType": "read"
+      },
+      "submissionOutcomeApplication": {
+        "endedAt": 1732136538,
+        "failureCount": 0,
+        "startedAt": 1732136538,
+        "status": "success"
+      },
+      "submitter": {
+        "id": "vvef-p4qd",
+        "displayName": "Elina Zlotchenko"
+      }
+    },
+    {
+      "message": "The `strict_permissions` flag must be on to enable internal approvals.",
+      "state": "unsubmittable",
+      "targetAudience": "internal",
+      "workflowId": 5258
+    }
+  ],
+  "clientContext": {
+    "clientContextVariables": [],
+    "inheritedVariables": {}
+  },
+  "columns": [
+    {
+      "id": 599458532,
+      "name": "tmc_code",
+      "dataTypeName": "text",
+      "fieldName": "tmc_code",
+      "position": 1,
+      "renderTypeName": "text",
+      "tableColumnId": 154871046,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "122P08164",
+        "null": "0",
+        "top": [
+          {
+            "item": "110P04424",
+            "count": "8658"
+          },
+          {
+            "item": "110+04425",
+            "count": "8365"
+          },
+          {
+            "item": "110P04425",
+            "count": "8267"
+          },
+          {
+            "item": "110+04424",
+            "count": "7722"
+          },
+          {
+            "item": "110N04438",
+            "count": "7604"
+          },
+          {
+            "item": "110-04437",
+            "count": "7201"
+          },
+          {
+            "item": "110-04438",
+            "count": "7201"
+          },
+          {
+            "item": "110N04437",
+            "count": "6771"
+          },
+          {
+            "item": "110+04551",
+            "count": "6538"
+          },
+          {
+            "item": "110P04551",
+            "count": "6538"
+          },
+          {
+            "item": "110+04550",
+            "count": "6538"
+          },
+          {
+            "item": "110P04549",
+            "count": "6538"
+          },
+          {
+            "item": "110-04436",
+            "count": "6519"
+          },
+          {
+            "item": "110N04436",
+            "count": "6519"
+          },
+          {
+            "item": "110-04431",
+            "count": "6483"
+          },
+          {
+            "item": "110-04432",
+            "count": "6157"
+          },
+          {
+            "item": "110-04672",
+            "count": "6157"
+          },
+          {
+            "item": "110+04511",
+            "count": "5738"
+          },
+          {
+            "item": "110+04430",
+            "count": "5693"
+          },
+          {
+            "item": "110+04429",
+            "count": "5693"
+          }
+        ],
+        "smallest": "110-04098",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458533,
+      "name": "measurement_tstamp",
+      "dataTypeName": "calendar_date",
+      "fieldName": "measurement_tstamp",
+      "position": 2,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154871047,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2019-12-29T13:00:00.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2016-03-09T12:00:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T11:00:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T12:45:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T00:00:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T11:45:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T12:30:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T11:30:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T12:15:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T11:15:00.000",
+            "count": "620"
+          },
+          {
+            "item": "2016-03-09T00:30:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-09T01:30:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-09T00:45:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-09T01:00:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-09T00:15:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-09T01:15:00.000",
+            "count": "618"
+          },
+          {
+            "item": "2016-03-08T23:45:00.000",
+            "count": "615"
+          },
+          {
+            "item": "2016-03-08T23:30:00.000",
+            "count": "615"
+          },
+          {
+            "item": "2016-03-09T13:00:00.000",
+            "count": "613"
+          },
+          {
+            "item": "2016-03-08T23:15:00.000",
+            "count": "612"
+          },
+          {
+            "item": "2016-03-09T10:45:00.000",
+            "count": "611"
+          }
+        ],
+        "smallest": "2016-01-03T20:00:00.000",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458534,
+      "name": "speed",
+      "dataTypeName": "number",
+      "fieldName": "speed",
+      "position": 3,
+      "renderTypeName": "number",
+      "tableColumnId": 154871048,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "84.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "29.0",
+            "count": "16691"
+          },
+          {
+            "item": "26.0",
+            "count": "15868"
+          },
+          {
+            "item": "31.0",
+            "count": "15703"
+          },
+          {
+            "item": "34.0",
+            "count": "15368"
+          },
+          {
+            "item": "27.0",
+            "count": "15038"
+          },
+          {
+            "item": "32.0",
+            "count": "14696"
+          },
+          {
+            "item": "30.0",
+            "count": "14556"
+          },
+          {
+            "item": "36.0",
+            "count": "14511"
+          },
+          {
+            "item": "33.0",
+            "count": "14469"
+          },
+          {
+            "item": "35.0",
+            "count": "14449"
+          },
+          {
+            "item": "28.0",
+            "count": "14393"
+          },
+          {
+            "item": "37.0",
+            "count": "13855"
+          },
+          {
+            "item": "24.0",
+            "count": "13684"
+          },
+          {
+            "item": "21.0",
+            "count": "12635"
+          },
+          {
+            "item": "25.0",
+            "count": "12544"
+          },
+          {
+            "item": "60.0",
+            "count": "12503"
+          },
+          {
+            "item": "38.0",
+            "count": "11498"
+          },
+          {
+            "item": "22.0",
+            "count": "11380"
+          },
+          {
+            "item": "23.0",
+            "count": "11332"
+          },
+          {
+            "item": "19.0",
+            "count": "10547"
+          }
+        ],
+        "smallest": "1.33",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458535,
+      "name": "average_speed",
+      "dataTypeName": "number",
+      "fieldName": "average_speed",
+      "position": 4,
+      "renderTypeName": "number",
+      "tableColumnId": 154871049,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "81.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "59.0",
+            "count": "158324"
+          },
+          {
+            "item": "60.0",
+            "count": "146841"
+          },
+          {
+            "item": "58.0",
+            "count": "140452"
+          },
+          {
+            "item": "61.0",
+            "count": "136862"
+          },
+          {
+            "item": "63.0",
+            "count": "107674"
+          },
+          {
+            "item": "57.0",
+            "count": "106534"
+          },
+          {
+            "item": "62.0",
+            "count": "103389"
+          },
+          {
+            "item": "64.0",
+            "count": "96107"
+          },
+          {
+            "item": "65.0",
+            "count": "88568"
+          },
+          {
+            "item": "56.0",
+            "count": "71404"
+          },
+          {
+            "item": "55.0",
+            "count": "60182"
+          },
+          {
+            "item": "29.0",
+            "count": "49221"
+          },
+          {
+            "item": "27.0",
+            "count": "45602"
+          },
+          {
+            "item": "31.0",
+            "count": "45203"
+          },
+          {
+            "item": "26.0",
+            "count": "45098"
+          },
+          {
+            "item": "33.0",
+            "count": "44965"
+          },
+          {
+            "item": "54.0",
+            "count": "44906"
+          },
+          {
+            "item": "28.0",
+            "count": "44703"
+          },
+          {
+            "item": "32.0",
+            "count": "44653"
+          },
+          {
+            "item": "34.0",
+            "count": "44231"
+          }
+        ],
+        "smallest": "4.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458536,
+      "name": "reference_speed",
+      "dataTypeName": "number",
+      "fieldName": "reference_speed",
+      "position": 5,
+      "renderTypeName": "number",
+      "tableColumnId": 154871050,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "71.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "59.0",
+            "count": "196596"
+          },
+          {
+            "item": "58.0",
+            "count": "181083"
+          },
+          {
+            "item": "60.0",
+            "count": "166932"
+          },
+          {
+            "item": "61.0",
+            "count": "151480"
+          },
+          {
+            "item": "57.0",
+            "count": "129335"
+          },
+          {
+            "item": "63.0",
+            "count": "106723"
+          },
+          {
+            "item": "64.0",
+            "count": "104194"
+          },
+          {
+            "item": "65.0",
+            "count": "95556"
+          },
+          {
+            "item": "62.0",
+            "count": "90800"
+          },
+          {
+            "item": "56.0",
+            "count": "64412"
+          },
+          {
+            "item": "55.0",
+            "count": "61615"
+          },
+          {
+            "item": "29.0",
+            "count": "55938"
+          },
+          {
+            "item": "26.0",
+            "count": "51799"
+          },
+          {
+            "item": "34.0",
+            "count": "49109"
+          },
+          {
+            "item": "35.0",
+            "count": "47786"
+          },
+          {
+            "item": "33.0",
+            "count": "47751"
+          },
+          {
+            "item": "37.0",
+            "count": "47589"
+          },
+          {
+            "item": "31.0",
+            "count": "46269"
+          },
+          {
+            "item": "28.0",
+            "count": "45264"
+          },
+          {
+            "item": "36.0",
+            "count": "44726"
+          }
+        ],
+        "smallest": "7.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458537,
+      "name": "travel_time_minutes",
+      "dataTypeName": "number",
+      "fieldName": "travel_time_minutes",
+      "position": 6,
+      "renderTypeName": "number",
+      "tableColumnId": 154871051,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "55.92",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.06",
+            "count": "43362"
+          },
+          {
+            "item": "0.07",
+            "count": "37446"
+          },
+          {
+            "item": "0.05",
+            "count": "37009"
+          },
+          {
+            "item": "0.08",
+            "count": "36130"
+          },
+          {
+            "item": "0.2",
+            "count": "35339"
+          },
+          {
+            "item": "0.19",
+            "count": "35262"
+          },
+          {
+            "item": "0.15",
+            "count": "34802"
+          },
+          {
+            "item": "0.14",
+            "count": "33689"
+          },
+          {
+            "item": "0.21",
+            "count": "33601"
+          },
+          {
+            "item": "0.13",
+            "count": "33127"
+          },
+          {
+            "item": "0.03",
+            "count": "31849"
+          },
+          {
+            "item": "0.09",
+            "count": "31088"
+          },
+          {
+            "item": "0.23",
+            "count": "30697"
+          },
+          {
+            "item": "0.24",
+            "count": "30648"
+          },
+          {
+            "item": "0.11",
+            "count": "30548"
+          },
+          {
+            "item": "0.22",
+            "count": "30352"
+          },
+          {
+            "item": "0.25",
+            "count": "29949"
+          },
+          {
+            "item": "0.1",
+            "count": "29901"
+          },
+          {
+            "item": "0.16",
+            "count": "29676"
+          },
+          {
+            "item": "0.26",
+            "count": "29113"
+          }
+        ],
+        "smallest": "0.01",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458538,
+      "name": "confidence_score",
+      "dataTypeName": "number",
+      "fieldName": "confidence_score",
+      "position": 7,
+      "renderTypeName": "number",
+      "tableColumnId": 154871052,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "30.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "30.0",
+            "count": "1972873"
+          },
+          {
+            "item": "10.0",
+            "count": "275494"
+          },
+          {
+            "item": "20.0",
+            "count": "157825"
+          },
+          {
+            "item": "28.67",
+            "count": "43714"
+          },
+          {
+            "item": "27.33",
+            "count": "38339"
+          },
+          {
+            "item": "26.0",
+            "count": "33962"
+          },
+          {
+            "item": "24.67",
+            "count": "28701"
+          },
+          {
+            "item": "23.33",
+            "count": "26696"
+          },
+          {
+            "item": "29.33",
+            "count": "24463"
+          },
+          {
+            "item": "22.0",
+            "count": "23079"
+          },
+          {
+            "item": "28.0",
+            "count": "21078"
+          },
+          {
+            "item": "20.67",
+            "count": "20762"
+          },
+          {
+            "item": "26.67",
+            "count": "18255"
+          },
+          {
+            "item": "19.33",
+            "count": "14730"
+          },
+          {
+            "item": "25.33",
+            "count": "13664"
+          },
+          {
+            "item": "18.0",
+            "count": "12249"
+          },
+          {
+            "item": "24.0",
+            "count": "11650"
+          },
+          {
+            "item": "16.67",
+            "count": "11263"
+          },
+          {
+            "item": "15.33",
+            "count": "10354"
+          },
+          {
+            "item": "14.0",
+            "count": "9706"
+          }
+        ],
+        "smallest": "10.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458539,
+      "name": "cvalue",
+      "dataTypeName": "number",
+      "fieldName": "cvalue",
+      "position": 8,
+      "renderTypeName": "number",
+      "tableColumnId": 154871053,
+      "cachedContents": {
+        "non_null": "2399453",
+        "largest": "100.0",
+        "null": "445587",
+        "top": [
+          {
+            "item": "100.0",
+            "count": "804120"
+          },
+          {
+            "item": "99.0",
+            "count": "14579"
+          },
+          {
+            "item": "98.0",
+            "count": "10694"
+          },
+          {
+            "item": "99.87",
+            "count": "9945"
+          },
+          {
+            "item": "99.6",
+            "count": "9406"
+          },
+          {
+            "item": "99.73",
+            "count": "9402"
+          },
+          {
+            "item": "99.8",
+            "count": "8614"
+          },
+          {
+            "item": "99.33",
+            "count": "8590"
+          },
+          {
+            "item": "97.0",
+            "count": "8094"
+          },
+          {
+            "item": "99.93",
+            "count": "8043"
+          },
+          {
+            "item": "99.2",
+            "count": "7951"
+          },
+          {
+            "item": "99.67",
+            "count": "7802"
+          },
+          {
+            "item": "99.47",
+            "count": "7760"
+          },
+          {
+            "item": "96.0",
+            "count": "7421"
+          },
+          {
+            "item": "98.67",
+            "count": "7259"
+          },
+          {
+            "item": "98.93",
+            "count": "7057"
+          },
+          {
+            "item": "99.4",
+            "count": "6977"
+          },
+          {
+            "item": "98.8",
+            "count": "6977"
+          },
+          {
+            "item": "99.07",
+            "count": "6787"
+          },
+          {
+            "item": "98.4",
+            "count": "6423"
+          }
+        ],
+        "smallest": "1.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458540,
+      "name": "start_time",
+      "dataTypeName": "calendar_date",
+      "fieldName": "start_time",
+      "position": 9,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154871054,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2019-12-29T05:48:32.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-09-09T08:00:13.000",
+            "count": "5351"
+          },
+          {
+            "item": "2016-03-05T05:14:08.000",
+            "count": "3296"
+          },
+          {
+            "item": "2019-07-25T20:56:29.000",
+            "count": "2314"
+          },
+          {
+            "item": "2016-02-02T09:08:24.000",
+            "count": "1827"
+          },
+          {
+            "item": "2017-08-25T20:31:53.000",
+            "count": "1751"
+          },
+          {
+            "item": "2016-03-08T08:25:22.000",
+            "count": "1748"
+          },
+          {
+            "item": "2016-01-20T09:00:12.000",
+            "count": "1722"
+          },
+          {
+            "item": "2016-02-26T08:51:32.000",
+            "count": "1717"
+          },
+          {
+            "item": "2016-02-26T20:06:59.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-01-27T08:41:44.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-02-12T10:32:47.000",
+            "count": "1692"
+          },
+          {
+            "item": "2016-02-04T08:41:08.000",
+            "count": "1667"
+          },
+          {
+            "item": "2016-03-10T08:35:31.000",
+            "count": "1666"
+          },
+          {
+            "item": "2016-01-21T08:30:20.000",
+            "count": "1664"
+          },
+          {
+            "item": "2017-12-18T08:57:24.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-17T08:44:18.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-12T09:00:13.000",
+            "count": "1632"
+          },
+          {
+            "item": "2016-02-18T08:58:30.000",
+            "count": "1632"
+          },
+          {
+            "item": "2016-01-06T08:48:33.000",
+            "count": "1620"
+          },
+          {
+            "item": "2016-01-14T09:22:18.000",
+            "count": "1620"
+          }
+        ],
+        "smallest": "2016-01-04T07:50:24.000",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458541,
+      "name": "end_time",
+      "dataTypeName": "calendar_date",
+      "fieldName": "end_time",
+      "position": 10,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154871055,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2019-12-29T11:05:54.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-09-09T16:59:56.000",
+            "count": "4136"
+          },
+          {
+            "item": "2016-03-05T16:55:54.000",
+            "count": "3296"
+          },
+          {
+            "item": "2019-07-26T05:00:13.000",
+            "count": "2314"
+          },
+          {
+            "item": "2017-03-20T15:00:04.000",
+            "count": "1903"
+          },
+          {
+            "item": "2016-12-08T15:00:04.000",
+            "count": "1833"
+          },
+          {
+            "item": "2017-08-26T08:26:11.000",
+            "count": "1751"
+          },
+          {
+            "item": "2016-03-08T17:29:00.000",
+            "count": "1748"
+          },
+          {
+            "item": "2016-01-20T15:38:12.000",
+            "count": "1722"
+          },
+          {
+            "item": "2016-02-26T20:03:52.000",
+            "count": "1717"
+          },
+          {
+            "item": "2016-02-27T07:01:11.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-01-27T19:43:14.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-02-12T20:10:42.000",
+            "count": "1692"
+          },
+          {
+            "item": "2016-04-20T15:00:08.000",
+            "count": "1691"
+          },
+          {
+            "item": "2016-02-04T19:02:13.000",
+            "count": "1667"
+          },
+          {
+            "item": "2016-03-10T19:00:08.000",
+            "count": "1666"
+          },
+          {
+            "item": "2016-01-21T10:41:37.000",
+            "count": "1664"
+          },
+          {
+            "item": "2019-12-19T05:00:15.000",
+            "count": "1652"
+          },
+          {
+            "item": "2016-02-17T18:48:18.000",
+            "count": "1649"
+          },
+          {
+            "item": "2017-12-18T19:01:15.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-18T18:55:29.000",
+            "count": "1632"
+          }
+        ],
+        "smallest": "2016-01-04T10:25:20.000",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458542,
+      "name": "time_start_record",
+      "dataTypeName": "calendar_date",
+      "fieldName": "time_start_record",
+      "position": 11,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154871056,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2019-12-28T17:48:32.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-09-08T20:00:13.000",
+            "count": "5351"
+          },
+          {
+            "item": "2016-03-04T17:14:08.000",
+            "count": "3296"
+          },
+          {
+            "item": "2019-07-25T08:56:29.000",
+            "count": "2314"
+          },
+          {
+            "item": "2016-02-01T21:08:24.000",
+            "count": "1827"
+          },
+          {
+            "item": "2017-08-25T08:31:53.000",
+            "count": "1751"
+          },
+          {
+            "item": "2016-03-07T20:25:22.000",
+            "count": "1748"
+          },
+          {
+            "item": "2016-01-19T21:00:12.000",
+            "count": "1722"
+          },
+          {
+            "item": "2016-02-25T20:51:32.000",
+            "count": "1717"
+          },
+          {
+            "item": "2016-02-26T08:06:59.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-01-26T20:41:44.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-02-11T22:32:47.000",
+            "count": "1692"
+          },
+          {
+            "item": "2016-02-03T20:41:08.000",
+            "count": "1667"
+          },
+          {
+            "item": "2016-03-09T20:35:31.000",
+            "count": "1666"
+          },
+          {
+            "item": "2016-01-20T20:30:20.000",
+            "count": "1664"
+          },
+          {
+            "item": "2017-12-17T20:57:24.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-16T20:44:18.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-11T21:00:13.000",
+            "count": "1632"
+          },
+          {
+            "item": "2016-02-17T20:58:30.000",
+            "count": "1632"
+          },
+          {
+            "item": "2016-01-05T20:48:33.000",
+            "count": "1620"
+          },
+          {
+            "item": "2016-01-13T21:22:18.000",
+            "count": "1620"
+          }
+        ],
+        "smallest": "2016-01-03T19:50:24.000",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458543,
+      "name": "time_end_record",
+      "dataTypeName": "calendar_date",
+      "fieldName": "time_end_record",
+      "position": 12,
+      "renderTypeName": "calendar_date",
+      "tableColumnId": 154871057,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2019-12-29T13:05:54.000",
+        "null": "0",
+        "top": [
+          {
+            "item": "2017-09-09T18:59:56.000",
+            "count": "4136"
+          },
+          {
+            "item": "2016-03-05T18:55:54.000",
+            "count": "3296"
+          },
+          {
+            "item": "2019-07-26T07:00:13.000",
+            "count": "2314"
+          },
+          {
+            "item": "2017-03-20T17:00:04.000",
+            "count": "1903"
+          },
+          {
+            "item": "2016-12-08T17:00:04.000",
+            "count": "1833"
+          },
+          {
+            "item": "2017-08-26T10:26:11.000",
+            "count": "1751"
+          },
+          {
+            "item": "2016-03-08T19:29:00.000",
+            "count": "1748"
+          },
+          {
+            "item": "2016-01-20T17:38:12.000",
+            "count": "1722"
+          },
+          {
+            "item": "2016-02-26T22:03:52.000",
+            "count": "1717"
+          },
+          {
+            "item": "2016-02-27T09:01:11.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-01-27T21:43:14.000",
+            "count": "1700"
+          },
+          {
+            "item": "2016-02-12T22:10:42.000",
+            "count": "1692"
+          },
+          {
+            "item": "2016-04-20T17:00:08.000",
+            "count": "1691"
+          },
+          {
+            "item": "2016-02-04T21:02:13.000",
+            "count": "1667"
+          },
+          {
+            "item": "2016-03-10T21:00:08.000",
+            "count": "1666"
+          },
+          {
+            "item": "2016-01-21T12:41:37.000",
+            "count": "1664"
+          },
+          {
+            "item": "2019-12-19T07:00:15.000",
+            "count": "1652"
+          },
+          {
+            "item": "2016-02-17T20:48:18.000",
+            "count": "1649"
+          },
+          {
+            "item": "2017-12-18T21:01:15.000",
+            "count": "1649"
+          },
+          {
+            "item": "2016-02-18T20:55:29.000",
+            "count": "1632"
+          }
+        ],
+        "smallest": "2016-01-04T12:25:20.000",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458544,
+      "name": "id",
+      "dataTypeName": "text",
+      "fieldName": "id",
+      "position": 13,
+      "renderTypeName": "text",
+      "tableColumnId": 154871058,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "ffffef01cce800900056fa2ec4235c0a",
+        "null": "0",
+        "top": [
+          {
+            "item": "6500077094b104da0056fa2ec4235c0a",
+            "count": "3296"
+          },
+          {
+            "item": "c80042b79b4f003a005dd32ec4235c0a",
+            "count": "2314"
+          },
+          {
+            "item": "9700ad7347c101a00059fa2ec4235c0a",
+            "count": "1751"
+          },
+          {
+            "item": "9d0023c03ad205de0056fa2ec4235c0a",
+            "count": "1748"
+          },
+          {
+            "item": "b9ff15eeb992019f0056fa2ec4235c0a",
+            "count": "1722"
+          },
+          {
+            "item": "53027f637c5802d00056fa2ec4235c0a",
+            "count": "1717"
+          },
+          {
+            "item": "5c00f8170dc904a80056fa2ec4235c0a",
+            "count": "1700"
+          },
+          {
+            "item": "3c0045b3b1f602d00056fa2ec4235c0a",
+            "count": "1700"
+          },
+          {
+            "item": "43017d1e1dfb08bd0056fa2ec4235c0a",
+            "count": "1692"
+          },
+          {
+            "item": "eb000ef4115406b30056fa2ec4235c0a",
+            "count": "1667"
+          },
+          {
+            "item": "a2011622467800e10056fa2ec4235c0a",
+            "count": "1666"
+          },
+          {
+            "item": "8500a16d2ddd02a00056fa2ec4235c0a",
+            "count": "1664"
+          },
+          {
+            "item": "d100ed3fd2c90437005afa2ec4235c0a",
+            "count": "1649"
+          },
+          {
+            "item": "6401e7313b7909c40056fa2ec4235c0a",
+            "count": "1649"
+          },
+          {
+            "item": "7a00d60541ce00c50056fa2ec4235c0a",
+            "count": "1632"
+          },
+          {
+            "item": "ac00b96c12e508bd0056fa2ec4235c0a",
+            "count": "1632"
+          },
+          {
+            "item": "6000ed1b47af00970056fa2ec4235c0a",
+            "count": "1620"
+          },
+          {
+            "item": "0e008930dc1b068d0056fa2ec4235c0a",
+            "count": "1620"
+          },
+          {
+            "item": "8f016c2c1a5e05af0056fa2ec4235c0a",
+            "count": "1615"
+          },
+          {
+            "item": "d50073e88e3d09fc005cd32ec4235c0a",
+            "count": "1615"
+          }
+        ],
+        "smallest": "000016e38b0e029f0058fa2ec4235c0a",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458545,
+      "name": "order",
+      "dataTypeName": "number",
+      "fieldName": "order",
+      "position": 14,
+      "renderTypeName": "number",
+      "tableColumnId": 154871059,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "6",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "458430"
+          },
+          {
+            "item": "-1",
+            "count": "409538"
+          },
+          {
+            "item": "-2",
+            "count": "354876"
+          },
+          {
+            "item": "-3",
+            "count": "290140"
+          },
+          {
+            "item": "-4",
+            "count": "241698"
+          },
+          {
+            "item": "-5",
+            "count": "196213"
+          },
+          {
+            "item": "1",
+            "count": "195452"
+          },
+          {
+            "item": "-6",
+            "count": "158921"
+          },
+          {
+            "item": "-7",
+            "count": "118957"
+          },
+          {
+            "item": "2",
+            "count": "84812"
+          },
+          {
+            "item": "-8",
+            "count": "84254"
+          },
+          {
+            "item": "-9",
+            "count": "61633"
+          },
+          {
+            "item": "-10",
+            "count": "47000"
+          },
+          {
+            "item": "-11",
+            "count": "39271"
+          },
+          {
+            "item": "3",
+            "count": "30391"
+          },
+          {
+            "item": "-12",
+            "count": "25198"
+          },
+          {
+            "item": "-13",
+            "count": "15155"
+          },
+          {
+            "item": "-14",
+            "count": "10584"
+          },
+          {
+            "item": "4",
+            "count": "7522"
+          },
+          {
+            "item": "-15",
+            "count": "7125"
+          }
+        ],
+        "smallest": "-26",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458546,
+      "name": "miles",
+      "dataTypeName": "number",
+      "fieldName": "miles",
+      "position": 15,
+      "renderTypeName": "number",
+      "tableColumnId": 154871060,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "10.4865",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.81248",
+            "count": "8658"
+          },
+          {
+            "item": "0.396913",
+            "count": "8365"
+          },
+          {
+            "item": "0.463254",
+            "count": "8267"
+          },
+          {
+            "item": "1.22318",
+            "count": "7722"
+          },
+          {
+            "item": "0.45315",
+            "count": "7604"
+          },
+          {
+            "item": "0.42628",
+            "count": "7201"
+          },
+          {
+            "item": "0.075376",
+            "count": "7201"
+          },
+          {
+            "item": "0.480889",
+            "count": "6771"
+          },
+          {
+            "item": "0.318418",
+            "count": "6538"
+          },
+          {
+            "item": "0.164398",
+            "count": "6538"
+          },
+          {
+            "item": "0.13165",
+            "count": "6538"
+          },
+          {
+            "item": "0.260491",
+            "count": "6538"
+          },
+          {
+            "item": "0.287907",
+            "count": "6519"
+          },
+          {
+            "item": "0.01735",
+            "count": "6519"
+          },
+          {
+            "item": "0.871594",
+            "count": "6483"
+          },
+          {
+            "item": "0.004157",
+            "count": "6157"
+          },
+          {
+            "item": "1.61368",
+            "count": "6157"
+          },
+          {
+            "item": "0.007823",
+            "count": "6022"
+          },
+          {
+            "item": "0.440753",
+            "count": "5738"
+          },
+          {
+            "item": "0.060959",
+            "count": "5693"
+          }
+        ],
+        "smallest": "0.003604",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458547,
+      "name": "direction",
+      "dataTypeName": "text",
+      "fieldName": "direction",
+      "position": 16,
+      "renderTypeName": "text",
+      "tableColumnId": 154871061,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "West",
+        "null": "0",
+        "top": [
+          {
+            "item": "North",
+            "count": "834213"
+          },
+          {
+            "item": "South",
+            "count": "792831"
+          },
+          {
+            "item": "East",
+            "count": "424128"
+          },
+          {
+            "item": "West",
+            "count": "417726"
+          },
+          {
+            "item": "Inner Loop",
+            "count": "216392"
+          },
+          {
+            "item": "Outer Loop",
+            "count": "159750"
+          }
+        ],
+        "smallest": "East",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458548,
+      "name": "distance_to_work_zone",
+      "dataTypeName": "number",
+      "fieldName": "distance_to_work_zone",
+      "position": 17,
+      "renderTypeName": "number",
+      "tableColumnId": 154871062,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "16270.772337602351",
+        "null": "0",
+        "top": [
+          {
+            "item": "5470.909717217406",
+            "count": "2968"
+          },
+          {
+            "item": "3830.199602657407",
+            "count": "2968"
+          },
+          {
+            "item": "20.817980897406656",
+            "count": "2968"
+          },
+          {
+            "item": "4264.587403075162",
+            "count": "2700"
+          },
+          {
+            "item": "43.88964179516148",
+            "count": "2700"
+          },
+          {
+            "item": "5355.537560515162",
+            "count": "2700"
+          },
+          {
+            "item": "1352.7487163414546",
+            "count": "2700"
+          },
+          {
+            "item": "5517.2286409210055",
+            "count": "2215"
+          },
+          {
+            "item": "647.2366755405093",
+            "count": "2215"
+          },
+          {
+            "item": "497.9051850490057",
+            "count": "2215"
+          },
+          {
+            "item": "78.68555714500573",
+            "count": "2215"
+          },
+          {
+            "item": "5437.455068185006",
+            "count": "2215"
+          },
+          {
+            "item": "762.4781199610057",
+            "count": "2215"
+          },
+          {
+            "item": "4076.1415561210056",
+            "count": "2215"
+          },
+          {
+            "item": "2704.248216601006",
+            "count": "2215"
+          },
+          {
+            "item": "5399.672124895381",
+            "count": "2192"
+          },
+          {
+            "item": "7283.570211295381",
+            "count": "2192"
+          },
+          {
+            "item": "4.330271455380059",
+            "count": "2192"
+          },
+          {
+            "item": "12049.75831307698",
+            "count": "2131"
+          },
+          {
+            "item": "1414.819638279936",
+            "count": "2127"
+          }
+        ],
+        "smallest": "0.1411439322527002",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458549,
+      "name": "distance_e_to_wz",
+      "dataTypeName": "number",
+      "fieldName": "distance_e_to_wz",
+      "position": 18,
+      "renderTypeName": "number",
+      "tableColumnId": 154871063,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "15061.510349291051",
+        "null": "0",
+        "top": [
+          {
+            "item": "6182.777488111064",
+            "count": "34902"
+          },
+          {
+            "item": "542.2615196551282",
+            "count": "29629"
+          },
+          {
+            "item": "12.866209694884205",
+            "count": "17790"
+          },
+          {
+            "item": "134.7925777485093",
+            "count": "17720"
+          },
+          {
+            "item": "1940.5312403019093",
+            "count": "17060"
+          },
+          {
+            "item": "212.52848103797444",
+            "count": "14736"
+          },
+          {
+            "item": "272.295713426175",
+            "count": "13410"
+          },
+          {
+            "item": "929.6551182740392",
+            "count": "13273"
+          },
+          {
+            "item": "42.66140535930258",
+            "count": "13230"
+          },
+          {
+            "item": "3.941363028513145",
+            "count": "12762"
+          },
+          {
+            "item": "686.3784974659721",
+            "count": "12396"
+          },
+          {
+            "item": "14.117368861652348",
+            "count": "12105"
+          },
+          {
+            "item": "17.296356624585933",
+            "count": "12000"
+          },
+          {
+            "item": "551.1022830614546",
+            "count": "10800"
+          },
+          {
+            "item": "170.98914030455745",
+            "count": "10776"
+          },
+          {
+            "item": "1311.9279877099284",
+            "count": "10590"
+          },
+          {
+            "item": "387.40374986725647",
+            "count": "10569"
+          },
+          {
+            "item": "8.748565624755093",
+            "count": "10540"
+          },
+          {
+            "item": "651.8291523125721",
+            "count": "10197"
+          },
+          {
+            "item": "356.2157694725028",
+            "count": "9716"
+          }
+        ],
+        "smallest": "0.5261185532780941",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458550,
+      "name": "sholder_closure_count",
+      "dataTypeName": "number",
+      "fieldName": "sholder_closure_count",
+      "position": 19,
+      "renderTypeName": "number",
+      "tableColumnId": 154871064,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "2.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.0",
+            "count": "2749623"
+          },
+          {
+            "item": "1.0",
+            "count": "94395"
+          },
+          {
+            "item": "2.0",
+            "count": "1022"
+          }
+        ],
+        "smallest": "0.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458551,
+      "name": "traffic_lane_closure_count",
+      "dataTypeName": "text",
+      "fieldName": "traffic_lane_closure_count",
+      "position": 20,
+      "renderTypeName": "text",
+      "tableColumnId": 154871065,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "5.0",
+        "null": "0",
+        "top": [
+          {
+            "item": "0.0",
+            "count": "2757978"
+          },
+          {
+            "item": "1.0",
+            "count": "75473"
+          },
+          {
+            "item": "2.0",
+            "count": "10912"
+          },
+          {
+            "item": "3.0",
+            "count": "576"
+          },
+          {
+            "item": "4.0",
+            "count": "82"
+          },
+          {
+            "item": "5.0",
+            "count": "19"
+          }
+        ],
+        "smallest": "0.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458552,
+      "name": "week",
+      "dataTypeName": "text",
+      "fieldName": "week",
+      "position": 21,
+      "renderTypeName": "text",
+      "tableColumnId": 154871066,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "Wednesday",
+        "null": "0",
+        "top": [
+          {
+            "item": "Thursday",
+            "count": "636496"
+          },
+          {
+            "item": "Wednesday",
+            "count": "522822"
+          },
+          {
+            "item": "Friday",
+            "count": "483699"
+          },
+          {
+            "item": "Monday",
+            "count": "411693"
+          },
+          {
+            "item": "Tuesday",
+            "count": "385992"
+          },
+          {
+            "item": "Saturday",
+            "count": "212992"
+          },
+          {
+            "item": "Sunday",
+            "count": "191346"
+          }
+        ],
+        "smallest": "Friday",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458553,
+      "name": "volume",
+      "dataTypeName": "number",
+      "fieldName": "volume",
+      "position": 22,
+      "renderTypeName": "number",
+      "tableColumnId": 154871067,
+      "cachedContents": {
+        "non_null": "1911260",
+        "largest": "2704.0",
+        "null": "933780",
+        "top": [
+          {
+            "item": "16.0",
+            "count": "7387"
+          },
+          {
+            "item": "15.0",
+            "count": "7381"
+          },
+          {
+            "item": "31.0",
+            "count": "6789"
+          },
+          {
+            "item": "19.0",
+            "count": "6763"
+          },
+          {
+            "item": "14.0",
+            "count": "6762"
+          },
+          {
+            "item": "17.0",
+            "count": "6665"
+          },
+          {
+            "item": "18.0",
+            "count": "6381"
+          },
+          {
+            "item": "30.0",
+            "count": "6240"
+          },
+          {
+            "item": "35.0",
+            "count": "6198"
+          },
+          {
+            "item": "13.0",
+            "count": "6098"
+          },
+          {
+            "item": "36.0",
+            "count": "6056"
+          },
+          {
+            "item": "37.0",
+            "count": "5992"
+          },
+          {
+            "item": "27.0",
+            "count": "5955"
+          },
+          {
+            "item": "33.0",
+            "count": "5937"
+          },
+          {
+            "item": "22.0",
+            "count": "5861"
+          },
+          {
+            "item": "23.0",
+            "count": "5786"
+          },
+          {
+            "item": "29.0",
+            "count": "5686"
+          },
+          {
+            "item": "12.0",
+            "count": "5521"
+          },
+          {
+            "item": "28.0",
+            "count": "5517"
+          },
+          {
+            "item": "11.0",
+            "count": "5504"
+          }
+        ],
+        "smallest": "0.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458554,
+      "name": "max_lanes_closed",
+      "dataTypeName": "number",
+      "fieldName": "max_lanes_closed",
+      "position": 23,
+      "renderTypeName": "number",
+      "tableColumnId": 154871068,
+      "cachedContents": {
+        "non_null": "2387",
+        "largest": "8.0",
+        "null": "2842653",
+        "top": [
+          {
+            "item": "2.0",
+            "count": "1176"
+          },
+          {
+            "item": "1.0",
+            "count": "666"
+          },
+          {
+            "item": "3.0",
+            "count": "284"
+          },
+          {
+            "item": "4.0",
+            "count": "132"
+          },
+          {
+            "item": "5.0",
+            "count": "78"
+          },
+          {
+            "item": "6.0",
+            "count": "44"
+          },
+          {
+            "item": "8.0",
+            "count": "5"
+          },
+          {
+            "item": "7.0",
+            "count": "2"
+          }
+        ],
+        "smallest": "1.0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458555,
+      "name": "road_name",
+      "dataTypeName": "text",
+      "fieldName": "road_name",
+      "position": 24,
+      "renderTypeName": "text",
+      "tableColumnId": 154871069,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "US522",
+        "null": "0",
+        "top": [
+          {
+            "item": "I95",
+            "count": "415102"
+          },
+          {
+            "item": "I695",
+            "count": "315978"
+          },
+          {
+            "item": "US50",
+            "count": "158131"
+          },
+          {
+            "item": "I895",
+            "count": "138477"
+          },
+          {
+            "item": "US40",
+            "count": "92486"
+          },
+          {
+            "item": "MD2",
+            "count": "91795"
+          },
+          {
+            "item": "US29",
+            "count": "73847"
+          },
+          {
+            "item": "US1",
+            "count": "71294"
+          },
+          {
+            "item": "MD97",
+            "count": "70271"
+          },
+          {
+            "item": "I495",
+            "count": "60164"
+          },
+          {
+            "item": "I70",
+            "count": "59544"
+          },
+          {
+            "item": "MD355",
+            "count": "57031"
+          },
+          {
+            "item": "I97",
+            "count": "52341"
+          },
+          {
+            "item": "US15",
+            "count": "51562"
+          },
+          {
+            "item": "MD410",
+            "count": "50048"
+          },
+          {
+            "item": "US301",
+            "count": "48548"
+          },
+          {
+            "item": "MD193",
+            "count": "42243"
+          },
+          {
+            "item": "I68",
+            "count": "40877"
+          },
+          {
+            "item": "MD295",
+            "count": "39499"
+          },
+          {
+            "item": "MD150",
+            "count": "39237"
+          }
+        ],
+        "smallest": "I195",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458556,
+      "name": "road_type",
+      "dataTypeName": "text",
+      "fieldName": "road_type",
+      "position": 25,
+      "renderTypeName": "text",
+      "tableColumnId": 154871070,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "US Highways",
+        "null": "0",
+        "top": [
+          {
+            "item": "(Intercontinental Highway) Expressway",
+            "count": "1203111"
+          },
+          {
+            "item": "State Road",
+            "count": "1111793"
+          },
+          {
+            "item": "US Highways",
+            "count": "530136"
+          }
+        ],
+        "smallest": "(Intercontinental Highway) Expressway",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458557,
+      "name": "on_ramp",
+      "dataTypeName": "number",
+      "fieldName": "on_ramp",
+      "position": 26,
+      "renderTypeName": "number",
+      "tableColumnId": 154871071,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "1",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2643264"
+          },
+          {
+            "item": "1",
+            "count": "201776"
+          }
+        ],
+        "smallest": "0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458558,
+      "name": "off_ramp",
+      "dataTypeName": "number",
+      "fieldName": "off_ramp",
+      "position": 27,
+      "renderTypeName": "number",
+      "tableColumnId": 154871072,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "1",
+        "null": "0",
+        "top": [
+          {
+            "item": "0",
+            "count": "2242963"
+          },
+          {
+            "item": "1",
+            "count": "602077"
+          }
+        ],
+        "smallest": "0",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458559,
+      "name": "incident_id",
+      "dataTypeName": "text",
+      "fieldName": "incident_id",
+      "position": 28,
+      "renderTypeName": "text",
+      "tableColumnId": 154871073,
+      "cachedContents": {
+        "non_null": "1634",
+        "largest": "ff007bac191105de0056fa2ec4235c0a",
+        "null": "2843406",
+        "top": [
+          {
+            "item": "9100e88e5f0901e70056fa2ec4235c0a",
+            "count": "28"
+          },
+          {
+            "item": "a70173679c57000e0057fa2ec4235c0a",
+            "count": "25"
+          },
+          {
+            "item": "b4ffff81960c00c70056fa2ec4235c0a",
+            "count": "25"
+          },
+          {
+            "item": "61001f339c0f00990056fa2ec4235c0a",
+            "count": "21"
+          },
+          {
+            "item": "8f00771094fb08c7005cd32ec4235c0a",
+            "count": "19"
+          },
+          {
+            "item": "d30031b0e06604dd0056fa2ec4235c0a",
+            "count": "16"
+          },
+          {
+            "item": "9c01ea49746400c60056fa2ec4235c0a",
+            "count": "14"
+          },
+          {
+            "item": "2a00ceacf34703a80056fa2ec4235c0a",
+            "count": "13"
+          },
+          {
+            "item": "c1002d2a628406b20057fa2ec4235c0a",
+            "count": "13"
+          },
+          {
+            "item": "9a00e53562c5008e0056fa2ec4235c0a",
+            "count": "13"
+          },
+          {
+            "item": "300056ce1391019c0056fa2ec4235c0a",
+            "count": "13"
+          },
+          {
+            "item": "5bffb49991ec00c60056fa2ec4235c0a",
+            "count": "12"
+          },
+          {
+            "item": "bc00acbf655601c70059fa2ec4235c0a",
+            "count": "12"
+          },
+          {
+            "item": "4d0066dd8bb0081c005dd32ec4235c0a",
+            "count": "11"
+          },
+          {
+            "item": "4900aa0cd95801960056fa2ec4235c0a",
+            "count": "11"
+          },
+          {
+            "item": "38010b4a87140178005afa2ec4235c0a",
+            "count": "11"
+          },
+          {
+            "item": "ec008c725f1e06c1005cd32ec4235c0a",
+            "count": "11"
+          },
+          {
+            "item": "94ff9cb9ffcc03c6005dd32ec4235c0a",
+            "count": "10"
+          },
+          {
+            "item": "cc007920c7c300fe005dd32ec4235c0a",
+            "count": "10"
+          },
+          {
+            "item": "c501484854260011005cd32ec4235c0a",
+            "count": "10"
+          }
+        ],
+        "smallest": "00001d1896a807bb0056fa2ec4235c0a",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458560,
+      "name": "description",
+      "dataTypeName": "text",
+      "fieldName": "description",
+      "position": 29,
+      "renderTypeName": "text",
+      "tableColumnId": 154871074,
+      "cachedContents": {
+        "non_null": "1634",
+        "largest": "Collision, Property Damage",
+        "null": "2843406",
+        "top": [
+          {
+            "item": "Collision, Property Damage",
+            "count": "1157"
+          },
+          {
+            "item": "Collision, Personal Injury",
+            "count": "453"
+          },
+          {
+            "item": "Collision, Fatality",
+            "count": "24"
+          }
+        ],
+        "smallest": "Collision, Fatality",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    },
+    {
+      "id": 599458561,
+      "name": "lanes",
+      "dataTypeName": "number",
+      "fieldName": "lanes",
+      "position": 30,
+      "renderTypeName": "number",
+      "tableColumnId": 154871075,
+      "cachedContents": {
+        "non_null": "2845040",
+        "largest": "5",
+        "null": "0",
+        "top": [
+          {
+            "item": "5",
+            "count": "1203111"
+          },
+          {
+            "item": "3",
+            "count": "1111793"
+          },
+          {
+            "item": "4",
+            "count": "530136"
+          }
+        ],
+        "smallest": "3",
+        "count": "2845040",
+        "cardinality": "2845040"
+      },
+      "format": {}
+    }
+  ],
+  "grants": [
+    {
+      "inherited": false,
+      "type": "viewer",
+      "flags": [
+        "public"
+      ]
+    }
+  ],
+  "metadata": {
+    "attachments": [
+      {
+        "filename": "num_of_lanes_new.csv",
+        "assetId": "152cb76e-63f2-400f-973f-3f7d6e6692b8",
+        "name": "num_of_lanes_new.csv"
+      },
+      {
+        "filename": "impacted_work_zone_id.zip",
+        "assetId": "c21c206d-5aac-43e4-af26-7d63b20489ae",
+        "name": "impacted_work_zone_id.zip"
+      }
+    ],
+    "custom_fields": {
+      "Common Core": {
+        "Contact Email": "elina.zlotchenko@dot.gov",
+        "Contact Name": "Elina Zlotchenko",
+        "License": "http://www.usa.gov/publicdomain/label/1.0/",
+        "Program Code": "021:042",
+        "Geographic Coverage": "Maryland highway network",
+        "Publisher": "Federal Highway Administration",
+        "Bureau Code": "021:15",
+        "Public Access Level": "public"
+      },
+      "Common Core 3": {
+        "Contact Email": "elina.zlotchenko@dot.gov",
+        "Rights": "public",
+        "Geographic Name": "Maryland highway network",
+        "Contact Name": "Elina Zlotchenko",
+        "Program Code": "021:042",
+        "Publisher": "Federal Highway Administration",
+        "Bureau Code": "021:15"
+      }
+    },
+    "availableDisplayTypes": [
+      "table",
+      "fatrow",
+      "page"
+    ]
+  },
+  "owner": {
+    "id": "xnuk-kw6c",
+    "createdAt": 1721413802,
+    "displayName": "ITS-JPO",
+    "screenName": "ITS-JPO",
+    "type": "team",
+    "members": [
+      {
+        "id": "m6ay-wk9k",
+        "createdAt": 1632161888,
+        "displayName": "Amy O'Hara",
+        "screenName": "Amy O'Hara",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "xqf5-7ccs",
+        "createdAt": 1705435051,
+        "displayName": "cadenyoungnoblis",
+        "screenName": "cadenyoungnoblis",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "vvef-p4qd",
+        "createdAt": 1722885643,
+        "displayName": "Elina Zlotchenko",
+        "screenName": "Elina Zlotchenko",
+        "teamId": 1634236,
+        "teamRole": "owner",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "tq57-4b3n",
+        "createdAt": 1496235516,
+        "displayName": "Jim Larkin",
+        "screenName": "Jim Larkin",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "vv6k-eawi",
+        "createdAt": 1721415400,
+        "displayName": "Kate Hartman",
+        "screenName": "Kate Hartman",
+        "teamId": 1634236,
+        "teamRole": "owner",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "i2uy-f3ed",
+        "createdAt": 1705380467,
+        "displayName": "Ryan Won",
+        "screenName": "Ryan Won",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "hz2a-m9mv",
+        "createdAt": 1785333594,
+        "displayName": "ShannonMcHugh",
+        "screenName": "ShannonMcHugh",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      }
+    ]
+  },
+  "query": {},
+  "rights": [
+    "read"
+  ],
+  "tableAuthor": {
+    "id": "xnuk-kw6c",
+    "createdAt": 1721413802,
+    "displayName": "ITS-JPO",
+    "screenName": "ITS-JPO",
+    "type": "team",
+    "members": [
+      {
+        "id": "m6ay-wk9k",
+        "createdAt": 1632161888,
+        "displayName": "Amy O'Hara",
+        "screenName": "Amy O'Hara",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "xqf5-7ccs",
+        "createdAt": 1705435051,
+        "displayName": "cadenyoungnoblis",
+        "screenName": "cadenyoungnoblis",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "vvef-p4qd",
+        "createdAt": 1722885643,
+        "displayName": "Elina Zlotchenko",
+        "screenName": "Elina Zlotchenko",
+        "teamId": 1634236,
+        "teamRole": "owner",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "tq57-4b3n",
+        "createdAt": 1496235516,
+        "displayName": "Jim Larkin",
+        "screenName": "Jim Larkin",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "vv6k-eawi",
+        "createdAt": 1721415400,
+        "displayName": "Kate Hartman",
+        "screenName": "Kate Hartman",
+        "teamId": 1634236,
+        "teamRole": "owner",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "i2uy-f3ed",
+        "createdAt": 1705380467,
+        "displayName": "Ryan Won",
+        "screenName": "Ryan Won",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      },
+      {
+        "id": "hz2a-m9mv",
+        "createdAt": 1785333594,
+        "displayName": "ShannonMcHugh",
+        "screenName": "ShannonMcHugh",
+        "teamId": 1634236,
+        "teamRole": "member",
+        "type": "interactive",
+        "flags": [
+          "siteMember"
+        ]
+      }
+    ]
+  },
+  "tags": [
+    "intelligent transportation systems (its)",
+    "its joint program office (jpo)",
+    "maryland",
+    "speed data",
+    "traffic detectors",
+    "traffic flow",
+    "travel time",
+    "work zones",
+    "data for ai"
+  ],
+  "flags": [
+    "default",
+    "federated",
+    "internalToPublicFederatedView",
+    "ownerMayBeContacted",
+    "restorable",
+    "restorePossibleForType"
+  ]
+}

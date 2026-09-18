@@ -27,10 +27,71 @@
       "path": "native-source-manifest.json",
       "bytes": 1583,
       "sha256": "f6913b83a813e8b7d7b74bdee566eb64dc30b87efe100f8b64fa8aa805f11c29"
+    },
+    {
+      "path": "POST-RESULT-REVIEW.md",
+      "bytes": 4774,
+      "sha256": "d84d5dec7a4dbfec399df1579383abb55f6f16ce13fd0acd6b6b638197b1dbef"
+    },
+    {
+      "path": "independent-audit.py",
+      "bytes": 5853,
+      "sha256": "9b12c8dc6b098bc6e157eb22b080973db91a63cc3a73921c281c255765db1d3b"
+    },
+    {
+      "path": "INDEPENDENT-AUDIT.json",
+      "bytes": 20510,
+      "sha256": "3ad18e243fc4e5d6aadf37cf1c362be9e7c36129a600ccdaa1267b1d10a7d745"
+    },
+    {
+      "path": "replay-1/replay-input-manifest.json",
+      "bytes": 1823,
+      "sha256": "337a2a4363820896a3687a0c4f9a955244029d1e4ea4e6a8caccffb7bf88f02e"
+    },
+    {
+      "path": "replay-1/console.log",
+      "bytes": 90,
+      "sha256": "ce1da23c179682d45e7934928c454a042e3cca125a3b79533b7c11daae0d2c55"
+    },
+    {
+      "path": "replay-1/stage0-execution/execution-start.json",
+      "bytes": 225,
+      "sha256": "30b497bf98d5278229fc9fa9f86d086ac96ed82bfa34a9c99d24404a8323a263"
+    },
+    {
+      "path": "replay-1/stage0-execution/corpus.json",
+      "bytes": 158,
+      "sha256": "28aac6eaf95614af251442cf7af67da3075e365be79d7748f7b6886cf08a26ff"
+    },
+    {
+      "path": "replay-1/stage0-execution/controls.json",
+      "bytes": 54716,
+      "sha256": "abf84ee024c3b49b648525f04ac3697da2b10a15126ca0016e79495c6d84a6cb"
+    },
+    {
+      "path": "replay-1/stage0-execution/summary.json",
+      "bytes": 19445,
+      "sha256": "24fa18b89fa947beb397746555f33a03caeeeec23f929cd3ee30408901c9ea55"
     }
   ],
-  "updated_utc": "2026-09-18T11:02:15.592916+00:00",
+  "updated_utc": "2026-09-18T11:07:19.544998+00:00",
   "reviewed_stage0_protocol_sha256": "b3cdeee4cb2660c0cdcba69ad32b05e8cd90b7e60222b4a99830d2665f1361b6",
   "reviewed_final_stage0_protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32",
-  "statically_reviewed_stage0_source_sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab"
+  "statically_reviewed_stage0_source_sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab",
+  "final_status": "Independent HOLD_CEILING confirmed; no symbolic bridge implemented",
+  "excluded_duplicate_observations": [
+    {
+      "path": "replay-1/stage0-execution/FiraCode-5.2-FiraCode-Regular-observations.jsonl.gz",
+      "bytes": 219743,
+      "sha256": "62b9b1bb4ba2d788ad412ba9f796b82839e69d00efa1ab0495a5b49c37d5cc06",
+      "reason": "duplicate raw stream; decompressed equality independently confirmed against canonical author results"
+    },
+    {
+      "path": "replay-1/stage0-execution/FiraCode-6.2-FiraCode-Regular-observations.jsonl.gz",
+      "bytes": 220701,
+      "sha256": "a5a87b5b99971ec8e14e2a901024fdf8330a33d126692b9c52327bd6dec6ee7d",
+      "reason": "duplicate raw stream; decompressed equality independently confirmed against canonical author results"
+    }
+  ],
+  "excluded_inputs": "replay-1 font binaries, proof source copies, duplicate collector/protocol, and native-source third-party files are not in publish file list"
 }

@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-09-18T11:02:52.580713+00:00",
+  "status": "source frozen after independent static review; before first collector import or shaping",
+  "protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32",
+  "files": [
+    {
+      "path": "stage0.py",
+      "sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab",
+      "bytes": 18025
+    },
+    {
+      "path": "fetch-stage0-inputs.py",
+      "sha256": "3db6b57d97591020b8b9207e358942c35a6abe8afae90ada461658d07537d877",
+      "bytes": 1877
+    },
+    {
+      "path": "LICENSE-MIT.txt",
+      "sha256": "b054050774603183d60479b79a979f3bc49ca23ae1cf338f0d3bfb81f49bd9ef",
+      "bytes": 1087
+    }
+  ],
+  "protocol_preserved": true,
+  "implementation_note": "Seven synthetic controls: the six protocol-required cases plus a prospective failed nested lookup control requested by independent review; pinned HarfBuzz omits unsuccessful nested return messages. Outer paired boundaries alone determine net glyph-effect coverage. No performance endpoint changed."
+}

@@ -1,0 +1,81 @@
+# SPDX-License-Identifier: MIT
+"""Independent native witness audit; does not import the measured collector."""
+import gzip,hashlib,json,re,datetime
+from pathlib import Path
+from fontTools.ttLib import TTFont
+import uharfbuzz as hb
+
+ROOT=Path(__file__).resolve().parent
+SOURCE=ROOT.parent/'round5-c'
+REPLAY=ROOT/'replay-1'
+OUT=REPLAY/'stage0-execution'
+author=json.loads((SOURCE/'stage0-execution/summary.json').read_text())
+replayed=json.loads((OUT/'summary.json').read_text())
+report={'audited_at_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'collector_imported':False,'full_replay_status':replayed['status'],'fonts':[],'negative_and_positive_controls':[]}
+assert author['status']==replayed['status']=='HOLD_CEILING'
+for original,result in zip(author['results'],replayed['results']):
+    name=result['font']; rawname=name.removesuffix('.ttf')+'-observations.jsonl.gz'
+    raw_a=gzip.decompress((SOURCE/'stage0-execution'/rawname).read_bytes());raw_b=gzip.decompress((OUT/rawname).read_bytes())
+    assert raw_a==raw_b
+    assert original['selected']==result['selected'] and original['covered']==result['covered']
+    rows={r['text']:r for r in map(json.loads,raw_b.splitlines())}
+    fontpath=REPLAY/name;tt=TTFont(fontpath)
+    gsub=tt['GSUB'].table
+    lang=next(r.Script for r in gsub.ScriptList.ScriptRecord if r.ScriptTag=='latn').DefaultLangSys
+    targets=sorted({idx for fi in lang.FeatureIndex if gsub.FeatureList.FeatureRecord[fi].FeatureTag=='calt' for idx in gsub.FeatureList.FeatureRecord[fi].Feature.LookupListIndex})
+    assert targets==result['targets']
+    features={r.FeatureTag:0 for tag in ('GSUB','GPOS') if tag in tt for r in tt[tag].table.FeatureList.FeatureRecord};features['calt']=1
+    font=hb.Font(hb.Face(fontpath.read_bytes()));font.scale=(tt['head'].unitsPerEm,)*2
+    union=set();audits=[]
+    for witness in result['selected']:
+        text=witness['text'];buffers=[];covered=set();pending=[];seen=[];errors=[]
+        for tracing in (False,True):
+            b=hb.Buffer();b.add_str(text);b.script='latn';b.direction='ltr';b.language='dflt'
+            def callback(message):
+                if message.startswith('start lookup '):
+                    m=re.fullmatch(r"start lookup (\d+) feature 'calt'",message)
+                    if not m:
+                        # GPOS is disabled; any other active feature invalidates this audit.
+                        errors.append(message)
+                    else:
+                        pending.append((int(m[1]),tuple(x.codepoint for x in b.glyph_infos)));seen.append(int(m[1]))
+                elif message.startswith('end lookup '):
+                    m=re.fullmatch(r"end lookup (\d+) feature 'calt'",message)
+                    if not m or len(pending)!=1 or pending[0][0]!=int(m[1]):errors.append(message)
+                    else:
+                        idx,before=pending.pop()
+                        if before!=tuple(x.codepoint for x in b.glyph_infos):covered.add(idx)
+                return True
+            if tracing:b.set_message_func(callback)
+            hb.shape(font,b,features)
+            buffers.append({'glyphs':[(x.codepoint,x.cluster) for x in b.glyph_infos],'positions':[(x.x_advance,x.y_advance,x.x_offset,x.y_offset) for x in b.glyph_positions]})
+        assert not errors and not pending and seen==targets
+        assert buffers[0]==buffers[1]
+        assert sorted(covered)==witness['covered']==rows[text]['covered']
+        assert [list(x) for x in buffers[1]['glyphs']]==rows[text]['glyphs']
+        assert [list(x) for x in buffers[1]['positions']]==rows[text]['positions']
+        union|=covered
+        audits.append({'text':text,'native_covered':sorted(covered),'traced_untraced_equal':True})
+    assert sorted(union)==result['covered']
+    report['fonts'].append({'font':name,'font_sha256':hashlib.sha256(fontpath.read_bytes()).hexdigest(),'author_replay_observations_byte_identical':True,'decompressed_observations_sha256':hashlib.sha256(raw_b).hexdigest(),'observations':len(rows),'retained_native_witnesses_audited':len(audits),'target_count':len(targets),'covered':len(union),'uncovered':result['uncovered'],'within_budget':result['within_budget'],'elapsed_total_seconds':result['elapsed_total_seconds'],'peak_rss_bytes':result['peak_rss_bytes'],'witnesses':audits})
+controls=json.loads((OUT/'controls.json').read_text());assert len(controls)==207 and all(c['passed'] for c in controls)
+expected={'single':([3],True),'unmatched':([3],False),'nested':([3,4],True),'failed_nested':([2,4],False),'restored':([2,4],False),'ignore':([2,3],False),'boundary':([2],False)}
+for row in controls[:7]:
+    pending=None;effects=[];roots=[]
+    for event in row['trace']['events']:
+        msg=event['message']
+        if msg.startswith('start lookup '):
+            assert pending is None
+            idx=int(msg.split()[2]);pending=(idx,[x[0] for x in event['buffer']]);roots.append(idx)
+        elif msg.startswith('end lookup '):
+            assert pending is not None and pending[0]==int(msg.split()[2])
+            if pending[1]!=[x[0] for x in event['buffer']]:effects.append(pending[0])
+            pending=None
+    glyphs,should_change=expected[row['name']]
+    assert pending is None and len(roots)==1
+    assert [x[0] for x in row['trace']['glyphs']]==glyphs
+    assert effects==(roots if should_change else [])==row['trace']['covered']
+    report['negative_and_positive_controls'].append({'name':row['name'],'raw_trace_outer_effects':effects,'independent_expected_final_glyph_ids':glyphs,'passed':True})
+report['verdict']='HOLD: existing budget-eligible baseline leaves only 5 and 6 roots; proposed >=10 gain impossible.'
+(ROOT/'INDEPENDENT-AUDIT.json').write_text(json.dumps(report,indent=2)+'\n')
+print(json.dumps({k:v for k,v in report.items() if k not in ('fonts','negative_and_positive_controls')},indent=2))

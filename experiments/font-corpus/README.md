@@ -1,9 +1,16 @@
-# Font-feature corpus: prospective baseline screen
+# Font-feature corpus: HOLD
 
-No results yet and no pursuit pass. The [Stage 0 protocol](stage0-preregistration.md) freezes a cheap negative screen before any shaping evaluation: can an existing Fira Code proof corpus already cover too much of the configured feature program for a proposed symbolic generator to add ten covered lookups?
+The existing proof corpus already leaves too little room for the proposed symbolic generator. [Complete results](STAGE0-RESULTS.md) preserve the frozen protocol, source, all 33,432 timed observations, rights and failure checks.
 
-The full candidate would combine FontTools, Z3 and HarfBuzz. **Stage 0 does not execute Z3 or test that combination.** It measures the native baseline on unmodified Fira Code 5.2 and 6.2, with a 120-second budget per font and at most 128 retained strings. A lookup counts only when its native glyph buffer changes. It does not measure all rule branches, bugs, human effort or commercial value.
+| Historical font | Existing corpus covers | Retained strings | Remaining targets |
+|---|---:|---:|---:|
+| Fira Code 5.2 Regular | 98 / 103 | 56 | 5 |
+| Fira Code 6.2 Regular | 95 / 101 | 55 | 6 |
 
-The [independent readiness review](../../research/round6/font-independent-review/STAGE0-READINESS.md) found no design blocker. Source inspection must precede first execution. If the screen leaves room, the full experiment still needs its own finalized protocol and strong recursive-context baseline.
+All **207 controls passed**, and both runs completed all 16,716 source-derived strings in about 6.1 seconds each, under the fixed 120-second budget and 128-string cap. The required gain was at least ten covered lookups and 20% relative improvement. Even perfect additional coverage cannot meet it. These are native top-level lookup effects, not all rule branches, aesthetic quality or bugs; both inputs belong to one font family.
 
-Input, target, dependency and source hashes are preserved beside the protocol. [Rights notes](rights-notes.md) describe the source-only delivery. Third-party fonts and wheel binaries are not redistributed. [Commercial and workflow evidence](../../research/round6/font-commercial-evidence.md) establishes a recurring task and paid category, not demand for this candidate.
+**No Z3 executor was built and no cross-field integration or pursuit pass is claimed.** Stage 0 used FontTools and HarfBuzz solely to test the baseline ceiling. The [independent static review](../../research/round6/font-independent-review/STAGE0-STATIC-REVIEW.md) corrected a trace-parsing assumption before execution. [Independent replay](../../research/round6/font-independent-review/POST-RESULT-REVIEW.md) reproduced all 33,432 observations; a separate native checker verified all 111 retained witnesses.
+
+To reproduce, copy the metadata and protocol into a scratch directory, restore `stage0.py.txt` and `fetch-stage0-inputs.py.txt` to their original `.py` filenames, install the exact dependencies in `dependency-pins.json`, then run the fetcher followed by `python stage0.py`. The fetcher validates fonts and proof source hashes. The collector refuses to overwrite its output directory. `stage0-execution/summary.json` is the authoritative final resource and decision record.
+
+Original measurement code is MIT. Proof-derived text retains the [Fira Code OFL notice](FiraCode-OFL-1.1.txt); see [rights notes](rights-notes.md). No third-party font or wheel binaries are distributed. [Commercial and workflow sources](../../research/round6/font-commercial-evidence.md) establish a real font-engineering task, but this proposed coverage mechanism did not justify further work.

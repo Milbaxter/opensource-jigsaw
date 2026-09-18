@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-18T11:08:47.600680+00:00",
+  "review_packet_files_hash_verified": 14,
+  "published_fetcher_sha256": "3db6b57d97591020b8b9207e358942c35a6abe8afae90ada461658d07537d877",
+  "fetcher_executed_from_published_bytes": true,
+  "fetched_fonts_and_corpus_hashes_verified": true,
+  "scope": "Parent independently verified packaging and input-fetch helper. Full collector replay and independent native oracle audit are reviewer A results, not a new parent execution."
+}

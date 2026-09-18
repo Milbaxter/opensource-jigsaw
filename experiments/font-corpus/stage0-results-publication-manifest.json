@@ -1,0 +1,83 @@
+{
+  "status": "complete frozen Stage0 HOLD; all outcomes retained",
+  "files": [
+    {
+      "source": "STAGE0-RESULTS.md",
+      "target": "STAGE0-RESULTS.md",
+      "bytes": 6184,
+      "sha256": "7cce9647d6f822332b1dd533637857527bfa55f4b0a5e9102b688cd8f266bd42"
+    },
+    {
+      "source": "FiraCode-OFL-1.1.txt",
+      "target": "FiraCode-OFL-1.1.txt",
+      "bytes": 4389,
+      "sha256": "1d41e10031ab125302780a05ec4c91d218e47db0c7e37cf315cce5e608cdc25c"
+    },
+    {
+      "source": "stage0-source-freeze.json",
+      "target": "stage0-source-freeze-original.json",
+      "bytes": 1075,
+      "sha256": "970a733bf316f08da0dbcf7e4bc0c8de911c7cc1bbd19869b57ca86edd29ee67"
+    },
+    {
+      "source": "LICENSE-MIT.txt",
+      "target": "LICENSE-MIT.txt",
+      "bytes": 1087,
+      "sha256": "b054050774603183d60479b79a979f3bc49ca23ae1cf338f0d3bfb81f49bd9ef"
+    },
+    {
+      "source": "stage0-console.log",
+      "target": "stage0-console.log",
+      "bytes": 90,
+      "sha256": "ce1da23c179682d45e7934928c454a042e3cca125a3b79533b7c11daae0d2c55"
+    },
+    {
+      "source": "stage0-execution/FiraCode-5.2-FiraCode-Regular-observations.jsonl.gz",
+      "target": "stage0-execution/FiraCode-5.2-FiraCode-Regular-observations.jsonl.gz",
+      "bytes": 219743,
+      "sha256": "13cf3dba3dd6cbeea0980075c552b0a2ab9de05b79a0cdc0c6a2aba6f0d198ce"
+    },
+    {
+      "source": "stage0-execution/FiraCode-5.2-FiraCode-Regular-result.json",
+      "target": "stage0-execution/FiraCode-5.2-FiraCode-Regular-result.json",
+      "bytes": 7147,
+      "sha256": "903a15a7b9ca8627516b12f82f649bc6815fbc133bd4ded3bf2ce4c75ed06450"
+    },
+    {
+      "source": "stage0-execution/FiraCode-6.2-FiraCode-Regular-observations.jsonl.gz",
+      "target": "stage0-execution/FiraCode-6.2-FiraCode-Regular-observations.jsonl.gz",
+      "bytes": 220701,
+      "sha256": "419eb70bb33cccd6a8d4feb906b13996ed6a4e0c8b8d2724a5f05144afdfd001"
+    },
+    {
+      "source": "stage0-execution/FiraCode-6.2-FiraCode-Regular-result.json",
+      "target": "stage0-execution/FiraCode-6.2-FiraCode-Regular-result.json",
+      "bytes": 7149,
+      "sha256": "8bb65eb9b777acfab123205a11f02be77856cdeec29c2cf9d5327dd8f5735466"
+    },
+    {
+      "source": "stage0-execution/controls.json",
+      "target": "stage0-execution/controls.json",
+      "bytes": 54716,
+      "sha256": "abf84ee024c3b49b648525f04ac3697da2b10a15126ca0016e79495c6d84a6cb"
+    },
+    {
+      "source": "stage0-execution/corpus.json",
+      "target": "stage0-execution/corpus.json",
+      "bytes": 157,
+      "sha256": "e9895a0376987a9de0d866cc5c97c699cee4ea952f10a0d08d363c21fba49028"
+    },
+    {
+      "source": "stage0-execution/execution-start.json",
+      "target": "stage0-execution/execution-start.json",
+      "bytes": 225,
+      "sha256": "30b497bf98d5278229fc9fa9f86d086ac96ed82bfa34a9c99d24404a8323a263"
+    },
+    {
+      "source": "stage0-execution/summary.json",
+      "target": "stage0-execution/summary.json",
+      "bytes": 19442,
+      "sha256": "239a89d69594f35c877dafdf030f82a56513b8126b5f4fd1fc4abd19a70c8f0e"
+    }
+  ]
+}
