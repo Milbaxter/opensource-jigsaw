@@ -1,0 +1,14 @@
+[
+  "gkd-kit/gkd",
+  "team-ocean/veros",
+  "interpretml/interpret",
+  "schemaorg/schemaorg",
+  "deepspeedai/DeepSpeed",
+  "google/differential-privacy",
+  "stack-of-tasks/pinocchio",
+  "richardlehane/siegfried",
+  "google/or-tools",
+  "PyPSA/PyPSA",
+  "azavea/raster-vision",
+  "deepchem/deepchem"
+]

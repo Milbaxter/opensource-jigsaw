@@ -29,6 +29,8 @@ flowchart LR
 
 The [initial Astra research](research/initial/research.md) captured **1,320 public repositories across 30 fields**, inspected **19 components** more closely, and evaluated **seven combinations**. **Zero passed**; weighted scores ranged from 54.5 to 65/100. It distinguishes the broad metadata crawl from the much smaller set inspected deeply. This separately conducted research is not represented as an end-to-end CLI run.
 
+A separate [live CLI validation](research/live-validation/README.md) completed every stage on 57 repository candidates. Its three-project hypothesis was rejected at **44.5/100**. The generated report, structured decisions, and provenance are included; cached resume was also verified.
+
 ## Run locally
 
 Requires **Python 3.11+**, authenticated [GitHub CLI](https://cli.github.com/), and a current [Codex CLI](https://learn.chatgpt.com/docs/non-interactive-mode) with access to [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra).

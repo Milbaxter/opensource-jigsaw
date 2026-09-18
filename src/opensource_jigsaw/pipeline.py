@@ -187,4 +187,4 @@ def report(out: Path, catalog: dict[str, Repository], results: list[Result], *, 
             lines += ["Gate failures:", ""] + [f"- {r}" for r in result.decision.reasons] + [""]
         lines += [f"Next experiment: {result.judgment.next_experiment}", "", "Sources:", ""]
         lines += [f"- [{e.title}]({e.url}): {e.finding}" for e in result.research.evidence] + [""]
-    (out / "report.md").write_text("\n".join(lines) + "\n")
+    (out / "report.md").write_text("\n".join(lines).rstrip() + "\n")

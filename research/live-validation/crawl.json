@@ -1,0 +1,258 @@
+[
+  {
+    "query": "topic:bioinformatics stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Biology — bioinformatics",
+    "page": 1,
+    "total_count": 450,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:37:47.559502+00:00"
+  },
+  {
+    "query": "topic:geospatial raster stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Geospatial — raster processing",
+    "page": 1,
+    "total_count": 23,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:37:51.111011+00:00"
+  },
+  {
+    "query": "\"OPC UA\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Industrial control",
+    "page": 1,
+    "total_count": 122,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:00.150067+00:00"
+  },
+  {
+    "query": "topic:power-systems stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Energy — power grids",
+    "page": 1,
+    "total_count": 37,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:03.166960+00:00"
+  },
+  {
+    "query": "topic:hydrology stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Water — hydrology",
+    "page": 1,
+    "total_count": 107,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:09.840284+00:00"
+  },
+  {
+    "query": "\"IFC\" \"geometry\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Construction",
+    "page": 1,
+    "total_count": 51,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:13.201139+00:00"
+  },
+  {
+    "query": "\"vehicle routing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Logistics",
+    "page": 1,
+    "total_count": 74,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:15.883601+00:00"
+  },
+  {
+    "query": "topic:accessibility stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Accessibility",
+    "page": 1,
+    "total_count": 305,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:19.488267+00:00"
+  },
+  {
+    "query": "\"digital signal processing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Signal processing",
+    "page": 1,
+    "total_count": 169,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:22.896441+00:00"
+  },
+  {
+    "query": "\"finite element\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Scientific simulation",
+    "page": 1,
+    "total_count": 674,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:27.341244+00:00"
+  },
+  {
+    "query": "topic:motion-planning stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Robotics",
+    "page": 1,
+    "total_count": 59,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:29.849445+00:00"
+  },
+  {
+    "query": "topic:differential-privacy stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Privacy",
+    "page": 1,
+    "total_count": 26,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:32.094389+00:00"
+  },
+  {
+    "query": "topic:fuzzing stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Security",
+    "page": 1,
+    "total_count": 160,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:38.064099+00:00"
+  },
+  {
+    "query": "\"constraint solver\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Optimization",
+    "page": 1,
+    "total_count": 147,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:41.391222+00:00"
+  },
+  {
+    "query": "topic:rdf stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Knowledge graphs",
+    "page": 1,
+    "total_count": 99,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:47.091487+00:00"
+  },
+  {
+    "query": "topic:materials-science stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Materials science",
+    "page": 1,
+    "total_count": 140,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:51.047704+00:00"
+  },
+  {
+    "query": "\"precision agriculture\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Agriculture",
+    "page": 1,
+    "total_count": 88,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:55.980887+00:00"
+  },
+  {
+    "query": "\"toolpath\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Manufacturing — machining",
+    "page": 1,
+    "total_count": 43,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:38:57.703383+00:00"
+  },
+  {
+    "query": "\"incremental build\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Developer tooling — builds",
+    "page": 1,
+    "total_count": 279,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:01.714514+00:00"
+  },
+  {
+    "query": "topic:astronomy stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Astronomy",
+    "page": 1,
+    "total_count": 355,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:07.018016+00:00"
+  },
+  {
+    "query": "topic:oceanography stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Oceanography",
+    "page": 1,
+    "total_count": 53,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:11.422699+00:00"
+  },
+  {
+    "query": "topic:quic stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Networking",
+    "page": 1,
+    "total_count": 108,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:15.150093+00:00"
+  },
+  {
+    "query": "\"embedded database\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Database systems",
+    "page": 1,
+    "total_count": 271,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:35.350778+00:00"
+  },
+  {
+    "query": "topic:compression stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Data compression",
+    "page": 1,
+    "total_count": 266,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:40.358983+00:00"
+  },
+  {
+    "query": "\"model checking\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Formal verification",
+    "page": 1,
+    "total_count": 432,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:45.687431+00:00"
+  },
+  {
+    "query": "\"file format identification\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Digital preservation",
+    "page": 1,
+    "total_count": 4,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:46.432735+00:00"
+  },
+  {
+    "query": "\"sequence alignment\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Biology — sequence alignment",
+    "page": 1,
+    "total_count": 505,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:51.718662+00:00"
+  },
+  {
+    "query": "\"spatial index\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Geospatial — spatial indexing",
+    "page": 1,
+    "total_count": 141,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:56.373987+00:00"
+  },
+  {
+    "query": "\"battery\" \"electrochemical\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Energy — batteries",
+    "page": 1,
+    "total_count": 58,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:39:58.646228+00:00"
+  },
+  {
+    "query": "\"EPANET\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Water — distribution networks",
+    "page": 1,
+    "total_count": 27,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:40:00.117450+00:00"
+  },
+  {
+    "query": "\"g-code\" \"parser\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Manufacturing — machine instructions",
+    "page": 1,
+    "total_count": 91,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:40:03.849972+00:00"
+  },
+  {
+    "query": "\"dependency analysis\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+    "field": "Developer tooling — dependency analysis",
+    "page": 1,
+    "total_count": 160,
+    "incomplete_results": false,
+    "retrieved_at": "2026-09-18T07:40:07.332804+00:00"
+  }
+]

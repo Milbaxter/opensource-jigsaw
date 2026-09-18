@@ -1,0 +1,310 @@
+[
+  {
+    "idea": {
+      "title": "Motion-aware connection sizing for electrified container terminals",
+      "thesis": "Test whether physically informed crane scheduling can reduce a terminal’s required electrical connection and battery capacity while preserving container throughput. The supplied catalogue supports the components’ broad technical roles; it does not establish achievable savings, customer demand, integration feasibility, or license compatibility.",
+      "components": [
+        {
+          "repository": "stack-of-tasks/pinocchio",
+          "role": "Calculate mechanical torque and power profiles for crane movements across payloads and approved motion trajectories.",
+          "necessity": "The mechanism depends on distinguishing when a move consumes power and when it could regenerate. Rigid-body dynamics provides this dependence on payload, acceleration, and configuration; measured drive efficiencies and auxiliary loads must convert mechanical power into electrical demand."
+        },
+        {
+          "repository": "google/or-tools",
+          "role": "Schedule discrete container moves and select among approved motion profiles under precedence, crane-interference, and throughput constraints.",
+          "necessity": "Electrical flexibility exists only where actual container operations permit movements to shift. A physically attractive power profile is worthless if the corresponding schedule blocks the quay or misses vessel deadlines."
+        },
+        {
+          "repository": "PyPSA/PyPSA",
+          "role": "Evaluate scheduled crane demand against the terminal’s electrical network, connection limit, other loads, and candidate battery capacities.",
+          "necessity": "A lower aggregate peak does not necessarily relieve the constrained feeder. Network and storage feasibility must determine which scheduling changes actually substitute for electrical infrastructure."
+        }
+      ],
+      "buyer": "The engineering director of an electrifying container-terminal operator, using its electrical connection, substation, battery, and terminal-modernization capital-planning budget. Willingness to pay is a hypothesis.",
+      "painful_workflow": "During an electrification project, engineers must translate uncertain crane duty cycles and overlapping vessel operations into connection and storage requirements. The hypothesized expensive failure is sizing infrastructure around simultaneous loads that could be avoided operationally—or assuming scheduling flexibility that cannot survive real container-move constraints.",
+      "novel_mechanism": "Treat approved crane movements as time-dependent electrical loads whose timing is negotiable within operational constraints. Couple movement scheduling to network feasibility so the product can propose a smaller connection together with the operating schedule required to make it viable. The causal opportunity is that short lifting peaks may be movable without reducing completed moves; regenerative energy counts only where the installed drives and electrical topology demonstrably permit its reuse. The output is an infrastructure-sizing study backed by replayable schedules and sensitivity bounds.",
+      "business_model": "Begin with a paid engineering study comparing conventional connection sizing with scheduling-enabled alternatives. If validated, sell an annual planning license per terminal for fleet changes, vessel-demand scenarios, and electrical expansion decisions. Pricing and margins remain untested; operational deployment would require separate validation.",
+      "integration_plan": "Ingest crane geometry, payload classes, approved trajectories, drive characteristics, move dependencies, electrical topology, and non-crane loads. Custom adapters use stack-of-tasks/pinocchio to generate candidate mechanical profiles, then calibrated drive models produce electrical traces. google/or-tools selects movements and start times. PyPSA/PyPSA evaluates the resulting time-series loads and candidate connection/storage capacities. Iterate by translating electrical violations into scheduling constraints and rechecking feasibility; this coupling must be built and tested. Validate time resolution against observed peaks. Crane sway, structural flexibility, protection coordination, and electrical transients require additional engineering beyond these repositories. Verify actual repository licenses and dependencies before distribution.",
+      "cheapest_falsification": "Before building the integration, run an offline replay experiment on one consenting terminal’s existing movement logs and electrical measurements; obtaining those records is a future experiment, not evidence supplied here. Compare the current schedule, simple start-time staggering, and a small motion-aware optimization using identical operating constraints. Proposed rejection criteria: less than 10% reduction in required connection capacity at no more than 1% throughput loss; savings that disappear under plausible timing and efficiency errors; or performance matched by simple staggering. These are experimental hurdles, not measured results. Stop earlier if electrical traces cannot be predicted accurately enough to preserve the apparent headroom."
+    },
+    "research": {
+      "evidence": [
+        {
+          "url": "https://www.cima.ca/en/project/electrical-network-capacity-analysis/",
+          "title": "CIMA+: Port of Montreal electrical network capacity analysis",
+          "claim": "Ports commission engineering work closely resembling the proposed initial study.",
+          "finding": "The Montreal Port Authority commissioned network-capacity and infrastructure-condition analysis. Work included updating single-line diagrams, reviewing utility and tenant agreements, calculating network capacity, simulating power flows, and studying equipment electrification. This demonstrates an established purchasing workflow; the fee and willingness to buy motion-aware scheduling are undisclosed.",
+          "kind": "demand",
+          "supports": true
+        },
+        {
+          "url": "https://www.ema.gov.sg/news-events/news/media-releases/2022/singapores-first-energy-storage-system-at-psas-pasir-panjang-terminal",
+          "title": "EMA: Energy storage and smart-grid management at PSA",
+          "claim": "Terminal energy management attracts funded procurement.",
+          "finding": "EMA reports an awarded Envision Digital-led project within an $8 million EMA–PSA partnership, including a 2 MW/2 MWh battery and demand forecasting for planning and energy management. This is independent evidence of adjacent spending, but the partnership includes hardware and public support; it is not a software price or proof of demand for this combination.",
+          "kind": "demand",
+          "supports": true
+        },
+        {
+          "url": "https://www.pema.org/wp-content/uploads/2024/05/PEMA-Challenge_Peak-Electriciy-Reduction-Ship-to-Shore-Cranes.pdf",
+          "title": "PEMA: Reducing Electricity Costs of Ship to Shore Container Cranes",
+          "claim": "Combining crane power limits with selectable movement dynamics is novel.",
+          "finding": "The study already varies acceleration, velocity, and deceleration under a collective power limit. At its 2,000 kW limit, simulated crane-productivity loss fell from 12.2% to 9.3% when dynamic profiles were varied; peak-related costs fell 59.5%. Actual-terminal digital-twin validation and TOS integration remained future work. This is the closest inspected counterexample to the motion-aware mechanism.",
+          "kind": "competitor",
+          "supports": false
+        },
+        {
+          "url": "https://link.springer.com/article/10.1186/s41072-018-0029-y",
+          "title": "Geerlings, Heij and van Duin: Opportunities for peak shaving at container terminals",
+          "claim": "Sophisticated motion optimization is necessary to achieve useful crane peak reduction.",
+          "finding": "This 2018 simulation study reports 50% peak reduction with less than half a minute of additional vessel handling time per handling hour using power limits or limits on simultaneous lifting. Its reported savings are case-specific simulation results, not demonstrated connection-capacity reductions. It establishes a demanding simple-control baseline.",
+          "kind": "competitor",
+          "supports": false
+        },
+        {
+          "url": "https://www.flexterm.com/solutions",
+          "title": "FlexTerm: Port and terminal simulation solutions",
+          "claim": "Replayable operational simulation for capital planning is an unoccupied market.",
+          "finding": "FlexTerm already markets terminal simulation, TOS emulation, infrastructure planning, and evaluation before capital expenditure. The inspected page does not establish motion-level electrical network optimization or publish pricing. It is an incumbent workflow alternative and possible integration partner.",
+          "kind": "competitor",
+          "supports": false
+        },
+        {
+          "url": "https://homerenergy.com/homer-grid/pricing",
+          "title": "HOMER Grid commercial pricing",
+          "claim": "Adjacent energy-sizing software provides a public pricing reference.",
+          "finding": "The inspected page lists a one-user commercial annual subscription at $4,200/year and monthly billing at $665/month; enterprise pricing is custom. Listed capabilities include storage sizing, sensitivity analysis, and demand-charge reduction. This is an adjacent software price, not evidence that terminals will purchase crane scheduling.",
+          "kind": "pricing",
+          "supports": true
+        },
+        {
+          "url": "https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/",
+          "title": "Pinocchio documentation: models and inverse dynamics",
+          "claim": "Pinocchio can supply the mechanical part of candidate movement profiles.",
+          "finding": "The documentation demonstrates URDF model loading and inverse dynamics from configuration, velocity, and acceleration to generalized joint forces/torques, with NumPy representations in Python. It does not supply a crane electrical-demand model or terminal adapter.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/stack-of-tasks/pinocchio/master/README.md",
+          "title": "Pinocchio README",
+          "claim": "Pinocchio is a credible reusable dynamics component.",
+          "finding": "The project documents C++ and Python interfaces, multiple model-description formats, testing across platforms, and use in other robotics software. These support component maturity, but do not validate crane dynamics, electrical trace accuracy, or the proposed integrated product.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://developers.google.com/optimization/scheduling/job_shop",
+          "title": "OR-Tools: The Job Shop Problem",
+          "claim": "OR-Tools provides scheduling primitives relevant to container moves.",
+          "finding": "The example represents tasks using start, end, and interval variables with precedence and machine non-overlap constraints. Crane interference, stowage restrictions, vehicle availability, and vessel deadlines still require a custom terminal model.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://developers.google.com/optimization/cp/cp_solver",
+          "title": "OR-Tools: CP-SAT Solver",
+          "claim": "Continuous movement traces can be passed directly into CP-SAT.",
+          "finding": "CP-SAT constraints require integer representations. Time and electrical coefficients therefore need explicit discretization and scaling. The documentation distinguishes feasible solutions from proven optima and permits an unknown result after resource limits; terminal-scale runtime remains unmeasured.",
+          "kind": "technical",
+          "supports": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google/or-tools/stable/ortools/sat/python/cp_model.py",
+          "title": "OR-Tools source: cumulative scheduling constraint",
+          "claim": "The standard cumulative constraint directly accommodates regenerative power.",
+          "finding": "The add_cumulative documentation requires nonnegative demand for every interval. Signed consumption/regeneration traces need a separate time-indexed balance formulation or another custom representation. Regeneration cannot simply be inserted as a negative cumulative demand.",
+          "kind": "technical",
+          "supports": false
+        },
+        {
+          "url": "https://docs.pypsa.org/latest/user-guide/import-export/",
+          "title": "PyPSA: Import and Export",
+          "claim": "Scheduled electrical traces can enter PyPSA through documented interfaces.",
+          "finding": "PyPSA supports programmatic network construction and CSV, netCDF, and HDF5 exchange, including component time-series files. A custom adapter must map crane identifiers, electrical buses, timestamps, units, and load profiles into this representation.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://docs.pypsa.org/latest/user-guide/optimization/storage/",
+          "title": "PyPSA: Storage optimization",
+          "claim": "Battery energy and power can be evaluated, but model choices matter.",
+          "finding": "Storage equations include MW dispatch, MWh state of charge, efficiencies, and snapshot duration weights. StorageUnit couples energy capacity to power through max_hours; independent sizing requires an appropriate Store/Link formulation. Default one-hour weights must be changed for short movement intervals.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://docs.pypsa.org/latest/user-guide/power-flow/",
+          "title": "PyPSA: Non-linear power flow",
+          "claim": "An optimized PyPSA schedule is sufficient electrical validation.",
+          "finding": "The documentation separates linearized optimization from nonlinear power-flow validation. The latter requires active/reactive setpoints and network impedances and produces voltages and branch flows. These documented calculations do not establish protection coordination, harmonic performance, or transient acceptability.",
+          "kind": "technical",
+          "supports": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PyPSA/PyPSA/master/pyproject.toml",
+          "title": "PyPSA package and dependency metadata",
+          "claim": "The proposed delivery has a concrete but nontrivial software environment.",
+          "finding": "The inspected branch requires Python 3.11 or later and lists dependencies including NumPy, pandas, Linopy, netCDF4, and highspy, with commercial-solver support optional. It declares Production/Stable status; this is project metadata, not evidence of integrated terminal-system maturity.",
+          "kind": "technical",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/stack-of-tasks/pinocchio/master/LICENSE",
+          "title": "Pinocchio BSD-2-Clause license",
+          "claim": "Pinocchio permits commercial use and proprietary integration.",
+          "finding": "The actual license permits use and redistribution with modifications. Source distributions must retain copyright, conditions, and disclaimer; binary distributions must reproduce them in accompanying materials. It does not require publication of proprietary application code.",
+          "kind": "license",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google/or-tools/stable/LICENSE",
+          "title": "OR-Tools Apache-2.0 license",
+          "claim": "OR-Tools permits commercial use subject to redistribution obligations.",
+          "finding": "Redistribution requires the license, applicable notices, modification notices for changed files, and relevant NOTICE attribution if supplied. The license includes a contributor patent grant with termination conditions and does not grant trademark rights.",
+          "kind": "license",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PyPSA/PyPSA/master/LICENSE",
+          "title": "PyPSA MIT license",
+          "claim": "PyPSA permits commercial use and proprietary integration.",
+          "finding": "The inspected license permits use, modification, distribution, sublicensing, and sale. Copyright and permission notices must accompany copies or substantial portions. It imposes no requirement to publish the proprietary application.",
+          "kind": "license",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/PyPSA/linopy/master/LICENSE.txt",
+          "title": "Linopy MIT license",
+          "claim": "PyPSA's optimization modelling dependency permits commercial delivery.",
+          "finding": "Linopy uses MIT terms, including retention of copyright and permission notices in copies or substantial portions. This checks one important dependency, not the entire deployment dependency tree.",
+          "kind": "license",
+          "supports": true
+        },
+        {
+          "url": "https://raw.githubusercontent.com/ERGO-Code/HiGHS/master/LICENSE.txt",
+          "title": "HiGHS MIT license",
+          "claim": "The proposed optimization stack need not require a commercial solver subscription.",
+          "finding": "HiGHS permits commercial use under MIT terms with notice retention. Whether its performance is adequate for this particular sizing problem remains untested.",
+          "kind": "license",
+          "supports": true
+        },
+        {
+          "url": "https://gitlab.com/libeigen/eigen/-/raw/3.4.0/COPYING.README",
+          "title": "Eigen 3.4.0 license composition",
+          "claim": "All underlying dependencies can be assumed permissive from the three repository licenses.",
+          "finding": "Eigen states that it is primarily MPL-2.0, with some BSD and LGPL files. It documents EIGEN_MPL2_ONLY to exclude LGPL-covered inclusions. Dependency and build configuration therefore affect redistribution obligations.",
+          "kind": "license",
+          "supports": false
+        },
+        {
+          "url": "https://gitlab.com/libeigen/eigen/-/raw/3.4.0/COPYING.MPL2",
+          "title": "Eigen MPL-2.0 license text",
+          "claim": "An on-premises binary can ignore source-availability obligations for bundled Eigen code.",
+          "finding": "MPL executable distribution requires availability of the covered source and instructions for obtaining it. Separate proprietary files can remain under other terms. This is file-level coverage, not a requirement to publish the whole application.",
+          "kind": "license",
+          "supports": false
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google/or-tools/stable/CMakeLists.txt",
+          "title": "OR-Tools build configuration and optional solvers",
+          "claim": "Every OR-Tools build has identical license implications.",
+          "finding": "The build configuration explicitly disables GLPK by default because it is GPLv3 and exposes several other solver options. Choosing CP-SAT at runtime does not establish what a distributed binary bundles; the exact artifact needs auditing.",
+          "kind": "license",
+          "supports": false
+        }
+      ],
+      "buyer_analysis": "Assessment: credible problem and potential engineering service; unproven product demand. Two independent sources demonstrate adjacent purchasing: Montreal commissioned electrical-capacity engineering, and EMA–PSA funded terminal energy management. Neither establishes demand for this exact integration, a standalone annual licence, or the suggested buyer's authority. [CIMA+ project](https://www.cima.ca/en/project/electrical-network-capacity-analysis/) [EMA procurement](https://www.ema.gov.sg/news-events/news/media-releases/2022/singapores-first-energy-storage-system-at-psas-pasir-panjang-terminal)\n\nThe likely buying group includes terminal engineering, operations, finance, the port landlord, electrical consultants, and the utility. Engineering can sponsor the study, but operations must accept scheduling restrictions and the utility must accept their contribution to a smaller connection. Target terminals with a pending capacity decision, identifiable crane-driven congestion, usable measurements, and control over operations. Demand is weaker where shore power or other inflexible loads dominate, capacity is already sunk, or connection charges cannot actually be avoided. An annual subscription needs recurring planning decisions and economical model maintenance; neither is demonstrated.",
+      "competitive_analysis": "Reject broad novelty. The closest counterexample is the PEMA study's combination of collective power limits and variable movement profiles. Its remaining real-terminal validation gap resembles this proposal's gap. Its crane-productivity metric is not identical to terminal throughput, so its 9.3% loss does not by itself falsify the proposed 1% terminal-throughput hurdle. [PEMA study](https://www.pema.org/wp-content/uploads/2024/05/PEMA-Challenge_Peak-Electriciy-Reduction-Ship-to-Shore-Cranes.pdf)\n\nThe strongest simplicity challenge is the 2018 study reporting substantial benefits from basic lifting/power limits. Treat those results as motivation for a baseline, not transferable savings. [Geerlings et al.](https://link.springer.com/article/10.1186/s41072-018-0029-y)\n\nCommercial alternatives include existing electrical consultants, FlexTerm operational simulation, and deployed forecasting-plus-storage systems such as PSA's EnOS project. HOMER Grid supplies adjacent storage and energy-economics planning at a published $4,200 annual single-user price. Its inspected capabilities do not establish detailed crane scheduling. [FlexTerm](https://www.flexterm.com/solutions) [HOMER pricing](https://homerenergy.com/homer-grid/pricing)\n\nA possible differentiation is utility-acceptable connection sizing supported by calibrated movement traces, executable operational restrictions, and uncertainty bounds. No inspected source proves that complete offering is absent, and no evidence establishes a defensible advantage. The three-library combination alone provides little protection.",
+      "integration_analysis": "Documentary feasibility only: no code, measurements, or integrated benchmarks were run. The interfaces are plausible; the application and its validation remain substantial engineering work.\n\n1. Terminal data → mechanical model. Obtain crane geometry, masses/inertias, reeving and gear relationships, payload/spreader classes, joint limits, and approved trajectories. Translate drawings and OEM data into a URDF or programmatic model; Pinocchio consumes numerical configuration, velocity, and acceleration and returns generalized forces/torques. Model hoist forces correctly rather than treating every output as rotational torque. [Pinocchio documentation](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/)\n\n2. Mechanics → electricity. Proposed adapter: compute per-axis mechanical power from force/velocity or torque/angular velocity, then apply measured directional efficiency, friction, drive limits, and auxiliary loads. Preserve axis-level signs before accounting for shared DC buses. Negative mechanical power becomes usable electrical regeneration only where drives, converters, topology, and receiving loads/storage permit it. Rope elasticity, sway, wind, and structural dynamics require additional modelling or conservative approved envelopes. Compare this machinery against calibrated empirical profiles; Pinocchio's necessity remains unproven.\n\n3. Profiles → schedule. Define a versioned profile table containing crane, payload class, approved trajectory, duration, sample offsets, and electrical demand. Combine it with move IDs, release times, precedence, stowage restrictions, crane interference, yard/vehicle resources, and vessel deadlines. OR-Tools returns profile selections and start/end times through a custom model. Integer scaling and conservative rounding are required; signed regeneration cannot use negative demands in add_cumulative. Piecewise time-indexed electrical constraints are missing engineering. [CP-SAT](https://developers.google.com/optimization/cp/cp_solver) [Cumulative implementation](https://raw.githubusercontent.com/google/or-tools/stable/ortools/sat/python/cp_model.py)\n\n4. Schedule → network/storage. Aggregate shifted traces by actual feeder bus, retain non-crane loads, convert to MW, and supply active/reactive demand and network parameters. CSV or in-memory adapters are supported. Explicitly convert sample duration to hours for storage balances. Independently size battery MW and MWh with Store/Link components where needed, including efficiency, initial/final charge, reserve, degradation assumptions, and charge/discharge restrictions. [PyPSA exchange](https://docs.pypsa.org/latest/user-guide/import-export/) [Storage](https://docs.pypsa.org/latest/user-guide/optimization/storage/)\n\n5. Network → revised schedule. Build the iteration that translates feeder overloads and storage infeasibility into valid scheduling restrictions. A feasible alternating solution is not necessarily jointly optimal, and convergence is unproven. Recheck candidates with nonlinear AC power flow and explicit acceptance limits. Protection, harmonics, unbalance where relevant, transients, and transformer thermal constraints need additional studies. Distinguish instantaneous kW, billing-interval demand, and connection/substation kVA. [PyPSA power flow](https://docs.pypsa.org/latest/user-guide/power-flow/)\n\n6. Delivery and maturity. An offline Python application is plausible; the inspected PyPSA branch requires Python 3.11+. Pin versions and native dependencies, benchmark representative horizons, and retain solver status, model inputs, constraints, and replay outputs. Mature individual libraries do not demonstrate mature coupling. A smaller connection dependent on scheduling ultimately needs enforceable controls and a credible failure fallback, even if the first sale is only a planning study.",
+      "license_analysis": "All three named components have inspected open-source licenses compatible with commercial engineering use. Pinocchio is BSD-2-Clause, OR-Tools Apache-2.0, and PyPSA MIT. Their terms permit proprietary integration when obligations are met. [Pinocchio license](https://raw.githubusercontent.com/stack-of-tasks/pinocchio/master/LICENSE) [OR-Tools license](https://raw.githubusercontent.com/google/or-tools/stable/LICENSE) [PyPSA license](https://raw.githubusercontent.com/PyPSA/PyPSA/master/LICENSE)\n\nFor an internally executed paid study or hosted planning service, these licenses do not require publishing proprietary application source merely because customers receive results or use the service. Retain notices in software copies. Delivering containers, binaries, notebooks containing upstream code, or an on-premises annual licence introduces redistribution duties: include BSD/MIT notices and disclaimers, Apache license and applicable attribution/NOTICE material, and mark modified Apache-covered files. Reports containing only original results ordinarily do not distribute the libraries.\n\nImportant dependency checks: Linopy and HiGHS are MIT. Pinocchio dependencies inspected separately include [eigenpy under BSD-2-Clause](https://raw.githubusercontent.com/stack-of-tasks/eigenpy/master/LICENSE), [urdfdom under BSD-3-Clause](https://raw.githubusercontent.com/ros/urdfdom/master/LICENSE), and [Boost under BSL-1.0](https://www.boost.org/LICENSE_1_0.txt). Retain required notices, respect urdfdom's non-endorsement clause, and observe Boost's object-code exception. Eigen 3.4.0 is primarily MPL-2.0 with other licensed files: distributed covered code requires source availability and notice compliance, while separate proprietary files may remain closed. [Eigen license guidance](https://gitlab.com/libeigen/eigen/-/raw/3.4.0/COPYING.README) [MPL text](https://gitlab.com/libeigen/eigen/-/raw/3.4.0/COPYING.MPL2)\n\nThis is not full artifact clearance. Exact package versions, transitive dependencies, optional modules, solver binaries, and accompanying model/data rights remain unresolved. OR-Tools' optional GPLv3 GLPK integration is a concrete reason to audit the selected build. OEM drawings, trajectories, and terminal data require separate usage rights; repository licenses do not grant them.",
+      "unit_economics": "No delivery costs, customer savings, conversion rates, or renewal rates were measured. Illustrative assumptions in EUR: a €40,000 study requiring 320 hours at €90/hour plus €5,200 for compute, travel, and external review costs €34,000, leaving €6,000 contribution, or 15%, before sales and product-development costs. A repeat study requiring 160 hours plus €3,600 other direct cost costs €18,000, giving 55% contribution. Extensive instrumentation or model reconstruction could eliminate that improvement.\n\nAn illustrative €24,000 annual licence with 80 support/model-maintenance hours at €90/hour and €2,800 infrastructure/review cost leaves €14,000 contribution, about 58%, before acquisition and R&D. These are test prices and workload assumptions, not market benchmarks. HOMER's published pricing is only an adjacent reference. [HOMER pricing](https://homerenergy.com/homer-grid/pricing)\n\nCustomer value must use utility and supplier quotations: avoided or deferred connection/substation expenditure, avoided battery MW and MWh costs, and tariff savings, less controls, implementation, maintenance, degradation, and operational penalties. Avoid double-counting overlapping benefits. Shorter peaks may reduce inverter power without reducing battery energy; a smaller connection may instead require more storage. Evaluate the feasible cost frontier rather than promising both capacities fall.",
+      "distribution": "Hypothesis: sell the first studies through port electrical consultants, terminal simulation firms, and crane/drive integrators already trusted with capital decisions. CIMA+'s commissioned project and FlexTerm's planning offering demonstrate those channels exist, but no partnership interest has been established. [CIMA+](https://www.cima.ca/en/project/electrical-network-capacity-analysis/) [FlexTerm](https://www.flexterm.com/solutions)\n\nUse public electrification projects and announced capacity expansions to identify prospects with a near-term decision. Offer a fixed-scope comparison against the incumbent engineering baseline, with an early data-quality stop and independently reviewable outputs. Develop reusable adapters only after repeated studies show common data structures. Incumbents are also competitors, and dependence on their customer access may reduce margins. No outreach was performed.",
+      "unresolved_critical_assumptions": [
+        "A terminal will provide legally usable, synchronized movement logs, payload data, approved trajectories, OEM parameters, feeder measurements, and non-crane loads at sufficient resolution and coverage.",
+        "Mechanical/electrical profiles can predict held-out peaks with uncertainty substantially smaller than the proposed capacity reduction.",
+        "Pinocchio adds material predictive or economic value beyond measured trace templates or a simpler hoist model.",
+        "The TOS, equipment controls, and operators permit enough timing/profile flexibility without unacceptable effects on vessel deadlines, yard congestion, safety envelopes, or labour practices.",
+        "Crane scheduling materially affects the constrained feeder and the utility's actual sizing criterion; other loads, redundancy requirements, growth allowances, or transformer rating steps do not dominate.",
+        "Installed drives and electrical topology permit the assumed regeneration, including under export restrictions and battery charge limits.",
+        "Connection capacity and battery requirements can improve under equal reliability assumptions; reducing one does not erase savings by increasing the other.",
+        "A utility and responsible engineering authority will accept operationally constrained sizing, including controls failure, communication loss, battery unavailability, and fallback behaviour.",
+        "The optimization remains tractable at realistic move counts, time resolution, scenario coverage, and uncertainty; alternating solvers produce sufficiently good feasible solutions.",
+        "Performance exceeds simple staggering, simultaneous-hoist limits, existing OEM controls, and empirically calibrated scheduling by enough to justify added modelling expense.",
+        "A named budget owner will pay for the study, and the value of repeat planning justifies an annual licence rather than occasional consulting.",
+        "Data preparation, calibration, independent review, and customer support can be repeated at acceptable margins.",
+        "A pinned distribution and complete dependency inventory satisfy all redistribution obligations, and OEM/customer data rights permit the intended delivery."
+      ],
+      "next_experiment": "Do not build the full integration yet. Proposed future experiment: one terminal, one crane group, and one electrically relevant feeder, using several weeks of synchronized movement and power records plus the project's real connection criterion. No data access or consent is established.\n\nFirst reconstruct the existing schedule and electrical trace. Hold out complete vessel calls/days. Stop if missing inputs or peak underprediction consume the claimed headroom. Use a proposed calibration gate of a one-sided peak-error allowance no greater than one-third of the anticipated capacity saving; determine sampling resolution through convergence against higher-resolution measurements.\n\nCompare four policies under identical resources, approved motions, deadlines, non-crane loads, and storage assumptions: current practice; simple staggering/concurrent-hoist limits; optimization using empirical profiles; and motion-aware optimization. Use only information that would have been available when decisions were made. Recompute resource interactions rather than merely shifting logged electricity traces. Report required connection capacity, battery MW and MWh, completed moves, vessel completion times, violations, and solver runtime. Stress timing, payload, efficiency, regeneration availability, and battery outages.\n\nRetain the proposed rejection rule: less than 10% reduction in required connection capacity, more than 1% throughput loss, or savings disappearing under plausible uncertainty. Reject the motion-aware layer if its advantage over simpler policies is within modelling uncertainty or does not cover its incremental cost. A short replay can falsify the concept; it cannot certify long-term connection adequacy.\n\nSeparately, a future commercial test should present the same scoped €40,000 study to five qualified buyers with live capital decisions. Require two paid commitments, including a deposit and data-access plan, within a proposed 90-day window before investing in a reusable product. Those thresholds are proposed decision rules, not observed results. Even a technical pass remains conditional on utility acceptance and a viable enforcement/fallback design."
+    },
+    "critique": {
+      "strongest_objections": [
+        "The evidence supports a bounded engineering experiment, not investment in an annual software product. The supplied research generally distinguishes hypotheses from results, but its competitive coverage misses closer OEM offerings and newer integrated scheduling research.",
+        "Broad mechanism novelty is already contradicted. The PEMA study combines collective crane power limits with variable movement dynamics. Separately, a 2022 paper couples flexible crane consumption with seaport network optimization. Neither establishes an equivalent commercially validated sizing product, but adding network feasibility does not establish novelty. [PEMA](https://www.pema.org/wp-content/uploads/2024/05/PEMA-Challenge_Peak-Electriciy-Reduction-Ship-to-Shore-Cranes.pdf), [Fang et al.](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12401)",
+        "The relevant benchmark is the best inexpensive control policy, not current operation. The 2018 study reports approximately 50% simulated peak reduction with small handling-time penalties using power or simultaneous-lifting limits. These are not transferable connection savings, but they make Pinocchio's incremental value a central burden of proof. A 10% improvement over current practice could still represent an economically inferior solution. [Geerlings et al.](https://link.springer.com/article/10.1186/s41072-018-0029-y)",
+        "Connection downsizing requires a credible operating guarantee. A replayable schedule does not establish that the terminal can respect its limit during delays, equipment faults, battery outages and control failures. The Montreal project explicitly considered reliability, contractual arrangements and ten-year growth reserves. Those requirements could prevent a smaller connection despite lower simulated peaks; this is a project-specific risk, not an established universal prohibition. [CIMA+](https://www.cima.ca/en/project/electrical-network-capacity-analysis/)",
+        "The technical bridge remains substantial custom work. OR-Tools cumulative constraints require nonnegative demands, so regenerative traces need another formulation. PyPSA explicitly separates linearized optimization from nonlinear power-flow validation. Neither source demonstrates that the proposed alternating scheduling/network loop converges, scales, or preserves sufficient headroom under uncertainty. These are unresolved engineering problems, not evidence of impossibility. [OR-Tools source](https://raw.githubusercontent.com/google/or-tools/stable/ortools/sat/python/cp_model.py), [PyPSA documentation](https://docs.pypsa.org/latest/user-guide/power-flow/)",
+        "The initial offer is an engineering service; its transition to recurring software revenue is unsupported. Data reconstruction, calibration, operational modelling and independent review recur at each site. The proposal's own illustrative first-study contribution is only 15% before acquisition and development costs. No measured reuse rate, renewal demand or support burden substantiates the annual-license economics.",
+        "Incumbents could own both customer access and implementation. ABB already markets terminal demand prediction and control; Siemens supplies crane energy-storage management integrated with its drives and controllers. My inference is that an independent planner must either fit their integration environment or persuade buyers to fund another supplier. These vendors could be partners, but no partnership or access rights are established. [ABB](https://new.abb.com/ports/solutions-for-marine-terminals/highlights/why-power-management-in-container-terminals-matters), [Siemens manual](https://cache.industry.siemens.com/dl/files/220/109805220/att_1096015/v1/SIMOCRANE_Energy_Storage_System_Management_V01_00_op_instr_0122_en-US.pdf)",
+        "Lower connection capacity and lower battery capacity are separate objectives. Reducing allowable imports can increase required storage; shortening peaks can reduce battery power without reducing energy capacity. The commercial claim needs a total-cost comparison with separately reported connection capacity, battery MW and battery MWh. PyPSA's default StorageUnit formulation links power and energy through max_hours, so careless modelling could conceal this tradeoff. [PyPSA storage](https://docs.pypsa.org/latest/user-guide/optimization/storage/)"
+      ],
+      "existing_alternatives": [
+        "ABB terminal power management: forecasts demand from vessel schedules and container movements, and describes demand control to avoid exceeding agreed capacity. This is direct functional competition, although the page does not demonstrate motion-level infrastructure sizing or quantified customer outcomes. [ABB offering](https://new.abb.com/ports/solutions-for-marine-terminals/highlights/why-power-management-in-container-terminals-matters)",
+        "Siemens cross-aisle crane power management: describes dynamically adjusting acceleration and hoist speed at a power threshold, coordinating storage and regeneration, and simulating power versus throughput during planning. The application is warehouse stacker cranes, not container-terminal quay cranes; it nevertheless closely anticipates the mechanism. Performance statements are vendor claims. [Siemens description](https://blog.siemens.com/2025/06/cross-aisle-peak-power-management-for-warehouses-with-stacker-cranes/)",
+        "Portwise terminal-electrification consultancy: offers operational simulation covering fleet sizes, battery sizes, charging strategies, shore power and infrastructure alternatives. This competes directly for the proposed planning-study budget, without establishing identical motion-level electrical modelling. [Portwise](https://www.portwiseconsultancy.com/services/terminal-electrification/)",
+        "Envision Digital's EnOS-based PSA project: EMA documents procurement combining demand forecasting, planning, scheduling and a 2 MW/2 MWh battery. This demonstrates adjacent purchasing and an incumbent platform, not achieved connection downsizing or willingness to buy a standalone planning license. [EMA announcement](https://www.ema.gov.sg/news-events/news/media-releases/2022/singapores-first-energy-storage-system-at-psas-pasir-panjang-terminal)",
+        "Existing research formulations: a 2025 study integrates uncertain vessel arrivals, berth scheduling, crane/vehicle handling capacity and energy management. Its case-study cost results do not validate this proposal, but the research further narrows any claim that coupling logistics and electricity is distinctive. [TU Delft publication record](https://research.tudelft.nl/en/publications/energy-management-and-stochastic-operations-planning-for-electrif/)"
+      ],
+      "evidence_gaps": [
+        "No demonstrated access to synchronized movement and feeder measurements, approved motion profiles, usable OEM parameters or data rights. Access is unestablished; the research does not prove the data are unavailable.",
+        "No held-out comparison showing that rigid-body modelling predicts electrical peaks better, or costs less overall, than empirical traces and a simpler hoist model. No evidence yet establishes Pinocchio as necessary.",
+        "No utility-specific connection criterion, enforceable control design, accepted failure behaviour or supplier quotation showing that the calculated reduction changes an actual procurement decision.",
+        "No integrated benchmark covering realistic move counts, sampling resolution, forecast errors and repeated replanning. The proposed throughput metric also needs vessel-deadline and congestion measures: aggregate completed moves can hide commercially damaging delays.",
+        "No measured onboarding effort, adapter reuse across crane/TOS combinations, model-maintenance cost after equipment changes, acquisition cost or paid renewal. Deposits would validate study demand; they would not validate annual software demand.",
+        "No demonstrated core-license conflict: the inspected licenses are BSD-2-Clause, Apache-2.0 and MIT. Exact distribution remains unaudited, and OR-Tools explicitly makes GPLv3 GLPK optional and disabled by default. Treat licensing as an artifact-specific diligence gap, not a manufactured fatal flaw. [Pinocchio](https://raw.githubusercontent.com/stack-of-tasks/pinocchio/master/LICENSE), [OR-Tools](https://raw.githubusercontent.com/google/or-tools/stable/LICENSE), [PyPSA](https://raw.githubusercontent.com/PyPSA/PyPSA/master/LICENSE), [OR-Tools build configuration](https://raw.githubusercontent.com/google/or-tools/stable/CMakeLists.txt)"
+      ],
+      "fatal_flaws": [],
+      "what_would_change_my_mind": "No unconditional fatal flaw is established. I would support a bounded paid pilot after obtaining usable data and a project-specific connection criterion. It should pass the proposed 10% capacity/1% throughput hurdles on held-out operations, outperform simple staggering, empirical profiles and available OEM controls by more than modelling uncertainty and incremental cost, and retain savings under credible failures. Utility and responsible-engineer acceptance plus actual equipment quotations must connect the result to avoided expenditure. Repeat paid work with measured onboarding costs would support a services business; demonstrated renewals and economical model maintenance would be needed to support the annual-software thesis."
+    },
+    "judgment": {
+      "verdict": "reject",
+      "scores": {
+        "novel_synergy": 3,
+        "buyer_pain": 7,
+        "willingness_to_pay": 4,
+        "feasibility": 5,
+        "defensibility": 3,
+        "distribution": 3,
+        "evidence": 5
+      },
+      "confidence": 0.94,
+      "demand_verified": false,
+      "differentiation_verified": false,
+      "integration_verified": false,
+      "license_compatible": true,
+      "fatal_flaws": [],
+      "rationale": "Weighted score: 44.5/100. Reject the proposed differentiated product thesis on current evidence. Commissioned electrical-capacity engineering establishes a real purchasing workflow, but not demand for this combination or recurring software. [CIMA+ project](https://www.cima.ca/en/project/electrical-network-capacity-analysis/). No integrated benchmark demonstrates incremental savings, tractability, reliable connection downsizing, or Pinocchio's necessity. Data access, utility acceptance, delivery margins and distribution remain unresolved. No unconditional fatal flaw is established. License compatibility is supported for the named components under their obligations: [Pinocchio BSD-2-Clause](https://raw.githubusercontent.com/stack-of-tasks/pinocchio/master/LICENSE), [OR-Tools Apache-2.0](https://raw.githubusercontent.com/google/or-tools/stable/LICENSE), and [PyPSA MIT](https://raw.githubusercontent.com/PyPSA/PyPSA/master/LICENSE). This does not clear an unspecified distribution's dependencies or customer-data rights.",
+      "disconfirming_evidence": "Live checks confirm substantial prior coverage. The PEMA study already combines collective crane power limits with variable acceleration, velocity and deceleration; its results are simulations, with actual-terminal validation still prospective. [PEMA study](https://www.pema.org/wp-content/uploads/2024/05/PEMA-Challenge_Peak-Electriciy-Reduction-Ship-to-Shore-Cranes.pdf). Fang et al. already integrate flexible crane loads with electrical-network optimization, although their typical hourly formulation does not establish second-scale motion-aware sizing. [2022 paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/rpg2.12401). ABB markets terminal demand forecasting and capacity-limiting control, while Portwise offers electrification planning simulations. These establish competing capabilities, not verified equivalence or achieved customer savings. [ABB](https://new.abb.com/ports/solutions-for-marine-terminals/highlights/why-power-management-in-container-terminals-matters), [Portwise](https://www.portwiseconsultancy.com/services/terminal-electrification/). Consequently, neither motion-aware peak control nor adding network constraints establishes exceptional novelty.",
+      "next_experiment": "Before building the full stack, obtain authorized existing movement and feeder records for one terminal with a pending connection decision. First test whether simple staggering or empirical-profile scheduling already captures the available savings. Only then compare a minimal motion-aware model on held-out vessel calls under identical operational, storage and reliability constraints. Proposed hurdles: at least 10% lower required connection capacity, at most 1% throughput loss, no material vessel-deadline deterioration, and incremental value over the best inexpensive baseline exceeding modelling uncertainty and added delivery cost. Report battery MW and MWh separately. A positive replay plus a paid study commitment and preliminary engineering/utility acceptance would justify reconsideration as a services opportunity; it would not establish annual-software demand or satisfy the novelty gate by itself."
+    },
+    "decision": {
+      "accepted": false,
+      "score": 44.5,
+      "reasons": [
+        "Astra verdict: reject",
+        "Weighted score 44.5 is below 85",
+        "novel_synergy: 3 is below 9",
+        "buyer_pain: 7 is below 8",
+        "willingness_to_pay: 4 is below 8",
+        "feasibility: 5 is below 8",
+        "defensibility: 3 is below 7",
+        "distribution: 3 is below 7",
+        "evidence: 5 is below 8",
+        "Unverified gate: demand_verified",
+        "Unverified gate: differentiation_verified",
+        "Unverified gate: integration_verified",
+        "Unresolved critical assumptions in the research"
+      ]
+    }
+  }
+]

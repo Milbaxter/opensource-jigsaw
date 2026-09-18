@@ -1,0 +1,1626 @@
+[
+  {
+    "full_name": "Developer-Y/cs-video-courses",
+    "url": "https://github.com/Developer-Y/cs-video-courses",
+    "description": "List of Computer Science courses with video lectures.",
+    "stars": 83529,
+    "forks": 11492,
+    "topics": [
+      "algorithms",
+      "bioinformatics",
+      "computational-biology",
+      "computational-physics",
+      "computer-architecture",
+      "computer-science",
+      "computer-vision",
+      "database-systems",
+      "databases",
+      "deep-learning",
+      "embedded-systems",
+      "machine-learning",
+      "quantum-computing",
+      "reinforcement-learning",
+      "robotics",
+      "security",
+      "systems",
+      "web-development"
+    ],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-09-17T16:11:45Z",
+    "fields": [
+      "Biology — bioinformatics",
+      "Signal processing",
+      "Formal verification"
+    ],
+    "queries": [
+      "topic:bioinformatics stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"digital signal processing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"model checking\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:37:47.559502+00:00"
+  },
+  {
+    "full_name": "domlysz/BlenderGIS",
+    "url": "https://github.com/domlysz/BlenderGIS",
+    "description": "Blender addons to make the bridge between Blender and geographic data",
+    "stars": 9393,
+    "forks": 1520,
+    "topics": [
+      "3d",
+      "3d-map",
+      "3dgis",
+      "addon",
+      "basemap",
+      "blender",
+      "delaunay-triangulation",
+      "dem",
+      "geodata",
+      "georeferencing",
+      "geospatial",
+      "gis",
+      "importexport",
+      "map",
+      "openstreetmap",
+      "python",
+      "raster",
+      "shapefile",
+      "terrain-model"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2025-12-20T18:19:10Z",
+    "fields": [
+      "Geospatial — raster processing"
+    ],
+    "queries": [
+      "topic:geospatial raster stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:37:51.111011+00:00"
+  },
+  {
+    "full_name": "rust-unofficial/awesome-rust",
+    "url": "https://github.com/rust-unofficial/awesome-rust",
+    "description": "A curated list of Rust code and resources.",
+    "stars": 59409,
+    "forks": 3623,
+    "topics": [
+      "awesome",
+      "rust"
+    ],
+    "license": "CC0-1.0",
+    "pushed_at": "2026-09-18T06:16:43Z",
+    "fields": [
+      "Industrial control"
+    ],
+    "queries": [
+      "\"OPC UA\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:00.150067+00:00"
+  },
+  {
+    "full_name": "PyPSA/PyPSA",
+    "url": "https://github.com/PyPSA/PyPSA",
+    "description": "PyPSA: Python for Power System Analysis",
+    "stars": 2151,
+    "forks": 698,
+    "topics": [
+      "capacity-expansion-planning",
+      "clean-energy",
+      "climate-change",
+      "electrical-engineering",
+      "electricity",
+      "energy",
+      "energy-system",
+      "energy-system-model",
+      "energy-system-modelling",
+      "energy-systems",
+      "modelling-framework",
+      "optimal-power-flow",
+      "optimisation",
+      "power-flow",
+      "power-systems",
+      "power-systems-analysis",
+      "powerflow",
+      "python",
+      "renewable-energy",
+      "renewables"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-18T01:32:38Z",
+    "fields": [
+      "Energy — power grids"
+    ],
+    "queries": [
+      "topic:power-systems stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:03.166960+00:00"
+  },
+  {
+    "full_name": "jblindsay/whitebox-tools",
+    "url": "https://github.com/jblindsay/whitebox-tools",
+    "description": "An advanced geospatial data analysis platform",
+    "stars": 1205,
+    "forks": 203,
+    "topics": [
+      "geomorphology",
+      "geomorphometry",
+      "geoprocessing",
+      "geospatial",
+      "gis",
+      "hydrology",
+      "remote-sensing"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-05-26T15:31:03Z",
+    "fields": [
+      "Water — hydrology"
+    ],
+    "queries": [
+      "topic:hydrology stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:09.840284+00:00"
+  },
+  {
+    "full_name": "pascalorg/editor",
+    "url": "https://github.com/pascalorg/editor",
+    "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+    "stars": 24045,
+    "forks": 2987,
+    "topics": [
+      "3d",
+      "agent-skills",
+      "ai-agents",
+      "architecture",
+      "bim",
+      "cad",
+      "editor",
+      "floorplan",
+      "gemini-cli-extension",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "nextjs",
+      "parametric-design",
+      "react-three-fiber",
+      "threejs",
+      "typescript"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-18T05:16:30Z",
+    "fields": [
+      "Construction"
+    ],
+    "queries": [
+      "\"IFC\" \"geometry\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:13.201139+00:00"
+  },
+  {
+    "full_name": "akullpp/awesome-java",
+    "url": "https://github.com/akullpp/awesome-java",
+    "description": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
+    "stars": 49038,
+    "forks": 7721,
+    "topics": [
+      "awesome",
+      "awesome-list"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "pushed_at": "2026-08-24T00:59:50Z",
+    "fields": [
+      "Logistics",
+      "Developer tooling — dependency analysis"
+    ],
+    "queries": [
+      "\"vehicle routing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"dependency analysis\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:15.883601+00:00"
+  },
+  {
+    "full_name": "gkd-kit/gkd",
+    "url": "https://github.com/gkd-kit/gkd",
+    "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+    "stars": 41974,
+    "forks": 1986,
+    "topics": [
+      "accessibility",
+      "android",
+      "auto",
+      "click",
+      "compose",
+      "jetpack-compose",
+      "kotlin",
+      "kotlin-js",
+      "kotlin-multiplatform",
+      "webassembly"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2026-09-06T16:52:03Z",
+    "fields": [
+      "Accessibility"
+    ],
+    "queries": [
+      "topic:accessibility stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:19.488267+00:00"
+  },
+  {
+    "full_name": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go",
+    "description": "A curated list of awesome Go frameworks, libraries and software",
+    "stars": 184580,
+    "forks": 13568,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "go",
+      "golang",
+      "golang-library",
+      "hacktoberfest"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-16T23:40:20Z",
+    "fields": [
+      "Signal processing",
+      "Database systems",
+      "Geospatial — spatial indexing"
+    ],
+    "queries": [
+      "\"digital signal processing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"embedded database\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"spatial index\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:22.896441+00:00"
+  },
+  {
+    "full_name": "mahmoud/awesome-python-applications",
+    "url": "https://github.com/mahmoud/awesome-python-applications",
+    "description": "💿 Free software that works great, and also happens to be open-source Python. ",
+    "stars": 18044,
+    "forks": 2744,
+    "topics": [
+      "application",
+      "audio",
+      "education",
+      "game",
+      "graphics",
+      "gui",
+      "productivity",
+      "python",
+      "science",
+      "video"
+    ],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-07-11T16:46:22Z",
+    "fields": [
+      "Scientific simulation"
+    ],
+    "queries": [
+      "\"finite element\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:27.341244+00:00"
+  },
+  {
+    "full_name": "OpenDriveLab/UniAD",
+    "url": "https://github.com/OpenDriveLab/UniAD",
+    "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+    "stars": 4759,
+    "forks": 550,
+    "topics": [
+      "autonomous-driving",
+      "autonomous-driving-framework",
+      "bev-segmentation",
+      "end-to-end-autonomous-driving",
+      "motion-planning",
+      "motion-prediction",
+      "multi-object-tracking",
+      "occupancy-prediction",
+      "perception-prediction-planning"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2025-10-29T03:13:35Z",
+    "fields": [
+      "Robotics"
+    ],
+    "queries": [
+      "topic:motion-planning stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:29.849445+00:00"
+  },
+  {
+    "full_name": "interpretml/interpret",
+    "url": "https://github.com/interpretml/interpret",
+    "description": "Fit interpretable models. Explain blackbox machine learning. ",
+    "stars": 6944,
+    "forks": 788,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "bias",
+      "blackbox",
+      "differential-privacy",
+      "explainability",
+      "explainable-ai",
+      "explainable-ml",
+      "gradient-boosting",
+      "iml",
+      "interpretability",
+      "interpretable-ai",
+      "interpretable-machine-learning",
+      "interpretable-ml",
+      "interpretml",
+      "machine-learning",
+      "scikit-learn",
+      "transparency",
+      "xai"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-14T16:53:32Z",
+    "fields": [
+      "Privacy"
+    ],
+    "queries": [
+      "topic:differential-privacy stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:32.094389+00:00"
+  },
+  {
+    "full_name": "Hack-with-Github/Awesome-Hacking",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+    "stars": 120674,
+    "forks": 10758,
+    "topics": [
+      "android",
+      "awesome",
+      "bug-bounty",
+      "fuzzing",
+      "hacking",
+      "penetration-testing",
+      "pentesting-windows",
+      "reverse-engineering",
+      "security"
+    ],
+    "license": "CC0-1.0",
+    "pushed_at": "2026-07-26T03:29:02Z",
+    "fields": [
+      "Security"
+    ],
+    "queries": [
+      "topic:fuzzing stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:38.064099+00:00"
+  },
+  {
+    "full_name": "matteocrippa/awesome-swift",
+    "url": "https://github.com/matteocrippa/awesome-swift",
+    "description": "A collaborative list of awesome Swift libraries and resources. Feel free to contribute!",
+    "stars": 26261,
+    "forks": 3145,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "awesome-swift",
+      "ios",
+      "linux",
+      "list",
+      "lists",
+      "swift",
+      "swift-extensions",
+      "swift-framework",
+      "swift-language",
+      "swift-library"
+    ],
+    "license": "CC0-1.0",
+    "pushed_at": "2026-09-01T05:37:47Z",
+    "fields": [
+      "Optimization"
+    ],
+    "queries": [
+      "\"constraint solver\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:41.391222+00:00"
+  },
+  {
+    "full_name": "miniflux/v2",
+    "url": "https://github.com/miniflux/v2",
+    "description": "Minimalist and opinionated feed reader",
+    "stars": 9706,
+    "forks": 930,
+    "topics": [
+      "atom",
+      "feed",
+      "go",
+      "golang",
+      "jsonfeed",
+      "letsencrypt",
+      "opml",
+      "postgresql",
+      "rdf",
+      "rss"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-16T22:32:41Z",
+    "fields": [
+      "Knowledge graphs"
+    ],
+    "queries": [
+      "topic:rdf stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:47.091487+00:00"
+  },
+  {
+    "full_name": "deepchem/deepchem",
+    "url": "https://github.com/deepchem/deepchem",
+    "description": "Democratizing Deep-Learning for Drug Discovery, Quantum Chemistry, Materials Science and Biology",
+    "stars": 7003,
+    "forks": 2312,
+    "topics": [
+      "biology",
+      "deep-learning",
+      "drug-discovery",
+      "hacktoberfest",
+      "materials-science",
+      "quantum-chemistry"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-08-20T19:01:34Z",
+    "fields": [
+      "Materials science"
+    ],
+    "queries": [
+      "topic:materials-science stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:51.047704+00:00"
+  },
+  {
+    "full_name": "satellite-image-deep-learning/techniques",
+    "url": "https://github.com/satellite-image-deep-learning/techniques",
+    "description": "Techniques for deep learning with satellite & aerial imagery",
+    "stars": 10260,
+    "forks": 1645,
+    "topics": [
+      "convolutional-neural-networks",
+      "dataset",
+      "datasets",
+      "deep-learning",
+      "deep-neural-networks",
+      "earth-observation",
+      "image-classification",
+      "machine-learning",
+      "object-detection",
+      "python",
+      "pytorch",
+      "remote-sensing",
+      "satellite-data",
+      "satellite-imagery",
+      "satellite-images",
+      "sentinel"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-12T13:08:35Z",
+    "fields": [
+      "Agriculture"
+    ],
+    "queries": [
+      "\"precision agriculture\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:55.980887+00:00"
+  },
+  {
+    "full_name": "timqian/open-source-jobs",
+    "url": "https://github.com/timqian/open-source-jobs",
+    "description": "A list of Open Source projects offering jobs.",
+    "stars": 3040,
+    "forks": 216,
+    "topics": [],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-09-11T06:09:37Z",
+    "fields": [
+      "Manufacturing — machining"
+    ],
+    "queries": [
+      "\"toolpath\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:57.703383+00:00"
+  },
+  {
+    "full_name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "stars": 96034,
+    "forks": 10162,
+    "topics": [
+      "agent-skills",
+      "antigravity",
+      "claude-code",
+      "codex",
+      "cursor",
+      "skills"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-18T03:32:22Z",
+    "fields": [
+      "Developer tooling — builds"
+    ],
+    "queries": [
+      "\"incremental build\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:01.714514+00:00"
+  },
+  {
+    "full_name": "Stellarium/stellarium",
+    "url": "https://github.com/Stellarium/stellarium",
+    "description": "Stellarium is a free GPL software which renders realistic skies in real time with OpenGL. It is available for Linux/Unix, Windows, macOS and Haiku. With Stellarium, you really see what you can see with your eyes, binoculars or a small telescope.",
+    "stars": 9992,
+    "forks": 1051,
+    "topics": [
+      "astronomy",
+      "c",
+      "c-plus-plus",
+      "planetarium",
+      "qt5",
+      "qt6",
+      "science",
+      "sky",
+      "stars",
+      "stellarium",
+      "universe"
+    ],
+    "license": "GPL-2.0",
+    "pushed_at": "2026-09-18T05:25:27Z",
+    "fields": [
+      "Astronomy"
+    ],
+    "queries": [
+      "topic:astronomy stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:07.018016+00:00"
+  },
+  {
+    "full_name": "SciTools/iris",
+    "url": "https://github.com/SciTools/iris",
+    "description": "A powerful, format-agnostic, and community-driven Python package for analysing and visualising Earth science data",
+    "stars": 724,
+    "forks": 317,
+    "topics": [
+      "data-analysis",
+      "earth-science",
+      "grib",
+      "iris",
+      "meteorology",
+      "netcdf",
+      "oceanography",
+      "python",
+      "spaceweather",
+      "visualisation"
+    ],
+    "license": "BSD-3-Clause",
+    "pushed_at": "2026-09-17T16:12:07Z",
+    "fields": [
+      "Oceanography"
+    ],
+    "queries": [
+      "topic:oceanography stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:11.422699+00:00"
+  },
+  {
+    "full_name": "nginx/nginx",
+    "url": "https://github.com/nginx/nginx",
+    "description": "The official NGINX Open Source repository.",
+    "stars": 31673,
+    "forks": 8303,
+    "topics": [
+      "content-cache",
+      "http",
+      "http2",
+      "http3",
+      "https",
+      "load-balancer",
+      "mail-proxy-server",
+      "nginx",
+      "quic",
+      "reverse-proxy",
+      "security",
+      "tcp-proxy-server",
+      "tls",
+      "udp-proxy-server",
+      "web-server"
+    ],
+    "license": "BSD-2-Clause",
+    "pushed_at": "2026-09-16T12:13:03Z",
+    "fields": [
+      "Networking"
+    ],
+    "queries": [
+      "topic:quic stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:15.150093+00:00"
+  },
+  {
+    "full_name": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python",
+    "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
+    "stars": 321400,
+    "forks": 28757,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "python",
+      "python-frameworks",
+      "python-libraries",
+      "python-tools"
+    ],
+    "license": "NOASSERTION",
+    "pushed_at": "2026-09-15T16:48:04Z",
+    "fields": [
+      "Database systems"
+    ],
+    "queries": [
+      "\"embedded database\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:35.350778+00:00"
+  },
+  {
+    "full_name": "headroomlabs-ai/headroom",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "stars": 72840,
+    "forks": 5600,
+    "topics": [
+      "agent",
+      "ai",
+      "anthropic",
+      "claude-code",
+      "compression",
+      "context-engineering",
+      "context-window",
+      "cursor",
+      "fastapi",
+      "langchain",
+      "llm",
+      "mcp",
+      "openai",
+      "prompt-engineering",
+      "proxy",
+      "python",
+      "rag",
+      "token-optimization",
+      "tokens",
+      "typescript"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-17T23:57:28Z",
+    "fields": [
+      "Data compression"
+    ],
+    "queries": [
+      "topic:compression stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:40.358983+00:00"
+  },
+  {
+    "full_name": "netdata/netdata",
+    "url": "https://github.com/netdata/netdata",
+    "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+    "stars": 80567,
+    "forks": 6630,
+    "topics": [
+      "ai",
+      "alerting",
+      "cncf",
+      "data-visualization",
+      "database",
+      "devops",
+      "docker",
+      "grafana",
+      "influxdb",
+      "kubernetes",
+      "linux",
+      "machine-learning",
+      "mcp",
+      "mongodb",
+      "monitoring",
+      "mysql",
+      "netdata",
+      "observability",
+      "postgresql",
+      "prometheus"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2026-09-18T05:07:46Z",
+    "fields": [
+      "Formal verification"
+    ],
+    "queries": [
+      "\"model checking\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:45.687431+00:00"
+  },
+  {
+    "full_name": "dloss/binary-parsing",
+    "url": "https://github.com/dloss/binary-parsing",
+    "description": "A list of generic tools for parsing binary data structures, such as file formats, network protocols or bitstreams",
+    "stars": 1065,
+    "forks": 71,
+    "topics": [],
+    "license": "MIT",
+    "pushed_at": "2026-08-08T18:28:38Z",
+    "fields": [
+      "Digital preservation"
+    ],
+    "queries": [
+      "\"file format identification\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:46.432735+00:00"
+  },
+  {
+    "full_name": "jwasham/coding-interview-university",
+    "url": "https://github.com/jwasham/coding-interview-university",
+    "description": "A complete computer science study plan to become a software engineer.",
+    "stars": 361125,
+    "forks": 84840,
+    "topics": [
+      "algorithm",
+      "algorithms",
+      "coding-interview",
+      "coding-interviews",
+      "computer-science",
+      "data-structures",
+      "interview",
+      "interview-prep",
+      "interview-preparation",
+      "programming-interviews",
+      "software-engineering",
+      "study-plan"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "pushed_at": "2025-08-28T14:42:47Z",
+    "fields": [
+      "Biology — sequence alignment"
+    ],
+    "queries": [
+      "\"sequence alignment\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:51.718662+00:00"
+  },
+  {
+    "full_name": "karanpratapsingh/system-design",
+    "url": "https://github.com/karanpratapsingh/system-design",
+    "description": "Learn how to design systems at scale and prepare for system design interviews",
+    "stars": 46127,
+    "forks": 6031,
+    "topics": [
+      "architecture",
+      "distributed-systems",
+      "engineering",
+      "interview",
+      "interview-preparation",
+      "microservices",
+      "scalability",
+      "system-design",
+      "system-design-interview",
+      "tech"
+    ],
+    "license": "NOASSERTION",
+    "pushed_at": "2026-07-08T00:36:51Z",
+    "fields": [
+      "Geospatial — spatial indexing"
+    ],
+    "queries": [
+      "\"spatial index\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:56.373987+00:00"
+  },
+  {
+    "full_name": "hyperai/awesome-ai4s",
+    "url": "https://github.com/hyperai/awesome-ai4s",
+    "description": "AI for Science 论文解读合集（持续更新ing），论文/数据集/教程下载：hyper.ai",
+    "stars": 3361,
+    "forks": 520,
+    "topics": [],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-07-22T09:18:26Z",
+    "fields": [
+      "Energy — batteries"
+    ],
+    "queries": [
+      "\"battery\" \"electrochemical\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:58.646228+00:00"
+  },
+  {
+    "full_name": "uhub/awesome-matlab",
+    "url": "https://github.com/uhub/awesome-matlab",
+    "description": "A curated list of awesome MATLAB frameworks, libraries and software.",
+    "stars": 1733,
+    "forks": 454,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "curated-list",
+      "list",
+      "matlab",
+      "octave",
+      "resources"
+    ],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-09-02T23:05:51Z",
+    "fields": [
+      "Water — distribution networks"
+    ],
+    "queries": [
+      "\"EPANET\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:40:00.117450+00:00"
+  },
+  {
+    "full_name": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp",
+    "description": "A feature-rich command-line audio/video downloader",
+    "stars": 191840,
+    "forks": 16654,
+    "topics": [
+      "cli",
+      "downloader",
+      "python",
+      "sponsorblock",
+      "youtube-dl",
+      "youtube-downloader",
+      "yt-dlp"
+    ],
+    "license": "Unlicense",
+    "pushed_at": "2026-09-16T07:48:51Z",
+    "fields": [
+      "Manufacturing — machine instructions"
+    ],
+    "queries": [
+      "\"g-code\" \"parser\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:40:03.849972+00:00"
+  },
+  {
+    "full_name": "sickn33/agentic-awesome-skills",
+    "url": "https://github.com/sickn33/agentic-awesome-skills",
+    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,115+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+    "stars": 46551,
+    "forks": 6785,
+    "topics": [
+      "agent-skills",
+      "agentic-skills",
+      "ai-agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-workflows",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skills",
+      "codex-cli",
+      "codex-skills",
+      "cursor",
+      "cursor-skills",
+      "developer-tools",
+      "gemini-cli",
+      "gemini-skills",
+      "kiro",
+      "mcp",
+      "skill-library"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-18T04:20:50Z",
+    "fields": [
+      "Developer tooling — dependency analysis"
+    ],
+    "queries": [
+      "\"dependency analysis\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:40:07.332804+00:00"
+  },
+  {
+    "full_name": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "stars": 45420,
+    "forks": 4122,
+    "topics": [
+      "agent-skills",
+      "ai-scientist",
+      "bioinformatics",
+      "chemoinformatics",
+      "claude",
+      "claude-skills",
+      "claudecode",
+      "clinical-research",
+      "computational-biology",
+      "data-analysis",
+      "drug-discovery",
+      "genomics",
+      "materials-science",
+      "metabolomics",
+      "proteomics",
+      "scientific-computing",
+      "scientific-visualization"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-14T09:27:38Z",
+    "fields": [
+      "Biology — bioinformatics",
+      "Materials science"
+    ],
+    "queries": [
+      "topic:bioinformatics stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "topic:materials-science stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:37:47.559502+00:00"
+  },
+  {
+    "full_name": "azavea/raster-vision",
+    "url": "https://github.com/azavea/raster-vision",
+    "description": "An open source library and framework for deep learning on satellite and aerial imagery.",
+    "stars": 2242,
+    "forks": 397,
+    "topics": [
+      "classification",
+      "computer-vision",
+      "deep-learning",
+      "geospatial",
+      "machine-learning",
+      "object-detection",
+      "pytorch",
+      "remote-sensing",
+      "semantic-segmentation"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-06-04T14:59:54Z",
+    "fields": [
+      "Geospatial — raster processing"
+    ],
+    "queries": [
+      "topic:geospatial raster stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:37:51.111011+00:00"
+  },
+  {
+    "full_name": "enaqx/awesome-pentest",
+    "url": "https://github.com/enaqx/awesome-pentest",
+    "description": "A collection of awesome penetration testing resources, tools and other shiny things",
+    "stars": 27220,
+    "forks": 4948,
+    "topics": [
+      "awesome",
+      "awesome-list"
+    ],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-07-25T12:15:45Z",
+    "fields": [
+      "Industrial control"
+    ],
+    "queries": [
+      "\"OPC UA\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:00.150067+00:00"
+  },
+  {
+    "full_name": "SanPen/VeraGrid",
+    "url": "https://github.com/SanPen/VeraGrid",
+    "description": "VeraGrid, a cross-platform power systems software written in Python with user interface, used in academia and industry.",
+    "stars": 614,
+    "forks": 138,
+    "topics": [
+      "acdc",
+      "cim",
+      "comon-information-model",
+      "electrical",
+      "electrical-engineering",
+      "emt",
+      "helm",
+      "latin-hypercube",
+      "monte-carlo-simulation",
+      "multi-terminal",
+      "newton-raphson",
+      "optimization",
+      "power-systems",
+      "powerflow",
+      "python",
+      "rms",
+      "small-signal-stability",
+      "stochastic-power-flow"
+    ],
+    "license": "MPL-2.0",
+    "pushed_at": "2026-09-11T10:36:31Z",
+    "fields": [
+      "Energy — power grids"
+    ],
+    "queries": [
+      "topic:power-systems stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:03.166960+00:00"
+  },
+  {
+    "full_name": "pysheds/pysheds",
+    "url": "https://github.com/pysheds/pysheds",
+    "description": "Simple and fast watershed delineation in python",
+    "stars": 901,
+    "forks": 231,
+    "topics": [
+      "accumulation",
+      "catchments",
+      "digital-elevation-model",
+      "flow-direction",
+      "gis",
+      "hydrology"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2026-09-02T13:28:53Z",
+    "fields": [
+      "Water — hydrology"
+    ],
+    "queries": [
+      "topic:hydrology stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:09.840284+00:00"
+  },
+  {
+    "full_name": "angularsen/UnitsNet",
+    "url": "https://github.com/angularsen/UnitsNet",
+    "description": "Makes life working with units of measurement just a little bit better.",
+    "stars": 2969,
+    "forks": 414,
+    "topics": [
+      "abbreviations",
+      "conversion",
+      "converter",
+      "csharp",
+      "measure",
+      "measurement",
+      "measurements",
+      "measures",
+      "parse",
+      "powershell",
+      "quantities",
+      "quantity",
+      "unit",
+      "unit-converter",
+      "units",
+      "units-of-measure"
+    ],
+    "license": "MIT-0",
+    "pushed_at": "2026-08-02T23:35:04Z",
+    "fields": [
+      "Construction"
+    ],
+    "queries": [
+      "\"IFC\" \"geometry\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:13.201139+00:00"
+  },
+  {
+    "full_name": "google/or-tools",
+    "url": "https://github.com/google/or-tools",
+    "description": "Google's Operations Research tools:",
+    "stars": 14061,
+    "forks": 2495,
+    "topics": [
+      "combinatorial-optimization",
+      "linear-programming",
+      "operations-research",
+      "optimization",
+      "or-tools"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-17T21:30:01Z",
+    "fields": [
+      "Logistics"
+    ],
+    "queries": [
+      "\"vehicle routing\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:15.883601+00:00"
+  },
+  {
+    "full_name": "cjpais/Handy",
+    "url": "https://github.com/cjpais/Handy",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline.",
+    "stars": 31822,
+    "forks": 2901,
+    "topics": [
+      "accessibility",
+      "cross-platform",
+      "speech-to-text",
+      "tauri-v2"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-15T05:29:10Z",
+    "fields": [
+      "Accessibility"
+    ],
+    "queries": [
+      "topic:accessibility stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:19.488267+00:00"
+  },
+  {
+    "full_name": "rossant/awesome-math",
+    "url": "https://github.com/rossant/awesome-math",
+    "description": "A curated list of awesome mathematics resources",
+    "stars": 16446,
+    "forks": 1610,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "lecture-notes",
+      "list",
+      "mathematics"
+    ],
+    "license": "CC0-1.0",
+    "pushed_at": "2026-08-14T08:36:36Z",
+    "fields": [
+      "Scientific simulation"
+    ],
+    "queries": [
+      "\"finite element\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:27.341244+00:00"
+  },
+  {
+    "full_name": "stack-of-tasks/pinocchio",
+    "url": "https://github.com/stack-of-tasks/pinocchio",
+    "description": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives",
+    "stars": 3741,
+    "forks": 576,
+    "topics": [
+      "analytical-derivatives",
+      "automatic-differentiation",
+      "c-plus-plus",
+      "casadi",
+      "code-generation",
+      "conda",
+      "cppad",
+      "dynamics",
+      "fcl",
+      "kinematics",
+      "motion-planning",
+      "pinocchio",
+      "python",
+      "rigid-body-dynamics",
+      "robotics",
+      "ros",
+      "urdf"
+    ],
+    "license": "BSD-2-Clause",
+    "pushed_at": "2026-09-07T14:31:45Z",
+    "fields": [
+      "Robotics"
+    ],
+    "queries": [
+      "topic:motion-planning stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:29.849445+00:00"
+  },
+  {
+    "full_name": "google/differential-privacy",
+    "url": "https://github.com/google/differential-privacy",
+    "description": "Google's differential privacy libraries.",
+    "stars": 3360,
+    "forks": 434,
+    "topics": [
+      "anonymization",
+      "differential-privacy",
+      "privacy"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-16T11:56:56Z",
+    "fields": [
+      "Privacy"
+    ],
+    "queries": [
+      "topic:differential-privacy stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:32.094389+00:00"
+  },
+  {
+    "full_name": "maurosoria/dirsearch",
+    "url": "https://github.com/maurosoria/dirsearch",
+    "description": "Web path scanner",
+    "stars": 14735,
+    "forks": 2439,
+    "topics": [
+      "appsec",
+      "brute",
+      "bug-bounty",
+      "bugbounty",
+      "dirsearch",
+      "enumeration",
+      "fuzzer",
+      "fuzzing",
+      "hacking",
+      "hacking-tool",
+      "infosec",
+      "penetration-testing",
+      "pentest-tool",
+      "pentesting",
+      "python",
+      "red-teaming",
+      "redteam",
+      "scanner",
+      "security",
+      "wordlist"
+    ],
+    "license": "UNKNOWN",
+    "pushed_at": "2026-09-17T17:26:58Z",
+    "fields": [
+      "Security"
+    ],
+    "queries": [
+      "topic:fuzzing stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:38.064099+00:00"
+  },
+  {
+    "full_name": "mxgmn/WaveFunctionCollapse",
+    "url": "https://github.com/mxgmn/WaveFunctionCollapse",
+    "description": "Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics",
+    "stars": 25336,
+    "forks": 1358,
+    "topics": [
+      "algorithm",
+      "csharp",
+      "gamedev",
+      "machine-learning",
+      "procedural-generation",
+      "wfc"
+    ],
+    "license": "NOASSERTION",
+    "pushed_at": "2026-03-22T01:25:44Z",
+    "fields": [
+      "Optimization"
+    ],
+    "queries": [
+      "\"constraint solver\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:41.391222+00:00"
+  },
+  {
+    "full_name": "schemaorg/schemaorg",
+    "url": "https://github.com/schemaorg/schemaorg",
+    "description": "Schema.org - schemas and supporting software",
+    "stars": 6256,
+    "forks": 962,
+    "topics": [
+      "json-ld",
+      "rdf",
+      "structured-data"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-15T20:21:55Z",
+    "fields": [
+      "Knowledge graphs"
+    ],
+    "queries": [
+      "topic:rdf stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:47.091487+00:00"
+  },
+  {
+    "full_name": "V33RU/awesome-connected-things-sec",
+    "url": "https://github.com/V33RU/awesome-connected-things-sec",
+    "description": "A Curated list of Security Resources for all connected things",
+    "stars": 3540,
+    "forks": 589,
+    "topics": [
+      "automotive-security",
+      "awesome",
+      "awesome-list",
+      "ble-security",
+      "bluetooth-security",
+      "embedded-security",
+      "firmware-analysis",
+      "firmware-security",
+      "hardware-hacking",
+      "ics-security",
+      "iot-pentesting",
+      "iot-security",
+      "reverse-engineering",
+      "rf-security",
+      "wireless-security"
+    ],
+    "license": "CC0-1.0",
+    "pushed_at": "2026-08-29T06:10:09Z",
+    "fields": [
+      "Agriculture"
+    ],
+    "queries": [
+      "\"precision agriculture\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:55.980887+00:00"
+  },
+  {
+    "full_name": "winder/Universal-G-Code-Sender",
+    "url": "https://github.com/winder/Universal-G-Code-Sender",
+    "description": "A cross-platform G-Code sender for GRBL, Smoothieware, TinyG and G2core.",
+    "stars": 2259,
+    "forks": 826,
+    "topics": [
+      "cnc",
+      "g2core",
+      "gcode",
+      "gcode-editor",
+      "gcode-parser",
+      "gcode-sender",
+      "gcode-viewer",
+      "grbl",
+      "grbl-control",
+      "java",
+      "smoothieware",
+      "tinyg"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2026-09-12T08:36:48Z",
+    "fields": [
+      "Manufacturing — machining"
+    ],
+    "queries": [
+      "\"toolpath\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:38:57.703383+00:00"
+  },
+  {
+    "full_name": "fffaraz/awesome-cpp",
+    "url": "https://github.com/fffaraz/awesome-cpp",
+    "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+    "stars": 73337,
+    "forks": 8344,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "c",
+      "c-plus-plus",
+      "cpp",
+      "cpp-library",
+      "cppcon",
+      "libraries",
+      "list",
+      "lists",
+      "programming-tutorial",
+      "resources"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-05T20:26:41Z",
+    "fields": [
+      "Developer tooling — builds"
+    ],
+    "queries": [
+      "\"incremental build\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:01.714514+00:00"
+  },
+  {
+    "full_name": "astropy/astropy",
+    "url": "https://github.com/astropy/astropy",
+    "description": "Astronomy and astrophysics core library",
+    "stars": 5308,
+    "forks": 2170,
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "astropy",
+      "python",
+      "science"
+    ],
+    "license": "BSD-3-Clause",
+    "pushed_at": "2026-09-18T00:45:56Z",
+    "fields": [
+      "Astronomy"
+    ],
+    "queries": [
+      "topic:astronomy stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:07.018016+00:00"
+  },
+  {
+    "full_name": "team-ocean/veros",
+    "url": "https://github.com/team-ocean/veros",
+    "description": "The versatile ocean simulator, in pure Python, powered by JAX.",
+    "stars": 400,
+    "forks": 62,
+    "topics": [
+      "climate",
+      "distributed",
+      "geophysics",
+      "gpu",
+      "jax",
+      "multi-core",
+      "oceanography",
+      "parallel",
+      "python"
+    ],
+    "license": "GPL-3.0",
+    "pushed_at": "2026-09-15T06:55:57Z",
+    "fields": [
+      "Oceanography"
+    ],
+    "queries": [
+      "topic:oceanography stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:11.422699+00:00"
+  },
+  {
+    "full_name": "HyNetworks/hysteria",
+    "url": "https://github.com/HyNetworks/hysteria",
+    "description": "Hysteria is powerful, lightning-fast, and censorship-resistant open-source proxy software",
+    "stars": 22509,
+    "forks": 2252,
+    "topics": [
+      "censorship-circumvention",
+      "golang",
+      "http-proxy",
+      "hysteria",
+      "proxy",
+      "quic",
+      "relay",
+      "reliable-udp",
+      "socks5",
+      "tun",
+      "vpn"
+    ],
+    "license": "MIT",
+    "pushed_at": "2026-09-16T03:45:21Z",
+    "fields": [
+      "Networking"
+    ],
+    "queries": [
+      "topic:quic stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:15.150093+00:00"
+  },
+  {
+    "full_name": "deepspeedai/DeepSpeed",
+    "url": "https://github.com/deepspeedai/DeepSpeed",
+    "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+    "stars": 43133,
+    "forks": 4989,
+    "topics": [
+      "billion-parameters",
+      "compression",
+      "data-parallelism",
+      "deep-learning",
+      "gpu",
+      "inference",
+      "machine-learning",
+      "mixture-of-experts",
+      "model-parallelism",
+      "pipeline-parallelism",
+      "pytorch",
+      "trillion-parameters",
+      "zero"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-18T06:53:05Z",
+    "fields": [
+      "Data compression"
+    ],
+    "queries": [
+      "topic:compression stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:40.358983+00:00"
+  },
+  {
+    "full_name": "richardlehane/siegfried",
+    "url": "https://github.com/richardlehane/siegfried",
+    "description": "signature-based file format identification",
+    "stars": 270,
+    "forks": 34,
+    "topics": [
+      "code4lib",
+      "digital-preservation",
+      "format-identification",
+      "pronom"
+    ],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-09-15T10:23:27Z",
+    "fields": [
+      "Digital preservation"
+    ],
+    "queries": [
+      "\"file format identification\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:46.432735+00:00"
+  },
+  {
+    "full_name": "google-deepmind/alphafold",
+    "url": "https://github.com/google-deepmind/alphafold",
+    "description": "Open source code for AlphaFold 2.",
+    "stars": 14858,
+    "forks": 2951,
+    "topics": [],
+    "license": "Apache-2.0",
+    "pushed_at": "2026-04-22T17:58:21Z",
+    "fields": [
+      "Biology — sequence alignment"
+    ],
+    "queries": [
+      "\"sequence alignment\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:51.718662+00:00"
+  },
+  {
+    "full_name": "protontypes/open-sustainable-technology",
+    "url": "https://github.com/protontypes/open-sustainable-technology",
+    "description": "A directory and analysis of the open source ecosystem in the areas of climate change, sustainable energy, biodiversity and natural resources.  https://docs.getgrist.com/doc/gSscJkc5Rb1Rw45gh1o1Yc",
+    "stars": 2552,
+    "forks": 330,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "biodiversity",
+      "carbon-emissions",
+      "climate",
+      "climate-change",
+      "climate-data",
+      "climate-science",
+      "earth-science",
+      "energy",
+      "energy-consumption",
+      "energy-data",
+      "geoscience",
+      "ocean",
+      "photovoltaic",
+      "renewable-energy",
+      "renewables",
+      "sustainability",
+      "sustainable-development-goals",
+      "wind-turbine"
+    ],
+    "license": "CC-BY-4.0",
+    "pushed_at": "2026-09-16T17:58:23Z",
+    "fields": [
+      "Energy — batteries",
+      "Water — distribution networks"
+    ],
+    "queries": [
+      "\"battery\" \"electrochemical\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false",
+      "\"EPANET\" in:description,readme stars:>=20 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:39:58.646228+00:00"
+  },
+  {
+    "full_name": "goldbergyoni/nodebestpractices",
+    "url": "https://github.com/goldbergyoni/nodebestpractices",
+    "description": "✅ The Node.js best practices list (July 2026)",
+    "stars": 105622,
+    "forks": 10727,
+    "topics": [
+      "best-practices",
+      "es6",
+      "eslint",
+      "express",
+      "expressjs",
+      "javascript",
+      "jest",
+      "microservices",
+      "mocha",
+      "node-js",
+      "nodejs",
+      "nodejs-development",
+      "npm",
+      "rest",
+      "style-guide",
+      "styleguide",
+      "testing",
+      "types"
+    ],
+    "license": "CC-BY-SA-4.0",
+    "pushed_at": "2026-06-15T11:41:04Z",
+    "fields": [
+      "Manufacturing — machine instructions"
+    ],
+    "queries": [
+      "\"g-code\" \"parser\" in:description,readme stars:>=100 pushed:>=2024-09-18 is:public fork:false archived:false"
+    ],
+    "retrieved_at": "2026-09-18T07:40:03.849972+00:00"
+  }
+]

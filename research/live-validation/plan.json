@@ -1,0 +1,164 @@
+{
+  "queries": [
+    {
+      "field": "Biology — bioinformatics",
+      "query": "topic:bioinformatics stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find sequence parsers, alignment libraries, and genomic indexing primitives; stars provide an initial visibility signal, not proof of adoption."
+    },
+    {
+      "field": "Geospatial — raster processing",
+      "query": "topic:geospatial raster stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface reusable raster tiling, reprojection, and spatial processing components."
+    },
+    {
+      "field": "Industrial control",
+      "query": "\"OPC UA\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find protocol stacks and gateways that connect industrial equipment to software."
+    },
+    {
+      "field": "Energy — power grids",
+      "query": "topic:power-systems stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Reveal specialist load-flow, grid modeling, and dispatch primitives."
+    },
+    {
+      "field": "Water — hydrology",
+      "query": "topic:hydrology stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Find watershed models, runoff solvers, and hydrological data interfaces."
+    },
+    {
+      "field": "Construction",
+      "query": "\"IFC\" \"geometry\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface building-model parsers and geometry kernels useful for construction interoperability."
+    },
+    {
+      "field": "Logistics",
+      "query": "\"vehicle routing\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find routing engines with reusable capacity, scheduling, and fleet constraints."
+    },
+    {
+      "field": "Accessibility",
+      "query": "topic:accessibility stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Reveal accessibility testing engines, assistive interfaces, and semantic inspection libraries."
+    },
+    {
+      "field": "Signal processing",
+      "query": "\"digital signal processing\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find filters, transforms, resamplers, and streaming processing kernels."
+    },
+    {
+      "field": "Scientific simulation",
+      "query": "\"finite element\" in:description,readme stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Surface mesh infrastructure, numerical assembly systems, and reusable physics solvers."
+    },
+    {
+      "field": "Robotics",
+      "query": "topic:motion-planning stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find collision checking, trajectory generation, and planning libraries separable from complete robots."
+    },
+    {
+      "field": "Privacy",
+      "query": "topic:differential-privacy stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Reveal privacy accounting, noise mechanisms, and private aggregation primitives."
+    },
+    {
+      "field": "Security",
+      "query": "topic:fuzzing stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find input generators, coverage engines, and reusable vulnerability discovery infrastructure."
+    },
+    {
+      "field": "Optimization",
+      "query": "\"constraint solver\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface embeddable constraint engines applicable to scheduling, allocation, and configuration."
+    },
+    {
+      "field": "Knowledge graphs",
+      "query": "topic:rdf stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find graph stores, semantic parsers, query engines, and linked-data interoperability components."
+    },
+    {
+      "field": "Materials science",
+      "query": "topic:materials-science stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Reveal crystal representations, atomistic analysis, and materials data infrastructure."
+    },
+    {
+      "field": "Agriculture",
+      "query": "\"precision agriculture\" in:description,readme stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Find specialist crop sensing, field mapping, and agricultural decision-model components."
+    },
+    {
+      "field": "Manufacturing — machining",
+      "query": "\"toolpath\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface machining geometry, path generation, and fabrication planning kernels."
+    },
+    {
+      "field": "Developer tooling — builds",
+      "query": "\"incremental build\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find dependency graphs, cache engines, and change-propagation infrastructure."
+    },
+    {
+      "field": "Astronomy",
+      "query": "topic:astronomy stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Reveal coordinate transforms, telescope data readers, and observational analysis primitives."
+    },
+    {
+      "field": "Oceanography",
+      "query": "topic:oceanography stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Find ocean model interfaces, seawater calculations, and marine observation processing tools."
+    },
+    {
+      "field": "Networking",
+      "query": "topic:quic stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface transport implementations and multiplexed networking libraries."
+    },
+    {
+      "field": "Database systems",
+      "query": "\"embedded database\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find storage engines and transactional components that applications can embed."
+    },
+    {
+      "field": "Data compression",
+      "query": "topic:compression stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Reveal codecs, compact representations, and specialized compression libraries."
+    },
+    {
+      "field": "Formal verification",
+      "query": "\"model checking\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find state exploration, specification, and counterexample generation engines."
+    },
+    {
+      "field": "Digital preservation",
+      "query": "\"file format identification\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Surface signature databases and format recognition components for durable archives."
+    },
+    {
+      "field": "Biology — sequence alignment",
+      "query": "\"sequence alignment\" in:description,readme stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Target specialist alignment kernels and indexing algorithms hidden beneath broader bioinformatics platforms."
+    },
+    {
+      "field": "Geospatial — spatial indexing",
+      "query": "\"spatial index\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find reusable geometric search structures for maps, simulation, and spatial databases."
+    },
+    {
+      "field": "Energy — batteries",
+      "query": "\"battery\" \"electrochemical\" in:description,readme stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Reveal electrochemical solvers and parameter estimation components for battery modeling."
+    },
+    {
+      "field": "Water — distribution networks",
+      "query": "\"EPANET\" in:description,readme stars:>=20 pushed:>=2024-09-18",
+      "rationale": "Find hydraulic simulation engines, network parsers, and water-system optimization interfaces."
+    },
+    {
+      "field": "Manufacturing — machine instructions",
+      "query": "\"g-code\" \"parser\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Find machine-instruction parsing and transformation components reusable across fabrication workflows."
+    },
+    {
+      "field": "Developer tooling — dependency analysis",
+      "query": "\"dependency analysis\" in:description,readme stars:>=100 pushed:>=2024-09-18",
+      "rationale": "Reveal package graph extraction, change-impact analysis, and architecture inspection primitives."
+    }
+  ]
+}

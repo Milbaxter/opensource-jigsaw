@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Motion-aware connection sizing for electrified container terminals",
+    "thesis": "Test whether physically informed crane scheduling can reduce a terminal’s required electrical connection and battery capacity while preserving container throughput. The supplied catalogue supports the components’ broad technical roles; it does not establish achievable savings, customer demand, integration feasibility, or license compatibility.",
+    "components": [
+      {
+        "repository": "stack-of-tasks/pinocchio",
+        "role": "Calculate mechanical torque and power profiles for crane movements across payloads and approved motion trajectories.",
+        "necessity": "The mechanism depends on distinguishing when a move consumes power and when it could regenerate. Rigid-body dynamics provides this dependence on payload, acceleration, and configuration; measured drive efficiencies and auxiliary loads must convert mechanical power into electrical demand."
+      },
+      {
+        "repository": "google/or-tools",
+        "role": "Schedule discrete container moves and select among approved motion profiles under precedence, crane-interference, and throughput constraints.",
+        "necessity": "Electrical flexibility exists only where actual container operations permit movements to shift. A physically attractive power profile is worthless if the corresponding schedule blocks the quay or misses vessel deadlines."
+      },
+      {
+        "repository": "PyPSA/PyPSA",
+        "role": "Evaluate scheduled crane demand against the terminal’s electrical network, connection limit, other loads, and candidate battery capacities.",
+        "necessity": "A lower aggregate peak does not necessarily relieve the constrained feeder. Network and storage feasibility must determine which scheduling changes actually substitute for electrical infrastructure."
+      }
+    ],
+    "buyer": "The engineering director of an electrifying container-terminal operator, using its electrical connection, substation, battery, and terminal-modernization capital-planning budget. Willingness to pay is a hypothesis.",
+    "painful_workflow": "During an electrification project, engineers must translate uncertain crane duty cycles and overlapping vessel operations into connection and storage requirements. The hypothesized expensive failure is sizing infrastructure around simultaneous loads that could be avoided operationally—or assuming scheduling flexibility that cannot survive real container-move constraints.",
+    "novel_mechanism": "Treat approved crane movements as time-dependent electrical loads whose timing is negotiable within operational constraints. Couple movement scheduling to network feasibility so the product can propose a smaller connection together with the operating schedule required to make it viable. The causal opportunity is that short lifting peaks may be movable without reducing completed moves; regenerative energy counts only where the installed drives and electrical topology demonstrably permit its reuse. The output is an infrastructure-sizing study backed by replayable schedules and sensitivity bounds.",
+    "business_model": "Begin with a paid engineering study comparing conventional connection sizing with scheduling-enabled alternatives. If validated, sell an annual planning license per terminal for fleet changes, vessel-demand scenarios, and electrical expansion decisions. Pricing and margins remain untested; operational deployment would require separate validation.",
+    "integration_plan": "Ingest crane geometry, payload classes, approved trajectories, drive characteristics, move dependencies, electrical topology, and non-crane loads. Custom adapters use stack-of-tasks/pinocchio to generate candidate mechanical profiles, then calibrated drive models produce electrical traces. google/or-tools selects movements and start times. PyPSA/PyPSA evaluates the resulting time-series loads and candidate connection/storage capacities. Iterate by translating electrical violations into scheduling constraints and rechecking feasibility; this coupling must be built and tested. Validate time resolution against observed peaks. Crane sway, structural flexibility, protection coordination, and electrical transients require additional engineering beyond these repositories. Verify actual repository licenses and dependencies before distribution.",
+    "cheapest_falsification": "Before building the integration, run an offline replay experiment on one consenting terminal’s existing movement logs and electrical measurements; obtaining those records is a future experiment, not evidence supplied here. Compare the current schedule, simple start-time staggering, and a small motion-aware optimization using identical operating constraints. Proposed rejection criteria: less than 10% reduction in required connection capacity at no more than 1% throughput loss; savings that disappear under plausible timing and efficiency errors; or performance matched by simple staggering. These are experimental hurdles, not measured results. Stop earlier if electrical traces cannot be predicted accurately enough to preserve the apparent headroom."
+  }
+]
