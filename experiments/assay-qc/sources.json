@@ -1,0 +1,68 @@
+[
+  {
+    "type": "pain",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8450896/",
+    "finding": "Practitioner description of rare-phenotype review failure and whole-plate montage workflow.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "paid_category",
+    "url": "https://ki.se/en/research/research-infrastructure-and-environments/core-facilities-for-research/the-luminous-cell-imaging-core-facility/fees",
+    "finding": "External expertise SEK1000/hour; companies double listed fees plus VAT; consultation free for existing users.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "data_rights",
+    "url": "https://bbbc.broadinstitute.org/BBBC039",
+    "finding": "Official data, partitions, annotation encoding and CC0 rights.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://www.nature.com/articles/s41467-023-36960-9",
+    "finding": "deepflash2 already prioritizes uncertain image/instance review.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://github.com/cytomining/coSMicQC",
+    "finding": "Morphological technical-outlier detection and removal.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://github.com/dlabate/SPACe",
+    "finding": "End-to-end phenotypic analysis including segmentation/QC.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5048071/",
+    "finding": "CellProfiler Analyst active learning and cellular/well exploration.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://arxiv.org/abs/2604.13262",
+    "finding": "Existing uncertainty plus confidence-aware deferral research; retinal pixel endpoint.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://www.genedata.com/company/news/details/press-release/ai-analytics-enhance-qc-and-novel-phenotype-detection-in-hcs",
+    "finding": "Commercial uncertainty rejection, novel-phenotype flags and research assay QC since2021.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://www.revvity.com/product/harmony-5-2-office-revvity-hh17000019",
+    "finding": "Commercial image analysis and classification, price not verified.",
+    "accessed": "2026-09-18"
+  },
+  {
+    "type": "competitor",
+    "url": "https://github.com/nf-core/cellpainting/blob/dev/docs/usage.md",
+    "finding": "Pipeline QC gate and assay-development segmentation preview.",
+    "accessed": "2026-09-18"
+  }
+]

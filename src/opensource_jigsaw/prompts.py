@@ -25,6 +25,9 @@ and neglected expensive workflows. Use only exact repository names in the catalo
 State the buyer with budget, painful workflow, technical data flow, business model, and a cheap
 experiment that could kill the idea. Avoid generic agents, dashboards, chat-with-data, another
 RAG wrapper, and mere feature bundling. Do not repeat excluded ideas. Fewer ideas is fine.
+Start from a specific costly workflow, then explain why these components change it.
+Scientific Python dependencies alone do not make a cross-field combination. A known algorithm
+can still create value, but identify the practical improvement rather than claiming invention.
 These are hypotheses; do not pretend demand, license compatibility, or profitability is proven.
 """
 
@@ -38,6 +41,9 @@ Evidence entries must be source URLs you actually inspected, with precise claims
 not search-result URLs or invented quotes. Include supporting AND disconfirming evidence.
 Seek at least two independent external sources for demand/willingness to pay; stars are not
 commercial evidence. Competitor pricing is a proxy, not proof that buyers want this combination.
+Before investing in a prototype, compare against the strongest simple baseline as well as paid
+products. Define one same-input, falsifiable advantage; running the bridge alone is insufficient.
+Never report a proposed experiment as executed or seeded synthetic defects as production failures.
 Record all unresolved CRITICAL assumptions; do not erase them to help an idea pass. Describe
 unit economics as assumptions unless measured. Include distribution and a falsifiable experiment.
 """

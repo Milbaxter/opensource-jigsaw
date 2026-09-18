@@ -1,0 +1,19 @@
+{
+  "selected_config": [
+    0.75,
+    8,
+    20
+  ],
+  "thresholds": [
+    93.5,
+    148.0,
+    656.0
+  ],
+  "uncertainty_baseline": "pixel_disagreement",
+  "validation_benefits": {
+    "sum_spread": 1,
+    "max_spread": 0,
+    "pixel_disagreement": 1
+  },
+  "validation_error_count": 8
+}

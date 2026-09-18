@@ -1,0 +1,201 @@
+{
+  "publish": [
+    {
+      "path": "fetch.py",
+      "bytes": 1794,
+      "sha256": "490bb885b7d3de0fd9b3fdbf5bac43b69a2aed9e84dbcee6f3b8564ba3d236da"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 2559,
+      "sha256": "56c42f90e151351738f4c759cd2511611a0302dfac521d2b4e247205a4f28da4"
+    },
+    {
+      "path": "model.json",
+      "bytes": 10237,
+      "sha256": "e17c36251c3c02e48c40509a4ecceab966cd410d93de48d716701a7c0cfe1b93"
+    },
+    {
+      "path": "attempt-02-float-model.json",
+      "bytes": 10249,
+      "sha256": "623fb9706f4872918b20d8ebe60913670d130a6ae340ea6604d3f611531e2284"
+    },
+    {
+      "path": "calibration_truth.json",
+      "bytes": 14245,
+      "sha256": "8a9875258620479f9e504d3ebd39300cfd136596c8c88026c03e319aee8a2922"
+    },
+    {
+      "path": "data-provenance.json",
+      "bytes": 548,
+      "sha256": "dbccfc113f717f310b8307c7bec2e7a535b092c7ac491d2be232e82076437a90"
+    },
+    {
+      "path": "calibration.log",
+      "bytes": 290,
+      "sha256": "9ed919e196462f64373ecd55f6217e68e90c9390495feadd19f7303ba179dbab"
+    },
+    {
+      "path": "splits.json",
+      "bytes": 12260,
+      "sha256": "091d3b5e9018e8247f15fafccea3636106fff6faad053f4cb7beb34fdd9c7a4c"
+    },
+    {
+      "path": "attempt-02-float-rankings.json",
+      "bytes": 1018584,
+      "sha256": "bfe7466c2c5da92aa91fad1ae18c469dc16a40331b2c7d7e09e19c6eb8d63535"
+    },
+    {
+      "path": "segmentation.log",
+      "bytes": 1231,
+      "sha256": "e049a58a2bf49913a200a0f0788e90912bd639b0f886eb49fb902f5eef29f5ea"
+    },
+    {
+      "path": "attempt-01-resource-fork-error.log",
+      "bytes": 3916,
+      "sha256": "596fe16b0bdb8aa5e124529c9a91f4356e0d751eb6951d19f5a76c67fb43dc65"
+    },
+    {
+      "path": "evaluation-freeze.json",
+      "bytes": 912,
+      "sha256": "2a4ab200d37f28da9ae4a7d12cc39826da3afe1bae20a36215717d86623cd988"
+    },
+    {
+      "path": "results.json",
+      "bytes": 20201,
+      "sha256": "f62842552a982a11630d2c502925c768e7572692cdbb60950eb6feff474de037"
+    },
+    {
+      "path": "prepare_calibration.py",
+      "bytes": 1234,
+      "sha256": "ffdd62dbf7efff57a5d9ee295cc037c4c4390c61abb18e2b4fb449341e5cef28"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4112,
+      "sha256": "3289402a5cd2683a492bd2f5d27af78164fe8fe2cefc41b6d750429cc04b218d"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 3519,
+      "sha256": "c416b63df91302ef7e93366168f7d463a16bb0837fdd3564a4d69e9de87b9203"
+    },
+    {
+      "path": "common.py",
+      "bytes": 683,
+      "sha256": "d79dcba8dcb7aa6d008ed7817b8600c09bd1c7018389e1e1368add1680493414"
+    },
+    {
+      "path": "rankings.json",
+      "bytes": 1018584,
+      "sha256": "e9bac94c707544492512ac3d0d28ababe653f9495cdaae3d88f4efd77515dbc0"
+    },
+    {
+      "path": "components.json",
+      "bytes": 4131,
+      "sha256": "e120a5a985cb2ddf4bcfde137e1765beff3030e410ab2fc733147c17170ddd77"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 3359,
+      "sha256": "2e356993fce3381dba9146030723e224c62f1936e1a8e3485eaa2d7847729610"
+    },
+    {
+      "path": "segment.py",
+      "bytes": 2206,
+      "sha256": "ed5b9c74ef6576b7f60375ffde35e3c3911123887792d21a86894dd0d5091e6a"
+    },
+    {
+      "path": "ranking.log",
+      "bytes": 116,
+      "sha256": "4b47069120c506b1d8877f6523326b42e50c0ae113e32d212a6b202323474cce"
+    },
+    {
+      "path": "calibrate.py",
+      "bytes": 2612,
+      "sha256": "fe423f1b2651964e9c5caf29e03b26193cd3e0863919407e0fa0d6c810beb10f"
+    },
+    {
+      "path": "DOSSIER.md",
+      "bytes": 8081,
+      "sha256": "e582bd8745529f2a56fdc597c0758b5a8fb0ff25bdb20053e99a9c0ba2b18a76"
+    },
+    {
+      "path": "evaluation.log",
+      "bytes": 3618,
+      "sha256": "8c14ef5435e23ab1b803b94364e6001f687d0ceb8f68dc3d05ea4822cd200b63"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 148,
+      "sha256": "187fd24f633bd3dc00b63af4a808980eddf1db7ec650f3f62bd07e01ec341fdc"
+    },
+    {
+      "path": "rank.py",
+      "bytes": 3012,
+      "sha256": "bba026cf1c0e195d1d2c6d8e7232fd33607448ca16611d1047844d6d06681094"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 7548,
+      "sha256": "544e5b99a44ea2b6c37b76962f2c827881b231d3ea3baa91a9ed87c5a007161b"
+    },
+    {
+      "path": "raw-evidence/segment.py.txt",
+      "bytes": 2206,
+      "sha256": "ed5b9c74ef6576b7f60375ffde35e3c3911123887792d21a86894dd0d5091e6a"
+    },
+    {
+      "path": "raw-evidence/prepare_calibration.py.txt",
+      "bytes": 1234,
+      "sha256": "ffdd62dbf7efff57a5d9ee295cc037c4c4390c61abb18e2b4fb449341e5cef28"
+    },
+    {
+      "path": "raw-evidence/common.py.txt",
+      "bytes": 683,
+      "sha256": "d79dcba8dcb7aa6d008ed7817b8600c09bd1c7018389e1e1368add1680493414"
+    },
+    {
+      "path": "raw-evidence/evaluate.py.txt",
+      "bytes": 3359,
+      "sha256": "2e356993fce3381dba9146030723e224c62f1936e1a8e3485eaa2d7847729610"
+    },
+    {
+      "path": "raw-evidence/PROTOCOL.md.txt",
+      "bytes": 7548,
+      "sha256": "544e5b99a44ea2b6c37b76962f2c827881b231d3ea3baa91a9ed87c5a007161b"
+    },
+    {
+      "path": "raw-evidence/calibrate.py.txt",
+      "bytes": 2612,
+      "sha256": "fe423f1b2651964e9c5caf29e03b26193cd3e0863919407e0fa0d6c810beb10f"
+    },
+    {
+      "path": "raw-evidence/rank.py.txt",
+      "bytes": 3012,
+      "sha256": "bba026cf1c0e195d1d2c6d8e7232fd33607448ca16611d1047844d6d06681094"
+    }
+  ],
+  "exclude": [
+    ".venv/",
+    "__pycache__/",
+    "data/",
+    "predictions/",
+    "resume_download.py",
+    "download-resume.log",
+    "calibration-preparation.log"
+  ],
+  "preserve_raw_evidence": [
+    "PROTOCOL.md",
+    "evaluation-freeze.json",
+    "rankings.json",
+    "model.json",
+    "results.json",
+    "evaluation.log",
+    "attempt-01-resource-fork-error.log",
+    "attempt-02-float-model.json",
+    "attempt-02-float-rankings.json",
+    "raw-evidence/"
+  ],
+  "notes": "If formatting scripts later, retain their original versions/hash record so first-evaluation provenance remains traceable."
+}

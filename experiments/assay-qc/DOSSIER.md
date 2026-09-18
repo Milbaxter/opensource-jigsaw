@@ -1,0 +1,40 @@
+# Decision-aware review allocation for nuclear segmentation QC
+
+Status: rejected after failed preregistered technical-advantage gate. See RESULTS.md; no business pursuit pass. Frozen real-image protocol is PROTOCOL.md. Results must be reported without changing its gate.
+
+## Buyer, pain and paid category
+Initial buyer hypothesis: the image-analysis lead at a research high-content screening core or small phenotypic-screening CRO that already uses CellProfiler/napari. Trigger: a large assay's segmentation looks broadly acceptable, but staff cannot inspect every image and need to decide which uncertain masks threaten their specified density/morphology decisions. Start with research QC; do not claim clinical decisions or validated biological hit selection.
+
+A [primary practitioner paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC8450896/) explains how rare phenotypes missed during segmentation checks can distort conclusions and cause large reruns; its existing remedy includes convenient whole-plate review montages. This supports consequential review work, not demand for this specific product.
+
+[Karolinska's current fee page](https://ki.se/en/research/research-infrastructure-and-environments/core-facilities-for-research/the-luminous-cell-imaging-core-facility/fees), updated 3 September 2026, prices external expertise consultation at SEK 1,000/hour and charges companies twice listed prices plus VAT. Consultation is free for existing facility users: this is relevant adverse evidence against assuming a standalone software budget. The [Harmony commercial product](https://www.revvity.com/product/harmony-5-2-office-revvity-hh17000019) also establishes purchased image-analysis tooling, with no public price verified. Neither source proves conversion to this proposed review allocator.
+
+Accessible validation population: research imaging-core analysis staff, high-content screening facility analysts, and CellProfiler/napari workflow maintainers. Karolinska LCI's official facility page names a concrete reachable institution. No one has been contacted; access and consent to a trial are unproven. A first bounded customer experiment would compare actual review time and changed QC decisions on an existing research assay, with analyst-defined acceptable error. Do not translate equal-cost simulated image reviews into actual hours saved.
+
+## Essential technical bridge
+Segmentation produces multiple plausible instance masks. Feature extraction turns each into count and median nuclear area. A paired empirical residual distribution learned only from calibration masks propagates those feature changes through explicit downstream thresholds. Review selection ranks expected changed decisions at a fixed budget. Human correction is simulated by revealing a held-out reference annotation only inside the evaluator. The candidate is never given true test errors.
+
+Independently useful OSS components: scikit-image watershed and instance features (BSD family license); SciPy distance transform and numerical operations (BSD-3); NumPy vectorized joint residual propagation, feature distributions and budget selection (BSD-3). This is a small implementation of a decision-theoretic transfer, not a new segmentation model. A prospective napari correction interface is not part of the tested bridge. Exact repository metadata and license hashes are in components.json; runtime package versions in requirements-lock.txt.
+
+## Nearest competitors and adverse evidence
+- [deepflash2](https://www.nature.com/articles/s41467-023-36960-9) already ranks uncertain images and instances for review. This kills a generic uncertainty-review product claim. The prototype baseline tests ensemble sensitivity ranking, not the full deepflash2 model; beating it would not establish superiority to deepflash2's trained segmenter.
+- [CellProfiler Analyst](https://pmc.ncbi.nlm.nih.gov/articles/PMC5048071/) offers active-learning/classification and well/single-cell exploration. [CellProfiler tutorials](https://tutorials.cellprofiler.org/) include practical QC workflows. This is a capable free incumbent workflow.
+- [coSMicQC](https://github.com/cytomining/coSMicQC) identifies or removes technical outliers through morphological feature conditions before downstream analysis. It already addresses incorrect segmentation and supplies an obvious plug-in location for this mechanism.
+- [SPACe](https://github.com/dlabate/SPACe) covers preview, segmentation, QC, feature extraction and phenotype distances. [Its paper](https://doi.org/10.1038/s41467-024-54264-4) reports substantially faster analysis than CellProfiler on evaluated datasets. Do not reinvent this end-to-end platform.
+- [nf-core/cellpainting](https://github.com/nf-core/cellpainting/blob/dev/docs/usage.md) already makes assay-development segmentation QC a pipeline gate. [Revvity Harmony](https://www.revvity.com/product/harmony-5-2-office-revvity-hh17000019) offers commercial image analysis and classification.
+
+- [Genedata Imagence](https://www.genedata.com/company/news/details/press-release/ai-analytics-enhance-qc-and-novel-phenotype-detection-in-hcs) introduced uncertainty-based rejection and novel-phenotype flags in 2021. It is a particularly relevant commercial incumbent, not merely a generic image viewer.
+- [Rethinking Uncertainty in Segmentation: From Estimation to Decision](https://arxiv.org/abs/2604.13262), April 2026, evaluates combinations of uncertainty and confidence-aware pixel deferral. Its retinal pixel-error endpoint differs from downstream nuclear QC flags, but the general decision-aware deferral idea is existing research.
+
+No exact product allocating human correction by expected downstream threshold errors was found in this bounded search. This is negative search evidence, not world-first proof. Decision-focused active learning and value-of-information are mature fields; the proposed novelty is their narrow operational transfer. Competitors could implement it quickly. Accumulated assay-specific calibration and integration might become advantages only after actual use; they are not present defensibility.
+
+## Public-data feasibility and rights
+[BBBC039v1](https://bbbc.broadinstitute.org/BBBC039) provides 200 DNA-channel images, each a single field for a chemical perturbation, with manual nuclear instance annotations and published training/validation/test lists. Copyright is CC0 on the official dataset page. There are no biological hit labels or replicates in this subset; use nuclear count/area QC proxy labels only. Official download URLs and SHA256s are saved in data/provenance.json. Dataset content is downloaded for local evaluation but excluded from default publication.
+
+## Bounded validation gate and risks
+The preregistered test requires a 20% reduction in remaining proxy decision mistakes against every specified baseline at the same 20% image budget, plus an absolute correction advantage and sufficient error opportunity. Fixed thresholds derive only from training annotation quartiles. The candidate must beat uncertainty, margin, random and stratified review; its test rankings are frozen before decoding test masks.
+
+Main limitations: hand-designed watershed ensemble can share errors; residual exchangeability may fail on rare phenotypes; correcting dense images costs more; expert masks are not infallible; one dataset cannot establish generality; classifying count/area quartiles is not discovering compound biology. If the prototype fails, do not rescue the business with generic demand for image analysis. Even a pass only earns further testing; payment, distribution and defensibility remain separate experimental questions.
+
+## Provisional business assessment before results
+Novelty 7/10, pain 8, payment 7, feasibility 7, defensibility 5, distribution 6, evidence 7: weighted total 69.0/100, confidence 0.72. This fails multiple v2 floors and the unexecuted demo gate. A working demo can improve feasibility/evidence; it cannot establish a moat, customer acquisition, or willingness to pay. Scores deliberately remain below a pursuit pass until supported.

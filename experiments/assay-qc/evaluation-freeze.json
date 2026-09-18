@@ -1,0 +1,15 @@
+{
+  "event": "frozen_before_first_heldout_mask_evaluation",
+  "utc": "2026-09-18T08:34:22.814768+00:00",
+  "sha256": {
+    "PROTOCOL.md": "544e5b99a44ea2b6c37b76962f2c827881b231d3ea3baa91a9ed87c5a007161b",
+    "common.py": "d79dcba8dcb7aa6d008ed7817b8600c09bd1c7018389e1e1368add1680493414",
+    "segment.py": "ed5b9c74ef6576b7f60375ffde35e3c3911123887792d21a86894dd0d5091e6a",
+    "prepare_calibration.py": "ffdd62dbf7efff57a5d9ee295cc037c4c4390c61abb18e2b4fb449341e5cef28",
+    "calibrate.py": "fe423f1b2651964e9c5caf29e03b26193cd3e0863919407e0fa0d6c810beb10f",
+    "rank.py": "bba026cf1c0e195d1d2c6d8e7232fd33607448ca16611d1047844d6d06681094",
+    "evaluate.py": "2e356993fce3381dba9146030723e224c62f1936e1a8e3485eaa2d7847729610",
+    "model.json": "e17c36251c3c02e48c40509a4ecceab966cd410d93de48d716701a7c0cfe1b93",
+    "rankings.json": "e9bac94c707544492512ac3d0d28ababe653f9495cdaae3d88f4efd77515dbc0"
+  }
+}

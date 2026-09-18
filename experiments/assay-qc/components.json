@@ -1,0 +1,106 @@
+[
+  {
+    "full_name": "scikit-image/scikit-image",
+    "html_url": "https://github.com/scikit-image/scikit-image",
+    "description": "Image processing in Python",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-16T08:15:55Z",
+    "stargazers_count": 6592,
+    "default_branch": "main",
+    "license_url": "https://github.com/scikit-image/scikit-image/blob/main/LICENSE.txt",
+    "license_sha256": "611d3207504dcb4a808df209d2e7c9b4f2e89fe690f84735c0d548160966b527",
+    "manual_license_review": "LICENSE.txt lists BSD-3-Clause default, BSD-2-Clause for thresholding, plus selected MIT helpers. All permissive commercial-compatible with notices; API NOASSERTION."
+  },
+  {
+    "full_name": "scipy/scipy",
+    "html_url": "https://github.com/scipy/scipy",
+    "description": "SciPy library main repository",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-18T05:50:37Z",
+    "stargazers_count": 15022,
+    "default_branch": "main",
+    "license_url": "https://github.com/scipy/scipy/blob/main/LICENSE.txt",
+    "license_sha256": "221e59f5e910fd7f94e44f0dac77436a11338c285c6346232e4a850a50da0e94"
+  },
+  {
+    "full_name": "numpy/numpy",
+    "html_url": "https://github.com/numpy/numpy",
+    "description": "The fundamental package for scientific computing with Python.",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-18T07:34:39Z",
+    "stargazers_count": 32766,
+    "default_branch": "main",
+    "license_url": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+    "license_sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+    "manual_license_review": "BSD-3-Clause standard text confirmed; GitHub API returns NOASSERTION."
+  },
+  {
+    "full_name": "cytomining/coSMicQC",
+    "html_url": "https://github.com/cytomining/coSMicQC",
+    "description": "Single cell Morphology Quality Control (coSMicQC)",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-03T21:31:03Z",
+    "stargazers_count": 11,
+    "default_branch": "main",
+    "license_url": "https://github.com/cytomining/coSMicQC/blob/main/LICENSE",
+    "license_sha256": "66cef8cbe8624630e0ed5946b2520d665ad54abadc22f761813f5235ae5cf058"
+  },
+  {
+    "full_name": "dlabate/SPACe",
+    "html_url": "https://github.com/dlabate/SPACe",
+    "description": "Swift Phenotypic Analysis of Cells",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2025-06-08T23:25:14Z",
+    "stargazers_count": 10,
+    "default_branch": "main",
+    "license_url": "https://github.com/dlabate/SPACe/blob/main/LICENSE.md",
+    "license_sha256": "5565ecc52e47287604a15e2aca33365e66d3778059521f645c4203868d1ccfc9"
+  },
+  {
+    "full_name": "matjesg/deepflash2",
+    "html_url": "https://github.com/matjesg/deepflash2",
+    "description": "A deep-learning pipeline for segmentation of ambiguous microscopic images.",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-08-03T13:19:28Z",
+    "stargazers_count": 65,
+    "default_branch": "master",
+    "license_url": "https://github.com/matjesg/deepflash2/blob/master/LICENSE",
+    "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  }
+]
