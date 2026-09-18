@@ -1,0 +1,359 @@
+{
+  "scope": "Independent header/DFD/mip/range checks on six actual authored-control encoder files. Does not independently decode payload or repeat browser control.",
+  "files": [
+    {
+      "file": "work/round9-render-budget/generated/controls/color-etc1s.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 946,
+        "sha256": "9afd0347b4bd92f85d087c8759e1e74bb62e5a7ad81e075e47b37ba3e427f297",
+        "role": "color",
+        "codec": "etc1s",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 163,
+        "primaries": 1,
+        "transfer": 2,
+        "flags": 0,
+        "supercompression": 1,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 883,
+            "length": 63,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 1,
+            "offset": 852,
+            "length": 31,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 2,
+            "offset": 842,
+            "length": 10,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 3,
+            "offset": 838,
+            "length": 4,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 4,
+            "offset": 834,
+            "length": 4,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 5,
+            "offset": 830,
+            "length": 4,
+            "uncompressed_length": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "work/round9-render-budget/generated/controls/color-uastc.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 1043,
+        "sha256": "635dcf819909c8bcd7e05bd53a17d894122661b41645c71c06e0c3b78292242b",
+        "role": "color",
+        "codec": "uastc",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 166,
+        "primaries": 1,
+        "transfer": 2,
+        "flags": 0,
+        "supercompression": 2,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 784,
+            "length": 259,
+            "uncompressed_length": 1024
+          },
+          {
+            "level": 1,
+            "offset": 552,
+            "length": 232,
+            "uncompressed_length": 256
+          },
+          {
+            "level": 2,
+            "offset": 479,
+            "length": 73,
+            "uncompressed_length": 64
+          },
+          {
+            "level": 3,
+            "offset": 454,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 4,
+            "offset": 429,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 5,
+            "offset": 404,
+            "length": 25,
+            "uncompressed_length": 16
+          }
+        ]
+      }
+    },
+    {
+      "file": "work/round9-render-budget/generated/controls/data-etc1s.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 892,
+        "sha256": "9ea469a7815b4e91be51da07c595b79e35f8e0af6ac5e0887187022709782a38",
+        "role": "data",
+        "codec": "etc1s",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 163,
+        "primaries": 0,
+        "transfer": 1,
+        "flags": 0,
+        "supercompression": 1,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 836,
+            "length": 56,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 1,
+            "offset": 809,
+            "length": 27,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 2,
+            "offset": 799,
+            "length": 10,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 3,
+            "offset": 795,
+            "length": 4,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 4,
+            "offset": 791,
+            "length": 4,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 5,
+            "offset": 787,
+            "length": 4,
+            "uncompressed_length": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "work/round9-render-budget/generated/controls/data-uastc.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 1048,
+        "sha256": "47b42b7fde9ce9b63e931d8759a2a5aa2897057366bdc8dbaf5cd78e6cea4f4c",
+        "role": "data",
+        "codec": "uastc",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 166,
+        "primaries": 0,
+        "transfer": 1,
+        "flags": 0,
+        "supercompression": 2,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 789,
+            "length": 259,
+            "uncompressed_length": 1024
+          },
+          {
+            "level": 1,
+            "offset": 552,
+            "length": 237,
+            "uncompressed_length": 256
+          },
+          {
+            "level": 2,
+            "offset": 479,
+            "length": 73,
+            "uncompressed_length": 64
+          },
+          {
+            "level": 3,
+            "offset": 454,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 4,
+            "offset": 429,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 5,
+            "offset": 404,
+            "length": 25,
+            "uncompressed_length": 16
+          }
+        ]
+      }
+    },
+    {
+      "file": "work/round9-render-budget/generated/controls/normal-etc1s.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 761,
+        "sha256": "62b9a5439515afb44bb63474225ee2ca961187f4bd9d1b9dcc3cd3e8b0ce767c",
+        "role": "data",
+        "codec": "etc1s",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 163,
+        "primaries": 0,
+        "transfer": 1,
+        "flags": 0,
+        "supercompression": 1,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 744,
+            "length": 17,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 1,
+            "offset": 731,
+            "length": 13,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 2,
+            "offset": 727,
+            "length": 4,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 3,
+            "offset": 725,
+            "length": 2,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 4,
+            "offset": 723,
+            "length": 2,
+            "uncompressed_length": 0
+          },
+          {
+            "level": 5,
+            "offset": 721,
+            "length": 2,
+            "uncompressed_length": 0
+          }
+        ]
+      }
+    },
+    {
+      "file": "work/round9-render-budget/generated/controls/normal-uastc.ktx2",
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 1026,
+        "sha256": "a38986b6ab4a067b9e5d83d9becead739bbcc70bbc4b6556b597fd058ded518d",
+        "role": "data",
+        "codec": "uastc",
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "color_model": 166,
+        "primaries": 0,
+        "transfer": 1,
+        "flags": 0,
+        "supercompression": 2,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 785,
+            "length": 241,
+            "uncompressed_length": 1024
+          },
+          {
+            "level": 1,
+            "offset": 564,
+            "length": 221,
+            "uncompressed_length": 256
+          },
+          {
+            "level": 2,
+            "offset": 491,
+            "length": 73,
+            "uncompressed_length": 64
+          },
+          {
+            "level": 3,
+            "offset": 466,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 4,
+            "offset": 441,
+            "length": 25,
+            "uncompressed_length": 16
+          },
+          {
+            "level": 5,
+            "offset": 416,
+            "length": 25,
+            "uncompressed_length": 16
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "freeze": "1a842b49a92b0723f810bec70d9c05daf7cb78a7",
+  "error": "Original roundtrip or repeat render mismatch: FlightHelmet",
+  "stack": "Error: Original roundtrip or repeat render mismatch: FlightHelmet\n    at file://<EXPERIMENT_ROOT>/runtime/run.mjs:32:79",
+  "seconds": 581.824
+}

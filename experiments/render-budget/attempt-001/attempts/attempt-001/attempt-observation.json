@@ -1,0 +1,14 @@
+{
+  "freeze": "1a842b49a92b0723f810bec70d9c05daf7cb78a7",
+  "observed_process_exit_code": 1,
+  "tool_session_id": 7082,
+  "source_hashes_match_freeze": true,
+  "option_count": 279,
+  "authored_codec_controls": 9,
+  "invalid_input_controls": 2,
+  "search_configurations": 0,
+  "heldout_evaluations": 0,
+  "selection_seal_exists": false,
+  "generated_files": 780,
+  "generated_bytes": 598933363
+}

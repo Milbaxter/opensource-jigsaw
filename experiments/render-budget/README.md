@@ -1,6 +1,6 @@
 # Render-aware texture allocation
 
-**Prospectively frozen; no asset encoding, rendering, or outcome at this commit.** OR-Tools CP-SAT jointly selects texture codec/resolution choices under a delivered GLB byte limit. Four CC0 assets, twelve budget cells, four strong baselines, and withheld views test the declared integration advantage.
+**Attempt001 stopped before search:** authored codec/browser controls passed, but unchanged source/GLB rendering failed the exact-pixel gate. [Full failure record](attempt-001/RESULTS-ATTEMPT-001.md). No optimization result or pursuit pass. OR-Tools CP-SAT jointly selects texture codec/resolution choices under a delivered GLB byte limit. Four CC0 assets, twelve budget cells, four strong baselines, and withheld views test the declared integration advantage.
 
 [Protocol](PREREGISTRATION-DRAFT.md) · [Source freeze](parent-freeze.json) · [Reproduction](REPRODUCTION.md) · [Independent static review](../../research/round9/texture-independent-review/IMPLEMENTATION-REVIEW.md) · [Conditional business experiment](../../research/round9/texture-independent-review/COMMERCIAL-EXPERIMENT-DRAFT.md)
 

@@ -1,0 +1,3905 @@
+{
+  "state": "completed failed attempt; original artifacts retained immutable in generated/",
+  "files": [
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.25.ktx2",
+      "bytes": 22867,
+      "sha256": "15c40013c33a145cd3123da35138e47d54e05dc5046f4ed407e7b55b9a8b0e70"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 23040,
+      "sha256": "a51c2ce01b00377a2f9cf89c0a7dd32d9b18a5e4f5341434e62bf637dc04a304"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.25.ktx2.input.png",
+      "bytes": 156778,
+      "sha256": "eb4edc9ff9644e6651e20aeedce6bb0adb4bf74cdffebc1d27a444801c51eda2"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.5.ktx2",
+      "bytes": 57900,
+      "sha256": "519b064fab45cf3a5111a2f82b70e7c29d9ce56a6885d93a55e935949b3bfd4d"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 138890,
+      "sha256": "2db2df52918d92b4051d33dc6509053e4d349d4b7823c2e7017e24de0041ce0e"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-0.5.ktx2.input.png",
+      "bytes": 622884,
+      "sha256": "bf781eafa1e354f97a64b26921d424efc18e8cfa33b79213c465e33d9a032c99"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-1.ktx2",
+      "bytes": 212011,
+      "sha256": "49c99e0a16c5fcaeef35731d0d7b291974df833a24edf9f34fe7e6834e14c887"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-1.ktx2.decoded.png",
+      "bytes": 551391,
+      "sha256": "cf04df419e6c9c5635e40240f2384c621822377b54b89dd591f0db56dabaed40"
+    },
+    {
+      "path": "generated/BoomBox/image-0-etc1s-1.ktx2.input.png",
+      "bytes": 2498765,
+      "sha256": "f98228bbfabfd49ce7717a6641233b5c204e7ac51a8a86950dc6bdd1e07a185f"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.25.ktx2",
+      "bytes": 143226,
+      "sha256": "09fb851493d4d73fde6a3eb073d21b779dfb573f730cfcf156c46747d151897b"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.25.ktx2.decoded.png",
+      "bytes": 158225,
+      "sha256": "4d7b4f9f277322e639477ad1a678e11fbec58b1175de136dcc3cd4a0dbf2e536"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.25.ktx2.input.png",
+      "bytes": 156778,
+      "sha256": "eb4edc9ff9644e6651e20aeedce6bb0adb4bf74cdffebc1d27a444801c51eda2"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.5.ktx2",
+      "bytes": 506549,
+      "sha256": "8fe55f3d51d8eda7e3859c844260bb068abf533bdbae87ec4008bf1194104360"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.5.ktx2.decoded.png",
+      "bytes": 567519,
+      "sha256": "eac456d36d2a342c3061dd7000b6f8d4b41ec08ee5fbeea9b5632cf0b69131e8"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-0.5.ktx2.input.png",
+      "bytes": 622884,
+      "sha256": "bf781eafa1e354f97a64b26921d424efc18e8cfa33b79213c465e33d9a032c99"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-1.ktx2",
+      "bytes": 1975585,
+      "sha256": "046b2ce82544d27dca353cad29b83eeb89ec14f10e3ded5488736e38f2902972"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-1.ktx2.decoded.png",
+      "bytes": 2688620,
+      "sha256": "7ccedc3fb29d20ff2d8483eb605fb2c7e6c59ddbfb5f8d1423e82e226e6e0efc"
+    },
+    {
+      "path": "generated/BoomBox/image-0-uastc-1.ktx2.input.png",
+      "bytes": 2498765,
+      "sha256": "f98228bbfabfd49ce7717a6641233b5c204e7ac51a8a86950dc6bdd1e07a185f"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-0.25.webp",
+      "bytes": 14746,
+      "sha256": "52c2ea8f4fce59b5642345801d2652f66a7f9a675d64241a2c0a0954e27251a1"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-0.25.webp.input.png",
+      "bytes": 156778,
+      "sha256": "eb4edc9ff9644e6651e20aeedce6bb0adb4bf74cdffebc1d27a444801c51eda2"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-0.5.webp",
+      "bytes": 46664,
+      "sha256": "35c245e5f04b6542ee60410e75ab01eefa1695b0248f80161cdbefac117cfeec"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-0.5.webp.input.png",
+      "bytes": 622884,
+      "sha256": "bf781eafa1e354f97a64b26921d424efc18e8cfa33b79213c465e33d9a032c99"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-1.webp",
+      "bytes": 134610,
+      "sha256": "9408671a8793a3cb6d5a7adf714c63f3de400ec040824069b419edb76799bbc5"
+    },
+    {
+      "path": "generated/BoomBox/image-0-webp-1.webp.input.png",
+      "bytes": 2498765,
+      "sha256": "f98228bbfabfd49ce7717a6641233b5c204e7ac51a8a86950dc6bdd1e07a185f"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.25.ktx2",
+      "bytes": 23498,
+      "sha256": "eba9f3269a08d1c85e94e37db3f53b8ddcf716c42bcc95eb58a996aeb4bd6187"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 54039,
+      "sha256": "dbf5b40d7e6ea15c904a6e7ec2c51fe7790b3cc2b31e9aae8edb5e12027fbea0"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.25.ktx2.input.png",
+      "bytes": 255685,
+      "sha256": "5cbbd8deb2866939a59bf7a0bf910f548f27ad920f6daa4f61a14dd7ba9db547"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.5.ktx2",
+      "bytes": 61643,
+      "sha256": "9c7c439f4c27e0d1144f912748d7984f7a1c1027744a9aade74282b711250bb1"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 180426,
+      "sha256": "9452410431c22af9316e58027321b35f716003717372e32c73f22b76def6891c"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-0.5.ktx2.input.png",
+      "bytes": 1058796,
+      "sha256": "75f1ae1f2a0972a232f3761a5c14c4ff81ccd57c2e812c0c589be91313f95c10"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-1.ktx2",
+      "bytes": 232183,
+      "sha256": "e023e52116f2ab48c500a870c31ca3d5326b960bd7f000e56b3772cdb8afd709"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-1.ktx2.decoded.png",
+      "bytes": 743815,
+      "sha256": "436a0de921b9543bc78a5c26db3c91c023d4e42e7fd2c3cd6d4833e54ac7d9e4"
+    },
+    {
+      "path": "generated/BoomBox/image-1-etc1s-1.ktx2.input.png",
+      "bytes": 4343759,
+      "sha256": "d6a3170ce33c48eca4ba38a2c912801350146e2369fc276ff3927cfb4ea1ecc8"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.25.ktx2",
+      "bytes": 211029,
+      "sha256": "d25fe72dcd298ed124b3c4c41165bc10cdfd8557b0813922a5391656d958770b"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.25.ktx2.decoded.png",
+      "bytes": 196288,
+      "sha256": "22d75db2f4dda1a950bd3adb9c0136f31cc252f11a2ce7115bae56f2a6ce53fe"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.25.ktx2.input.png",
+      "bytes": 255685,
+      "sha256": "5cbbd8deb2866939a59bf7a0bf910f548f27ad920f6daa4f61a14dd7ba9db547"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.5.ktx2",
+      "bytes": 808198,
+      "sha256": "38b9f54b7981276c72e3d10cc5e0ab0ec183c42892372a4c750d3bf307d86ce6"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.5.ktx2.decoded.png",
+      "bytes": 825661,
+      "sha256": "a6cf4847a9ddd749b6a73f728fac342b9bfb252c503442ef8b278c3f846abcaa"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-0.5.ktx2.input.png",
+      "bytes": 1058796,
+      "sha256": "75f1ae1f2a0972a232f3761a5c14c4ff81ccd57c2e812c0c589be91313f95c10"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-1.ktx2",
+      "bytes": 3144093,
+      "sha256": "cd4037940906a299cbd868cac89314ae53998e664491a1968b2d3374bcae178a"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-1.ktx2.decoded.png",
+      "bytes": 3629054,
+      "sha256": "8999fea4c366dd71240ee13e258f93d6c0bed2485b2daf584da87835ca09150f"
+    },
+    {
+      "path": "generated/BoomBox/image-1-uastc-1.ktx2.input.png",
+      "bytes": 4343759,
+      "sha256": "d6a3170ce33c48eca4ba38a2c912801350146e2369fc276ff3927cfb4ea1ecc8"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-0.25.webp",
+      "bytes": 18024,
+      "sha256": "0112f70697bfe2c662833595d3c8e1d77ebc5fca72e08b9d84e65e2ad8e613de"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-0.25.webp.input.png",
+      "bytes": 255685,
+      "sha256": "5cbbd8deb2866939a59bf7a0bf910f548f27ad920f6daa4f61a14dd7ba9db547"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-0.5.webp",
+      "bytes": 64874,
+      "sha256": "e563aebdd595033dedd0827054710fbdd793fc4531c41eedbe07ee1c15de4c6e"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-0.5.webp.input.png",
+      "bytes": 1058796,
+      "sha256": "75f1ae1f2a0972a232f3761a5c14c4ff81ccd57c2e812c0c589be91313f95c10"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-1.webp",
+      "bytes": 243588,
+      "sha256": "c97883a2e73a691b795d5f81a948b5b849da74d3e44bfd06fd67a05f8d18af94"
+    },
+    {
+      "path": "generated/BoomBox/image-1-webp-1.webp.input.png",
+      "bytes": 4343759,
+      "sha256": "d6a3170ce33c48eca4ba38a2c912801350146e2369fc276ff3927cfb4ea1ecc8"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.25.ktx2",
+      "bytes": 10462,
+      "sha256": "18f6d617c118b8304c7f80a2ad8ea1914b41072acad250fa6a27530abc85f747"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 27936,
+      "sha256": "c309759dba9d84b4c81e6d54b4efa85015dab6f33fc29501561ccdbac4eab668"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.25.ktx2.input.png",
+      "bytes": 130320,
+      "sha256": "0b3a6aa6a4aad43f6979879146ce4bc67d59c4a8beb1f6856867c4722bafafba"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.5.ktx2",
+      "bytes": 25664,
+      "sha256": "9bb0cf00e55db28d4d31bba095b45c709067d20e57cae2fb069f1a17666d03e9"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 81639,
+      "sha256": "1e00bfb7bf7a838310ad7e9cb1c6b3275bb66a3123933d89a3ff207724f2a322"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-0.5.ktx2.input.png",
+      "bytes": 527193,
+      "sha256": "162b015efec494b1fe43522b2fa379e89317ad32594a86fb0d5f0feddaceb784"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-1.ktx2",
+      "bytes": 65552,
+      "sha256": "001948a1ee606fdc631e82134813b39a9cf7c36da88ddd9dc69a5aeb0588945e"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-1.ktx2.decoded.png",
+      "bytes": 230461,
+      "sha256": "83ac821fd09468964ff35b0902818c609a2155e65b710f6cacb3a3a5f9fefdbc"
+    },
+    {
+      "path": "generated/BoomBox/image-2-etc1s-1.ktx2.input.png",
+      "bytes": 2227743,
+      "sha256": "f68fd02dac571b42d30b3e9d7e079335eb13a78796b94a0f859339456d2bcced"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.25.ktx2",
+      "bytes": 109386,
+      "sha256": "93bf9b2099b5c7772ecf7ca536d9b86acac57d047f187ef3b6acf57ec59b6a7e"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.25.ktx2.decoded.png",
+      "bytes": 125867,
+      "sha256": "e83d886638b8ddb3a11b4dc6b2c93fbeee06f60fe027449a144001ca65b18189"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.25.ktx2.input.png",
+      "bytes": 130320,
+      "sha256": "0b3a6aa6a4aad43f6979879146ce4bc67d59c4a8beb1f6856867c4722bafafba"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.5.ktx2",
+      "bytes": 374486,
+      "sha256": "8d3a3296f5acde6765028791ead10c28490d480d6659a9c4c0496f920dadc14f"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.5.ktx2.decoded.png",
+      "bytes": 530013,
+      "sha256": "dae53182e70003e7181b97333248a61be4b062a79bab3e29452ecfb04efc2eb4"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-0.5.ktx2.input.png",
+      "bytes": 527193,
+      "sha256": "162b015efec494b1fe43522b2fa379e89317ad32594a86fb0d5f0feddaceb784"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-1.ktx2",
+      "bytes": 1428989,
+      "sha256": "ce6050e0a0479027bc5949bef29b2c717d99225d7e30f61f17de00568deedd6a"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-1.ktx2.decoded.png",
+      "bytes": 2636363,
+      "sha256": "5878670ac53868b85b8ad318ac3c11be9373b764c673dee9d252f5d0a7981235"
+    },
+    {
+      "path": "generated/BoomBox/image-2-uastc-1.ktx2.input.png",
+      "bytes": 2227743,
+      "sha256": "f68fd02dac571b42d30b3e9d7e079335eb13a78796b94a0f859339456d2bcced"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-0.25.webp",
+      "bytes": 8512,
+      "sha256": "efd0245dcbfdf6626125015443cb51ae07f0eae8e38e3b60b176dfb125c21024"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-0.25.webp.input.png",
+      "bytes": 130320,
+      "sha256": "0b3a6aa6a4aad43f6979879146ce4bc67d59c4a8beb1f6856867c4722bafafba"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-0.5.webp",
+      "bytes": 24302,
+      "sha256": "a9abf2942838d9066ab5756b7cbeca80f2717fffa109ef04a448d425e47b6467"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-0.5.webp.input.png",
+      "bytes": 527193,
+      "sha256": "162b015efec494b1fe43522b2fa379e89317ad32594a86fb0d5f0feddaceb784"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-1.webp",
+      "bytes": 62148,
+      "sha256": "ec955d126526d6448859892d555031286c901edd67b177c189799ffd1d228a02"
+    },
+    {
+      "path": "generated/BoomBox/image-2-webp-1.webp.input.png",
+      "bytes": 2227743,
+      "sha256": "f68fd02dac571b42d30b3e9d7e079335eb13a78796b94a0f859339456d2bcced"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.25.ktx2",
+      "bytes": 2005,
+      "sha256": "f31e569bc085e51c6838763aadf1447c444260a891199142e061982ea5a3aa12"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 1264,
+      "sha256": "d08bb005ad3129ad402c502a58de8a41603649092e64c6d9c2d0665470649f52"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.25.ktx2.input.png",
+      "bytes": 12676,
+      "sha256": "2acf15195eb6e2327226e0edd21cacbaa3c1afc50ef2e27a5c0169718012182b"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.5.ktx2",
+      "bytes": 3899,
+      "sha256": "086c2b88efc6eff846aa916b3cb40f3c4334a394dadf09173875d56b33a6f276"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 3812,
+      "sha256": "2f600b445be52ff55152990a723f8a6ed02b76c70486c124d08b65633d3870e7"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-0.5.ktx2.input.png",
+      "bytes": 36950,
+      "sha256": "6ef7c75c409fbb4a5f0a4c200b0f0ce9d9d58bb8eb43e332273ac2e776da8093"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-1.ktx2",
+      "bytes": 13554,
+      "sha256": "dbb497a51f71a921533b0dbfcedd0a0a5be5c6e4ae6df1a8463d926f7bc50a61"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-1.ktx2.decoded.png",
+      "bytes": 19954,
+      "sha256": "f7aa506fed01636a4ee85a4df3bf5926b7870dcd72f8dc2b1f4902bf26adc96c"
+    },
+    {
+      "path": "generated/BoomBox/image-3-etc1s-1.ktx2.input.png",
+      "bytes": 133132,
+      "sha256": "c07143ba5e87e65abf6147fe3bd3b9d0e53f956f531a19e0d4df007ddc3580d6"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.25.ktx2",
+      "bytes": 7872,
+      "sha256": "faac2b674677f56dd159106a746d5f205d410053dc585a270cb2f029eaa204e9"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.25.ktx2.decoded.png",
+      "bytes": 8699,
+      "sha256": "541a060460953f71a182f91a571b3b19312a57aca42450b14e1623fc10ef57c3"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.25.ktx2.input.png",
+      "bytes": 12676,
+      "sha256": "2acf15195eb6e2327226e0edd21cacbaa3c1afc50ef2e27a5c0169718012182b"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.5.ktx2",
+      "bytes": 16872,
+      "sha256": "49f562f88ed75e9f73d9ad586a107b7051d3e93974b950e88ddd73b9b032dbba"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.5.ktx2.decoded.png",
+      "bytes": 21653,
+      "sha256": "4624adefb87aedca372c0432ae29365af6ee156f6d8787a5d88e48ed6dcec289"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-0.5.ktx2.input.png",
+      "bytes": 36950,
+      "sha256": "6ef7c75c409fbb4a5f0a4c200b0f0ce9d9d58bb8eb43e332273ac2e776da8093"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-1.ktx2",
+      "bytes": 55095,
+      "sha256": "d5e679316b0edd1c734ca5e490fc9ca62506ebfc8e2e507c623b8cde6bc1a87a"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-1.ktx2.decoded.png",
+      "bytes": 79609,
+      "sha256": "cf9f2ffd28ddaf2efd7f2afad64bc72b5363be11f27c70a3743b5c36f70552cb"
+    },
+    {
+      "path": "generated/BoomBox/image-3-uastc-1.ktx2.input.png",
+      "bytes": 133132,
+      "sha256": "c07143ba5e87e65abf6147fe3bd3b9d0e53f956f531a19e0d4df007ddc3580d6"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-0.25.webp",
+      "bytes": 1038,
+      "sha256": "e3086081a7a8665f4e005dd0a6ad486b0b69f2c21e2f431c377d4deb6e7ba1f1"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-0.25.webp.input.png",
+      "bytes": 12676,
+      "sha256": "2acf15195eb6e2327226e0edd21cacbaa3c1afc50ef2e27a5c0169718012182b"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-0.5.webp",
+      "bytes": 3124,
+      "sha256": "d53a572fdb9c9f961ffe590a6770f6ede376607e1a1176f873d7a6072b2e6501"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-0.5.webp.input.png",
+      "bytes": 36950,
+      "sha256": "6ef7c75c409fbb4a5f0a4c200b0f0ce9d9d58bb8eb43e332273ac2e776da8093"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-1.webp",
+      "bytes": 9846,
+      "sha256": "13f6dda7afdbab38a268bf4ecbb2e36e987f0fb417caf9381b731f732e7ff73e"
+    },
+    {
+      "path": "generated/BoomBox/image-3-webp-1.webp.input.png",
+      "bytes": 133132,
+      "sha256": "c07143ba5e87e65abf6147fe3bd3b9d0e53f956f531a19e0d4df007ddc3580d6"
+    },
+    {
+      "path": "generated/BoomBox/model.json",
+      "bytes": 52331,
+      "sha256": "d5d0e6336245d4004fba81480d221162653a0e0fce0016c12e348614c882f388"
+    },
+    {
+      "path": "generated/BoomBox/original.glb",
+      "bytes": 10614412,
+      "sha256": "47692f78125d86b214f24ae6f55ca64a8ff19827d71511ef078854b61a53cfbd"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.25.ktx2",
+      "bytes": 30362,
+      "sha256": "5257c50f7ec68f2060099ef3c4358c431f1890f1c3c1e36ced52193dac479ea8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 72138,
+      "sha256": "9c9ac28a481526e79b9f05c25abab39284edb032a988c65016394896e65ffcbf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.25.ktx2.input.png",
+      "bytes": 380934,
+      "sha256": "84bf18c54734ef72b0b14adb89ce8a0759b7844d44e381078193e8085f1689d9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.5.ktx2",
+      "bytes": 93454,
+      "sha256": "70696b22bafa190a83736b54a7db349685e9383dd15b77ee2dbb86ad3699d33a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 233411,
+      "sha256": "9ab60b01ba38eb49850a779cb56b2905eeeb35fbd1a53c301494a16f3a7e4a77"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-0.5.ktx2.input.png",
+      "bytes": 1417548,
+      "sha256": "5051a95068e0a22842c3cd77cb4d8e06f622f93a7a1d75c329b05314e05daa25"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-1.ktx2",
+      "bytes": 307916,
+      "sha256": "7d039acd01ce9ed85a87806879379dfa1f9bf17ee35f2a3740d4d599b1fa525b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-1.ktx2.decoded.png",
+      "bytes": 852124,
+      "sha256": "a9282f8c5a77fd40c8bafa3f17ed516a4f252693747196d76650f9cc94df7c13"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-etc1s-1.ktx2.input.png",
+      "bytes": 4829840,
+      "sha256": "4390088669d18f5b8db0587854b9a6e5f5031c6dc47b0a8c4b5d82237a6dad41"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.25.ktx2",
+      "bytes": 253790,
+      "sha256": "9763590823753579a4cf026d0e9fe9ca6ccb782eba055e8ce818ee55cf6c9076"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.25.ktx2.decoded.png",
+      "bytes": 262862,
+      "sha256": "0357cef846b80b6577d0b039a9120f503e09f84dace2fa17d25f836ca3deee07"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.25.ktx2.input.png",
+      "bytes": 380934,
+      "sha256": "84bf18c54734ef72b0b14adb89ce8a0759b7844d44e381078193e8085f1689d9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.5.ktx2",
+      "bytes": 951468,
+      "sha256": "c5ea779c49049b9f73924bd32892d106cf68918e9a7b66624cc4cad2a0b75a55"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.5.ktx2.decoded.png",
+      "bytes": 983340,
+      "sha256": "cd9eedd36079d47d2b9d689544ff240d3f36d49d4793306f96d5eeeacaabeb4e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-0.5.ktx2.input.png",
+      "bytes": 1417548,
+      "sha256": "5051a95068e0a22842c3cd77cb4d8e06f622f93a7a1d75c329b05314e05daa25"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-1.ktx2",
+      "bytes": 3369386,
+      "sha256": "68ff095fe4d349ed93c1394873c6b3de251c70974b2c46d8061f0da65013f4fc"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-1.ktx2.decoded.png",
+      "bytes": 3268146,
+      "sha256": "de1f96e67a184a22e72525e80cc1b1e7df61057c60f98953dbc297708c52dd97"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-uastc-1.ktx2.input.png",
+      "bytes": 4829840,
+      "sha256": "4390088669d18f5b8db0587854b9a6e5f5031c6dc47b0a8c4b5d82237a6dad41"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-0.25.webp",
+      "bytes": 22440,
+      "sha256": "c42d8f200152836b187e05222283c542e8568e503cf9c16777fd15b1e6fe7373"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-0.25.webp.input.png",
+      "bytes": 380934,
+      "sha256": "84bf18c54734ef72b0b14adb89ce8a0759b7844d44e381078193e8085f1689d9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-0.5.webp",
+      "bytes": 68880,
+      "sha256": "196224ad34d2deb741f3461df66bcc8fa0bc65b177435e326b33f0714372e7ee"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-0.5.webp.input.png",
+      "bytes": 1417548,
+      "sha256": "5051a95068e0a22842c3cd77cb4d8e06f622f93a7a1d75c329b05314e05daa25"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-1.webp",
+      "bytes": 273766,
+      "sha256": "e44a498cc6249782335be55ff9c4ede48e70fdc2c967fb6c77af18af0ca31e69"
+    },
+    {
+      "path": "generated/FlightHelmet/image-0-webp-1.webp.input.png",
+      "bytes": 4829840,
+      "sha256": "4390088669d18f5b8db0587854b9a6e5f5031c6dc47b0a8c4b5d82237a6dad41"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.25.ktx2",
+      "bytes": 40963,
+      "sha256": "b042a61c3ee3a830302ed89d56f351f0990e526b3debe16a4f3c577ea782a244"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 121840,
+      "sha256": "4fd931aabb45ebff27350cc8503c86d1f4df5f91db27554b45d27d1fa01cf9a9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.25.ktx2.input.png",
+      "bytes": 468530,
+      "sha256": "48434819f377afa6b741efdd9fe93e85d55385c87aaee076f2fcfab69f882726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.5.ktx2",
+      "bytes": 120357,
+      "sha256": "d519a869e394dbdebf0bd41ac8e3ca17de05d7417027002bded465e33eb34ad5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 356469,
+      "sha256": "4bb1c9dc49c51437749872c7c92dc0258a43cc4f93eedae0ae46f48125682a17"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-0.5.ktx2.input.png",
+      "bytes": 1631633,
+      "sha256": "a0c664281c97d1702f886538745f262f9f539cf0b84050bca2f53b31f76b1dae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-1.ktx2",
+      "bytes": 415860,
+      "sha256": "78bddb6cd63c8c2254eeec875d0f274751068b4232b808aa58a5bb7b8f570c6b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-1.ktx2.decoded.png",
+      "bytes": 1163973,
+      "sha256": "c3bd9978409d383bb8530069f7ab417c89fe723cfb0e34e2ba55fb705ccf8f34"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-etc1s-1.ktx2.input.png",
+      "bytes": 5184777,
+      "sha256": "8f809b2f531e15a00071d416405c46d6e5b289a2c976544a9ac91d0be9ec5205"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.25.ktx2",
+      "bytes": 280743,
+      "sha256": "9b61f8aac1ed621b42a842fc0602464fea5d0ec84fac14ae3d9cc53dd1c88381"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.25.ktx2.decoded.png",
+      "bytes": 298911,
+      "sha256": "51fd7d996b58a8ef8c8519d9757654944828dd3c82116d79a532e10b2029fca5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.25.ktx2.input.png",
+      "bytes": 468530,
+      "sha256": "48434819f377afa6b741efdd9fe93e85d55385c87aaee076f2fcfab69f882726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.5.ktx2",
+      "bytes": 1023599,
+      "sha256": "49f0e4682120d38ae5ed0a32e4a3feaac49a8096f9e07a20756f57d5d40580b4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1098916,
+      "sha256": "f91dfc4ae290d2532a40b76ae07497e5e440aa3c4d4285f378f62fec9cd4fdd7"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-0.5.ktx2.input.png",
+      "bytes": 1631633,
+      "sha256": "a0c664281c97d1702f886538745f262f9f539cf0b84050bca2f53b31f76b1dae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-1.ktx2",
+      "bytes": 3454630,
+      "sha256": "6576e47e735eee28634690c2fc4c60b17d9c7e811cee1d82e8af685e92691537"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-1.ktx2.decoded.png",
+      "bytes": 3956643,
+      "sha256": "793e139fedb5aaa3b119ee59555fc1b4d45a4f9422e4ca5c6f0a0b4adb5808aa"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-uastc-1.ktx2.input.png",
+      "bytes": 5184777,
+      "sha256": "8f809b2f531e15a00071d416405c46d6e5b289a2c976544a9ac91d0be9ec5205"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-0.25.webp",
+      "bytes": 36784,
+      "sha256": "8e4bebcb24eaf55562ffafbe760d48de5ffb19cb1f3fad9ee2b5c3dcaaf84d8e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-0.25.webp.input.png",
+      "bytes": 468530,
+      "sha256": "48434819f377afa6b741efdd9fe93e85d55385c87aaee076f2fcfab69f882726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-0.5.webp",
+      "bytes": 105796,
+      "sha256": "a1b51795a6e3e40bb9942a7d94d592a60764994ebe5460d02e2dfbbfbf47440a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-0.5.webp.input.png",
+      "bytes": 1631633,
+      "sha256": "a0c664281c97d1702f886538745f262f9f539cf0b84050bca2f53b31f76b1dae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-1.webp",
+      "bytes": 344328,
+      "sha256": "49a5704f62330facc286951549d8179fc36768c32be68fc15fbf62dc47c15634"
+    },
+    {
+      "path": "generated/FlightHelmet/image-1-webp-1.webp.input.png",
+      "bytes": 5184777,
+      "sha256": "8f809b2f531e15a00071d416405c46d6e5b289a2c976544a9ac91d0be9ec5205"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.25.ktx2",
+      "bytes": 45070,
+      "sha256": "ffc736fea5b6ca6edc4c9a53828181f96b81c7bc57800e6b9b112a9ee75be4b7"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 139765,
+      "sha256": "35d4705f8c9dcdd534e3ad35ba3c7ecfb4c625a75de1239d5a71b3f58c8c1b15"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.25.ktx2.input.png",
+      "bytes": 547577,
+      "sha256": "5561a4e754b791fe121840f25d24cdb74f379e3df5b911cb675a2c7858122b6c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.5.ktx2",
+      "bytes": 136882,
+      "sha256": "79ed49e6061075c38dcb048d8901b0b69b426a0470abb6d5e1f90ae7847d8aef"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 444888,
+      "sha256": "60325b3db556b4f207610ed125e77b799aac44d8ac9c304bf587676f4dc952ca"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-0.5.ktx2.input.png",
+      "bytes": 2045046,
+      "sha256": "9598361b6008227b5a44c974237173fa3ac9de84cc00bb447c561f07456070f1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-1.ktx2",
+      "bytes": 477403,
+      "sha256": "3263a312f6be95eaff3e3419322c4f3425cae045bba8710003011d1856555afa"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-1.ktx2.decoded.png",
+      "bytes": 1515461,
+      "sha256": "9bc2409167506293f81e06069d7f43732669b044a57154bc3ae7b8aa64a3088d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-etc1s-1.ktx2.input.png",
+      "bytes": 6929036,
+      "sha256": "6e45a7f10d4763ef18dfcad6b8e27cb738d5e7059c3ba85416d66a97696413fb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.25.ktx2",
+      "bytes": 296108,
+      "sha256": "5de8b77063909e966337b96c1e030e255d33e605fec836d7c56151b053e2e216"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.25.ktx2.decoded.png",
+      "bytes": 328224,
+      "sha256": "19fa585e3d737785ae66a48e2a23b1672bf1c192e26d00f5caf6be1f5dfa2726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.25.ktx2.input.png",
+      "bytes": 547577,
+      "sha256": "5561a4e754b791fe121840f25d24cdb74f379e3df5b911cb675a2c7858122b6c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.5.ktx2",
+      "bytes": 1130558,
+      "sha256": "7995271c67392d408a17971170a65752330de8c2392fdeafd108ae9441fddb74"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1251456,
+      "sha256": "4247fa3ccebb53614b13858239d3be49c3d92c784489f16cd5f02b1212bee451"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-0.5.ktx2.input.png",
+      "bytes": 2045046,
+      "sha256": "9598361b6008227b5a44c974237173fa3ac9de84cc00bb447c561f07456070f1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-1.ktx2",
+      "bytes": 4088184,
+      "sha256": "32e6f89715c565d1d47dc3f8c2327fe38566dcdba1b88945a851cf79a6ddda0c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-1.ktx2.decoded.png",
+      "bytes": 4646040,
+      "sha256": "72b9842f6c70a028789241f5cdbfbe9ec07605792b1144511dbfdf0652e08fed"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-uastc-1.ktx2.input.png",
+      "bytes": 6929036,
+      "sha256": "6e45a7f10d4763ef18dfcad6b8e27cb738d5e7059c3ba85416d66a97696413fb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-0.25.webp",
+      "bytes": 34654,
+      "sha256": "4fc16de1b349ba72693654c80f94c2941d5a23d95c21383cf0a87c3b931bedff"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-0.25.webp.input.png",
+      "bytes": 547577,
+      "sha256": "5561a4e754b791fe121840f25d24cdb74f379e3df5b911cb675a2c7858122b6c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-0.5.webp",
+      "bytes": 106814,
+      "sha256": "c5dabbbb1189213c050e68f4dc87798585374888dc71e1d90e877790f1682569"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-0.5.webp.input.png",
+      "bytes": 2045046,
+      "sha256": "9598361b6008227b5a44c974237173fa3ac9de84cc00bb447c561f07456070f1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-1.webp",
+      "bytes": 491546,
+      "sha256": "49f5e3bdca7c23f45b01a5ace74726326adccec53162b1eb72ba3741a7fc9dc0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-10-webp-1.webp.input.png",
+      "bytes": 6929036,
+      "sha256": "6e45a7f10d4763ef18dfcad6b8e27cb738d5e7059c3ba85416d66a97696413fb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.25.ktx2",
+      "bytes": 41634,
+      "sha256": "aa18d1c53393cd30c5307cf9fa1a4da5f75de2b2993e716f21b8820ac8c163bf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 125582,
+      "sha256": "2169aa88c7da9ba51efa94d1035bee973584438ff226353b4d48fa56f9bab8fc"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.25.ktx2.input.png",
+      "bytes": 380440,
+      "sha256": "1682ddcb730a4a436ba9bb5f93abcffe19cbecbe32bd634e5c8be624e4521dd8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.5.ktx2",
+      "bytes": 133607,
+      "sha256": "1a5b3dd1752a57a8d4e4ba5235fc1d547596a41aa3d8a8b0c2fae2ddd365a940"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 438812,
+      "sha256": "304bc0c4c880b9161e0d5d1da05f35b61225e49140184756943ac4f24e81fc5a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-0.5.ktx2.input.png",
+      "bytes": 1381632,
+      "sha256": "5b7d7fd3fcd8c7ef3786828e64e826776093e62b2f7a5c6cb78766a1779d8771"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-1.ktx2",
+      "bytes": 493238,
+      "sha256": "2f02dec4c8ed6aa1339881bd6da2b8830a85e8b9b653b30f50c61f11b30e0541"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-1.ktx2.decoded.png",
+      "bytes": 2115057,
+      "sha256": "b02887fa8e07b925c6b6f9232800d0ddd05d3a5c1e9650b701b27c889c29836b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-etc1s-1.ktx2.input.png",
+      "bytes": 5144026,
+      "sha256": "832e5ac9e9aa035f4312eb14c5d23fd286326e698d7983b4d78b7116cc39641f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.25.ktx2",
+      "bytes": 277009,
+      "sha256": "3d818de9d7f0f4534474a0e0baac157f87d74b92a279a843d84d7ab0495d9985"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.25.ktx2.decoded.png",
+      "bytes": 338790,
+      "sha256": "6f3c5841b1b68c8c0e28edc949be4ee0c1811b07d9a8c03b37fcef247f0df423"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.25.ktx2.input.png",
+      "bytes": 380440,
+      "sha256": "1682ddcb730a4a436ba9bb5f93abcffe19cbecbe32bd634e5c8be624e4521dd8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.5.ktx2",
+      "bytes": 1006766,
+      "sha256": "fb158c624e927f09652ab26efa49a3bbdd4770da2cd2f076d8f166ae3b54ea32"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1288029,
+      "sha256": "1a6634e7fbf9f92026e93a57e1b998fd4a8de5bb7a130db66eabaf7ade0a59db"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-0.5.ktx2.input.png",
+      "bytes": 1381632,
+      "sha256": "5b7d7fd3fcd8c7ef3786828e64e826776093e62b2f7a5c6cb78766a1779d8771"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-1.ktx2",
+      "bytes": 3417751,
+      "sha256": "c7fc49e52803041076b1c5b4cedfe3b314804e5302ed15063a98efc4847ce12f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-1.ktx2.decoded.png",
+      "bytes": 5311883,
+      "sha256": "933de7f6986fb3d481e7087207be6cf8d19a37000563b03eade7b3e3a6f1ede2"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-uastc-1.ktx2.input.png",
+      "bytes": 5144026,
+      "sha256": "832e5ac9e9aa035f4312eb14c5d23fd286326e698d7983b4d78b7116cc39641f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-0.25.webp",
+      "bytes": 18524,
+      "sha256": "157eea9ce3e92f11f6a077aee359b778e9c04790bfe7b84fc59ce88fa4f6b163"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-0.25.webp.input.png",
+      "bytes": 380440,
+      "sha256": "1682ddcb730a4a436ba9bb5f93abcffe19cbecbe32bd634e5c8be624e4521dd8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-0.5.webp",
+      "bytes": 65858,
+      "sha256": "4dc7294f19425489e9594ed0db75dbeeb59ce6819950830284fa6ddc2bae876d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-0.5.webp.input.png",
+      "bytes": 1381632,
+      "sha256": "5b7d7fd3fcd8c7ef3786828e64e826776093e62b2f7a5c6cb78766a1779d8771"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-1.webp",
+      "bytes": 399676,
+      "sha256": "4f5d5a40bfc231841e350cdde1819a87bdcf119746d00a3b772c09f9164c0727"
+    },
+    {
+      "path": "generated/FlightHelmet/image-11-webp-1.webp.input.png",
+      "bytes": 5144026,
+      "sha256": "832e5ac9e9aa035f4312eb14c5d23fd286326e698d7983b4d78b7116cc39641f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.25.ktx2",
+      "bytes": 903,
+      "sha256": "412bb4134509837a268304ccbc5422e019c62e96d6f5e740996040aa84fb88fd"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 147,
+      "sha256": "7ec518cc7cb1dffee2d7bf384d37b596e2918d339eb95ac4faea758d08a6675c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.25.ktx2.input.png",
+      "bytes": 1872,
+      "sha256": "b8b1c3178beacd7a1bfdb763c558db47e44b559be910c66acc99c7cf5611af99"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.5.ktx2",
+      "bytes": 1078,
+      "sha256": "9f4ba4c708c5ed7e456b52d9e76a3a722402e0fb22f2916f9cb7206e81ed3b51"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 170,
+      "sha256": "adceccb03b00d17bd97be37f6ca38e8ec17510a9912c36c072d54311974c34ec"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-0.5.ktx2.input.png",
+      "bytes": 6479,
+      "sha256": "3f1dea800035723f10115b45eb4415df0b1cc2f6306b463ec95ff4b61bdc2c1e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-1.ktx2",
+      "bytes": 1475,
+      "sha256": "0167f266e9f6b91b6281d3f350fa0ac7adb63d542b97fb505d8fdf1c4e8f98b6"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-1.ktx2.decoded.png",
+      "bytes": 501,
+      "sha256": "099f5d69247cd06fa4f0bbd5d7f582d4b050b502aee885b8b14742de8d4f74a3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-etc1s-1.ktx2.input.png",
+      "bytes": 23180,
+      "sha256": "6c759f90424c5ac238f3ae627d38c2b525dad4e1169d636932c0a0b3e88f9123"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.25.ktx2",
+      "bytes": 886,
+      "sha256": "5726fa984a19a97bf744bf5365ca8414487083d83b61f3b4bd1723741331d1fc"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.25.ktx2.decoded.png",
+      "bytes": 246,
+      "sha256": "1cfc124c8a8d71ea308959b4dd4e6db64a814528410b1b3d3c772d953c287c3c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.25.ktx2.input.png",
+      "bytes": 1872,
+      "sha256": "b8b1c3178beacd7a1bfdb763c558db47e44b559be910c66acc99c7cf5611af99"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.5.ktx2",
+      "bytes": 1327,
+      "sha256": "6bfa96fa2fc4c72fbb4ae02b86f5ca71ebb8ee30a90531e7e8ece4f20e73afc4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.5.ktx2.decoded.png",
+      "bytes": 705,
+      "sha256": "07231cc3ecfd4be280d5a2719f14a8563d7667e248be7f3cca88ef98bc41ff70"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-0.5.ktx2.input.png",
+      "bytes": 6479,
+      "sha256": "3f1dea800035723f10115b45eb4415df0b1cc2f6306b463ec95ff4b61bdc2c1e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-1.ktx2",
+      "bytes": 1700,
+      "sha256": "433bafe5d2880c0357fb72de97f3a3fd3093f2522066e31824c5d718f63b42a8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-1.ktx2.decoded.png",
+      "bytes": 1027,
+      "sha256": "23dce6c03f6e13c33bc9c77da5c5ed8e0d8f50e4edcdee2bcc4eb3729a32a035"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-uastc-1.ktx2.input.png",
+      "bytes": 23180,
+      "sha256": "6c759f90424c5ac238f3ae627d38c2b525dad4e1169d636932c0a0b3e88f9123"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-0.25.webp",
+      "bytes": 200,
+      "sha256": "f3427c6481ab294136f726f485c8a1b4c8b47be411ef4e1ea43ceb148d9eb0a3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-0.25.webp.input.png",
+      "bytes": 1872,
+      "sha256": "b8b1c3178beacd7a1bfdb763c558db47e44b559be910c66acc99c7cf5611af99"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-0.5.webp",
+      "bytes": 550,
+      "sha256": "07ac6117df5c8bbf07a1cc84ea85c3ac22495cf8a73fce27e08bdeccb6f2aa20"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-0.5.webp.input.png",
+      "bytes": 6479,
+      "sha256": "3f1dea800035723f10115b45eb4415df0b1cc2f6306b463ec95ff4b61bdc2c1e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-1.webp",
+      "bytes": 1958,
+      "sha256": "6c63e7d81dd56c03a4801c3b0946e01e3f656cfcb45b1cb2c618632e96edbb69"
+    },
+    {
+      "path": "generated/FlightHelmet/image-12-webp-1.webp.input.png",
+      "bytes": 23180,
+      "sha256": "6c759f90424c5ac238f3ae627d38c2b525dad4e1169d636932c0a0b3e88f9123"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.25.ktx2",
+      "bytes": 11354,
+      "sha256": "e135fa696876ab3d69e907f1789c03d71a2fb5cfe96bc4eb58cccd43d3dce831"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 28204,
+      "sha256": "f4b3ae984ba711162b9de86cafd49f98855c14ec17f02431be5b028a38d96fb4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.25.ktx2.input.png",
+      "bytes": 91768,
+      "sha256": "906d82fdcb97276c6142cf7d9aff4120db500fddf320fbf4cf2577591bee7d0d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.5.ktx2",
+      "bytes": 33811,
+      "sha256": "e9d6b989146d0963a7c7ad3511eb71e434cce43f92a84f0ead0909d3518dbc1e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 86865,
+      "sha256": "f096c5cd27d7460d4b0ac21f8dc29b7b5a69cd9d371c0d6212b2b8c4e41455e7"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-0.5.ktx2.input.png",
+      "bytes": 290579,
+      "sha256": "e1a4804e22a2c133e388f41634a30d8b6edd064756e505b7f01673dcbe2fce07"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-1.ktx2",
+      "bytes": 93193,
+      "sha256": "1032d8f1d5ea08992db3b8630cfb4724cc46125908a6658108e9d39f37361599"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-1.ktx2.decoded.png",
+      "bytes": 254428,
+      "sha256": "3cb2e414f3b4ba77fbfb8d879b9b095a563a4a518cbab1e4e9f0949241b51a38"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-etc1s-1.ktx2.input.png",
+      "bytes": 815424,
+      "sha256": "40cabdc854805e706935b9651a29395c969dc6223cf89669b337af69e51df5a3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.25.ktx2",
+      "bytes": 65266,
+      "sha256": "5a342724d3fcd7a6c963534b0f0804daa4087b3ad2baf4e40ced72f4318bdcbe"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.25.ktx2.decoded.png",
+      "bytes": 60210,
+      "sha256": "004bc2ad89f1b98ba6694b5de2bcd2951dc8fa4dbf85a74521d21452db732c21"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.25.ktx2.input.png",
+      "bytes": 91768,
+      "sha256": "906d82fdcb97276c6142cf7d9aff4120db500fddf320fbf4cf2577591bee7d0d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.5.ktx2",
+      "bytes": 217211,
+      "sha256": "c4ec2b2fe66b44a4108d789788a27f92505c097509a88df63f4b19db63ebf52c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.5.ktx2.decoded.png",
+      "bytes": 204100,
+      "sha256": "eec5b6a4d15b86b2bb035d5e28254ee10a6a13caf60d7979e1925d7f25f21ed0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-0.5.ktx2.input.png",
+      "bytes": 290579,
+      "sha256": "e1a4804e22a2c133e388f41634a30d8b6edd064756e505b7f01673dcbe2fce07"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-1.ktx2",
+      "bytes": 684987,
+      "sha256": "4421f6e00c6ca50830df4143352e3e942eb9dd5974d6da3d1671e983a65b3a4f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-1.ktx2.decoded.png",
+      "bytes": 638536,
+      "sha256": "63111f43d02e27041b171fdc4bc8a7c8c51fce41f4d6367776400fea2ef31226"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-uastc-1.ktx2.input.png",
+      "bytes": 815424,
+      "sha256": "40cabdc854805e706935b9651a29395c969dc6223cf89669b337af69e51df5a3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-0.25.webp",
+      "bytes": 6586,
+      "sha256": "cbfbfdd6aef9451ca34c32acb2e1b11a03154cd7596ec5c95110b503ffacf5cf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-0.25.webp.input.png",
+      "bytes": 91768,
+      "sha256": "906d82fdcb97276c6142cf7d9aff4120db500fddf320fbf4cf2577591bee7d0d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-0.5.webp",
+      "bytes": 18498,
+      "sha256": "ac71b48c2283049e2134cd949124eb56ea0ba5a3ad89a1e7af528986b80ae962"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-0.5.webp.input.png",
+      "bytes": 290579,
+      "sha256": "e1a4804e22a2c133e388f41634a30d8b6edd064756e505b7f01673dcbe2fce07"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-1.webp",
+      "bytes": 56042,
+      "sha256": "21552e3c4264bed5c773f1b55c21d11eb22410a9b7bca9cb2387208dd15f5054"
+    },
+    {
+      "path": "generated/FlightHelmet/image-13-webp-1.webp.input.png",
+      "bytes": 815424,
+      "sha256": "40cabdc854805e706935b9651a29395c969dc6223cf89669b337af69e51df5a3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.25.ktx2",
+      "bytes": 24242,
+      "sha256": "0a009b29c3a69283bc57feedb9c353f32c726ad9b1de2dbd786d136600cd18ae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 63428,
+      "sha256": "539ee74ab418a25fc728e437ce2a221590674f1eea35859017f3a262cdedf9b5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.25.ktx2.input.png",
+      "bytes": 98603,
+      "sha256": "8523a770b32967c5dfb8be689cdc23c5501c1130608605f7f9de56def364654f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.5.ktx2",
+      "bytes": 73387,
+      "sha256": "65056c436b0660db5d894532a08ffd4197bbe75a3945cc95b6d112710ce45a1a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 201121,
+      "sha256": "4b215e8c771c1d8de11978b75c2ee519d8604da4444d545a774c4115c566bff1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-0.5.ktx2.input.png",
+      "bytes": 282402,
+      "sha256": "fd9e379b37ccf6a204ea73fb413638fbf024b73d621a19adc1013fe9d6ab487b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-1.ktx2",
+      "bytes": 206417,
+      "sha256": "19fb78fecfebb1eb7238d1db3a7daecd9b3b68697fd2afcf6142e36b2d05942c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-1.ktx2.decoded.png",
+      "bytes": 502236,
+      "sha256": "bbfbfa31247622334ad979973c4c49e6e85877a8b71c14b1afb59799d43126f3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-etc1s-1.ktx2.input.png",
+      "bytes": 552809,
+      "sha256": "b0a32b1b5991ecab70451efefe83164881c7c4a2a048246064c83ce7e9fcbb6f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.25.ktx2",
+      "bytes": 65425,
+      "sha256": "98f8c774e91f7abe5c5e8ef860983b81e4ae8ede56e7fdf9b60e1b55a1956111"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.25.ktx2.decoded.png",
+      "bytes": 110961,
+      "sha256": "cbbbd96b699046e16cd97c790ac7f6ac12e41d97c64875a331721916e8e55066"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.25.ktx2.input.png",
+      "bytes": 98603,
+      "sha256": "8523a770b32967c5dfb8be689cdc23c5501c1130608605f7f9de56def364654f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.5.ktx2",
+      "bytes": 203325,
+      "sha256": "8049d130864f5085f64c3bce2bc33bd9a8f89d29a63ecad567af868147b3e283"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.5.ktx2.decoded.png",
+      "bytes": 376239,
+      "sha256": "928606278cefa2992a54f503ef3503c3f2384956ca5843877e1b820f7aaae654"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-0.5.ktx2.input.png",
+      "bytes": 282402,
+      "sha256": "fd9e379b37ccf6a204ea73fb413638fbf024b73d621a19adc1013fe9d6ab487b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-1.ktx2",
+      "bytes": 495219,
+      "sha256": "0511f69afc962e0c116f292344a51d540f8c3c1fa61018ae00a1ff537b6310a4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-1.ktx2.decoded.png",
+      "bytes": 873346,
+      "sha256": "f60b887b7990a57c9ac102b8809c6b9dabdb34817e9146301cc38d77231ca74c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-uastc-1.ktx2.input.png",
+      "bytes": 552809,
+      "sha256": "b0a32b1b5991ecab70451efefe83164881c7c4a2a048246064c83ce7e9fcbb6f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-0.25.webp",
+      "bytes": 37018,
+      "sha256": "89c4f77eafc8a931b4b9863fe82c3ae585d9e4b1bd07cb4d4d15a3cf3dfee56d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-0.25.webp.input.png",
+      "bytes": 98603,
+      "sha256": "8523a770b32967c5dfb8be689cdc23c5501c1130608605f7f9de56def364654f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-0.5.webp",
+      "bytes": 111692,
+      "sha256": "5a2b78f183772644ceab2c6a34d0c966dcb42a5cbed427c625812b7090fceb07"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-0.5.webp.input.png",
+      "bytes": 282402,
+      "sha256": "fd9e379b37ccf6a204ea73fb413638fbf024b73d621a19adc1013fe9d6ab487b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-1.webp",
+      "bytes": 292462,
+      "sha256": "76e2e91e1bed29053a63cc469f90fdbed3faff309d1157da9f3d26d37bd66c45"
+    },
+    {
+      "path": "generated/FlightHelmet/image-14-webp-1.webp.input.png",
+      "bytes": 552809,
+      "sha256": "b0a32b1b5991ecab70451efefe83164881c7c4a2a048246064c83ce7e9fcbb6f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.25.ktx2",
+      "bytes": 42702,
+      "sha256": "d44ad3cf0572ab05e44faccbfbf25b4c716bda662d8093efa6c82a7bf9bab96e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 104350,
+      "sha256": "03d9d30f52d34a12fc815ff42da688ade59fa51497b368737b1936941b698a71"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.25.ktx2.input.png",
+      "bytes": 364391,
+      "sha256": "70c95ffc0647a41eb851c30683bf419ff9f77a73afd126a871a132223e72e2d5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.5.ktx2",
+      "bytes": 130607,
+      "sha256": "b5f86931bd018744deacede577f6901d8f2b01dbce96d4afcf76a3167f5d4350"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 342259,
+      "sha256": "7cbf58c6f0e35ef37eb6cc53c6cde6fc73f544a66694a4b35f03553fea5b6d44"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-0.5.ktx2.input.png",
+      "bytes": 1255423,
+      "sha256": "e27feea4fb910dc724bd6d6d128e3c8d3e1b7f2d7287779f5ad5aa0fa35cb097"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-1.ktx2",
+      "bytes": 442838,
+      "sha256": "16554a96a46c679b5e0a2dfcd5d12801c7ab04b0dca595dbc0c2e5b388503907"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-1.ktx2.decoded.png",
+      "bytes": 1274306,
+      "sha256": "04036142bbc2ae8b0f00fde45631b309241efd3c7036162460a50f670f9c3cd4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-etc1s-1.ktx2.input.png",
+      "bytes": 4168722,
+      "sha256": "e92344d92f7db38f87527d08df4e996867db543d290867e61f4be8868872afbb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.25.ktx2",
+      "bytes": 265892,
+      "sha256": "343935d9a7e877feb751b4b8ab2a6326a9c407d145c1e15206d74cc6211f95c2"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.25.ktx2.decoded.png",
+      "bytes": 275699,
+      "sha256": "5eea8fdc38748ad4de71d306c5c263c83c546366b1b463595b46eb08a2c63e00"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.25.ktx2.input.png",
+      "bytes": 364391,
+      "sha256": "70c95ffc0647a41eb851c30683bf419ff9f77a73afd126a871a132223e72e2d5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.5.ktx2",
+      "bytes": 920622,
+      "sha256": "3aac7ed9168b04aad5ce3debed85f7896a1d1ffdec78d3f4acc116f001cb6532"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1018119,
+      "sha256": "ba279d621a69c3877d921717d825f6dd6940c55e9ace23fd368b1df4470778b7"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-0.5.ktx2.input.png",
+      "bytes": 1255423,
+      "sha256": "e27feea4fb910dc724bd6d6d128e3c8d3e1b7f2d7287779f5ad5aa0fa35cb097"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-1.ktx2",
+      "bytes": 2955435,
+      "sha256": "7c9fa4b71ea40a5c07bd03eb6e4cb91a22282a513d673c93bb6d8d0715372210"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-1.ktx2.decoded.png",
+      "bytes": 3731400,
+      "sha256": "34cb412723083cbd3669e52fd6b0c3d63b753f4c65c172a743aaf41d17bad78a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-uastc-1.ktx2.input.png",
+      "bytes": 4168722,
+      "sha256": "e92344d92f7db38f87527d08df4e996867db543d290867e61f4be8868872afbb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-0.25.webp",
+      "bytes": 17472,
+      "sha256": "1f0293576aa5530d1ac549ec27af8f997d505a1477e18b841ca91e8eb6f72f88"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-0.25.webp.input.png",
+      "bytes": 364391,
+      "sha256": "70c95ffc0647a41eb851c30683bf419ff9f77a73afd126a871a132223e72e2d5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-0.5.webp",
+      "bytes": 57474,
+      "sha256": "35ba4066a2a31e93d647c2d350d67528e085117605637a43e60acc88606de366"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-0.5.webp.input.png",
+      "bytes": 1255423,
+      "sha256": "e27feea4fb910dc724bd6d6d128e3c8d3e1b7f2d7287779f5ad5aa0fa35cb097"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-1.webp",
+      "bytes": 225486,
+      "sha256": "91ea89a479a4664be4527f7548af3c292159d9fe9740f73b279170fee499d732"
+    },
+    {
+      "path": "generated/FlightHelmet/image-2-webp-1.webp.input.png",
+      "bytes": 4168722,
+      "sha256": "e92344d92f7db38f87527d08df4e996867db543d290867e61f4be8868872afbb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.25.ktx2",
+      "bytes": 24479,
+      "sha256": "28787635f75ae455fb8a3b2566ded5444890232969115e6ef0818aa71f74158a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 60140,
+      "sha256": "f2596fa0c90853199c7d6000b8035d8772bd9ebc521883a4d57229b61564d2f6"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.25.ktx2.input.png",
+      "bytes": 322082,
+      "sha256": "7d543455fa67a2c10ec8ea983598c4f47048f5fe570bc5e3e3fc4664feaa9726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.5.ktx2",
+      "bytes": 77074,
+      "sha256": "5ba6c8a00bc2d60cd5923ac9ffd642b337c4127c33f7cfa2a10180caa42a0f8e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 207711,
+      "sha256": "a49c991fc774ddef2a7f3c7ddcfaaf9f8d5769bd2878efb49e5b5b98d9000c5b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-0.5.ktx2.input.png",
+      "bytes": 1117803,
+      "sha256": "c9eb4bf2f7e5e4ff0f3f2df188a5e3ba2585fe49a315494b4d44406865b020ff"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-1.ktx2",
+      "bytes": 266733,
+      "sha256": "b4666bbba4dd829923b6dd78c31354e3077bf44638b4f3e7fb7f1700854097a1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-1.ktx2.decoded.png",
+      "bytes": 702515,
+      "sha256": "defa422728521b94603409a66b44131e3d3983ae5bc3468deceb1d45d276b3f5"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-etc1s-1.ktx2.input.png",
+      "bytes": 3268012,
+      "sha256": "8b707b762b0b14627aa2db8a4ab58f0d5191472c7ddbaef3a00f7e829ca0ae4f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.25.ktx2",
+      "bytes": 245345,
+      "sha256": "beb73a1858f6b63bddfc07bbc058e2d826bba5cb86e97d40b43146f097345317"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.25.ktx2.decoded.png",
+      "bytes": 276946,
+      "sha256": "68b3e6f8a4f1d3e249f94e5931ef8bc6423eab70e25a4b91c7457ce573d9f08d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.25.ktx2.input.png",
+      "bytes": 322082,
+      "sha256": "7d543455fa67a2c10ec8ea983598c4f47048f5fe570bc5e3e3fc4664feaa9726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.5.ktx2",
+      "bytes": 863614,
+      "sha256": "a7263e0ac1b80d2cebc6f28a49a00bd780512429ff15bafb13651b1ac463e234"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1022242,
+      "sha256": "be6b43217146c223f9dc25a10cfe230887b2c6cdcc16547d37cd6d20d82f43df"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-0.5.ktx2.input.png",
+      "bytes": 1117803,
+      "sha256": "c9eb4bf2f7e5e4ff0f3f2df188a5e3ba2585fe49a315494b4d44406865b020ff"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-1.ktx2",
+      "bytes": 2667416,
+      "sha256": "15ca78532388e97f25737296b0949a27a9a4fbd74d6a8de5163bc5b743d0df8e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-1.ktx2.decoded.png",
+      "bytes": 2960419,
+      "sha256": "439f0ae756d8e48236fec241d88be78f3dafab580dfebe5b081ed5df195960fb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-uastc-1.ktx2.input.png",
+      "bytes": 3268012,
+      "sha256": "8b707b762b0b14627aa2db8a4ab58f0d5191472c7ddbaef3a00f7e829ca0ae4f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-0.25.webp",
+      "bytes": 14864,
+      "sha256": "dc75164de333ba0a3b25959e95e3667b7cabcc2c2cc492aad280f21b6d3bac0d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-0.25.webp.input.png",
+      "bytes": 322082,
+      "sha256": "7d543455fa67a2c10ec8ea983598c4f47048f5fe570bc5e3e3fc4664feaa9726"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-0.5.webp",
+      "bytes": 52528,
+      "sha256": "6dc214816eb7e51f69348bdcfd692387c42fba9d87ad132414b6e2668fc04c3d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-0.5.webp.input.png",
+      "bytes": 1117803,
+      "sha256": "c9eb4bf2f7e5e4ff0f3f2df188a5e3ba2585fe49a315494b4d44406865b020ff"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-1.webp",
+      "bytes": 179910,
+      "sha256": "485bc6b5d2f3274713595ec50a9c4c3c1ecb80f506b23a260a62d34703950774"
+    },
+    {
+      "path": "generated/FlightHelmet/image-3-webp-1.webp.input.png",
+      "bytes": 3268012,
+      "sha256": "8b707b762b0b14627aa2db8a4ab58f0d5191472c7ddbaef3a00f7e829ca0ae4f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.25.ktx2",
+      "bytes": 40611,
+      "sha256": "9180f53527f4166e38c332f2387e313bf1308f399c9c95d54f027992ce94c9dc"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 115723,
+      "sha256": "eeb8af1c1c11a7ae861d23b1a7d8e7e0ffc5037d804c09b5915ea8b655e2b0c3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.25.ktx2.input.png",
+      "bytes": 506135,
+      "sha256": "824f4e997539e62d45e5a14455a1925db0f84803c47700ba92867a3c3fc5c448"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.5.ktx2",
+      "bytes": 118450,
+      "sha256": "4ee3fcbe8c670b9c44bf05bb3ad771e1b8208c3a970ae526ca22799911c397d0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 341910,
+      "sha256": "c637de242c549bbd741054a91e9b29e8fa65641f04103bc4358d8a98bae54602"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-0.5.ktx2.input.png",
+      "bytes": 1786599,
+      "sha256": "dd51441cd21d381f947082a66eda127afd2d640aff74448f8b4809f5646bc048"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-1.ktx2",
+      "bytes": 369668,
+      "sha256": "965f26b1b8b6b9096ffd300b1666378fc9cfc9535b91a45df114b0c1b6756a9d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-1.ktx2.decoded.png",
+      "bytes": 958329,
+      "sha256": "cb62eab25c9a8d0d63b7cf17da902668a70b85ffd813ced7e49945b8932f171c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-etc1s-1.ktx2.input.png",
+      "bytes": 5637512,
+      "sha256": "67d65c3d6ef2662e7422292c3cec0d87788350d6ef7cc7c30f083e1c83990370"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.25.ktx2",
+      "bytes": 287249,
+      "sha256": "65bbf1ee69454dac81482ce2b37dc5b2920aeef3c34694b0deb5444938590447"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.25.ktx2.decoded.png",
+      "bytes": 296730,
+      "sha256": "3923e0d13d74fde0ea7d76e55a3ca33a1849299ee44a5373789a824d7e066d3b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.25.ktx2.input.png",
+      "bytes": 506135,
+      "sha256": "824f4e997539e62d45e5a14455a1925db0f84803c47700ba92867a3c3fc5c448"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.5.ktx2",
+      "bytes": 1067429,
+      "sha256": "7bf582103f0fc62e5f67afa365d673294e6cf401215e70a86c24e8b85711793e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1085877,
+      "sha256": "870bd08dd337b4e902bc701cafac1c4f2da14bed1d63b8135424e45ab838b850"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-0.5.ktx2.input.png",
+      "bytes": 1786599,
+      "sha256": "dd51441cd21d381f947082a66eda127afd2d640aff74448f8b4809f5646bc048"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-1.ktx2",
+      "bytes": 3754436,
+      "sha256": "d532d3d882547507c5af606ee4292b407cc66c10e85f4810e80fa978d3036a88"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-1.ktx2.decoded.png",
+      "bytes": 3992713,
+      "sha256": "35780c4d94d888721150f4a500561c7a11b73a2b012f5beaa0795bb99dd64fdb"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-uastc-1.ktx2.input.png",
+      "bytes": 5637512,
+      "sha256": "67d65c3d6ef2662e7422292c3cec0d87788350d6ef7cc7c30f083e1c83990370"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-0.25.webp",
+      "bytes": 28356,
+      "sha256": "1659394e657d8603ba7b3dc9c52b184573134a0b02c3131154dd44a0c155c1da"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-0.25.webp.input.png",
+      "bytes": 506135,
+      "sha256": "824f4e997539e62d45e5a14455a1925db0f84803c47700ba92867a3c3fc5c448"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-0.5.webp",
+      "bytes": 81462,
+      "sha256": "8c1c47b165439bd8b948da86859a5a6d5c86172043ae1e6350ed81e958659226"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-0.5.webp.input.png",
+      "bytes": 1786599,
+      "sha256": "dd51441cd21d381f947082a66eda127afd2d640aff74448f8b4809f5646bc048"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-1.webp",
+      "bytes": 259908,
+      "sha256": "f356de652665778db2de296a7be9491b5de269fc0008f4b414db084065da966c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-4-webp-1.webp.input.png",
+      "bytes": 5637512,
+      "sha256": "67d65c3d6ef2662e7422292c3cec0d87788350d6ef7cc7c30f083e1c83990370"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.25.ktx2",
+      "bytes": 36043,
+      "sha256": "5583fa224d05fee3a3ee84fa94b1b7220a513772f56e9898d3dbd75c7c1f726f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 93728,
+      "sha256": "4c2e50064e1cfab95fdca3c0e6934c942972d0f327d16976874d313da1e17341"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.25.ktx2.input.png",
+      "bytes": 262932,
+      "sha256": "b9bde2a8f787258a259d8645c70a169d2a3b03bdae84c3a000f76eeb0b6b7846"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.5.ktx2",
+      "bytes": 98981,
+      "sha256": "cac03a338891e92941eb249e75cf31cb5f9cf785cb2fad99801032aea361b7db"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 288689,
+      "sha256": "a2679b9824e1ae29b369acdfa8f0211edab71a3e0b9c6da8b64662eec2a405c3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-0.5.ktx2.input.png",
+      "bytes": 833892,
+      "sha256": "bf438c5f7d53463ed5665cca9f16a19cea39e71d85f000044979723cff29d598"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-1.ktx2",
+      "bytes": 310887,
+      "sha256": "f225fb67c2a56193ab92fc8661378020b4439b3279e1c6ef7a51b8b149c47077"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-1.ktx2.decoded.png",
+      "bytes": 862307,
+      "sha256": "953ba5ee290d396a3f974a5faaacb08acc632e7b875cb86e905a269d2b21f59a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-etc1s-1.ktx2.input.png",
+      "bytes": 2272860,
+      "sha256": "33c5277f04602edbc3376ef3a68a88dd943e1b242119f6a5e3df1cbb846ad942"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.25.ktx2",
+      "bytes": 218127,
+      "sha256": "f3c1afcdcb47a2d191c162ce9205213d218e3a48a0f9bc19fdca9982c4197f61"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.25.ktx2.decoded.png",
+      "bytes": 247445,
+      "sha256": "5cae7acdd93d579368ed81a478b2478a2ebb8e9c161a3ca5577497da0ffe7581"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.25.ktx2.input.png",
+      "bytes": 262932,
+      "sha256": "b9bde2a8f787258a259d8645c70a169d2a3b03bdae84c3a000f76eeb0b6b7846"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.5.ktx2",
+      "bytes": 714248,
+      "sha256": "f48b19896e9d311739cf16bd3c680c240c78d1a47825aeb205521609020ec030"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.5.ktx2.decoded.png",
+      "bytes": 857126,
+      "sha256": "37feb3dfcb515e2d1f5b76029132b5360f9022318887a2bb8f42b7569d47ef68"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-0.5.ktx2.input.png",
+      "bytes": 833892,
+      "sha256": "bf438c5f7d53463ed5665cca9f16a19cea39e71d85f000044979723cff29d598"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-1.ktx2",
+      "bytes": 2083942,
+      "sha256": "8562d6898ac1e8dd726b21c68fa9dba0c5f4901a6b232ace5818ce22daeb0daf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-1.ktx2.decoded.png",
+      "bytes": 2629259,
+      "sha256": "e72d07e0042d6d57255cf740f61e2ba84b23e19295eed04b64dfa807593d85ad"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-uastc-1.ktx2.input.png",
+      "bytes": 2272860,
+      "sha256": "33c5277f04602edbc3376ef3a68a88dd943e1b242119f6a5e3df1cbb846ad942"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-0.25.webp",
+      "bytes": 14958,
+      "sha256": "0906ff67fec3d7a2c4a31444617ffabffe6baf9b38a713e881e7e6fe40abedf0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-0.25.webp.input.png",
+      "bytes": 262932,
+      "sha256": "b9bde2a8f787258a259d8645c70a169d2a3b03bdae84c3a000f76eeb0b6b7846"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-0.5.webp",
+      "bytes": 41434,
+      "sha256": "33f401dafaee06b9c97c0f1e356367ad441d74f508bf9a5de0e0dde251bb7218"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-0.5.webp.input.png",
+      "bytes": 833892,
+      "sha256": "bf438c5f7d53463ed5665cca9f16a19cea39e71d85f000044979723cff29d598"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-1.webp",
+      "bytes": 129508,
+      "sha256": "165cce5e10347de27f6d82efdc8775012b45b705e5a771a8020a8c7c10448622"
+    },
+    {
+      "path": "generated/FlightHelmet/image-5-webp-1.webp.input.png",
+      "bytes": 2272860,
+      "sha256": "33c5277f04602edbc3376ef3a68a88dd943e1b242119f6a5e3df1cbb846ad942"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.25.ktx2",
+      "bytes": 34225,
+      "sha256": "a9b8091d13ff82ef66a8efc14f6363f6799e399766551a6230b8b3d402ea5ff6"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 85655,
+      "sha256": "e9e5e663c2e929e3d07211fddafc5320ac4762f77a07a606d76c5890464cb70b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.25.ktx2.input.png",
+      "bytes": 446631,
+      "sha256": "36a2e8b4ef1ec414620d317130dec4a39d419de2a531dd4ae8c9c60315fc9aa9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.5.ktx2",
+      "bytes": 97942,
+      "sha256": "b51141b09d9133ff53f0ab0a1d0cf61c483c8cc286b916bfd8f7eb3ee00a003f"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 262123,
+      "sha256": "c22b5815ad62040cb64dcfd70ee07c23853ba24b21b7f016c2a167ccd99b3846"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-0.5.ktx2.input.png",
+      "bytes": 1571305,
+      "sha256": "a6737e793762a70f0fe146c253f92f87b74e77310d271c03d51abbf4cb013a5d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-1.ktx2",
+      "bytes": 314160,
+      "sha256": "190b87ce6829a9315af603ddf576423cab39760327e8cf2ed8fa0151fa4c9f8a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-1.ktx2.decoded.png",
+      "bytes": 780507,
+      "sha256": "099db86e82c07106cb94a36f7c1da81a3e8bcd5efad61e412b22c607b28be4e9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-etc1s-1.ktx2.input.png",
+      "bytes": 5042166,
+      "sha256": "fbae1b21032a242f70caacb7144d9e9814386fa1cb0e4791033cbb87bae387b0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.25.ktx2",
+      "bytes": 282492,
+      "sha256": "79c18a2c80a7613008f4f088c34d5bf63410754588440d47af7b63064efca09d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.25.ktx2.decoded.png",
+      "bytes": 306359,
+      "sha256": "71d062a4e56e46fcea31bbaa25cfb7da94d3d5e9225036d6981e9803ffccbb2a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.25.ktx2.input.png",
+      "bytes": 446631,
+      "sha256": "36a2e8b4ef1ec414620d317130dec4a39d419de2a531dd4ae8c9c60315fc9aa9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.5.ktx2",
+      "bytes": 1020849,
+      "sha256": "66358a54965b86608043d845d0010a242214b004cd51a70a08d4ebcfa02e437e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1060877,
+      "sha256": "4e96d2adaeed0597bab58796c40ce113e0cbe3ccb81360deea599190fe7a4c06"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-0.5.ktx2.input.png",
+      "bytes": 1571305,
+      "sha256": "a6737e793762a70f0fe146c253f92f87b74e77310d271c03d51abbf4cb013a5d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-1.ktx2",
+      "bytes": 3466213,
+      "sha256": "7a1270112310725ad9be02ef13497499227bc9e8ff47b61c27f438c1a2f3ccd1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-1.ktx2.decoded.png",
+      "bytes": 3338434,
+      "sha256": "4ee45f089e21c8e80e32ac6c54e02e46cd01da4a9c53f56f616a76e4a43a8301"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-uastc-1.ktx2.input.png",
+      "bytes": 5042166,
+      "sha256": "fbae1b21032a242f70caacb7144d9e9814386fa1cb0e4791033cbb87bae387b0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-0.25.webp",
+      "bytes": 23572,
+      "sha256": "1edbd222f268eeae5fbb696a47ff1919494d5f93669dde13edd17601e1806a52"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-0.25.webp.input.png",
+      "bytes": 446631,
+      "sha256": "36a2e8b4ef1ec414620d317130dec4a39d419de2a531dd4ae8c9c60315fc9aa9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-0.5.webp",
+      "bytes": 67152,
+      "sha256": "3e91b6d3b28fad620fc3ba9340b6a0f521dc5bb42139c067053dc9f0f4400883"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-0.5.webp.input.png",
+      "bytes": 1571305,
+      "sha256": "a6737e793762a70f0fe146c253f92f87b74e77310d271c03d51abbf4cb013a5d"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-1.webp",
+      "bytes": 176696,
+      "sha256": "b27930cef1b713b5a71cda47b700f9fcaead190cfbf6cbc5b69b661aaaaae162"
+    },
+    {
+      "path": "generated/FlightHelmet/image-6-webp-1.webp.input.png",
+      "bytes": 5042166,
+      "sha256": "fbae1b21032a242f70caacb7144d9e9814386fa1cb0e4791033cbb87bae387b0"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.25.ktx2",
+      "bytes": 44606,
+      "sha256": "89dc40d6423f6283ce95a9ac12eaa5e357f44bec7be9880973f2d6902ebab75c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 129898,
+      "sha256": "211a95fcd3e52e0466f708b1b56bf4e84cdb6bacced6a79edbba814e2221941c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.25.ktx2.input.png",
+      "bytes": 475219,
+      "sha256": "695a29e8b635f71c24288e0528bbe455a058d4677d7b8377c90ee2c9469d35d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.5.ktx2",
+      "bytes": 124894,
+      "sha256": "6f0fc23f26f3bc7a904e54c4b4056c746e38912e7b1607e910f6c00581832a0a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 388995,
+      "sha256": "a1ed508693735074617682bdb19a52474c163ef42b833733c0a6625db1b5af82"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-0.5.ktx2.input.png",
+      "bytes": 1506787,
+      "sha256": "e509d4acfedd68dbbed685f6a79e1c9e9fba86ba96640b6c28eb8f5e3c1e0986"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-1.ktx2",
+      "bytes": 392811,
+      "sha256": "e5ef5709d39bcee299245a1342fa1ab915b8c367e822e8d46b601a8c2a559567"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-1.ktx2.decoded.png",
+      "bytes": 1155124,
+      "sha256": "e3bfa770ba5faea162618f637875c88487b4c030663670e7b85ce40b98231626"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-etc1s-1.ktx2.input.png",
+      "bytes": 3653142,
+      "sha256": "645d2b23af8afa3195ec59fc36e79fd7873c8d98e755422bc16bd5b78b12dabf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.25.ktx2",
+      "bytes": 284682,
+      "sha256": "6eff1b22dbe135ca30ce3880a8bdc66b4a2d6525b426c1d4de886787c8f36575"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.25.ktx2.decoded.png",
+      "bytes": 323432,
+      "sha256": "fda0212e481c6776d9eb02481369d490ebabf0f4db5867ef4d8e973ecbf815cd"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.25.ktx2.input.png",
+      "bytes": 475219,
+      "sha256": "695a29e8b635f71c24288e0528bbe455a058d4677d7b8377c90ee2c9469d35d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.5.ktx2",
+      "bytes": 1010048,
+      "sha256": "cd2f901d157a06966ad4b8f58f055247fdbc59e2b019a190649291b3b166ffce"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1113361,
+      "sha256": "7c2a38c9393182435f82338d0d5aae65345a9e6b9cc4654dd80d043a68ca9725"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-0.5.ktx2.input.png",
+      "bytes": 1506787,
+      "sha256": "e509d4acfedd68dbbed685f6a79e1c9e9fba86ba96640b6c28eb8f5e3c1e0986"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-1.ktx2",
+      "bytes": 3023174,
+      "sha256": "631664e800110bf2fa262515baba0858772b846df28c80e6c7c4dfbf3a320e22"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-1.ktx2.decoded.png",
+      "bytes": 3325651,
+      "sha256": "eb2cfe521e194cb0e1d8bfe55e2cdc6ac32ad08ef8b48ae45dc044a607f1d818"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-uastc-1.ktx2.input.png",
+      "bytes": 3653142,
+      "sha256": "645d2b23af8afa3195ec59fc36e79fd7873c8d98e755422bc16bd5b78b12dabf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-0.25.webp",
+      "bytes": 37050,
+      "sha256": "603299254899743110bfe41d0b36529d6e1de77ca2ce21c738286f1b3cf705e7"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-0.25.webp.input.png",
+      "bytes": 475219,
+      "sha256": "695a29e8b635f71c24288e0528bbe455a058d4677d7b8377c90ee2c9469d35d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-0.5.webp",
+      "bytes": 105952,
+      "sha256": "d383ca649689d6f7b3b2857b8818b43bd0d00a702f89e596ee777d759e773867"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-0.5.webp.input.png",
+      "bytes": 1506787,
+      "sha256": "e509d4acfedd68dbbed685f6a79e1c9e9fba86ba96640b6c28eb8f5e3c1e0986"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-1.webp",
+      "bytes": 338196,
+      "sha256": "4aaaf26f438a09d5c40b48add98b6a3778e76d0838eadc60db91e48efab59486"
+    },
+    {
+      "path": "generated/FlightHelmet/image-7-webp-1.webp.input.png",
+      "bytes": 3653142,
+      "sha256": "645d2b23af8afa3195ec59fc36e79fd7873c8d98e755422bc16bd5b78b12dabf"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.25.ktx2",
+      "bytes": 49315,
+      "sha256": "cbde7a958bd0b446aedadc6106440ae59e85e82643497497b9969cc744475104"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 150109,
+      "sha256": "66bc44bee0d741dc6be8d2450a18651ddd57749fca579e8c7059a4b6d0b2bfe4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.25.ktx2.input.png",
+      "bytes": 361293,
+      "sha256": "0f792cc92bb85ad6d294df02db668433b8011bf51bda5264c662009e27d88c74"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.5.ktx2",
+      "bytes": 147540,
+      "sha256": "7a78eb77f2c1514b8041aed336122bd253d56df8ff772deffc2e214912b95d9b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 472984,
+      "sha256": "b1f5591e5af9fbf7003eb95e118b4b2e4c014bc1b97cfca02a425ec1b7d6431e"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-0.5.ktx2.input.png",
+      "bytes": 1116785,
+      "sha256": "a564b95f31a223e74531893c22e93ee251fb5a3bfea616105bdcf482b97548b2"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-1.ktx2",
+      "bytes": 473474,
+      "sha256": "2e87a8fc5813dab1475a82b4953c5d623412b847568b1460ef90551ce662c699"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-1.ktx2.decoded.png",
+      "bytes": 1456480,
+      "sha256": "001d1c266dcedcff02ec2ac69cfb976ae411fc3162a501e12c85bfe32b5304ae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-etc1s-1.ktx2.input.png",
+      "bytes": 2479072,
+      "sha256": "dcc6b4e127e25560a012e770190fbb66446f2818d68f47266884a485559a7a70"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.25.ktx2",
+      "bytes": 268312,
+      "sha256": "e6782ccb5d56dec984a3b4b5007017e4bfd94c175c41991696d46da5d4ddbce9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.25.ktx2.decoded.png",
+      "bytes": 321300,
+      "sha256": "01efe0b3eb836604f0046bf6e2366f4a7633a2e0cfa98ee422ec92acb07defa1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.25.ktx2.input.png",
+      "bytes": 361293,
+      "sha256": "0f792cc92bb85ad6d294df02db668433b8011bf51bda5264c662009e27d88c74"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.5.ktx2",
+      "bytes": 888977,
+      "sha256": "6a2245e78aac8af7d0bb619cba7263ba47c8af25d51bc87abe128d913a925fb3"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1085853,
+      "sha256": "e25b977b627fd7fa951c834e95d29437d33aa7c5378663b84afaf2a4da8959e8"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-0.5.ktx2.input.png",
+      "bytes": 1116785,
+      "sha256": "a564b95f31a223e74531893c22e93ee251fb5a3bfea616105bdcf482b97548b2"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-1.ktx2",
+      "bytes": 2379537,
+      "sha256": "dfd63eb79f77b1322f85e2d72a442483c57110cd20d3943987bac3dc1889a7d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-1.ktx2.decoded.png",
+      "bytes": 3042075,
+      "sha256": "125d8801406755183af5c96ba22a6020d2f3d0aa469d23a606a059fe80316180"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-uastc-1.ktx2.input.png",
+      "bytes": 2479072,
+      "sha256": "dcc6b4e127e25560a012e770190fbb66446f2818d68f47266884a485559a7a70"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-0.25.webp",
+      "bytes": 31588,
+      "sha256": "af533f6f4bbcc32bb62c87aa7ade148a13a86ef914feb38c4dd506739486ecee"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-0.25.webp.input.png",
+      "bytes": 361293,
+      "sha256": "0f792cc92bb85ad6d294df02db668433b8011bf51bda5264c662009e27d88c74"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-0.5.webp",
+      "bytes": 91530,
+      "sha256": "20f4a53c71dfb52467f6a2006fdf6f62896b7a642e489a1332667800c5911902"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-0.5.webp.input.png",
+      "bytes": 1116785,
+      "sha256": "a564b95f31a223e74531893c22e93ee251fb5a3bfea616105bdcf482b97548b2"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-1.webp",
+      "bytes": 299622,
+      "sha256": "58a4b3b0e27748518468a825f7ef58a654d77c9063cb59af99ca474e5d47d6e4"
+    },
+    {
+      "path": "generated/FlightHelmet/image-8-webp-1.webp.input.png",
+      "bytes": 2479072,
+      "sha256": "dcc6b4e127e25560a012e770190fbb66446f2818d68f47266884a485559a7a70"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.25.ktx2",
+      "bytes": 27583,
+      "sha256": "7681dc13f4008f152b5bf0909335b3a4fc2d91328c3829dadd718d0cef69938a"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 85128,
+      "sha256": "616b972b576a0e16d55165d25d49258f308af994c4b79736e3cf7e4e65f2da8b"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.25.ktx2.input.png",
+      "bytes": 436564,
+      "sha256": "5cc731fb21a012090c40845101a11ec0b0887c534987cfa6953bae6233f4e796"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.5.ktx2",
+      "bytes": 100989,
+      "sha256": "2bf37355d035adb9b18d3454a5ffc95654e548f06d7257d842a2700c49505006"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 390997,
+      "sha256": "2bc546eb094164fff58832cb5603209ba8b431b14cd18fe6709a3bdbc2690e64"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-0.5.ktx2.input.png",
+      "bytes": 1847179,
+      "sha256": "16212c89fa661c03e25d808b79e97852ebdbe8d27478f046ce00a5d277c416ec"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-1.ktx2",
+      "bytes": 424244,
+      "sha256": "8a2429a446ac2a1b289c1d68338e5fca5c2ce5c7669dce9907ca9143d5ad54e6"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-1.ktx2.decoded.png",
+      "bytes": 1557794,
+      "sha256": "4bb6f3c83ad46317513977f5d6a743391daafc72f93dde0f109d1b86d19cc748"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-etc1s-1.ktx2.input.png",
+      "bytes": 7088298,
+      "sha256": "ff9fd11193ecf04227f5f915f8cb290efbb92c352892293624ecc505033920d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.25.ktx2",
+      "bytes": 266968,
+      "sha256": "ffb283df4d483bc7eee427e417e75a653ddf64cf80f7beca420ec7ded9b26918"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.25.ktx2.decoded.png",
+      "bytes": 373582,
+      "sha256": "5e9a8ee33a92b43c5680967b78782aee84c69a39fea67da0f49ad9826ba6df86"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.25.ktx2.input.png",
+      "bytes": 436564,
+      "sha256": "5cc731fb21a012090c40845101a11ec0b0887c534987cfa6953bae6233f4e796"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.5.ktx2",
+      "bytes": 1027001,
+      "sha256": "94c65c405bf58a5a93ff9aa4ca0172a5d9badd424589bab4740afc7ac10f7013"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.5.ktx2.decoded.png",
+      "bytes": 1566449,
+      "sha256": "7c773aa532abf644e36a62d502d9d258e1895ce848a274b8fd576bdb6de7546c"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-0.5.ktx2.input.png",
+      "bytes": 1847179,
+      "sha256": "16212c89fa661c03e25d808b79e97852ebdbe8d27478f046ce00a5d277c416ec"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-1.ktx2",
+      "bytes": 3780486,
+      "sha256": "26794e374aae3acc36ff128213abf309a5c3b578216bbc649e74c96b9f1d46bd"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-1.ktx2.decoded.png",
+      "bytes": 5558619,
+      "sha256": "e328cc97ffa35cbfd940c73c24d36c9e91343ce404d9e9acf49c07515806d178"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-uastc-1.ktx2.input.png",
+      "bytes": 7088298,
+      "sha256": "ff9fd11193ecf04227f5f915f8cb290efbb92c352892293624ecc505033920d1"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-0.25.webp",
+      "bytes": 27682,
+      "sha256": "5c35b2c1e7592d6cf03bcfc44011f34910e58b9ec93ebe4117d70ecc947bec56"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-0.25.webp.input.png",
+      "bytes": 436564,
+      "sha256": "5cc731fb21a012090c40845101a11ec0b0887c534987cfa6953bae6233f4e796"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-0.5.webp",
+      "bytes": 146484,
+      "sha256": "72955592339818afaeba08f0050db6d334d7d3ed291c6d4e9268ee553feed2e9"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-0.5.webp.input.png",
+      "bytes": 1847179,
+      "sha256": "16212c89fa661c03e25d808b79e97852ebdbe8d27478f046ce00a5d277c416ec"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-1.webp",
+      "bytes": 629238,
+      "sha256": "df81ef59cb5acd56ea4beda51b13d2336e3a379d57bbaee1304b2c1877f854ae"
+    },
+    {
+      "path": "generated/FlightHelmet/image-9-webp-1.webp.input.png",
+      "bytes": 7088298,
+      "sha256": "ff9fd11193ecf04227f5f915f8cb290efbb92c352892293624ecc505033920d1"
+    },
+    {
+      "path": "generated/FlightHelmet/model.json",
+      "bytes": 209539,
+      "sha256": "69af69de00451d8b9528f28b82ca1abd92839899fb7ab424cd84e6bdf4f02f8f"
+    },
+    {
+      "path": "generated/FlightHelmet/original.glb",
+      "bytes": 48383360,
+      "sha256": "7d275b4bef091ca7cef1bb8ed274ac7b6e8a7f2b5a6c164f3e78ef3bbaa21af7"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.25.ktx2",
+      "bytes": 4699,
+      "sha256": "a09a545880b0ef65ef178a9b02500407364fa2ad116d73c53778140bf451b5f2"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 4417,
+      "sha256": "406a50ac5b0ef8f9edf30ecd821eb3279a0498d30c9906f124a2c67454dd4fc4"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.25.ktx2.input.png",
+      "bytes": 19054,
+      "sha256": "ff556e24bba19d991008257a833b9513840f81d511707116e0ca2f373a3eceb9"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.5.ktx2",
+      "bytes": 11195,
+      "sha256": "cbc576aba2d88f1375b53dc63fb01c7f05fb139313844c6217c8633d18c8ad0b"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 25783,
+      "sha256": "44bc14ae1bef428eea883be793a0efc631e693c239875ddb1a495460e1bfcf37"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-0.5.ktx2.input.png",
+      "bytes": 53792,
+      "sha256": "310cbe13780fd736b16ac8569b2cc5fd644f591ae8e9f78a8b22051515c603df"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-1.ktx2",
+      "bytes": 34182,
+      "sha256": "788fd573c47ee2764eb4e958de2d45f95c9e6b7d4f3f8ea37bcddb5df082cb7f"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-1.ktx2.decoded.png",
+      "bytes": 67278,
+      "sha256": "103d36a86dd7e1e0e4ccf755efbae73d01e4f47ad29d2bed34c82314ec465d1f"
+    },
+    {
+      "path": "generated/ToyCar/image-0-etc1s-1.ktx2.input.png",
+      "bytes": 156863,
+      "sha256": "6e5ec461d66f5a0cce15a31cef09adf7580bcaa92f93f5927cb4d5c39be9afeb"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.25.ktx2",
+      "bytes": 19142,
+      "sha256": "9c8c337e8b52a897e282978df931e0635adbc9f5a0fc98495783a3055b195be8"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.25.ktx2.decoded.png",
+      "bytes": 18627,
+      "sha256": "c77636bb8cef538048cc6fd364369b6513979a8ceb357fe92d34d587be6b7e3d"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.25.ktx2.input.png",
+      "bytes": 19054,
+      "sha256": "ff556e24bba19d991008257a833b9513840f81d511707116e0ca2f373a3eceb9"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.5.ktx2",
+      "bytes": 45234,
+      "sha256": "d8707fa31608de49274d0ceab5b4ea71b44fd47af9dafc98c5a1c248f14b0d74"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.5.ktx2.decoded.png",
+      "bytes": 47967,
+      "sha256": "cc18c888960998d5581077599e47070d0b8aea0ccfbe0c81a41e9a442cba9f50"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-0.5.ktx2.input.png",
+      "bytes": 53792,
+      "sha256": "310cbe13780fd736b16ac8569b2cc5fd644f591ae8e9f78a8b22051515c603df"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-1.ktx2",
+      "bytes": 98455,
+      "sha256": "6cae0f6bdc3071c69d3cd1f38c6468b7f4c07ab21ac3236992633743c4b6d032"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-1.ktx2.decoded.png",
+      "bytes": 110526,
+      "sha256": "71df719c60683f28894c401b55eaab170298856007f953e60332254ebe603c70"
+    },
+    {
+      "path": "generated/ToyCar/image-0-uastc-1.ktx2.input.png",
+      "bytes": 156863,
+      "sha256": "6e5ec461d66f5a0cce15a31cef09adf7580bcaa92f93f5927cb4d5c39be9afeb"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-0.25.webp",
+      "bytes": 1694,
+      "sha256": "74a890d47f707489a51aa7b55b15f0ccd5f090f6015e43459a0b2526607214a0"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-0.25.webp.input.png",
+      "bytes": 19054,
+      "sha256": "ff556e24bba19d991008257a833b9513840f81d511707116e0ca2f373a3eceb9"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-0.5.webp",
+      "bytes": 19742,
+      "sha256": "8b2d5bbc774f8bc57b695d54cdf581a13be2cd07614aad68d76734a934e00cd7"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-0.5.webp.input.png",
+      "bytes": 53792,
+      "sha256": "310cbe13780fd736b16ac8569b2cc5fd644f591ae8e9f78a8b22051515c603df"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-1.webp",
+      "bytes": 65020,
+      "sha256": "dfa75d73852cba0020c4a02d829e4c553b6666aaadc4700bc479a39295bd7bcf"
+    },
+    {
+      "path": "generated/ToyCar/image-0-webp-1.webp.input.png",
+      "bytes": 156863,
+      "sha256": "6e5ec461d66f5a0cce15a31cef09adf7580bcaa92f93f5927cb4d5c39be9afeb"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.25.ktx2",
+      "bytes": 2875,
+      "sha256": "a03c70b6ea07672e49f07157088e9ef05ef686eac54af9cfac8b2b2c8a534227"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 2420,
+      "sha256": "00268a759bc68272930aac06bef6ebe377f280f5db253d8be88cb635cb9a071a"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.25.ktx2.input.png",
+      "bytes": 8136,
+      "sha256": "08fb41843c9a742e94819011cffb5a679b3b213c263b008a06fb2295cddd6e00"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.5.ktx2",
+      "bytes": 7929,
+      "sha256": "661d05d05f16b5a94762f9c8503442da5fbe2082968a8e19b187cd7452a5bce7"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 10680,
+      "sha256": "39c349936e98592bebdc3d50643fd066ad9cb083ecc79ba9e0d8720557008462"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-0.5.ktx2.input.png",
+      "bytes": 33425,
+      "sha256": "c08fd2d35205dcda66ee4cceaddd7ed0ff916a9d18352ff65272a287043e66fb"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-1.ktx2",
+      "bytes": 23064,
+      "sha256": "d2ef5b7b7c3b5ddd7deebe1c22a001eb98eb1c94383fcf882a7a23927377d330"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-1.ktx2.decoded.png",
+      "bytes": 31501,
+      "sha256": "c6ffdb14e5a35a3c23823c9b1a90419fd5cbb038efc5d1bef324b85d08201c8c"
+    },
+    {
+      "path": "generated/ToyCar/image-1-etc1s-1.ktx2.input.png",
+      "bytes": 119370,
+      "sha256": "ad9ff57c96b31ac690875ed8ffee92668179dc346f6bbcfa6051299a4008e124"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.25.ktx2",
+      "bytes": 7777,
+      "sha256": "3c07856a03df02595d12b3e527053ef8d1af8cba21c384d6dc548827fe983187"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.25.ktx2.decoded.png",
+      "bytes": 6635,
+      "sha256": "cd29817ef6d1b91255827dae340fdc0001ba6df9aeb023097c41e93883e70ad7"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.25.ktx2.input.png",
+      "bytes": 8136,
+      "sha256": "08fb41843c9a742e94819011cffb5a679b3b213c263b008a06fb2295cddd6e00"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.5.ktx2",
+      "bytes": 21110,
+      "sha256": "735ef968e1b9ae072dc23184e3807ae954b7c30624dcfe93a7325b4840a4a26e"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.5.ktx2.decoded.png",
+      "bytes": 29572,
+      "sha256": "93449a76ac073a5a8acd86dd879f592633b612e0fe37e866b568755221b48961"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-0.5.ktx2.input.png",
+      "bytes": 33425,
+      "sha256": "c08fd2d35205dcda66ee4cceaddd7ed0ff916a9d18352ff65272a287043e66fb"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-1.ktx2",
+      "bytes": 67893,
+      "sha256": "89d8edbd71e11d2603253d686f8b6c2579a7d5e64ebf2b1f62d5ac745af3df1f"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-1.ktx2.decoded.png",
+      "bytes": 95777,
+      "sha256": "ba641c784bde89c782d96193a751c2380ff1283d89be56c4d62aa0b7520537c2"
+    },
+    {
+      "path": "generated/ToyCar/image-1-uastc-1.ktx2.input.png",
+      "bytes": 119370,
+      "sha256": "ad9ff57c96b31ac690875ed8ffee92668179dc346f6bbcfa6051299a4008e124"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-0.25.webp",
+      "bytes": 492,
+      "sha256": "75355fc55b432df1af5237d0ed2f614ac11789d12c0223c9185398ed3e0fa346"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-0.25.webp.input.png",
+      "bytes": 8136,
+      "sha256": "08fb41843c9a742e94819011cffb5a679b3b213c263b008a06fb2295cddd6e00"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-0.5.webp",
+      "bytes": 3230,
+      "sha256": "0eaeb38e3b2d2c7c7847a41cc9a9c76106aa8ba4e6adbeb6e40772ee51422a72"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-0.5.webp.input.png",
+      "bytes": 33425,
+      "sha256": "c08fd2d35205dcda66ee4cceaddd7ed0ff916a9d18352ff65272a287043e66fb"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-1.webp",
+      "bytes": 15250,
+      "sha256": "9242fdc7dcfa13507f16217c1f0edbdffbc30b7ec1d963dfc4aa1a4f99415521"
+    },
+    {
+      "path": "generated/ToyCar/image-1-webp-1.webp.input.png",
+      "bytes": 119370,
+      "sha256": "ad9ff57c96b31ac690875ed8ffee92668179dc346f6bbcfa6051299a4008e124"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.25.ktx2",
+      "bytes": 8230,
+      "sha256": "935bf214a6dd22a152cdbb6a416549c86ae15f485c9985a74aef9594268fcc38"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 14541,
+      "sha256": "bf1da3a18c2d84baa518953d6f61b929272d460180457e8cf3354da77cc78678"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.25.ktx2.input.png",
+      "bytes": 33416,
+      "sha256": "6a539eeab3f5c71764b3c66cd9cbd67ee8aa21568f5a8edc07d2af05114d596d"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.5.ktx2",
+      "bytes": 19393,
+      "sha256": "8170657c0508ebd7dc5a854b98fa951b872dc799c5ae016b7e593e38df0ed5b0"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 36207,
+      "sha256": "5708628da9dc5a8073a97ff480e0970bf34421c58f6023dc838f37e92b04abec"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-0.5.ktx2.input.png",
+      "bytes": 105029,
+      "sha256": "ca4743f8deea7041ac405855b9169302b6372cb24c2ff1a6ab6e4389a39a3b77"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-1.ktx2",
+      "bytes": 42994,
+      "sha256": "ba84ef6b58c0adfc1f45762f5078d81284a87d2777c5b11718931ab1546fa01b"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-1.ktx2.decoded.png",
+      "bytes": 100167,
+      "sha256": "9bd82f9cb69eb9629eb7b5ce91a462e9204cdd53dc58f048b2415842baf331e6"
+    },
+    {
+      "path": "generated/ToyCar/image-2-etc1s-1.ktx2.input.png",
+      "bytes": 268261,
+      "sha256": "df059726641f57dbce1901ed591f8508dcb21992413b17c1bf0bdc443c0522f9"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.25.ktx2",
+      "bytes": 25534,
+      "sha256": "189fc748e79dc8090d91b3d5ee61bdad7d4cbf8536cc6c13b3b03f3d0412c02e"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.25.ktx2.decoded.png",
+      "bytes": 26978,
+      "sha256": "501a5dce9b197e02cbc4154993202650957b0d8e820640716341fc70db075240"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.25.ktx2.input.png",
+      "bytes": 33416,
+      "sha256": "6a539eeab3f5c71764b3c66cd9cbd67ee8aa21568f5a8edc07d2af05114d596d"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.5.ktx2",
+      "bytes": 71625,
+      "sha256": "10ba7bb00823e50bd6a1f86cf9370e37358de6f8a2806f404230b448334d0dbb"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.5.ktx2.decoded.png",
+      "bytes": 78175,
+      "sha256": "18203f68010cff1956b378e1e1c923a59f7c4646b5d785860608a072dd0f75d1"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-0.5.ktx2.input.png",
+      "bytes": 105029,
+      "sha256": "ca4743f8deea7041ac405855b9169302b6372cb24c2ff1a6ab6e4389a39a3b77"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-1.ktx2",
+      "bytes": 196181,
+      "sha256": "90ce9f93c6e6c2ec495afa0400f8c84ebde629ea2354f8d7b0e37ff8e1713df9"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-1.ktx2.decoded.png",
+      "bytes": 223151,
+      "sha256": "770ef8901e68dc7011d760c1f12518258d1b99a807e9059565860c32ac29f44f"
+    },
+    {
+      "path": "generated/ToyCar/image-2-uastc-1.ktx2.input.png",
+      "bytes": 268261,
+      "sha256": "df059726641f57dbce1901ed591f8508dcb21992413b17c1bf0bdc443c0522f9"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-0.25.webp",
+      "bytes": 4800,
+      "sha256": "906ef2ae3412a8053545804c086ff992d72b1558944fe2b35e0b9b0a48961140"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-0.25.webp.input.png",
+      "bytes": 33416,
+      "sha256": "6a539eeab3f5c71764b3c66cd9cbd67ee8aa21568f5a8edc07d2af05114d596d"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-0.5.webp",
+      "bytes": 11372,
+      "sha256": "7e46cbf2d11dc39297cf94559a54494d984e1736b59ee232c4d24ab0e5394110"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-0.5.webp.input.png",
+      "bytes": 105029,
+      "sha256": "ca4743f8deea7041ac405855b9169302b6372cb24c2ff1a6ab6e4389a39a3b77"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-1.webp",
+      "bytes": 23828,
+      "sha256": "5696cad4d150206f38c65291439f66f5b7ab35facaeba83c2033212f09209dfa"
+    },
+    {
+      "path": "generated/ToyCar/image-2-webp-1.webp.input.png",
+      "bytes": 268261,
+      "sha256": "df059726641f57dbce1901ed591f8508dcb21992413b17c1bf0bdc443c0522f9"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.25.ktx2",
+      "bytes": 11446,
+      "sha256": "89e5f22b4620d3c6b0195d16903067d934f461997285824c3de8b216f095b9f0"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 28347,
+      "sha256": "fa499391bfbf351f2f08cc7e35570d3149f79f80aff53426315e35149c838285"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.25.ktx2.input.png",
+      "bytes": 66795,
+      "sha256": "a9a00ef175bfb1cca8516d9049b7c48db71f8fe8fada1c9725f97282a3948a6b"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.5.ktx2",
+      "bytes": 31302,
+      "sha256": "d3e20ecc3254cc29abec38df808a6931007705a38167d5da673d7d536a12828c"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 77603,
+      "sha256": "be7f426988913bd274c08c7cf023988355b0140ba1c886167c8c8ce178786d35"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-0.5.ktx2.input.png",
+      "bytes": 212739,
+      "sha256": "22c0a238278c1dac90877755decad65f28425f2febdf12370a71810864a75136"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-1.ktx2",
+      "bytes": 74195,
+      "sha256": "e012f56a03b7763b3a58807a6f12ba6966cd20ea9f97f6191dc30c236b6bb7b5"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-1.ktx2.decoded.png",
+      "bytes": 204798,
+      "sha256": "c909a3615921298fd3249061aafb0b25192d27e92cbc39159c1c2c907f07e84e"
+    },
+    {
+      "path": "generated/ToyCar/image-3-etc1s-1.ktx2.input.png",
+      "bytes": 624867,
+      "sha256": "bf307a6e35b8c5482740d337bae16ada2df61805d0e2395448d95caf219524e6"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.25.ktx2",
+      "bytes": 55510,
+      "sha256": "3239ee0f4e7ad1599b8361258709fc734b41e98aae4b7cc3cd49e160b44f650f"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.25.ktx2.decoded.png",
+      "bytes": 47799,
+      "sha256": "e439a68c985981807be090617db18bbfc0f54f4266d6db00a7aad59527a8f2f6"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.25.ktx2.input.png",
+      "bytes": 66795,
+      "sha256": "a9a00ef175bfb1cca8516d9049b7c48db71f8fe8fada1c9725f97282a3948a6b"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.5.ktx2",
+      "bytes": 186897,
+      "sha256": "ca80e8ce300b3935a4a097fb2a8d058070b93c1079f9d166a5bfeb428d6cd07c"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.5.ktx2.decoded.png",
+      "bytes": 154192,
+      "sha256": "b91390d8d562837d78f0807d3da2c58637f6a4c46ec1de5b59bffe21c2e199e2"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-0.5.ktx2.input.png",
+      "bytes": 212739,
+      "sha256": "22c0a238278c1dac90877755decad65f28425f2febdf12370a71810864a75136"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-1.ktx2",
+      "bytes": 616996,
+      "sha256": "062661192e0e1c705e37d7ff8f95186a6cafa2662205604f1f169ae9be2a7dc8"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-1.ktx2.decoded.png",
+      "bytes": 516515,
+      "sha256": "8e9d5e5cccb09a90a0c1ef5e8003bbb738293f547dd1cbe3c27781d0c9ed04fa"
+    },
+    {
+      "path": "generated/ToyCar/image-3-uastc-1.ktx2.input.png",
+      "bytes": 624867,
+      "sha256": "bf307a6e35b8c5482740d337bae16ada2df61805d0e2395448d95caf219524e6"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-0.25.webp",
+      "bytes": 9162,
+      "sha256": "89916f7b96e62529d3d924f2bb5421d7cc822e6586ce252a71412ee8a22e1fb8"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-0.25.webp.input.png",
+      "bytes": 66795,
+      "sha256": "a9a00ef175bfb1cca8516d9049b7c48db71f8fe8fada1c9725f97282a3948a6b"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-0.5.webp",
+      "bytes": 21538,
+      "sha256": "01ea2d8e8c2475cf961e1e71c06ad39451fff87f67dd4a506130fbb2cb135b0f"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-0.5.webp.input.png",
+      "bytes": 212739,
+      "sha256": "22c0a238278c1dac90877755decad65f28425f2febdf12370a71810864a75136"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-1.webp",
+      "bytes": 51892,
+      "sha256": "1568e51997f1e7ceb774b26141965c8b5c16548bbff483e3e03ed612890d252c"
+    },
+    {
+      "path": "generated/ToyCar/image-3-webp-1.webp.input.png",
+      "bytes": 624867,
+      "sha256": "bf307a6e35b8c5482740d337bae16ada2df61805d0e2395448d95caf219524e6"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.25.ktx2",
+      "bytes": 3610,
+      "sha256": "4f8f68c1f69d8d154cd232847e7a28d3ebb0e0f0cf7b92c1cbba347caaabe72d"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 6112,
+      "sha256": "6e3a7aba6e3ae28c53298e50fa8700d6abfe94bac22b53490e5852b06fe684a7"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.25.ktx2.input.png",
+      "bytes": 33485,
+      "sha256": "071f1bb9a46e73e6a81bca31cb24e5f6fa5fe751347e4871a0ee1711d0fd46d0"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.5.ktx2",
+      "bytes": 10368,
+      "sha256": "54fc197d2dcbb10654ed398bd22bf0eed8038de8d658f624e006a9df2382c8d9"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 20591,
+      "sha256": "19bb32d20d88bd183137c9c10f4e32156012b37571f0a340fafbf6c798411ffb"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-0.5.ktx2.input.png",
+      "bytes": 127847,
+      "sha256": "d47a82cab062099042753a1260983928a66c0463693fde3f2b627d3d66ee6192"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-1.ktx2",
+      "bytes": 34510,
+      "sha256": "7b039416ea00990ae330efea573e3d258dfe6596a53944de640eae1b6e2ec85b"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-1.ktx2.decoded.png",
+      "bytes": 100917,
+      "sha256": "b4aa36821e84e3be9261c78d5fb20224f4026b78d2125de6e38fe8dc63c969e0"
+    },
+    {
+      "path": "generated/ToyCar/image-4-etc1s-1.ktx2.input.png",
+      "bytes": 485772,
+      "sha256": "5829845effd4510180ff19554ec92d97bc0c88fa0766a3c177efa1aa108c9333"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.25.ktx2",
+      "bytes": 19933,
+      "sha256": "a4047caf547bc4d41096533453ce2e045a169c9110224e79bb4385dba69c43b2"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.25.ktx2.decoded.png",
+      "bytes": 24491,
+      "sha256": "cf0d42ca930415aa6c412774ebaecc6119e72149d52626572a884be78bbeeb35"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.25.ktx2.input.png",
+      "bytes": 33485,
+      "sha256": "071f1bb9a46e73e6a81bca31cb24e5f6fa5fe751347e4871a0ee1711d0fd46d0"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.5.ktx2",
+      "bytes": 75606,
+      "sha256": "f9e87f94eb46fa079bfeae365efe8348134f23c2a82fbc30b21a21f00c5f154d"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.5.ktx2.decoded.png",
+      "bytes": 94589,
+      "sha256": "9d8443243c0d8f0ea8530d74ba732c3b736ff4340cd5093a181fc3db23b3491f"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-0.5.ktx2.input.png",
+      "bytes": 127847,
+      "sha256": "d47a82cab062099042753a1260983928a66c0463693fde3f2b627d3d66ee6192"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-1.ktx2",
+      "bytes": 288707,
+      "sha256": "25c4924ba17b15d94f9afb89e1429e0d7b495019d8c1f9fc06bcc78263f12274"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-1.ktx2.decoded.png",
+      "bytes": 328516,
+      "sha256": "c27b5f1526b24c91b066f7e8d52e8590d71d182c8f9bebb73ff3aacfc28cb4c4"
+    },
+    {
+      "path": "generated/ToyCar/image-4-uastc-1.ktx2.input.png",
+      "bytes": 485772,
+      "sha256": "5829845effd4510180ff19554ec92d97bc0c88fa0766a3c177efa1aa108c9333"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-0.25.webp",
+      "bytes": 1418,
+      "sha256": "743d7413364584d86f6ee554c9a076cf5a3e08d5f18c29643d42709f1bb2eecf"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-0.25.webp.input.png",
+      "bytes": 33485,
+      "sha256": "071f1bb9a46e73e6a81bca31cb24e5f6fa5fe751347e4871a0ee1711d0fd46d0"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-0.5.webp",
+      "bytes": 4110,
+      "sha256": "56430ffb8d5dccaadc63bf87df32837a1cf213b2b610b00b65a7fbba7a489e04"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-0.5.webp.input.png",
+      "bytes": 127847,
+      "sha256": "d47a82cab062099042753a1260983928a66c0463693fde3f2b627d3d66ee6192"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-1.webp",
+      "bytes": 12872,
+      "sha256": "7c8b970f0c6879d0f967e7f36c6d17a26db475357704814d8303739413aba981"
+    },
+    {
+      "path": "generated/ToyCar/image-4-webp-1.webp.input.png",
+      "bytes": 485772,
+      "sha256": "5829845effd4510180ff19554ec92d97bc0c88fa0766a3c177efa1aa108c9333"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.25.ktx2",
+      "bytes": 11855,
+      "sha256": "be1f49f3a445872e6f91c5f106ef1c155d485bdb6a4fa04ccf568645c5b62d72"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 17532,
+      "sha256": "76cfb2c98b97bb81263aaacdcdb32cf1056fbaba8ae5c57b8a37f1d4e162b76b"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.25.ktx2.input.png",
+      "bytes": 53504,
+      "sha256": "98094eec9efa94886bccc6afb713bbfb1b4270d1c563028cce606ed22124d07d"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.5.ktx2",
+      "bytes": 36582,
+      "sha256": "f50cffccbca534d5f89c96f2ecca2b3d34a1133cc01857958550df1ca510f709"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 49225,
+      "sha256": "cdbef95db2d631ad68d61795fd3859ec24f3a1ecb7411176fd144b7e5e928e1d"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-0.5.ktx2.input.png",
+      "bytes": 158147,
+      "sha256": "5d3ca097bec519e91af2d824a00c010daa5422f56d6ddb89c16ecdc824fb12f7"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-1.ktx2",
+      "bytes": 98811,
+      "sha256": "2d305084921c4554f84e617567be73f8bbccfbc795a92009d4a2f65e5b392564"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-1.ktx2.decoded.png",
+      "bytes": 120637,
+      "sha256": "e3fce5dddf904e3571f5316a7dfab199e244c8ab35c3da8a59fdc34899232bae"
+    },
+    {
+      "path": "generated/ToyCar/image-5-etc1s-1.ktx2.input.png",
+      "bytes": 405100,
+      "sha256": "fb506be9178f4dbb81ad2e0e9ec0f8793729603a7f50576b4c081cb88d1c4be5"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.25.ktx2",
+      "bytes": 63767,
+      "sha256": "8c3d2ba46e77821fea0b5bca617bd88a73b127d395a3b0bef71053b53c35bb4f"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.25.ktx2.decoded.png",
+      "bytes": 27080,
+      "sha256": "68737f32694016e578bb1513b04bfccc00dd4e18631e75b262ea335b1d106239"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.25.ktx2.input.png",
+      "bytes": 53504,
+      "sha256": "98094eec9efa94886bccc6afb713bbfb1b4270d1c563028cce606ed22124d07d"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.5.ktx2",
+      "bytes": 201929,
+      "sha256": "b6a05c9513716e6d334f9baf29766ee3cf06f58fe585bb8bd5962d54d02041fe"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.5.ktx2.decoded.png",
+      "bytes": 81976,
+      "sha256": "eb11814271e4cc17e4d1480de16d09664ab717d41c9b52c74279a3feb182d789"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-0.5.ktx2.input.png",
+      "bytes": 158147,
+      "sha256": "5d3ca097bec519e91af2d824a00c010daa5422f56d6ddb89c16ecdc824fb12f7"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-1.ktx2",
+      "bytes": 574769,
+      "sha256": "8549ff5598897995a2773604085a8b439e7a2a67bd804c48a76f32436afca2e4"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-1.ktx2.decoded.png",
+      "bytes": 237489,
+      "sha256": "dffc2431050697d0d1faf04b33931944af18141aa73b1311fb9ec9089366c30e"
+    },
+    {
+      "path": "generated/ToyCar/image-5-uastc-1.ktx2.input.png",
+      "bytes": 405100,
+      "sha256": "fb506be9178f4dbb81ad2e0e9ec0f8793729603a7f50576b4c081cb88d1c4be5"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-0.25.webp",
+      "bytes": 3462,
+      "sha256": "86beb5939a6ca264d06b5551f7ab0aab6605b947e3c5ed9e069f83fbbeafd468"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-0.25.webp.input.png",
+      "bytes": 53504,
+      "sha256": "98094eec9efa94886bccc6afb713bbfb1b4270d1c563028cce606ed22124d07d"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-0.5.webp",
+      "bytes": 7332,
+      "sha256": "001c1dbee03984d20f4e4c4473c45671c61e5d0ac088323f523f691d7437d282"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-0.5.webp.input.png",
+      "bytes": 158147,
+      "sha256": "5d3ca097bec519e91af2d824a00c010daa5422f56d6ddb89c16ecdc824fb12f7"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-1.webp",
+      "bytes": 16170,
+      "sha256": "9b8bc7b4ac1720b0c129b7bbda194168c5ebe0cb95cf23e46eadcca8c2274829"
+    },
+    {
+      "path": "generated/ToyCar/image-5-webp-1.webp.input.png",
+      "bytes": 405100,
+      "sha256": "fb506be9178f4dbb81ad2e0e9ec0f8793729603a7f50576b4c081cb88d1c4be5"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.25.ktx2",
+      "bytes": 1974,
+      "sha256": "9503f20b98eb3f8fb35307cca676b85d01ef451ea45cae66ac54f31f002e6866"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 2082,
+      "sha256": "1f3090d379d1628b545cf0bbbcc944f754ff62d8b9939dc7dd18b163cc28aff8"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.25.ktx2.input.png",
+      "bytes": 25178,
+      "sha256": "e2bb935a19e43ff74d0f761d26ea37d205032aa3316a44c0388b4459f13d3a28"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.5.ktx2",
+      "bytes": 7064,
+      "sha256": "87dc36106ec577c98dcbe987a9edb12a545a11e2e516ddf8d67202210dc47eb9"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 12231,
+      "sha256": "a113ae0528d64315a55b75942dfb004d3bccd99b5bb7ee6d2cd13d7b713f3564"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-0.5.ktx2.input.png",
+      "bytes": 119023,
+      "sha256": "eb344ff7c053d6a4e774c2e6ea51411817739ab0c409d1f66edf6186d7c8df41"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-1.ktx2",
+      "bytes": 25654,
+      "sha256": "0320b656bb08365ca2cb2f6778bae1ea58b59cc616ef2168e0eea0cadd99b7e6"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-1.ktx2.decoded.png",
+      "bytes": 51941,
+      "sha256": "cb7a423c6c4cb091e095a631189d672f23ca46655152a4fee551dbe677edf706"
+    },
+    {
+      "path": "generated/ToyCar/image-6-etc1s-1.ktx2.input.png",
+      "bytes": 471903,
+      "sha256": "3b7af052fff7a9722066a5ad38e7f1c2c2362f4c229a751502cfddbc4e4588d8"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.25.ktx2",
+      "bytes": 17552,
+      "sha256": "d42edc2b5c6aed5cb2581f26acaefaef6267796db1ed49dd9c85251df8f5bcc4"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.25.ktx2.decoded.png",
+      "bytes": 21389,
+      "sha256": "e2fec03d59c95de6bdc060fcf13926f5a79ee189d424b6702c2ba35490d009ba"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.25.ktx2.input.png",
+      "bytes": 25178,
+      "sha256": "e2bb935a19e43ff74d0f761d26ea37d205032aa3316a44c0388b4459f13d3a28"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.5.ktx2",
+      "bytes": 69183,
+      "sha256": "df98eae74129966b8cfec2dc46206b5589b290ed3ea31302c8e5560466c00989"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.5.ktx2.decoded.png",
+      "bytes": 100027,
+      "sha256": "8182860774b872ffc09f5148ca3ec33c9de4c141cefa2a685fc307fecdddb3b3"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-0.5.ktx2.input.png",
+      "bytes": 119023,
+      "sha256": "eb344ff7c053d6a4e774c2e6ea51411817739ab0c409d1f66edf6186d7c8df41"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-1.ktx2",
+      "bytes": 281215,
+      "sha256": "05b8e0c703dfed77ff585e02c80fbbc19877e0b56178082f601911b88680a40f"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-1.ktx2.decoded.png",
+      "bytes": 399519,
+      "sha256": "e35805b4487c9d875c799f31ea2182b2daac8a26cf74c5cc69d1dc84e1984c60"
+    },
+    {
+      "path": "generated/ToyCar/image-6-uastc-1.ktx2.input.png",
+      "bytes": 471903,
+      "sha256": "3b7af052fff7a9722066a5ad38e7f1c2c2362f4c229a751502cfddbc4e4588d8"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-0.25.webp",
+      "bytes": 554,
+      "sha256": "f8dc1ea5425c0b0a720dd9190bd8cf7115570b8ff6bcec0927fd3aca71643183"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-0.25.webp.input.png",
+      "bytes": 25178,
+      "sha256": "e2bb935a19e43ff74d0f761d26ea37d205032aa3316a44c0388b4459f13d3a28"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-0.5.webp",
+      "bytes": 8034,
+      "sha256": "42b76f088628b5ec41040027e44b3b047eb23cecf84d710fdc26fd10c2d86566"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-0.5.webp.input.png",
+      "bytes": 119023,
+      "sha256": "eb344ff7c053d6a4e774c2e6ea51411817739ab0c409d1f66edf6186d7c8df41"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-1.webp",
+      "bytes": 42572,
+      "sha256": "224ac99caf654b8f111249e792cbecc4ab63a7c3e58900ea46a12f93a72f8ae5"
+    },
+    {
+      "path": "generated/ToyCar/image-6-webp-1.webp.input.png",
+      "bytes": 471903,
+      "sha256": "3b7af052fff7a9722066a5ad38e7f1c2c2362f4c229a751502cfddbc4e4588d8"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.25.ktx2",
+      "bytes": 5176,
+      "sha256": "1a605856e0df21b807fb3d0c2df37484236763a14d4081511af641c152926c69"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 3981,
+      "sha256": "1df5efb8058c324dbf087a791bf495d0c5b966a897ed2e743f0aab7010ddcdcc"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.25.ktx2.input.png",
+      "bytes": 11309,
+      "sha256": "15f02c46f2aabd3ecdf93747437086f62f91794e7e8110e0199fbe7fb4b58723"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.5.ktx2",
+      "bytes": 10243,
+      "sha256": "6bce3f2009342cc68cca624cc2915f343feb10e521d7b9cc3be2129557df660a"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 9194,
+      "sha256": "78a4e3db8c1f7becfe1c1984da40dbf0037e72f914da1f7f972d38fc82a669ff"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-0.5.ktx2.input.png",
+      "bytes": 26005,
+      "sha256": "eed8ac24a247f135dd38fd8d0e62433643ffb6c2aba08dc63596d15da1e39cf4"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-1.ktx2",
+      "bytes": 18294,
+      "sha256": "a4ba352af2640f129382bd1e130ece418d655df917f9b40e205b16384b4d5d4d"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-1.ktx2.decoded.png",
+      "bytes": 18050,
+      "sha256": "bbc5392d089205c445b0a00774aa4fb6e56925bdf5eb7a6fdfde9556aab01426"
+    },
+    {
+      "path": "generated/ToyCar/image-7-etc1s-1.ktx2.input.png",
+      "bytes": 46449,
+      "sha256": "222ed83ee7b495376be269d8008ca460e28f0f6133faaeed54d84387984defb7"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.25.ktx2",
+      "bytes": 11735,
+      "sha256": "c5f44de2b7dbe6a34fc0dbcd2ca0698c320e602b22419d4c0c2897dc19eb478c"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.25.ktx2.decoded.png",
+      "bytes": 5590,
+      "sha256": "fd9f36943a760927933250fddc74972cb12c1a0faa1ebf09176d3737c364d2ed"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.25.ktx2.input.png",
+      "bytes": 11309,
+      "sha256": "15f02c46f2aabd3ecdf93747437086f62f91794e7e8110e0199fbe7fb4b58723"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.5.ktx2",
+      "bytes": 24648,
+      "sha256": "db28001ce225b9bc09d2aafb46fbbfe27a067efe8d7ebec9c9f13344dc2a3c27"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.5.ktx2.decoded.png",
+      "bytes": 12627,
+      "sha256": "7b6198a1f7fcf069e7b1f3da354e950a8a55f66f1a81d6e27845d172bd70096c"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-0.5.ktx2.input.png",
+      "bytes": 26005,
+      "sha256": "eed8ac24a247f135dd38fd8d0e62433643ffb6c2aba08dc63596d15da1e39cf4"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-1.ktx2",
+      "bytes": 44406,
+      "sha256": "59d60fc946e4adb4511229249176d3d239439d606ccfb291d1746002ed5d5772"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-1.ktx2.decoded.png",
+      "bytes": 21506,
+      "sha256": "e0ef908e75d911ca421baa128d12530d260e814ee3435289fa1b89a63af2644e"
+    },
+    {
+      "path": "generated/ToyCar/image-7-uastc-1.ktx2.input.png",
+      "bytes": 46449,
+      "sha256": "222ed83ee7b495376be269d8008ca460e28f0f6133faaeed54d84387984defb7"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-0.25.webp",
+      "bytes": 2534,
+      "sha256": "22326c1fc32f50907fccac5f24c123d757501835752ff3abbf80a95d5043a157"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-0.25.webp.input.png",
+      "bytes": 11309,
+      "sha256": "15f02c46f2aabd3ecdf93747437086f62f91794e7e8110e0199fbe7fb4b58723"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-0.5.webp",
+      "bytes": 5116,
+      "sha256": "fd386f9901cf3eecd3680ac58cf65b08e593d6733e17860882f1fcc29fbae5b3"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-0.5.webp.input.png",
+      "bytes": 26005,
+      "sha256": "eed8ac24a247f135dd38fd8d0e62433643ffb6c2aba08dc63596d15da1e39cf4"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-1.webp",
+      "bytes": 11012,
+      "sha256": "227527c0ffcf42ea786915e9622618d6d07f5d8d15fc5da2cbc63fc4a49ab48e"
+    },
+    {
+      "path": "generated/ToyCar/image-7-webp-1.webp.input.png",
+      "bytes": 46449,
+      "sha256": "222ed83ee7b495376be269d8008ca460e28f0f6133faaeed54d84387984defb7"
+    },
+    {
+      "path": "generated/ToyCar/model.json",
+      "bytes": 120929,
+      "sha256": "5040d1ad897fcdf6d9fd5f3df0147e48c8ce9643035647ae1be60c7fdec27431"
+    },
+    {
+      "path": "generated/ToyCar/original.glb",
+      "bytes": 5422152,
+      "sha256": "312626338c1e19721a1275dc7e51a315b51533f1e46645f6ad04a6fcf3c24115"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.25.ktx2",
+      "bytes": 15815,
+      "sha256": "679774d7f3adc9b5319624499b8ce86962f159a1aba7994bd8bb460c67c58075"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 27736,
+      "sha256": "35ed0faf339641fc6d49e8122556bad8c6fa5f974fc7e7436822aa3dcd25e82a"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.25.ktx2.input.png",
+      "bytes": 113491,
+      "sha256": "9cd6b3fd73f13c4e7a14800cdae24181d406870d3aeb3e7dc9771d937f7736b5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.5.ktx2",
+      "bytes": 50632,
+      "sha256": "05bba216f2698c5f31dfac0ba1431fa8bfb6b7019565d610528580aac4acc936"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 115495,
+      "sha256": "eb4d3214e737ce844055fbc887440e780ed30d0a3d2eb7e9d80133ce1d2b44a4"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-0.5.ktx2.input.png",
+      "bytes": 441649,
+      "sha256": "fd21f0a69a037fd85be3388f2caf2097c1950700e4ba75f819f805c5bfcaafe5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-1.ktx2",
+      "bytes": 182558,
+      "sha256": "f729802db35f4e032217eff29d338b91b8c547ef53c4d5885751fc407aea368b"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-1.ktx2.decoded.png",
+      "bytes": 496900,
+      "sha256": "bbc8017185c0ab5c566407c2e769d52d59d1fce009bddff7948b1c408770d492"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-etc1s-1.ktx2.input.png",
+      "bytes": 1694995,
+      "sha256": "ac54dfd9f84939b596ff62a3bb8b1b44cbb59592daeddf92c97d78b83469fe7a"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.25.ktx2",
+      "bytes": 103862,
+      "sha256": "c80601bf68caaced030989ada3f8718dff075c1941a37ef04677ea62c639a6b3"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.25.ktx2.decoded.png",
+      "bytes": 106672,
+      "sha256": "7d5b8d7da4359d8b920e1dd3875caf161217a782dd23f6d105401dbf8c517643"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.25.ktx2.input.png",
+      "bytes": 113491,
+      "sha256": "9cd6b3fd73f13c4e7a14800cdae24181d406870d3aeb3e7dc9771d937f7736b5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.5.ktx2",
+      "bytes": 383099,
+      "sha256": "d7202c08e5b986fcfd75e39bb0e781c9af50bae39ad93422f21d91e8dd72633a"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.5.ktx2.decoded.png",
+      "bytes": 430954,
+      "sha256": "35e045a6342fe812f9125de269a390233601a92a97e8ae4e3cf04a535a723a04"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-0.5.ktx2.input.png",
+      "bytes": 441649,
+      "sha256": "fd21f0a69a037fd85be3388f2caf2097c1950700e4ba75f819f805c5bfcaafe5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-1.ktx2",
+      "bytes": 1408930,
+      "sha256": "42efb93eadacc5f0cd7ba3ce8787686ea1b0c54e7c8ffc430617a32580831283"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-1.ktx2.decoded.png",
+      "bytes": 1948366,
+      "sha256": "eedad798d3ea5b21117aa29b8aefb50fefd0b70a73d729e5e22440f647a1a939"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-uastc-1.ktx2.input.png",
+      "bytes": 1694995,
+      "sha256": "ac54dfd9f84939b596ff62a3bb8b1b44cbb59592daeddf92c97d78b83469fe7a"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-0.25.webp",
+      "bytes": 3616,
+      "sha256": "6760609a501f7e3555b2b85eac3805e5f590ef84566b9f5d010d06b63012afea"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-0.25.webp.input.png",
+      "bytes": 113491,
+      "sha256": "9cd6b3fd73f13c4e7a14800cdae24181d406870d3aeb3e7dc9771d937f7736b5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-0.5.webp",
+      "bytes": 10806,
+      "sha256": "59bd3d94b7fc39cc5db653bbc3547cef7193adf6dac13dbf0f1b0cea9b0e2fd5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-0.5.webp.input.png",
+      "bytes": 441649,
+      "sha256": "fd21f0a69a037fd85be3388f2caf2097c1950700e4ba75f819f805c5bfcaafe5"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-1.webp",
+      "bytes": 46108,
+      "sha256": "bb839a4ba9de7ca9962aa5459fdaaa260e843b8f41962e1ec57f7e69a70753a4"
+    },
+    {
+      "path": "generated/WaterBottle/image-0-webp-1.webp.input.png",
+      "bytes": 1694995,
+      "sha256": "ac54dfd9f84939b596ff62a3bb8b1b44cbb59592daeddf92c97d78b83469fe7a"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.25.ktx2",
+      "bytes": 26314,
+      "sha256": "ef29a848efc22abf860b72bbe28ba86454ea5c1448f3d237e71ce4c338c549ff"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 55588,
+      "sha256": "5169127f8c7c46388812708566aa6a1a0aa8e911a018c43be8447f9f3d110d4c"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.25.ktx2.input.png",
+      "bytes": 257658,
+      "sha256": "a6fa3b39914bd754a23df1fac1850d67f7d910d24ad0fa31b4f3be76c701b634"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.5.ktx2",
+      "bytes": 71816,
+      "sha256": "d3101214f152a931475a11b20f546d7993a0d2cb445df3ab9bb5ad5b564a4a5b"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 174687,
+      "sha256": "748b0e0c410594b713638b1ef090bfa4d1bc44f5cdf3a9ce9f678c539cc718e1"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-0.5.ktx2.input.png",
+      "bytes": 942058,
+      "sha256": "7d3b0cad80cf5fd30a30668b997f0f6922fec2b9d97e984995b3e5f59845ceab"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-1.ktx2",
+      "bytes": 238482,
+      "sha256": "d3d8ea0d2c05ee1b8214f71579265dd111f9f3c797eb804255938b63ef2cdd0c"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-1.ktx2.decoded.png",
+      "bytes": 595357,
+      "sha256": "98daa65c3be47df6ea9d02e818e3d4a15fe1074e2680623e2949e637b946a4be"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-etc1s-1.ktx2.input.png",
+      "bytes": 3643841,
+      "sha256": "8e9cf2946caff9756501761c9756ac647de6985f5d265310040a7e80fdb26f78"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.25.ktx2",
+      "bytes": 204676,
+      "sha256": "f831041d98b122975831778f2bd0ed5c28e6a0e9ae5236654b7f9baa87706f65"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.25.ktx2.decoded.png",
+      "bytes": 174527,
+      "sha256": "e67f2a9e4904951e763bc506c3a2dfd3b5b4d47ccc6c6406168aef2673c7bba0"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.25.ktx2.input.png",
+      "bytes": 257658,
+      "sha256": "a6fa3b39914bd754a23df1fac1850d67f7d910d24ad0fa31b4f3be76c701b634"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.5.ktx2",
+      "bytes": 761726,
+      "sha256": "6a7f2297b466c30079240997ad967abe24a40e53dff02cdeb63ffd0e6f180fde"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.5.ktx2.decoded.png",
+      "bytes": 677541,
+      "sha256": "054bd7228e29c68cc1c655665df3bf096ad3eb0d24215c828cd119fd4f4c2a76"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-0.5.ktx2.input.png",
+      "bytes": 942058,
+      "sha256": "7d3b0cad80cf5fd30a30668b997f0f6922fec2b9d97e984995b3e5f59845ceab"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-1.ktx2",
+      "bytes": 2942704,
+      "sha256": "6401e1c62acbe575d70b0810f50655bdf3ca7914b4d898b0fcb013d3f27883c6"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-1.ktx2.decoded.png",
+      "bytes": 2811038,
+      "sha256": "d3e2db9d58c87ba3dc364234e17159e166612ce363d4399db7d97d7db7063e4e"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-uastc-1.ktx2.input.png",
+      "bytes": 3643841,
+      "sha256": "8e9cf2946caff9756501761c9756ac647de6985f5d265310040a7e80fdb26f78"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-0.25.webp",
+      "bytes": 11524,
+      "sha256": "830ee00d11af127207f3d2c6f1e36718876c93033b2e3ddc0fd08866bac1010b"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-0.25.webp.input.png",
+      "bytes": 257658,
+      "sha256": "a6fa3b39914bd754a23df1fac1850d67f7d910d24ad0fa31b4f3be76c701b634"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-0.5.webp",
+      "bytes": 35142,
+      "sha256": "058841df6f08bb88f4575920b6c3e43777cfcbed15dee8cd4fe317b7d22e3222"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-0.5.webp.input.png",
+      "bytes": 942058,
+      "sha256": "7d3b0cad80cf5fd30a30668b997f0f6922fec2b9d97e984995b3e5f59845ceab"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-1.webp",
+      "bytes": 125202,
+      "sha256": "30363ca8a6e2ae2aa2d31c52fad6c9d0c24bc08b8d68fcd7e9ee0ab339646413"
+    },
+    {
+      "path": "generated/WaterBottle/image-1-webp-1.webp.input.png",
+      "bytes": 3643841,
+      "sha256": "8e9cf2946caff9756501761c9756ac647de6985f5d265310040a7e80fdb26f78"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.25.ktx2",
+      "bytes": 7971,
+      "sha256": "afe2e964b384cbb17dda86a5c6e7042766004aa08a1285bec050e8b441185ee7"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 7735,
+      "sha256": "c5c08341d0696ae5605185a3ea714977c2b4d15d5467272be4dbb6e541177874"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.25.ktx2.input.png",
+      "bytes": 133924,
+      "sha256": "8a375db18650e30cfe9d0e8db69d50d1a061c963b31c22d89fe60d9a001c9993"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.5.ktx2",
+      "bytes": 21459,
+      "sha256": "a3665bbc35ac46e6f9c71d45b5ee0322e3574b6a03ee61e657d0b8db6b3c16f2"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 26221,
+      "sha256": "aad44f2ea575c6e61e39c3076a86c85c7fd6882b79c436d90485d9fdb367338c"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-0.5.ktx2.input.png",
+      "bytes": 584399,
+      "sha256": "e640cf99ca42a4aa839f7fc0293fd4a1ce85ad4fc2cfde36ff8493a85205f304"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-1.ktx2",
+      "bytes": 174582,
+      "sha256": "8e8cc09b2b0c2c0bf301af0a6bf432daa6353723321910f5193b2780be77fddc"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-1.ktx2.decoded.png",
+      "bytes": 375025,
+      "sha256": "104c2aa7b2c470a7d04f3937555dd6514f0f8300a975cefea2aa63a72f4b9010"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-etc1s-1.ktx2.input.png",
+      "bytes": 2402888,
+      "sha256": "95af0c999a4472c5f0220a06b0a4bb1c59eeeb912bb662125e22dfd302b9bb8f"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.25.ktx2",
+      "bytes": 116410,
+      "sha256": "e5d6b8b59c36b8229aaca55ad38d98fc7369259aa0e1042de46ee9d136d00e1d"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.25.ktx2.decoded.png",
+      "bytes": 136313,
+      "sha256": "4945844bee5133879df402721132ec3dae35ac521445bba9eb1d06b6fac6b910"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.25.ktx2.input.png",
+      "bytes": 133924,
+      "sha256": "8a375db18650e30cfe9d0e8db69d50d1a061c963b31c22d89fe60d9a001c9993"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.5.ktx2",
+      "bytes": 442375,
+      "sha256": "8e385af0c2e026a3de18779caf2b97dd6b7aca61118c1e68cf14ddf52467ec22"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.5.ktx2.decoded.png",
+      "bytes": 600743,
+      "sha256": "6ee8e68f05b289c155bd219017a455be44ec1fe4035c30b1961b96c527d2e9ef"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-0.5.ktx2.input.png",
+      "bytes": 584399,
+      "sha256": "e640cf99ca42a4aa839f7fc0293fd4a1ce85ad4fc2cfde36ff8493a85205f304"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-1.ktx2",
+      "bytes": 1612069,
+      "sha256": "1a1814841b9c076235bc8bb6be0aac7160c6efea627bdf4fbb4679e2941e1db7"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-1.ktx2.decoded.png",
+      "bytes": 3192535,
+      "sha256": "a9bacfff5bc2cd422199a23c98c4f69d558c58a049ec88412b655a91a15f578d"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-uastc-1.ktx2.input.png",
+      "bytes": 2402888,
+      "sha256": "95af0c999a4472c5f0220a06b0a4bb1c59eeeb912bb662125e22dfd302b9bb8f"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-0.25.webp",
+      "bytes": 2194,
+      "sha256": "591bf8dbd6ef0129c9e5aa310914f91c6a78e046d9504184b374f69ba3056ca5"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-0.25.webp.input.png",
+      "bytes": 133924,
+      "sha256": "8a375db18650e30cfe9d0e8db69d50d1a061c963b31c22d89fe60d9a001c9993"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-0.5.webp",
+      "bytes": 8378,
+      "sha256": "f83b6ec5fdb76a29213cca1fb6f534484fe1ca5b14f39ae62812b30644ed835e"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-0.5.webp.input.png",
+      "bytes": 584399,
+      "sha256": "e640cf99ca42a4aa839f7fc0293fd4a1ce85ad4fc2cfde36ff8493a85205f304"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-1.webp",
+      "bytes": 64940,
+      "sha256": "3a011b6e97c02b9bd1b3c1cd66931bf2c88703656f0ba69f6be5c874843cddb9"
+    },
+    {
+      "path": "generated/WaterBottle/image-2-webp-1.webp.input.png",
+      "bytes": 2402888,
+      "sha256": "95af0c999a4472c5f0220a06b0a4bb1c59eeeb912bb662125e22dfd302b9bb8f"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.25.ktx2",
+      "bytes": 1321,
+      "sha256": "db4f02fa09245fbd6ad0128a2f623cc0c19de93249f82776f3126b86bd3376f1"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.25.ktx2.decoded.png",
+      "bytes": 650,
+      "sha256": "e001ce22a1bfd8264bc8a6fde552e406a452d19b706235f4c0d19dd9d8f1ee06"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.25.ktx2.input.png",
+      "bytes": 6682,
+      "sha256": "9f3c9ce2da9e629f0ff1dd622bb6e334683a891010264ef36892a2abf60f7cc8"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.5.ktx2",
+      "bytes": 1903,
+      "sha256": "05f50d9b8801fd3137678789ec09d9fdcf33d9ed0824246e2425d1e3e3c3892e"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.5.ktx2.decoded.png",
+      "bytes": 1818,
+      "sha256": "b9c1ebe6561dacc1497636e557c417427bd57350c42ef1984785951fee103046"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-0.5.ktx2.input.png",
+      "bytes": 24168,
+      "sha256": "cf194cc8d862e106141399970354ad074687cc22f3f6add803126e628d227745"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-1.ktx2",
+      "bytes": 3142,
+      "sha256": "367660fa28641462c67cdcb90b2d984addda1d80352e678ce7ce0460f3405378"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-1.ktx2.decoded.png",
+      "bytes": 6035,
+      "sha256": "eb98398df65e66fd9ff63c5929733da3f1d510b715701e656950260dfa150cf6"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-etc1s-1.ktx2.input.png",
+      "bytes": 89565,
+      "sha256": "b0b59601c6a9e7b1ead16f1580acf23b76dae82c1d63e7547368516cff7042f4"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.25.ktx2",
+      "bytes": 1424,
+      "sha256": "5872a7e6a30c4c126e18bb0ca1606a242e1fe1d326540a81692995bd02712d70"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.25.ktx2.decoded.png",
+      "bytes": 873,
+      "sha256": "df072194c91adba1443c02e93a523a91d855d2a9cdb710f21874ae3ba6661371"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.25.ktx2.input.png",
+      "bytes": 6682,
+      "sha256": "9f3c9ce2da9e629f0ff1dd622bb6e334683a891010264ef36892a2abf60f7cc8"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.5.ktx2",
+      "bytes": 2269,
+      "sha256": "f2cfaef593faca8ba409bc94ec9f530f1ef017e47abf9091975a1a6a70310ad2"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.5.ktx2.decoded.png",
+      "bytes": 2676,
+      "sha256": "a10944ba7fe37412c932798796e41f540187f1b8c4463249ccd4c141e088666b"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-0.5.ktx2.input.png",
+      "bytes": 24168,
+      "sha256": "cf194cc8d862e106141399970354ad074687cc22f3f6add803126e628d227745"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-1.ktx2",
+      "bytes": 4893,
+      "sha256": "87a1a94aad2dfca410d71286696b1353103ad914387223f88854006f6e2315fc"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-1.ktx2.decoded.png",
+      "bytes": 16567,
+      "sha256": "20416925ba2b2e749d72aa6f79b6e4583f15ebcf2f254fa615f006679a36b5b1"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-uastc-1.ktx2.input.png",
+      "bytes": 89565,
+      "sha256": "b0b59601c6a9e7b1ead16f1580acf23b76dae82c1d63e7547368516cff7042f4"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-0.25.webp",
+      "bytes": 590,
+      "sha256": "447cecac1fc75e1a97a31d54c8a00b9d549a9d68fa81fb59aaab66ae7fa3f993"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-0.25.webp.input.png",
+      "bytes": 6682,
+      "sha256": "9f3c9ce2da9e629f0ff1dd622bb6e334683a891010264ef36892a2abf60f7cc8"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-0.5.webp",
+      "bytes": 2080,
+      "sha256": "c98cb9789aae7efeb3196d364408f472028bf0a4ece252dcbb6cd5aaccd2dfac"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-0.5.webp.input.png",
+      "bytes": 24168,
+      "sha256": "cf194cc8d862e106141399970354ad074687cc22f3f6add803126e628d227745"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-1.webp",
+      "bytes": 7990,
+      "sha256": "a680f3f193e8c17e3b6f6679288092412aca3d831154684c48b20ca5811675b3"
+    },
+    {
+      "path": "generated/WaterBottle/image-3-webp-1.webp.input.png",
+      "bytes": 89565,
+      "sha256": "b0b59601c6a9e7b1ead16f1580acf23b76dae82c1d63e7547368516cff7042f4"
+    },
+    {
+      "path": "generated/WaterBottle/model.json",
+      "bytes": 52563,
+      "sha256": "bbc4d6d75e14314f9381aec1a3b1b33f4fd73263b1b2aed56273f304a11ee26d"
+    },
+    {
+      "path": "generated/WaterBottle/original.glb",
+      "bytes": 8966920,
+      "sha256": "abc5bdce2abec38d67d815c9969e18f9684278c7d71939fa57d35eeabc5ce523"
+    },
+    {
+      "path": "generated/controls/color-etc1s.ktx2",
+      "bytes": 946,
+      "sha256": "9afd0347b4bd92f85d087c8759e1e74bb62e5a7ad81e075e47b37ba3e427f297"
+    },
+    {
+      "path": "generated/controls/color-etc1s.ktx2.decoded.png",
+      "bytes": 303,
+      "sha256": "ec293cd8cc6640b467efd9172aebc9158e2e565fd0f1e3cd1f24be97f6f67407"
+    },
+    {
+      "path": "generated/controls/color-etc1s.ktx2.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/color-uastc.ktx2",
+      "bytes": 1043,
+      "sha256": "635dcf819909c8bcd7e05bd53a17d894122661b41645c71c06e0c3b78292242b"
+    },
+    {
+      "path": "generated/controls/color-uastc.ktx2.decoded.png",
+      "bytes": 507,
+      "sha256": "3b2c681f3bd46c3f49fb9fbc5cf7f4fcd041735f9531616f2262d76c3fe10a06"
+    },
+    {
+      "path": "generated/controls/color-uastc.ktx2.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/color-webp.webp",
+      "bytes": 226,
+      "sha256": "5d1a938a82594443f9a3048692921b03017b077ce2c724562119eb3bed2cab43"
+    },
+    {
+      "path": "generated/controls/color-webp.webp.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/color.png",
+      "bytes": 276,
+      "sha256": "b10898e7e81df0c5cb5804c87682b44c690dfbbc250b6a7405d3d61208808555"
+    },
+    {
+      "path": "generated/controls/data-etc1s.ktx2",
+      "bytes": 892,
+      "sha256": "9ea469a7815b4e91be51da07c595b79e35f8e0af6ac5e0887187022709782a38"
+    },
+    {
+      "path": "generated/controls/data-etc1s.ktx2.decoded.png",
+      "bytes": 267,
+      "sha256": "f718a9df04e86f43facb7e02fe3557c48b849ecb322ccd04e258a2bc7b7af250"
+    },
+    {
+      "path": "generated/controls/data-etc1s.ktx2.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/data-uastc.ktx2",
+      "bytes": 1048,
+      "sha256": "47b42b7fde9ce9b63e931d8759a2a5aa2897057366bdc8dbaf5cd78e6cea4f4c"
+    },
+    {
+      "path": "generated/controls/data-uastc.ktx2.decoded.png",
+      "bytes": 494,
+      "sha256": "98a3ae0b513cc9d0a02c623c9debd14a8eaef0e4e71d7796c8824f1079cba331"
+    },
+    {
+      "path": "generated/controls/data-uastc.ktx2.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/data-webp.webp",
+      "bytes": 226,
+      "sha256": "5d1a938a82594443f9a3048692921b03017b077ce2c724562119eb3bed2cab43"
+    },
+    {
+      "path": "generated/controls/data-webp.webp.input.png",
+      "bytes": 401,
+      "sha256": "c28888438f781a1a834b6fe33cdefb9bb70933c194229ebd539e748f1690e33f"
+    },
+    {
+      "path": "generated/controls/data.png",
+      "bytes": 276,
+      "sha256": "b10898e7e81df0c5cb5804c87682b44c690dfbbc250b6a7405d3d61208808555"
+    },
+    {
+      "path": "generated/controls/invalid.ktx2",
+      "bytes": 28,
+      "sha256": "b4f65b3495c7d86ec4ad80b3c641599fbb3326969e68c6df9ada0f334942eae8"
+    },
+    {
+      "path": "generated/controls/normal-etc1s.ktx2",
+      "bytes": 761,
+      "sha256": "62b9a5439515afb44bb63474225ee2ca961187f4bd9d1b9dcc3cd3e8b0ce767c"
+    },
+    {
+      "path": "generated/controls/normal-etc1s.ktx2.decoded.png",
+      "bytes": 174,
+      "sha256": "d313f20ef1a0248ada6e2ab2eef93d926df80a8e236b0f22a2208ff57c3910e1"
+    },
+    {
+      "path": "generated/controls/normal-etc1s.ktx2.input.png",
+      "bytes": 271,
+      "sha256": "c81e4d23a16ec4866b648e0f31784e3055fa448b1c8bd823efb69e7273d26a63"
+    },
+    {
+      "path": "generated/controls/normal-uastc.ktx2",
+      "bytes": 1026,
+      "sha256": "a38986b6ab4a067b9e5d83d9becead739bbcc70bbc4b6556b597fd058ded518d"
+    },
+    {
+      "path": "generated/controls/normal-uastc.ktx2.decoded.png",
+      "bytes": 420,
+      "sha256": "308396ad65bdd007f76b9c028a5d34169e777341a54265581d1f9a5a31b7b0f1"
+    },
+    {
+      "path": "generated/controls/normal-uastc.ktx2.input.png",
+      "bytes": 271,
+      "sha256": "c81e4d23a16ec4866b648e0f31784e3055fa448b1c8bd823efb69e7273d26a63"
+    },
+    {
+      "path": "generated/controls/normal-webp.webp",
+      "bytes": 114,
+      "sha256": "1289b6378f2dbfbdbb36cfe68f4e88981720f8e7712450ee62a44ec87bb11c45"
+    },
+    {
+      "path": "generated/controls/normal-webp.webp.input.png",
+      "bytes": 271,
+      "sha256": "c81e4d23a16ec4866b648e0f31784e3055fa448b1c8bd823efb69e7273d26a63"
+    },
+    {
+      "path": "generated/controls/normal.png",
+      "bytes": 255,
+      "sha256": "8e3b3e32efb55ca756c32fc487865af39ca6b02be92adecd1b6f66982e217ad5"
+    }
+  ]
+}
