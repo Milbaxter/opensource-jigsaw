@@ -1,6 +1,6 @@
 {
   "scope": "Publication-safe source/metadata feasibility packet only. Raw notebooks and their embedded media excluded; raw notebooks remain local for audit. No performance or scientific payload data.",
-  "notes": "build_ledger.py is preserved as .py.txt for historical source provenance. Its raw notebook/provenance inputs are not bundled; this is not a standalone benchmark. All published bytes match originals.",
+  "notes": "build_ledger.py is preserved as .py.txt for historical source provenance. Its raw notebook/provenance inputs are not bundled; this is not a standalone benchmark. All published bytes match originals. The pinned third-party ARCO README is also stored as .md.txt so repository formatters cannot alter upstream source evidence.",
   "files": [
     {
       "path": "GeoscienceAustralia__dea-notebooks__LICENSE",
@@ -42,7 +42,7 @@
       "path": "arco-pinned-readme.md",
       "bytes": 102446,
       "sha256": "790e4b77ee742d55fbf7f9205f3056beb5d86241e71ef1ef4a6a063cc415ba72",
-      "published_path": "arco-pinned-readme.md"
+      "published_path": "arco-pinned-readme.md.txt"
     },
     {
       "path": "arco-readme-provenance.json",
