@@ -1,0 +1,406 @@
+[
+  {
+    "id": "R2-B01",
+    "title": "Stateful incremental-model regression campaigns",
+    "components": [
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      },
+      {
+        "repository": "duckdb/dbt-duckdb",
+        "url": "https://github.com/duckdb/dbt-duckdb"
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+      }
+    ],
+    "buyer_hypothesis": "dbt consultancy delivery lead",
+    "technical_bridge": "Transfer state-machine test generation and shrinking to actual incremental materialization, compared with full-refresh output.",
+    "status": "deep-researched; parent demo pending",
+    "rejection_or_open_reason": "Closest dblect roadmap explicitly includes the mechanism. Current defensibility insufficient; bounded paid study may be worthwhile but no score pass.",
+    "weighted_score": 72.5,
+    "license_status": "Primary texts inspected; see dossier",
+    "pass_": false
+  },
+  {
+    "id": "R2-B02",
+    "title": "Privacy-free SQL migration witnesses",
+    "components": [
+      {
+        "repository": "tobymao/sqlglot",
+        "url": "https://github.com/tobymao/sqlglot"
+      },
+      {
+        "repository": "Z3Prover/z3",
+        "url": "https://github.com/Z3Prover/z3"
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+      }
+    ],
+    "buyer_hypothesis": "Warehouse migration consultancy",
+    "technical_bridge": "Bounded symbolic counterexamples replayed as synthetic datasets.",
+    "status": "deep-researched; rejected",
+    "rejection_or_open_reason": "Skolem already implements exact wedge. VeriEQL shortcut has noncommercial code license; own correct SQL semantics is substantial.",
+    "weighted_score": 63,
+    "license_status": "Primary texts inspected; see dossier",
+    "pass_": false
+  },
+  {
+    "id": "R2-B03",
+    "title": "Minimal safe dependency upgrade frontier",
+    "components": [
+      {
+        "repository": "google/osv-scanner",
+        "url": "https://github.com/google/osv-scanner"
+      },
+      {
+        "repository": "trailofbits/it-depends",
+        "url": "https://github.com/trailofbits/it-depends"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      },
+      {
+        "repository": "astral-sh/uv",
+        "url": "https://github.com/astral-sh/uv"
+      }
+    ],
+    "buyer_hypothesis": "AppSec team owning Python services",
+    "technical_bridge": "Optimize the smallest lockfile change set satisfying vulnerability and dependency constraints, then execute tests.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Automatic remediation and dependency solvers already cover core workflow. No measured advantage over normal resolver plus Renovate; test outcomes difficult to predict.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B04",
+    "title": "PII-safe relational bug reproduction",
+    "components": [
+      {
+        "repository": "GreenmaskIO/greenmask",
+        "url": "https://github.com/GreenmaskIO/greenmask"
+      },
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      },
+      {
+        "repository": "Z3Prover/z3",
+        "url": "https://github.com/Z3Prover/z3"
+      }
+    ],
+    "buyer_hypothesis": "Data consultancy handling sensitive customer bugs",
+    "technical_bridge": "Shrink a relational failure while substituting values and preserving integrity constraints.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Failure preservation does not establish anonymity. Existing masking/subsetting strong; data access and leak guarantees dominate simple integration.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B05",
+    "title": "Database change lock-budget rehearsal",
+    "components": [
+      {
+        "repository": "xataio/pgroll",
+        "url": "https://github.com/xataio/pgroll"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      },
+      {
+        "repository": "jOOQ/jOOQ",
+        "url": "https://github.com/jOOQ/jOOQ"
+      }
+    ],
+    "buyer_hypothesis": "PostgreSQL platform team",
+    "technical_bridge": "Use scheduling constraints to find a rollout satisfying lock and dependency budgets.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Measured lock durations depend on live workload; pgroll already attacks zero-downtime migration. Static plan demo would not substantiate outage reduction.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B06",
+    "title": "Policy-change least-privilege witness tests",
+    "components": [
+      {
+        "repository": "open-policy-agent/opa",
+        "url": "https://github.com/open-policy-agent/opa"
+      },
+      {
+        "repository": "Z3Prover/z3",
+        "url": "https://github.com/Z3Prover/z3"
+      },
+      {
+        "repository": "schemathesis/schemathesis",
+        "url": "https://github.com/schemathesis/schemathesis"
+      }
+    ],
+    "buyer_hypothesis": "Internal authorization platform team",
+    "technical_bridge": "Generate minimal authorization requests whose decisions change between policy versions and replay APIs.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Existing policy tests/diff and formal policy analysis are close. Binding policy decisions to real application authorization is missing, and narrow paid buyer unverified.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B07",
+    "title": "Coverage-weighted SBOM collection repair",
+    "components": [
+      {
+        "repository": "anchore/syft",
+        "url": "https://github.com/anchore/syft"
+      },
+      {
+        "repository": "guacsec/guac",
+        "url": "https://github.com/guacsec/guac"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      }
+    ],
+    "buyer_hypothesis": "Software supply-chain compliance team",
+    "technical_bridge": "Find minimum extra builds/scans needed to cover unidentified components in an SBOM evidence graph.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Likely a feature of established SBOM management; collection completeness is not knowable from missing metadata alone. No paid niche evidence.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B08",
+    "title": "Reproducible-build drift bisection",
+    "components": [
+      {
+        "repository": "kpcyrd/rebuilderd",
+        "url": "https://github.com/kpcyrd/rebuilderd"
+      },
+      {
+        "repository": "wolfcw/libfaketime",
+        "url": "https://github.com/wolfcw/libfaketime"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      }
+    ],
+    "buyer_hypothesis": "Linux package/release engineering team",
+    "technical_bridge": "Use experimental design to minimize environmental rebuild trials locating nondeterminism.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Reprotest/diffoscope already vary environments and explain diffs. Added optimizer marginal without benchmark of expensive builds and committed buyer.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B09",
+    "title": "Provenance-directed test budget allocation",
+    "components": [
+      {
+        "repository": "MarquezProject/marquez",
+        "url": "https://github.com/MarquezProject/marquez"
+      },
+      {
+        "repository": "networkx/networkx",
+        "url": "https://github.com/networkx/networkx"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      }
+    ],
+    "buyer_hypothesis": "Data platform team with slow CI",
+    "technical_bridge": "Optimize tests to cover changed lineage paths under a CI runtime budget.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Coverage proxy may miss correlated failures; established state selection/lineage already does most work. No trustworthy failure probability data.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B10",
+    "title": "Contract-preserving API replay minimizer",
+    "components": [
+      {
+        "repository": "schemathesis/schemathesis",
+        "url": "https://github.com/schemathesis/schemathesis"
+      },
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      },
+      {
+        "repository": "openapi-generators/openapi-python-client",
+        "url": "https://github.com/openapi-generators/openapi-python-client"
+      }
+    ],
+    "buyer_hypothesis": "API integration consultancy",
+    "technical_bridge": "Shrink multi-call business workflow regressions while preserving OpenAPI links and state.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Schemathesis already builds stateful testing on Hypothesis. The proposed bridge is already the product.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B11",
+    "title": "Privacy budget allocation across recurring reports",
+    "components": [
+      {
+        "repository": "google/differential-privacy",
+        "url": "https://github.com/google/differential-privacy"
+      },
+      {
+        "repository": "cvxpy/cvxpy",
+        "url": "https://github.com/cvxpy/cvxpy"
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+      }
+    ],
+    "buyer_hypothesis": "Analytics privacy engineer",
+    "technical_bridge": "Optimize accuracy across repeated releases subject to a total differential privacy budget.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Research-heavy privacy accounting and workload-specific utility require expertise; narrow payment and operational adoption unverified.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B12",
+    "title": "Schema-evolution adversarial compatibility fixtures",
+    "components": [
+      {
+        "repository": "apache/arrow",
+        "url": "https://github.com/apache/arrow"
+      },
+      {
+        "repository": "delta-io/delta-rs",
+        "url": "https://github.com/delta-io/delta-rs"
+      },
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      }
+    ],
+    "buyer_hypothesis": "Lakehouse connector maintainer",
+    "technical_bridge": "Generate minimal schema/type evolution cases that fail downstream readers.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Strong technical testing use but no independently verified paid wedge; broad cross-engine matrix maintenance expensive.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B13",
+    "title": "Deletion propagation proof packets",
+    "components": [
+      {
+        "repository": "MarquezProject/marquez",
+        "url": "https://github.com/MarquezProject/marquez"
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+      },
+      {
+        "repository": "open-policy-agent/opa",
+        "url": "https://github.com/open-policy-agent/opa"
+      }
+    ],
+    "buyer_hypothesis": "Data privacy operations team",
+    "technical_bridge": "Translate lineage and deletion policy into synthetic canary deletion runs and evidence.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Canary deletion does not prove real personal-data deletion completeness. Existing privacy orchestration; legal and system boundaries unresolved.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B14",
+    "title": "Uncertainty-aware flaky-test quarantine",
+    "components": [
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      },
+      {
+        "repository": "pymc-devs/pymc",
+        "url": "https://github.com/pymc-devs/pymc"
+      },
+      {
+        "repository": "google/or-tools",
+        "url": "https://github.com/google/or-tools"
+      }
+    ],
+    "buyer_hypothesis": "Developer productivity lead",
+    "technical_bridge": "Allocate reruns and quarantine using Bayesian failure estimates and CI capacity constraints.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Test intelligence/quarantine already commoditized; tests violate simple independent-stationary models. No new measured advantage.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B15",
+    "title": "Binary provenance rebuild verification",
+    "components": [
+      {
+        "repository": "anchore/syft",
+        "url": "https://github.com/anchore/syft"
+      },
+      {
+        "repository": "kpcyrd/rebuilderd",
+        "url": "https://github.com/kpcyrd/rebuilderd"
+      },
+      {
+        "repository": "sigstore/cosign",
+        "url": "https://github.com/sigstore/cosign"
+      }
+    ],
+    "buyer_hypothesis": "Release security lead",
+    "technical_bridge": "Join claimed artifact provenance to independent reproducible rebuild comparison.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Established reproducible-build and supply-chain verification architecture; packaging integration alone not a differentiated business.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  },
+  {
+    "id": "R2-B16",
+    "title": "Data incident causal fault campaigns",
+    "components": [
+      {
+        "repository": "MarquezProject/marquez",
+        "url": "https://github.com/MarquezProject/marquez"
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "url": "https://github.com/duckdb/duckdb"
+      },
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "url": "https://github.com/HypothesisWorks/hypothesis"
+      }
+    ],
+    "buyer_hypothesis": "Analytics reliability consultancy",
+    "technical_bridge": "Use lineage to inject bounded semantic faults and measure existing test sensitivity.",
+    "status": "screened; rejected",
+    "rejection_or_open_reason": "Lineage Fuzzer already demonstrates very close mechanism; convincing value requires client model corpus and comparison with ordinary mutation tests.",
+    "weighted_score": null,
+    "license_status": "Not fully audited: rejected at early screen; catalogue is metadata, not license clearance",
+    "pass_": false
+  }
+]

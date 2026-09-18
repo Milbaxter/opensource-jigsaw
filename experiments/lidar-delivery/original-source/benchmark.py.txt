@@ -1,0 +1,79 @@
+from pathlib import Path
+import json,time,copy,hashlib
+import numpy as np
+import laspy,pdfplumber
+from reportlab.pdfgen.canvas import Canvas
+from shapely.geometry import box,shape,mapping
+from pyproj import CRS
+from pydantic import BaseModel
+
+ROOT=Path(__file__).parent/'benchmark'
+class Contract(BaseModel):
+    crs:int
+    tiles:list[str]
+    points:int
+    aoi:list[float]
+
+def pdf(path, lines):
+    c=Canvas(str(path))
+    for i,line in enumerate(lines):c.drawString(50,800-i*20,line)
+    c.save()
+def text(path):
+    with pdfplumber.open(path) as d:return '\n'.join(p.extract_text() or '' for p in d.pages)
+def fields(path):return dict(line.split(': ',1) for line in text(path).splitlines())
+def create(name,mutation=None,wkt=False):
+    p=ROOT/name;p.mkdir(parents=True,exist_ok=True)
+    contract={'crs':32632,'tiles':['west.las','east.las'],'points':8,'aoi':[500000,6000000,500200,6000100]}
+    pdf(p/'contract.pdf',['CRS: 32632','TILES: west.las,east.las','POINTS: 8','AOI: 500000,6000000,500200,6000100'])
+    feats=[]
+    for i,fn in enumerate(contract['tiles']):
+        x0=500000+100*i;x1=x0+100;y0=6000000;y1=y0+100
+        h=laspy.LasHeader(point_format=6,version='1.4');h.offsets=np.array([500000,6000000,0.]);h.scales=np.array([.001,.001,.001]);h.add_crs(CRS.from_epsg(32632 if mutation!='las_crs' or i==0 else 32633))
+        d=laspy.LasData(h);d.x=[x0,x1,x0,x1];d.y=[y0,y0,y1,y1];d.z=[1,1,1,1]
+        if mutation=='half_coverage' and i==1:d.x=[x0,x0+50,x0,x0+50]
+        d.write(p/fn)
+        geom=box(x0,y0,x1,y1)
+        if mutation=='shift_index' and i==1:geom=box(x0+10,y0+10,x1+10,y1+10)
+        feats.append({'type':'Feature','properties':{'file':fn},'geometry':mapping(geom)})
+    if mutation=='missing_tile':(p/'east.las').unlink()
+    if mutation=='renamed_tile':(p/'east.las').rename(p/'renamed.las')
+    if mutation=='extra_index':feats.append({'type':'Feature','properties':{'file':'ghost.las'},'geometry':mapping(box(500200,6000000,500300,6000100))})
+    (p/'tile-index.geojson').write_text(json.dumps({'type':'FeatureCollection','crs':CRS.from_epsg(32632).to_wkt() if wkt else 'EPSG:32632','features':feats}))
+    pdf(p/'delivery-report.pdf',['CRS: '+str(32633 if mutation=='report_crs' else 32632),'POINTS: '+str(80 if mutation=='report_count' else 8)])
+    return p
+
+def run(p):
+    base_errors=[];errors=[]
+    cf=fields(p/'contract.pdf');rf=fields(p/'delivery-report.pdf')
+    contract=Contract(crs=int(cf['CRS']),tiles=cf['TILES'].split(','),points=int(cf['POINTS']),aoi=list(map(float,cf['AOI'].split(','))))
+    index=json.loads((p/'tile-index.geojson').read_text());icrs=CRS.from_user_input(index['crs'])
+    byfile={}
+    for f in p.glob('*.las'):
+        d=laspy.read(f);crs=d.header.parse_crs()
+        if crs is None or not len(d.points) or not np.isfinite(np.array([d.x,d.y,d.z])).all():base_errors.append(f.name)
+        byfile[f.name]={'crs':crs,'n':len(d.points),'bounds':box(float(min(d.x)),float(min(d.y)),float(max(d.x)),float(max(d.y)))}
+    for f in index['features']:
+        if not shape(f['geometry']).is_valid:base_errors.append('tile-index.geojson')
+    def flag(code,artifact,expected,actual):errors.append({'code':code,'artifact':artifact,'expected':expected,'actual':actual})
+    for fn in contract.tiles:
+        if fn not in byfile:flag('MISSING_CONTRACT_TILE',fn,'exists','absent')
+    for fn,v in byfile.items():
+        if not v['crs'].equals(CRS.from_epsg(contract.crs)):flag('CONTRACT_CRS_CONTRADICTION',fn,contract.crs,v['crs'].to_string())
+        if fn not in contract.tiles:flag('UNEXPECTED_TILE',fn,contract.tiles,fn)
+    for feat in index['features']:
+        fn=feat['properties']['file'];geom=shape(feat['geometry'])
+        if fn not in byfile:flag('INDEX_REFERENCES_MISSING_TILE','tile-index.geojson',fn,'absent')
+        elif not geom.equals(byfile[fn]['bounds']):flag('INDEX_FOOTPRINT_CONTRADICTION',fn,list(geom.bounds),list(byfile[fn]['bounds'].bounds))
+    if not icrs.equals(CRS.from_epsg(contract.crs)):flag('INDEX_CRS_CONTRADICTION','tile-index.geojson',contract.crs,icrs.to_string())
+    actual_points=sum(v['n'] for v in byfile.values())
+    if int(rf['POINTS'])!=actual_points:flag('REPORT_POINT_COUNT_CONTRADICTION','delivery-report.pdf',actual_points,int(rf['POINTS']))
+    if not CRS.from_epsg(int(rf['CRS'])).equals(CRS.from_epsg(contract.crs)):flag('REPORT_CRS_CONTRADICTION','delivery-report.pdf',contract.crs,int(rf['CRS']))
+    hashes={f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in p.iterdir() if f.is_file()}
+    return {'case':p.name,'baseline_flags':base_errors,'bridge_flags':errors,'inputs_sha256':hashes}
+
+start=time.perf_counter()
+cases=[('clean_epsg',None,False),('clean_equivalent_wkt',None,True)]+[(x,x,False) for x in ['las_crs','missing_tile','shift_index','report_count','report_crs','extra_index','renamed_tile','half_coverage']]
+results=[run(create(*case)) for case in cases]
+summary={'adversarial_detected':sum(bool(x['bridge_flags']) for x in results[2:]),'adversarial_total':8,'clean_false_alarms':sum(bool(x['bridge_flags']) for x in results[:2]),'clean_total':2,'baseline_adversarial_detected':sum(bool(x['baseline_flags']) for x in results[2:]),'elapsed_seconds':time.perf_counter()-start,'scope':'synthetic adversarial essential-bridge comparison; not commercial baseline or real-customer generalization','results':results}
+(ROOT/'results.json').write_text(json.dumps(summary,indent=2))
+print(json.dumps({k:v for k,v in summary.items() if k!='results'},indent=2))

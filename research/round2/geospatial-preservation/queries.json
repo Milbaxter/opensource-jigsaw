@@ -1,0 +1,62 @@
+[
+  {
+    "query": "geospatial is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 1443,
+    "fetched": 40
+  },
+  {
+    "query": "document processing is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 401,
+    "fetched": 40
+  },
+  {
+    "query": "digital preservation is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 37,
+    "fetched": 37
+  },
+  {
+    "query": "pdf accessibility is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 59,
+    "fetched": 40
+  },
+  {
+    "query": "cadastral is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 12,
+    "fetched": 12
+  },
+  {
+    "query": "environmental data is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 171,
+    "fetched": 40
+  },
+  {
+    "query": "lidar is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 1014,
+    "fetched": 40
+  },
+  {
+    "query": "scientific workflow is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 80,
+    "fetched": 40
+  },
+  {
+    "query": "dxf is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 168,
+    "fetched": 40
+  },
+  {
+    "query": "biodiversity is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 174,
+    "fetched": 40
+  },
+  {
+    "query": "data anonymization is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 93,
+    "fetched": 40
+  },
+  {
+    "query": "ocr is:public archived:false pushed:>=2025-09-01 stars:>=5",
+    "total_count": 2646,
+    "fetched": 40
+  }
+]

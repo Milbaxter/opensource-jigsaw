@@ -1,0 +1,233 @@
+{
+  "adversarial_detected": 8,
+  "adversarial_total": 8,
+  "clean_false_alarms": 0,
+  "clean_total": 2,
+  "baseline_adversarial_detected": 0,
+  "elapsed_seconds": 0.12479787500342354,
+  "scope": "synthetic adversarial essential-bridge comparison; not commercial baseline or real-customer generalization",
+  "results": [
+    {
+      "case": "clean_epsg",
+      "baseline_flags": [],
+      "bridge_flags": [],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "eea20edbe6bb62283dac01eee30fefea17438031fe78258a445235de27fe34c0",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "16e612509ac134982ad72b1975b8c263d495e3968c47fa555617ece25cc5be31"
+      }
+    },
+    {
+      "case": "clean_equivalent_wkt",
+      "baseline_flags": [],
+      "bridge_flags": [],
+      "inputs_sha256": {
+        "tile-index.geojson": "9dd30af6cd2aaff6f6dc99910fd8618ac5bc9e6a8bc5a6084e1cd58bc6f91667",
+        "delivery-report.pdf": "e6c2ca3fbc3880db8f8e1ef1e932909bb0da7f3cd185c6d5a8316fd7849ee111",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "65a24b27c06231cc3ff06f2689df8c5e4aaad86f67431210d638335b57b3356e"
+      }
+    },
+    {
+      "case": "las_crs",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "CONTRACT_CRS_CONTRADICTION",
+          "artifact": "east.las",
+          "expected": 32632,
+          "actual": "EPSG:32633"
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "2f868dd6912120b2516c155481fd3ea39e8e56a2215653c9e427e0bf1571efaf",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "7ab31ffeafeee263e64d76b79ceb43d195fbfd3649f4eec4d8a38f01e14dd0f5",
+        "contract.pdf": "cb7ae7692fbfdd3ac575af8472b6309bcc797cc2d723d4d1a372329c689695b8"
+      }
+    },
+    {
+      "case": "missing_tile",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "MISSING_CONTRACT_TILE",
+          "artifact": "east.las",
+          "expected": "exists",
+          "actual": "absent"
+        },
+        {
+          "code": "INDEX_REFERENCES_MISSING_TILE",
+          "artifact": "tile-index.geojson",
+          "expected": "east.las",
+          "actual": "absent"
+        },
+        {
+          "code": "REPORT_POINT_COUNT_CONTRADICTION",
+          "artifact": "delivery-report.pdf",
+          "expected": 4,
+          "actual": 8
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "871b4500497fa05d9a51f7eb766a1b7b6154127b04b566db9a3e45a07c87e3b6",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "contract.pdf": "e04dbb649a64d94e09406a7a056f8e4fb1241b1aedd9daf27781487b5db3d312"
+      }
+    },
+    {
+      "case": "shift_index",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "INDEX_FOOTPRINT_CONTRADICTION",
+          "artifact": "east.las",
+          "expected": [
+            500110.0,
+            6000010.0,
+            500210.0,
+            6000110.0
+          ],
+          "actual": [
+            500100.0,
+            6000000.0,
+            500200.0,
+            6000100.0
+          ]
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "79f7930986283b04d1e64183bbbeaae6a9242aa75e2a931f43ed8aa33da4901b",
+        "delivery-report.pdf": "8a3a7f9a6bec849b33323096237f2abaea9f75f8ba4f88ae111c89bcf7c5a3c5",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "7e1d1e55bad5f49ac9905cde59d73cab27135098f682371f744164b6890f54ae"
+      }
+    },
+    {
+      "case": "report_count",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "REPORT_POINT_COUNT_CONTRADICTION",
+          "artifact": "delivery-report.pdf",
+          "expected": 8,
+          "actual": 80
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "10ce9d7b18286ade938361742e6aacbc37be0f10e2b151cc073c50d10925a2a1",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "cce0a39626bb96e580d488264046fe0f7b31f69dc403cebbd85a9401b303c8b7"
+      }
+    },
+    {
+      "case": "report_crs",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "REPORT_CRS_CONTRADICTION",
+          "artifact": "delivery-report.pdf",
+          "expected": 32632,
+          "actual": 32633
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "1fe3adf7ba659cee88e19bf3da9fb2c0e57cc74f5aa463ee6fff66ac756d1dbd",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "2b625a46dbe241f9ac2b6fd7fefcc32cba3cab08a26b188b80237acce982e9e8"
+      }
+    },
+    {
+      "case": "extra_index",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "INDEX_REFERENCES_MISSING_TILE",
+          "artifact": "tile-index.geojson",
+          "expected": "ghost.las",
+          "actual": "absent"
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "392b4e1d323122ed1c8e2f49765dae201e1b72ce1148bfe327b266bc56c15be4",
+        "delivery-report.pdf": "b5890e51c3034c4c5d87529ecfae27f8999ddeb818833c6bdc3f0fbebddb5cd4",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "4332e3ccf3ab6f54f74cad1487791cf70e1cf59836e7bbbc9b9b9ba2b7c0a683"
+      }
+    },
+    {
+      "case": "renamed_tile",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "MISSING_CONTRACT_TILE",
+          "artifact": "east.las",
+          "expected": "exists",
+          "actual": "absent"
+        },
+        {
+          "code": "UNEXPECTED_TILE",
+          "artifact": "renamed.las",
+          "expected": [
+            "west.las",
+            "east.las"
+          ],
+          "actual": "renamed.las"
+        },
+        {
+          "code": "INDEX_REFERENCES_MISSING_TILE",
+          "artifact": "tile-index.geojson",
+          "expected": "east.las",
+          "actual": "absent"
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "renamed.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "delivery-report.pdf": "661f0e49b3ad7f83319ac8a3508cd27ced919160dd959f29a8fb975391330abb",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "contract.pdf": "2029689e30aecadf3c567c2b831ef6ee54d3f2077fa1b9569d8bd1586cb53553"
+      }
+    },
+    {
+      "case": "half_coverage",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "INDEX_FOOTPRINT_CONTRADICTION",
+          "artifact": "east.las",
+          "expected": [
+            500100.0,
+            6000000.0,
+            500200.0,
+            6000100.0
+          ],
+          "actual": [
+            500100.0,
+            6000000.0,
+            500150.0,
+            6000100.0
+          ]
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "6e3d0f0a8ca18070b531168b6fdf0ce721fd788767ba92039793e02ed021b733",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "ce89b4822930a577d858269f8ab9235125dae724767177e8f02abf9d88651299",
+        "contract.pdf": "2404a7ca925a64891ca8866151465c58eef6acf22d704280de113366b576946a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "full_name": "dvryaboy/dblect",
+  "html_url": "https://github.com/dvryaboy/dblect",
+  "private": false,
+  "archived": false,
+  "pushed_at": "2026-09-17T14:00:13Z",
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "commit": "8ebf61e9ad2c5b50484f6a63941503b177061b5d",
+  "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+}

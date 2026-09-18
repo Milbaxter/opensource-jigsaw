@@ -1,0 +1,163 @@
+[
+  {
+    "id": "dbt_current_units",
+    "url": "https://docs.getdbt.com/docs/build/unit-tests",
+    "finding": "Current native support includes is_incremental overrides, mocked this, experimental local DuckDB execution; expected incremental result is insertion/merge input, not final materialized table.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dbt_materialization_gap",
+    "url": "https://github.com/dbt-labs/dbt/issues/8664",
+    "finding": "Open feature request for tests after incremental materialization, including partitioning strategies.",
+    "source_type": "primary issue",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dbt_property_request",
+    "url": "https://github.com/dbt-labs/dbt-core/discussions/5745",
+    "finding": "Practitioner asks for generated property tests, including incremental idempotence/commutativity.",
+    "source_type": "primary practitioner discussion",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dbt_transition_request",
+    "url": "https://github.com/dbt-labs/dbt-core/discussions/10226",
+    "finding": "Practitioner describes multi-state transition testing difficulty; final reply accepts proposed workaround for their corners.",
+    "source_type": "primary practitioner discussion with counterevidence",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "recce_price",
+    "url": "https://reccehq.com/pricing/",
+    "finding": "Current Team price $250/month annual; 1000 agent reviews and unlimited custom checks. This is adjacent paid category, not willingness to pay for our proposed fuzzer.",
+    "source_type": "vendor pricing",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "recce_capabilities",
+    "url": "https://docs.reccehq.com/whats-recce/cloud-vs-oss/",
+    "finding": "Existing data diffs, custom queries and CI collaboration; no inspected claim of adversarial state-sequence generation.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "datafold_price",
+    "url": "https://www.datafold.com/faq/how-does-datafolds-pricing-work/",
+    "finding": "Migration conversion/validation can be purchased separately; platform pricing depends on users/tables.",
+    "source_type": "vendor pricing",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "datafold_chg",
+    "url": "https://www.datafold.com/case-study/chg-healthcare-mysql-to-snowflake-migration/",
+    "finding": "Vendor-published customer case describes 1000+ migrated queries and planned consulting spend of $10000/week; not our product pricing.",
+    "source_type": "vendor customer case",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "datafold_ci",
+    "url": "https://www.datafold.com/data-deployment-testing/",
+    "finding": "Production/development value-level diffs and CI integration.",
+    "source_type": "vendor product documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dbt_partners",
+    "url": "https://www.getdbt.com/partners",
+    "finding": "Identifiable consulting partner population; no outreach, adoption, or agreement established.",
+    "source_type": "official partner directory",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "sqlmesh_tests",
+    "url": "https://sqlmesh.readthedocs.io/en/stable/concepts/tests/",
+    "finding": "Fixed input/output tests and test creation from queries.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "sqlmesh_comparison",
+    "url": "https://sqlmesh.readthedocs.io/en/stable/comparisons/",
+    "finding": "Interval tracking and missing-data gap handling offer a substantive alternative to max-date incremental patterns.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "sqlmesh_dbt",
+    "url": "https://sqlmesh.readthedocs.io/en/stable/integrations/dbt/",
+    "finding": "Compatibility with dbt projects and specific required incremental adaptations.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "elementary_tests",
+    "url": "https://docs.elementary-data.com/data-tests/introduction",
+    "finding": "Anomaly/schema/data/custom Python tests; custom tests could host equivalent logic.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "elementary_price",
+    "url": "https://www.elementary-data.com/pricing",
+    "finding": "Contact-priced plans with AI test coverage and incident features; no numerical price verified.",
+    "source_type": "vendor pricing",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "soda_tests",
+    "url": "https://docs.soda.io/data-testing",
+    "finding": "Contract/schema/rule verification with CI execution.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "hypothesis_stateful",
+    "url": "https://hypothesis.readthedocs.io/en/latest/stateful.html",
+    "finding": "Stateful operation generation and shrinking are available mechanisms.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dblect_current",
+    "url": "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/docs/current_state/capabilities.md",
+    "finding": "Current static pipeline and dbt/DuckDB execution substrate; runtime PBT layer is not on check path.",
+    "source_type": "commit-pinned primary code/docs",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "dblect_prior_art",
+    "url": "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/questions_and_decisions.md",
+    "finding": "Exact conceptual overlap: duplicate and late rows, shrinking, multi-step incremental replay deferred from v1.",
+    "source_type": "commit-pinned primary design",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "lineage_fuzzer",
+    "url": "https://devpost.com/software/lineage-fuzzer",
+    "finding": "Creator demonstrates bounded deterministic semantic fault campaign on isolated DuckDB; close precedent for data fault coverage testing.",
+    "source_type": "primary creator description",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "verieql",
+    "url": "https://github.com/VeriEQL/VeriEQL",
+    "finding": "Bounded SQL equivalence and counterexamples; code license noncommercial CC BY-NC-SA4.0.",
+    "source_type": "primary repository",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "skolem",
+    "url": "https://github.com/NguyenTienDat377/Skolem",
+    "finding": "Direct comparator already offers Z3 SQL equivalence witnesses and CI/API/billing integrations; repo activity does not establish traction.",
+    "source_type": "primary repository",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  },
+  {
+    "id": "snowflake_validation",
+    "url": "https://docs.snowflake.com/en/migrations/data-migration-and-data-validation",
+    "finding": "Established migration/validation workflow with schema/metrics/row checks.",
+    "source_type": "official documentation",
+    "retrieved_at": "2026-09-18T08:06:54.605209+00:00"
+  }
+]

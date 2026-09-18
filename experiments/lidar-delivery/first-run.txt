@@ -1,0 +1,9 @@
+{
+  "adversarial_detected": 8,
+  "adversarial_total": 8,
+  "clean_false_alarms": 0,
+  "clean_total": 2,
+  "baseline_adversarial_detected": 0,
+  "elapsed_seconds": 0.12479787500342354,
+  "scope": "synthetic adversarial essential-bridge comparison; not commercial baseline or real-customer generalization"
+}

@@ -1,0 +1,314 @@
+{
+  "rubric_version": "v2",
+  "candidate_id": "R2-B01",
+  "reviewer": "Independent Astra reviewer /root/astra_round2_a; not author of this candidate; reviewed 2026-09-18",
+  "idea": {
+    "title": "Stateful incremental-model regression campaigns",
+    "thesis": "Generate admissible source histories, replay successive actual dbt materializations, and export counterexamples where the incremental current-state output differs from a fresh oracle. Sell a narrow correctness audit only if it saves diagnosis effort beyond existing tests.",
+    "components": [
+      {
+        "repository": "HypothesisWorks/hypothesis",
+        "role": "Generate and minimize ordered batch traces.",
+        "necessity": "Supplies counterexample search/reduction; the prototype invokes Hypothesis.find rather than manually choosing every discovery trace."
+      },
+      {
+        "repository": "dbt-labs/dbt",
+        "role": "Compile and invoke real dbt Core incremental/table materializations.",
+        "necessity": "A Python simulation alone cannot establish behavior of actual dbt materialization macros."
+      },
+      {
+        "repository": "duckdb/dbt-duckdb",
+        "role": "Adapter and actual DuckDB incremental materialization strategies.",
+        "necessity": "Connects dbt invocation to DuckDB and executes append/delete+insert semantics."
+      },
+      {
+        "repository": "duckdb/duckdb",
+        "role": "Persist isolated source/target/oracle state and read exact output rows.",
+        "necessity": "Actual database execution and duplicate-preserving row comparisons verify that surrogate findings are real in the stated environment."
+      }
+    ],
+    "buyer": "Delivery lead at a small dbt consultancy, or analytics engineering manager owning current-state incremental marts.",
+    "painful_workflow": "Regression tests of populated incremental targets across subsequent source changes; full-refresh and simple key checks can pass while old or equal-watermark events are lost or stale.",
+    "novel_mechanism": "Practical automated temporal-trace generation plus actual successive materialization and oracle comparison beyond a static/key or ordered-smoke baseline. Exact conceptual prior art exists in dblect; no world-first or generally superior test-suite claim.",
+    "business_model": "Hypothesized fixed-scope paid audit plus reusable regression fixtures; proposed $750 follow-on audit is a test offer, not observed willingness to pay.",
+    "integration_plan": "Bind an explicit current-state/unique-key/lateness/update contract to eligible DuckDB-compatible models; generate batch traces; execute actual incremental and full-refresh variants; compare row bags; retain model/version/input hashes and diagnosis fixtures. Do not generalize Python surrogate behavior to arbitrary models without actual execution.",
+    "cheapest_falsification": "Paired review on six consented eligible models against the owner's existing dbt unit/integration tests plus an engineer's hand-authored temporal fixture. Stop if useful findings or diagnosis/setup savings do not beat that baseline."
+  },
+  "scores": {
+    "novel_synergy": 7,
+    "buyer_pain": 8,
+    "willingness_to_pay": 7,
+    "feasibility": 9,
+    "defensibility": 6,
+    "distribution": 7,
+    "evidence": 9
+  },
+  "score_reasons": {
+    "novel_synergy": "7: the reproducible same-input comparison shows temporal discrepancies beyond the static/key baseline and the ordered smoke; every component contributes. But dblect explicitly describes late/duplicate rows, shrinking and multi-step replay, and a modest manual integration harness can reproduce these examples. No setup-cost or coverage advantage over a strong manual suite has been measured.",
+    "buyer_pain": "8: practitioner requests and dbt's acknowledged final-materialization unit-test gap support an owned correctness workflow with consequential missed/stale rows. Revenue/customer examples make it plausible to investigate. Sources do not quantify recurring loss or demonstrate that this is a top-three purchasing priority; I do not award 9.",
+    "willingness_to_pay": "7: Recce's offered $250/month annual Team tier and Datafold's paid validation category establish plausible budget. Neither demonstrates incremental demand for an adversarial temporal fuzzer; the suggested audit price remains a hypothesis.",
+    "feasibility": "9: I independently reran the unchanged benchmark using recorded versions. Five real materialization discrepancies and corresponding corrected controls reproduced in 18.894 seconds. This scores the bounded local bridge, not arbitrary SQL, cloud adapters or production-scale CI. The current surrogate and SQL generator are specialized to simple keyed models.",
+    "defensibility": "6: a consented corpus of adapter-specific regressions, validity contracts and supported replay fixtures is a concrete possible service asset; acquire explicit reuse rights in pilots and test whether a held-out consultancy reuses profiles with reduced setup time. This is a weak, testable route rather than an existing moat. dblect and dbt/Recce could copy/integrate the mechanism; no higher score is justified.",
+    "distribution": "7: the public dbt consultancy partner directory identifies reachable delivery leads and standard business inquiry routes. A small opt-in audit can be recruited without production rows. No permission to message anyone, signed participants, conversion or repeatable acquisition economics exists; the study has an early recruitment kill.",
+    "evidence": "9: protocol, two attempts, raw actual/expected rows, exact versions and current code were inspected; independent replay succeeded; installed primary licenses were read. dblect and the accepted-workaround discussion are retained as adverse evidence. Synthetic narrow models establish only mechanism, and economic/generalization claims remain explicitly unverified."
+  },
+  "confidence": 0.82,
+  "confidence_basis": "Confidence that a strictly capped information-gathering study is technically and legally possible, based on independent replay and primary sources; not confidence of profitability, customer adoption or an 80-point pursuit pass. The score remains 76/100.",
+  "recommendation": "watch",
+  "gates": {
+    "problem_and_paid_category": {
+      "passed": true,
+      "reasoning": "Independent practitioner materialization/testing requests and vendor pricing collectively support a real workflow and paid adjacent category. Pricing is an offer, not sales evidence; no entrant demand inferred.",
+      "references": [
+        "https://github.com/dbt-labs/dbt-core/discussions/5745",
+        "https://github.com/dbt-labs/dbt/issues/8664",
+        "https://reccehq.com/pricing/"
+      ]
+    },
+    "comparative_mechanism": {
+      "passed": true,
+      "reasoning": "Pass only for the narrowly stated mechanism: same source histories pass full-refresh/key checks yet fail actual incremental equality; ordered happy-path smoke is also passed. A manual temporal harness is the strongest practical substitute. dblect is exact conceptual prior art but runtime generation is unshipped in inspected commit. No measured effort/performance advantage over these stronger alternatives is claimed.",
+      "references": [
+        "experiments/incremental-fuzz/run2/results.json",
+        "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/docs/current_state/capabilities.md",
+        "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/questions_and_decisions.md"
+      ]
+    },
+    "executed_bridge": {
+      "passed": true,
+      "reasoning": "Read actual code, SQL/log artifacts and both runs, then independently ran the unchanged benchmark at pinned versions. Hypothesis traces are loaded into DuckDB; real dbt Core + adapter materialize target/oracle; fetched ordered rows preserve duplicate multiplicity. All five actual-db discrepancies and corrected controls reproduced.",
+      "references": [
+        "experiments/incremental-fuzz/benchmark.py",
+        "experiments/incremental-fuzz/run2/results.json",
+        "experiments/incremental-fuzz/requirements.txt"
+      ]
+    },
+    "failure_and_baseline_checks": {
+      "passed": true,
+      "reasoning": "Frozen protocol defines cases, controls, same-input baselines and execution/time thresholds. Run1 late classifier conflated same-batch versus previous-batch watermark; record preserved. Run2 correctly contains genuine late arrival and two independently specified correction holdouts. I inspected the failed interpretation and successful repair. No claim that surrogate-only controls are real dbt tests.",
+      "references": [
+        "experiments/incremental-fuzz/PREREGISTRATION.md",
+        "experiments/incremental-fuzz/run1/results.json",
+        "experiments/incremental-fuzz/run2/results.json"
+      ]
+    },
+    "rights_and_access": {
+      "passed": true,
+      "reasoning": "Exact installed distribution licenses inspected: dbt-core1.12.5 and dbt-duckdb1.11.0 Apache-2.0, DuckDB1.5.5 MIT, Hypothesis6.168.0 MPL-2.0. Local unmodified dependencies with retained notices are compatible for this study. All demo rows are generated; proposed real-model audit requires explicit owner consent, can run in owner environment, and does not need production rows. No inaccessible proprietary dataset is essential to recruiting or conducting a consented study. No rights inference is made for dbt engine v2 default distribution.",
+      "references": [
+        "https://pypi.org/project/dbt-core/1.12.5/",
+        "https://pypi.org/project/dbt-duckdb/1.11.0/",
+        "https://pypi.org/project/duckdb/1.5.5/",
+        "https://pypi.org/project/hypothesis/6.168.0/"
+      ]
+    },
+    "bounded_safe_use": {
+      "passed": true,
+      "reasoning": "Offline disposable databases, no production writes, no credentials required, synthetic histories and qualified owner interpretation; telemetry disabled. Exclude historical/snapshot models where full-refresh equality is not the intended contract. No operational decisions delegated to generated counterexamples.",
+      "references": [
+        "experiments/incremental-fuzz/PREREGISTRATION.md",
+        "experiments/incremental-fuzz/benchmark.py"
+      ]
+    },
+    "economic_and_acquisition_experiment": {
+      "passed": true,
+      "reasoning": "A conditional 14-day/24-engineering-hour/$750-cash study is fully specified below, including recruitment kill, strong manual baseline, setup/support labor and paid-commitment target. It is feasible as an information-gathering test but is not automatically authorized or recommended by the subthreshold overall verdict.",
+      "references": [
+        "https://www.getdbt.com/partners",
+        "experiments/incremental-fuzz/PREREGISTRATION.md"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "url": "https://github.com/dbt-labs/dbt-core/discussions/5745",
+      "title": "Practitioner request for property-based dbt tests",
+      "claim": "Need for generated incremental properties",
+      "finding": "Practitioner asks for generated tests including incremental idempotence/commutativity; one public request does not quantify market size.",
+      "kind": "demand",
+      "supports": true
+    },
+    {
+      "url": "https://github.com/dbt-labs/dbt/issues/8664",
+      "title": "dbt materialized incremental testing request",
+      "claim": "Owned materialization testing gap",
+      "finding": "Open feature request includes partitioned insert_overwrite/delete+insert behavior; direct technical pain evidence.",
+      "kind": "demand",
+      "supports": true
+    },
+    {
+      "url": "https://reccehq.com/pricing/",
+      "title": "Recce current pricing",
+      "claim": "Adjacent paid category",
+      "finding": "Official page offers Team at $250/month paid annually and $300 monthly, including custom checks and support; no inference of this product's demand.",
+      "kind": "pricing",
+      "supports": true
+    },
+    {
+      "url": "https://www.datafold.com/faq/how-does-datafolds-pricing-work/",
+      "title": "Datafold validation pricing structure",
+      "claim": "Commercial validation budget category",
+      "finding": "Vendor offers validation via platform and migration pricing; no numeric price for this candidate.",
+      "kind": "pricing",
+      "supports": true
+    },
+    {
+      "url": "https://docs.getdbt.com/docs/build/unit-tests",
+      "title": "Current dbt unit-test documentation",
+      "claim": "Static vs final materialization boundary",
+      "finding": "Incremental mocks exist, but expected rows are merge/insert input rather than resulting target; documentation explicitly notes the final-target test gap.",
+      "kind": "technical",
+      "supports": true
+    },
+    {
+      "url": "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/questions_and_decisions.md",
+      "title": "dblect pinned design decisions",
+      "claim": "Exact conceptual overlap",
+      "finding": "Duplicate/late rows, per-intent shrinking and deferred multi-step state-machine replay are explicitly described. This defeats a generic invention claim and materially limits defensibility.",
+      "kind": "competitor",
+      "supports": false
+    },
+    {
+      "url": "https://github.com/dvryaboy/dblect/blob/8ebf61e9ad2c5b50484f6a63941503b177061b5d/docs/current_state/capabilities.md",
+      "title": "dblect pinned shipped capabilities",
+      "claim": "Shipped/runtime boundary",
+      "finding": "Static analyzer and execution substrate exist; generated runtime half is explicitly not built at inspected commit. It is not a completed competing runtime benchmark.",
+      "kind": "competitor",
+      "supports": false
+    },
+    {
+      "url": "https://github.com/dbt-labs/dbt-core/discussions/10226",
+      "title": "Practitioner accepts suggested dbt workaround",
+      "claim": "Simple existing alternatives can suffice",
+      "finding": "Original requester later accepts native-test/snapshot suggestions for their corner cases; do not portray all users as blocked.",
+      "kind": "competitor",
+      "supports": false
+    },
+    {
+      "url": "https://www.getdbt.com/partners",
+      "title": "dbt partner directory/program",
+      "claim": "Reachable consultancy segment",
+      "finding": "Official partner route links consulting firms; this supplies identifiable prospects, not opt-in or acquisition success.",
+      "kind": "demand",
+      "supports": true
+    },
+    {
+      "url": "https://pypi.org/project/hypothesis/6.168.0/",
+      "title": "Hypothesis exact distribution",
+      "claim": "MPL-2.0 rights",
+      "finding": "Installed 6.168.0 LICENSE.txt read and hashed; retain file-level MPL terms if distributing modifications.",
+      "kind": "license",
+      "supports": true
+    },
+    {
+      "url": "https://pypi.org/project/dbt-core/1.12.5/",
+      "title": "dbt Core exact distribution",
+      "claim": "Apache-2.0 pinned rights",
+      "finding": "Installed 1.12.5 LICENSE read. Page also warns of v2/namespace transition; do not carry this license conclusion to every future default distribution.",
+      "kind": "license",
+      "supports": true
+    }
+  ],
+  "rights": [
+    {
+      "repository": "HypothesisWorks/hypothesis",
+      "version": "6.168.0",
+      "license": "MPL-2.0",
+      "source": "https://pypi.org/project/hypothesis/6.168.0/",
+      "obligations": "Unmodified local dependency for study; retain copyright/license notices. If distributing modified MPL-covered files, preserve MPL notices and make covered source available; separate harness code may use compatible independent terms. Exact installed distribution primary license file independently read; saved and hashed in exact-license-manifest.json."
+    },
+    {
+      "repository": "dbt-labs/dbt",
+      "version": "1.12.5",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/dbt-core/1.12.5/",
+      "obligations": "Unmodified local dependency for study; retain copyright/license notices. Preserve Apache license/NOTICE and identify changed files in redistributed derivatives; do not imply trademark rights. Exact installed distribution primary license file independently read; saved and hashed in exact-license-manifest.json."
+    },
+    {
+      "repository": "duckdb/dbt-duckdb",
+      "version": "1.11.0",
+      "license": "Apache-2.0",
+      "source": "https://pypi.org/project/dbt-duckdb/1.11.0/",
+      "obligations": "Unmodified local dependency for study; retain copyright/license notices. Preserve Apache license/NOTICE and identify changed files in redistributed derivatives; do not imply trademark rights. Exact installed distribution primary license file independently read; saved and hashed in exact-license-manifest.json."
+    },
+    {
+      "repository": "duckdb/duckdb",
+      "version": "1.5.5",
+      "license": "MIT",
+      "source": "https://pypi.org/project/duckdb/1.5.5/",
+      "obligations": "Unmodified local dependency for study; retain copyright/license notices. Include MIT copyright and permission notice in redistributed substantial copies. Exact installed distribution primary license file independently read; saved and hashed in exact-license-manifest.json."
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "protocol",
+      "path": "experiments/incremental-fuzz/PREREGISTRATION.md",
+      "sha256": "9841a0773117281a4a1c44ea0321bdb3e56482b0e35b849c24b2ed6448d7d0e4"
+    },
+    {
+      "role": "implementation",
+      "path": "experiments/incremental-fuzz/benchmark.py",
+      "sha256": "beb26b16208af2f6f071a2aa1606979b70b3b0606195ed2e6d4c47c97846a973"
+    },
+    {
+      "role": "results",
+      "path": "experiments/incremental-fuzz/run2/results.json",
+      "sha256": "a84cb055d6da8410308b1675782f74fbaafc7719fc089b19e4e568379aa454f4"
+    },
+    {
+      "role": "other",
+      "path": "experiments/incremental-fuzz/run1/results.json",
+      "sha256": "968ddeaf1aa1d4e2e1613a9876a91d245bd57e9851a910c867810b6b11fdbc0d"
+    },
+    {
+      "role": "other",
+      "path": "experiments/incremental-fuzz/requirements.txt",
+      "sha256": "acc3415c417e5c087edda94a637c9cbaf673a6e2612dc0b3ec4447ec60b2b621"
+    },
+    {
+      "role": "other",
+      "path": "docs/rubric-v2.md",
+      "sha256": "1a571b21c96b8ff663dec93a8aae900c4b5c66fa0408c9d75c5066d2f73aab09"
+    }
+  ],
+  "unresolved_blockers": [],
+  "remaining_hypotheses": [
+    "A useful number of customer models fit current-state equivalence and can execute with faithful DuckDB semantics; arbitrary cloud-adapter compatibility is unproven.",
+    "Model/contract setup and diagnosis cost is lower than a competent engineer adding a small manual temporal regression suite.",
+    "Consultancy leads will provide consented SQL/schema/contract access and pay for a follow-on audit rather than treating this as a free framework feature.",
+    "A licensed regression/profile corpus can be reused across customers with measurable setup benefit; no corpus exclusivity or moat exists today.",
+    "dblect/native dbt/Recce integration will not eliminate willingness to pay for specialized audit/support. A contribution/plugin route may dominate standalone product.",
+    "Run2 labels are correct, but the fixed hand-authored holdouts inherit a generic shrinking_claim field; they were not generated/shrunk by Hypothesis and must not be described that way."
+  ],
+  "experiment": {
+    "owner": "Project owner as study lead and engineer; each participating consultancy nominates its delivery/analytics lead as ground-truth reviewer. No external contact made by this review.",
+    "buyer": "Three willing small dbt-consultancy delivery leads, each offering two eligible current-state incremental models, with buying authority for a fixed-scope follow-on correctness audit.",
+    "recruitment_channel": "User-authorized individual business inquiries to at most 15 relevant firms from dbt's public partner finder or an explicitly allowed community opt-in post. No scraping personal contacts or unsolicited issue comments. Eligibility: DuckDB-compatible models or owner-run faithful environment, explicit SQL/test permissions, owner-defined temporal validity contract. Kill if fewer than two consented firms by day5.",
+    "sample_size": 3,
+    "max_days": 14,
+    "max_engineering_hours": 24.0,
+    "max_cash_usd": 750.0,
+    "baseline": "Owner's existing dbt unit/data tests plus a competent engineer adding hand-written two-batch temporal tests; same six eligible models, same declared admissible histories and equivalent materialized row comparison. Blind the reviewer to which method found a defect; measure setup, review and diagnosis time including failed/unsupported models.",
+    "success_metrics": [
+      "At least two firms consent by day5 and three provide two eligible models each by day8; unsupported models and recruiting time count against limits.",
+      "At least two owner-confirmed actionable temporal defects or useful regression gaps not caught by the owners' existing suites; require the strong hand-authored baseline to assess whether automation adds value, not just whether seeded bugs exist.",
+      "Median total engineer setup+review+diagnosis time per model is at least30% lower than the hand-authored baseline, with no more than1 false actionable alert across six models; record tiny-sample uncertainty.",
+      "At least two delivery leads approve a $750 follow-on paid audit offer, contingent on their ordinary procurement process; do not count compliments, free-trial participation or hypothetical survey pricing as payment.",
+      "Obtain optional explicit permission for reusable de-identified regression cases; at least one profile must reduce setup time on a held-out second firm before claiming corpus reuse value."
+    ],
+    "kill_metrics": [
+      "Fewer than two consented firms by day5, or essential model/contract access is refused: stop recruiting and do not spend remaining engineering budget.",
+      "Any oracle/contract ambiguity, accidental production mutation risk or unfaithful adapter translation: exclude the model and report it; stop if fewer than four eligible models remain.",
+      "No additional actionable value beyond the strong manual baseline, no material setup/diagnosis savings, or more than1 false actionable alert: do not package a product.",
+      "No two genuine paid follow-on approvals by day14, or setup/support makes $750 audit economics implausible: retain OSS contribution/research only.",
+      "Stop at24 engineering hours or$750 incremental cash whichever comes first; do not extend the sample until a favorable result appears."
+    ],
+    "limitations": [
+      "This is a conditional falsification plan, not a v2 pursuit pass. The overall score76 is below80. No outreach or payment transaction is authorized by writing it.",
+      "Cash budget: up to$450 participant honoraria, $50 compute and $250 reserve; engineering allocation:4h recruitment/contracts,9h model adaptation,6h paired measurement,3h analysis and2h support. Fully loaded labor at an assumed$100/h is$2400 opportunity cost, so total economic ceiling is$3150, not$750. These are planning assumptions, not observed costs.",
+      "Six consented models and14 days cannot estimate production defect prevalence, retention or lifetime value; second-model reuse is only a short-term repeat-use proxy.",
+      "Current benchmark surrogate encodes the simple example model; audit findings on different SQL must be actually executed, not inferred from this surrogate.",
+      "No claim of Snowflake/BigQuery equivalence, deletes, history-preserving snapshots, concurrent writes or large-scale performance; restrict eligibility or mark unsupported."
+    ]
+  }
+}

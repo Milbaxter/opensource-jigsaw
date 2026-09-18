@@ -1,0 +1,1311 @@
+{
+  "data": "synthetic; seeded model defects; not production prevalence",
+  "versions": {
+    "dbt-core": "1.12.5",
+    "dbt-duckdb": "1.11.0",
+    "duckdb": "1.5.5",
+    "hypothesis": "6.168.0"
+  },
+  "python": "3.11.14",
+  "cases": {
+    "late": {
+      "source": "Hypothesis.find",
+      "discovered_trace": [
+        [
+          [
+            1,
+            2,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      ],
+      "shrinking_claim": "Hypothesis minimized search; no pre-shrink size claimed",
+      "incremental": {
+        "variant": "event_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": false,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 2.134
+      },
+      "static_full_refresh": {
+        "variant": "event_watermark",
+        "full_refresh": true,
+        "trace": [
+          [
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.955
+      },
+      "corrected": {
+        "variant": "ingestion_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              1,
+              2,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 1.026
+      }
+    },
+    "boundary": {
+      "source": "Hypothesis.find",
+      "discovered_trace": [
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "shrinking_claim": "Hypothesis minimized search; no pre-shrink size claimed",
+      "incremental": {
+        "variant": "event_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ]
+            ],
+            "equal": false,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.946
+      },
+      "static_full_refresh": {
+        "variant": "event_watermark",
+        "full_refresh": true,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 1.02
+      },
+      "corrected": {
+        "variant": "ingestion_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.947
+      }
+    },
+    "replay": {
+      "source": "Hypothesis.find",
+      "discovered_trace": [
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        []
+      ],
+      "shrinking_claim": "Hypothesis minimized search; no pre-shrink size claimed",
+      "incremental": {
+        "variant": "append_all",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          []
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ],
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": false,
+            "unique_not_null": false
+          }
+        ],
+        "elapsed_seconds": 1.008
+      },
+      "static_full_refresh": {
+        "variant": "append_all",
+        "full_refresh": true,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          []
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.944
+      },
+      "corrected": {
+        "variant": "ingestion_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          []
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                1,
+                1,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 1.02
+      }
+    },
+    "holdout_old_key_correction": {
+      "source": "preregistered holdout",
+      "discovered_trace": [
+        [
+          [
+            0,
+            2,
+            10
+          ],
+          [
+            1,
+            8,
+            20
+          ]
+        ],
+        [
+          [
+            0,
+            2,
+            11
+          ]
+        ]
+      ],
+      "shrinking_claim": "Hypothesis minimized search; no pre-shrink size claimed",
+      "incremental": {
+        "variant": "event_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              2,
+              10
+            ],
+            [
+              1,
+              8,
+              20
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              11
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                11,
+                3
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": false,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.95
+      },
+      "static_full_refresh": {
+        "variant": "event_watermark",
+        "full_refresh": true,
+        "trace": [
+          [
+            [
+              0,
+              2,
+              10
+            ],
+            [
+              1,
+              8,
+              20
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              11
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                2,
+                11,
+                3
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                11,
+                3
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.941
+      },
+      "corrected": {
+        "variant": "ingestion_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              2,
+              10
+            ],
+            [
+              1,
+              8,
+              20
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              11
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                10,
+                1
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                2,
+                11,
+                3
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                2,
+                11,
+                3
+              ],
+              [
+                1,
+                8,
+                20,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 1.038
+      }
+    },
+    "holdout_same_timestamp_correction": {
+      "source": "preregistered holdout",
+      "discovered_trace": [
+        [
+          [
+            0,
+            5,
+            10
+          ]
+        ],
+        [
+          [
+            0,
+            5,
+            12
+          ]
+        ]
+      ],
+      "shrinking_claim": "Hypothesis minimized search; no pre-shrink size claimed",
+      "incremental": {
+        "variant": "event_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              5,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              12
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                12,
+                2
+              ]
+            ],
+            "equal": false,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.946
+      },
+      "static_full_refresh": {
+        "variant": "event_watermark",
+        "full_refresh": true,
+        "trace": [
+          [
+            [
+              0,
+              5,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              12
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                5,
+                12,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                12,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 1.023
+      },
+      "corrected": {
+        "variant": "ingestion_watermark",
+        "full_refresh": false,
+        "trace": [
+          [
+            [
+              0,
+              5,
+              10
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              12
+            ]
+          ]
+        ],
+        "history": [
+          {
+            "batch": 0,
+            "actual": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                10,
+                1
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          },
+          {
+            "batch": 1,
+            "actual": [
+              [
+                0,
+                5,
+                12,
+                2
+              ]
+            ],
+            "expected": [
+              [
+                0,
+                5,
+                12,
+                2
+              ]
+            ],
+            "equal": true,
+            "unique_not_null": true
+          }
+        ],
+        "elapsed_seconds": 0.958
+      }
+    }
+  },
+  "status": "complete",
+  "ordered_smoke": {
+    "variant": "event_watermark",
+    "full_refresh": false,
+    "trace": [
+      [
+        [
+          0,
+          1,
+          10
+        ]
+      ],
+      [
+        [
+          1,
+          2,
+          20
+        ]
+      ]
+    ],
+    "history": [
+      {
+        "batch": 0,
+        "actual": [
+          [
+            0,
+            1,
+            10,
+            1
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            1,
+            10,
+            1
+          ]
+        ],
+        "equal": true,
+        "unique_not_null": true
+      },
+      {
+        "batch": 1,
+        "actual": [
+          [
+            0,
+            1,
+            10,
+            1
+          ],
+          [
+            1,
+            2,
+            20,
+            2
+          ]
+        ],
+        "expected": [
+          [
+            0,
+            1,
+            10,
+            1
+          ],
+          [
+            1,
+            2,
+            20,
+            2
+          ]
+        ],
+        "equal": true,
+        "unique_not_null": true
+      }
+    ],
+    "elapsed_seconds": 1.042
+  },
+  "surrogate_control_traces": 200,
+  "surrogate_control_mismatches": 0,
+  "elapsed_seconds": 18.894,
+  "checks": {
+    "all_five_defects_replayed": true,
+    "all_static_full_refresh_pass": true,
+    "all_corrected_replays_pass": true,
+    "ordered_smoke_passes": true,
+    "under_30_minutes": true,
+    "generated_cases_at_most_four_batches": true,
+    "corrected_surrogate_controls_pass": true
+  }
+}

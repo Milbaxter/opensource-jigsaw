@@ -1,0 +1,176 @@
+[
+  {
+    "url": "https://www.usgs.gov/ngp-standards-and-specifications/lidar-error-dictionary-part-2",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/8493/supplemental/Final_Calvert_LiDAR_QA_Report.pdf",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/jsvine/pdfplumber",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/pydantic/pydantic",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/laspy/laspy",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/pyproj4/pyproj",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/shapely/shapely",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://portal.opentopography.org/datasetMetadata?otCollectionID=OT.112011.26912.3",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.bluemarblegeo.com/purchase-global-mapper/",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.bluemarblegeo.com/docs/guides/global-mapper-24-getting-started-guide-en.pdf",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://support.lp360.com/hc/en-us/articles/31877218124819-QA-QC-on-LIDAR-data-using-either-LP360-Command-line-executables-or-the-Point-Cloud-Statistics-Extractor",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://support.lp360.com/hc/en-us/articles/31853465568275-Tips-for-Quality-Assurance-and-Quality-Control-QA-QC-for-LiDAR-data",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://support.lp360.com/hc/en-us/articles/47214443170835-How-to-QA-QC-in-LP360",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://downloads.rapidlasso.de/html/lasvalidate_README.html",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://my.asprs.org/",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://angellsurveys.com/services/lidar/",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.dewberry.com/services/geospatial-mapping-and-survey",
+    "used_in": "dossier-lidar.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.archives.gov/preservation/digital-preservation/linked-data/spreadsheets",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/openpreserve/sheets-preservation-spec/blob/main/Draft%20v1.0/Specification.md",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/apache/poi",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/LibreOffice/core",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/RvanVeenendaal/Spreadsheet-Complexity-Analyser",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://openpreservation.org/blogs/shoulder-to-shoulder-studying-significant-properties-of-spreadsheets-with-the-opf-archives-interest-group/",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://github.com/richardlehane/siegfried",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://preservica.com/pricing",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/733747568318802",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://knowledge.exlibrisgroup.com/Rosetta/Product_Documentation/Rosetta_Preservation_Guide/Preservation_Libraries/003_Significant_Properties",
+    "used_in": "dossier-spreadsheet-preservation.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://www.usgs.gov/ngp-standards-and-specifications/lidar-base-specification-deliverables",
+    "used_in": "benchmark-changelog.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  },
+  {
+    "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/files/FY26%20DCA%203DEP-B%20-%20Instructions%20for%20Creating%203DEP%20Defined%20Project%20Area%20and%20Tile%20Delivery%20Scheme.pdf",
+    "used_in": "benchmark-changelog.md",
+    "accessed": "2026-09-18",
+    "type": "primary repository, official agency, official vendor, or practitioner source; see context in dossier"
+  }
+]

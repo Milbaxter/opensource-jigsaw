@@ -1,0 +1,30 @@
+[
+  {
+    "package": "dbt-core",
+    "version": "1.12.5",
+    "file": "dbt-core-1.12.5-distribution-LICENSE",
+    "installed_path": "<venv>/lib/python3.11/site-packages/dbt_core-1.12.5.dist-info/licenses/LICENSE",
+    "sha256": "61df8c320dd014fc99ffce5c4a9920fdf24cbb50cace4bc710a43385b88b0eed"
+  },
+  {
+    "package": "dbt-duckdb",
+    "version": "1.11.0",
+    "file": "dbt-duckdb-1.11.0-distribution-LICENSE",
+    "installed_path": "<venv>/lib/python3.11/site-packages/dbt_duckdb-1.11.0.dist-info/licenses/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "package": "duckdb",
+    "version": "1.5.5",
+    "file": "duckdb-1.5.5-distribution-LICENSE",
+    "installed_path": "<venv>/lib/python3.11/site-packages/duckdb-1.5.5.dist-info/licenses/LICENSE",
+    "sha256": "075c33400ffcb0c586dd106a029d3e733e9da3693f8fcb9cebfc651c8a2f14e3"
+  },
+  {
+    "package": "hypothesis",
+    "version": "6.168.0",
+    "file": "hypothesis-6.168.0-distribution-LICENSE.txt",
+    "installed_path": "<venv>/lib/python3.11/site-packages/hypothesis-6.168.0.dist-info/licenses/LICENSE.txt",
+    "sha256": "ac89037bac63550644dce8cf32c6765e5fab9dc1a1ce94b89f8a805f341a6750"
+  }
+]

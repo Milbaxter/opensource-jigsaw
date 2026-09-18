@@ -40,3 +40,9 @@ Freeze the version, weights, gates and score meanings in a timestamped artifact 
 Use an independent judge context supplied with the frozen rubric, evidence and strongest critique—not the desired verdict. The judge should distinguish a fatal blocker from a testable commercial uncertainty and explain every floor. Counterevidence has equal standing. Neither researcher nor judge may treat “find at least one pass” as evidence.
 
 If no candidate passes, report none and search further within v2. Any later substantive policy change requires a separately recorded rationale and fresh consistent re-evaluation, not silent threshold movement. A pass should be published as **“validation-ready: proceed with [named experiment] under [budget/time cap]”**, with remaining commercial hypotheses visible. It does not establish profitability, product-market fit, operational safety, or a launch recommendation.
+
+## Mechanical assessment
+
+`jigsaw assess --review path/to/review.json --evidence-root . --out runs/assessment` validates a completed, independent Astra review against v2. The review schema is `PursuitReview` in `src/opensource_jigsaw/pursuit.py`. It records dimension-specific reasons, every hard gate, primary sources, exact-version rights, remaining commercial hypotheses, a capped experiment, and hashes of the protocol, implementation, and results.
+
+The command verifies numeric floors, explicit gate outcomes, source categories, rights coverage, and artifact integrity. It never creates or executes a prototype, contacts customers, or infers commercial success. Artifact hashes detect changed evidence; they do not independently prove execution. The judge must inspect or replay the evidence before attesting to the gates. `jigsaw run` retains the original v1 gate, because discovery alone cannot satisfy v2's executed-experiment requirements.

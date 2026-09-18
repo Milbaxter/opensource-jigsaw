@@ -1,0 +1,102 @@
+{
+  "clean_false_alarms": false,
+  "adversarial_detected": 3,
+  "adversarial_total": 3,
+  "results": [
+    {
+      "case": "H1_clean_interior",
+      "baseline_flags": [],
+      "bridge_flags": [],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "c1288f083435e622cfefb375d457f38a332d9b11f9b48ae294589798cc287560",
+        "west.las": "9c210fed09919d77794f0b1b06bccaa03a3946c21b12d76f4706838c3a0877ed",
+        "east.las": "b0115567bc569f3fad8136f603c4d8a71471d274ac627241aa9257b4cb292f0f",
+        "contract.pdf": "4da0d61b11c422dd00a2267e29ff145249a6fb03fa356dc6f82c8875bd9c7050"
+      }
+    },
+    {
+      "case": "H2_contract_count",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "CONTRACT_POINT_COUNT_CONTRADICTION",
+          "artifact": "contract.pdf",
+          "expected": 80,
+          "actual": 8
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "ccea9afb6d59681d9881ea9eaaf931bb07716116b8567f21fd0ff38be76b712a",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "978457c5374326fa682bb75f8e1f46586252ba5d85731c9a4b6c483ca359eaa9"
+      }
+    },
+    {
+      "case": "H3_contract_aoi",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "AOI_NOT_COVERED_BY_NOMINAL_INDEX",
+          "artifact": "tile-index.geojson",
+          "expected": [
+            500000.0,
+            6000000.0,
+            500300.0,
+            6000100.0
+          ],
+          "actual": [
+            500000.0,
+            6000000.0,
+            500200.0,
+            6000100.0
+          ]
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "04eb79225271a51a906b712e96572373b325eb8278ed91bb93e741e2f4bec0d7",
+        "delivery-report.pdf": "84a431a669559649f3f8f171e3c5ec607d524c041930e5d03fe9036a42f5286b",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "3af0c782d2ba589e64c941dbd269897fce09a3bf30055113c928514d32eef72f"
+      }
+    },
+    {
+      "case": "H4_missing_index_entry",
+      "baseline_flags": [],
+      "bridge_flags": [
+        {
+          "code": "ACTUAL_TILE_NOT_INDEXED",
+          "artifact": "tile-index.geojson",
+          "expected": "east.las",
+          "actual": "missing index entry"
+        },
+        {
+          "code": "AOI_NOT_COVERED_BY_NOMINAL_INDEX",
+          "artifact": "tile-index.geojson",
+          "expected": [
+            500000.0,
+            6000000.0,
+            500200.0,
+            6000100.0
+          ],
+          "actual": [
+            500000.0,
+            6000000.0,
+            500100.0,
+            6000100.0
+          ]
+        }
+      ],
+      "inputs_sha256": {
+        "tile-index.geojson": "a3866b84d5fd8f3e0cc831f064bb67bdfd0623f63e868f824ae910babdd1992f",
+        "delivery-report.pdf": "b180c1fccdfd2846816592cc333c046f4ae8a43d33be57e7f51d0b9cec7cef9d",
+        "west.las": "89bac049b8a1c8f1f1f4211d67c2c3b24fbe0b6f4fc94865f1a6b7850aa02089",
+        "east.las": "56b15231babe4a90059e0db86ef5bff079ffd25927880974e65ee2972a20a053",
+        "contract.pdf": "623a7e448c88b5d5fb0a2d47cd2a306db78c82d8e28707d5cb612a768dbf6fe6"
+      }
+    }
+  ]
+}

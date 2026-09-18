@@ -1,0 +1,13 @@
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+ns = {"__file__": str(ROOT / "benchmark-v2.py")}
+exec((ROOT / "benchmark-v2.py").read_text().split("start = time.perf_counter()")[0], ns)
+loader = {"__file__": str(ROOT / "run-holdouts.py")}
+exec(
+    (ROOT / "run-holdouts.py").read_text().split('first = make_holdouts(ns, "holdouts-v1")')[0],
+    loader,
+)
+result = loader["make_holdouts"](ns, "holdouts-v2")
+print("CORRECTED:", json.dumps({k: v for k, v in result.items() if k != "results"}))

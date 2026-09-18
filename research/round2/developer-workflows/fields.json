@@ -1,0 +1,14 @@
+{
+  "property_testing": "topic:property-based-testing",
+  "constraint_solving": "topic:constraint-solver",
+  "sql_testing": "SQL testing",
+  "data_provenance": "topic:data-lineage",
+  "policy_as_code": "topic:policy-as-code",
+  "migration": "database migration",
+  "privacy_testing": "topic:anonymization",
+  "schema": "topic:json-schema",
+  "build_reproducibility": "topic:reproducible-builds",
+  "vulnerability_remediation": "topic:vulnerability-scanner",
+  "scientific_optimization": "topic:optimization",
+  "supply_chain": "topic:sbom"
+}
