@@ -1,0 +1,369 @@
+# SPDX-License-Identifier: MIT
+# Original research measurement code; no upstream implementation copied.
+"""Native-only, preregistered font corpus coverage ceiling. Not a solver."""
+from __future__ import annotations
+
+import gzip
+import hashlib
+import io
+import json
+import platform
+import random
+import re
+import resource
+import sys
+import time
+from html.parser import HTMLParser
+from pathlib import Path
+
+import fontTools
+from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
+from fontTools.fontBuilder import FontBuilder
+from fontTools.pens.ttGlyphPen import TTGlyphPen
+from fontTools.ttLib import TTFont
+import uharfbuzz as hb
+
+ROOT = Path(__file__).resolve().parent
+OUT = ROOT / "stage0-execution"
+START = re.compile(r"start lookup (\d+) feature '([^']+)'")
+END = re.compile(r"end lookup (\d+) feature '([^']+)'")
+RECURSE = re.compile(r"recursing to lookup (\d+) at (\d+)")
+RETURN = re.compile(r"recursed to lookup (\d+)")
+
+
+def digest(data):
+    return hashlib.sha256(data).hexdigest()
+
+
+def save(name, value):
+    (OUT / name).write_text(json.dumps(value, indent=2, ensure_ascii=True) + "\n")
+
+
+def rss_bytes():
+    value = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+    return value if sys.platform == "darwin" else value * 1024
+
+
+def inspect(data):
+    font = TTFont(io.BytesIO(data))
+    gsub = font["GSUB"].table
+    script = next(s.Script for s in gsub.ScriptList.ScriptRecord if s.ScriptTag == "latn")
+    language = script.DefaultLangSys
+    if language is None or language.ReqFeatureIndex != 65535:
+        raise ValueError("Missing default language or required feature")
+    selected = [gsub.FeatureList.FeatureRecord[i] for i in language.FeatureIndex]
+    targets = sorted({i for f in selected if f.FeatureTag == "calt" for i in f.Feature.LookupListIndex})
+    tags = sorted({f.FeatureTag for tag in ("GSUB", "GPOS") if tag in font
+                   for f in font[tag].table.FeatureList.FeatureRecord})
+    if not targets:
+        raise ValueError("No active default Latin calt targets")
+    features = {tag: int(tag == "calt") for tag in tags}
+    return font, targets, features
+
+
+class TraceFailure(RuntimeError):
+    pass
+
+
+class Native:
+    def __init__(self, data, expected=None):
+        self.font_sha256 = digest(data)
+        self.tt, self.targets, self.features = inspect(data)
+        if expected is not None:
+            assert digest(data) == expected["font_sha256"]
+            assert self.targets == expected["target_lookup_indices"]
+            assert self.features == expected["features"]
+            assert digest(self.tt.getTableData("GSUB")) == expected["GSUB_sha256"]
+        self.font = hb.Font(hb.Face(data))
+        self.font.scale = (self.tt["head"].unitsPerEm,) * 2
+
+    def shape(self, text, trace=False, keep_events=False):
+        if not 1 <= len(text) <= 8 or any(not 32 <= ord(c) <= 126 for c in text):
+            raise ValueError("Outside frozen printable-ASCII length domain")
+        buffer = hb.Buffer()
+        buffer.add_str(text)
+        buffer.direction = "ltr"
+        buffer.script = "latn"
+        buffer.language = "dflt"
+        stack, covered, seen, errors, events = [], set(), [], [], []
+        in_gsub = False
+
+        def snapshot():
+            return tuple((g.codepoint, g.cluster) for g in buffer.glyph_infos)
+
+        def message(msg):
+            nonlocal in_gsub
+            # Never raise in this callback: callback False would change shaping.
+            try:
+                if keep_events:
+                    events.append({"message": msg, "buffer": snapshot() if in_gsub else None})
+                if msg.startswith("start table GSUB"):
+                    if in_gsub or stack or msg != "start table GSUB script tag 'latn'":
+                        errors.append("Unexpected GSUB start/script")
+                    in_gsub = True
+                elif msg.startswith("end table GSUB"):
+                    if not in_gsub or stack or msg != "end table GSUB script tag 'latn'":
+                        errors.append("Unbalanced GSUB end")
+                    in_gsub = False
+                elif in_gsub:
+                    if match := START.fullmatch(msg):
+                        idx = int(match[1])
+                        if stack or idx not in self.targets or match[2] != "calt":
+                            errors.append("Unexpected active top-level lookup: " + msg)
+                        seen.append(idx)
+                        stack.append(("outer", idx, snapshot()))
+                    elif match := RECURSE.fullmatch(msg):
+                        if not stack:
+                            errors.append("Recursion outside lookup")
+                        stack.append(("nested", int(match[1]), snapshot()))
+                    elif match := RETURN.fullmatch(msg):
+                        # HarfBuzz emits a return only for successful recurse().
+                        # Failed children/siblings can leave unmatched starts;
+                        # these frames are diagnostic, never coverage evidence.
+                        matches = [i for i, frame in enumerate(stack)
+                                   if frame[:2] == ("nested", int(match[1]))]
+                        if not matches:
+                            errors.append("Return without recursive start: " + msg)
+                        else:
+                            del stack[matches[-1]:]
+                    elif match := END.fullmatch(msg):
+                        idx = int(match[1])
+                        if not stack or stack[0][:2] != ("outer", idx) or match[2] != "calt":
+                            errors.append("Unbalanced outer lookup: " + msg)
+                        else:
+                            _, _, before = stack[0]
+                            # Unreturned nested frames are legitimate failures:
+                            # hb-ot-layout-gsubgpos.hh:1815-1824 at pinned commit.
+                            stack.clear()
+                            if tuple(g for g, _ in before) != tuple(g for g, _ in snapshot()):
+                                covered.add(idx)
+                    elif msg.startswith(("start lookup", "end lookup", "recursing", "recursed")):
+                        errors.append("Unknown pinned trace grammar: " + msg)
+            except Exception as exc:
+                errors.append(type(exc).__name__ + ": " + str(exc))
+            return True
+
+        if trace:
+            buffer.set_message_func(message)
+        hb.shape(self.font, buffer, self.features)
+        glyphs = [(g.codepoint, g.cluster) for g in buffer.glyph_infos]
+        # Positions are only read after the complete ordinary shaping operation.
+        positions = [(g.x_advance, g.y_advance, g.x_offset, g.y_offset)
+                     for g in buffer.glyph_positions]
+        if trace and (errors or stack or in_gsub or seen != self.targets):
+            raise TraceFailure(json.dumps({"text": text, "font_sha256": self.font_sha256,
+                                          "errors": errors, "stack": stack,
+                                          "seen": seen, "expected": self.targets,
+                                          "events": events}, ensure_ascii=True))
+        return {"glyphs": glyphs, "positions": positions,
+                "covered": sorted(covered), "events": events}
+
+
+class ProofParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.depth, self.fragments, self.blocks = 0, [], []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "div":
+            classes = dict(attrs).get("class", "").split()
+            if self.depth:
+                self.depth += 1
+            elif "code" in classes:
+                self.depth = 1
+                self.fragments = []
+
+    def handle_endtag(self, tag):
+        if tag == "div" and self.depth:
+            self.depth -= 1
+            if not self.depth:
+                self.blocks.append("".join(self.fragments))
+
+    def handle_data(self, text):
+        if self.depth:
+            self.fragments.append(text)
+
+
+def corpus():
+    began = time.monotonic()
+    origins = {}
+    sources = json.loads((ROOT / "stage0-corpus-sources.json").read_text())
+    for src in sources:
+        data = (ROOT / "source-inspection" / src["local"]).read_bytes()
+        assert digest(data) == src["sha256"]
+        text = data.decode("utf8")
+        if src["path"].endswith(".html"):
+            parser = ProofParser()
+            parser.feed(text)
+            assert not parser.depth and parser.blocks
+            blocks = parser.blocks
+        else:
+            blocks = [text]
+        for block in blocks:
+            for run in re.findall(r"[\x20-\x7e]+", block):
+                for start in range(len(run)):
+                    for length in range(1, min(8, len(run) - start) + 1):
+                        value = run[start:start + length]
+                        origins.setdefault(value, set()).add(src["url"])
+        if time.monotonic() - began > 30:
+            raise TimeoutError("Shared corpus preparation exceeded30 seconds")
+    strings = sorted(origins, key=lambda x: (len(x), x))
+    seconds = time.monotonic() - began
+    if seconds > 30:
+        raise TimeoutError("Shared corpus preparation exceeded30 seconds")
+    return strings, origins, seconds
+
+
+def synthetic(features):
+    order = [".notdef", "space", "a", "b", "c", "d"]
+    builder = FontBuilder(1000, isTTF=True)
+    builder.setupGlyphOrder(order)
+    builder.setupCharacterMap({32: "space", **{ord(x): x for x in "abcd"}})
+    builder.setupGlyf({x: TTGlyphPen(None).glyph() for x in order})
+    builder.setupHorizontalMetrics({x: (500, 0) for x in order})
+    builder.setupHorizontalHeader(ascent=800, descent=-200)
+    builder.setupNameTable({"familyName": "Original Stage0 Control", "styleName": "Regular"})
+    builder.setupOS2(sTypoAscender=800, sTypoDescender=-200, usWinAscent=800, usWinDescent=200)
+    builder.setupPost()
+    builder.setupMaxp()
+    addOpenTypeFeaturesFromString(builder.font, "languagesystem latn dflt;\n" + features)
+    memory = io.BytesIO()
+    builder.font.save(memory)
+    return memory.getvalue()
+
+
+def controls(strings, pinned):
+    cases = [
+        ("single", "feature calt { sub a by b; } calt;", "a", ["b"], True),
+        ("unmatched", "feature calt { sub a by b; } calt;", "b", ["b"], False),
+        ("nested", "lookup X { sub a by b; } X; feature calt { sub a' lookup X c; } calt;", "ac", ["b", "c"], True),
+        ("failed_nested", "lookup X { sub b by d; } X; feature calt { sub a' lookup X c; } calt;", "ac", ["a", "c"], False),
+        ("restored", "lookup X { sub a by b; } X; lookup Y { sub b by a; } Y; feature calt { sub a' lookup X lookup Y c; } calt;", "ac", ["a", "c"], False),
+        ("ignore", "feature calt { ignore sub a' b; sub a' by c; } calt;", "ab", ["a", "b"], False),
+        ("boundary", "lookup X { sub a by b; } X; feature calt { sub a' lookup X c; } calt;", "a", ["a"], False),
+    ]
+    records = []
+    for name, source, text, names, changes in cases:
+        native = Native(synthetic(source))
+        assert len(native.targets) == 1, name
+        ordinary = native.shape(text)
+        traced = native.shape(text, trace=True, keep_events=True)
+        expected = [native.tt.getGlyphID(x) for x in names]
+        passed = ([g for g, _ in traced["glyphs"]] == expected
+                  and traced["glyphs"] == ordinary["glyphs"]
+                  and traced["positions"] == ordinary["positions"]
+                  and traced["covered"] == (native.targets if changes else []))
+        records.append({"name": name, "source": source, "text": text,
+                        "expected_glyph_ids": expected, "passed": passed, "trace": traced})
+        save("controls.json", records)
+        if not passed:
+            raise AssertionError("Synthetic oracle control failed: " + name)
+    chosen = random.Random(57109).sample(strings, min(100, len(strings)))
+    for item in pinned:
+        native = Native((ROOT / item["font_file"]).read_bytes(), item)
+        for text in chosen:
+            records.append({"font": item["font_file"], "font_sha256": item["font_sha256"],
+                            "text": text, "passed": None, "kind": "trace_untraced_oracle"})
+            save("controls.json", records)  # preserve the exact in-flight control
+            ordinary, traced = native.shape(text), native.shape(text, trace=True)
+            passed = ordinary["glyphs"] == traced["glyphs"] and ordinary["positions"] == traced["positions"]
+            records[-1]["passed"] = passed
+            if not passed:
+                save("controls.json", records)
+                raise AssertionError("Real native trace mismatch")
+    save("controls.json", records)
+    return len(records)
+
+
+def select(records):
+    choices = [(row["text"], set(row["covered"])) for row in records if row["covered"]]
+    covered, selected, curve = set(), [], {}
+    for k in range(1, 129):
+        best = min(choices, key=lambda row: (-len(row[1] - covered), len(row[0]), row[0]), default=None)
+        if best and best[1] - covered:
+            covered.update(best[1])
+            selected.append({"text": best[0], "covered": sorted(best[1])})
+            choices.remove(best)
+        if k in (1, 4, 8, 16, 32, 64, 128):
+            curve[k] = len(covered)
+    return selected, sorted(covered), curve
+
+
+def evaluate(item, strings, origins, shared_seconds):
+    began = time.monotonic()
+    deadline = began + 120 - shared_seconds
+    native = Native((ROOT / item["font_file"]).read_bytes(), item)  # fresh charged parsing
+    records = []
+    stem = item["font_file"].removesuffix(".ttf")
+    with gzip.open(OUT / (stem + "-observations.jsonl.gz"), "wt", encoding="utf8") as stream:
+        for text in strings:
+            if time.monotonic() >= deadline - 5:
+                break
+            if rss_bytes() >= 2.5 * 1024**3:
+                raise MemoryError("Stage0 hard RSS limit")
+            observed = native.shape(text, trace=True)
+            row = {"text": text, "covered": observed["covered"],
+                   "glyphs": observed["glyphs"], "positions": observed["positions"],
+                   "origins": sorted(origins[text])}
+            records.append(row)
+            stream.write(json.dumps(row, ensure_ascii=True) + "\n")
+    selected, covered, curve = select(records)
+    result = {"font": item["font_file"], "font_sha256": item["font_sha256"],
+              "targets": native.targets, "target_count": len(native.targets),
+              "observations": len(records), "corpus_total": len(strings),
+              "untested": len(strings) - len(records), "selected": selected,
+              "covered": covered, "uncovered": sorted(set(native.targets) - set(covered)),
+              "coverage_at_k": curve, "shared_preparation_charged_seconds": shared_seconds,
+              "elapsed_total_seconds": time.monotonic() - began + shared_seconds,
+              "terminal_summary_reserved_seconds": 1.0,
+              "resource_record_status": "preliminary; summary.json is authoritative",
+              "peak_rss_bytes": rss_bytes()}
+    result["within_budget"] = result["elapsed_total_seconds"] + 1 <= 120 and result["peak_rss_bytes"] < 2.5 * 1024**3
+    result["resource_target_exceeded"] = result["peak_rss_bytes"] > 2 * 1024**3
+    result["selected_count"] = len(selected)
+    save(stem + "-result.json", result)
+    # Account for the result write as well; crossing the budget invalidates the ceiling.
+    result["elapsed_total_seconds"] = time.monotonic() - began + shared_seconds
+    result["within_budget"] &= result["elapsed_total_seconds"] + 1 <= 120
+    result["resource_record_status"] = "final after per-font output write; one extra second reserved for shared summary"
+    return result
+
+
+def main():
+    OUT.mkdir(exist_ok=False)
+    assert platform.python_version() == "3.14.6"
+    assert fontTools.__version__ == "4.60.0" and hb.version_string() == "12.3.0"
+    import importlib.metadata
+    assert importlib.metadata.version("uharfbuzz") == "0.53.2"
+    pinned = json.loads((ROOT / "stage0-targets.json").read_text())
+    save("execution-start.json", {"source_sha256": digest(Path(__file__).read_bytes()),
+                                 "protocol_sha256": digest((ROOT / "stage0-preregistration.md").read_bytes()),
+                                 "python": platform.python_version(), "harfbuzz": hb.version_string()})
+    try:
+        strings, origins, preparation = corpus()
+        save("corpus.json", {"strings": len(strings), "ordered_sha256": digest(json.dumps(strings, ensure_ascii=True).encode()),
+                             "preparation_seconds": preparation})
+        count = controls(strings, pinned)
+        # Oracle checks above are never reused as timed coverage observations.
+        results = [evaluate(item, strings, origins, preparation) for item in pinned]
+        hold = all(r["within_budget"] and r["selected_count"] <= 128 and len(r["uncovered"]) < 10 for r in results)
+        summary = {"status": "HOLD_CEILING" if hold else "HEADROOM_OR_INCONCLUSIVE",
+                   "passed_oracle_checks": count, "results": results,
+                   "claim": "Negative feasibility screen only; no solver integration or technical/business pass"}
+        summary_write_began = time.monotonic()
+        save("summary.json", summary)
+        if time.monotonic() - summary_write_began > 1:
+            for row in results:
+                row["within_budget"] = False
+            summary["status"] = "HEADROOM_OR_INCONCLUSIVE"
+            summary["resource_error"] = "Shared summary logging exceeded conservative reserved second"
+            save("summary.json", summary)
+        print(json.dumps({"status": summary["status"], "checks": count,
+                          "coverage": [(r["target_count"], len(r["covered"]), r["within_budget"]) for r in results]}))
+    except Exception as exc:
+        save("failure.json", {"type": type(exc).__name__, "message": str(exc), "status": "ERROR_STOP"})
+        raise
+
+
+if __name__ == "__main__":
+    main()

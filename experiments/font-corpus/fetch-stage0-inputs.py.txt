@@ -1,0 +1,48 @@
+# SPDX-License-Identifier: MIT
+"""Fetch only pinned public inputs; validate bytes before local use."""
+import hashlib
+import io
+import json
+from pathlib import Path
+from urllib.request import Request, urlopen
+from zipfile import ZipFile
+
+ROOT = Path(__file__).resolve().parent
+
+
+def get(url):
+    request = Request(url, headers={"User-Agent": "opensource-jigsaw-research"})
+    with urlopen(request, timeout=60) as response:
+        if response.status != 200:
+            raise RuntimeError(f"Unexpected response status: {response.status}")
+        return response.read()
+
+
+def checked_write(path, data, expected):
+    if hashlib.sha256(data).hexdigest() != expected:
+        raise ValueError(f"Hash mismatch for {path.name}")
+    if path.exists():
+        if path.read_bytes() != data:
+            raise ValueError(f"Refusing to replace different file: {path.name}")
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(data)
+
+
+for item in json.loads((ROOT / "font-input-inspection.json").read_text()):
+    if item["tag"] not in ("5.2", "6.2") or not item["file"].endswith(".ttf"):
+        continue
+    archive = get(item["asset_url"])
+    if hashlib.sha256(archive).hexdigest() != item["archive_sha256"]:
+        raise ValueError("Release archive hash mismatch")
+    with ZipFile(io.BytesIO(archive)) as zipped:
+        data = zipped.read(item["member"])
+    if len(data) != item["bytes"]:
+        raise ValueError("Font length mismatch")
+    checked_write(ROOT / item["file"], data, item["sha256"])
+
+for item in json.loads((ROOT / "stage0-corpus-sources.json").read_text()):
+    url = f"https://raw.githubusercontent.com/{item['repo']}/{item['commit']}/{item['path']}"
+    checked_write(ROOT / "source-inspection" / item["local"], get(url), item["sha256"])
+
+print("Pinned font and project-proof inputs verified. No font shaping executed.")

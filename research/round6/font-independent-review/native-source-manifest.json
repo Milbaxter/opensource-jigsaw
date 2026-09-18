@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hb-buffer.cc",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/12.3.0/src/hb-buffer.cc",
+    "sha256": "143e3a475a588dc5391aaf96467bca3d248cf688c7bb8a5a031a819c2305b248",
+    "bytes": 60701,
+    "publication": "reference metadata only; local third-party source excluded"
+  },
+  {
+    "name": "hb-ot-layout-gsubgpos.hh",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/12.3.0/src/hb-ot-layout-gsubgpos.hh",
+    "sha256": "ad1fe41e0a03dbb5164ae5c8243aca4fa003a84e5405305de0c00a17e6fde0ca",
+    "bytes": 158834,
+    "publication": "reference metadata only; local third-party source excluded"
+  },
+  {
+    "name": "hb-ot-layout.cc",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/12.3.0/src/hb-ot-layout.cc",
+    "sha256": "214914de6cc2889373b6fef9f04cfdbd07807733b804942a9f078be6a5ce6148",
+    "bytes": 93143,
+    "publication": "reference metadata only; local third-party source excluded"
+  },
+  {
+    "name": "hb-ot-map.cc",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/12.3.0/src/hb-ot-map.cc",
+    "sha256": "6b4b92b7f6e7af908fe179e172bb09122eb1a6ad0fe5243f9402a0c96931d869",
+    "bytes": 12733,
+    "publication": "reference metadata only; local third-party source excluded"
+  },
+  {
+    "name": "hb-ot-shape.cc",
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/12.3.0/src/hb-ot-shape.cc",
+    "sha256": "e2f5a755cb23e7d0974fa900053f0f596eed1f6d49c2bd5f41b67a02f4e0bb0f",
+    "bytes": 39505,
+    "publication": "reference metadata only; local third-party source excluded"
+  }
+]

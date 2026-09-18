@@ -17,9 +17,20 @@
       "path": "STAGE0-READINESS.md",
       "bytes": 2376,
       "sha256": "9b4d79867dd5903e572857df2aea2522e8d336de4c4f52c89be4bc959f31302a"
+    },
+    {
+      "path": "STAGE0-STATIC-REVIEW.md",
+      "bytes": 4207,
+      "sha256": "a600eb251c1b054eb596a3b6613a2efab174cd7ec26a74f034907376a148e1a3"
+    },
+    {
+      "path": "native-source-manifest.json",
+      "bytes": 1583,
+      "sha256": "f6913b83a813e8b7d7b74bdee566eb64dc30b87efe100f8b64fa8aa805f11c29"
     }
   ],
-  "updated_utc": "2026-09-18T10:54:26.133247+00:00",
+  "updated_utc": "2026-09-18T11:02:15.592916+00:00",
   "reviewed_stage0_protocol_sha256": "b3cdeee4cb2660c0cdcba69ad32b05e8cd90b7e60222b4a99830d2665f1361b6",
-  "reviewed_final_stage0_protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32"
+  "reviewed_final_stage0_protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32",
+  "statically_reviewed_stage0_source_sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab"
 }

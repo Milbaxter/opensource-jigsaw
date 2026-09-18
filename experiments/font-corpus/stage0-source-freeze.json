@@ -1,0 +1,18 @@
+{
+  "frozen_utc": "2026-09-18T11:03:11.914371+00:00",
+  "status": "Unexecuted source, independently statically reviewed before first shaping",
+  "protocol_sha256": "b20e4772bcaa139d705db0b2798f6dae85eb49bf04bcb3a78cd607dfc8686a32",
+  "files": [
+    {
+      "original_filename": "stage0.py",
+      "published_path": "stage0.py.txt",
+      "sha256": "99ea43ce981453a06bc9aede19ad6d1c6f6928f780159b9f1d6b2426b874a2ab"
+    },
+    {
+      "original_filename": "fetch-stage0-inputs.py",
+      "published_path": "fetch-stage0-inputs.py.txt",
+      "sha256": "3db6b57d97591020b8b9207e358942c35a6abe8afae90ada461658d07537d877"
+    }
+  ],
+  "replay": "Copy .py.txt files to original filenames in a scratch directory alongside the metadata/protocol. Run the input fetcher, then the collector with exact dependencies. Original bytes preserved; no formatting changes."
+}
