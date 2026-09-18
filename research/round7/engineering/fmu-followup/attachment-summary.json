@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://github.com/CATIA-Systems/FMPy/files/6922984/serialize_and_deserialize.zip",
+    "bytes": 1519,
+    "sha256": "aee17e78de8b9f0e8721450cd7463295d1eba3513ec7f0ca21cca26beff42a19",
+    "outer_entries": [
+      "deserialize_fmu.py",
+      "serialize_fmu.py"
+    ],
+    "license_notice_paths": [],
+    "whole_artifact_permission": "not established",
+    "executed": false
+  },
+  {
+    "url": "https://github.com/CATIA-Systems/FMPy/files/6922926/test_serialization_model.zip",
+    "bytes": 1113554,
+    "sha256": "8b3afdc516ed9c3e22818de9424b58fd0389dd32a868dea92e08448ec511c091",
+    "outer_entries": [
+      "test_serialization.fmu",
+      "test_serialization.mo"
+    ],
+    "nested_fmu_entries": [
+      "modelDescription.xml",
+      "binaries/",
+      "binaries/linux64/",
+      "binaries/linux64/test_serialization.so",
+      "documentation/",
+      "documentation/index.html",
+      "documentation/LICENSE_CVODE.txt",
+      "documentation/LICENSE_f2c.txt",
+      "documentation/LICENSE_FMI.txt",
+      "documentation/LICENSE_HDF5.txt",
+      "documentation/LICENSE_LAPACK.txt",
+      "documentation/LICENSE_ModelicaFFT.txt",
+      "documentation/LICENSE_ModelicaInternal.txt",
+      "documentation/LICENSE_ModelicaIO.txt",
+      "documentation/LICENSE_ModelicaMatIO.txt",
+      "documentation/LICENSE_ModelicaRandom.txt",
+      "documentation/LICENSE_ModelicaStandardTables.txt",
+      "documentation/LICENSE_ModelicaStandardTablesUsertab.txt",
+      "documentation/LICENSE_ModelicaStrings.txt",
+      "documentation/LICENSE_ModelicaUtilities.txt",
+      "documentation/LICENSE_MSL.txt",
+      "documentation/LICENSE_snprintf.txt",
+      "documentation/LICENSE_stdint_msvc.txt",
+      "documentation/LICENSE_SUNDIALS.txt",
+      "documentation/LICENSE_SuperLU_MT.txt",
+      "documentation/LICENSE_TPL.txt",
+      "documentation/LICENSE_uthash.txt",
+      "documentation/LICENSE_win32_dirent.txt",
+      "documentation/LICENSE_ZLIB.txt",
+      "documentation/_main.html",
+      "documentation/_opensource.html"
+    ],
+    "license_notice_paths": [
+      "test_serialization.fmu!documentation/LICENSE_CVODE.txt",
+      "test_serialization.fmu!documentation/LICENSE_f2c.txt",
+      "test_serialization.fmu!documentation/LICENSE_FMI.txt",
+      "test_serialization.fmu!documentation/LICENSE_HDF5.txt",
+      "test_serialization.fmu!documentation/LICENSE_LAPACK.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaFFT.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaInternal.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaIO.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaMatIO.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaRandom.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaStandardTables.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaStandardTablesUsertab.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaStrings.txt",
+      "test_serialization.fmu!documentation/LICENSE_ModelicaUtilities.txt",
+      "test_serialization.fmu!documentation/LICENSE_MSL.txt",
+      "test_serialization.fmu!documentation/LICENSE_snprintf.txt",
+      "test_serialization.fmu!documentation/LICENSE_stdint_msvc.txt",
+      "test_serialization.fmu!documentation/LICENSE_SUNDIALS.txt",
+      "test_serialization.fmu!documentation/LICENSE_SuperLU_MT.txt",
+      "test_serialization.fmu!documentation/LICENSE_TPL.txt",
+      "test_serialization.fmu!documentation/LICENSE_uthash.txt",
+      "test_serialization.fmu!documentation/LICENSE_win32_dirent.txt",
+      "test_serialization.fmu!documentation/LICENSE_ZLIB.txt"
+    ],
+    "whole_artifact_permission": "not established",
+    "executed": false
+  }
+]

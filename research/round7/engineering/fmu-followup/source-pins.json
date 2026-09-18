@@ -1,0 +1,25 @@
+{
+  "repository": "modelica/Reference-FMUs",
+  "fix_commit": "690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+  "parent_commit": "8d050ef87a3a81dae665eb76d53b622d9186b7ff",
+  "url": "https://github.com/modelica/Reference-FMUs/commit/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+  "license_url": "https://raw.githubusercontent.com/modelica/Reference-FMUs/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/LICENSE.txt",
+  "changed_paths": [
+    "BouncingBall/config.h",
+    "Dahlquist/config.h",
+    "StateSpace/config.h",
+    "StateSpace/model.c",
+    "VanDerPol/config.h",
+    "include/model.h",
+    "src/cosimulation.c",
+    "src/fmi1Functions.c",
+    "src/fmi2Functions.c",
+    "src/fmi3Functions.c"
+  ],
+  "execution": {
+    "binaries_loaded": false,
+    "build_run": false,
+    "simulation_run": false,
+    "scope": "source-level feasibility only"
+  }
+}

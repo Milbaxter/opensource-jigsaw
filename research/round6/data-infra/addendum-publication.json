@@ -1,0 +1,5 @@
+{
+  "file": "WORKLOAD-FEASIBILITY-ADDENDUM.md",
+  "sha256": "7c807731443dbe63e159259e2683f87f3c979b9ead5631a677b6e7a70e4a9c70",
+  "scope": "Source-level workload HOLD, not a performance result. The audit mentioned as work/round6-workloads is published at ../workloads/WORKLOADS.md."
+}

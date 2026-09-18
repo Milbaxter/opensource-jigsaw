@@ -1,0 +1,133 @@
+{
+  "sha": "690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+  "parents": [
+    {
+      "sha": "8d050ef87a3a81dae665eb76d53b622d9186b7ff",
+      "url": "https://api.github.com/repos/modelica/Reference-FMUs/commits/8d050ef87a3a81dae665eb76d53b622d9186b7ff",
+      "html_url": "https://github.com/modelica/Reference-FMUs/commit/8d050ef87a3a81dae665eb76d53b622d9186b7ff"
+    }
+  ],
+  "html_url": "https://github.com/modelica/Reference-FMUs/commit/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+  "files": [
+    {
+      "sha": "d0a382d859b6d0b25327cf4e4ef1a58e0accfa0b",
+      "filename": "BouncingBall/config.h",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/BouncingBall%2Fconfig.h",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/BouncingBall%2Fconfig.h",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/BouncingBall%2Fconfig.h?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -8,8 +8,8 @@\n #define CO_SIMULATION\n #define MODEL_EXCHANGE\n \n-#define HAS_CONTINUOUS_STATES\n-#define HAS_EVENT_INDICATORS\n+#define MAX_CONTINUOUS_STATES 2\n+#define MAX_EVENT_INDICATORS 1\n \n #define SET_FLOAT64\n #define GET_OUTPUT_DERIVATIVE"
+    },
+    {
+      "sha": "b4af726b4f5a9f39f1e94ffa89d9f06ed3be174b",
+      "filename": "Dahlquist/config.h",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/Dahlquist%2Fconfig.h",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/Dahlquist%2Fconfig.h",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/Dahlquist%2Fconfig.h?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -8,7 +8,7 @@\n #define CO_SIMULATION\n #define MODEL_EXCHANGE\n \n-#define HAS_CONTINUOUS_STATES\n+#define MAX_CONTINUOUS_STATES 1\n \n #define SET_FLOAT64\n "
+    },
+    {
+      "sha": "5f1c4509e5d87043c045b065b265b457e3cc3ec6",
+      "filename": "StateSpace/config.h",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/StateSpace%2Fconfig.h",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/StateSpace%2Fconfig.h",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/StateSpace%2Fconfig.h?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -7,7 +7,7 @@\n #define MODEL_IDENTIFIER StateSpace\n #define INSTANTIATION_TOKEN \"{D773325B-AB94-4630-BF85-643EB24FCB78}\"\n \n-#define HAS_CONTINUOUS_STATES\n+#define MAX_CONTINUOUS_STATES 5\n \n #define CO_SIMULATION\n #define MODEL_EXCHANGE"
+    },
+    {
+      "sha": "d24a53073e0e571a8eadfb82ba897b0bdfcca4d7",
+      "filename": "StateSpace/model.c",
+      "status": "modified",
+      "additions": 0,
+      "deletions": 1,
+      "changes": 1,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/StateSpace%2Fmodel.c",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/StateSpace%2Fmodel.c",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/StateSpace%2Fmodel.c?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -51,7 +51,6 @@ Status calculateValues(ModelInstance *comp) {\n         }\n     }\n \n-\n     // y = Cx + Du\n     for (size_t i = 0; i < M(r); i++) {\n "
+    },
+    {
+      "sha": "2606ab0a62eecf34139c1c30032e55487ee49971",
+      "filename": "VanDerPol/config.h",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/VanDerPol%2Fconfig.h",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/VanDerPol%2Fconfig.h",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/VanDerPol%2Fconfig.h?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -8,7 +8,7 @@\n #define CO_SIMULATION\n #define MODEL_EXCHANGE\n \n-#define HAS_CONTINUOUS_STATES\n+#define MAX_CONTINUOUS_STATES 2\n \n #define SET_FLOAT64\n "
+    },
+    {
+      "sha": "c3da8c59bc27bcc25cc269149d132a905f4d62f7",
+      "filename": "include/model.h",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 4,
+      "changes": 12,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/include%2Fmodel.h",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/include%2Fmodel.h",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/include%2Fmodel.h?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -145,13 +145,17 @@ typedef struct {\n     double nextCommunicationPoint;\n \n     // solver\n+#if MAX_EVENT_INDICATORS > 0\n     size_t nz;\n-    double* z;\n-    double* prez;\n+    double z[MAX_EVENT_INDICATORS];\n+    double prez[MAX_EVENT_INDICATORS];\n+#endif\n \n+#if MAX_CONTINUOUS_STATES > 0\n     size_t nx;\n-    double* x;\n-    double* dx;\n+    double x[MAX_CONTINUOUS_STATES];\n+    double dx[MAX_CONTINUOUS_STATES];\n+#endif\n \n } ModelInstance;\n "
+    },
+    {
+      "sha": "205ceee089a01dfde7c837aea2af818781586b6b",
+      "filename": "src/cosimulation.c",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 34,
+      "changes": 50,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Fcosimulation.c",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Fcosimulation.c",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/src%2Fcosimulation.c?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -116,14 +116,6 @@ void freeModelInstance(ModelInstance *comp) {\n \n     if (comp->resourceLocation) free((void*)comp->resourceLocation);\n \n-    if (comp->prez) free(comp->prez);\n-\n-    if (comp->z) free(comp->z);\n-\n-    if (comp->x) free(comp->x);\n-\n-    if (comp->dx) free(comp->dx);\n-\n     free(comp);\n }\n \n@@ -153,24 +145,13 @@ Status configurate(ModelInstance* comp) {\n \n     (void)comp;\n \n-#ifdef HAS_EVENT_INDICATORS\n+#ifdef MAX_EVENT_INDICATORS\n     comp->nz = getNumberOfEventIndicators(comp);\n-\n-    if (comp->nz > 0) {\n-        CALL(s_reallocate(comp, (void**)&comp->prez, comp->nz * sizeof(double)));\n-        CALL(s_reallocate(comp, (void**)&comp->z, comp->nz * sizeof(double)));\n-    }\n-\n     CALL(getEventIndicators(comp, comp->prez, comp->nz));\n #endif\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     comp->nx = getNumberOfContinuousStates(comp);\n-\n-    if (comp->nx > 0) {\n-        CALL(s_reallocate(comp, (void**)&comp->x, comp->nx * sizeof(double)));\n-        CALL(s_reallocate(comp, (void**)&comp->dx, comp->nx * sizeof(double)));\n-    }\n #endif\n \n     return OK;\n@@ -603,22 +584,25 @@ Status setFMUState(ModelInstance* comp, void* FMUState) {\n \n     comp->isDirtyValues = s->isDirtyValues;\n \n-    comp->modelData = s->modelData;\n+    memcpy(& comp->modelData, & s->modelData, sizeof(ModelData));\n \n     comp->nSteps = s->nSteps;\n \n     comp->earlyReturnAllowed = s->earlyReturnAllowed;\n     comp->eventModeUsed = s->eventModeUsed;\n     comp->nextCommunicationPoint = s->nextCommunicationPoint;\n \n-    if (comp->nx > 0) {\n-        memcpy(comp->x, s->x, s->nx * sizeof(double));\n-        memcpy(comp->dx, s->dx, s->nx * sizeof(double));\n-    }\n+#if MAX_EVENT_INDICATORS > 0\n+    comp->nz = s->nz;\n+    memcpy(comp->z, s->z, s->nz * sizeof(double));\n+    memcpy(comp->prez, s->prez, s->nz * sizeof(double));\n+#endif\n \n-    if (comp->nz > 0) {\n-        memcpy(comp->z, s->z, s->nz * sizeof(double));\n-    }\n+#if MAX_CONTINUOUS_STATES > 0\n+    comp->nx = s->nx;\n+    memcpy(comp->x, s->x, s->nx * sizeof(double));\n+    memcpy(comp->dx, s->dx, s->nx * sizeof(double));\n+#endif\n \n     comp->nSteps = s->nSteps;\n \n@@ -627,7 +611,7 @@ Status setFMUState(ModelInstance* comp, void* FMUState) {\n \n Status doFixedStep(ModelInstance *comp, bool* stateEvent, bool* timeEvent) {\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (comp->nx > 0) {\n \n         CALL(getContinuousStates(comp, comp->x, comp->nx));\n@@ -649,7 +633,7 @@ Status doFixedStep(ModelInstance *comp, bool* stateEvent, bool* timeEvent) {\n     // state event\n     *stateEvent = false;\n \n-#ifdef HAS_EVENT_INDICATORS\n+#if MAX_EVENT_INDICATORS > 0\n     if (comp->nz > 0) {\n \n         CALL(getEventIndicators(comp, comp->z, comp->nz));\n@@ -662,9 +646,7 @@ Status doFixedStep(ModelInstance *comp, bool* stateEvent, bool* timeEvent) {\n         }\n \n         // remember the current event indicators\n-        double* temp = comp->prez;\n-        comp->prez = comp->z;\n-        comp->z = temp;\n+        memcpy(comp->prez, comp->z, comp->nz * sizeof(double));\n     }\n #endif\n "
+    },
+    {
+      "sha": "d0bd48652c7d6f2aeb2a6c254e742c4157dfe8f7",
+      "filename": "src/fmi1Functions.c",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi1Functions.c",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi1Functions.c",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/src%2Ffmi1Functions.c?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -463,7 +463,7 @@ fmiStatus fmiSetContinuousStates(fmiComponent c, const fmiReal x[], size_t nx) {\n \n     ModelInstance* instance = (ModelInstance *)c;\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidState(instance, \"fmiSetContinuousStates\", Initialized))\n          return fmiError;\n \n@@ -538,7 +538,7 @@ fmiStatus fmiGetContinuousStates(fmiComponent c, fmiReal states[], size_t nx){\n \n     ModelInstance* instance = (ModelInstance *)c;\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidState(instance, \"fmiGetContinuousStates\", not_modelError))\n         return fmiError;\n \n@@ -563,7 +563,7 @@ fmiStatus fmiGetNominalContinuousStates(fmiComponent c, fmiReal x_nominal[], siz\n \n     ModelInstance* instance = (ModelInstance *)c;\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidState(instance, \"fmiGetNominalContinuousStates\", not_modelError))\n         return fmiError;\n \n@@ -590,7 +590,7 @@ fmiStatus fmiGetDerivatives(fmiComponent c, fmiReal derivatives[], size_t nx) {\n \n     ModelInstance* instance = (ModelInstance *)c;\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidState(instance, \"fmiGetDerivatives\", not_modelError))\n          return fmiError;\n \n@@ -615,7 +615,7 @@ fmiStatus fmiGetEventIndicators(fmiComponent c, fmiReal eventIndicators[], size_\n \n     ModelInstance* instance = (ModelInstance *)c;\n \n-#ifdef HAS_EVENT_INDICATORS\n+#if MAX_EVENT_INDICATORS > 0\n     if (invalidState(instance, \"fmiGetEventIndicators\", not_modelError))\n         return fmiError;\n "
+    },
+    {
+      "sha": "470218005a193ff7bdc6db28b1e3da0c7ace0346",
+      "filename": "src/fmi2Functions.c",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi2Functions.c",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi2Functions.c",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/src%2Ffmi2Functions.c?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -833,7 +833,7 @@ fmi2Status fmi2SetContinuousStates(fmi2Component c, const fmi2Real x[], size_t n\n \n     BEGIN_FUNCTION(SetContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#ifdef MAX_CONTINUOUS_STATES\n     if (invalidNumber(S, \"fmi2SetContinuousStates\", \"nx\", nx, getNumberOfContinuousStates(S)))\n         CALL(Error);\n \n@@ -856,7 +856,7 @@ fmi2Status fmi2GetDerivatives(fmi2Component c, fmi2Real derivatives[], size_t nx\n \n     BEGIN_FUNCTION(GetDerivatives);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#ifdef MAX_CONTINUOUS_STATES\n     if (invalidNumber(S, \"fmi2GetDerivatives\", \"nx\", nx, getNumberOfContinuousStates(S)))\n         CALL(Error);\n \n@@ -878,7 +878,7 @@ fmi2Status fmi2GetEventIndicators(fmi2Component c, fmi2Real eventIndicators[], s\n \n     BEGIN_FUNCTION(GetEventIndicators);\n \n-#ifdef HAS_EVENT_INDICATORS\n+#ifdef MAX_EVENT_INDICATORS\n     if (invalidNumber(S, \"fmi2GetEventIndicators\", \"ni\", ni, getNumberOfEventIndicators(S)))\n         CALL(Error);\n \n@@ -897,7 +897,7 @@ fmi2Status fmi2GetContinuousStates(fmi2Component c, fmi2Real states[], size_t nx\n \n     BEGIN_FUNCTION(GetContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#ifdef MAX_CONTINUOUS_STATES\n     if (invalidNumber(S, \"fmi2GetContinuousStates\", \"nx\", nx, getNumberOfContinuousStates(S)))\n         CALL(Error);\n \n@@ -919,7 +919,7 @@ fmi2Status fmi2GetNominalsOfContinuousStates(fmi2Component c, fmi2Real x_nominal\n \n     BEGIN_FUNCTION(GetNominalsOfContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#ifdef MAX_CONTINUOUS_STATES\n     if (invalidNumber(S, \"fmi2GetNominalContinuousStates\", \"nx\", nx, getNumberOfContinuousStates(S)))\n         CALL(Error);\n "
+    },
+    {
+      "sha": "721abc9adb17dc9353e2fb7db413df637ba35e24",
+      "filename": "src/fmi3Functions.c",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 9,
+      "changes": 18,
+      "blob_url": "https://github.com/modelica/Reference-FMUs/blob/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi3Functions.c",
+      "raw_url": "https://github.com/modelica/Reference-FMUs/raw/690a33972c939cdbd58b3cf6c3e55b2c1f3c020b/src%2Ffmi3Functions.c",
+      "contents_url": "https://api.github.com/repos/modelica/Reference-FMUs/contents/src%2Ffmi3Functions.c?ref=690a33972c939cdbd58b3cf6c3e55b2c1f3c020b",
+      "patch": "@@ -957,7 +957,7 @@ fmi3Status fmi3ExitConfigurationMode(fmi3Instance instance) {\n         }\n     }\n \n-#if defined(HAS_CONTINUOUS_STATES) || defined(HAS_EVENT_INDICATORS)\n+#if MAX_CONTINUOUS_STATES > 0 || MAX_EVENT_INDICATORS > 0\n     CALL(configurate(S));\n #endif\n \n@@ -1151,7 +1151,7 @@ fmi3Status fmi3SetContinuousStates(fmi3Instance instance,\n \n     BEGIN_FUNCTION(SetContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidNumber(S, \"fmi3SetContinuousStates\", \"nContinuousStates\", nContinuousStates, getNumberOfContinuousStates(S)))\n         return fmi3Error;\n \n@@ -1174,7 +1174,7 @@ fmi3Status fmi3GetContinuousStateDerivatives(fmi3Instance instance,\n \n     BEGIN_FUNCTION(GetContinuousStateDerivatives);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidNumber(S, \"fmi3GetContinuousStateDerivatives\", \"nContinuousStates\", nContinuousStates, getNumberOfContinuousStates(S)))\n         return fmi3Error;\n \n@@ -1197,7 +1197,7 @@ fmi3Status fmi3GetEventIndicators(fmi3Instance instance,\n \n     BEGIN_FUNCTION(GetEventIndicators);\n \n-#ifdef HAS_EVENT_INDICATORS\n+#if MAX_EVENT_INDICATORS > 0\n     if (invalidNumber(S, \"fmi3GetEventIndicators\", \"nEventIndicators\", nEventIndicators, getNumberOfEventIndicators(S))) {\n         return fmi3Error;\n     }\n@@ -1222,7 +1222,7 @@ fmi3Status fmi3GetContinuousStates(fmi3Instance instance,\n \n     BEGIN_FUNCTION(GetContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidNumber(S, \"fmi3GetContinuousStates\", \"nContinuousStates\", nContinuousStates, getNumberOfContinuousStates(S)))\n         return fmi3Error;\n \n@@ -1245,7 +1245,7 @@ fmi3Status fmi3GetNominalsOfContinuousStates(fmi3Instance instance,\n \n     BEGIN_FUNCTION(GetNominalsOfContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     if (invalidNumber(S, \"fmi3GetNominalContinuousStates\", \"nContinuousStates\", nContinuousStates, getNumberOfContinuousStates(instance)))\n         return fmi3Error;\n \n@@ -1273,7 +1273,7 @@ fmi3Status fmi3GetNumberOfEventIndicators(fmi3Instance instance,\n \n     ASSERT_NOT_NULL(nEventIndicators);\n \n-#ifdef HAS_EVENT_INDICATORS\n+#if MAX_EVENT_INDICATORS > 0\n     *nEventIndicators = getNumberOfEventIndicators(instance);\n #else\n     *nEventIndicators = 0;\n@@ -1290,7 +1290,7 @@ fmi3Status fmi3GetNumberOfContinuousStates(fmi3Instance instance,\n \n     ASSERT_NOT_NULL(nContinuousStates);\n \n-#ifdef HAS_CONTINUOUS_STATES\n+#if MAX_CONTINUOUS_STATES > 0\n     *nContinuousStates = getNumberOfContinuousStates(instance);\n #else\n     *nContinuousStates = 0;\n@@ -1405,7 +1405,7 @@ fmi3Status fmi3DoStep(fmi3Instance instance,\n                 *eventHandlingNeeded = fmi3True;\n             } else {\n                 CALL(eventUpdate(S));\n-#ifdef HAS_EVENT_INDICATORS\n+#if MAX_EVENT_INDICATORS > 0\n                 CALL(getEventIndicators(S, S->prez, S->nz));\n #endif\n             }"
+    }
+  ]
+}
