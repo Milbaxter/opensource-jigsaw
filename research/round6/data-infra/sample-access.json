@@ -1,0 +1,19 @@
+{
+  "url": "https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/202401/oisst-avhrr-v02r01.20240101.nc",
+  "status": 200,
+  "headers": {
+    "Date": "Fri, 18 Sep 2026 10:36:42 GMT",
+    "Server": "Apache",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Last-Modified": "Tue, 16 Jan 2024 17:18:10 GMT",
+    "ETag": "\"17545b-60f135085b880\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "1528923",
+    "Content-Type": "application/x-netcdf",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "X-Requested-With, Content-Type",
+    "Connection": "close"
+  },
+  "bytes": 1528923,
+  "sha256": "fd2f772cbe1633b20ab0c53ed76b874406f933bbd97062d611827c5d8a73bc4c"
+}

@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-18T10:41:28.148664+00:00",
+  "dataset_doi": "10.25921/RE9P-PT57",
+  "version": "OISST2.1",
+  "sample_file": "oisst-avhrr-v02r01.20240101.nc",
+  "sample_sha256": "fd2f772cbe1633b20ab0c53ed76b874406f933bbd97062d611827c5d8a73bc4c",
+  "official_landing_page": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01606/html",
+  "terms_url": "https://www.ncei.noaa.gov/pub/data/sds/cdr/CDRs/Sea_Surface_Temperature_Optimum_Interpolation/UseAgreement_01B-09.pdf",
+  "terms_sha256": "e2c6862cdfa6901b2f9d55984498e2bb01ca724397562bf91840fcc4fb6a389c",
+  "terms_bytes": 21679,
+  "permission": "Official dataset-linked CDR use agreement states datasets are non-proprietary, publicly available, with no use restrictions. It requests acknowledgement/data citation; production software explicitly has separate rights.",
+  "citation": "Huang et al.(2020), NOAA OISSTVersion2.1, NOAA NCEI, doi10.25921/RE9P-PT57, subset2024-01-01, accessed2026-09-18.",
+  "schema": "Four packed int16 science variables, each one gzip chunk [1,1,720,1440]; preserve scale_factor/add_offset and fillvalue.",
+  "performance_evaluation": false
+}

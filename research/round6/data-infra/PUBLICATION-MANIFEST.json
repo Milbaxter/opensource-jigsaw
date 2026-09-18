@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-09-18T10:43:19.366967+00:00",
+  "status": "discovery_only_no_prototype_no_comparative_evaluation",
+  "publish": {
+    "SCREEN.md": {
+      "sha256": "a049c6a18f53317ae548ec271f20932a56e8604ad3dc417b00fa809f63710c46",
+      "bytes": 12293
+    },
+    "TEST-DESIGN.md": {
+      "sha256": "3820b23e2eafa70169b344dfb7fde21516058dfaea596d6d59c964ffd498b839",
+      "bytes": 5648
+    },
+    "components.json": {
+      "sha256": "99715bb4588e37cf4b1afab5d910a6716a57962333353f60794d75174a75259a",
+      "bytes": 14220
+    },
+    "sample-access.json": {
+      "sha256": "e78cf1f40c2f8cc29c9bd58e3367302cdf27f53b3e4d72fb3853a00e0af055e6",
+      "bytes": 744
+    },
+    "sample-schema.json": {
+      "sha256": "c4f55e6d8676e327d29665e3c0d7fe49eb2faaa00d255adfda777dff46a27ef4",
+      "bytes": 7929
+    },
+    "sample-rights.json": {
+      "sha256": "f612bf98a76cea1baa568948bbbf3e57fe920ca1bf446a056b7bd87ce8898b36",
+      "bytes": 1164
+    },
+    "oisst-datacite.json": {
+      "sha256": "b5b150648cfb1ee9ab71ddc50a7f60d34a4d8b8b80bed7a16ec599a3557558e3",
+      "bytes": 9710
+    }
+  },
+  "exclude": [
+    "oisst-sample.nc",
+    ".venv/"
+  ],
+  "data_policy": "Stable download URL, checksum and exactrights retained; rawexample omitted. No third-party implementation copied. Components are discoverypins, not installedexecutionversions.",
+  "next_dependency": "Independentworkloadledger in work/round6-workloads, then prospectivelyfreeze exactscope/baselinesif mechanismworth testing."
+}

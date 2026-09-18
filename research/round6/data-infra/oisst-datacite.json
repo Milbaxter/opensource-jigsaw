@@ -1,0 +1,287 @@
+{
+  "data": {
+    "id": "10.25921/re9p-pt57",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.25921/re9p-pt57",
+      "prefix": "10.25921",
+      "suffix": "re9p-pt57",
+      "identifiers": [],
+      "alternateIdentifiers": [],
+      "creators": [
+        {
+          "name": "Huang, Boyin",
+          "nameType": "Personal",
+          "givenName": "Boyin",
+          "familyName": "Huang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Liu, Chunying",
+          "nameType": "Personal",
+          "givenName": "Chunying",
+          "familyName": "Liu",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Banzon, Viva F.",
+          "nameType": "Personal",
+          "givenName": "Viva F.",
+          "familyName": "Banzon",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Freeman, Eric",
+          "nameType": "Personal",
+          "givenName": "Eric",
+          "familyName": "Freeman",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Graham, Garrett",
+          "nameType": "Personal",
+          "givenName": "Garrett",
+          "familyName": "Graham",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hankins, William",
+          "nameType": "Personal",
+          "givenName": "William",
+          "familyName": "Hankins",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Smith, Thomas M.",
+          "nameType": "Personal",
+          "givenName": "Thomas M.",
+          "familyName": "Smith",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Zhang, Huai-Min",
+          "nameType": "Personal",
+          "givenName": "Huai-Min",
+          "familyName": "Zhang",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "lang": null,
+          "title": "NOAA 0.25-degree Daily Optimum Interpolation Sea Surface Temperature (OISST), Version 2.1",
+          "titleType": null
+        }
+      ],
+      "publisher": "NOAA National Centers for Environmental Information",
+      "container": {},
+      "publicationYear": 2020,
+      "subjects": [],
+      "contributors": [],
+      "dates": [],
+      "language": null,
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "Dataset",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [],
+      "formats": [],
+      "version": null,
+      "rightsList": [],
+      "descriptions": [],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMjU5MjEvUkU5UC1QVDU3PC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5IdWFuZywgQm95aW48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkJveWluPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkh1YW5nPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkxpdSwgQ2h1bnlpbmc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkNodW55aW5nPC9naXZlbk5hbWU+CiAgICAgIDxmYW1pbHlOYW1lPkxpdTwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5CYW56b24sIFZpdmEgRi48L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlZpdmEgRi48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+QmFuem9uPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkZyZWVtYW4sIEVyaWM8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkVyaWM8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RnJlZW1hbjwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5HcmFoYW0sIEdhcnJldHQ8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkdhcnJldHQ8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+R3JhaGFtPC9mYW1pbHlOYW1lPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkhhbmtpbnMsIFdpbGxpYW08L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPldpbGxpYW08L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+SGFua2luczwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5TbWl0aCwgVGhvbWFzIE0uPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5UaG9tYXMgTS48L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+U21pdGg8L2ZhbWlseU5hbWU+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+WmhhbmcsIEh1YWktTWluPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5IdWFpLU1pbjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5aaGFuZzwvZmFtaWx5TmFtZT4KICAgIDwvY3JlYXRvcj4KICA8L2NyZWF0b3JzPgogIDx0aXRsZXM+CiAgICA8dGl0bGU+Tk9BQSAwLjI1LWRlZ3JlZSBEYWlseSBPcHRpbXVtIEludGVycG9sYXRpb24gU2VhIFN1cmZhY2UgVGVtcGVyYXR1cmUgKE9JU1NUKSwgVmVyc2lvbiAyLjE8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+Tk9BQSBOYXRpb25hbCBDZW50ZXJzIGZvciBFbnZpcm9ubWVudGFsIEluZm9ybWF0aW9uPC9wdWJsaXNoZXI+CiAgPHB1YmxpY2F0aW9uWWVhcj4yMDIwPC9wdWJsaWNhdGlvblllYXI+CiAgPHJlc291cmNlVHlwZSByZXNvdXJjZVR5cGVHZW5lcmFsPSJEYXRhc2V0Ij5EYXRhc2V0PC9yZXNvdXJjZVR5cGU+CiAgPHZlcnNpb24vPgo8L3Jlc291cmNlPgo=",
+      "url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C01606/html",
+      "contentUrl": null,
+      "metadataVersion": 1,
+      "schemaVersion": null,
+      "source": "fabricaForm",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 19,
+      "citationsOverTime": [
+        {
+          "year": "2022",
+          "total": 2
+        },
+        {
+          "year": "2023",
+          "total": 2
+        },
+        {
+          "year": "2024",
+          "total": 5
+        },
+        {
+          "year": "2025",
+          "total": 5
+        },
+        {
+          "year": "2026",
+          "total": 5
+        }
+      ],
+      "partCount": 4,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2020-03-12T14:29:59.000Z",
+      "registered": "2020-04-16T20:43:14.000Z",
+      "published": "2020",
+      "updated": "2025-04-07T08:55:21.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "noaa.ncei",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "noaa",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.25921/re9p-pt57",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1038/s43247-022-00577-5",
+            "type": "dois"
+          },
+          {
+            "id": "10.3354/meps14177",
+            "type": "dois"
+          },
+          {
+            "id": "10.5194/gmd-16-779-2023",
+            "type": "dois"
+          },
+          {
+            "id": "10.1029/2022jd038112",
+            "type": "dois"
+          },
+          {
+            "id": "10.6084/m9.figshare.26942637",
+            "type": "dois"
+          },
+          {
+            "id": "10.6084/m9.figshare.26942637.v1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1175/jpo-d-24-0010.1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1093/icesjms/fsae181",
+            "type": "dois"
+          },
+          {
+            "id": "10.3389/fcosc.2024.1490262",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s00382-025-07658-z",
+            "type": "dois"
+          },
+          {
+            "id": "10.1016/j.rsma.2025.104267",
+            "type": "dois"
+          },
+          {
+            "id": "10.1175/jtech-d-24-0053.1",
+            "type": "dois"
+          },
+          {
+            "id": "10.1080/23308249.2025.2471085",
+            "type": "dois"
+          },
+          {
+            "id": "10.3354/meps14970",
+            "type": "dois"
+          },
+          {
+            "id": "10.1038/s41467-025-67506-w",
+            "type": "dois"
+          },
+          {
+            "id": "10.1007/s00382-026-08165-5",
+            "type": "dois"
+          },
+          {
+            "id": "10.3354/meps15171",
+            "type": "dois"
+          },
+          {
+            "id": "10.4018/979-8-3373-5881-9.ch007",
+            "type": "dois"
+          },
+          {
+            "id": "10.5194/os-21-1695-2025",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": [
+          {
+            "id": "10.5194/gmd-16-779-2023",
+            "type": "dois"
+          },
+          {
+            "id": "10.5194/bg-20-4857-2023",
+            "type": "dois"
+          },
+          {
+            "id": "10.5194/os-21-1695-2025",
+            "type": "dois"
+          },
+          {
+            "id": "10.5194/tc-20-3091-2026",
+            "type": "dois"
+          }
+        ]
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

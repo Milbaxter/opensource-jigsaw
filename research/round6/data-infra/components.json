@@ -1,0 +1,186 @@
+{
+  "timestamp": "2026-09-18T10:36:48.620380+00:00",
+  "scope": "discovery pins, no package installed or code executed",
+  "repos": [
+    {
+      "repo": "zarr-developers/zarr-python",
+      "public": true,
+      "sha": "1187a43de9d3aa467d92f317f39415bde245928d",
+      "pushed_at": "2026-09-17T09:47:34Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_url": "https://github.com/zarr-developers/zarr-python/blob/main/LICENSE.txt",
+      "license_download": "https://raw.githubusercontent.com/zarr-developers/zarr-python/main/LICENSE.txt",
+      "pinned_license_url": "https://raw.githubusercontent.com/zarr-developers/zarr-python/1187a43de9d3aa467d92f317f39415bde245928d/LICENSE.txt",
+      "license_text_sha256": "1d7756f33d3da20d53b162c2eb9beba91ee0dc1aeb4659728b6dc8f2f75941cb",
+      "license_excerpt": "The MIT License (MIT)\n\nCopyright (c) 2015-2025 Zarr Developers <https://github.com/zarr-developers>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyr"
+    },
+    {
+      "repo": "zarr-developers/VirtualiZarr",
+      "public": true,
+      "sha": "41f78ff7eb0f03a8f00a01c6518d103a8b45c80e",
+      "pushed_at": "2026-09-17T18:51:45Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "license_url": "https://github.com/zarr-developers/VirtualiZarr/blob/main/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/zarr-developers/VirtualiZarr/main/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/zarr-developers/VirtualiZarr/41f78ff7eb0f03a8f00a01c6518d103a8b45c80e/LICENSE",
+      "license_text_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall"
+    },
+    {
+      "repo": "google/or-tools",
+      "public": true,
+      "sha": "100f66e6242ab8bf8d32feb8f3bf086db66ae2b5",
+      "pushed_at": "2026-09-17T21:30:01Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "license_url": "https://github.com/google/or-tools/blob/stable/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/google/or-tools/stable/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/google/or-tools/100f66e6242ab8bf8d32feb8f3bf086db66ae2b5/LICENSE",
+      "license_text_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "license_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shal"
+    },
+    {
+      "repo": "fsspec/filesystem_spec",
+      "public": true,
+      "sha": "a0ce6dbecad9d42f19a2e1462cb61fec9b77da2e",
+      "pushed_at": "2026-09-17T21:01:26Z",
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "license_url": "https://github.com/fsspec/filesystem_spec/blob/master/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/fsspec/filesystem_spec/master/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/fsspec/filesystem_spec/a0ce6dbecad9d42f19a2e1462cb61fec9b77da2e/LICENSE",
+      "license_text_sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+      "license_excerpt": "BSD 3-Clause License\n\nCopyright (c) 2018, Martin Durant\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the dis"
+    },
+    {
+      "repo": "pydata/xarray",
+      "public": true,
+      "sha": "8de862c29544c2fb1957ce20985745952bc81de7",
+      "pushed_at": "2026-09-16T06:14:37Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "license_url": "https://github.com/pydata/xarray/blob/main/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/pydata/xarray/main/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/pydata/xarray/8de862c29544c2fb1957ce20985745952bc81de7/LICENSE",
+      "license_text_sha256": "533d735a2bbc40eccebe20014c38a2bf6fb1afd488398d2c508006496099af17",
+      "license_excerpt": "Apache License\nVersion 2.0, January 2004\nhttp://www.apache.org/licenses/\n\nTERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n1. Definitions.\n\n\"License\" shall mean the terms and conditions for use, reproduction, and\ndistribution as defined by Sections 1 through 9 of this document.\n\n\"Licensor\" shall mean the copyright owner or entity authorized by the copyright\nowner that is granting the License.\n\n\"Legal Entity\" shall mean the union of the acting entity and all other entities\nthat control, are controlled by, or are under common control"
+    },
+    {
+      "repo": "pangeo-data/rechunker",
+      "public": true,
+      "sha": "2c197f413080b8014762fd4418a2081836b6613b",
+      "pushed_at": "2026-09-14T20:41:10Z",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_url": "https://github.com/pangeo-data/rechunker/blob/master/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/pangeo-data/rechunker/master/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/pangeo-data/rechunker/2c197f413080b8014762fd4418a2081836b6613b/LICENSE",
+      "license_text_sha256": "2d2a56535d3b896a83776ec2590dd3355bfc0052ce9f2783558fdb8c758632bd",
+      "license_excerpt": "MIT License\n\nCopyright (c) 2020 Rechunker Developers\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be"
+    },
+    {
+      "repo": "earth-mover/icechunk",
+      "public": true,
+      "sha": "3be70fa1e3ab559ca328d747098241c63ddaa318",
+      "pushed_at": "2026-09-18T01:00:11Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "license_url": "https://github.com/earth-mover/icechunk/blob/main/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/earth-mover/icechunk/main/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/earth-mover/icechunk/3be70fa1e3ab559ca328d747098241c63ddaa318/LICENSE",
+      "license_text_sha256": "65d1e3a46c93fd3e2c79ad680e88e473b4b9089f4b51dd3a9bd9d09dd7b981ff",
+      "license_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall"
+    },
+    {
+      "repo": "dmlc/decord",
+      "public": true,
+      "sha": "d2e56190286ae394032a8141885f76d5372bd44b",
+      "pushed_at": "2024-07-17T04:18:40Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "license_url": "https://github.com/dmlc/decord/blob/master/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/dmlc/decord/master/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/dmlc/decord/d2e56190286ae394032a8141885f76d5372bd44b/LICENSE",
+      "license_text_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall"
+    },
+    {
+      "repo": "robertu94/libpressio_opt",
+      "public": true,
+      "sha": "fc327715b411f2197d77b72ad47ca874f307e8eb",
+      "pushed_at": "2026-02-11T15:16:55Z",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_url": "https://github.com/robertu94/libpressio_opt/blob/develop/COPYRIGHT.txt",
+      "license_download": "https://raw.githubusercontent.com/robertu94/libpressio_opt/develop/COPYRIGHT.txt",
+      "pinned_license_url": "https://raw.githubusercontent.com/robertu94/libpressio_opt/fc327715b411f2197d77b72ad47ca874f307e8eb/COPYRIGHT.txt",
+      "license_text_sha256": "c0254fc327e19cb14e9dd25a7402155c90b6426a96df4f5c8f6145d97dd1ad6e",
+      "license_excerpt": "libpressio-opt an autotuning meta-compressor for libpressio\nCopyright \u00a9 2022 Robert Underwood\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n1. Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright\nnotice, this list of conditions and the following disclaimer in the\ndocumentation and/or other"
+    },
+    {
+      "repo": "juntyr/compression-safeguards",
+      "public": true,
+      "sha": "9d0371cd37a8cb4df4a1aa20b0eb8992ca71afdb",
+      "pushed_at": "2026-09-17T21:18:27Z",
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      },
+      "license_url": "https://github.com/juntyr/compression-safeguards/blob/main/LICENSE",
+      "license_download": "https://raw.githubusercontent.com/juntyr/compression-safeguards/main/LICENSE",
+      "pinned_license_url": "https://raw.githubusercontent.com/juntyr/compression-safeguards/9d0371cd37a8cb4df4a1aa20b0eb8992ca71afdb/LICENSE",
+      "license_text_sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "license_excerpt": "Mozilla Public License Version 2.0\n==================================\n\n1. Definitions\n--------------\n\n1.1. \"Contributor\"\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n    means the combination of the Contributions of others (if any) used\n    by a Contributor and that particular Contributor's Contribution.\n\n1.3. \"Contribution\"\n    means Covered Software of a particular Contributor.\n\n1.4. \"Covered Software\"\n    means Source Code Form to which the i"
+    }
+  ]
+}
