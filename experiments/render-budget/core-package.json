@@ -1,0 +1,145 @@
+{
+  "name": "@spatialpack/core",
+  "version": "0.1.0",
+  "description": "Standards-first glTF/GLB/USDZ engine — analyze, optimize (KTX2/meshopt/WebP/AVIF), recipe search, commerce-readiness scoring + autocorrect, USDZ validation, USDA/USDC, Gaussian splats. Pure TypeScript.",
+  "author": "Michael Montalbano",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montabano1/SpatialPack.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://github.com/montabano1/SpatialPack/tree/main/packages/core#readme",
+  "keywords": [
+    "spatialpack",
+    "gltf",
+    "glb",
+    "usdz",
+    "usda",
+    "usdc",
+    "3d",
+    "3d-optimization",
+    "glb-optimizer",
+    "ktx2",
+    "meshopt",
+    "draco",
+    "conformance",
+    "commerce-readiness",
+    "ar-quick-look",
+    "gaussian-splatting",
+    "visual-diff"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./analyze": {
+      "types": "./dist/analyze.d.ts",
+      "import": "./dist/analyze.js"
+    },
+    "./optimize": {
+      "types": "./dist/optimize.d.ts",
+      "import": "./dist/optimize.js"
+    },
+    "./image-compare": {
+      "types": "./dist/image-compare.d.ts",
+      "import": "./dist/image-compare.js"
+    },
+    "./usd-to-three-scene": {
+      "types": "./dist/usd-to-three-scene.d.ts",
+      "import": "./dist/usd-to-three-scene.js"
+    },
+    "./visual-diff": {
+      "types": "./dist/visual-diff.d.ts",
+      "import": "./dist/visual-diff.js"
+    },
+    "./fixture-builder": {
+      "types": "./dist/fixture-builder.d.ts",
+      "import": "./dist/fixture-builder.js"
+    },
+    "./presets": {
+      "types": "./dist/presets.d.ts",
+      "import": "./dist/presets.js"
+    },
+    "./html-report": {
+      "types": "./dist/htmlReport.d.ts",
+      "import": "./dist/htmlReport.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/types.js"
+    },
+    "./recipe-search": {
+      "types": "./dist/recipe-search.d.ts",
+      "import": "./dist/recipe-search.js"
+    },
+    "./io": {
+      "types": "./dist/io.d.ts",
+      "import": "./dist/io.js"
+    },
+    "./cohort-recipes": {
+      "types": "./dist/cohort-recipes.d.ts",
+      "import": "./dist/cohort-recipes.js"
+    },
+    "./lod": {
+      "types": "./dist/lod.d.ts",
+      "import": "./dist/lod.js"
+    },
+    "./progressive-glb": {
+      "types": "./dist/progressive-glb.d.ts",
+      "import": "./dist/progressive-glb.js"
+    },
+    "./multi-view-phash": {
+      "types": "./dist/multi-view-phash.d.ts",
+      "import": "./dist/multi-view-phash.js"
+    },
+    "./conformance": {
+      "types": "./dist/conformance.d.ts",
+      "import": "./dist/conformance.js"
+    },
+    "./frame-cost-predictor": {
+      "types": "./dist/frame-cost-predictor.d.ts",
+      "import": "./dist/frame-cost-predictor.js"
+    },
+    "./splat-input": {
+      "types": "./dist/splat-input.d.ts",
+      "import": "./dist/splat-input.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "^4.2.1",
+    "@gltf-transform/extensions": "^4.2.1",
+    "@gltf-transform/functions": "^4.2.1",
+    "meshoptimizer": "^1.1.1",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  }
+}

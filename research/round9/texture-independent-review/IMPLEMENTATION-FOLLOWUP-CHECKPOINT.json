@@ -1,0 +1,61 @@
+{
+  "review_utc": "2026-09-18T11:47:06.810466+00:00",
+  "state": "evolving preexecution checkpoint, not final freeze",
+  "files": [
+    {
+      "path": "runtime/run.mjs",
+      "sha256": "4e244d1401d41818a60b70d996ae27cedc3836e393101240013a29f697454d00",
+      "bytes": 11809
+    },
+    {
+      "path": "runtime/comparator-worker.mjs",
+      "sha256": "27d6f119aff51d4c477b41032cea571eacd01f9261bbfae7815b2397b4ef8417",
+      "bytes": 1585
+    },
+    {
+      "path": "runtime/byte-bound.mjs",
+      "sha256": "9b9fb39e043b5c18592726c76c0d9ae396b75b3fe9f5ff6b3ba1a2bf451551d0",
+      "bytes": 3323
+    },
+    {
+      "path": "runtime/common.mjs",
+      "sha256": "5cda85bc0c14838b9c8d5f64c6aadef980678fa9e0da1e034d47932907003094",
+      "bytes": 3815
+    },
+    {
+      "path": "runtime/encoding.mjs",
+      "sha256": "99af0b1305757c84a1a9520293cc0d6b1a895c7a5a40bb70a954d558cc87ac12",
+      "bytes": 3275
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "sha256": "857dafe6e2f1005df4d804511ef153cbd7972ce655f5e2ffa593fd588ab85eab",
+      "bytes": 3515
+    },
+    {
+      "path": "runtime/prepare.mjs",
+      "sha256": "7f88aaf851fd59be22d944c8bd807e01af77811efcc7c6533b138b9b7babdb1a",
+      "bytes": 3960
+    },
+    {
+      "path": "runtime/controls.mjs",
+      "sha256": "de37d04de957a447fcee782f4af49877a8eef43975871fc2e9b9707dc9d79165",
+      "bytes": 1493
+    },
+    {
+      "path": "runtime/render.html",
+      "sha256": "5813c447d2eb7a018911199b60a51cdd001547b880941655feee8dcf3b1d82de",
+      "bytes": 10091
+    },
+    {
+      "path": "runtime/search.mjs",
+      "sha256": "115d7717137306227c76447cbeed421437163eb667373eaf238c9162b2dd335c",
+      "bytes": 6676
+    },
+    {
+      "path": "runtime/solver-client.mjs",
+      "sha256": "e6d559bf705736a0e17b47964062c386180549ceda711d91dbbd0e8cfbb6b9ff",
+      "bytes": 1267
+    }
+  ]
+}

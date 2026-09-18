@@ -1,0 +1,41 @@
+{
+  "reviewed_utc": "2026-09-18T11:18:27.444181+00:00",
+  "status": "pre-execution draft review; no rendering/encoding or comparison",
+  "files": [
+    {
+      "path": "../round9-render-budget/PREREGISTRATION-DRAFT.md",
+      "bytes": 16271,
+      "sha256": "de71af2a829c996a17cc7269b17f5a6ebfbfe0082c58711fc9399486a0bd3684"
+    },
+    {
+      "path": "../round9-render-budget/SCREEN.md",
+      "bytes": 6145,
+      "sha256": "d645624749a6c8e3482245e039354bcb42a007496e75707ca06e396dae803a4b"
+    },
+    {
+      "path": "../round9-render-budget/input-schema.json",
+      "bytes": 3684,
+      "sha256": "5ad006adab39cff4d587c246df4e33f98c18b17cd710a0c68ecac0dafffe4e1a"
+    },
+    {
+      "path": "../round9-render-budget/prospective-tool-pins.json",
+      "bytes": 9069,
+      "sha256": "a9d0ec6d354ce0c66d117e7583169610682bcdeafc64551534ad4afff3cd2be6"
+    },
+    {
+      "path": "../round9-render-budget/asset-source-pins.json",
+      "bytes": 4463,
+      "sha256": "0f18c971c6617fff309c7a234ce0304a74eab3690d22e91731cd5d045a35070e"
+    },
+    {
+      "path": "../round9-render-budget/competitor-package-pins.json",
+      "bytes": 2038,
+      "sha256": "3199157a996c9d3d9de79cd70a04b1c4e6bab5aa7ba145587adb54ff285d65a5"
+    },
+    {
+      "path": "../round9-render-budget/core-LICENSE",
+      "bytes": 3750,
+      "sha256": "c3c8ac75823d1f437dafbab233222dbd468f7ffb6ff118193a08b27aab269786"
+    }
+  ]
+}

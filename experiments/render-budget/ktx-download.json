@@ -1,0 +1,9 @@
+{
+  "name": "KTX-Software-4.4.2-Darwin-arm64.pkg",
+  "url": "https://github.com/KhronosGroup/KTX-Software/releases/download/v4.4.2/KTX-Software-4.4.2-Darwin-arm64.pkg",
+  "size": 6785364,
+  "digest": "sha256:500bd8f9d63358c3f3a0d83b724c8574436a72c37dc0e4bad90ec1ca38032c3c",
+  "sha256": "500bd8f9d63358c3f3a0d83b724c8574436a72c37dc0e4bad90ec1ca38032c3c",
+  "retrieved_utc": "2026-09-18T11:22:25.869022+00:00",
+  "executed": false
+}

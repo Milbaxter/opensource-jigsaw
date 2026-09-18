@@ -7,7 +7,7 @@ Updated 18 September 2026. **No combination has cleared the pursuit bar yet.** A
 | Combination | Question being tested | Current evidence |
 |---|---|---|
 | FreeCAD adaptive machining + game navigation | Can routing through the actual cleared-stock state improve native detour planning under equal geometric constraints? | [Source screen](round8/cam/SCREEN.md) and [independent review](round8/cam-independent-review/REVIEW.md). [Native screen completed](../experiments/cam-native-links/RESULTS.md): 441 matching replays; 13 eligible requests all straight, so restricted screen failed. A separate endpoint adapter is being investigated; no Detour performance result. |
-| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed deliverable bytes versus strong automatic alternatives? | [Buyer and competition screen](round9/commerce-source-screen.md). Prospective protocol under revision; no encoding/rendering result. |
+| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed deliverable bytes versus strong automatic alternatives? | [Buyer and competition screen](round9/commerce-source-screen.md). [Protocol and implementation frozen](../experiments/render-budget/README.md), with independent static review and a conditional $50/batch commercial experiment. No encoding/rendering result at the freeze. |
 
 ## Executed experiments retained
 

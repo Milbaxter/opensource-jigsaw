@@ -1,0 +1,109 @@
+#!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+"""Independent, narrow KTX2 header/role audit; does not validate/decode payloads.
+
+Complements the official KTX validator and actual browser loading.
+Layout: https://github.khronos.org/KTX-Specification/ktxspec.v2.html
+Role rules: Khronos glTF KHR_texture_basisu README.
+Enums checked against KTX-Software v4.4.2 external/dfdutils/KHR/khr_df.h.
+"""
+
+import argparse
+import hashlib
+import json
+import math
+import pathlib
+import struct
+
+IDENTIFIER = b"\xabKTX 20\xbb\r\n\x1a\n"
+
+
+def require(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def inspect(data, role, codec, full_mips=False):
+    require(len(data) >= 80 and data[:12] == IDENTIFIER, "Invalid or truncated KTX2 header")
+    fields = struct.unpack_from("<13I2Q", data, 12)
+    (vk, type_size, width, height, depth, layers, faces, levels, scheme,
+     dfd_offset, dfd_length, kvd_offset, kvd_length, sgd_offset, sgd_length) = fields
+    require(vk == 0 and type_size == 1, "Expected Basis Universal format/typeSize")
+    require(width > 0 and height > 0 and width % 4 == 0 and height % 4 == 0,
+            "KHR_texture_basisu dimensions must be positive multiples of four")
+    require(depth == 0 and layers == 0 and faces == 1, "Expected non-array 2D texture")
+    maximum_levels = 1 + math.floor(math.log2(max(width, height)))
+    require(1 <= levels <= maximum_levels, "Invalid mip count")
+    if full_mips:
+        require(levels == maximum_levels, "Missing stored mip levels")
+    index_end = 80 + 24 * levels
+    require(index_end <= len(data), "Truncated level index")
+    require(dfd_offset >= index_end and dfd_length >= 28
+            and dfd_offset + dfd_length <= len(data), "Invalid DFD range")
+    dfd = data[dfd_offset:dfd_offset + dfd_length]
+    total, vendor_type, version, block_size = struct.unpack_from("<IIHH", dfd)
+    require(total == dfd_length and vendor_type == 0 and version == 2,
+            "Expected Khronos basic version-two DFD")
+    require(block_size >= 24 and block_size + 4 <= dfd_length,
+            "Invalid basic descriptor size")
+    model, primaries, transfer, flags = dfd[12:16]
+    require(tuple(dfd[16:20]) == (3, 3, 0, 0), "Expected 4x4x1x1 blocks")
+    require((flags & 1) == 0, "Unexpected premultiplied alpha")
+    expected_role = (1, 2) if role == "color" else (0, 1)
+    require((primaries, transfer) == expected_role, "DFD color space does not match role")
+    require((codec == "etc1s" and model == 163 and scheme == 1)
+            or (codec == "uastc" and model == 166 and scheme in (0, 2)),
+            "Payload model/supercompression does not match codec")
+    mip_ranges = []
+    for level in range(levels):
+        offset, length, unpacked = struct.unpack_from("<QQQ", data, 80 + 24 * level)
+        require(offset >= index_end and length > 0 and offset + length <= len(data),
+                f"Invalid mip payload range {level}")
+        mip_ranges.append({"level": level, "offset": offset, "length": length,
+                           "uncompressed_length": unpacked})
+    if sgd_length:
+        require(sgd_offset >= index_end and sgd_offset + sgd_length <= len(data),
+                "Invalid supercompression global data range")
+    metadata = {}
+    if kvd_length:
+        require(kvd_offset >= index_end and kvd_offset + kvd_length <= len(data),
+                "Invalid metadata range")
+        cursor, end = kvd_offset, kvd_offset + kvd_length
+        while cursor < end:
+            require(cursor + 4 <= end, "Truncated metadata length")
+            length = struct.unpack_from("<I", data, cursor)[0]
+            cursor += 4
+            require(length > 1 and cursor + length <= end, "Truncated metadata value")
+            entry = data[cursor:cursor + length]
+            require(b"\0" in entry, "Metadata key lacks terminator")
+            key, value = entry.split(b"\0", 1)
+            require(key not in metadata, "Duplicate metadata key")
+            metadata[key] = value
+            cursor += (length + 3) // 4 * 4
+        require(cursor == end, "Metadata padding exceeds declared range")
+    orientation = metadata.get(b"KTXorientation", b"rd").rstrip(b"\0")
+    swizzle = metadata.get(b"KTXswizzle", b"rgba").rstrip(b"\0")
+    require(orientation == b"rd", "Unexpected orientation")
+    require(swizzle == b"rgba", "Unexpected channel swizzle")
+    return {"passed": True, "scope": "Header, metadata, role and payload bounds only; no decode",
+            "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(),
+            "role": role, "codec": codec, "width": width, "height": height,
+            "levels": levels, "color_model": model, "primaries": primaries,
+            "transfer": transfer, "flags": flags, "supercompression": scheme,
+            "orientation": orientation.decode(), "swizzle": swizzle.decode(),
+            "mip_ranges": mip_ranges}
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("file", type=pathlib.Path)
+    parser.add_argument("--role", required=True, choices=("color", "data"))
+    parser.add_argument("--codec", required=True, choices=("etc1s", "uastc"))
+    parser.add_argument("--full-mips", action="store_true")
+    args = parser.parse_args()
+    try:
+        result = inspect(args.file.read_bytes(), args.role, args.codec, args.full_mips)
+    except (ValueError, OSError, struct.error, UnicodeError) as error:
+        print(json.dumps({"passed": False, "error": str(error)}))
+        raise SystemExit(2)
+    print(json.dumps(result))

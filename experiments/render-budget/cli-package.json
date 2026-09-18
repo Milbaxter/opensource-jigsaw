@@ -1,0 +1,68 @@
+{
+  "name": "@spatialpack/cli",
+  "version": "0.1.0",
+  "description": "SpatialPack CLI — analyze, optimize, readiness, autocorrect, batch-autocorrect, ar-parity, visual-diff, recipe-search, USDZ for glTF/GLB. `npx @spatialpack/cli`.",
+  "author": "Michael Montalbano",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montabano1/SpatialPack.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://github.com/montabano1/SpatialPack/tree/main/packages/cli#readme",
+  "keywords": [
+    "spatialpack",
+    "gltf",
+    "glb",
+    "usdz",
+    "cli",
+    "3d-optimization",
+    "glb-optimizer",
+    "ktx2",
+    "meshopt",
+    "commerce-readiness",
+    "autocorrect",
+    "ar-quick-look",
+    "visual-diff"
+  ],
+  "type": "module",
+  "bin": {
+    "spatialpack": "./dist/bin.js"
+  },
+  "exports": {
+    "./visual-diff-cmd": {
+      "types": "./dist/visual-diff-cmd.d.ts",
+      "import": "./dist/visual-diff-cmd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "vendor",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "playwright": "^1.52.0",
+    "@spatialpack/core": "0.1.0"
+  },
+  "optionalDependencies": {
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.60.0",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.4"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  }
+}

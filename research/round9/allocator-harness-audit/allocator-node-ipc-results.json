@@ -1,0 +1,21 @@
+{
+  "scope": "Synthetic IPC error and recovery check; no real asset",
+  "malformedRejected": true,
+  "error": "Error: AssertionError: ",
+  "recovered": {
+    "status": "OPTIMAL",
+    "wall_seconds": 0.026547,
+    "bound": 10000,
+    "scale": 1000000,
+    "branches": 0,
+    "conflicts": 0,
+    "vector": [
+      1,
+      1
+    ],
+    "objective": 10000,
+    "cpu_seconds": 0.012641000000000013,
+    "deterministic_time": 0.000003885
+  },
+  "passed": true
+}

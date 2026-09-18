@@ -1,0 +1,51 @@
+{
+  "time_utc": "2026-09-18T11:41:24.742206+00:00",
+  "scope": "Static review only; no module imported, actual encoding/rendering or performance evaluation executed by reviewer. Parent reports solver synthetic controls and dummy KTX-header controls only.",
+  "files": [
+    {
+      "path": "PREREGISTRATION-DRAFT.md",
+      "sha256": "d92c3920b798968c8c58bc60c57296e9b1ec21cb5a99f03e1e0c9a1f47457c69",
+      "bytes": 20166
+    },
+    {
+      "path": "runtime/common.mjs",
+      "sha256": "5cda85bc0c14838b9c8d5f64c6aadef980678fa9e0da1e034d47932907003094",
+      "bytes": 3815
+    },
+    {
+      "path": "runtime/encoding.mjs",
+      "sha256": "041689f7619626a6f243725de063f12baa398ed8f5559a4f9aec69d158745fdc",
+      "bytes": 3017
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "sha256": "857dafe6e2f1005df4d804511ef153cbd7972ce655f5e2ffa593fd588ab85eab",
+      "bytes": 3515
+    },
+    {
+      "path": "runtime/prepare.mjs",
+      "sha256": "0079e0c0471472ea324f43c750941b627625a0d13c2346fffbad9bb32de4236f",
+      "bytes": 3907
+    },
+    {
+      "path": "runtime/controls.mjs",
+      "sha256": "1809edc224ef9c7a0263d9852e017f65a35b7e32034e039bbb57d320f392ff9b",
+      "bytes": 1432
+    },
+    {
+      "path": "runtime/render.html",
+      "sha256": "1bddbb54cc6792294433ce1190ee7b651f18e3235fbdf382b0416ae92b04260f",
+      "bytes": 9762
+    },
+    {
+      "path": "runtime/search.mjs",
+      "sha256": "7382b0aa574cd683e6886b5d64aaf8d6774c3f645f40f16420643c2929173241",
+      "bytes": 6972
+    },
+    {
+      "path": "runtime/solver-client.mjs",
+      "sha256": "016d00dae0478d25a7213798dc122f197a4db53e8f18d298c4550c51f9c59fd3",
+      "bytes": 1114
+    }
+  ]
+}

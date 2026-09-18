@@ -1,0 +1,92 @@
+[
+  {
+    "local": "DamagedHelmet-README.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/DamagedHelmet/README.md",
+    "sha256": "dcc3f92c30a2e6f3a9dadae2ba9c759bdd7e0e29e41fc3c6fc68f682962b3eec",
+    "bytes": 1481
+  },
+  {
+    "local": "DamagedHelmet-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/DamagedHelmet/LICENSE.md",
+    "sha256": "efb539b0e407c818fc1efff93254a24915b4c861a4c58f9617e0ffc12d66ef4f",
+    "bytes": 953
+  },
+  {
+    "local": "DamagedHelmet-metadata.json",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/DamagedHelmet/metadata.json",
+    "sha256": "73c246a446390b1ced28f4c5685407415b6ccaad3d23ef9ece9c2e09d7f4ebf1",
+    "bytes": 1109
+  },
+  {
+    "local": "FlightHelmet-README.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/README.md",
+    "sha256": "7724b64fb4fae1135ddec3738d1eb9320d3bb9c890f599c423a09e205fb7257f",
+    "bytes": 3348
+  },
+  {
+    "local": "FlightHelmet-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/LICENSE.md",
+    "sha256": "97d142b221f4379656153eb1d2261f19d88a4da9a6bde6dda5aed548c08d90d3",
+    "bytes": 777
+  },
+  {
+    "local": "FlightHelmet-metadata.json",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/FlightHelmet/metadata.json",
+    "sha256": "41d0c37c739d5c25eb3e276a13ff7a2658abb2d44422812de7a839bb03c503a0",
+    "bytes": 652
+  },
+  {
+    "local": "ToyCar-README.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/README.md",
+    "sha256": "aed216cda25deab59a115bdd6f486da0437fe4e1d9df11c34e496242dbf89fe2",
+    "bytes": 2073
+  },
+  {
+    "local": "ToyCar-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/LICENSE.md",
+    "sha256": "1bafd1612199909f5eaf75aea630258e0358d99935ed7e9efce40e24a05c9d4a",
+    "bytes": 913
+  },
+  {
+    "local": "ToyCar-metadata.json",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/ToyCar/metadata.json",
+    "sha256": "4ccccf4f019521aea50d462a8b20b876478aca456ab6adde17cd8e4a53110b73",
+    "bytes": 1070
+  },
+  {
+    "local": "WaterBottle-README.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/README.md",
+    "sha256": "4ddb88bb6b835ab1b658041f1c5391b5b2128be65725d1ef84b1e434d818eb1c",
+    "bytes": 1004
+  },
+  {
+    "local": "WaterBottle-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/LICENSE.md",
+    "sha256": "08c75232969ea00d997a590975fd5b1b92716ebd6a21f8536b897b2f3c557879",
+    "bytes": 776
+  },
+  {
+    "local": "WaterBottle-metadata.json",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/WaterBottle/metadata.json",
+    "sha256": "f7d3aa4783d4e81f135855e0ece0b45bf4e529dca5ba60b3878d3115c2773a35",
+    "bytes": 645
+  },
+  {
+    "local": "BoomBox-README.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/README.md",
+    "sha256": "4a0ba4006d903b85dea52788053399d835b22ebb3ab4b1e305ccee103d7b2271",
+    "bytes": 1000
+  },
+  {
+    "local": "BoomBox-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/LICENSE.md",
+    "sha256": "a97e7d2efd7fc8bce46ff0ec663cc220c63497bb876e5f8cff3020c8d7198fc5",
+    "bytes": 772
+  },
+  {
+    "local": "BoomBox-metadata.json",
+    "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c6a6bd13ab2b3c685c7903d03561b8a9392f38b8/Models/BoomBox/metadata.json",
+    "sha256": "6fdf2571e662907ba51b35ca303d616baca22ae5f8e689bfd2110ef06329236a",
+    "bytes": 655
+  }
+]

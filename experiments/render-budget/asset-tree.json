@@ -1,0 +1,988 @@
+{
+  "repo": "KhronosGroup/glTF-Sample-Assets",
+  "commit": "c6a6bd13ab2b3c685c7903d03561b8a9392f38b8",
+  "entries": [
+    {
+      "path": "Models/BoomBox/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29ad72539c9fa02955f9dc210d229594c33e802",
+      "size": 772,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/d29ad72539c9fa02955f9dc210d229594c33e802"
+    },
+    {
+      "path": "Models/BoomBox/README.body.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6d25875381c5c6b80e1976666eb977e4cf1bad",
+      "size": 149,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/7a6d25875381c5c6b80e1976666eb977e4cf1bad"
+    },
+    {
+      "path": "Models/BoomBox/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86dbb2d3fc527be1e23ba87f3c2f281c5b402ddf",
+      "size": 1000,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/86dbb2d3fc527be1e23ba87f3c2f281c5b402ddf"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Binary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3591eedaf6816e216684a8a04552eaf91f1da39",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/e3591eedaf6816e216684a8a04552eaf91f1da39"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Binary/BoomBox.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d46a04283be023e3dd5154a4a8d65a68abf597c",
+      "size": 10614184,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/8d46a04283be023e3dd5154a4a8d65a68abf597c"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a09182ad48f54502e171b3ef70e29498fbc34a76",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/a09182ad48f54502e171b3ef70e29498fbc34a76"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2245a1853c170f5a48933bd0a2b07452862c803",
+      "size": 71144,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/a2245a1853c170f5a48933bd0a2b07452862c803"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98a68a98cd5fc2545f9d07195e46177ef186c4b3",
+      "size": 3371,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/98a68a98cd5fc2545f9d07195e46177ef186c4b3"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox_baseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992429df5b1808b2f2c825e42eb3c576ee3885c9",
+      "size": 3285844,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/992429df5b1808b2f2c825e42eb3c576ee3885c9"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox_emissive.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315a499403951d16f9b97e7309dd26822f4c362a",
+      "size": 132833,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/315a499403951d16f9b97e7309dd26822f4c362a"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6953c0249b79e99656ff9401129bafa74466e0e8",
+      "size": 2514469,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6953c0249b79e99656ff9401129bafa74466e0e8"
+    },
+    {
+      "path": "Models/BoomBox/glTF-Draco/BoomBox_occlusionRoughnessMetallic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4370d6092f4df6b64c0b8da090dd29ecd8c2c74b",
+      "size": 4471451,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/4370d6092f4df6b64c0b8da090dd29ecd8c2c74b"
+    },
+    {
+      "path": "Models/BoomBox/glTF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f1baa09651ef6a6d2f039a18a58c221354bf4c6",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/7f1baa09651ef6a6d2f039a18a58c221354bf4c6"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240a16b4671b221e2e14fa3074b190211d987c89",
+      "size": 207816,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/240a16b4671b221e2e14fa3074b190211d987c89"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e53c31afd8a9f13341ce8f30c0e0f02fa7fcba",
+      "size": 2702,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/b5e53c31afd8a9f13341ce8f30c0e0f02fa7fcba"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox_baseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992429df5b1808b2f2c825e42eb3c576ee3885c9",
+      "size": 3285844,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/992429df5b1808b2f2c825e42eb3c576ee3885c9"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox_emissive.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315a499403951d16f9b97e7309dd26822f4c362a",
+      "size": 132833,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/315a499403951d16f9b97e7309dd26822f4c362a"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6953c0249b79e99656ff9401129bafa74466e0e8",
+      "size": 2514469,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6953c0249b79e99656ff9401129bafa74466e0e8"
+    },
+    {
+      "path": "Models/BoomBox/glTF/BoomBox_occlusionRoughnessMetallic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4370d6092f4df6b64c0b8da090dd29ecd8c2c74b",
+      "size": 4471451,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/4370d6092f4df6b64c0b8da090dd29ecd8c2c74b"
+    },
+    {
+      "path": "Models/BoomBox/metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "002a21cfeb7a8b6a353aae5c6ce1bc45070597b2",
+      "size": 655,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/002a21cfeb7a8b6a353aae5c6ce1bc45070597b2"
+    },
+    {
+      "path": "Models/BoomBox/screenshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "546f57a7ae0013bd44ebbc56254da4d1a3e9fd0d",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/546f57a7ae0013bd44ebbc56254da4d1a3e9fd0d"
+    },
+    {
+      "path": "Models/BoomBox/screenshot/screenshot.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6cb0921da2e86356a87e0b4fb86999eaaf3b87e",
+      "size": 15710,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/b6cb0921da2e86356a87e0b4fb86999eaaf3b87e"
+    },
+    {
+      "path": "Models/BoomBox/screenshot/screenshot_large.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b689a0a223861942f009ad3cc17a514f276e4eab",
+      "size": 326958,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/b689a0a223861942f009ad3cc17a514f276e4eab"
+    },
+    {
+      "path": "Models/DamagedHelmet/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5f98ef47a122e3ad056b63c24dcea66f031314",
+      "size": 953,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/9e5f98ef47a122e3ad056b63c24dcea66f031314"
+    },
+    {
+      "path": "Models/DamagedHelmet/README.body.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6652166e6c61c332076e18e64c9199fb89f0cbf6",
+      "size": 356,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6652166e6c61c332076e18e64c9199fb89f0cbf6"
+    },
+    {
+      "path": "Models/DamagedHelmet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ed297e68c1a3239bfe937e9572fe3f753497955",
+      "size": 1481,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/1ed297e68c1a3239bfe937e9572fe3f753497955"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF-Binary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd66f1b68e4c205e5ebb879c37ca1c8ae63790e9",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/cd66f1b68e4c205e5ebb879c37ca1c8ae63790e9"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF-Binary/DamagedHelmet.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cee76d76a752c92458a8a8294ff3658fdc9d6c7",
+      "size": 3773916,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/2cee76d76a752c92458a8a8294ff3658fdc9d6c7"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF-Embedded",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75d1a194568aa0ceccd5c76d543a21556dd61ee5",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/75d1a194568aa0ceccd5c76d543a21556dd61ee5"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF-Embedded/DamagedHelmet.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dae76a5471495d36723470f4c457b431a3b76f4",
+      "size": 5033556,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6dae76a5471495d36723470f4c457b431a3b76f4"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4deff4578509b6f86bd0984357d11c58a39c46b",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/e4deff4578509b6f86bd0984357d11c58a39c46b"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/DamagedHelmet.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662eacc1da580cdcbc08572d5535b3ed484b1579",
+      "size": 558504,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/662eacc1da580cdcbc08572d5535b3ed484b1579"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/DamagedHelmet.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61145a010f0571650a48daffd5fd3e99a80d9a6",
+      "size": 4537,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/c61145a010f0571650a48daffd5fd3e99a80d9a6"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/Default_AO.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419f62840ad0eff2bc2482ada01e55ed02fb87e3",
+      "size": 361678,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/419f62840ad0eff2bc2482ada01e55ed02fb87e3"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/Default_albedo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d64855c732130451cfd511d61ffb07b2d97e1f",
+      "size": 935629,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/15d64855c732130451cfd511d61ffb07b2d97e1f"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/Default_emissive.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de59e897bbfb1a664053bc5ba3cab0cd21accf0",
+      "size": 97499,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/2de59e897bbfb1a664053bc5ba3cab0cd21accf0"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/Default_metalRoughness.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04874cb6e9aba270a2c5d3b41f487c0dcc7b481d",
+      "size": 1300661,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/04874cb6e9aba270a2c5d3b41f487c0dcc7b481d"
+    },
+    {
+      "path": "Models/DamagedHelmet/glTF/Default_normal.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ca20a2d131d5aa70f93f040707a80987cc4904",
+      "size": 517757,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/94ca20a2d131d5aa70f93f040707a80987cc4904"
+    },
+    {
+      "path": "Models/DamagedHelmet/metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18631a6e23406c45f7586e55501682eaebe29a88",
+      "size": 1109,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/18631a6e23406c45f7586e55501682eaebe29a88"
+    },
+    {
+      "path": "Models/DamagedHelmet/screenshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a081f288a09207c37e4d1d9df098f8cd361291a9",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/a081f288a09207c37e4d1d9df098f8cd361291a9"
+    },
+    {
+      "path": "Models/DamagedHelmet/screenshot/screenshot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7542dab5344460b46786b6d12a58a785e7087005",
+      "size": 28386,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/7542dab5344460b46786b6d12a58a785e7087005"
+    },
+    {
+      "path": "Models/FlightHelmet/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91471d51fc79ff623edf0565a7f5fa454f51175",
+      "size": 777,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/f91471d51fc79ff623edf0565a7f5fa454f51175"
+    },
+    {
+      "path": "Models/FlightHelmet/README.body.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff22bb15748ed5f2d7a98deb9b9204eee4069358",
+      "size": 2577,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/ff22bb15748ed5f2d7a98deb9b9204eee4069358"
+    },
+    {
+      "path": "Models/FlightHelmet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34da8a5d9cc282e9fb2a5aa1b2c3226220e6031b",
+      "size": 3348,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/34da8a5d9cc282e9fb2a5aa1b2c3226220e6031b"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d507eda9c2301994d0faa5080f1ffd5ce1a79b5c",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/d507eda9c2301994d0faa5080f1ffd5ce1a79b5c"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ed380f8164a3bcebbe5b02faded542dd0c0d83",
+      "size": 3227148,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/21ed380f8164a3bcebbe5b02faded542dd0c0d83"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "601641f97c0d12c2941e2ad226dcd2b74379c4c0",
+      "size": 15843,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/601641f97c0d12c2941e2ad226dcd2b74379c4c0"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_GlassPlasticMat_BaseColor.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132363819a67fc85ce2211e85c1d8aae8422cce0",
+      "size": 311727,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/132363819a67fc85ce2211e85c1d8aae8422cce0"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_GlassPlasticMat_Normal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36fe386a307652e9025d91c42ecb16ae30ba216e",
+      "size": 2758459,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/36fe386a307652e9025d91c42ecb16ae30ba216e"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4826abe61c983d432dee776a026a7b30f2fc4edd",
+      "size": 3822463,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/4826abe61c983d432dee776a026a7b30f2fc4edd"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LeatherPartsMat_BaseColor.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13af070913c398164409959fa36f1153a812ad02",
+      "size": 493130,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/13af070913c398164409959fa36f1153a812ad02"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LeatherPartsMat_Normal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9569b714d1dcddabe4f5ee0e4035aa47b8f05438",
+      "size": 3814941,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/9569b714d1dcddabe4f5ee0e4035aa47b8f05438"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da090fb5cfb6574d34e938d872820b9ec9ff04e7",
+      "size": 4157862,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/da090fb5cfb6574d34e938d872820b9ec9ff04e7"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LensesMat_BaseColor.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ad6599ac0647a66e8cdc5d02f3f032e275503d",
+      "size": 93420,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/67ad6599ac0647a66e8cdc5d02f3f032e275503d"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LensesMat_Normal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac58bed5defacc92bfebe471e2c6d269de051c20",
+      "size": 1685,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/ac58bed5defacc92bfebe471e2c6d269de051c20"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91aeabfb8328eaa5ab8bd2c0833f6ace875c86f1",
+      "size": 703897,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/91aeabfb8328eaa5ab8bd2c0833f6ace875c86f1"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_MetalPartsMat_BaseColor.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07953a3a51e7148dcb7f9b56fb6604dd36c0afe9",
+      "size": 474341,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/07953a3a51e7148dcb7f9b56fb6604dd36c0afe9"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_MetalPartsMat_Normal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f3736167d32be604aa8534bf9e4160281844523",
+      "size": 3555793,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/9f3736167d32be604aa8534bf9e4160281844523"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8cf7e274df9f04d9dd5a746085d0318a5d1169b",
+      "size": 3110408,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/d8cf7e274df9f04d9dd5a746085d0318a5d1169b"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_RubberWoodMat_BaseColor.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b94ce5964843241f77a13991a5384c5f634096",
+      "size": 441540,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/83b94ce5964843241f77a13991a5384c5f634096"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_RubberWoodMat_Normal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e36531787a9ab055d55b51e753f682bfb53b877",
+      "size": 3469735,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/8e36531787a9ab055d55b51e753f682bfb53b877"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF-KTX-BasisU/FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.ktx2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "befe80aab610f5c31a3e160c4ebbf69c06d7723b",
+      "size": 3507563,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/befe80aab610f5c31a3e160c4ebbf69c06d7723b"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c645ada1b738b3ce69f601fce8b93e46fabd80c",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/1c645ada1b738b3ce69f601fce8b93e46fabd80c"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a878be10d32ec4eb4ab4c37b781792abe94a332",
+      "size": 3227148,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/3a878be10d32ec4eb4ab4c37b781792abe94a332"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03b53b40cffe79b6b6647af7a51c37c4abfabf9b",
+      "size": 18698,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/03b53b40cffe79b6b6647af7a51c37c4abfabf9b"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_BaseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8e33b53dc0f7676a175c0aeb43cc71c8f006cb",
+      "size": 2306649,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6d8e33b53dc0f7676a175c0aeb43cc71c8f006cb"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_Normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25aa956368b82bd3368259b6283c0f087b236cee",
+      "size": 2648815,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/25aa956368b82bd3368259b6283c0f087b236cee"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_GlassPlasticMat_OcclusionRoughMetal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ff83ed9cb29ed84466aa20db37bcbb81b6f0f8",
+      "size": 3696183,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/01ff83ed9cb29ed84466aa20db37bcbb81b6f0f8"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_BaseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693a01d35c260d030d7c5bdd1f9bd3ff1c140401",
+      "size": 5478748,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/693a01d35c260d030d7c5bdd1f9bd3ff1c140401"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_Normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d2d37bbeba9e46e7f6c5234a6ab75cd601fcdf7",
+      "size": 5675531,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/5d2d37bbeba9e46e7f6c5234a6ab75cd601fcdf7"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LeatherPartsMat_OcclusionRoughMetal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ea477505d6614dec6e7193eba63585272a67e2",
+      "size": 4375686,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/72ea477505d6614dec6e7193eba63585272a67e2"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_BaseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2dd7873f05af6363d48a1810b5bb80d97f393b1",
+      "size": 696304,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/d2dd7873f05af6363d48a1810b5bb80d97f393b1"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_Normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3989a09819f1e50550d76a93082417ccd98e4ef9",
+      "size": 5575,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/3989a09819f1e50550d76a93082417ccd98e4ef9"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_LensesMat_OcclusionRoughMetal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "372a426ddd7832e6a99f8ee86a08e0100ddeb5ed",
+      "size": 601603,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/372a426ddd7832e6a99f8ee86a08e0100ddeb5ed"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_BaseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908a88b4a6bf151e0fcd93cbb6ed723f5ffcbb46",
+      "size": 2680488,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/908a88b4a6bf151e0fcd93cbb6ed723f5ffcbb46"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_Normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "191ef7ef0c22a59a5e86ad181c9ca7e90769c49e",
+      "size": 3273483,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/191ef7ef0c22a59a5e86ad181c9ca7e90769c49e"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_MetalPartsMat_OcclusionRoughMetal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95075d80991d015d094330ab5a5d0e68113f90f4",
+      "size": 2976508,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/95075d80991d015d094330ab5a5d0e68113f90f4"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_BaseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02dff40201fc3133a2d356a71fbfe6c8af001553",
+      "size": 3594300,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/02dff40201fc3133a2d356a71fbfe6c8af001553"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_Normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e6f7906eae6547997f11f23bb8c38586cb7741",
+      "size": 3327566,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/c3e6f7906eae6547997f11f23bb8c38586cb7741"
+    },
+    {
+      "path": "Models/FlightHelmet/glTF/FlightHelmet_Materials_RubberWoodMat_OcclusionRoughMetal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce3f642ca76811a7b121b8ba87344222799d19d",
+      "size": 3809284,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6ce3f642ca76811a7b121b8ba87344222799d19d"
+    },
+    {
+      "path": "Models/FlightHelmet/metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48281304b7ad47c48dace0dea71dda49199b1e3e",
+      "size": 652,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/48281304b7ad47c48dace0dea71dda49199b1e3e"
+    },
+    {
+      "path": "Models/FlightHelmet/screenshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a41ce06dfa390dbc432286b47dd37a55ea610d9a",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/a41ce06dfa390dbc432286b47dd37a55ea610d9a"
+    },
+    {
+      "path": "Models/FlightHelmet/screenshot/screenshot.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f51620c3d50cd56878ae5938ea217a22db76a9",
+      "size": 3795,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/a8f51620c3d50cd56878ae5938ea217a22db76a9"
+    },
+    {
+      "path": "Models/ToyCar/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2678a459f7cbed027e041b337fc1b1bdf8af8c4a",
+      "size": 913,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/2678a459f7cbed027e041b337fc1b1bdf8af8c4a"
+    },
+    {
+      "path": "Models/ToyCar/README.body.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670df6b55d98b0a17140c1ac83369424ebbad13d",
+      "size": 886,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/670df6b55d98b0a17140c1ac83369424ebbad13d"
+    },
+    {
+      "path": "Models/ToyCar/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d007122166a7768d7da31dd2ff4bd5a1647a2191",
+      "size": 2073,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/d007122166a7768d7da31dd2ff4bd5a1647a2191"
+    },
+    {
+      "path": "Models/ToyCar/glTF-Binary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "262897506bdb9b19e282a821f66253384f691925",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/262897506bdb9b19e282a821f66253384f691925"
+    },
+    {
+      "path": "Models/ToyCar/glTF-Binary/ToyCar.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b3eaab83218894ab27bcf48fcc9a0f7a04be45e",
+      "size": 5422412,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6b3eaab83218894ab27bcf48fcc9a0f7a04be45e"
+    },
+    {
+      "path": "Models/ToyCar/glTF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "123e9483db7bc4b366dff3f29f48c7c57ab37b2e",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/123e9483db7bc4b366dff3f29f48c7c57ab37b2e"
+    },
+    {
+      "path": "Models/ToyCar/glTF/Fabric_baseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df710e1d8cbb27ac1fda4bdd0e12ae0c383a3ed",
+      "size": 412812,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/8df710e1d8cbb27ac1fda4bdd0e12ae0c383a3ed"
+    },
+    {
+      "path": "Models/ToyCar/glTF/Fabric_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fb1b22fb39adf00ec72dee7951aab100eedd4a4",
+      "size": 294759,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/4fb1b22fb39adf00ec72dee7951aab100eedd4a4"
+    },
+    {
+      "path": "Models/ToyCar/glTF/Fabric_occlusion.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1e939a1c290c314e04caeb668c98f3dd2df34a",
+      "size": 191518,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/0d1e939a1c290c314e04caeb668c98f3dd2df34a"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c39a233ac1fa9d88118cc336c2d5ad59805c3dbc",
+      "size": 3664368,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/c39a233ac1fa9d88118cc336c2d5ad59805c3dbc"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8fe470848e598643f6c2f14b0162d536038b51c",
+      "size": 17626,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/b8fe470848e598643f6c2f14b0162d536038b51c"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar_basecolor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b19eb959b4746127593eafd004ec915fd934f44",
+      "size": 196648,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/5b19eb959b4746127593eafd004ec915fd934f44"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar_clearcoat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80594406af5b411a2efd4b5cd21bf70e601d933",
+      "size": 15362,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/a80594406af5b411a2efd4b5cd21bf70e601d933"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar_emissive.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283ed4607a2f7009b98fcff901c00ccba75e0c7f",
+      "size": 83739,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/283ed4607a2f7009b98fcff901c00ccba75e0c7f"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e55f7bb6face3bfa07c9a50f6fdcec14277a317",
+      "size": 98429,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/1e55f7bb6face3bfa07c9a50f6fdcec14277a317"
+    },
+    {
+      "path": "Models/ToyCar/glTF/ToyCar_occlusion_roughness_metallic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "446e68ee60e4993a5a09816a93db9bba19117a78",
+      "size": 457137,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/446e68ee60e4993a5a09816a93db9bba19117a78"
+    },
+    {
+      "path": "Models/ToyCar/metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e92ae21dc17db3de1d0feefd45170ede5dc3def",
+      "size": 1070,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6e92ae21dc17db3de1d0feefd45170ede5dc3def"
+    },
+    {
+      "path": "Models/ToyCar/screenshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ea50e613028aaeac81be97a4fc27847df0a4f57",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/5ea50e613028aaeac81be97a4fc27847df0a4f57"
+    },
+    {
+      "path": "Models/ToyCar/screenshot/screenshot.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b822236c778a5dcda10ec33c77c6a74e2e4693a",
+      "size": 25873,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/3b822236c778a5dcda10ec33c77c6a74e2e4693a"
+    },
+    {
+      "path": "Models/ToyCar/screenshot/screenshot_large.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63dd25485dd04c5011ccbc5242978ab3d08e77f4",
+      "size": 671915,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/63dd25485dd04c5011ccbc5242978ab3d08e77f4"
+    },
+    {
+      "path": "Models/WaterBottle/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73042b8623fb7d025f9261434d15d5dc12b58d90",
+      "size": 776,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/73042b8623fb7d025f9261434d15d5dc12b58d90"
+    },
+    {
+      "path": "Models/WaterBottle/README.body.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28eba64c2a7494ee9a55468bf5793cb5d43e881d",
+      "size": 133,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/28eba64c2a7494ee9a55468bf5793cb5d43e881d"
+    },
+    {
+      "path": "Models/WaterBottle/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d08a2ad63a19d7cc5edd27d9000c0db2266d25",
+      "size": 1004,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/26d08a2ad63a19d7cc5edd27d9000c0db2266d25"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Binary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "796ae59be69669ee72348eab20efa44caeff2b18",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/796ae59be69669ee72348eab20efa44caeff2b18"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Binary/WaterBottle.glb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27894ec0ce010ba689e04e4801520ebb5ccc849f",
+      "size": 8966700,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/27894ec0ce010ba689e04e4801520ebb5ccc849f"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a81fca2c94ec3523cb558d4479fcdc1af3055082",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/a81fca2c94ec3523cb558d4479fcdc1af3055082"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfa91045b138a7099e98a201ded9ca4c098cb8b",
+      "size": 49580,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/7cfa91045b138a7099e98a201ded9ca4c098cb8b"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c20cc3c17c48f832b144dc8756429fd8e7ee9718",
+      "size": 3418,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/c20cc3c17c48f832b144dc8756429fd8e7ee9718"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle_baseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28c3f27d6dcfc1316a6cc00a4111b89cd4438b8",
+      "size": 2165850,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/f28c3f27d6dcfc1316a6cc00a4111b89cd4438b8"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle_emissive.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338905ffcef57d75868a2eb8abe2325291691089",
+      "size": 59102,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/338905ffcef57d75868a2eb8abe2325291691089"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c119668ad52a16b7cd7b81422eabaf41f7f3b51",
+      "size": 3012733,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6c119668ad52a16b7cd7b81422eabaf41f7f3b51"
+    },
+    {
+      "path": "Models/WaterBottle/glTF-Draco/WaterBottle_occlusionRoughnessMetallic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0999b4fd02a582785c39055e86fed916eb5df486",
+      "size": 3577832,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/0999b4fd02a582785c39055e86fed916eb5df486"
+    },
+    {
+      "path": "Models/WaterBottle/glTF",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c9c814b8836b0cce66e7fa8f53422caa53b7dbd",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/1c9c814b8836b0cce66e7fa8f53422caa53b7dbd"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b10cfd0133b85593e01ee7f7b107d85d3ec491a6",
+      "size": 149412,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/b10cfd0133b85593e01ee7f7b107d85d3ec491a6"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle.gltf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f23f3add06376ba56326a9e3a99223a304c60a5",
+      "size": 2727,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/9f23f3add06376ba56326a9e3a99223a304c60a5"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle_baseColor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28c3f27d6dcfc1316a6cc00a4111b89cd4438b8",
+      "size": 2165850,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/f28c3f27d6dcfc1316a6cc00a4111b89cd4438b8"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle_emissive.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338905ffcef57d75868a2eb8abe2325291691089",
+      "size": 59102,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/338905ffcef57d75868a2eb8abe2325291691089"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle_normal.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c119668ad52a16b7cd7b81422eabaf41f7f3b51",
+      "size": 3012733,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/6c119668ad52a16b7cd7b81422eabaf41f7f3b51"
+    },
+    {
+      "path": "Models/WaterBottle/glTF/WaterBottle_occlusionRoughnessMetallic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0999b4fd02a582785c39055e86fed916eb5df486",
+      "size": 3577832,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/0999b4fd02a582785c39055e86fed916eb5df486"
+    },
+    {
+      "path": "Models/WaterBottle/metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1726a04564525871c9dbb940fdd2388550b782e6",
+      "size": 645,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/1726a04564525871c9dbb940fdd2388550b782e6"
+    },
+    {
+      "path": "Models/WaterBottle/screenshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7d29cfd8d9fca42d9fd2a2286b801892ba1a434",
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/trees/c7d29cfd8d9fca42d9fd2a2286b801892ba1a434"
+    },
+    {
+      "path": "Models/WaterBottle/screenshot/screenshot.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0318e9aac17d682d990db74ba71ff5ad795f76b",
+      "size": 3557,
+      "url": "https://api.github.com/repos/KhronosGroup/glTF-Sample-Assets/git/blobs/d0318e9aac17d682d990db74ba71ff5ad795f76b"
+    }
+  ]
+}

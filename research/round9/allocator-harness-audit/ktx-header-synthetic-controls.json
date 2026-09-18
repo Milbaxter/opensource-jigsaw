@@ -1,0 +1,72 @@
+{
+  "scope": "Authored header-only bytes with dummy payload, not actual encoded KTX or decoder test",
+  "cases": [
+    {
+      "case": "authored-header-only",
+      "expected_accepted": true,
+      "accepted": true,
+      "passed": true,
+      "result": {
+        "passed": true,
+        "scope": "Header, metadata, role and payload bounds only; no decode",
+        "bytes": 148,
+        "sha256": "526dceba167cc785442f8be214d0a21ccc77efb6fa648bf5acdc75bfe09e39b4",
+        "role": "color",
+        "codec": "uastc",
+        "width": 4,
+        "height": 4,
+        "levels": 1,
+        "color_model": 166,
+        "primaries": 1,
+        "transfer": 2,
+        "flags": 0,
+        "supercompression": 0,
+        "orientation": "rd",
+        "swizzle": "rgba",
+        "mip_ranges": [
+          {
+            "level": 0,
+            "offset": 132,
+            "length": 16,
+            "uncompressed_length": 16
+          }
+        ]
+      }
+    },
+    {
+      "case": "wrong-role",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "result": "DFD color space does not match role"
+    },
+    {
+      "case": "truncated",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "result": "Invalid mip payload range 0"
+    },
+    {
+      "case": "invalid-signature",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "result": "Invalid or truncated KTX2 header"
+    },
+    {
+      "case": "missing-mips",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "result": "Missing stored mip levels"
+    },
+    {
+      "case": "premultiplied",
+      "expected_accepted": false,
+      "accepted": false,
+      "passed": true,
+      "result": "Unexpected premultiplied alpha"
+    }
+  ]
+}

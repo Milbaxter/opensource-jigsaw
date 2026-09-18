@@ -1,0 +1,333 @@
+{
+  "frozen_utc": "2026-09-18T12:14:46.535432+00:00",
+  "state": "Prospective freeze before any texture encoding or browser rendering. CP-SAT synthetic and KTX header-only controls already executed and separately labeled.",
+  "protocol_sha256": "4cd762d108255cd806095e93559fa5788c901e56234e3b923290f5cdd3cc04bf",
+  "implementation_freeze_sha256": "479a64f7441c3d587632b3d96e30ec5f102a8624edd168b37d61ba36469904b3",
+  "review_manifest_sha256": "787794818513b2de9578988363a2070d00069b83ddacfe181a3a63a04fd49d00",
+  "files": [
+    {
+      "path": "BoomBox-LICENSE.md",
+      "bytes": 772,
+      "sha256": "a97e7d2efd7fc8bce46ff0ec663cc220c63497bb876e5f8cff3020c8d7198fc5",
+      "published_path": "BoomBox-LICENSE.md"
+    },
+    {
+      "path": "BoomBox-README.md",
+      "bytes": 1000,
+      "sha256": "4a0ba4006d903b85dea52788053399d835b22ebb3ab4b1e305ccee103d7b2271",
+      "published_path": "BoomBox-README.md"
+    },
+    {
+      "path": "BoomBox-input.gltf.json",
+      "bytes": 2702,
+      "sha256": "b1d2e0e56864c71a4b65fc560bfc1572b1eb32cfb9c8e86d06e6f9ace2803a43",
+      "published_path": "BoomBox-input.gltf.json"
+    },
+    {
+      "path": "BoomBox-metadata.json",
+      "bytes": 655,
+      "sha256": "6fdf2571e662907ba51b35ca303d616baca22ae5f8e689bfd2110ef06329236a",
+      "published_path": "BoomBox-metadata.json"
+    },
+    {
+      "path": "COMPETITOR-CHECK.md",
+      "bytes": 4538,
+      "sha256": "7e94a9ff5b78b60d12d9dbb30dc513b1cd102edd34842d132c7b52877bc4327b",
+      "published_path": "COMPETITOR-CHECK.md"
+    },
+    {
+      "path": "DamagedHelmet-LICENSE.md",
+      "bytes": 953,
+      "sha256": "efb539b0e407c818fc1efff93254a24915b4c861a4c58f9617e0ffc12d66ef4f",
+      "published_path": "DamagedHelmet-LICENSE.md"
+    },
+    {
+      "path": "DamagedHelmet-README.md",
+      "bytes": 1481,
+      "sha256": "dcc3f92c30a2e6f3a9dadae2ba9c759bdd7e0e29e41fc3c6fc68f682962b3eec",
+      "published_path": "DamagedHelmet-README.md"
+    },
+    {
+      "path": "DamagedHelmet-metadata.json",
+      "bytes": 1109,
+      "sha256": "73c246a446390b1ced28f4c5685407415b6ccaad3d23ef9ece9c2e09d7f4ebf1",
+      "published_path": "DamagedHelmet-metadata.json"
+    },
+    {
+      "path": "FlightHelmet-LICENSE.md",
+      "bytes": 777,
+      "sha256": "97d142b221f4379656153eb1d2261f19d88a4da9a6bde6dda5aed548c08d90d3",
+      "published_path": "FlightHelmet-LICENSE.md"
+    },
+    {
+      "path": "FlightHelmet-README.md",
+      "bytes": 3348,
+      "sha256": "7724b64fb4fae1135ddec3738d1eb9320d3bb9c890f599c423a09e205fb7257f",
+      "published_path": "FlightHelmet-README.md"
+    },
+    {
+      "path": "FlightHelmet-input.gltf.json",
+      "bytes": 18698,
+      "sha256": "c9c16c8b85749f62f38ec6069700e5388c6894d8e566f51a35cc270255402cd3",
+      "published_path": "FlightHelmet-input.gltf.json"
+    },
+    {
+      "path": "FlightHelmet-metadata.json",
+      "bytes": 652,
+      "sha256": "41d0c37c739d5c25eb3e276a13ff7a2658abb2d44422812de7a839bb03c503a0",
+      "published_path": "FlightHelmet-metadata.json"
+    },
+    {
+      "path": "PREREGISTRATION-DRAFT-v1.md",
+      "bytes": 12073,
+      "sha256": "2c83acd5009db7d16f7bd4fdee2c0db8d0a7afec54455b8ed629ff5929f0ae4c",
+      "published_path": "PREREGISTRATION-DRAFT-v1.md"
+    },
+    {
+      "path": "PREREGISTRATION-DRAFT-v2.md",
+      "bytes": 16271,
+      "sha256": "de71af2a829c996a17cc7269b17f5a6ebfbfe0082c58711fc9399486a0bd3684",
+      "published_path": "PREREGISTRATION-DRAFT-v2.md"
+    },
+    {
+      "path": "PREREGISTRATION-DRAFT.md",
+      "bytes": 25354,
+      "sha256": "4cd762d108255cd806095e93559fa5788c901e56234e3b923290f5cdd3cc04bf",
+      "published_path": "PREREGISTRATION-DRAFT.md"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "bytes": 3166,
+      "sha256": "ff50269c1df9f5e755ebbf72a8a35c5084eadfaa21e8b6eeac250eca10901f53",
+      "published_path": "REPRODUCTION.md"
+    },
+    {
+      "path": "SCREEN.md",
+      "bytes": 7226,
+      "sha256": "d368798a978a7d50bfbe72f89bda4c0219854cf3d17c4c8625b336fbf13fa586",
+      "published_path": "SCREEN.md"
+    },
+    {
+      "path": "ToyCar-LICENSE.md",
+      "bytes": 913,
+      "sha256": "1bafd1612199909f5eaf75aea630258e0358d99935ed7e9efce40e24a05c9d4a",
+      "published_path": "ToyCar-LICENSE.md"
+    },
+    {
+      "path": "ToyCar-README.md",
+      "bytes": 2073,
+      "sha256": "aed216cda25deab59a115bdd6f486da0437fe4e1d9df11c34e496242dbf89fe2",
+      "published_path": "ToyCar-README.md"
+    },
+    {
+      "path": "ToyCar-input.gltf.json",
+      "bytes": 17626,
+      "sha256": "8e7341dfb0429663d0e93455757ea151cfd4fc5e4a7bc9e55d577bb5b498beb5",
+      "published_path": "ToyCar-input.gltf.json"
+    },
+    {
+      "path": "ToyCar-metadata.json",
+      "bytes": 1070,
+      "sha256": "4ccccf4f019521aea50d462a8b20b876478aca456ab6adde17cd8e4a53110b73",
+      "published_path": "ToyCar-metadata.json"
+    },
+    {
+      "path": "WaterBottle-LICENSE.md",
+      "bytes": 776,
+      "sha256": "08c75232969ea00d997a590975fd5b1b92716ebd6a21f8536b897b2f3c557879",
+      "published_path": "WaterBottle-LICENSE.md"
+    },
+    {
+      "path": "WaterBottle-README.md",
+      "bytes": 1004,
+      "sha256": "4ddb88bb6b835ab1b658041f1c5391b5b2128be65725d1ef84b1e434d818eb1c",
+      "published_path": "WaterBottle-README.md"
+    },
+    {
+      "path": "WaterBottle-input.gltf.json",
+      "bytes": 2727,
+      "sha256": "0596f4e61dc781439d254fdfb5e3462daf1762c18715e3e3ac13001aa8f3f547",
+      "published_path": "WaterBottle-input.gltf.json"
+    },
+    {
+      "path": "WaterBottle-metadata.json",
+      "bytes": 645,
+      "sha256": "f7d3aa4783d4e81f135855e0ece0b45bf4e529dca5ba60b3878d3115c2773a35",
+      "published_path": "WaterBottle-metadata.json"
+    },
+    {
+      "path": "asset-source-pins.json",
+      "bytes": 4463,
+      "sha256": "0f18c971c6617fff309c7a234ce0304a74eab3690d22e91731cd5d045a35070e",
+      "published_path": "asset-source-pins.json"
+    },
+    {
+      "path": "asset-tree.json",
+      "bytes": 41168,
+      "sha256": "033e4ae7faae96aa93c5d4f0141133887b4eb95ffb5f3baf026bf2e8dc86e9cd",
+      "published_path": "asset-tree.json"
+    },
+    {
+      "path": "cli-LICENSE",
+      "bytes": 1075,
+      "sha256": "daa927f0644c8f5deb7f7b08e6f469dbf07ab910cc1ec05a9bfff043f02a364b",
+      "published_path": "cli-LICENSE"
+    },
+    {
+      "path": "cli-package.json",
+      "bytes": 1535,
+      "sha256": "01a502ca20ac8416b41f68a04de584f3603294aae197eea20a4d709f84fe2630",
+      "published_path": "cli-package.json"
+    },
+    {
+      "path": "competitor-package-pins.json",
+      "bytes": 2038,
+      "sha256": "3199157a996c9d3d9de79cd70a04b1c4e6bab5aa7ba145587adb54ff285d65a5",
+      "published_path": "competitor-package-pins.json"
+    },
+    {
+      "path": "core-LICENSE",
+      "bytes": 3750,
+      "sha256": "c3c8ac75823d1f437dafbab233222dbd468f7ffb6ff118193a08b27aab269786",
+      "published_path": "core-LICENSE"
+    },
+    {
+      "path": "core-package.json",
+      "bytes": 3765,
+      "sha256": "13249475480fa9aa0dc545d35333c625dfca7ec3c8e76c4e18b2a73ec433abb3",
+      "published_path": "core-package.json"
+    },
+    {
+      "path": "downloaded-inputs.json",
+      "bytes": 17374,
+      "sha256": "a6fe963301f3004c25f96bc27bda7e135dbfc67d6409a9ef841d34f70e94f365",
+      "published_path": "downloaded-inputs.json"
+    },
+    {
+      "path": "implementation-freeze.json",
+      "bytes": 2424,
+      "sha256": "479a64f7441c3d587632b3d96e30ec5f102a8624edd168b37d61ba36469904b3",
+      "published_path": "implementation-freeze.json"
+    },
+    {
+      "path": "input-schema.json",
+      "bytes": 3684,
+      "sha256": "5ad006adab39cff4d587c246df4e33f98c18b17cd710a0c68ecac0dafffe4e1a",
+      "published_path": "input-schema.json"
+    },
+    {
+      "path": "installed-tool-pins.json",
+      "bytes": 3065,
+      "sha256": "bd601bce98e7511f84bb4ee53ab9cf1e2a242ccaa0701549c17753888399e858",
+      "published_path": "installed-tool-pins.json"
+    },
+    {
+      "path": "ktx-download.json",
+      "bytes": 431,
+      "sha256": "e9d16359e577a2103aa8b2061d60b0ea023b69d32d5b9c2e90552846eb4d5b04",
+      "published_path": "ktx-download.json"
+    },
+    {
+      "path": "ortools-package-pin.json",
+      "bytes": 6412,
+      "sha256": "a5a8fb8dc0de72866073f8bc54eba88a39d01cbc800f137ad83f95d5da67fa7f",
+      "published_path": "ortools-package-pin.json"
+    },
+    {
+      "path": "prospective-tool-pins.json",
+      "bytes": 9069,
+      "sha256": "a9d0ec6d354ce0c66d117e7583169610682bcdeafc64551534ad4afff3cd2be6",
+      "published_path": "prospective-tool-pins.json"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 166,
+      "sha256": "2d0861f5b672734d0235b7347675e5e33f1e165749c870c51468af3a55d1cfbe",
+      "published_path": "requirements-lock.txt"
+    },
+    {
+      "path": "runtime/byte-bound.mjs",
+      "bytes": 3347,
+      "sha256": "f818156175c806d48df7d95f381bd8bed7c91eaa9bbc0a42fd3fd34b6f4e579c",
+      "published_path": "runtime/byte-bound.mjs"
+    },
+    {
+      "path": "runtime/common.mjs",
+      "bytes": 3963,
+      "sha256": "a85876a95a1b857e3bde54187c7f23418b257ca153b1bacb29905cd49b62862f",
+      "published_path": "runtime/common.mjs"
+    },
+    {
+      "path": "runtime/comparator-worker.mjs",
+      "bytes": 1745,
+      "sha256": "77cbd9257a8216c4ec675ffdb4f8266a61bd415de0e7b77d8c9b3d71ef554d9f",
+      "published_path": "runtime/comparator-worker.mjs"
+    },
+    {
+      "path": "runtime/controls.mjs",
+      "bytes": 1493,
+      "sha256": "de37d04de957a447fcee782f4af49877a8eef43975871fc2e9b9707dc9d79165",
+      "published_path": "runtime/controls.mjs"
+    },
+    {
+      "path": "runtime/encoding.mjs",
+      "bytes": 3275,
+      "sha256": "99af0b1305757c84a1a9520293cc0d6b1a895c7a5a40bb70a954d558cc87ac12",
+      "published_path": "runtime/encoding.mjs"
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "bytes": 3541,
+      "sha256": "360892c19dde92eeaf05f5c55a3abba70cc77ce07c9b64e21984e4691c4bfd98",
+      "published_path": "runtime/integrity.mjs"
+    },
+    {
+      "path": "runtime/package-lock.json",
+      "bytes": 46319,
+      "sha256": "30d0baa4ed242319a95b0354d0a478377bc7b6e3bec56dc435ac97010c27ef4a",
+      "published_path": "runtime/package-lock.json"
+    },
+    {
+      "path": "runtime/package.json",
+      "bytes": 258,
+      "sha256": "e36ca11b21037bd0f2eb28db810a6bd4b417b3f2bcebe58d394d5e8103df55be",
+      "published_path": "runtime/package.json"
+    },
+    {
+      "path": "runtime/prepare.mjs",
+      "bytes": 3960,
+      "sha256": "7f88aaf851fd59be22d944c8bd807e01af77811efcc7c6533b138b9b7babdb1a",
+      "published_path": "runtime/prepare.mjs"
+    },
+    {
+      "path": "runtime/render.html",
+      "bytes": 10091,
+      "sha256": "5813c447d2eb7a018911199b60a51cdd001547b880941655feee8dcf3b1d82de",
+      "published_path": "runtime/render.html"
+    },
+    {
+      "path": "runtime/run.mjs",
+      "bytes": 12956,
+      "sha256": "17d768af128184e818c3c513cc8dd6f51cbeafae73b756a0185c39f9b92ac09a",
+      "published_path": "runtime/run.mjs"
+    },
+    {
+      "path": "runtime/search.mjs",
+      "bytes": 7685,
+      "sha256": "d97375571e581a4539b3aa8dd84cd0e1b81d01b56da6d833ce16293bb04fa001",
+      "published_path": "runtime/search.mjs"
+    },
+    {
+      "path": "runtime/solver-client.mjs",
+      "bytes": 1267,
+      "sha256": "e6d559bf705736a0e17b47964062c386180549ceda711d91dbbd0e8cfbb6b9ff",
+      "published_path": "runtime/solver-client.mjs"
+    },
+    {
+      "path": "solve.py",
+      "bytes": 3864,
+      "sha256": "6c74cbd4861304ae001b04d63fd72c13e207676dbe6249bc2fcebefdc7abfb07",
+      "published_path": "solve.py.txt"
+    }
+  ]
+}

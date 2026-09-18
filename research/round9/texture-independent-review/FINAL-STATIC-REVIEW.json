@@ -1,0 +1,87 @@
+{
+  "reviewed_utc": "2026-09-18T12:10:56.422984+00:00",
+  "status": "No remaining identified static blocker to prospective publication/freeze and authored-control execution; not a technical pass or rubric score",
+  "reviewer_execution": "None: no module import, codec encoding, browser rendering or performance evaluation",
+  "protocol_sha256": "4cd762d108255cd806095e93559fa5788c901e56234e3b923290f5cdd3cc04bf",
+  "implementation_freeze_sha256": "479a64f7441c3d587632b3d96e30ec5f102a8624edd168b37d61ba36469904b3",
+  "checks": [
+    {
+      "path": "solve.py",
+      "sha256": "6c74cbd4861304ae001b04d63fd72c13e207676dbe6249bc2fcebefdc7abfb07",
+      "match": true
+    },
+    {
+      "path": "runtime/byte-bound.mjs",
+      "sha256": "f818156175c806d48df7d95f381bd8bed7c91eaa9bbc0a42fd3fd34b6f4e579c",
+      "match": true
+    },
+    {
+      "path": "runtime/common.mjs",
+      "sha256": "a85876a95a1b857e3bde54187c7f23418b257ca153b1bacb29905cd49b62862f",
+      "match": true
+    },
+    {
+      "path": "runtime/comparator-worker.mjs",
+      "sha256": "77cbd9257a8216c4ec675ffdb4f8266a61bd415de0e7b77d8c9b3d71ef554d9f",
+      "match": true
+    },
+    {
+      "path": "runtime/controls.mjs",
+      "sha256": "de37d04de957a447fcee782f4af49877a8eef43975871fc2e9b9707dc9d79165",
+      "match": true
+    },
+    {
+      "path": "runtime/encoding.mjs",
+      "sha256": "99af0b1305757c84a1a9520293cc0d6b1a895c7a5a40bb70a954d558cc87ac12",
+      "match": true
+    },
+    {
+      "path": "runtime/integrity.mjs",
+      "sha256": "360892c19dde92eeaf05f5c55a3abba70cc77ce07c9b64e21984e4691c4bfd98",
+      "match": true
+    },
+    {
+      "path": "runtime/prepare.mjs",
+      "sha256": "7f88aaf851fd59be22d944c8bd807e01af77811efcc7c6533b138b9b7babdb1a",
+      "match": true
+    },
+    {
+      "path": "runtime/run.mjs",
+      "sha256": "17d768af128184e818c3c513cc8dd6f51cbeafae73b756a0185c39f9b92ac09a",
+      "match": true
+    },
+    {
+      "path": "runtime/search.mjs",
+      "sha256": "d97375571e581a4539b3aa8dd84cd0e1b81d01b56da6d833ce16293bb04fa001",
+      "match": true
+    },
+    {
+      "path": "runtime/solver-client.mjs",
+      "sha256": "e6d559bf705736a0e17b47964062c386180549ceda711d91dbbd0e8cfbb6b9ff",
+      "match": true
+    },
+    {
+      "path": "runtime/render.html",
+      "sha256": "5813c447d2eb7a018911199b60a51cdd001547b880941655feee8dcf3b1d82de",
+      "match": true
+    }
+  ],
+  "generated_directory_exists": false,
+  "execution_directory_exists": false,
+  "cap_checks": [
+    "Dynamic elapsed check precedes cached evaluations and follows actual rendering.",
+    "Greedy neighborhood serialization checks elapsed before and after.",
+    "Preset and texture methods have independent deadlines and final censorship flags.",
+    "All four method flags contribute to cell completeness.",
+    "Whole-run elapsed checked before summary and after summary serialization; overrun rewrites nonpassing summary.",
+    "Comparator cap IPC and recipe errors invalidate incomplete frontier."
+  ],
+  "limits": [
+    "Static review is not evidence codec or renderer controls pass.",
+    "Viewer and format support remains pinned; no cross-device or human-perception claim.",
+    "Fixed-writer infeasibility is not arbitrary-packing or comparator impossibility.",
+    "Commercial experiment remains conditional and unexecuted."
+  ],
+  "lifecycle_review_utc": "2026-09-18T12:14:03.681768+00:00",
+  "lifecycle_check": "Command and comparator child exit/error handlers remove tracked children and clear timers; comparator actual final elapsed >=900 seconds invalidates frontier before completion. No algorithm change or execution."
+}
