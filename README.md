@@ -6,6 +6,8 @@ Jigsaw searches broadly, connects technical ideas across unrelated fields, and a
 
 **A run can finish with zero winners. The threshold never moves to fill a shortlist.**
 
+**Continued research:** [Round two](research/round2/README.md) is testing new combinations and actual integration prototypes. The [versioned pursuit rubric v2](docs/rubric-v2.md) distinguishes approval for a bounded validation experiment from proof of a business. It was frozen before formal round-two scoring; historical results and the original CLI gate remain v1. No v2 pass has been awarded yet.
+
 ## How it works
 
 ```mermaid
