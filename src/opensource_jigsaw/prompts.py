@@ -42,7 +42,11 @@ not search-result URLs or invented quotes. Include supporting AND disconfirming 
 Seek at least two independent external sources for demand/willingness to pay; stars are not
 commercial evidence. Competitor pricing is a proxy, not proof that buyers want this combination.
 Before investing in a prototype, compare against the strongest simple baseline as well as paid
-products. Define one same-input, falsifiable advantage; running the bridge alone is insufficient.
+products. Follow relevant issue comments, linked grants, maintainer progress updates, and public
+development branches: active funded work can be the closest alternative even before release.
+Distinguish proposed or approved funding from payment, and an awarded project from an available
+contract. An inaccessible planned implementation is an uncertainty, not proof it does not exist.
+Define one same-input, falsifiable advantage; running the bridge alone is insufficient.
 Never report a proposed experiment as executed or seeded synthetic defects as production failures.
 Record all unresolved CRITICAL assumptions; do not erase them to help an idea pass. Describe
 unit economics as assumptions unless measured. Include distribution and a falsifiable experiment.
