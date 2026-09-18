@@ -1,0 +1,53 @@
+{
+  "status": "Prospective resource-only repair; no changed benchmark inputs/gates or native binaries; no repaired execution yet.",
+  "files": [
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/RESOURCE-AMENDMENT.md",
+      "target": "RESOURCE-AMENDMENT.md",
+      "bytes": 2871,
+      "sha256": "0d051fa106889cb8c4461ea7253636c36381593fcc9fe7bd3ef12a6a451fe42a"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/run-screen-portable.py",
+      "target": "run-screen-portable.py",
+      "bytes": 11495,
+      "sha256": "26c76c0c7f716d4089e19ef9d2a6b8014d08c00cb3d9867b289c202df3c8372e"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/resource-support-diagnostic.json",
+      "target": "resource-support-diagnostic.json",
+      "bytes": 221,
+      "sha256": "7ebb9e977b1ded26bf503bdaeb7f0608646ccc838fd474b683c54a22a53fb3ae"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/source-freeze.json",
+      "target": "source-freeze.json",
+      "bytes": 7683,
+      "sha256": "61e3d41ab66bb47d4fe06403db0e6c31a3544ad76c8439dd80af7117c41c0c73"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/results/binary-hashes.json",
+      "target": "results/binary-hashes.json",
+      "bytes": 163,
+      "sha256": "03e59eb6d33ac502750e26369503b7d19e24a90c52c0059c7cfd6c54e98ba835"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/results/execution-start.json",
+      "target": "results/execution-start.json",
+      "bytes": 267,
+      "sha256": "2bdfce24ef620b152bd028ad9f29eaf176df7705fabc910db6e5e6cd44abb994"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/results/summary.json",
+      "target": "results/summary.json",
+      "bytes": 347,
+      "sha256": "210899e24c5ddad75cd020ca27030a026490aceda62b159743a8f1f705306401"
+    },
+    {
+      "source": "/Users/milimaxian/Documents/Codex/2026-09-18/sta/work/round7-c/resource-repair-freeze.json",
+      "target": "resource-repair-freeze.json",
+      "bytes": 8781,
+      "sha256": "3dff738ca63f16f068adcaabea693bc452e130ac4420a2df063ec250ddee7c27"
+    }
+  ]
+}

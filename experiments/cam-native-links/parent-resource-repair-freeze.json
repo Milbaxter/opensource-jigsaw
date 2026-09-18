@@ -1,0 +1,7 @@
+{
+  "frozen_at_utc": "2026-09-18T11:47:09.878196+00:00",
+  "status": "Prospective resource-only repair after original zero-workload setup failure; original source/binaries/inputs/decisions unchanged. No repaired execution yet.",
+  "verified_files": 48,
+  "resource_freeze_sha256": "3dff738ca63f16f068adcaabea693bc452e130ac4420a2df063ec250ddee7c27",
+  "runner_sha256": "26c76c0c7f716d4089e19ef9d2a6b8014d08c00cb3d9867b289c202df3c8372e"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "original": "RESOURCE-AMENDMENT.md",
+    "published": "RESOURCE-AMENDMENT.md",
+    "sha256": "0d051fa106889cb8c4461ea7253636c36381593fcc9fe7bd3ef12a6a451fe42a"
+  },
+  {
+    "original": "run-screen-portable.py",
+    "published": "run-screen-portable.py.txt",
+    "sha256": "26c76c0c7f716d4089e19ef9d2a6b8014d08c00cb3d9867b289c202df3c8372e"
+  },
+  {
+    "original": "resource-support-diagnostic.json",
+    "published": "resource-support-diagnostic.json",
+    "sha256": "7ebb9e977b1ded26bf503bdaeb7f0608646ccc838fd474b683c54a22a53fb3ae"
+  },
+  {
+    "original": "source-freeze.json",
+    "published": "source-freeze.json",
+    "sha256": "61e3d41ab66bb47d4fe06403db0e6c31a3544ad76c8439dd80af7117c41c0c73"
+  },
+  {
+    "original": "results/binary-hashes.json",
+    "published": "results/binary-hashes.json",
+    "sha256": "03e59eb6d33ac502750e26369503b7d19e24a90c52c0059c7cfd6c54e98ba835"
+  },
+  {
+    "original": "results/execution-start.json",
+    "published": "results/execution-start.json",
+    "sha256": "2bdfce24ef620b152bd028ad9f29eaf176df7705fabc910db6e5e6cd44abb994"
+  },
+  {
+    "original": "results/summary.json",
+    "published": "results/summary.json",
+    "sha256": "210899e24c5ddad75cd020ca27030a026490aceda62b159743a8f1f705306401"
+  },
+  {
+    "original": "resource-repair-freeze.json",
+    "published": "resource-repair-freeze.json",
+    "sha256": "3dff738ca63f16f068adcaabea693bc452e130ac4420a2df063ec250ddee7c27"
+  }
+]

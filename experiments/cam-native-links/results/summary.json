@@ -1,0 +1,11 @@
+{
+  "status": "HOLD_CONTROL_OR_RESOURCE",
+  "workloads": [],
+  "scope": "One actual upstream CAD fixture, six explicitly configured native-kernel footprint workloads; not full FreeCAD/OCC or customer job replay.",
+  "errors": [
+    {
+      "error": "Exception occurred in preexec_fn."
+    }
+  ],
+  "cumulative_observed_peak_rss_bytes": 25280512
+}

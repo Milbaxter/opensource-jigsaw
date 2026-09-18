@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-15.0-arm64-arm-64bit-Mach-O",
+  "RLIMIT_AS": 5,
+  "current": [
+    9223372036854775807,
+    9223372036854775807
+  ],
+  "error_type": "ValueError",
+  "error": "current limit exceeds maximum limit"
+}
