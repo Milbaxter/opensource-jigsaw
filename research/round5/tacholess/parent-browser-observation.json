@@ -1,0 +1,73 @@
+{
+  "observed_at_utc": "2026-09-18T10:22:12.596256+00:00",
+  "source": "https://data.mendeley.com/datasets/v43hmbwxpm/2",
+  "method": "Ordinary public in-app browser, accessible page and visible links. No login or CAPTCHA, necessary cookies only. Clicked healthy-bearing folder.",
+  "title": "Bearing Vibration Data under Time-varying Rotational Speed Conditions",
+  "version": 2,
+  "doi": "10.17632/v43hmbwxpm.2",
+  "authors": [
+    "Huan Huang",
+    "Natalie Baddour"
+  ],
+  "license": "CC BY 4.0",
+  "page_description": {
+    "trials": 60,
+    "channels": 2,
+    "sample_rate_hz": 200000,
+    "duration_seconds": 10,
+    "encoder_cpr": 1024
+  },
+  "files": [
+    {
+      "name": "H-A-1.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/5aa2ec96-ba06-4b64-b6bf-92c805c90ac5/file_downloaded"
+    },
+    {
+      "name": "H-A-2.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/a57cd02d-2501-4c98-abcd-6e013b0d9a33/file_downloaded"
+    },
+    {
+      "name": "H-A-3.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/0a30fff0-b14d-4253-bee6-194702518d88/file_downloaded"
+    },
+    {
+      "name": "H-B-1.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/38211e5a-627a-41c0-b85b-ff4d60ae216e/file_downloaded"
+    },
+    {
+      "name": "H-B-2.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/63684aea-01a0-49d5-85f9-7db891c53183/file_downloaded"
+    },
+    {
+      "name": "H-B-3.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/7d67332c-cb3a-4f5c-8c1f-3a20a4b195cd/file_downloaded"
+    },
+    {
+      "name": "H-C-1.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/ec53b7bb-17ac-4412-97dc-5a21cad74c78/file_downloaded"
+    },
+    {
+      "name": "H-C-2.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/4f315c96-25a2-4f7b-a81e-3cc4cb4154fb/file_downloaded"
+    },
+    {
+      "name": "H-C-3.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/3670fd9c-0132-4d5d-a843-4344576532ce/file_downloaded"
+    },
+    {
+      "name": "H-D-1.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/ae395eb8-5f1b-4767-aa38-e5dbe504665b/file_downloaded"
+    },
+    {
+      "name": "H-D-2.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/b0c28668-9bb7-4657-9aca-3fc8c3d8a9b7/file_downloaded"
+    },
+    {
+      "name": "H-D-3.mat",
+      "download_url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/8ac844b2-926c-470a-af72-76243ec36beb/file_downloaded"
+    }
+  ],
+  "download_all": "https://data.mendeley.com/public-api/zip/v43hmbwxpm/download/2",
+  "download_all_ui_size": "762 MB",
+  "scope": "Link and metadata observation only; no input values or performance inspected by parent."
+}

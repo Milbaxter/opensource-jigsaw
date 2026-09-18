@@ -1,0 +1,34 @@
+"""Inspect two MAT schemas only; no RPM extraction or estimator evaluation."""
+from pathlib import Path
+import hashlib
+import json
+import numpy as np
+import scipy
+import scipy.io
+
+root = Path(__file__).resolve().parent
+records = []
+for name, primary in [('primary-H-A-1.mat', True), ('mirror-H-C-1.mat', False)]:
+    p = root / name
+    x = scipy.io.loadmat(p)
+    records.append({
+        'file': name,
+        'primary_download': primary,
+        'official_version_verified': primary,
+        'bytes': p.stat().st_size,
+        'sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
+        'matlab_header': str(x['__header__']),
+        'variables': {
+            k: {'shape': list(v.shape), 'dtype': str(v.dtype),
+                'finite_count': int(np.isfinite(v).sum()),
+                'min': float(v.min()), 'max': float(v.max()),
+                'first_8_values': v.ravel()[:8].tolist()}
+            for k, v in x.items() if not k.startswith('__')
+        }
+    })
+out = {'inspection_only': True, 'rpm_not_extracted': True, 'estimator_not_run': True,
+       'numpy_version': np.__version__, 'scipy_version': scipy.__version__,
+       'source_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+       'records': records}
+(root / 'schema-inspection.json').write_text(json.dumps(out, indent=2) + '\n')
+print(json.dumps(out, indent=2))

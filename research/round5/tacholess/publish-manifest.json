@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "FEASIBILITY.md",
+      "bytes": 10930,
+      "sha256": "01119fc22182697b518d6a5280393c51525f370df0bfbea2d15e511b9c85177f"
+    },
+    {
+      "path": "data-provenance.json",
+      "bytes": 1682,
+      "sha256": "bb6694278ba49a28e533c8d9046933268e9313c57f4ef330a6a7fe671797d624"
+    },
+    {
+      "path": "component-pins.json",
+      "bytes": 595,
+      "sha256": "cebfa085faa4041b97a725dff092d1042060fce449b65cac8aceaa226e2243df"
+    },
+    {
+      "path": "schema-inspection.json",
+      "bytes": 3198,
+      "sha256": "72dd70938e65ff4c058c8beedf7871c88a294dd1a0a785e69fe74cefd70a082e"
+    },
+    {
+      "path": "inspect_schema.py.txt",
+      "bytes": 1355,
+      "sha256": "93043fec8929b24921cc7d59bd22f9cdcd70b14b4b47418f0fd63cc1fb284838"
+    },
+    {
+      "path": "librosa-LICENSE-pinned.txt",
+      "bytes": 766,
+      "sha256": "79aa4a8086d51ac89f9a7322f546670cdef73e758c67f04587b7af8afafd6df8"
+    },
+    {
+      "path": "astropy-LICENSE-pinned.txt",
+      "bytes": 1496,
+      "sha256": "97d28d33c40cadc630cddfca53969fdd9dc44ede20faa2d892ba730933e9a20e"
+    },
+    {
+      "path": "research-provenance.json",
+      "bytes": 5014,
+      "sha256": "6b9e82616d027507dfe8b6d2aae142da9a96720293f41e43718ea8385dc19497"
+    }
+  ],
+  "notes": [
+    "Raw source/site bundles, API responses and MAT files are not selected for publication.",
+    "inspect_schema.py.txt preserves the exact source that produced schema-inspection.json; running requires separately downloaded primary and explicitly unverified mirror.",
+    "No performance evaluation or preregistered protocol."
+  ]
+}

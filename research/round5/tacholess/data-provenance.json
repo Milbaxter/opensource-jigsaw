@@ -1,0 +1,33 @@
+{
+  "retrieved_at": "2026-09-18T10:25:34.685855+00:00",
+  "dataset": "10.17632/v43hmbwxpm.2",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Huan Huang and Natalie Baddour, Bearing Vibration Data under Time-varying Rotational Speed Conditions, v2, 2019.",
+  "access_notes": [
+    "Primary download URL obtained by parent through ordinary public v2 UI; no login/CAPTCHA bypass.",
+    "Public root listing returned []; folders returned metadata; folder file requests returned403.",
+    "No browser available in reviewer context. Parent browser resolved normal public download link.",
+    "Only schema statistics inspected. No RPM/estimator performance evaluated.",
+    "Mirror is not authenticated against primary and excluded from proposed benchmark."
+  ],
+  "inputs": [
+    {
+      "path": "primary-H-A-1.mat",
+      "url": "https://data.mendeley.com/public-files/datasets/v43hmbwxpm/files/5aa2ec96-ba06-4b64-b6bf-92c805c90ac5/file_downloaded",
+      "bytes": 11909642,
+      "sha256": "a113089dac7969eaf3e2adc563aa724a523f5d7ef4b3dd957bdf111ac1d84257",
+      "primary_v2_download": true,
+      "license": "CC-BY-4.0",
+      "publish_payload": false
+    },
+    {
+      "path": "mirror-H-C-1.mat",
+      "url": "https://raw.githubusercontent.com/nicolasoyharcabal/Signal-Processing-and-Machine-Learning-in-Predictive-Maintenance/7edafb7437be104794a152ef91ae070822a2f843/H-C-1.mat",
+      "bytes": 12167895,
+      "sha256": "1467325c6d257bdbc1680370d73795ddaa23602f5065b24f79a8e293071fc038",
+      "primary_v2_download": false,
+      "license": "Original data attribution CC-BY-4.0; identity unverified",
+      "publish_payload": false
+    }
+  ]
+}

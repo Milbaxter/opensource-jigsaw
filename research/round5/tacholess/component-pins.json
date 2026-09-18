@@ -1,0 +1,23 @@
+[
+  {
+    "repo": "librosa/librosa",
+    "commit": "6d6c380687a27aaef2d77842c0d3356d598d44f8",
+    "license": "ISC",
+    "license_file": "librosa-LICENSE-pinned.txt",
+    "inspected_source_files": [
+      "librosa/core/pitch.py",
+      "librosa/sequence.py"
+    ],
+    "execution": false
+  },
+  {
+    "repo": "astropy/astropy",
+    "commit": "61b2d9c01ef7f9a9b32d138b669a2d7636fc5d18",
+    "license": "BSD-3-Clause",
+    "license_file": "astropy-LICENSE-pinned.txt",
+    "inspected_source_files": [
+      "astropy/timeseries/periodograms/lombscargle/core.py"
+    ],
+    "execution": false
+  }
+]

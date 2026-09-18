@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-09-18T10:25:34.687226+00:00",
+  "files": [
+    {
+      "path": "FEASIBILITY.md",
+      "bytes": 10930,
+      "sha256": "01119fc22182697b518d6a5280393c51525f370df0bfbea2d15e511b9c85177f"
+    },
+    {
+      "path": "api-docs.html",
+      "bytes": 410728,
+      "sha256": "6e1541780f2b77986bae8fb5cc8ea491c94b888f2b29674500c43d16722ac47b"
+    },
+    {
+      "path": "astropy-LICENSE-pinned.txt",
+      "bytes": 1496,
+      "sha256": "97d28d33c40cadc630cddfca53969fdd9dc44ede20faa2d892ba730933e9a20e"
+    },
+    {
+      "path": "astropy-LICENSE.txt",
+      "bytes": 1496,
+      "sha256": "97d28d33c40cadc630cddfca53969fdd9dc44ede20faa2d892ba730933e9a20e"
+    },
+    {
+      "path": "astropy-commit.json",
+      "bytes": 19897,
+      "sha256": "76a7b05001a1df749403d9c59775423efec32af15a10ac9319556df4417aabd2"
+    },
+    {
+      "path": "astropy-core.py.txt",
+      "bytes": 28267,
+      "sha256": "c5311f51bf56e6b53fccbeedc8961c4c59e02eb1804fe73535028a9749bcdfbf"
+    },
+    {
+      "path": "astropy-license.json",
+      "bytes": 3018,
+      "sha256": "f6c8c958bb910da2049b64471565a9b58265a362f1fbc6e14acdf12d80e576d0"
+    },
+    {
+      "path": "component-pins.json",
+      "bytes": 595,
+      "sha256": "cebfa085faa4041b97a725dff092d1042060fce449b65cac8aceaa226e2243df"
+    },
+    {
+      "path": "data-provenance.json",
+      "bytes": 1682,
+      "sha256": "bb6694278ba49a28e533c8d9046933268e9313c57f4ef330a6a7fe671797d624"
+    },
+    {
+      "path": "inspect_schema.py",
+      "bytes": 1355,
+      "sha256": "93043fec8929b24921cc7d59bd22f9cdcd70b14b4b47418f0fd63cc1fb284838"
+    },
+    {
+      "path": "inspect_schema.py.txt",
+      "bytes": 1355,
+      "sha256": "93043fec8929b24921cc7d59bd22f9cdcd70b14b4b47418f0fd63cc1fb284838"
+    },
+    {
+      "path": "lenze-metadata.json",
+      "bytes": 7287,
+      "sha256": "4ae08418cf2ea8cd890064a0823ef1c8c36c159bee36f1c378ca21866cf34bda"
+    },
+    {
+      "path": "librosa-LICENSE-pinned.txt",
+      "bytes": 766,
+      "sha256": "79aa4a8086d51ac89f9a7322f546670cdef73e758c67f04587b7af8afafd6df8"
+    },
+    {
+      "path": "librosa-LICENSE.txt",
+      "bytes": 766,
+      "sha256": "79aa4a8086d51ac89f9a7322f546670cdef73e758c67f04587b7af8afafd6df8"
+    },
+    {
+      "path": "librosa-commit.json",
+      "bytes": 14623,
+      "sha256": "0bb938c8ab72ae252c9f67921d6001ed84cdc049ef958023611cffbde870e9fd"
+    },
+    {
+      "path": "librosa-license.json",
+      "bytes": 1947,
+      "sha256": "3d96f3ff722e0b200ffdfa62e2c632fe21003b154ebd74f59f0749869aa6281b"
+    },
+    {
+      "path": "librosa-pitch.py.txt",
+      "bytes": 33979,
+      "sha256": "63fbe3b6a45198731a4be7ef4fa5876770fbf7a3c5815853462d340e69caf593"
+    },
+    {
+      "path": "librosa-sequence.py.txt",
+      "bytes": 75761,
+      "sha256": "b36b9b9ba9002d22361e4fc3b1f795af34c1ea3f0ee43ed6f39b5d96765fce05"
+    },
+    {
+      "path": "mirror-H-C-1.mat",
+      "bytes": 12167895,
+      "sha256": "1467325c6d257bdbc1680370d73795ddaa23602f5065b24f79a8e293071fc038"
+    },
+    {
+      "path": "mirror-commit.json",
+      "bytes": 5334,
+      "sha256": "71da23d1339a663bb8106397618768449563f227110937a3ccfa286309d37171"
+    },
+    {
+      "path": "mirror-file.json",
+      "bytes": 1228,
+      "sha256": "4a6370c3f29bbc081372f6a4fdf28eec40dc9e136043dee4b04c0f1677825b7a"
+    },
+    {
+      "path": "mirror-repo.json",
+      "bytes": 8244,
+      "sha256": "3f0216bd9896a4679934f101f5e287b6959a7dd49882f046211cfb4ab5648da4"
+    },
+    {
+      "path": "moira-metadata.json",
+      "bytes": 8337,
+      "sha256": "62f3119cffdf38af64583f35d54d5f261cd899a29e0e47bf28269eda38555a6e"
+    },
+    {
+      "path": "ottawa-files.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "ottawa-folders.json",
+      "bytes": 823,
+      "sha256": "cc4230be7be86b294b14a56bc987acf8cd641ea15f9dee52655aaa7640a8d5c6"
+    },
+    {
+      "path": "ottawa-page.html",
+      "bytes": 123879,
+      "sha256": "69c1ee3f0ae4fddb4cfe2c5f7577602e933516f77671282316749b094a6ca532"
+    },
+    {
+      "path": "parent-browser-observation.json",
+      "bytes": 3073,
+      "sha256": "85228adcf683da76e0ef17c06eeeb9dfd714fda8a379fb85dbadba6d6af6fbf7"
+    },
+    {
+      "path": "primary-H-A-1.mat",
+      "bytes": 11909642,
+      "sha256": "a113089dac7969eaf3e2adc563aa724a523f5d7ef4b3dd957bdf111ac1d84257"
+    },
+    {
+      "path": "schema-inspection.json",
+      "bytes": 3198,
+      "sha256": "72dd70938e65ff4c058c8beedf7871c88a294dd1a0a785e69fe74cefd70a082e"
+    },
+    {
+      "path": "site-bundle.js",
+      "bytes": 654136,
+      "sha256": "9da8089e19e39e02c22f67be2a327a839e09292e0bffa21ce9155f4652e150ba"
+    },
+    {
+      "path": "tacholess-repos.json",
+      "bytes": 55,
+      "sha256": "4af480b8ee5b87b369a76c49bd22c9a783908272ebffbe97898f8ab0f0772a5f"
+    },
+    {
+      "path": "usp-metadata.json",
+      "bytes": 8400,
+      "sha256": "a866c0b44e102b41796c0be73e8d1629ab7b809a2c59ceb18dcbe6573cd4db12"
+    }
+  ]
+}
