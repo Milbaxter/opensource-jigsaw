@@ -1,6 +1,6 @@
 # Attempt002: prospective deterministic draw-order amendment
 
-**Frozen before execution; no allocation result.** The [amendment](source/AMENDMENT-002.md) defines the same hierarchy-based rendering order for originals, candidates, and comparators. It retains exact RGBA equality and every optimization comparison criterion. [Attempt001 remains failed](../attempt-001/RESULTS-ATTEMPT-001.md).
+**Attempt002 stopped before allocation rendering:** the corrected draw order passed, but the serialized byte bound failed. [Results and complete exposure record](outcomes/RESULTS-ATTEMPT-002.md). No quality comparison or pass. The [amendment](source/AMENDMENT-002.md) defines the same hierarchy-based rendering order for originals, candidates, and comparators. It retains exact RGBA equality and every optimization comparison criterion. [Attempt001 remains failed](../attempt-001/RESULTS-ATTEMPT-001.md).
 
 The [controlled diagnosis](../diagnostics/roundtrip-001/RESULTS.md) and [independent semantic/source review](../../../research/round9/texture-independent-review/roundtrip-diagnosis/DIAGNOSIS.md) justify this narrow harness change. Source snapshots are separate so the original frozen bytes remain available.
 

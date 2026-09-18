@@ -1,0 +1,23 @@
+{
+  "scope": "Finite arithmetic audit of the pinned writer's absolute 8-byte alignment.\nNo image codec, glTF serializer, or quality evaluation is executed here.",
+  "cases": 16384,
+  "max_conservative_slack_bytes": 8,
+  "status": "PASS_ARITHMETIC_ONLY",
+  "unsafe_residual_counterexample": {
+    "prefix": 4,
+    "calibration_lengths": [
+      12,
+      8,
+      8
+    ],
+    "test_lengths": [
+      8,
+      8,
+      8
+    ],
+    "calibrated_residual": 0,
+    "predicted": 24,
+    "actual": 32
+  },
+  "source": "Pinned glTF Transform4.5.0 dist/index.js4987-4996; bufferByteLength aligns to8 after each image; final GLB chunk aligns4."
+}

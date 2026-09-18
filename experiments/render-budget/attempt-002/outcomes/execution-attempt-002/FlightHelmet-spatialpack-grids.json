@@ -1,0 +1,149 @@
+[
+  {
+    "preset": "web-mobile",
+    "original": 12,
+    "retained": 6,
+    "recipes": [
+      {
+        "id": "t512-webp",
+        "maxTextureSize": 512,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t512-ktx2",
+        "maxTextureSize": 512,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t512-png",
+        "maxTextureSize": 512,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t1024-webp",
+        "maxTextureSize": 1024,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t1024-ktx2",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t1024-png",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      }
+    ]
+  },
+  {
+    "preset": "web-desktop",
+    "original": 12,
+    "retained": 6,
+    "recipes": [
+      {
+        "id": "t1024-webp",
+        "maxTextureSize": 1024,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t1024-ktx2",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t1024-png",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t2048-webp",
+        "maxTextureSize": 2048,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t2048-ktx2",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t2048-png",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      }
+    ]
+  },
+  {
+    "preset": "quality-max",
+    "original": 12,
+    "retained": 6,
+    "recipes": [
+      {
+        "id": "t2048-webp",
+        "maxTextureSize": 2048,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t2048-ktx2",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t2048-png",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t4096-webp",
+        "maxTextureSize": 4096,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      {
+        "id": "t4096-ktx2",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      {
+        "id": "t4096-png",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      }
+    ]
+  }
+]

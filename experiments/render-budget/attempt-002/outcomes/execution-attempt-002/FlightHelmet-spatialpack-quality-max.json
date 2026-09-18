@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "0.1.1",
+  "preset": "quality-max",
+  "inputPath": "<EXPERIMENT_ROOT>/generated/FlightHelmet/original.glb",
+  "inputSizeBytes": 48383360,
+  "baseline": {
+    "cleanupOnlySizeBytes": 48383360
+  },
+  "cohortPruning": {
+    "enabled": true,
+    "dropped": {
+      "untexturedTextureModes": 0,
+      "lowPolyDecimate": 0
+    },
+    "cohort": {
+      "textured": true,
+      "animated": false,
+      "lowPoly": false,
+      "triangleCount": 94722,
+      "textureCount": 15,
+      "animationCount": 0
+    }
+  },
+  "recipes": [
+    {
+      "recipe": {
+        "id": "t2048-webp",
+        "maxTextureSize": 2048,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "outputSizeBytes": 21004804,
+      "status": "rejected",
+      "texturePipeline": "webp",
+      "ktx2Status": "not_requested",
+      "elapsedMs": 1946,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 216125184
+    },
+    {
+      "recipe": {
+        "id": "t2048-ktx2",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "outputSizeBytes": 74548880,
+      "status": "rejected",
+      "texturePipeline": "ktx2",
+      "ktx2Status": "applied",
+      "elapsedMs": 48315,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 17944320
+    },
+    {
+      "recipe": {
+        "id": "t2048-png",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "outputSizeBytes": 56827056,
+      "status": "rejected",
+      "texturePipeline": "png",
+      "ktx2Status": "not_requested",
+      "elapsedMs": 1855,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 216125184
+    },
+    {
+      "recipe": {
+        "id": "t4096-webp",
+        "maxTextureSize": 4096,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "outputSizeBytes": 21004804,
+      "status": "rejected",
+      "texturePipeline": "webp",
+      "ktx2Status": "not_requested",
+      "elapsedMs": 1746,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 216125184
+    },
+    {
+      "recipe": {
+        "id": "t4096-ktx2",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "outputSizeBytes": 74548880,
+      "status": "rejected",
+      "texturePipeline": "ktx2",
+      "ktx2Status": "applied",
+      "elapsedMs": 48415,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 17944320
+    },
+    {
+      "recipe": {
+        "id": "t4096-png",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "outputSizeBytes": 56827056,
+      "status": "rejected",
+      "texturePipeline": "png",
+      "ktx2Status": "not_requested",
+      "elapsedMs": 2174,
+      "quality": {
+        "pass": false,
+        "meanAbsoluteError": 1,
+        "error": "Over all declared byte ceilings"
+      },
+      "predictedFrameMs": 18.772,
+      "predictedGpuMemoryBytes": 216125184
+    }
+  ],
+  "winner": null,
+  "elapsedMs": 104850,
+  "toktxPath": "<EXPERIMENT_ROOT>/tools/bin/toktx",
+  "toktxAvailable": true,
+  "qualityGateApplied": true,
+  "winnerStrategy": "smallest",
+  "qualityWeight": 0.25,
+  "searchStrategy": "grid"
+}

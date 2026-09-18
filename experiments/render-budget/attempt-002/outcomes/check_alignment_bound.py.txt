@@ -1,0 +1,31 @@
+# SPDX-License-Identifier: MIT
+"""Finite arithmetic audit of the pinned writer's absolute 8-byte alignment.
+No image codec, glTF serializer, or quality evaluation is executed here.
+"""
+import itertools,json,pathlib
+align=lambda n,k: ((n+k-1)//k)*k
+cases=0;max_slack=0;unsafe_example=None
+for prefix in range(8):
+ for lengths in itertools.product(range(8,16),repeat=3):
+  for tail in range(4):
+   actual=prefix
+   for length in lengths: actual=align(actual+length,8)
+   actual=align(actual+tail,4)
+   upper=align(align(prefix,8)+sum(align(n,8) for n in lengths)+tail,4)
+   assert actual<=upper
+   assert prefix+tail<=actual
+   max_slack=max(max_slack,upper-actual);cases+=1
+# A base-derived residual is unsafe even with round8 payloads if first prefix is unaligned.
+def exact(prefix,lengths):
+ n=prefix
+ for length in lengths:n=align(n+length,8)
+ return n
+base=(8,8,8);variant=(12,8,8);prefix=4
+residual=exact(prefix,base)-sum(align(n,8) for n in base)
+naive=residual+sum(align(n,8) for n in variant)
+# Reverse which vector calibrates the residual to expose under-bound.
+residual2=exact(prefix,variant)-sum(align(n,8) for n in variant)
+naive2=residual2+sum(align(n,8) for n in base)
+assert naive2<exact(prefix,base)
+result={'scope':__doc__.strip(),'cases':cases,'max_conservative_slack_bytes':max_slack,'status':'PASS_ARITHMETIC_ONLY','unsafe_residual_counterexample':{'prefix':prefix,'calibration_lengths':variant,'test_lengths':base,'calibrated_residual':residual2,'predicted':naive2,'actual':exact(prefix,base)},'source':'Pinned glTF Transform4.5.0 dist/index.js4987-4996; bufferByteLength aligns to8 after each image; final GLB chunk aligns4.'}
+pathlib.Path('work/round10-parent/alignment-bound-audit.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

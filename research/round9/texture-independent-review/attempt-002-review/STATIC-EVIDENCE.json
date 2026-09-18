@@ -1,0 +1,176 @@
+{
+  "recorded_utc": "2026-09-18T12:47:35.171578+00:00",
+  "scope": "Existing files read only; no new serialization/encoding/render/search",
+  "source_records": [
+    {
+      "path": "work/round9-render-budget/PREREGISTRATION-DRAFT.md",
+      "sha256": "a37a1d110f7c720cf22d60ee9c907cac1cf0c18ad72ec96661a90b0854be0af8",
+      "bytes": 26375
+    },
+    {
+      "path": "work/round9-render-budget/runtime/run.mjs",
+      "sha256": "c596128807d970db5bb22f19f351f7b7116e0479cb1463b94ed52a42214418cb",
+      "bytes": 14096
+    },
+    {
+      "path": "work/round9-render-budget/runtime/byte-bound.mjs",
+      "sha256": "f818156175c806d48df7d95f381bd8bed7c91eaa9bbc0a42fd3fd34b6f4e579c",
+      "bytes": 3347
+    },
+    {
+      "path": "work/round9-render-budget/runtime/search.mjs",
+      "sha256": "772b107c39ca780813a30cb64229d49ff625c2cd58b51bea5956cdfbfc582226",
+      "bytes": 7697
+    },
+    {
+      "path": "work/round9-render-budget/runtime/node_modules/@gltf-transform/core/dist/index.js",
+      "sha256": "98173743c24ca10dd4601332620752b9c9fb27a9f827cb22b2cfd3bd38a44225",
+      "bytes": 209754
+    },
+    {
+      "path": "work/round9-render-budget/runtime/node_modules/@gltf-transform/core/package.json",
+      "sha256": "e597c677068db1668eb446517c655b06f2c0799fb8744c70819ec9fca20d28a1",
+      "bytes": 1265
+    },
+    {
+      "path": "work/round9-render-budget/execution-attempt-002/failure.json",
+      "sha256": "67ba31d1048d034458d5a842cff66623ce6ce7c88ea2b75fbbd17e271c43ec04",
+      "bytes": 781
+    },
+    {
+      "path": "work/round9-render-budget/execution-attempt-002/FlightHelmet-spatialpack-frontier.json",
+      "sha256": "48edcad92ec26f578ff4fcac74fdd2102532280051a13a06682a8089049270d2",
+      "bytes": 6735
+    },
+    {
+      "path": "work/round9-render-budget/execution-attempt-002/selection-progress.json",
+      "sha256": "5310e05cb4eb8eb8ff0ea19d891c69cf2966d0596189767b3e9a7b44652bd862",
+      "bytes": 870
+    },
+    {
+      "path": "work/round9-render-budget/execution-attempt-002/events.jsonl",
+      "sha256": "a8fe4b91c9ccac3db7be4da7c2977064eed5f9bc179f008221233df7c8c15213",
+      "bytes": 9451
+    }
+  ],
+  "original_glb_layouts": [
+    {
+      "path": "work/round9-render-budget/generated/BoomBox/original.glb",
+      "sha256": "47692f78125d86b214f24ae6f55ca64a8ff19827d71511ef078854b61a53cfbd",
+      "first_image_offset": 207816,
+      "first_image_mod8": 0,
+      "image_lengths": [
+        3285844,
+        4471451,
+        2514469,
+        132833
+      ],
+      "image_offsets": [
+        207816,
+        3493664,
+        7965120,
+        10479592
+      ],
+      "declared_binary_bytes": 10612432,
+      "image_residual_round4": 207828,
+      "image_residual_round8": 207816
+    },
+    {
+      "path": "work/round9-render-budget/generated/FlightHelmet/original.glb",
+      "sha256": "7d275b4bef091ca7cef1bb8ed274ac7b6e8a7f2b5a6c164f3e78ef3bbaa21af7",
+      "first_image_offset": 3227148,
+      "first_image_mod8": 4,
+      "image_lengths": [
+        3327566,
+        3809284,
+        3594300,
+        2648815,
+        3696183,
+        2306649,
+        3273483,
+        2976508,
+        2680488,
+        5675531,
+        4375686,
+        5478748,
+        5575,
+        601603,
+        696304
+      ],
+      "image_offsets": [
+        3227148,
+        6554720,
+        10364008,
+        13958312,
+        16607128,
+        20303312,
+        22609968,
+        25883456,
+        28859968,
+        31540456,
+        37215992,
+        41591680,
+        47070432,
+        47076008,
+        47677616
+      ],
+      "declared_binary_bytes": 48373920,
+      "image_residual_round4": 3227184,
+      "image_residual_round8": 3227152
+    },
+    {
+      "path": "work/round9-render-budget/generated/ToyCar/original.glb",
+      "sha256": "312626338c1e19721a1275dc7e51a315b51533f1e46645f6ad04a6fcf3c24115",
+      "first_image_offset": 3664368,
+      "first_image_mod8": 0,
+      "image_lengths": [
+        98429,
+        83739,
+        196648,
+        457137,
+        294759,
+        191518,
+        412812,
+        15362
+      ],
+      "image_offsets": [
+        3664368,
+        3762800,
+        3846544,
+        4043192,
+        4500336,
+        4795096,
+        4986616,
+        5399432
+      ],
+      "declared_binary_bytes": 5414800,
+      "image_residual_round4": 3664384,
+      "image_residual_round8": 3664368
+    },
+    {
+      "path": "work/round9-render-budget/generated/WaterBottle/original.glb",
+      "sha256": "abc5bdce2abec38d67d815c9969e18f9684278c7d71939fa57d35eeabc5ce523",
+      "first_image_offset": 149412,
+      "first_image_mod8": 4,
+      "image_lengths": [
+        2165850,
+        3577832,
+        3012733,
+        59102
+      ],
+      "image_offsets": [
+        149412,
+        2315264,
+        5893096,
+        8905832
+      ],
+      "declared_binary_bytes": 8964936,
+      "image_residual_round4": 149412,
+      "image_residual_round8": 149408
+    }
+  ],
+  "configuration_events": 0,
+  "comparator_quality_events": 0,
+  "seal_exists": false,
+  "heldout_exists": false
+}

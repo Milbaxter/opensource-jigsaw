@@ -1,0 +1,31 @@
+{
+  "freeze": "9d0a19c9793276cdfae1185421c520df997609d3",
+  "cells": [
+    {
+      "model": "FlightHelmet",
+      "budget": 1000000,
+      "infeasible": true,
+      "reason": "This fixed writer family preserves more nonimage binary bytes than the ceiling; not a universal packing certificate",
+      "nonimageBytes": 3227184,
+      "comparatorFailure": null,
+      "spatialpack": {
+        "winner": null,
+        "calls": 0,
+        "seconds": 198.491
+      }
+    },
+    {
+      "model": "FlightHelmet",
+      "budget": 2000000,
+      "infeasible": true,
+      "reason": "This fixed writer family preserves more nonimage binary bytes than the ceiling; not a universal packing certificate",
+      "nonimageBytes": 3227184,
+      "comparatorFailure": null,
+      "spatialpack": {
+        "winner": null,
+        "calls": 0,
+        "seconds": 198.491
+      }
+    }
+  ]
+}

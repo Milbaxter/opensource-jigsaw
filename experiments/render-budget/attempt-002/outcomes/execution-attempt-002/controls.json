@@ -1,0 +1,973 @@
+{
+  "freeze": "9d0a19c9793276cdfae1185421c520df997609d3",
+  "browser": "153.0.8010.50",
+  "controls": [
+    {
+      "kind": "color",
+      "codec": "webp",
+      "source": "generated/controls-attempt-002/color.png",
+      "candidate": "generated/controls-attempt-002/color-webp.webp",
+      "sha256": "5d1a938a82594443f9a3048692921b03017b077ce2c724562119eb3bed2cab43",
+      "metadata": null,
+      "worst": 0.011764705882352941,
+      "samples": [
+        {
+          "ref": [
+            220,
+            30,
+            60,
+            255
+          ],
+          "got": [
+            220,
+            30,
+            63,
+            255
+          ],
+          "error": 0.011764705882352941
+        },
+        {
+          "ref": [
+            20,
+            180,
+            70,
+            255
+          ],
+          "got": [
+            23,
+            179,
+            69,
+            255
+          ],
+          "error": 0.011764705882352941
+        },
+        {
+          "ref": [
+            40,
+            70,
+            210,
+            255
+          ],
+          "got": [
+            40,
+            70,
+            210,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            35,
+            23,
+            10,
+            64
+          ],
+          "got": [
+            35,
+            22,
+            10,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 1023,
+      "compressed": false
+    },
+    {
+      "kind": "color",
+      "codec": "etc1s",
+      "source": "generated/controls-attempt-002/color.png",
+      "candidate": "generated/controls-attempt-002/color-etc1s.ktx2",
+      "sha256": "9afd0347b4bd92f85d087c8759e1e74bb62e5a7ad81e075e47b37ba3e427f297",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 163,
+          "colorPrimaries": 1,
+          "transferFunction": 2,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            8,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 63,
+              "channelType": 0,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            },
+            {
+              "bitOffset": 64,
+              "bitLength": 63,
+              "channelType": 15,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0.00784313725490196,
+      "samples": [
+        {
+          "ref": [
+            220,
+            30,
+            60,
+            255
+          ],
+          "got": [
+            219,
+            29,
+            62,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            20,
+            180,
+            70,
+            255
+          ],
+          "got": [
+            22,
+            179,
+            72,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            40,
+            70,
+            210,
+            255
+          ],
+          "got": [
+            38,
+            71,
+            211,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            35,
+            23,
+            10,
+            64
+          ],
+          "got": [
+            34,
+            22,
+            10,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 37496,
+      "compressed": true
+    },
+    {
+      "kind": "color",
+      "codec": "uastc",
+      "source": "generated/controls-attempt-002/color.png",
+      "candidate": "generated/controls-attempt-002/color-uastc.ktx2",
+      "sha256": "635dcf819909c8bcd7e05bd53a17d894122661b41645c71c06e0c3b78292242b",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 166,
+          "colorPrimaries": 1,
+          "transferFunction": 2,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 127,
+              "channelType": 3,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0.00392156862745098,
+      "samples": [
+        {
+          "ref": [
+            220,
+            30,
+            60,
+            255
+          ],
+          "got": [
+            220,
+            30,
+            60,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            20,
+            180,
+            70,
+            255
+          ],
+          "got": [
+            20,
+            180,
+            70,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            40,
+            70,
+            210,
+            255
+          ],
+          "got": [
+            40,
+            70,
+            210,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            35,
+            23,
+            10,
+            64
+          ],
+          "got": [
+            35,
+            22,
+            10,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 37808,
+      "compressed": true
+    },
+    {
+      "kind": "data",
+      "codec": "webp",
+      "source": "generated/controls-attempt-002/data.png",
+      "candidate": "generated/controls-attempt-002/data-webp.webp",
+      "sha256": "5d1a938a82594443f9a3048692921b03017b077ce2c724562119eb3bed2cab43",
+      "metadata": null,
+      "worst": 0.023529411764705882,
+      "samples": [
+        {
+          "ref": [
+            239,
+            96,
+            133,
+            255
+          ],
+          "got": [
+            239,
+            96,
+            136,
+            255
+          ],
+          "error": 0.011764705882352941
+        },
+        {
+          "ref": [
+            79,
+            219,
+            143,
+            255
+          ],
+          "got": [
+            85,
+            218,
+            142,
+            255
+          ],
+          "error": 0.023529411764705882
+        },
+        {
+          "ref": [
+            110,
+            143,
+            234,
+            255
+          ],
+          "got": [
+            110,
+            143,
+            234,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            49,
+            40,
+            28,
+            64
+          ],
+          "got": [
+            49,
+            40,
+            27,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 1023,
+      "compressed": false
+    },
+    {
+      "kind": "data",
+      "codec": "etc1s",
+      "source": "generated/controls-attempt-002/data.png",
+      "candidate": "generated/controls-attempt-002/data-etc1s.ktx2",
+      "sha256": "9ea469a7815b4e91be51da07c595b79e35f8e0af6ac5e0887187022709782a38",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 163,
+          "colorPrimaries": 0,
+          "transferFunction": 1,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            8,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 63,
+              "channelType": 0,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            },
+            {
+              "bitOffset": 64,
+              "bitLength": 63,
+              "channelType": 15,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0.00784313725490196,
+      "samples": [
+        {
+          "ref": [
+            239,
+            96,
+            133,
+            255
+          ],
+          "got": [
+            238,
+            95,
+            135,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            79,
+            219,
+            143,
+            255
+          ],
+          "got": [
+            81,
+            218,
+            143,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            110,
+            143,
+            234,
+            255
+          ],
+          "got": [
+            108,
+            144,
+            235,
+            255
+          ],
+          "error": 0.00784313725490196
+        },
+        {
+          "ref": [
+            49,
+            40,
+            28,
+            64
+          ],
+          "got": [
+            49,
+            40,
+            27,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 37496,
+      "compressed": true
+    },
+    {
+      "kind": "data",
+      "codec": "uastc",
+      "source": "generated/controls-attempt-002/data.png",
+      "candidate": "generated/controls-attempt-002/data-uastc.ktx2",
+      "sha256": "47b42b7fde9ce9b63e931d8759a2a5aa2897057366bdc8dbaf5cd78e6cea4f4c",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 166,
+          "colorPrimaries": 0,
+          "transferFunction": 1,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 127,
+              "channelType": 3,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0.00392156862745098,
+      "samples": [
+        {
+          "ref": [
+            239,
+            96,
+            133,
+            255
+          ],
+          "got": [
+            239,
+            96,
+            133,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            79,
+            219,
+            143,
+            255
+          ],
+          "got": [
+            79,
+            219,
+            143,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            110,
+            143,
+            234,
+            255
+          ],
+          "got": [
+            110,
+            143,
+            234,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            49,
+            40,
+            28,
+            64
+          ],
+          "got": [
+            49,
+            40,
+            27,
+            64
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 37808,
+      "compressed": true
+    },
+    {
+      "kind": "normal",
+      "codec": "webp",
+      "source": "generated/controls-attempt-002/normal.png",
+      "candidate": "generated/controls-attempt-002/normal-webp.webp",
+      "sha256": "1289b6378f2dbfbdbb36cfe68f4e88981720f8e7712450ee62a44ec87bb11c45",
+      "metadata": null,
+      "worst": 0.00392156862745098,
+      "samples": [
+        {
+          "ref": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            128,
+            218,
+            218,
+            255
+          ],
+          "got": [
+            127,
+            217,
+            218,
+            255
+          ],
+          "error": 0.00392156862745098
+        },
+        {
+          "ref": [
+            38,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            38,
+            128,
+            219,
+            255
+          ],
+          "error": 0.00392156862745098
+        },
+        {
+          "ref": [
+            128,
+            38,
+            218,
+            255
+          ],
+          "got": [
+            128,
+            37,
+            218,
+            255
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 1023,
+      "compressed": false
+    },
+    {
+      "kind": "normal",
+      "codec": "etc1s",
+      "source": "generated/controls-attempt-002/normal.png",
+      "candidate": "generated/controls-attempt-002/normal-etc1s.ktx2",
+      "sha256": "62b9a5439515afb44bb63474225ee2ca961187f4bd9d1b9dcc3cd3e8b0ce767c",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 163,
+          "colorPrimaries": 0,
+          "transferFunction": 1,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            8,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 63,
+              "channelType": 0,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0.00392156862745098,
+      "samples": [
+        {
+          "ref": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            128,
+            218,
+            218,
+            255
+          ],
+          "got": [
+            128,
+            218,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            38,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            38,
+            128,
+            219,
+            255
+          ],
+          "error": 0.00392156862745098
+        },
+        {
+          "ref": [
+            128,
+            38,
+            218,
+            255
+          ],
+          "got": [
+            128,
+            38,
+            219,
+            255
+          ],
+          "error": 0.00392156862745098
+        }
+      ],
+      "format": 37492,
+      "compressed": true
+    },
+    {
+      "kind": "normal",
+      "codec": "uastc",
+      "source": "generated/controls-attempt-002/normal.png",
+      "candidate": "generated/controls-attempt-002/normal-uastc.ktx2",
+      "sha256": "a38986b6ab4a067b9e5d83d9becead739bbcc70bbc4b6556b597fd058ded518d",
+      "metadata": {
+        "width": 32,
+        "height": 32,
+        "levels": 6,
+        "orientation": "rd",
+        "swizzle": "",
+        "descriptor": {
+          "vendorId": 0,
+          "descriptorType": 0,
+          "versionNumber": 2,
+          "colorModel": 166,
+          "colorPrimaries": 0,
+          "transferFunction": 1,
+          "flags": 0,
+          "texelBlockDimension": [
+            3,
+            3,
+            0,
+            0
+          ],
+          "bytesPlane": [
+            16,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "samples": [
+            {
+              "bitOffset": 0,
+              "bitLength": 127,
+              "channelType": 0,
+              "samplePosition": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "sampleLower": 0,
+              "sampleUpper": 4294967295
+            }
+          ]
+        }
+      },
+      "worst": 0,
+      "samples": [
+        {
+          "ref": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            218,
+            128,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            128,
+            218,
+            218,
+            255
+          ],
+          "got": [
+            128,
+            218,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            38,
+            128,
+            218,
+            255
+          ],
+          "got": [
+            38,
+            128,
+            218,
+            255
+          ],
+          "error": 0
+        },
+        {
+          "ref": [
+            128,
+            38,
+            218,
+            255
+          ],
+          "got": [
+            128,
+            38,
+            218,
+            255
+          ],
+          "error": 0
+        }
+      ],
+      "format": 37808,
+      "compressed": true
+    },
+    {
+      "bad": "generated/controls-attempt-002/missing.png",
+      "rejected": true
+    },
+    {
+      "bad": "generated/controls-attempt-002/invalid.ktx2",
+      "rejected": true
+    }
+  ]
+}

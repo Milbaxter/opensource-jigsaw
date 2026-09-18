@@ -1,0 +1,51 @@
+{
+  "freeze": "9d0a19c9793276cdfae1185421c520df997609d3",
+  "exit_code": 1,
+  "tool_session_id": 7383,
+  "stop_cause": "Serialized conservative size bound violated before first5MB preset render",
+  "failure_effective_seconds": 795.375,
+  "actual_wall_seconds": 220.883,
+  "prior_preprocessing_seconds_charged": 574.492,
+  "source_hashes_match_freeze": true,
+  "exposure": {
+    "reused_image_domain_distortions": 279,
+    "reused_option_byte_sizes": 279,
+    "fresh_authored_codec_control_cases": 9,
+    "invalid_texture_rejection_controls": 2,
+    "FlightHelmet_original_repeat_views": 6,
+    "FlightHelmet_original_source_roundtrip_views": 6,
+    "original_full_RGBA_controls_all_exact": true,
+    "comparator_recipe_outputs": 18,
+    "comparator_output_byte_sizes": [
+      18499680,
+      5459160,
+      8333356,
+      19140484,
+      11642864,
+      20560124,
+      19140484,
+      24216844,
+      20560124,
+      21004804,
+      74548880,
+      56827056,
+      21004804,
+      74548880,
+      56827056,
+      21004804,
+      74548880,
+      56827056
+    ],
+    "comparator_rendered_quality_configurations": 0,
+    "allocation_rendered_configurations": 0,
+    "heldout_rendered_configurations": 0,
+    "selection_seal_exists": false,
+    "completed_reporting_cells": [
+      "FlightHelmet1MB writer-family infeasible",
+      "FlightHelmet2MB writer-family infeasible"
+    ]
+  },
+  "first_failed_attempt_seconds": 581.824,
+  "sum_observed_attempt_wall_seconds_excluding_separate_diagnostic": 802.707,
+  "diagnostic_wall_seconds": "not instrumented; separately disclosed180secondcap"
+}

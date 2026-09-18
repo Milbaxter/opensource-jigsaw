@@ -1,0 +1,42 @@
+{
+  "inspected_utc": "2026-09-18T12:45:51.812187+00:00",
+  "method": "web tool primary source read; narrow paraphrased evidence roles, no local fullpage copies",
+  "sources": [
+    {
+      "url": "https://aws.amazon.com/marketplace/pp/prodview-gaxjwt6msh55q",
+      "evidence": "Paid build acceleration;750USD/3000core-hours annual contract, infrastructure separate"
+    },
+    {
+      "url": "https://www.buildkite.com/resources/blog/beyond-basic-test-splitting-buildkite-s-approach-to-test-suite-parallelization/",
+      "evidence": "Strong setup/granularity/timing baseline"
+    },
+    {
+      "url": "https://buildkite.com/pricing/",
+      "evidence": "Paid test splitting category"
+    },
+    {
+      "url": "https://forum.buildkite.community/t/unhappy-with-test-suite-pricing/4572",
+      "evidence": "Buyer-origin cost concern"
+    },
+    {
+      "url": "https://arrow.apache.org/docs/python/generated/pyarrow.parquet.write_table.html",
+      "evidence": "Existing per-column encoding/codec/level mechanism"
+    },
+    {
+      "url": "https://motherduck.com/product/pricing/",
+      "evidence": "Paid analytical compute/storage;not exact optimizer demand"
+    },
+    {
+      "url": "https://www.percona.com/services/database-performance-tuning/",
+      "evidence": "11400USD database tuning starting fee;not standalone RocksDB quote"
+    },
+    {
+      "url": "https://cast.ai/wp-content/uploads/2025/12/Automated-Kubernetes-Cost-Optimization.pdf",
+      "evidence": "Current paid placement service and attributed customer statements"
+    },
+    {
+      "url": "https://llvm.org/docs/CMake.html",
+      "evidence": "Native real build input interface"
+    }
+  ]
+}

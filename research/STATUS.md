@@ -6,7 +6,9 @@ Updated 18 September 2026. **No combination has cleared the pursuit bar yet.** A
 
 | Combination | Question being tested | Current evidence |
 |---|---|---|
-| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed deliverable bytes versus strong automatic alternatives? | [Buyer and competition screen](round9/commerce-source-screen.md). [Protocol and implementation frozen](../experiments/render-budget/README.md), with independent static review and a conditional $50/batch commercial experiment. The first run passed 11 authored controls and encoded 279 options, then stopped on unchanged-source/GLB pixel mismatch before any search or held-out evaluation; [Diagnosis](../experiments/render-budget/diagnostics/roundtrip-001/RESULTS.md) identifies runtime draw-order dependence; [attempt002 is prospectively frozen](../experiments/render-budget/attempt-002/README.md) with the same exact-pixel gate. |
+| glTF/KTX/Three rendering + constrained optimization | Can per-texture codec/resolution choices improve rendered fidelity at fixed bytes? | [Two failed setup attempts](../experiments/render-budget/attempt-002/outcomes/RESULTS-ATTEMPT-002.md) retained: draw-order mismatch repaired, then actual writer alignment invalidated the size bound. Zero allocation quality/held-out renders. A third prospective repair is being reviewed. |
+
+A [new native-build scheduling lead](round10/developer-workflows/source-screen.md) is at source/design review only. No compile benchmark or score.
 
 ## Executed experiments retained
 

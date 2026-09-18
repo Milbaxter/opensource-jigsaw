@@ -1,0 +1,283 @@
+{
+  "retrieved_utc": "2026-09-18T12:42:37.864761+00:00",
+  "scope": "Metadata; original API bodies retained privately under evidence, not in publication packet",
+  "records": [
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja",
+      "sha256": "a2329f4f5e98cf81fe2b5e7ea9a2eb22569c5a0dd34c2bf20206b69c4007d6f7",
+      "bytes": 6387,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja",
+      "updated_at": "2026-09-18T07:50:22Z",
+      "full_name": "ninja-build/ninja",
+      "pushed_at": "2026-09-14T14:52:50Z",
+      "github_license_label": "Apache-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/issues/2187",
+      "sha256": "ea219da66a7c49dfc9ff247768d18551819d2df6727a1932fd7dcffb278b0bb8",
+      "bytes": 5958,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja/issues/2187",
+      "state": "open",
+      "updated_at": "2026-06-08T19:26:47Z"
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/pulls/2605",
+      "sha256": "9ec8fa882cb8e7a9765fb2c6731ef17918f2d93180f8988522f10b900f8312e4",
+      "bytes": 16966,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja/pull/2605",
+      "state": "open",
+      "updated_at": "2026-04-15T06:36:19Z",
+      "merged": false
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/issues/1571",
+      "sha256": "f5b4640f8bcd6be8c735a0b7f9dc9af61bc13341775d435ba027fbb5f9b67a03",
+      "bytes": 2973,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja/issues/1571",
+      "state": "open",
+      "updated_at": "2026-05-21T15:18:35Z"
+    },
+    {
+      "url": "https://api.github.com/repos/flashinfer-ai/flashinfer/issues/3634",
+      "sha256": "d4650bb54a6694d16420c6c2ce0d4190124f908c4efd2aab854c6b76e03f28e8",
+      "bytes": 8512,
+      "ok": true,
+      "html_url": "https://github.com/flashinfer-ai/flashinfer/issues/3634",
+      "state": "open",
+      "updated_at": "2026-06-17T18:38:48Z"
+    },
+    {
+      "url": "https://api.github.com/repos/flashinfer-ai/flashinfer/issues/3899",
+      "sha256": "a68bb999927e1315046229358e22d78d51236556bc30d72c90af7f9a3a7d6350",
+      "bytes": 7386,
+      "ok": true,
+      "html_url": "https://github.com/flashinfer-ai/flashinfer/pull/3899",
+      "state": "open",
+      "updated_at": "2026-07-16T20:05:40Z"
+    },
+    {
+      "url": "https://api.github.com/repos/llvm/llvm-project/pulls/127364",
+      "sha256": "42fa15476992720a9c1cc81307fbf03a44b4d11719065db408a1bd29601b0ee5",
+      "bytes": 18886,
+      "ok": true,
+      "html_url": "https://github.com/llvm/llvm-project/pull/127364",
+      "state": "closed",
+      "updated_at": "2025-10-30T14:31:56Z",
+      "merged": true
+    },
+    {
+      "url": "https://api.github.com/repos/duckdb/duckdb/issues/18984",
+      "sha256": "88069a20bf2d476de6adcda299be9dd43c10e2c373cf98ca95ef8769e1afc416",
+      "bytes": 6856,
+      "ok": true,
+      "html_url": "https://github.com/duckdb/duckdb/issues/18984",
+      "state": "open",
+      "updated_at": "2025-10-08T10:06:51Z"
+    },
+    {
+      "url": "https://api.github.com/repos/facebook/rocksdb/issues/13981",
+      "sha256": "2e5a4b055dcfa5a70d59235386d7dfac108adf9587c40d499ff488b653d54c8c",
+      "bytes": 4677,
+      "ok": true,
+      "html_url": "https://github.com/facebook/rocksdb/issues/13981",
+      "state": "open",
+      "updated_at": "2025-11-08T06:35:17Z"
+    },
+    {
+      "url": "https://api.github.com/repos/buildkite/test-engine-client",
+      "sha256": "28b8df6ab4e344b72bb418a4bcd7406bdb986a54dedffd9d707dd1a29f8aa723",
+      "bytes": 6928,
+      "ok": true,
+      "html_url": "https://github.com/buildkite/test-engine-client",
+      "updated_at": "2026-09-17T02:40:40Z",
+      "full_name": "buildkite/test-engine-client",
+      "pushed_at": "2026-09-17T02:40:37Z",
+      "github_license_label": "MIT"
+    },
+    {
+      "url": "https://api.github.com/repos/apache/arrow",
+      "sha256": "3ab4cd561ecf6ca59b1c1465a252bf46db213e74cba36636b86fbeffb43294a7",
+      "bytes": 6137,
+      "ok": true,
+      "html_url": "https://github.com/apache/arrow",
+      "updated_at": "2026-09-18T11:35:11Z",
+      "full_name": "apache/arrow",
+      "pushed_at": "2026-09-18T10:30:49Z",
+      "github_license_label": "Apache-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/google/or-tools",
+      "sha256": "3efebcf815afda927be06bb99386aa658180dc6e9bec9afc7b677ccdc5f75961",
+      "bytes": 6513,
+      "ok": true,
+      "html_url": "https://github.com/google/or-tools",
+      "updated_at": "2026-09-18T09:42:32Z",
+      "full_name": "google/or-tools",
+      "pushed_at": "2026-09-17T21:30:01Z",
+      "github_license_label": "Apache-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/microsoft/playwright",
+      "sha256": "c2bd96ce1315d9418530cb1c0ca794c9c3ef3e7ee325ccffac7ecc8a8c244be0",
+      "bytes": 6925,
+      "ok": true,
+      "html_url": "https://github.com/microsoft/playwright",
+      "updated_at": "2026-09-18T12:14:16Z",
+      "full_name": "microsoft/playwright",
+      "pushed_at": "2026-09-18T04:39:15Z",
+      "github_license_label": "Apache-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/clusterdata",
+      "sha256": "43c8a56683e7722e18f0ab658e733d35948ade391fc70ce4c4b5473a6c36aa68",
+      "bytes": 6278,
+      "ok": true,
+      "html_url": "https://github.com/alibaba/clusterdata",
+      "updated_at": "2026-09-17T05:30:07Z",
+      "full_name": "alibaba/clusterdata",
+      "pushed_at": "2026-06-03T02:11:46Z",
+      "github_license_label": null
+    },
+    {
+      "url": "https://api.github.com/repos/kubernetes-sigs/scheduler-plugins",
+      "sha256": "315af1db0411a3eaff6acea91446562ddbf4d669a7395a51db824cb883c7cfde",
+      "bytes": 13455,
+      "ok": true,
+      "html_url": "https://github.com/kubernetes-sigs/scheduler-plugins",
+      "updated_at": "2026-09-15T11:37:27Z",
+      "full_name": "kubernetes-sigs/scheduler-plugins",
+      "pushed_at": "2026-09-15T11:37:21Z",
+      "github_license_label": "Apache-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/facebook/rocksdb",
+      "sha256": "38400ea661e6ed348cd8d6e65deee902d82719ca26ab7ea8b8cdb9b960a12ee5",
+      "bytes": 6326,
+      "ok": true,
+      "html_url": "https://github.com/facebook/rocksdb",
+      "updated_at": "2026-09-18T10:56:39Z",
+      "full_name": "facebook/rocksdb",
+      "pushed_at": "2026-09-17T22:34:22Z",
+      "github_license_label": "GPL-2.0"
+    },
+    {
+      "url": "https://api.github.com/repos/llvm/llvm-project",
+      "sha256": "8f8d7d8280974c39dde93ba15c2aedc41543cbfa1c5878e35a7ba47e535ea2d8",
+      "bytes": 6227,
+      "ok": true,
+      "html_url": "https://github.com/llvm/llvm-project",
+      "updated_at": "2026-09-18T12:42:01Z",
+      "full_name": "llvm/llvm-project",
+      "pushed_at": "2026-09-18T12:41:47Z",
+      "github_license_label": "NOASSERTION"
+    },
+    {
+      "url": "https://api.github.com/repos/scikit-optimize/scikit-optimize",
+      "sha256": "531b5751d968354950faf3a59d4322e20c6e84b5a5939d02bc01616a83766ec7",
+      "bytes": 7460,
+      "ok": true,
+      "html_url": "https://github.com/scikit-optimize/scikit-optimize",
+      "updated_at": "2026-09-12T10:49:56Z",
+      "full_name": "scikit-optimize/scikit-optimize",
+      "pushed_at": "2024-02-23T07:05:22Z",
+      "github_license_label": "BSD-3-Clause"
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/issues/1571/comments?per_page=100",
+      "sha256": "44ad52404d72a4ecb0cd209544b08197f52d296e1dd59b51856cde16e4e7d742",
+      "bytes": 16269,
+      "ok": true
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/issues/2187/comments?per_page=100",
+      "sha256": "31f999d1529eedc45e2e2e1b48927b38735df83739719388a9f81147bb462839",
+      "bytes": 18418,
+      "ok": true
+    },
+    {
+      "url": "https://api.github.com/repos/buildkite/test-engine-client/commits/HEAD",
+      "sha256": "79ea289880dd766ca61fa7e0a6568ee1a81e68d4c9a21c14f83c17511d1f6d1d",
+      "bytes": 10117,
+      "ok": true,
+      "html_url": "https://github.com/buildkite/test-engine-client/commit/eaa8e6aa1fa92d1d81fbb7a36a7de7dc4fdda48a",
+      "sha": "eaa8e6aa1fa92d1d81fbb7a36a7de7dc4fdda48a"
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/commits/HEAD",
+      "sha256": "7b5207a2d2f33b87857232d6c687831970f59ef6fdad8c69a5b8cdb71b419fee",
+      "bytes": 4329,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja/commit/e4a128055f7698522da6de2821ffe0761623f298",
+      "sha": "e4a128055f7698522da6de2821ffe0761623f298"
+    },
+    {
+      "url": "https://api.github.com/repos/llvm/llvm-project/commits/HEAD",
+      "sha256": "05d2c51610e0d709e39c399db2d1e87cd95889d84c06d4974b8ff03f103411f9",
+      "bytes": 86128,
+      "ok": true,
+      "html_url": "https://github.com/llvm/llvm-project/commit/e6a7b7a45f98c53c81ee4df90503a6e1d00d952b",
+      "sha": "e6a7b7a45f98c53c81ee4df90503a6e1d00d952b"
+    },
+    {
+      "url": "https://api.github.com/repos/google/or-tools/commits/HEAD",
+      "sha256": "72507625837838cb4b3c35295c37116405ca878dad6a169c9e8301cf6c7d2074",
+      "bytes": 10158,
+      "ok": true,
+      "html_url": "https://github.com/google/or-tools/commit/100f66e6242ab8bf8d32feb8f3bf086db66ae2b5",
+      "sha": "100f66e6242ab8bf8d32feb8f3bf086db66ae2b5"
+    },
+    {
+      "url": "https://api.github.com/repos/ninja-build/ninja/contents/COPYING",
+      "sha256": "8227f86a78abb6b0f6ac2bc6ad93aee5d318a4c845033e315810c638c55a434e",
+      "bytes": 16408,
+      "ok": true,
+      "html_url": "https://github.com/ninja-build/ninja/blob/master/COPYING",
+      "sha": "131cb1da46d238a296d448fd79acf37160817cf6"
+    },
+    {
+      "url": "https://api.github.com/repos/llvm/llvm-project/contents/llvm/LICENSE.TXT",
+      "sha256": "d1f53017aa9928c04ef3af76b42088fddd65d921854a58f3e3ef502c0ad427c6",
+      "bytes": 21668,
+      "ok": true,
+      "html_url": "https://github.com/llvm/llvm-project/blob/main/llvm/LICENSE.TXT",
+      "sha": "fa6ac540007032cbd0ec772a1c72e6cb5527a4fe"
+    },
+    {
+      "url": "https://api.github.com/repos/facebook/rocksdb/contents/LICENSE.Apache",
+      "sha256": "07f7e1fc54f5ff3433e4c374e710c05e26339ce331dafa7b75382df52084c0d5",
+      "bytes": 16440,
+      "ok": true,
+      "html_url": "https://github.com/facebook/rocksdb/blob/main/LICENSE.Apache",
+      "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7"
+    },
+    {
+      "url": "https://api.github.com/repos/facebook/rocksdb/contents/tools/advisor/README.md",
+      "sha256": "0f7f6eb67c1cfe40f92ebb9e70ec474e20e879ddc38dc99fea71c0bad0c00561",
+      "bytes": 7092,
+      "ok": true,
+      "html_url": "https://github.com/facebook/rocksdb/blob/main/tools/advisor/README.md",
+      "sha": "b02d7ec5022237b4ae684cd2a82e59088d681cee"
+    },
+    {
+      "url": "https://api.github.com/repos/microsoft/playwright/issues/29638",
+      "sha256": "f320d8247d44584511758e816332216e3621d8e61b2fd660821224d02b14761e",
+      "bytes": 10980,
+      "ok": true,
+      "html_url": "https://github.com/microsoft/playwright/issues/29638",
+      "state": "closed",
+      "updated_at": "2024-02-26T17:49:53Z"
+    },
+    {
+      "url": "https://api.github.com/repos/alibaba/clusterdata/contents/cluster-trace-gpu-v2023/README.md",
+      "sha256": "9021eec08178ae848fc3d5121abd575f06c8c2aca58ce322076346920034fac2",
+      "bytes": 8147,
+      "ok": true,
+      "html_url": "https://github.com/alibaba/clusterdata/blob/master/cluster-trace-gpu-v2023/README.md",
+      "sha": "9bf7de431542fe9c91de75c7acab73215cdc2c36"
+    }
+  ]
+}

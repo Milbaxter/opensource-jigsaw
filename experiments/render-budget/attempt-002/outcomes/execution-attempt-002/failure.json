@@ -1,0 +1,8 @@
+{
+  "freeze": "9d0a19c9793276cdfae1185421c520df997609d3",
+  "error": "Serialized conservative size bound violated",
+  "stack": "Error: Serialized conservative size bound violated\n    at assertByteBound (file://<EXPERIMENT_ROOT>/runtime/byte-bound.mjs:32:138)\n    at size (file://<EXPERIMENT_ROOT>/runtime/run.mjs:39:91)\n    at async runSearches (file://<EXPERIMENT_ROOT>/runtime/search.mjs:16:17)\n    at async file://<EXPERIMENT_ROOT>/runtime/run.mjs:63:18",
+  "seconds": 795.375,
+  "actualWallSeconds": 220.883,
+  "priorEncodingSeconds": 574.492
+}

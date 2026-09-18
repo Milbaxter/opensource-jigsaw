@@ -1,0 +1,240 @@
+{
+  "rows": [
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-0-t512-webp.glb",
+      "bytes": 18499680,
+      "recipe": {
+        "id": "t512-webp",
+        "maxTextureSize": 512,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-1-t512-ktx2.glb",
+      "bytes": 5459160,
+      "recipe": {
+        "id": "t512-ktx2",
+        "maxTextureSize": 512,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-2-t512-png.glb",
+      "bytes": 8333356,
+      "recipe": {
+        "id": "t512-png",
+        "maxTextureSize": 512,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-3-t1024-webp.glb",
+      "bytes": 19140484,
+      "recipe": {
+        "id": "t1024-webp",
+        "maxTextureSize": 1024,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-4-t1024-ktx2.glb",
+      "bytes": 11642864,
+      "recipe": {
+        "id": "t1024-ktx2",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-mobile-5-t1024-png.glb",
+      "bytes": 20560124,
+      "recipe": {
+        "id": "t1024-png",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-mobile",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-6-t1024-webp.glb",
+      "bytes": 19140484,
+      "recipe": {
+        "id": "t1024-webp",
+        "maxTextureSize": 1024,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-7-t1024-ktx2.glb",
+      "bytes": 24216844,
+      "recipe": {
+        "id": "t1024-ktx2",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-8-t1024-png.glb",
+      "bytes": 20560124,
+      "recipe": {
+        "id": "t1024-png",
+        "maxTextureSize": 1024,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-9-t2048-webp.glb",
+      "bytes": 21004804,
+      "recipe": {
+        "id": "t2048-webp",
+        "maxTextureSize": 2048,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-10-t2048-ktx2.glb",
+      "bytes": 74548880,
+      "recipe": {
+        "id": "t2048-ktx2",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/web-desktop-11-t2048-png.glb",
+      "bytes": 56827056,
+      "recipe": {
+        "id": "t2048-png",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "web-desktop",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-12-t2048-webp.glb",
+      "bytes": 21004804,
+      "recipe": {
+        "id": "t2048-webp",
+        "maxTextureSize": 2048,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-13-t2048-ktx2.glb",
+      "bytes": 74548880,
+      "recipe": {
+        "id": "t2048-ktx2",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-14-t2048-png.glb",
+      "bytes": 56827056,
+      "recipe": {
+        "id": "t2048-png",
+        "maxTextureSize": 2048,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-15-t4096-webp.glb",
+      "bytes": 21004804,
+      "recipe": {
+        "id": "t4096-webp",
+        "maxTextureSize": 4096,
+        "useWebp": true,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-16-t4096-ktx2.glb",
+      "bytes": 74548880,
+      "recipe": {
+        "id": "t4096-ktx2",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": true,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    },
+    {
+      "artifact": "generated/FlightHelmet/spatialpack/quality-max-17-t4096-png.glb",
+      "bytes": 56827056,
+      "recipe": {
+        "id": "t4096-png",
+        "maxTextureSize": 4096,
+        "useWebp": false,
+        "preferKtx2": false,
+        "meshopt": false
+      },
+      "preset": "quality-max",
+      "rejected": "Over all declared byte ceilings"
+    }
+  ],
+  "failure": null,
+  "seconds": 198.491
+}
