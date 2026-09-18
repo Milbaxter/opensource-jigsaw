@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-09-18T09:01:20.198165+00:00",
+  "protocol_commit": "4464c4d",
+  "review_stage": "Independent context before execution results; no scores or threshold changes",
+  "artifacts": [
+    {
+      "path": "experiments/mep-access/PREREGISTRATION.md",
+      "sha256": "f40a091dc339e29eee537d709ae95d748a200c27be990de2a4f298fb5662cf27"
+    },
+    {
+      "path": "experiments/mep-access/PARENT-EVIDENCE.md",
+      "sha256": "47fb10f06f1402900a338d634ba5da096ce9c6d324ba17c6fa1eecd905301d1f"
+    }
+  ]
+}

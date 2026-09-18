@@ -1,0 +1,14 @@
+import csv,json,pathlib,collections
+from rdflib import Graph, Namespace,RDF
+p=pathlib.Path(__file__).parent
+BR=Namespace('https://brickschema.org/schema/Brick#');SN=Namespace('http://senaps.io/schema/1.0/senaps#')
+out={}
+for site in 'ABC':
+ g=Graph().parse(p/f'Site_{site}.ttl');rows=list(csv.DictReader((p/f'Site_{site}_metadata.csv').open()));nodes={str(x):s for s,_,x in g.triples((None,SN.stream_id,None))};co=collections.Counter();pred=collections.Counter(str(pr) for _,pr,_ in g);missing=0;eqs=set()
+ for r in rows:
+  n=nodes.get(r['StreamID']);eq=list(g.objects(n,BR.isPointOf)) if n else [];eqs.update(eq)
+  t=[str(t).split('#')[-1] for e in eq for t in g.objects(e,RDF.type)]
+  if not t:missing+=1
+  co.update(t)
+ out[site]={'rows':len(rows),'positive_count':sum(float(r['count'])>0 for r in rows),'point_nodes':len(nodes),'without_equipment_type':missing,'unique_equipment':len(eqs),'equipment_type_counts':dict(co),'predicates':dict(pred)}
+(p/'schema-inspection.json').write_text(json.dumps(out,indent=2));print(json.dumps(out,indent=2))

@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-18T08:54:52.215949+00:00",
+  "scope": "Independent pre-result sources/context only; no predictions, protocol choices, or judgment scores.",
+  "files": [
+    {
+      "path": "PRE-RESULT-REVIEW.md",
+      "bytes": 10458,
+      "sha256": "2cece7fa7319ece0d3d460eb153d20ab485f29341f41bae109a4772b1ec40bae"
+    },
+    {
+      "path": "source-provenance.json",
+      "bytes": 2567,
+      "sha256": "189a9128fee5a85b5f3d59cb77c50325b0d9e0a3511850784c1408e54780a4f8"
+    },
+    {
+      "path": "vt-procurement-check.json",
+      "bytes": 477,
+      "sha256": "9cce8cc5ff3eaa1ec67c04b305df58cd23737fcac0be5dd97400bd436f861b0f"
+    },
+    {
+      "path": "bts-raw-figshare-metadata.json",
+      "bytes": 7494,
+      "sha256": "a892961e4b1326f74e3b0bef02c4911def4afb6938f3748a8cc0e332998d5fa3"
+    },
+    {
+      "path": "bts-train-figshare-metadata.json",
+      "bytes": 5785,
+      "sha256": "f22fc89edc4110115f8e678560299bff76208871e3b482eabbe41b3c71029a2d"
+    },
+    {
+      "path": "bts-code-license.txt",
+      "bytes": 1078,
+      "sha256": "fa67ac9e0a837f9e172aaace9b1f7195f2bd499861eeca1c43664b5d0f0757c9"
+    },
+    {
+      "path": "bts-repository-metadata.json",
+      "bytes": 7147,
+      "sha256": "392ca030e8f12e5313c666c474daaa0fa093bd25d3943d95fc3117fe15337d5f"
+    },
+    {
+      "path": "bts-repository-latest-commit.json",
+      "bytes": 5447,
+      "sha256": "1e8994d7e821ba3f4f78ca3251d143c2b509f639a6e24f75431e43265b9288d6"
+    },
+    {
+      "path": "plaster-repository-metadata.json",
+      "bytes": 6353,
+      "sha256": "a5c7d92cbea79d7b7c54515400b92f92035c9797e60b33e069012380908ec41f"
+    },
+    {
+      "path": "brick-schema-repository-metadata.json",
+      "bytes": 6321,
+      "sha256": "cc11cafb2da90ba060079b0f030db3b2252892dd5e5f8e56eb291616ea2aee48"
+    }
+  ],
+  "excluded": [
+    "capture_metadata.py (internal fetch helper)",
+    "Virginia Tech contract PDF/text (link and hash only; no wholesale redistribution)",
+    "All BTS raw archives and labels (not downloaded for this review)"
+  ]
+}

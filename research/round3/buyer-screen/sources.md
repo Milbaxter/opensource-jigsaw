@@ -1,0 +1,30 @@
+# Primary sources inspected, 2026-09-18
+
+- Repagination pain and manual process: https://www.anzsi.org/wp-content/uploads/2015/02/Indexing2.pdf
+- Direct $45/hour repagination service: https://www.zingerindexing.com/fee-schedule.html
+- Provider says late repagination can require another detailed pass; describes it as rare: https://www.afindexing.com/pricing-rates
+- Provider schedules 3–4 days for repagination: https://www.indocsindexing.com/schedule.html
+- Society fee guideline £34/hour from January 2026: https://www.indexers.org.uk/find-an-indexer/fees-for-indexing/
+- ANZSI guideline AUS$85/hour, September 2025: https://www.anzsi.org/indexers-available__trashed/hiring-an-indexer/
+- Existing automated page-offset/range correction: https://www.bookhouse.com.au/article/indexpagenumbering
+- Cindex and Macrex existing/free tools: https://indexers.ca/resources/software/
+- Cindex is open source and free; no ongoing vendor purchase required: https://www.scribendi.ai/cindex/
+- Generic competitor claims revised-edition automatic index update, with unverified savings assumption: https://upagents.app/agents-for/media-entertainment/editor/content-indexing
+- Edlib component: https://github.com/Martinsos/edlib
+- PDF extraction component: https://github.com/jsvine/pdfplumber
+- Graph component: https://github.com/networkx/networkx
+- ESEF incumbent audit workflow: https://esef.smartcon.pl/en/dev/
+- ESEF change-comparison incumbent: https://ctrlprint.com/article-bank/streamline-your-esef-tagging-with-these-new-ctrlprint-features/
+- UKSEF paid service (£250 XHTML; £900 with tagging): https://esefreports.com/uksef-tagging-for-audit-firms
+- ESEF official scope: https://www.esma.europa.eu/issuer-disclosure/electronic-reporting
+- Musicdiff implementation: https://github.com/gregchapman-dev/musicdiff/blob/develop/musicdiff/__init__.py
+- Musicdiff transposition prior art: https://grfia.dlsi.ua.es/repositori/grfia/pubs/446/music_encoding_conference_proceedings_2020.pdf
+- Music proofreading $35/hour: https://baxtermusicpublishing.com/services/rates
+- BATON caption checks: https://www.interrasystems.com/pdf/datasheet/baton-captions-datasheet.pdf
+- BATON incumbent products: https://www.interrasystems.com/
+- MathML author-intent ambiguity: https://arxiv.org/abs/2407.06720
+- CWR validation incumbent: https://cwrcheck.com/guides
+- Royalty claims incumbent: https://royalti.io/
+- Royalty paid software €599/month: https://sumbeat.app/pricing
+- PitStop paid preflight $480/year: https://www.enfocus.com/en/pitstop-pro
+- RowSure exact continuity/verification competitor, $99/month Proof tier: https://rowsure.com/pricing

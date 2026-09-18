@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "id": 53352143,
+      "name": "Site_A_metadata.csv",
+      "size": 1523881,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352143",
+      "supplied_md5": "ad3d9b359cbf59958abf9114b5ec06ad",
+      "computed_md5": "ad3d9b359cbf59958abf9114b5ec06ad",
+      "mimetype": "text/csv"
+    },
+    {
+      "id": 53352146,
+      "name": "Site_B_metadata.csv",
+      "size": 136315,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352146",
+      "supplied_md5": "a0f4b9890a4b9669fc368f7637bd1a6b",
+      "computed_md5": "a0f4b9890a4b9669fc368f7637bd1a6b",
+      "mimetype": "text/csv"
+    },
+    {
+      "id": 53352149,
+      "name": "Site_C_metadata.csv",
+      "size": 1492713,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352149",
+      "supplied_md5": "b78633840c6dbf0c3dcab1f1068b09f0",
+      "computed_md5": "b78633840c6dbf0c3dcab1f1068b09f0",
+      "mimetype": "text/csv"
+    },
+    {
+      "id": 53352152,
+      "name": "Site_A.ttl",
+      "size": 3559525,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352152",
+      "supplied_md5": "e38f20ec32dc59a3276d4fb47f0421e4",
+      "computed_md5": "e38f20ec32dc59a3276d4fb47f0421e4",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 53352155,
+      "name": "Site_B.ttl",
+      "size": 378775,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352155",
+      "supplied_md5": "404ffc8a5261ed7ee2c9a049c54bdf25",
+      "computed_md5": "404ffc8a5261ed7ee2c9a049c54bdf25",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 53352158,
+      "name": "Site_C.ttl",
+      "size": 4835746,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352158",
+      "supplied_md5": "6def813cecd8c74516418bfe9b0166a8",
+      "computed_md5": "6def813cecd8c74516418bfe9b0166a8",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 53352173,
+      "name": "Brick_v1.2.1.ttl",
+      "size": 707352,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352173",
+      "supplied_md5": "273771a6b6be7c331e72e386abafa02e",
+      "computed_md5": "273771a6b6be7c331e72e386abafa02e",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 53352176,
+      "name": "DIEF_inspect_brick.ipynb",
+      "size": 14574,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352176",
+      "supplied_md5": "f048271944bb0ed2a664d623b1804a6a",
+      "computed_md5": "f048271944bb0ed2a664d623b1804a6a",
+      "mimetype": "application/json"
+    },
+    {
+      "id": 53352179,
+      "name": "DIEF_inspect_raw.ipynb",
+      "size": 1993350,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53352179",
+      "supplied_md5": "490a1427b6ece0466cd31c92b1ae34cd",
+      "computed_md5": "490a1427b6ece0466cd31c92b1ae34cd",
+      "mimetype": "text/html"
+    },
+    {
+      "id": 53354039,
+      "name": "Site_Baa.zip",
+      "size": 1513172125,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53354039",
+      "supplied_md5": "ec752bd9707fcbf99851a68651adeec9",
+      "computed_md5": "",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 53366168,
+      "name": "Site_Aaa.zip",
+      "size": 8475679488,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53366168",
+      "supplied_md5": "f2aac48f18653bb7c22d60a0b4964ca6",
+      "computed_md5": "f2aac48f18653bb7c22d60a0b4964ca6",
+      "mimetype": "undefined"
+    },
+    {
+      "id": 53386793,
+      "name": "Site_Caa.zip",
+      "size": 8984334527,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/53386793",
+      "supplied_md5": "43d5ebecae16fa2befa3a66092c9e4fd",
+      "computed_md5": "43d5ebecae16fa2befa3a66092c9e4fd",
+      "mimetype": "undefined"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 18623353,
+      "full_name": "Arian Prabowo",
+      "first_name": "Arian",
+      "last_name": "Prabowo",
+      "is_active": true,
+      "url_name": "Arian_Prabowo",
+      "orcid_id": "0000-0002-0459-354X"
+    },
+    {
+      "id": 18815883,
+      "full_name": "Xiachong Lin",
+      "first_name": "Xiachong",
+      "last_name": "Lin",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0009-0009-6762-8365"
+    },
+    {
+      "id": 13074405,
+      "full_name": "Imran Razzak",
+      "first_name": "Imran",
+      "last_name": "Razzak",
+      "is_active": false,
+      "url_name": "Imran_Razzak",
+      "orcid_id": "0000-0002-3930-6600"
+    },
+    {
+      "id": 18044833,
+      "full_name": "Hao Xue",
+      "first_name": "Hao",
+      "last_name": "Xue",
+      "is_active": true,
+      "url_name": "Hao_Xue",
+      "orcid_id": ""
+    },
+    {
+      "id": 19583320,
+      "full_name": "Emily Wern Jien Yap",
+      "first_name": "Emily Wern Jien",
+      "last_name": "Yap",
+      "is_active": true,
+      "url_name": "Emily_Wern_Jien_Yap",
+      "orcid_id": "0000-0002-8580-1696"
+    },
+    {
+      "id": 18815981,
+      "full_name": "Matthew Amos",
+      "first_name": "Matthew",
+      "last_name": "Amos",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    },
+    {
+      "id": 16799313,
+      "full_name": "Flora D. Salim",
+      "first_name": "Flora D.",
+      "last_name": "Salim",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">The Building TimeSeries (BTS) dataset covers three buildings over a three-year period, comprising more than ten thousand timeseries data points with hundreds of unique Brick classes. Moreover, the metadata is standardized using the Brick schema.</p><p dir=\"ltr\">To get started, download the data and run the DIEF_inspect_raw.ipynb file.</p><p dir=\"ltr\">For more info, including data cards: <a href=\"https://github.com/cruiseresearchgroup/DIEF_BTS\" rel=\"noreferrer\" target=\"_blank\">https://github.com/cruiseresearchgroup/DIEF_BTS</a></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 3,
+  "status": "public",
+  "size": 18987828371,
+  "created_date": "2025-04-03T02:36:27Z",
+  "modified_date": "2025-04-03T02:57:44Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "timeseries analysis",
+    "forecasting",
+    "brick schema",
+    "analytics",
+    "dataset",
+    "buildings",
+    "knowledge graph",
+    "timeseries"
+  ],
+  "keywords": [
+    "timeseries analysis",
+    "forecasting",
+    "brick schema",
+    "analytics",
+    "dataset",
+    "buildings",
+    "knowledge graph",
+    "timeseries"
+  ],
+  "categories": [
+    {
+      "id": 24937,
+      "title": "Automation and technology in building and construction",
+      "parent_id": 24934,
+      "path": "/24895/24934/24937",
+      "source_id": "330201",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24946,
+      "title": "Building information modelling and management",
+      "parent_id": 24934,
+      "path": "/24895/24934/24946",
+      "source_id": "330204",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Prabowo, Arian; Lin, Xiachong; Razzak, Imran; Xue, Hao; Yap, Emily Wern Jien; Amos, Matthew; et al. (2025). BTS: Building Timeseries Dataset: Raw. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28705559.v3",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 28705559,
+  "title": "BTS: Building Timeseries Dataset: Raw",
+  "doi": "10.6084/m9.figshare.28705559.v3",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/28705559",
+  "published_date": "2025-04-03T02:36:27Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/28705559",
+  "url_public_api": "https://api.figshare.com/v2/articles/28705559",
+  "url_private_html": "https://figshare.com/account/articles/28705559",
+  "url_public_html": "https://figshare.com/articles/dataset/BTS_Building_Timeseries_Dataset_Raw/28705559",
+  "timeline": {
+    "posted": "2025-04-03T02:36:27",
+    "firstOnline": "2025-04-01"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

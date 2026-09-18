@@ -1,0 +1,23 @@
+{
+  "evaluations_run": false,
+  "purpose": "schema inspection only",
+  "files": {
+    "Site_C.ttl": "a0cd26fe2115b9d918fa7f971c6583f598d36bec5c7e59be8f956bd06175bed9",
+    "Site_B.ttl": "770cc0ddadf6ce7df25963b7d4e9ff1c2840947152f5e27f6e4db8fde9bdf83f",
+    "Site_A.ttl": "50f01e0af15c6b9ccccff8a388fb0345eba0585d1f461ad1c75add324d4c3da4",
+    "figshare.json": "7a74e41982f3613a6214c48f713735edf594dbcde729e72663529b632bd0793c",
+    "Site_A_metadata.csv": "3df0a64b4b0730c0b4ddd8ac7591f91131f2f5d948b2f59604412eade3e5292a",
+    "inspect_schema.py": "9b321e63d27701d0c40e4a7fb962af93b20193dba47cb0c9562b3ae3f1360cfc",
+    "STATUS.md": "9ba9681479dde18b3b91bf4468de032bd328ce4ec692f7319ce10ca34623f70f",
+    "Brick_v1.2.1.ttl": "fda4dd621afeafe99ad8a6e0c3af496336494324488aa25222ad50447787b782",
+    "Site_B_metadata.csv": "9e774ef4eda56635f3c70feb1db01304b93a6d4477822113687e5d50b3df3268",
+    "schema-inspection.json": "0b047036fb3380331c53391c9d2d9359b4134a0c39af75aebfb69747974198b3",
+    "Site_C_metadata.csv": "a033ed0399a58192ccbeb66528006d161d6ea39ee57366e25194f58890cc0fd4"
+  },
+  "installed_versions": {
+    "rdflib": "7.6.0",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "pyshacl": "0.40.1"
+  }
+}

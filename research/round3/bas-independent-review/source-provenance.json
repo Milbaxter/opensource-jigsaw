@@ -1,0 +1,68 @@
+{
+  "retrieved_at": "2026-09-18T08:52:07.388379+00:00",
+  "sources": [
+    {
+      "title": "BTS raw Figshare metadata",
+      "url": "https://api.figshare.com/v2/articles/28705559",
+      "bytes": 7494,
+      "sha256": "a892961e4b1326f74e3b0bef02c4911def4afb6938f3748a8cc0e332998d5fa3",
+      "status": 200,
+      "content_type": "application/json",
+      "saved": "bts-raw-figshare-metadata.json"
+    },
+    {
+      "title": "BTS train Figshare metadata",
+      "url": "https://api.figshare.com/v2/articles/25912180",
+      "bytes": 5785,
+      "sha256": "f22fc89edc4110115f8e678560299bff76208871e3b482eabbe41b3c71029a2d",
+      "status": 200,
+      "content_type": "application/json",
+      "saved": "bts-train-figshare-metadata.json"
+    },
+    {
+      "title": "BTS repository metadata",
+      "url": "https://api.github.com/repos/cruiseresearchgroup/DIEF_BTS",
+      "bytes": 7147,
+      "sha256": "392ca030e8f12e5313c666c474daaa0fa093bd25d3943d95fc3117fe15337d5f",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "saved": "bts-repository-metadata.json"
+    },
+    {
+      "title": "BTS repository latest commit",
+      "url": "https://api.github.com/repos/cruiseresearchgroup/DIEF_BTS/commits/main",
+      "bytes": 5447,
+      "sha256": "1e8994d7e821ba3f4f78ca3251d143c2b509f639a6e24f75431e43265b9288d6",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "saved": "bts-repository-latest-commit.json"
+    },
+    {
+      "title": "Plaster repository metadata",
+      "url": "https://api.github.com/repos/plastering/plastering",
+      "bytes": 6353,
+      "sha256": "a5c7d92cbea79d7b7c54515400b92f92035c9797e60b33e069012380908ec41f",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "saved": "plaster-repository-metadata.json"
+    },
+    {
+      "title": "BTS code license",
+      "url": "https://raw.githubusercontent.com/cruiseresearchgroup/DIEF_BTS/main/LICENSE",
+      "bytes": 1078,
+      "sha256": "fa67ac9e0a837f9e172aaace9b1f7195f2bd499861eeca1c43664b5d0f0757c9",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "saved": "bts-code-license.txt"
+    },
+    {
+      "title": "Brick schema repository metadata",
+      "url": "https://api.github.com/repos/BrickSchema/Brick",
+      "bytes": 6321,
+      "sha256": "cc11cafb2da90ba060079b0f030db3b2252892dd5e5f8e56eb291616ea2aee48",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "saved": "brick-schema-repository-metadata.json"
+    }
+  ]
+}
