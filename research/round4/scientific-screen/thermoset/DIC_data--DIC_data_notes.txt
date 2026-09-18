@@ -1,0 +1,41 @@
+
+Notes on the stereo digital image correlation (DIC) measurements:
+
+All measurements are performed by Alexander Landauer using a pair of 24.4 MPx 
+cameras (ace2 a2A5328-15umPRO Monochrome, Basler AG) with 50 mm lenses (Fujinon 
+CF50ZA-1S, Fujifilm Corp.) in a custom environmental chamber (based on a GF-C2 
+oven from DDM Novastar, Ivyland, PA) with a large antireflective coated
+window (approximately 300 mm square) and 3 LED light panels for illumination.
+A roughly circular epoxy blob (approximately 600 mg to 800 mg) was allowed to 
+self-level on a flexible backer before being speckled with white spray paint.
+
+The customary DIC parameter table is as follows:
+
+|-----------------------------------------------------------|
+|    Parameter [unit]             Value                     |
+|-----------------------------------------------------------|
+ Region of Interest (ROI) [px]    Approx. 910 × 895    
+ Aperture                         f/16    
+ Image scale [µm/px]              1.23    
+ Stereo angle [°]                 -18.2    
+ Stand-off distance [mm]          241 mm    
+ Exposure time [ms]               19    
+ Image filtering                  Gaussian 5 px kernel    
+ Reference image                  Cumulative with update 
+                                  for iteration > 6    
+ Interpolation                    Bi-cubic spline    
+ Matching criterion               Zero-normalized sum-of-
+                                  square differences with 
+								  Gaussian weighting    
+ Subset size [px]                 41    
+ Step size [px]                   19    
+ Subset shape function            Affine    
+ Strain Window                    21
+ Virtual strain gauge [px]        421    
+ Strain formulation               Green-Lagrange with Q4 
+                                  interpolant    
+ Static noise floor [µm/m]        22.4    
+|-----------------------------------------------------------|
+
+Stereo-DIC analysis was conducting using MatchID-Stereo in accordance with 
+the International Digital Image Correlation Society’s Good Practices Guide.

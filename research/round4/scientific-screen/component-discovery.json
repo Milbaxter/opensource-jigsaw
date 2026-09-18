@@ -1,0 +1,216 @@
+[
+  {
+    "query": "pkynetics is:public",
+    "items": [
+      {
+        "full_name": "PPeitsch/pkynetics",
+        "description": "A Python library for thermal analysis and reaction kinetics. Supports DSC, TGA, and dilatometry with tools for model-fitting (JMAK, Kissinger), model-free (Friedman, KAS, OFW) analysis, data processing, and visualization.",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/PPeitsch/pkynetics"
+      }
+    ]
+  },
+  {
+    "query": "pykinetics cure is:public",
+    "items": []
+  },
+  {
+    "query": "pyyeti is:public",
+    "items": [
+      {
+        "full_name": "twmacro/pyyeti",
+        "description": "Tools mostly related to structural dynamics",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "html_url": "https://github.com/twmacro/pyyeti"
+      }
+    ]
+  },
+  {
+    "query": "nmrglue is:public",
+    "items": [
+      {
+        "full_name": "jjhelmus/nmrglue",
+        "description": "A module for working with NMR data in Python",
+        "license": {
+          "key": "bsd-3-clause",
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdx_id": "BSD-3-Clause",
+          "url": "https://api.github.com/licenses/bsd-3-clause",
+          "node_id": "MDc6TGljZW5zZTU="
+        },
+        "html_url": "https://github.com/jjhelmus/nmrglue"
+      },
+      {
+        "full_name": "weisscharlesj/SciCompforChemists",
+        "description": "Scientific Computing for Chemists with Python is a free book for teaching basic coding skills to chemists using Python, Jupyter notebooks, and the other Python software. This textbook teaches a variety of Python packages including NumPy, SciPy, matplotlib, pandas, seaborn, nmrglue, SymPy, scikit-image, scikit-learn, and others.",
+        "license": {
+          "key": "other",
+          "name": "Other",
+          "spdx_id": "NOASSERTION",
+          "url": null,
+          "node_id": "MDc6TGljZW5zZTA="
+        },
+        "html_url": "https://github.com/weisscharlesj/SciCompforChemists"
+      },
+      {
+        "full_name": "nuts-org/spinplots",
+        "description": "SpinPlots is a Python package built on top of NMRglue, designed to simplify the process of plotting NMR data.",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/nuts-org/spinplots"
+      },
+      {
+        "full_name": "tlinnet/drawnmr",
+        "description": "Draw NMR data in Jupyter Notebooks with nmrglue and bokeh",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/tlinnet/drawnmr"
+      },
+      {
+        "full_name": "NOBLES5E/NMR-Analysis",
+        "description": "This program use nmrglue, matplotlib, PyQt5, numpy to create an interactive UI to perform solid state NMR analysis.",
+        "license": null,
+        "html_url": "https://github.com/NOBLES5E/NMR-Analysis"
+      }
+    ]
+  },
+  {
+    "query": "BioXTAS RAW is:public",
+    "items": [
+      {
+        "full_name": "jbhopkins/bioxtasraw",
+        "description": "BioXTAS RAW is a GUI based, free, open-source Python program for reduction and analysis of small-angle solution scattering (SAS) data.",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/jbhopkins/bioxtasraw"
+      },
+      {
+        "full_name": "lqhuang/RAW",
+        "description": "A wrapper for BioXTAS RAW",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/lqhuang/RAW"
+      },
+      {
+        "full_name": "VincentNicholson/SAXS",
+        "description": "For using BioXTAS RAW to analyze SAXS data",
+        "license": null,
+        "html_url": "https://github.com/VincentNicholson/SAXS"
+      },
+      {
+        "full_name": "GauffrePierre/raw-wsp-converter",
+        "description": "Convert legacy BioXTAS RAW .wsp workspaces (pickle format, RAW < 2.4.1) to .hdf5 workspaces that open in the RAW 2.4.1 GUI, using the RAW Python API (tested with 2.4.2). Includes a check of Guinier and IFT results before and after conversion.",
+        "license": {
+          "key": "gpl-3.0",
+          "name": "GNU General Public License v3.0",
+          "spdx_id": "GPL-3.0",
+          "url": "https://api.github.com/licenses/gpl-3.0",
+          "node_id": "MDc6TGljZW5zZTk="
+        },
+        "html_url": "https://github.com/GauffrePierre/raw-wsp-converter"
+      }
+    ]
+  },
+  {
+    "query": "chromatography simulator is:public",
+    "items": [
+      {
+        "full_name": "cadet/CADET-Core",
+        "description": "The heart of CADET. A modular, fast, and accurate modeling and simulation framework for biotechnology processes.",
+        "license": {
+          "key": "agpl-3.0",
+          "name": "GNU Affero General Public License v3.0",
+          "spdx_id": "AGPL-3.0",
+          "url": "https://api.github.com/licenses/agpl-3.0",
+          "node_id": "MDc6TGljZW5zZTE="
+        },
+        "html_url": "https://github.com/cadet/CADET-Core"
+      },
+      {
+        "full_name": "GasChromatographyToolbox/GasChromatographySimulator.jl",
+        "description": "A package for the simulation of gas chromatography (GC)",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/GasChromatographyToolbox/GasChromatographySimulator.jl"
+      },
+      {
+        "full_name": "mlibby/hplc_simulator",
+        "description": "HPLC Simulator -- simulates High Pressure (or High Performance) Liquid Chromatography with interactive chromatogram",
+        "license": null,
+        "html_url": "https://github.com/mlibby/hplc_simulator"
+      },
+      {
+        "full_name": "IncrementDaily/gc-fid-simulator",
+        "description": "A Gas Chromatography Simulator built on the LSER Model",
+        "license": null,
+        "html_url": "https://github.com/IncrementDaily/gc-fid-simulator"
+      },
+      {
+        "full_name": "Pattterson/ChromatographySimulator",
+        "description": "ChromatographySimulator 2019",
+        "license": {
+          "key": "bsd-2-clause",
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdx_id": "BSD-2-Clause",
+          "url": "https://api.github.com/licenses/bsd-2-clause",
+          "node_id": "MDc6TGljZW5zZTQ="
+        },
+        "html_url": "https://github.com/Pattterson/ChromatographySimulator"
+      }
+    ]
+  },
+  {
+    "query": "surface plasmon resonance kinetics is:public",
+    "items": [
+      {
+        "full_name": "YvesNomine/SPR_Kinetics_Analysis",
+        "description": "Python script for processing and plotting Surface Plasmon Resonance (SPR) kinetics data. It performs reference-signal subtraction, normalizes the response by an analyte/ligand molecular-weight coefficient, computes steady-state binding signals, and generates diagnostic and summary plots.",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "html_url": "https://github.com/YvesNomine/SPR_Kinetics_Analysis"
+      }
+    ]
+  }
+]

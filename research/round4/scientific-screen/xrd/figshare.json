@@ -1,0 +1,103 @@
+{
+  "files": [
+    {
+      "id": 37028479,
+      "name": "Data.zip",
+      "size": 2011824293,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/37028479",
+      "supplied_md5": "2de15615ebcd9707fc4ae2e7416142ad",
+      "computed_md5": "2de15615ebcd9707fc4ae2e7416142ad",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 10021019,
+      "full_name": "Nathan Szymanski",
+      "first_name": "Nathan",
+      "last_name": "Szymanski",
+      "is_active": true,
+      "url_name": "Nathan_Szymanski",
+      "orcid_id": "0000-0003-2255-9676"
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/Adaptive_XRD_Data/20029745",
+  "download_disabled": false,
+  "description": "<p>Simulated and experimental X-ray diffraction data used to validate the performance of a machine learning algorithm designed to adaptively steer diffraction measurements and perform autonomous phase identification.</p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 1,
+  "status": "public",
+  "size": 2011824293,
+  "created_date": "2023-01-31T16:17:36Z",
+  "modified_date": "2023-01-31T16:17:36Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "x-ray diffraction measurements",
+    "neural network algorithm"
+  ],
+  "keywords": [
+    "x-ray diffraction measurements",
+    "neural network algorithm"
+  ],
+  "categories": [
+    {
+      "id": 25144,
+      "title": "Inorganic materials (incl. nanomaterials)",
+      "parent_id": 25141,
+      "path": "/25066/25141/25144",
+      "source_id": "340301",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 29173,
+      "title": "Machine learning not elsewhere classified",
+      "parent_id": 29152,
+      "path": "/28798/29152/29173",
+      "source_id": "461199",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Szymanski, Nathan (2023). Adaptive XRD Data. figshare. Dataset. https://doi.org/10.6084/m9.figshare.20029745.v1",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 20029745,
+  "title": "Adaptive XRD Data",
+  "doi": "10.6084/m9.figshare.20029745.v1",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/20029745",
+  "published_date": "2023-01-31T16:17:36Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/20029745",
+  "url_public_api": "https://api.figshare.com/v2/articles/20029745",
+  "url_private_html": "https://figshare.com/account/articles/20029745",
+  "url_public_html": "https://figshare.com/articles/dataset/Adaptive_XRD_Data/20029745",
+  "timeline": {
+    "posted": "2023-01-31T16:17:36",
+    "firstOnline": "2023-01-31"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

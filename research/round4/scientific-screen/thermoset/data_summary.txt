@@ -1,0 +1,77 @@
+*******************************************************************************
+** Data summary for: Data for Advanced Metrology Suite for Linking Residual  **
+** Stress to Fundamental Properties of Thermoset Packaging Materials         **
+*******************************************************************************
+
+Authors: Polette Centellas, Stian Romberg, Ran Tao, Alexander K Landauer
+
+-------------------------------------------------------------------------------
+DATA SOURCES (top level folders):
+-------------------------------------------------------------------------------
+DIC_data: Data for the digital image correlation (DIC) experiment, including 
+          example raw data (images), setup information and metadata in their 
+		  native format and as .csv or .txt files, and processed results (.mat). 
+		  The figure is included as a .png.
+
+DSC_data: Reduced data in .xlsx files from DSC experiments used to generate 
+          figures for the associated ECTC manuscript and the resultant figures 
+		  in .qpc and .tif formats.
+                    
+Rheology_data: Reduced data from a parallel plate separate actuator-transducer 
+               rheometer in the form of .csv files used to generate figures.
+
+Stress_bench_data: Data from a stress bench setup equipped with a multi-beam 
+                   optical stress sensor that monitors changes in the thin film 
+				   curvature during thermal cycling experiments, similar 
+				   measurements where the curvature is measured during the 
+				   curing process, and water vapor sorption-desorption 
+				   experiments. Reduced data are included in .csv and .xlsx 
+				   files, with the resultant figures as .png images.
+
+
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+MATERIAL TESTED:
+-------------------------------------------------------------------------------
+
+EW8002 "NoSWEEP" Wire Bond Encapsulant: Low viscosity thermal cure epoxy with 
+high degree of filler and dyed with carbon black for laser etchablity.
+Manufacture quoted typical specifications are as follows:
+_______________________________________________________________________________
+UNCURED (WET) PROPERTIES
+Color: Black
+Filler Content Filler avg size/max 6/30 microns: 70 %
+Viscosity @ 25ºC RVDV-II+ , Spindle 14, Cup 6R: 50 kcps @ 0.5 rpm
+Pot Life @ 25º C: > 24 hours
+Density: 1.7 gram/cm3
+_______________________________________________________________________________
+PROCESS PARAMETERS
+Cure Cycle
+60 min @ 100 ºC + 60 min @ 165 ºC
+Alternate Cure Cycle
+30 min @ 100 ºC + 120 min @ 150 ºC
+_______________________________________________________________________________
+CURED PROPERTIES
+Glass Transition Temp. (Tg) by DMA: 150 ºC
+Coefficient of Thermal Expansion (CTE): 15 ppm/ºC
+Flexural Modulus (Three Point Bend): 2.0 GPa @ 25 ºC
+Extractable Ionic Content:
+   Cl < 10
+   K < 5
+   Na < 10
+   F < 5
+
+   
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+DISCLAIMER
+-------------------------------------------------------------------------------
+
+Certain commercial equipment, instruments, or materials are identified in this 
+dataset in order to specify the experimental procedure adequately.  Such 
+identification is not intended to imply recommendation or endorsement by NIST, 
+nor is it intended to imply that the materials or equipment identified are 
+necessarily the best available for the purpose.
+

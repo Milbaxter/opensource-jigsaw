@@ -1,0 +1,15 @@
+# Thermoset model-handoff prospect: data audit before a protocol
+
+Decision: HOLD pending suitable independent calibration/validation measurements. No model fit or comparison was run; no test was preregistered. This is not a failed numerical experiment and not a conclusion that the service cannot sell.
+
+Buyer artifact hypothesis: open, simulation-ready material parameter card connecting chemical cure, mechanical evolution and effective shrinkage, with explicit validation domains and an independently measured stress-response report. NETZSCH and Convergent sell relevant services; a portable alternative can be commercially useful even with established methods. Strong comparator is a competent calibrated model/established material-characterization workflow, not a constant-modulus strawman.
+
+Inspected all six public notes/rights files before considering an experiment. Their source URLs and complete responses are saved in source-files.json. Data permissions allow worldwide reuse/derivatives with NIST attribution and modification notices. No proprietary schema is needed.
+
+The catalogue's multimodal description is accurate, but insufficient for the proposed benchmark. DSC and rheology downloads contain reduced figure data; full raw methods/data require a request. Only one recommended cure schedule is described. Independent thermal-cycle/humidity-condition traces do exist, but these test a different post-cure question. Treating them as unseen cure histories would overstate the evidence. NIST's kinetic model was already fit with NETZSCH Kinetics Neo; extracting its plotted fitted output and validating against the same experiment would be leakage.
+
+A narrower idea was checked: automate frequency-independent loss-tangent gel detection, combine it with DIC strain to isolate mechanically effective cure shrinkage, export parameters. The associated publication already demonstrates why a simple storage/loss-modulus crossover can mislead in this filled resin. A faithful Winter–Chambon analysis is therefore the required strong baseline; beating an inappropriate crossover is not sufficient. Published figures have already exposed the expected outcome, so they cannot be represented as a blind holdout.
+
+Additional reusable multi-schedule data lead, not yet audited: https://doi.org/10.17862/cranfield.rd.22890563 supports a2023vitrimer kinetics/rheology paper (https://doi.org/10.1016/j.polymer.2023.126427). It could support cure/viscosity prediction, but it does not automatically supply independent residual-stress truth or an entrant advantage. No download/evaluation performed.
+
+Possible components were verified as actual public repositories: PPeitsch/pkynetics (MITmetadata), NatLabRockies/pyvisco (releaseBSD3notice,GitHubNOASSERTION), sfepy/sfepy (BSD3metadata). Their necessity is conditional: pkynetics would fit kinetics, pyvisco would fit viscoelasticity, SfePy would predict geometry-dependent stress. The current reduced data do not justify pretending all three have essential calibrated inputs. Full version/dependency/license audit belongs after a valid experiment is selected.

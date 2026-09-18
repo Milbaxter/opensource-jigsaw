@@ -1,0 +1,114 @@
+[
+  {
+    "name": ".DS_Store",
+    "path": ".DS_Store",
+    "sha": "e147517bf44720682567c107b90c1a1ad04496c4",
+    "size": 6148,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/.DS_Store?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/blob/main/.DS_Store",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/e147517bf44720682567c107b90c1a1ad04496c4",
+    "download_url": "https://raw.githubusercontent.com/njszym/AdaptiveXRD/main/.DS_Store",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/.DS_Store?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/e147517bf44720682567c107b90c1a1ad04496c4",
+      "html": "https://github.com/njszym/AdaptiveXRD/blob/main/.DS_Store"
+    }
+  },
+  {
+    "name": "Example",
+    "path": "Example",
+    "sha": "caa7fef44dafbba1a1b2383fded934567fc33a8c",
+    "size": 0,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/Example?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/tree/main/Example",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/trees/caa7fef44dafbba1a1b2383fded934567fc33a8c",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/Example?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/trees/caa7fef44dafbba1a1b2383fded934567fc33a8c",
+      "html": "https://github.com/njszym/AdaptiveXRD/tree/main/Example"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "1c203ec684d00932bd8b4b4ad632ad4fca81d0ef",
+    "size": 8271,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/README.md?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/1c203ec684d00932bd8b4b4ad632ad4fca81d0ef",
+    "download_url": "https://raw.githubusercontent.com/njszym/AdaptiveXRD/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/1c203ec684d00932bd8b4b4ad632ad4fca81d0ef",
+      "html": "https://github.com/njszym/AdaptiveXRD/blob/main/README.md"
+    }
+  },
+  {
+    "name": "adaptXRD",
+    "path": "adaptXRD",
+    "sha": "c1e326759aac48916dc723af90871500ba966238",
+    "size": 0,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/adaptXRD?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/tree/main/adaptXRD",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/trees/c1e326759aac48916dc723af90871500ba966238",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/adaptXRD?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/trees/c1e326759aac48916dc723af90871500ba966238",
+      "html": "https://github.com/njszym/AdaptiveXRD/tree/main/adaptXRD"
+    }
+  },
+  {
+    "name": "construct_models.py",
+    "path": "construct_models.py",
+    "sha": "bfd444bd3692033346aeb2a8e2bf77e19cd0cd9e",
+    "size": 4032,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/construct_models.py?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/blob/main/construct_models.py",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/bfd444bd3692033346aeb2a8e2bf77e19cd0cd9e",
+    "download_url": "https://raw.githubusercontent.com/njszym/AdaptiveXRD/main/construct_models.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/construct_models.py?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/bfd444bd3692033346aeb2a8e2bf77e19cd0cd9e",
+      "html": "https://github.com/njszym/AdaptiveXRD/blob/main/construct_models.py"
+    }
+  },
+  {
+    "name": "scan_and_ID.py",
+    "path": "scan_and_ID.py",
+    "sha": "933d8fd4a08be6baaae53eb16b6cd430fb562991",
+    "size": 6140,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/scan_and_ID.py?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/blob/main/scan_and_ID.py",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/933d8fd4a08be6baaae53eb16b6cd430fb562991",
+    "download_url": "https://raw.githubusercontent.com/njszym/AdaptiveXRD/main/scan_and_ID.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/scan_and_ID.py?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/933d8fd4a08be6baaae53eb16b6cd430fb562991",
+      "html": "https://github.com/njszym/AdaptiveXRD/blob/main/scan_and_ID.py"
+    }
+  },
+  {
+    "name": "setup.py",
+    "path": "setup.py",
+    "sha": "d37b63be19ed980536ebe198afc711c07bcbd94c",
+    "size": 636,
+    "url": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/setup.py?ref=main",
+    "html_url": "https://github.com/njszym/AdaptiveXRD/blob/main/setup.py",
+    "git_url": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/d37b63be19ed980536ebe198afc711c07bcbd94c",
+    "download_url": "https://raw.githubusercontent.com/njszym/AdaptiveXRD/main/setup.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/njszym/AdaptiveXRD/contents/setup.py?ref=main",
+      "git": "https://api.github.com/repos/njszym/AdaptiveXRD/git/blobs/d37b63be19ed980536ebe198afc711c07bcbd94c",
+      "html": "https://github.com/njszym/AdaptiveXRD/blob/main/setup.py"
+    }
+  }
+]

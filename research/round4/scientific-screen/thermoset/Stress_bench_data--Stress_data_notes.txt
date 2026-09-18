@@ -1,0 +1,36 @@
+
+Notes on the thin film curvature/stress measurements:
+
+Thin film measurements are performed by Polette Centellas and Gery Stafford 
+using a stress bench setup equipped with a multi-beam optical stress sensor 
+that monitors changes in the thin film curvature during thermal cycling 
+experiments. The thin film sample is cycled between 35 °C and 65 °C for at 
+least 10 heat-cool cycles. The curvature resolution is typically 
+2 × 10E-4 1/m, or 5 km radius of curvature. The film stress is calculated 
+from the thin film curvature according to Stoney’s formula for an arbitrary 
+thickness and modulus ratio between the film and substrate. 
+
+Similar film curvature measurements are performed by Karl F. Schoch, Jr. In 
+these experiments, the curvature is measured during the curing process (60 min 
+at 100 °C followed by 60 min at 165 °C). Once the curing schedule is completed, 
+the film is cooled back to room temperature and then cycled to 150 °C for three 
+heat-cool cycles. The film is left for 1 month at ambient conditions, and then 
+heat-cooled for two cycles between 25 °C and 200 °C.  
+
+Water vapor sorption-desorption experiments are performed by Huong Giang Nguyen 
+using a VTI-SA+ automated vapor sorption analyzer (TA Instruments, USA) at 
+ambient pressure and with nitrogen (99.999 % purity) as the carrier gas. The 
+desired percent relative humidity (% RH) is obtained by continuously mixing a 
+dry nitrogen flow with a humid nitrogen flow. The instrument has a ± 0.1 μg 
+mass resolution and a ± 1 % RH control standard uncertainty based on 
+manufacturer specifications. A small sample is first conditioned for 6 h at
+65 °C under pure nitrogen flow (0 % RH). For sorption experiments, the 
+sample environment is then set to 60 % RH for approximately 10 h at an 
+isothermal temperature (25 °C and 50 °C). Then, the sample environment is set 
+to 2 % RH for approximately 6 h at the same isothermal temperature to 
+investigate the desorption behavior. Mass changes during the experiments 
+are calculated relative to the dry mass measured at the end of the conditioning
+stage.  
+
+Complete test methods and raw data are available upon reasonable request.
+

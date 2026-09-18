@@ -1,0 +1,21 @@
+
+Notes on the rheology measurements:
+
+All measurements are performed by Stian Romberg using a TA Instruments ARES-G2
+equipped with a parallel plate fixture using optimally windowed chirps (OWCh)
+method. The instrument has a minimum resolvable torque of ± 0.05 μN.m and 
+angle of ± 0.04 μrad.
+
+We identify the critical strain below which the viscoelastic moduli are strain-
+independent, i.e., the linear viscoelastic region, by conducting amplitude sweep 
+experiments where strain amplitude, g, is varied from 10^-1 % strain to 10^2 % strain 
+at isothermal  temperatures. The critical strain is temperature-dependent, with the 
+lowest value (g about 0.3 % strain) occurring at the maximum temperature tested of 
+100 °C. Therefore, we maintain the strain amplitude well below this critical value 
+in consecutive experiments to measure the linear viscoelastic moduli. 
+
+The uncertainty of each measurement is at most ± 7 %, except between 70 °C and 80 °C 
+where G" reaches a minimum and uncertainty is at most ± 20 %. 
+
+Complete test methods and raw data are available upon reasonable request.
+

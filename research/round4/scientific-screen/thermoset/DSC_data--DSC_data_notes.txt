@@ -1,0 +1,14 @@
+
+Notes on the differential scanning calorimetry (DSC) measurements:
+
+All measurements are performed by Ran Tao using a TA Instruments Discovery 
+DSC 2500 equipped with a refrigerated cooling system under nitrogen. About 
+10 mg to 15 mg of uncured encapsulant samples are sealed in 40 µL hermetic 
+pans for measurement.
+
+The standard uncertainties for temperature and heat flow are approximately 
+± 1 % and ± 3 %, respectively.
+
+Model-based kinetics analysis and simulation are performed using NETZSCH 
+Kinetics Neo software. 
+

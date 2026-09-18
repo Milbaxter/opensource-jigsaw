@@ -1,0 +1,310 @@
+[
+  {
+    "full_name": "NatLabRockies/pyvisco",
+    "html_url": "https://github.com/NatLabRockies/pyvisco",
+    "description": "Pyvisco is a Python library that supports the identification of Prony series parameters for Generalized Maxwell models describing linear viscoelastic materials.",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-06-29T19:40:44Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 21
+  },
+  {
+    "requested": "PPMC-DTU/pykinetics",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "requested": "Islam-Alam/pykinetics",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "FEniCS/dolfinx",
+    "html_url": "https://github.com/FEniCS/dolfinx",
+    "description": "Next generation FEniCS problem solving environment for solving finite element problems",
+    "license": {
+      "key": "lgpl-3.0",
+      "name": "GNU Lesser General Public License v3.0",
+      "spdx_id": "LGPL-3.0",
+      "url": "https://api.github.com/licenses/lgpl-3.0",
+      "node_id": "MDc6TGljZW5zZTEy"
+    },
+    "pushed_at": "2026-09-18T08:04:48Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 1203
+  },
+  {
+    "full_name": "sfepy/sfepy",
+    "html_url": "https://github.com/sfepy/sfepy",
+    "description": "Main SfePy repository",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-11T10:58:10Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 837
+  },
+  {
+    "requested": "GonzalezLab/pykinetics",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "requested": "CPCL/curekinetics",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "requested": "ladisk/pyyeti",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "claudioperez/sdof",
+    "html_url": "https://github.com/claudioperez/sdof",
+    "description": "Parallel integration of single degree-of-freedom dynamic systems.",
+    "license": {
+      "key": "bsd-2-clause",
+      "name": "BSD 2-Clause \"Simplified\" License",
+      "spdx_id": "BSD-2-Clause",
+      "url": "https://api.github.com/licenses/bsd-2-clause",
+      "node_id": "MDc6TGljZW5zZTQ="
+    },
+    "pushed_at": "2025-03-21T05:36:57Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 4
+  },
+  {
+    "full_name": "boschresearch/pylife",
+    "html_url": "https://github.com/boschresearch/pylife",
+    "description": "a general library for fatigue and reliability",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-05-27T12:29:21Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 196
+  },
+  {
+    "full_name": "h2020charisma/ramanchada2",
+    "html_url": "https://github.com/h2020charisma/ramanchada2",
+    "description": "A library for Raman spectroscopy harmonization",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2026-09-17T05:09:21Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 11
+  },
+  {
+    "full_name": "matchms/matchms",
+    "html_url": "https://github.com/matchms/matchms",
+    "description": "Python library for processing (tandem) mass spectrometry data and for computing spectral similarities.",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    },
+    "pushed_at": "2026-09-17T15:05:37Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 269
+  },
+  {
+    "requested": "PaulScherrerInstitut/pyFAI",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "AdvancedPhotonSource/GSAS-II",
+    "html_url": "https://github.com/AdvancedPhotonSource/GSAS-II",
+    "description": "Home for GSAS-II: crystallographic and diffraction-based structural characterization of materials",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-17T19:31:48Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 120
+  },
+  {
+    "full_name": "diffpy/diffpy.srfit",
+    "html_url": "https://github.com/diffpy/diffpy.srfit",
+    "description": "framework for complex modeling and atomic structure optimization",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "pushed_at": "2026-09-16T20:39:14Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 6
+  },
+  {
+    "full_name": "dkriegner/xrayutilities",
+    "html_url": "https://github.com/dkriegner/xrayutilities",
+    "description": "xrayutilities - a package with useful scripts for X-ray diffraction physicists",
+    "license": {
+      "key": "gpl-2.0",
+      "name": "GNU General Public License v2.0",
+      "spdx_id": "GPL-2.0",
+      "url": "https://api.github.com/licenses/gpl-2.0",
+      "node_id": "MDc6TGljZW5zZTg="
+    },
+    "pushed_at": "2026-08-13T21:49:56Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 100
+  },
+  {
+    "requested": "jochemvanschaik/pyOpenMS",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "csdms/pymt",
+    "html_url": "https://github.com/csdms/pymt",
+    "description": "A Python toolkit for running and coupling Earth surface models",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "pushed_at": "2024-10-22T17:32:15Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 57
+  },
+  {
+    "full_name": "LyoHUB/LyoPRONTO",
+    "html_url": "https://github.com/LyoHUB/LyoPRONTO",
+    "description": "Open-Source Lyophilization Process Optimization Tool",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "pushed_at": "2026-08-11T16:38:48Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 13
+  },
+  {
+    "requested": "nmrglue/nmrglue",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "rdkit/rdkit",
+    "html_url": "https://github.com/rdkit/rdkit",
+    "description": "The official sources for the RDKit library",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-15T07:59:34Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 3590
+  },
+  {
+    "requested": "BioXTAS/RAW",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "full_name": "astra-toolbox/astra-toolbox",
+    "html_url": "https://github.com/astra-toolbox/astra-toolbox",
+    "description": "ASTRA Tomography Toolbox",
+    "license": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "pushed_at": "2026-08-10T08:48:51Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 624
+  },
+  {
+    "full_name": "CERN/TIGRE",
+    "html_url": "https://github.com/CERN/TIGRE",
+    "description": "TIGRE: Tomographic Iterative GPU-based Reconstruction Toolbox",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-07T14:34:12Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 803
+  },
+  {
+    "full_name": "pybamm-team/PyBaMM",
+    "html_url": "https://github.com/pybamm-team/PyBaMM",
+    "description": "Fast and flexible physics-based battery models in Python",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2026-09-18T07:50:54Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 1663
+  },
+  {
+    "full_name": "lawrennd/GPy",
+    "html_url": "https://github.com/lawrennd/GPy",
+    "description": "Gaussian processes framework in python ",
+    "license": {
+      "key": "bsd-3-clause",
+      "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "spdx_id": "BSD-3-Clause",
+      "url": "https://api.github.com/licenses/bsd-3-clause",
+      "node_id": "MDc6TGljZW5zZTU="
+    },
+    "pushed_at": "2025-08-15T18:51:32Z",
+    "archived": false,
+    "private": false,
+    "stargazers_count": 2
+  }
+]
