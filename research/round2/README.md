@@ -4,6 +4,8 @@ The first research round and separate CLI validation produced eight rejected hyp
 
 The [prospectively frozen v2 rubric](../../docs/rubric-v2.md) evaluates whether a bounded validation experiment is justified. It uses an 80/100 threshold, dimension floors, and hard evidence, comparative benchmark, licensing, access, and experiment-budget gates. It does not establish profitability. Historical v1 results remain unchanged.
 
+The three published broad metadata captures contain **2,246 distinct repository names** after case-insensitive deduplication; see [counts and source paths](broad-crawl-counts.json). This is discovery metadata, not 2,246 deep audits.
+
 Two Astra research tracks are exploring additional components and recording rejected combinations:
 
 - Document, geospatial, preservation, and public-data workflows.

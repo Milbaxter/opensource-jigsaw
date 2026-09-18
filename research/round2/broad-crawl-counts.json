@@ -1,0 +1,21 @@
+{
+  "scope": "Three broad metadata captures only; excludes targeted inspections and live CLI smoke. Not deep audits. Repository names normalized case-insensitively.",
+  "unique_repositories": 2246,
+  "captures": [
+    {
+      "path": "research/initial/catalogue.json",
+      "unique_in_capture": 1320,
+      "additional_to_preceding_captures": 1320
+    },
+    {
+      "path": "research/round2/developer-workflows/capture/catalogue.json",
+      "unique_in_capture": 569,
+      "additional_to_preceding_captures": 523
+    },
+    {
+      "path": "research/round2/geospatial-preservation/repos_metadata.json",
+      "unique_in_capture": 444,
+      "additional_to_preceding_captures": 403
+    }
+  ]
+}
